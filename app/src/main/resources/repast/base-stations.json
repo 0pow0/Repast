@@ -1,0 +1,24 @@
+{
+  "base stations": [
+    {
+      "id": 1,
+      "lat": 47.980315,
+      "lng": -102.939365,
+      "txPower": 30.0,
+      "bandwidth": 25,
+      "subBandwidth": 25,
+      "subBandOffset": 0,
+      "numberOfAttachedUe": 0
+    },
+    {
+      "id": 2,
+      "lat": 48.038580,
+      "lng": -102.972714,
+      "txPower": 30.0,
+      "bandwidth": 25,
+      "subBandwidth": 25,
+      "subBandOffset": 0,
+      "numberOfAttachedUe": 0
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+"Connection Config": [
+    {
+     "Connection" : [
+        {
+          "start" : "Syracuse University",
+          "destination" : "Walmart Erie"
+        }
+      ]
+    },
+    {
+     "Connection" : [
+        {
+          "start" : "Walmart Erie",
+          "destination" : "Walmart Fairmount"
+        }
+      ]
+    },
+    {
+     "Connection" : [
+        {
+         "start" : "Nobhill Apartment",
+         "destination" : "Walmart Erie"
+        }
+      ]
+    },
+    {
+     "Connection" : [
+        {
+         "start" : "Walmart Fairmount",
+         "destination" : "Syracuse University",
+        }
+      ]
+    },
+    {
+     "Connection" : [
+        {
+         "start" : "Nobhill Apartment",
+         "destination" : "Syracuse University"
+        }
+      ]
+    },
+    {
+     "Connection" : [
+        {
+         "start" : "Nobhill Apartment",
+         "destination" : "Wegmans Fayetteville"
+        }
+      ]
+    },
+    {
+     "Connection" : [
+        {
+         "start" : "Nobhill Apartment",
+         "destination" : "Wegmans Onondaga"
+        }
+      ]
+    },
+    {
+     "Connection" : [
+        {
+         "start" : "Syracuse University",
+         "destination" : "Wegmans Fayetteville"
+        }
+      ]
+    },
+    {
+     "Connection" : [
+        {
+         "start" : "Syracuse University",
+         "destination" : "Wegmans Onondaga"
+        }
+      ]
+    },
+    {
+     "Connection" : [
+        {
+         "start" : "Wegmans Fayetteville",
+         "destination" : "Nobhill Apartment"
+        }
+      ]
+    },
+    {
+     "Connection" : [
+        {
+         "start" : "Wegmans Onondaga",
+         "destination" : "Nobhill Apartment"
+        }
+      ]
+    },
+    {
+     "Connection" : [
+        {
+         "start" : "Wegmans Fayetteville",
+         "destination" : "Syracuse University"
+        }
+      ]
+    },
+    {
+     "Connection" : [
+        {
+         "start" : "Wegmans Onondaga",
+         "destination" : "Syracuse University"
+        }
+      ]
+    },
+    {
+     "Connection" : [
+        {
+         "start" : "Syracuse University",
+         "destination" : "Walmart Fairmount"
+        }
+      ]
+    }
+  ]
+}

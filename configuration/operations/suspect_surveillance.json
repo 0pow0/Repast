@@ -1,0 +1,17 @@
+{
+"Operation": [
+    {
+     "suspect surveillance" : [
+        {
+          "mission" : "surveillance",
+          "type" : "min follow",
+          "start time" : 10.0,
+          "start point" : "Seattle",
+          "destination point" : "Syracuse",
+          "min altitude" : 40.0,
+          "max altitude" : 50.0
+        }
+      ]
+    }
+  ]
+}

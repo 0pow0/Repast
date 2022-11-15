@@ -1,0 +1,19 @@
+{
+"Operation": [
+    {
+     "food delivery fayetteville wegmans" : [
+        {
+          "mission" : "delivery",
+          "type" : "return connection",
+          "start time" : 40.0,
+          "late time" : 100.0,
+          "start point" : "Wegmans Fayetteville",
+          "connection point" : "Syracuse University",
+          "destination point" : "Nobhill Apartment",
+          "min altitude" : 40.0,
+          "max altitude" : 50.0
+        }
+      ]
+    }
+  ]
+}

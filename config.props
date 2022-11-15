@@ -1,0 +1,6 @@
+model.archive = /home/rzuo02/work/repast/output
+batch.params.file = scenario.rs/batch_params.xml
+poll.frequency = 60.0
+model.output = /home/cluo05/eclipse-workspace/Combination/jzombies/output
+vm.arguments = -Xmx512M
+local.0.instances = 2

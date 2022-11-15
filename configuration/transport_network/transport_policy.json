@@ -1,0 +1,35 @@
+[
+ {
+   "type" : "Policy",
+   "name" : "Random_1",
+   "geometry" : {
+    "type" : "Point",
+    "coordinates" : [
+     -123.2288,
+     48.7578
+    ]
+   },
+  },
+  {
+   "type" : "Policy",
+   "name" : "Random_2",
+   "geometry" : {
+    "type" : "Point",
+    "coordinates" : [
+     -123.2271,
+     48.7471
+    ]
+   },
+  },
+  {
+   "type" : "Policy",
+   "name" : "Random_3",
+   "geometry" : {
+    "type" : "Point",
+    "coordinates" : [
+     -123.266,
+     48.7563
+    ]
+   },
+  }
+]

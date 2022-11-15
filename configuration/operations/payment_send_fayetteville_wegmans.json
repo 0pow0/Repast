@@ -1,0 +1,19 @@
+{
+"Operation": [
+    {
+     "payment send fayetteville wegmans" : [
+        {
+          "mission" : "delivery",
+          "type" : "stay direct",
+          "start time" : 55.0,
+          "late time" : 100.0,
+          "start point" : "Syracuse University",
+          "connection point" : "",
+          "destination point" : "Wegmans Fayetteville",
+          "min altitude" : 40.0,
+          "max altitude" : 50.0
+        }
+      ]
+    }
+  ]
+}

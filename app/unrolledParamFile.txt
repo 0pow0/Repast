@@ -1,0 +1,1 @@
+1	ChannelsCount	8,socket_port	62700,MAV_trajectory	change,MAVsGenerationRate	10,if_load_mav	no,NumberOfRunTime	1,if_straight	Manhattan,simulation_time	500,if_routing	yes,UAVsGenerationRate	1

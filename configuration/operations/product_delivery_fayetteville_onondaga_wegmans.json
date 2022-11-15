@@ -1,0 +1,19 @@
+{
+"Operation": [
+    {
+     "product delivery fayetteville onondaga wegmans" : [
+        {
+          "mission" : "delivery",
+          "type" : "return direct",
+          "start time" : 40.0,
+          "late time" : 100.0,
+          "start point" : "Wegmans Fayetteville",
+          "connection point" : "",
+          "destination point" : "Wegmans Onondaga",
+          "min altitude" : 40.0,
+          "max altitude" : 50.0
+        }
+      ]
+    }
+  ]
+}

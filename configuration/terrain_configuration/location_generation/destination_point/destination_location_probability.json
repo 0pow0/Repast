@@ -1,0 +1,31 @@
+{
+"Destination Location Config" : [
+    {
+      "Location" : [
+        {
+          "name" : "destination area 1",
+          "probability" : 1.0,
+          "geometry" :[
+            {
+              "type" : "Point",
+              "top_left" : [
+                {
+                  "x" : -102.90065,
+                  "y" : 48.02022,
+                  "name" : ""
+                }
+              ],
+              "bottom_right" : [
+                {
+                  "x" : -102.87937,
+                  "y" : 48.01092,
+                  "name" : ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

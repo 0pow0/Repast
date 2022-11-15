@@ -1,0 +1,19 @@
+{
+"Operation": [
+    {
+     "book delivery fairmount walmart" : [
+        {
+          "mission" : "delivery",
+          "type" : "return connection",
+          "start time" : 15.0,
+          "late time" : 30.0,
+          "start point" : "Walmart Fairmount",
+          "connection point" : "Nobhill Apartment",
+          "destination point" : "Syracuse University",
+          "min altitude" : 40.0,
+          "max altitude" : 50.0
+        }
+      ]
+    }
+  ]
+}

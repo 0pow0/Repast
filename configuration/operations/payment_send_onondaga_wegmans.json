@@ -1,0 +1,19 @@
+{
+"Operation": [
+    {
+     "payment send onondaga wegmans" : [
+        {
+          "mission" : "delivery",
+          "type" : "stay direct",
+          "start time" : 45.0,
+          "late time" : 90.0,
+          "start point" : "Syracuse University",
+          "connection point" : "",
+          "destination point" : "Wegmans Onondaga",
+          "min altitude" : 40.0,
+          "max altitude" : 50.0
+        }
+      ]
+    }
+  ]
+}

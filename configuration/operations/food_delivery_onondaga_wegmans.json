@@ -1,0 +1,19 @@
+{
+"Operation": [
+    {
+     "food delivery onondaga wegmans" : [
+        {
+          "mission" : "delivery",
+          "type" : "return connection",
+          "start time" : 30.0,
+          "late time" : 30.0,
+          "start point" : "Wegmans Onondaga",
+          "connection point" : "Nobhill Apartment",
+          "destination point" : "Syracuse University",
+          "min altitude" : 40.0,
+          "max altitude" : 50.0
+        }
+      ]
+    }
+  ]
+}

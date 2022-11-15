@@ -1,0 +1,113 @@
+{
+"Transportation Config" : [
+    {
+      "Location" : [
+        {
+          "name" : "Syracuse University",
+          "geometry" :[
+            {
+              "type" : "Point",
+              "coordinates" : [
+                {
+                  "x" : -76.1373098,
+                  "y" : 43.0391534
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Location" : [
+        {
+          "name" : "Walmart Erie",
+          "geometry" :[
+            {
+              "type" : "Point",
+              "coordinates" : [
+                {
+                  "x" : -76.0622964,
+                  "y" : 43.060867
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Location" : [
+        {
+          "name" : "Nobhill Apartment",
+          "geometry" :[
+            {
+              "type" : "Point",
+              "coordinates" : [
+                {
+                  "x" : -76.1310189,
+                  "y" : 42.9978746
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Location" : [
+        {
+          "name" : "Wegmans Fayetteville",
+          "geometry" :[
+            {
+              "type" : "Point",
+              "coordinates" : [
+                {
+                  "x" : -76.0531355,
+                  "y" : 43.0331278
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Location" : [
+        {
+          "name" : "Wegmans Onondaga",
+          "geometry" :[
+            {
+              "type" : "Point",
+              "coordinates" : [
+                {
+                  "x" : -76.1881507,
+                  "y" : 43.0301413
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Location" : [
+        {
+          "name" : "Walmart Fairmount",
+          "geometry" :
+          [
+            {
+              "type" : "Point",
+              "coordinates" : [
+                {
+                  "x" : -76.2744821,
+                  "y" : 43.0379259
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

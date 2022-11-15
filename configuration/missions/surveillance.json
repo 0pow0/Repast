@@ -1,0 +1,24 @@
+{
+"Mission": [
+    {
+     "surveillance" : [
+        {
+          "type" : "min stay",
+          "route" : "round",
+          "radius" : 1.0,
+          "duration" : 30.0
+        }
+      ]
+    },
+    {
+     "surveillance" : [
+        {
+          "type" : "max stay",
+          "route" : "round",
+          "radius" : 5.0,
+          "duration" : 30.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+"Mission": [
+    {
+     "delivery" : [
+        {
+          "type" : "return direct",
+          "route" : "direct",
+          "return" : true,
+          "duration" : 0.0
+        }
+      ]
+    },
+    {
+     "delivery" : [
+        {
+          "type" : "stay direct",
+          "route" : "direct",
+          "return" : false,
+          "duration" : 0.0
+        }
+      ]
+    },
+    {
+     "delivery" : [
+        {
+          "type" : "return connection",
+          "route" : "connection",
+          "return" : true,
+          "duration" : 10.0
+        }
+      ]
+    },
+    {
+     "delivery" : [
+        {
+          "type" : "stay connection",
+          "route" : "connection",
+          "return" : false,
+          "duration" : 10.0
+        }
+      ]
+    }
+  ]
+}

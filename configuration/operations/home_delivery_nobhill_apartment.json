@@ -1,0 +1,19 @@
+{
+"Operation": [
+    {
+     "home delivery nobhill apartment" : [
+        {
+          "mission" : "delivery",
+          "type" : "return direct",
+          "start time" : 90.0,
+          "late time" : 200.0,
+          "start point" : "Syracuse University",
+          "connection point" : "",
+          "destination point" : "Nobhill Apartment",
+          "min altitude" : 40.0,
+          "max altitude" : 50.0
+        }
+      ]
+    }
+  ]
+}

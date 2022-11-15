@@ -1,0 +1,17 @@
+Asset,Cell Tower Assignment (#),Provider,eNB ID #,Location,Latitude,Longitude
+Cell Tower,1,Verizon,193735,"Keene, ND",47.980315,-102.939365
+Cell Tower,2,Verizon,193816,"Keene, ND",47.90916,-103.199096
+Cell Tower,3,Verizon,193866,"Keene, ND",48.03858,-102.972714
+Cell Tower,4,Verizon,193589,"Keene, ND",48.081737,-102.863662
+Cell Tower,5,Verizon,193823,"Keene, ND",47.976792,-102.801057
+Cell Tower,6,Verizon,193527,"Keene, ND",47.80185844,-102.7192251
+Cell Tower,7,Verizon,193715,"Keene, ND",47.8022822,-102.9394701
+Cell Tower,8,Verizon,193832,"Watford City, ND",47.79523781,-103.2184526
+Cell Tower,9,Verizon,193835,"Watford City, ND",47.80421168,-103.2465291
+Cell Tower,10,Verizon,193894,"Watford City, ND",47.79904472,-103.2629164
+Cell Tower,11,Verizon,193738,"Watford City, ND",47.79756032,-103.2910752
+Cell Tower,12,Verizon,193833,"Watford City, ND",47.7855933,-103.2832414
+Cell Tower,13,Verizon,193892,"Watford City, ND",47.78992325,-103.3024982
+Cell Tower,14,AT&T,392862,"Watford City, ND",47.79668312,-102.9402999
+Cell Tower,15,AT&T,392836,"Watford City, ND",47.80439498,-103.291435
+Cell Tower,16,AT&T,392657,"Watford City, ND",47.771958,-103.3676125

@@ -1,0 +1,31 @@
+{
+"Start Location Config" : [
+    {
+      "Location" : [
+        {
+          "name" : "launch area 1",
+          "probability" : 0.2,
+          "geometry" :[
+            {
+              "type" : "Point",
+              "top_left" : [
+                {
+                  "x" : -103.02014,
+                  "y" : 48.01877,
+                  "name" : ""
+                }
+              ],
+              "bottom_right" : [
+                {
+                  "x" : -103.00605,
+                  "y" : 48.00989,
+                  "name" : ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
