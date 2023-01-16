@@ -24,40 +24,31 @@ import ROCBuilder.Message;
  * defined in ROC package with the help of google flatbuffers.
  */
 public class NS3Communicator {
-  private String addr = "127.0.0.1";
-  private int port = 62700;
   private Socket socket;
   private OutputStream os; // Output stream to write to socket
   private InputStream is; // Input stream to read from socket
   private Sender sender;
   private Receiver receiver;
+  private static NS3Communicator communicator = null;
+  public static String addr = "127.0.0.1";
+  public static int port = 62700;
 
-  public String getAddr() {
-    return addr;
+  public static NS3Communicator getInstance() {
+    if (communicator == null) {
+      communicator = new NS3Communicator();
+      try {
+        communicator.connect();
+      } catch (Exception e) {
+        throw new RuntimeException(e);
+      }
+    }
+    return communicator;
   }
 
-  public NS3Communicator setAddr(String addr) {
-    this.addr = addr;
-    return this;
-  }
-
-  public int getPort() {
-    return port;
-  }
-
-  public NS3Communicator setPort(int port) {
-    this.port = port;
-    return this;
-  }
-
-  public NS3Communicator() {
+  private NS3Communicator() {
   }  
 
-  public NS3Communicator(int port) {
-    this.port = port;
-  }
-
-  public NS3Communicator connect() throws UnknownHostException, IOException {
+  private NS3Communicator connect() throws UnknownHostException, IOException {
     if (socket != null) return this;
     socket = new Socket(addr, port);
     os = new DataOutputStream(socket.getOutputStream()); 

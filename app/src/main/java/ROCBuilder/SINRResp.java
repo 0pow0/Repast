@@ -14,26 +14,6 @@ public class SINRResp {
   private String cqi;
   private String enbId;
 
-  public String getUavId() {
-    return uavId;
-  }
-
-  public String getSinr() {
-    return sinr;
-  }
-
-  public String getDistance() {
-    return distance;
-  }
-
-  public String getCqi() {
-    return cqi;
-  }
-
-  public String getEnb_id() {
-    return enbId;
-  }
-
   public SINRResp() {
   }
 
@@ -62,5 +42,25 @@ public class SINRResp {
     ROC.SINRResp.addEnbId(builder, sEnbId);
     int sinrResp = ROC.SINRResp.endSINRResp(builder);
     return sinrResp;
+  }
+
+  public String getUavId() {
+    return uavId;
+  }
+
+  public String getSinr() {
+    return sinr;
+  }
+
+  public String getDistance() {
+    return distance;
+  }
+
+  public String getCqi() {
+    return cqi;
+  }
+
+  public String getEnbId() {
+    return enbId;
   }
 }

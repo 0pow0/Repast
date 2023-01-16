@@ -24,8 +24,22 @@ import com.google.gson.JsonSyntaxException;
  */
 public class BaseStationContainer implements Iterable<BaseStation> {
   private ArrayList<BaseStation> baseStations;
+  private static BaseStationContainer container = null;
+  public static String configFilePath = "/home/rzuo02/work/repast/app/src/main"
+    +"/resources/repast/base-stations.json";
 
-  public BaseStationContainer(String filePath) throws JsonIOException, JsonSyntaxException, FileNotFoundException {
+  public static BaseStationContainer getInstance() {
+    if (container == null) {
+      try {
+        container = new BaseStationContainer(configFilePath);
+      } catch (Exception e) {
+        throw new RuntimeException(e);
+      }
+    }
+    return container;
+  }
+
+  private BaseStationContainer(String filePath) throws JsonIOException, JsonSyntaxException, FileNotFoundException {
     baseStations = new ArrayList<BaseStation>();
     JsonArray arr = JsonParser.parseReader(new FileReader(filePath)).
         getAsJsonObject().

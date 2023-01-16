@@ -1,6 +1,3 @@
-/**
- * 
- */
 package jzombies;
 
 import java.awt.Component;
@@ -33,6 +30,7 @@ import com.vividsolutions.jts.geom.Point;
 
 import ROC.MessageType;
 import ROCBuilder.Message;
+import ROCBuilder.UserEquipmentReq;
 import ROCBuilder.CreationReq;
 import repast.simphony.context.Context;
 import repast.simphony.engine.schedule.ScheduleParameters;
@@ -77,8 +75,7 @@ public class UAVmanagement {
 			Map<String, terrain_node> terrain_start_location, Map<String, terrain_node> terrain_end_location,
 			int current_batch, int uav_generation_rate, boolean if_straight, boolean if_routing, int simulation_time,
 			int c_seed, long num_ch,
-			BaseStationController baseStationController,
-			NS3CommunicatiorHelper ns3CommunicatiorHelper) {
+			BaseStationController baseStationController) {
 		this.geography = geography;
 		this.fac = fac;
 		this.uavs_list = uavs_list;
@@ -92,12 +89,12 @@ public class UAVmanagement {
 		this.if_routing = if_routing;
 		this.num_ch = num_ch;
 		this.baseStationController = baseStationController;
-		this.ns3CommunicatiorHelper = ns3CommunicatiorHelper;
+		this.ns3CommunicatiorHelper = new NS3CommunicatiorHelper();
 		// my_Deconfliction = new Deconfliction(geography, 1, -76.2597052, 43.0802922, -76.0186519, 42.9749775,
 				// simulation_time);
 				 
 		my_Deconfliction = new Deconfliction(geography, 1, -103.03918, 48.03193, -102.85917, 48.00326,
-				simulation_time, baseStationController, ns3CommunicatiorHelper);
+				simulation_time, baseStationController);
 		// Montana state, Liberty, Hill, Blaine, Philips and Chouteau county
 		// my_Deconfliction = new Deconfliction(geography, 1, -111.266107, 48.994677,
 		// -109.805044, 48.027456, simulation_time);
@@ -291,6 +288,14 @@ public class UAVmanagement {
 					System.out.println("Success");
 					Context<Object> context = ContextUtils.getContext(this);
 					context.add(temp_uav);
+					/*
+		 			 * Routing Option 
+					 * Routing with SINR
+					UserEquipmentController userEquipmentController
+						= (UserEquipmentController) context
+							.getObjects(UserEquipmentController.class).get(0);
+					userEquipmentController.getContainer().add(temp_uav.getUe());
+					 */
 					Coordinate coord_uav = new Coordinate(temp_uav.return_start_coordinate_pair().get(0),
 							temp_uav.return_start_coordinate_pair().get(1));
 					Point geom_uav = fac.createPoint(coord_uav);
@@ -301,8 +306,8 @@ public class UAVmanagement {
 					String connection_location = " ";
 					String destination_location = "(" + temp_uav.return_end_coordinate_pair().get(0) + ","
 							+ temp_uav.return_end_coordinate_pair().get(1) + ")";
-					// System.out.println("Probability Generation : " + start_location + "->" +
-					// connection_location + "->" + destination_location);
+					System.out.println("Probability Generation : " + start_location + "->" +
+					connection_location + "->" + destination_location);
 
 					this.id_index_map.put(temp_uav, "N/A");
 				} else {
@@ -436,21 +441,15 @@ public class UAVmanagement {
 						this.id_index_map.put(temp_uav, "N/A");
 
 						Coordinate coor = geography.getGeometry(temp_uav).getCoordinate();
-						NS3CommunicatiorHelper ns3CommunicatiorHelper
-							= (NS3CommunicatiorHelper) context
-								.getObjects(NS3CommunicatiorHelper.class).get(0);
 						ns3CommunicatiorHelper.sendCreationReq(
 							Integer.toString(temp_uav.return_Id()),
 							Double.toString(coor.y),
 							Double.toString(coor.x),
 							0);
-						
-						UserEquipment ue = new UserEquipment(temp_uav.return_Id());
 						UserEquipmentController userEquipmentController
-							= (UserEquipmentController) context.
-								getObjects(UserEquipmentController.class).get(0);
-						userEquipmentController.getContainer().add(ue);
-						temp_uav.setUe(ue);
+							= (UserEquipmentController) context
+								.getObjects(UserEquipmentController.class).get(0);
+						userEquipmentController.getContainer().add(temp_uav.getUe());
 					} else {
 						this.fail_count++;
 						System.out.println("Fail Count " + fail_count);

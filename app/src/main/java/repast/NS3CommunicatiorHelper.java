@@ -14,6 +14,8 @@ import ROCBuilder.BaseStationResp;
 import ROCBuilder.CreationReq;
 import ROCBuilder.DeletionReq;
 import ROCBuilder.Message;
+import ROCBuilder.SINRReq;
+import ROCBuilder.SINRResp;
 import ROCBuilder.UserEquipmentReq;
 import ROCBuilder.UserEquipmentResp;
 
@@ -23,8 +25,8 @@ import ROCBuilder.UserEquipmentResp;
 public class NS3CommunicatiorHelper {
   private NS3Communicator ns3Communicator;
 
-  public NS3CommunicatiorHelper(NS3Communicator communicator) {
-    this.ns3Communicator = communicator;
+  public NS3CommunicatiorHelper() {
+    this.ns3Communicator = NS3Communicator.getInstance();
   }
 
   private void send(Message message) {
@@ -55,6 +57,20 @@ public class NS3CommunicatiorHelper {
       System.out.println(e);
     }
     return message; 
+  }
+
+  public Message sendSINRReq(String uavID) {
+    FlatBufferBuilder builder = new FlatBufferBuilder(0);
+    SINRReq req = new SINRReq.Builder().uavId(uavID).build();
+    Message message = generateMessage(builder, MessageType.SINRReq,
+      req.serialize(builder));
+    send(message);
+    return message;
+  }
+
+  public SINRResp receiveSINRResp() {
+    Message message = receiveMessgae();
+    return new SINRResp().deserialize(message);
   }
 
   public Message sendUserEquipmentReq(String ueID) {

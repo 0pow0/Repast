@@ -17,6 +17,7 @@ import ai.djl.repository.zoo.ModelNotFoundException;
 import ai.djl.translate.TranslateException;
 import prediction.model.DropProbabilityPredictionModel;
 import prediction.model.SinrPredictionModel;
+import prediction.input.SinrPredictionModelInputWrap;
 import repast.BaseStation;
 import repast.BaseStationContainer;
 import repast.BaseStationController;
@@ -28,6 +29,7 @@ import java.io.*;
 import java.nio.FloatBuffer;
 import java.util.*;
 import java.util.Map.Entry;
+
 
 /**
  * @author ziyizhao
@@ -134,10 +136,9 @@ public class Deconfliction {
 	public Deconfliction(Geography<Object> geography,
 			int ConflictThreshold, double TopLeftY, double TopLeftX,
 			double BottomRightY, double BottomRightX, int simulation_time,
-			BaseStationController baseStationController,
-			NS3CommunicatiorHelper ns3CommunicatiorHelper) {
+			BaseStationController baseStationController) {
 		this.util = new Util();
-		this.ns3CommunicatiorHelper = ns3CommunicatiorHelper;
+		this.ns3CommunicatiorHelper = new NS3CommunicatiorHelper();
 		this.baseStationController = baseStationController;
 		this.geography = geography;
 		this.ConflictThreshold = ConflictThreshold;
@@ -216,11 +217,7 @@ public class Deconfliction {
 		double conn_y = curr_uav.return_connection_coordinate_pair().get(0).get(1);
 		double end_x = curr_uav.return_end_coordinate_pair().get(0);
 		double end_y = curr_uav.return_end_coordinate_pair().get(1);
-		System.out.println(
-			"start_x: " + start_x + "start_y" + start_y +
-			"conn_x: " + start_x + "conn_y" + start_y +
-			"end_x: " + start_x + "end_y" + start_y
-		);
+
 		double distance = distance2Coordinate(geography, start_x, start_y, end_x, end_y);
 		int original_time = (int) (distance / curr_uav.return_speed());
 
@@ -694,11 +691,18 @@ public class Deconfliction {
 		openSet.add(start_node);
 		ongoingSet.put(generateIndex(start_node.x, start_node.y), start_node);
 
+		/*
+		 * Routing Option 
+		 * Routing with SINR 
 		ns3CommunicatiorHelper.sendCreationReq(
 			Integer.toString(uavID),
 			Double.toString(startLngLat.get(1)),
 			Double.toString(startLngLat.get(0)), 0);
-		System.out.println(startLngLat);
+		baseStationController.update();
+		for (BaseStation bs : baseStationController.getContainer()) {
+			System.out.println(bs);
+		}
+		 */
 
 		while (openSet.size() > 0) {
 			// pull out from openSet
@@ -735,7 +739,9 @@ public class Deconfliction {
 				int newMovementCostToNeighbour = currNode.gCost + GetDistance(currNode, neighbour);
 				// and if it's lower than the neighbour's cost
 				if (newMovementCostToNeighbour < neighbour.gCost || !openSet.contains(neighbour)) {
-					// we calculate the new costs
+					/*
+		 			 * Routing Option 
+					 * Routing with SINR
 					List<Double> lngLat = util.convertToLngLat(neighbour);
 					double minLng = Math.min(lngLat.get(0), targetLngLat.get(0));
 					double maxLng = Math.max(lngLat.get(0), targetLngLat.get(0));
@@ -753,17 +759,21 @@ public class Deconfliction {
 						try{
 							sumSinrOfAllSamples += hCostCalculator.calcWeightedSINR(
 								wrap.x.array(), wrap.numberOfUeAttachedToInterferenceBS,
-								wrap.distanceToAttachedBS, 16);
+								wrap.distanceToAttachedBS, 15);
 						} catch (TranslateException e) {
 							System.out.println(e);
 						}
 					}
-					System.out.println("Sum SINR = " + sumSinrOfAllSamples);
 					double averageSINR = sumSinrOfAllSamples / 10.0;
-										
+					 */
+
+					// we calculate the new costs
 					neighbour.gCost = newMovementCostToNeighbour;
 					neighbour.hCost = Math.abs(neighbour.x - target_node.x) + Math.abs(neighbour.y - target_node.y);
-					neighbour.hCost = (int) hCostCalculator.calcHCost(neighbour.hCost, averageSINR);
+
+		 			//* Routing Option 
+					//* Routing with SINR
+					// neighbour.hCost = (int) hCostCalculator.calcHCost(neighbour.hCost, averageSINR);
 					neighbour.fCost = neighbour.gCost + neighbour.hCost;
 					// Assign the parent node
 					neighbour.parentNode = currNode;
@@ -784,6 +794,11 @@ public class Deconfliction {
 		} else {
 			System.out.println("Destination can't be reached from given source");
 		}
+
+		//* Routing Option 
+		//* Routing with SINR
+		// ns3CommunicatiorHelper.sendDeletionReq(Integer.toString(uavID));
+
 		return turn_point;
 	}
 
@@ -1089,37 +1104,54 @@ class HCostCalculator {
 		sinrModel = new SinrPredictionModel.Builder().numIntfBS(numInterferenceBS)
 			.build();
 		probModel = new DropProbabilityPredictionModel();
-		weight = 0.3;
-		sinrThreshold = 15.0;
+		weight = 0.7;
+		sinrThreshold = 20.0;
 	}
 
 	public double calcHCost(double hcost, double sinr) {
+		if (sinr >= sinrThreshold) return hcost;
 		double phi = (sinrThreshold - sinr) / sinrThreshold;
-		return hcost * (1.0 + weight * phi);
+		return hcost * (1.0 + phi);
 	}
 
-	private static double calcStaticSINR(double distance, int numberOfRB) {
+	private static double calcStaticSINR(double distance, int numberOfRB,
+		double txPower) {
 		double noise = -174.0 + 10.0 * Math.log10((double) (numberOfRB * 180000));
 		double pathLoss = Math.max(23.9, 1.8 * Math.log10(100));
 		pathLoss = Math.max(pathLoss, 20.0);
 		pathLoss = pathLoss * Math.log10(distance) + 20.0 * Math.log10(40.0 * Math.PI * (2110e6 / 1e9) / 3.0);
-		double rx = 30.0 - pathLoss - 9.0;
+		double rx = txPower - pathLoss - 9.0;
 		return rx - noise;
 	}
 
 	public double calcWeightedSINR(float[] sinrX, float probX, double distanceToAttachedBS,
 			int numberOfRB) throws TranslateException {
-		double staticSINR = calcStaticSINR(distanceToAttachedBS, numberOfRB);
+		// in dB
+		double staticSINR = calcStaticSINR(distanceToAttachedBS, numberOfRB, 40.0);
 
 		// Torch model is FLOAT32
 		double prob = (double) probModel.predict(probX);
-		double sinr = (double) sinrModel.predict(sinrX);
+		// SINR_1 = log10(Linear Drop) * 10
+		double sinrDropDb = (double) sinrModel.predict(sinrX);
+		// Linear Drop = SINR_max - SINR_min (Linear)
+		// = 10^(SINR_1 / 10.0)
+		double sinrDropLinear = Math.pow(10.0, (sinrDropDb / 10.0));
+		// Linear Static = 10^(static/10.0)
+		double staticSINRLinear = Math.pow(10.0, (staticSINR / 10.0));
+		double sinrLinear = staticSINRLinear - sinrDropLinear;
+		double sinrDb = 10 * Math.log10(sinrLinear);
+	
+		double weightedSINR = prob * sinrDb + (1.0 - prob) * staticSINR;
 
-		// System.out.println("[calcWeightedSINR]" + " x = " + Arrays.toString(sinrX)
-			// + " Prob = " + prob + " Sinr = " + sinr);
-		double weightedSINR = prob * sinr + (1.0 - prob) * staticSINR;
-
-		return weightedSINR;
+		System.out.println("[calcWeightedSINR]"
+			+ " Prob x = " + probX 
+			+ " Prob = " + prob
+			+ " x = " + Arrays.toString(sinrX)
+			+ " staticSINRLinear = " + staticSINRLinear 
+			+ " sinrDropLinear = " + sinrDropLinear 
+			+ " weighted SINR = " + weightedSINR
+			+ "Static SINR = " + staticSINR);
+		return staticSINR;
 	}
 
 	public DropProbabilityPredictionModel getProbModel() {
@@ -1132,16 +1164,5 @@ class HCostCalculator {
 
 	public double getWeight() {
 		return weight;
-	}
-}
-
-class SinrPredictionModelInputWrap {
-	public FloatBuffer x;
-	public float distanceToAttachedBS;
-	public int numberOfUeAttachedToInterferenceBS;
-	@Override
-	public String toString() {
-		return "SinrPredictionModelInputWrap [x=" + Arrays.toString(x.array()) + ", distanceToAttachedBS=" + distanceToAttachedBS
-				+ ", numberOfUeAttachedToInterferenceBS=" + numberOfUeAttachedToInterferenceBS + "]";
 	}
 }

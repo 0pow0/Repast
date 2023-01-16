@@ -5,6 +5,7 @@
 
 package repast;
 
+import ROCBuilder.SINRResp;
 import ROCBuilder.UserEquipmentResp;
 import repast.simphony.context.Context;
 import repast.simphony.engine.schedule.ScheduledMethod;
@@ -28,16 +29,17 @@ public class UserEquipmentController {
   
 	@ScheduledMethod(start = 1, interval = 1)
   public void update() {
-    Context<Object> context = ContextUtils.getContext(this);
-		NS3CommunicatiorHelper ns3CommunicatiorHelper
-			= (NS3CommunicatiorHelper) context
-				.getObjects(NS3CommunicatiorHelper.class).get(0);
+    NS3CommunicatiorHelper ns3CommunicatiorHelper
+      = new NS3CommunicatiorHelper();
     for (UserEquipment ue : container) {
-      ns3CommunicatiorHelper.sendUserEquipmentReq(
-        Integer.toString(ue.getUavId()));
-      UserEquipmentResp resp = ns3CommunicatiorHelper
-        .receiveUserEquipmentResp();
-      ue.setAttachedBaseStationID(Integer.parseInt(resp.getAttachedEnbID()));
+      System.out.println("Send SINR Req " + ue.getUavId());
+      ns3CommunicatiorHelper.sendSINRReq(Integer.toString(ue.getUavId()));
+      SINRResp resp = ns3CommunicatiorHelper.receiveSINRResp();
+      // ue.setSinr(Math.log10(Double.parseDouble(resp.getSinr())) * 10.0);
+      ue.setSinr(Double.parseDouble(resp.getSinr()));
+      ue.setCqi(Integer.parseInt(resp.getCqi()));
+      ue.setDistance(Double.parseDouble(resp.getDistance()));
+      ue.setAttachedBaseStationID(Integer.parseInt(resp.getEnbId()));
     }  
   }
 

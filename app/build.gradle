@@ -12,6 +12,9 @@ plugins {
 }
 
 repositories {
+    maven {
+        url "https://repo.osgeo.org/repository/release/"
+    }
     // Use Maven Central for resolving dependencies.
     mavenCentral()
 }
@@ -26,11 +29,11 @@ dependencies {
 
     implementation "ai.djl:api:0.18.0"
     // PyTorch
-    runtimeOnly "ai.djl.pytorch:pytorch-engine:0.18.0"
-    runtimeOnly "ai.djl.pytorch:pytorch-native-auto:1.9.1"
+    runtimeOnly "ai.djl.pytorch:pytorch-engine:0.20.0"
+    // runtimeOnly "ai.djl.pytorch:pytorch-native-auto:1.9.1"
 
     //CSVReader
-    // implementation "com.opencsv:opencsv:5.7.0"
+    implementation 'com.opencsv:opencsv:3.7'
     // Repast
     implementation "com.googlecode.json-simple:json-simple:1.1.1"
     implementation fileTree(dir: '/home/rzuo02/work/repast/libs', includes: ['*.jar'])
@@ -39,6 +42,8 @@ dependencies {
     runtimeOnly files('libs/repast.simphony.runtime.jar')
     runtimeOnly files('libs/saf.core.runtime.jar')
 
+    implementation 'org.locationtech.spatial4j:spatial4j:0.8'
+    implementation group: 'com.typesafe', name: 'config', version: '1.4.2'
 }
 
 application {

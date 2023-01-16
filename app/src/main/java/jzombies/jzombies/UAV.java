@@ -22,6 +22,12 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.nio.ByteBuffer;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.OpenOption;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.nio.file.StandardOpenOption;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.text.SimpleDateFormat;
@@ -37,11 +43,17 @@ import com.vividsolutions.jts.geom.Geometry;
 import com.vividsolutions.jts.geom.GeometryFactory;
 import com.vividsolutions.jts.geom.Point;
 
+import ROCBuilder.SINRResp;
+import ROCBuilder.UserEquipmentResp;
 import jzombies.Operator;
 import jzombies.Util;
 import jzombies.specific_mission_node;
+import prediction.input.InputFactory;
+import prediction.input.SinrPredictionModelInputWrap;
+import prediction.model.Model;
 
 import javax.measure.unit.SI;
+import util.Utils;
 
 class Operation {
 	private specific_mission_node my_specific_mission_node;
@@ -185,13 +197,15 @@ class Operation {
 }
 
 public class UAV {
+	public double distance;
+	public static final String logPath
+		= "/home/rzuo02/work/repast/report/uav.csv";
+	private static UAVLogger logger = new UAVLogger(logPath);
 	private UserEquipment ue;
 
 	private Geography<Object> geography;
 	private GeometryFactory fac;
 	// private boolean moved;
-
-	private int SINRReqCountdown; // send SINR req to ns3 every 10s
 
 	// UAV attributions
 	private double height;
@@ -320,6 +334,8 @@ public class UAV {
 		} else {
 			this.id = this.hashCode();
 		}
+		this.ue = new UserEquipment(this.id);
+		this.distance = 0.0;
 
 		// if (UAV.os == null) {
 		// System.out.println("OS Null!");
@@ -341,7 +357,6 @@ public class UAV {
 		 * }
 		 * }
 		 */
-		SINRReqCountdown = 10;
 	}
 
 	// Random Constructor
@@ -406,6 +421,9 @@ public class UAV {
 		} else {
 			this.id = this.hashCode();
 		}
+		this.ue = new UserEquipment(this.id);
+		this.distance = 0.0;
+
 		// if (UAV.os == null) {
 		// System.out.println("OS Null!");
 		// }
@@ -427,7 +445,6 @@ public class UAV {
 		 * }
 		 */
 		// this.current_table.register_uav(this.hashCode());
-		SINRReqCountdown = 10;
 	}
 
 	public UserEquipment getUe() {
@@ -699,6 +716,7 @@ public class UAV {
 			}
 
 			geography.moveByVector(this, this.speed, SI.METER, angle);
+			this.distance += this.speed;
 		} else {
 			double dx = pt.x - myPoint.getCoordinate().x;
 			double dy = myPoint.getCoordinate().y - myPoint.getCoordinate().y;
@@ -709,6 +727,7 @@ public class UAV {
 				angle = Math.atan2(dy, dx);
 			}
 			geography.moveByVector(this, this.speed, SI.METER, angle);
+			this.distance += this.speed;
 		}
 
 	}
@@ -2135,18 +2154,15 @@ public class UAV {
 						Context context = ContextUtils.getContext(this);
 						context.remove(this);
 						NS3CommunicatiorHelper ns3CommunicatiorHelper
-							= (NS3CommunicatiorHelper) context
-								.getObjects(NS3CommunicatiorHelper.class).get(0);
+							= new NS3CommunicatiorHelper();
 						ns3CommunicatiorHelper.sendDeletionReq(Integer.toString(this.id));
 						UserEquipmentController userEquipmentController
 							= (UserEquipmentController) context
 								.getObjects(UserEquipmentController.class).get(0);
 						userEquipmentController.getContainer().remove(ue);
-						this.ue = null;
 					} else {
 						communicate_with_base_station();
 						if (this.id == 999 && this.internal_time_step % 5 == 0) {
-							String delay = String.valueOf(this.internal_time_step) + "s";
 							List<Object> base_stations = new ArrayList<Object>();
 							for (Object obj : geography.getAllObjects()) {
 								if (obj instanceof Base_Station) {
@@ -2164,6 +2180,7 @@ public class UAV {
 						if (this.internal_time_step % 1 == 0) {
 							if (curr_uav.unmanned) {
 								save_location("1");
+								logger.save(this.toString());
 							}
 						}
 					}
@@ -2184,6 +2201,8 @@ public class UAV {
 						}
 						if (curr_uav.unmanned) {
 							save_location("-1");
+							logger.save(this.toString());
+						
 						}
 
 						clear_all_communication_link(curr_uav);
@@ -2192,14 +2211,12 @@ public class UAV {
 						Context context = ContextUtils.getContext(this);
 						context.remove(this);
 						NS3CommunicatiorHelper ns3CommunicatiorHelper
-							= (NS3CommunicatiorHelper) context
-								.getObjects(NS3CommunicatiorHelper.class).get(0);
+							= new NS3CommunicatiorHelper();
 						ns3CommunicatiorHelper.sendDeletionReq(Integer.toString(this.id));
 						UserEquipmentController userEquipmentController
 							= (UserEquipmentController) context
 								.getObjects(UserEquipmentController.class).get(0);
 						userEquipmentController.getContainer().remove(ue);
-						this.ue = null;
 					} else {
 						communicate_with_base_station();
 						if(this.id != 999) {
@@ -2207,10 +2224,8 @@ public class UAV {
 								moveTowards_by_coordinate_straight(target);
 							} else {
 								moveTowards_by_coordinate_Manhattan(target);
-								Context context = ContextUtils.getContext(this);
 								NS3CommunicatiorHelper ns3CommunicatiorHelper
-									= (NS3CommunicatiorHelper) context
-										.getObjects(NS3CommunicatiorHelper.class).get(0);
+									= new NS3CommunicatiorHelper();
 								Coordinate coor = geography.getGeometry(this).getCoordinate();
 								ns3CommunicatiorHelper.sendActionReq(
 									Integer.toString(this.id),
@@ -2219,6 +2234,7 @@ public class UAV {
 							}
 							if (this.internal_time_step % 1 == 0) {
 								save_location("1");
+								logger.save(this.toString());
 							}
 						}
 						if (this.id == 999 && this.internal_time_step % 5 == 0) {
@@ -2308,10 +2324,8 @@ public class UAV {
 									moveTowards_by_coordinate_straight(target);
 								} else {
 									moveTowards_by_coordinate_Manhattan(target);
-									Context context = ContextUtils.getContext(this);
 									NS3CommunicatiorHelper ns3CommunicatiorHelper
-										= (NS3CommunicatiorHelper) context
-											.getObjects(NS3CommunicatiorHelper.class).get(0);
+										= new NS3CommunicatiorHelper();
 									Coordinate coor = geography.getGeometry(this).getCoordinate();
 									ns3CommunicatiorHelper.sendActionReq(
 										Integer.toString(this.id),
@@ -2325,11 +2339,13 @@ public class UAV {
 							curr_uav.set_speed(18);
 							if (this.internal_time_step % 1 == 0) {
 								save_location("1");
+								logger.save(this.toString());
 							}
 						} else {
 							communicate_with_base_station();
 							if (this.internal_time_step % 1 == 0) {
 								save_location("1");
+								logger.save(this.toString());
 							}
 						}
 						this.TrajectoryState = -1;
@@ -2338,6 +2354,7 @@ public class UAV {
 							communicate_with_base_station();
 							if (this.internal_time_step % 1 == 0) {
 								save_location("1");
+								logger.save(this.toString());
 							}
 							curr_uav.return_connection_coordinate_pair().remove(0);
 						} else {
@@ -2349,8 +2366,7 @@ public class UAV {
 									moveTowards_by_coordinate_Manhattan(target);
 									Context context = ContextUtils.getContext(this);
 									NS3CommunicatiorHelper ns3CommunicatiorHelper
-										= (NS3CommunicatiorHelper) context
-											.getObjects(NS3CommunicatiorHelper.class).get(0);
+										= new NS3CommunicatiorHelper();
 									Coordinate coor = geography.getGeometry(this).getCoordinate();
 									ns3CommunicatiorHelper.sendActionReq(
 										Integer.toString(this.id),
@@ -2363,6 +2379,7 @@ public class UAV {
 							}
 							if (this.internal_time_step % 1 == 0) {
 								save_location("1");
+								logger.save(this.toString());
 							}
 						}
 						this.TrajectoryState = -1;
@@ -3276,4 +3293,72 @@ public class UAV {
 		return i * 1609.344;
 	}
 
+	@Override
+	public String toString() {
+		StringBuilder sb = new StringBuilder();
+		sb.append(Integer.toString(internal_time_step) + ",");
+		sb.append(Integer.toString(id) + ",");
+		Geometry myPoint = geography.getGeometry(this);
+		Double lng = BigDecimal.valueOf(myPoint.getCoordinate().x)
+			.setScale(7, RoundingMode.HALF_UP).doubleValue();
+		Double lat = BigDecimal.valueOf(myPoint.getCoordinate().y)
+			.setScale(7, RoundingMode.HALF_UP).doubleValue();
+		sb.append(Double.toString(lng) + ",");
+		sb.append(Double.toString(lat) + ",");
+		sb.append(Double.toString(Math.log10(ue.getSinr()) * 10.0) + ",");
+		sb.append(Integer.toString(ue.getCqi()) + ",");
+		sb.append(Double.toString(distance) + ",");
+		List<float[]> wrap = genInputWithCurrentLocation();
+		double sinr = -1.0;
+		try {
+			// sinr = Model.getInstance().calcWeightedSINR(wrap.x.array(),
+			// 	wrap.numberOfUeAttachedToInterferenceBS,
+			// 	wrap.distanceToAttachedBS, 15);
+			sinr = Model.getInstance().calcPreictedSinr(wrap.get(0), wrap.get(1));
+		} catch (Exception e) {
+			throw new RuntimeException(e);
+		}
+		sb.append(Double.toString(sinr) + ",");
+		sb.append(Double.toString(ue.getDistance()) + ",");
+		// sb.append(Double.toString(wrap.distanceToAttachedBS));
+		return sb.toString();
+	}
+
+	public List<float[]> genInputWithCurrentLocation() {
+		Geometry myPoint = geography.getGeometry(this);
+		Double lng = BigDecimal.valueOf(myPoint.getCoordinate().x)
+			.setScale(7, RoundingMode.HALF_UP).doubleValue();
+		Double lat = BigDecimal.valueOf(myPoint.getCoordinate().y)
+			.setScale(7, RoundingMode.HALF_UP).doubleValue();
+		ArrayList<Double> coor = new ArrayList<>();
+		coor.add(lng);
+		coor.add(lat);
+		List<float[]> xs = InputFactory.produceInput(ue, coor);
+		return xs;
+	}
+
 }
+
+class UAVLogger {
+	private Path path;
+	public static final String header = "Timestamp,ID,Lng,Lat,SINR,CQI,"
+		+ "Route Distance,Predict SINR,NS3 Distance to Attached BS,Repast Distance to Attached BS";
+
+	public UAVLogger(String path) {
+		this.path = Paths.get(path);
+		save(Arrays.asList(header));
+	}
+
+	private void save(List<String> lines, OpenOption... options) {
+		try {
+			Files.write(path, lines, StandardCharsets.UTF_8, options);
+		} catch (IOException e) {
+			throw new RuntimeException(e);
+		}
+	}
+
+	public void save(String line) {
+		save(Arrays.asList(line), StandardOpenOption.APPEND);
+	}
+}
+

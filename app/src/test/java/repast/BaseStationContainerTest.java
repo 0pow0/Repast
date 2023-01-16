@@ -17,9 +17,9 @@ import java.io.FileNotFoundException;
 public class BaseStationContainerTest {
   @Test
   public void appHasAGreeting() throws JsonIOException, JsonSyntaxException, FileNotFoundException {
-    BaseStationContainer classUnderTest = new BaseStationContainer(
-        "/home/rzuo02/work/repast/app/src/test" +
-            "/resources/base-stations.json");
+    BaseStationContainer.configFilePath
+      = "/home/rzuo02/work/repast/app/src/test/resources/base-stations.json";
+    BaseStationContainer classUnderTest = BaseStationContainer.getInstance();
     BaseStation bs = classUnderTest.get(0);
     assertEquals("test id", 1, bs.getId());
     assertEquals("test lat", -102.939365, bs.getLng(), 0.0001);
@@ -27,10 +27,10 @@ public class BaseStationContainerTest {
 
   @Test
   public void testIterator() throws JsonIOException, JsonSyntaxException, FileNotFoundException {
-    BaseStationContainer container = new BaseStationContainer(
-      "/home/rzuo02/work/repast/app/src/test/resources/" +
-      "base-stations.json");
-    for (BaseStation bs : container) {
+    BaseStationContainer.configFilePath
+      = "/home/rzuo02/work/repast/app/src/test/resources/base-stations.json";
+    BaseStationContainer classUnderTest = BaseStationContainer.getInstance();
+    for (BaseStation bs : classUnderTest) {
       assertEquals("test id", 1, bs.getId());
     }
   }

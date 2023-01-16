@@ -8,11 +8,13 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collection;
 import java.util.List;
 import java.util.Map;
 import java.util.Random;
 import java.util.Set;
+import java.util.concurrent.TimeUnit;
 import java.util.stream.Stream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -56,6 +58,7 @@ import com.vividsolutions.jts.geom.Geometry;
 import com.vividsolutions.jts.geom.GeometryFactory;
 import com.vividsolutions.jts.geom.Point;
 
+import au.com.bytecode.opencsv.CSVReader;
 
 //import repast.simphony.ui.RSApplication;
 import javax.swing.JButton;
@@ -221,10 +224,6 @@ public class JZombiesBuilder implements ContextBuilder<Object> {
 		current_random = params.getInteger("randomSeed");
 		mav_trajectory_type = params.getString("MAV_trajectory");
 		mav_generation_rate = params.getInteger("MAVsGenerationRate");
-		System.out.print("************** Check MAV ***************");
-		System.out.print(mav_trajectory_type);
-		System.out.print(mav_generation_rate);
-		// System.out.println(temp_destination);
 
 		current_random = -460698188;
 		// temp_destination = params.getString("output_path");
@@ -859,24 +858,45 @@ public class JZombiesBuilder implements ContextBuilder<Object> {
 		*/	
 		//* [End] Move base station to corresponding location
 
-		// UAV temp_uav = new UAV(geography,400, 18, if_straight, false, 0, 0, 0, true,
-		// "probability", null, numberofruntime, 1, true, 999, base_station_channels);
+		// UAV temp_uav = new UAV(geography,400, 18, if_straight,
+		// 	true, 0, 0, 0,
+		// 	true, "probability", null,
+		// 	numberofruntime, 1, true, 627, base_station_channels);
 		// ArrayList<Double> start_coordinate_pair = new ArrayList<Double>();
 		// ArrayList<Double> end_coordinate_pair = new ArrayList<Double>();
 		// temp_uav.set_internal_time(0);
-		// start_coordinate_pair.add(-103.33363985671966);
-		// start_coordinate_pair.add(47.7995384674542);
-		// end_coordinate_pair.add(-103.281310);
-		// end_coordinate_pair.add(47.7924848);
+		// start_coordinate_pair.add(-103.01318);
+		// start_coordinate_pair.add(48.01468);
+		// end_coordinate_pair.add(-102.89041);
+		// end_coordinate_pair.add(48.01662);
 		// temp_uav.set_start_coordinate_pair(start_coordinate_pair);
-		// ArrayList<ArrayList<Double>> connection_coordinate_pair = new
-		// ArrayList<ArrayList<Double>>();
-		// ArrayList<ArrayList<Double>> connection_index_pair = new
-		// ArrayList<ArrayList<Double>>();
+		// temp_uav.set_end_coordinate_pair(end_coordinate_pair);
+		// ArrayList<Double> connection_coord_pair = new ArrayList<Double>();
+		// connection_coord_pair.add(start_coordinate_pair.get(0));
+		// connection_coord_pair.add(end_coordinate_pair.get(1));
+		// ArrayList<ArrayList<Double>> connection_coordinate_pair
+		// 	= new ArrayList<ArrayList<Double>>();
+		// ArrayList<ArrayList<Double>> connection_index_pair
+		// 	= new ArrayList<ArrayList<Double>>();
+		// connection_coordinate_pair.add(connection_coord_pair);
 		// temp_uav.set_connection_coordinate_pair(connection_coordinate_pair);
 		// temp_uav.set_connection_index_pair(connection_index_pair);
-		// temp_uav.set_end_coordinate_pair(end_coordinate_pair);
 		// uavs_list.add(temp_uav);
+
+		List<String[]> uavStartEndLocations = readUavStartEndLocations(
+			"/home/rzuo02/work/repast/app/src/main/"
+			+ "resources/repast/start_end_pair_1.csv");
+		int n = uavStartEndLocations.size();
+		for (int i = 1; i < n; ++i) {
+			String[] line = uavStartEndLocations.get(i);
+			System.out.println(Arrays.toString(line));
+			double startLng = Double.parseDouble(line[0]);
+			double startLat = Double.parseDouble(line[1]);
+			double endLng = Double.parseDouble(line[2]);
+			double endLat = Double.parseDouble(line[3]);
+			UAV uav = uavFactory(geography, i, startLng, startLat, endLng, endLat);
+			uavs_list.add(uav);
+		}
 
 		// Coordinate coord_basestation_0 = new Coordinate(-102.939365, 47.980315);
 		// Point geom_basestation_0 = fac.createPoint(coord_basestation_0);
@@ -1013,35 +1033,16 @@ public class JZombiesBuilder implements ContextBuilder<Object> {
 		}
 		//* [End] Seems like reading another base station configuration, not needed.
 
-		NS3Communicator communicator = new NS3Communicator();
-		try {
-			communicator.connect();
-		} catch (Exception e) {
-			System.out.println(e);
-		}
-		NS3CommunicatiorHelper ns3CommunicatiorHelper 
-			= new NS3CommunicatiorHelper(communicator);
-		context.add(ns3CommunicatiorHelper);
+		NS3CommunicatiorHelper ns3CommunicatiorHelper
+			= new NS3CommunicatiorHelper();
 
-		BaseStationContainer baseStations;
-		BaseStationController baseStationController;
-		try {
-			baseStations = new BaseStationContainer(
-				"/home/rzuo02/work/repast/app/src/main" +
-				"/resources/repast/base-stations.json");
-			baseStationController = new BaseStationController(baseStations);
-		} catch (Exception e) {
-			baseStations = null;	
-			baseStationController = null;
-			System.out.println(e);
-		}
+		BaseStationController baseStationController = new BaseStationController();
 		context.add(baseStationController);
 
 		//FIXME: Argument list is too long
 		UAVmanagement my_uav_management = new UAVmanagement(geography, fac, uavs_list, airport_list, terrain_start_location,
 				terrain_end_location, numberofruntime, uav_generation_rate, if_straight, if_routing, simulation_time,
-				current_random, base_station_channels, baseStationController,
-				ns3CommunicatiorHelper);
+				current_random, base_station_channels, baseStationController);
 		context.add(my_uav_management);
 
 		ISchedule schedule = RunEnvironment.getInstance().getCurrentSchedule();
@@ -1050,13 +1051,31 @@ public class JZombiesBuilder implements ContextBuilder<Object> {
 
 		UserEquipmentController userEquipmentController = new UserEquipmentController();
 		context.add(userEquipmentController);
-		// ScheduleParameters para2 = ScheduleParameters.createRepeating(1, 1);
-		// schedule.schedule(para2 , userEquipmentController, "update");
+		ScheduleParameters para2 = ScheduleParameters.createRepeating(1, 1);
+		schedule.schedule(para2 , userEquipmentController, "update");
 
-		// Foo foo = new Foo();
-		// ISchedule schedule = RunEnvironment.getInstance().getCurrentSchedule();
-		// ScheduleParameters  generate = ScheduleParameters.createRepeating(1, 1);
-		// schedule.schedule(generate , foo, "step");
+		// ns3CommunicatiorHelper.sendCreationReq(
+			// Integer.toString(temp_uav.return_Id()),
+			// Double.toString(48.01468),
+			// Double.toString(-103.01318),
+			// 0);
+		// userEquipmentController.getContainer().add(temp_uav.getUe());
+
+		/*
+		 * Routing Option 
+		 * Routing without SINR
+		 */
+		for (UAV uav : uavs_list) {
+			List<Double> startPair = uav.return_start_coordinate_pair();
+			double startLng = startPair.get(0);
+			double startLat = startPair.get(1);
+			ns3CommunicatiorHelper.sendCreationReq(
+				Integer.toString(uav.return_Id()),
+				Double.toString(startLat),
+				Double.toString(startLng),
+				0);
+			userEquipmentController.getContainer().add(uav.getUe());
+		}
 
 		if (RunEnvironment.getInstance().isBatch()) {
 			// RunEnvironment.getInstance().getCurrentSchedule().getTickCount();
@@ -1065,6 +1084,43 @@ public class JZombiesBuilder implements ContextBuilder<Object> {
 		}
 
 		return context;
+	}
+
+	private List<String[]> readUavStartEndLocations(String csvPath) {
+		try {
+			CSVReader reader = new CSVReader(new FileReader(csvPath));
+			return reader.readAll();
+		} catch (Exception e) {
+			throw new RuntimeException(e);
+		}
+	} 
+
+	private UAV uavFactory(Geography<Object> geography, int id,
+		double startLng, double startLat, double endLng, double endLat) {
+		UAV uav = new UAV(geography,400, 18, false,
+			true, 0, 0, 0,
+			true, "probability", null,
+			1, 1, true, id, 8);
+		ArrayList<Double> start_coordinate_pair = new ArrayList<Double>();
+		ArrayList<Double> end_coordinate_pair = new ArrayList<Double>();
+		uav.set_internal_time(0);
+		start_coordinate_pair.add(startLng);
+		start_coordinate_pair.add(startLat);
+		end_coordinate_pair.add(endLng);
+		end_coordinate_pair.add(endLat);
+		uav.set_start_coordinate_pair(start_coordinate_pair);
+		uav.set_end_coordinate_pair(end_coordinate_pair);
+		ArrayList<Double> connection_coord_pair = new ArrayList<Double>();
+		connection_coord_pair.add(start_coordinate_pair.get(0));
+		connection_coord_pair.add(end_coordinate_pair.get(1));
+		ArrayList<ArrayList<Double>> connection_coordinate_pair
+			= new ArrayList<ArrayList<Double>>();
+		ArrayList<ArrayList<Double>> connection_index_pair
+			= new ArrayList<ArrayList<Double>>();
+		connection_coordinate_pair.add(connection_coord_pair);
+		uav.set_connection_coordinate_pair(connection_coordinate_pair);
+		uav.set_connection_index_pair(connection_index_pair);
+		return uav;
 	}
 
 	private static final char DEFAULT_SEPARATOR = ',';

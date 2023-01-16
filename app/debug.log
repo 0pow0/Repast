@@ -1,172 +1,24 @@
-FATAL [Thread-2] 2022-11-11 15:14:18,727 repast.simphony.batch.BatchScheduleRunner - BatchSchedule.execute: error when running the schedule
+FATAL [Thread-2] 2023-01-16 11:48:32,024 repast.simphony.batch.BatchScheduleRunner - BatchSchedule.execute: error when running the schedule
 Current tick (1.0)
 java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
-	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:72)
-	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:333)
+	at repast.simphony.engine.schedule.CallBackAction.execute(CallBackAction.java:129)
 	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
 	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
-	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:238)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
 	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
 	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
 	at java.lang.Thread.run(Thread.java:748)
 Caused by: java.lang.reflect.InvocationTargetException
-	at jzombies.UAVmanagement$$FastClassByCGLIB$$bb9e9fc2.invoke(<generated>)
+	at repast.UserEquipmentController$$FastClassByCGLIB$$6c00ebb6.invoke(<generated>)
 	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
-	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
-	... 7 more
+	at repast.simphony.engine.schedule.CallBackAction.execute(CallBackAction.java:127)
+	... 6 more
 Caused by: java.lang.NullPointerException
-	at ROCBuilder.UserEquipmentResp.deserialize(UserEquipmentResp.java:46)
-	at repast.NS3CommunicatiorHelper.receiveUserEquipmentResp(NS3CommunicatiorHelper.java:69)
-	at jzombies.Deconfliction$Util.genSinrModelInput(Deconfliction.java:961)
-	at jzombies.Deconfliction.ASTAR_Routing(Deconfliction.java:742)
-	at jzombies.Deconfliction.FillOutArray(Deconfliction.java:264)
-	at jzombies.UAVmanagement.dynamic_add_uav(UAVmanagement.java:416)
-	... 10 more
-FATAL [Thread-2] 2022-11-11 15:26:07,101 repast.simphony.batch.BatchScheduleRunner - BatchSchedule.execute: error when running the schedule
-Current tick (1.0)
-java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
-	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:72)
-	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:333)
-	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
-	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
-	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:238)
-	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
-	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.lang.reflect.InvocationTargetException
-	at jzombies.UAVmanagement$$FastClassByCGLIB$$bb9e9fc2.invoke(<generated>)
-	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
-	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
-	... 7 more
-Caused by: java.lang.NullPointerException
-	at ROCBuilder.UserEquipmentResp.deserialize(UserEquipmentResp.java:46)
-	at repast.NS3CommunicatiorHelper.receiveUserEquipmentResp(NS3CommunicatiorHelper.java:71)
-	at jzombies.Deconfliction$Util.genSinrModelInput(Deconfliction.java:961)
-	at jzombies.Deconfliction.ASTAR_Routing(Deconfliction.java:742)
-	at jzombies.Deconfliction.FillOutArray(Deconfliction.java:264)
-	at jzombies.UAVmanagement.dynamic_add_uav(UAVmanagement.java:416)
-	... 10 more
-FATAL [Thread-2] 2022-11-11 15:34:20,121 repast.simphony.batch.BatchScheduleRunner - BatchSchedule.execute: error when running the schedule
-Current tick (1.0)
-java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
-	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:72)
-	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:333)
-	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
-	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
-	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:238)
-	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
-	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.lang.reflect.InvocationTargetException
-	at jzombies.UAVmanagement$$FastClassByCGLIB$$bb9e9fc2.invoke(<generated>)
-	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
-	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
-	... 7 more
-Caused by: java.lang.NullPointerException
-	at ROCBuilder.UserEquipmentResp.deserialize(UserEquipmentResp.java:46)
-	at repast.NS3CommunicatiorHelper.receiveUserEquipmentResp(NS3CommunicatiorHelper.java:73)
-	at jzombies.Deconfliction$Util.genSinrModelInput(Deconfliction.java:961)
-	at jzombies.Deconfliction.ASTAR_Routing(Deconfliction.java:742)
-	at jzombies.Deconfliction.FillOutArray(Deconfliction.java:264)
-	at jzombies.UAVmanagement.dynamic_add_uav(UAVmanagement.java:416)
-	... 10 more
-FATAL [Thread-2] 2022-11-11 15:40:14,315 repast.simphony.batch.BatchScheduleRunner - BatchSchedule.execute: error when running the schedule
-Current tick (1.0)
-java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
-	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:72)
-	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:333)
-	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
-	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
-	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:238)
-	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
-	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.lang.reflect.InvocationTargetException
-	at jzombies.UAVmanagement$$FastClassByCGLIB$$bb9e9fc2.invoke(<generated>)
-	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
-	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
-	... 7 more
-Caused by: java.lang.NullPointerException
-	at ROCBuilder.UserEquipmentResp.deserialize(UserEquipmentResp.java:46)
-	at repast.NS3CommunicatiorHelper.receiveUserEquipmentResp(NS3CommunicatiorHelper.java:73)
-	at jzombies.Deconfliction$Util.genSinrModelInput(Deconfliction.java:961)
-	at jzombies.Deconfliction.ASTAR_Routing(Deconfliction.java:742)
-	at jzombies.Deconfliction.FillOutArray(Deconfliction.java:264)
-	at jzombies.UAVmanagement.dynamic_add_uav(UAVmanagement.java:416)
-	... 10 more
-FATAL [Thread-2] 2022-11-11 15:47:03,323 repast.simphony.batch.BatchScheduleRunner - BatchSchedule.execute: error when running the schedule
-Current tick (1.0)
-java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
-	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:72)
-	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:333)
-	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
-	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
-	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:238)
-	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
-	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.lang.reflect.InvocationTargetException
-	at jzombies.UAVmanagement$$FastClassByCGLIB$$bb9e9fc2.invoke(<generated>)
-	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
-	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
-	... 7 more
-Caused by: java.lang.NullPointerException
-	at ROCBuilder.UserEquipmentResp.deserialize(UserEquipmentResp.java:46)
-	at repast.NS3CommunicatiorHelper.receiveUserEquipmentResp(NS3CommunicatiorHelper.java:73)
-	at jzombies.Deconfliction$Util.genSinrModelInput(Deconfliction.java:961)
-	at jzombies.Deconfliction.ASTAR_Routing(Deconfliction.java:742)
-	at jzombies.Deconfliction.FillOutArray(Deconfliction.java:264)
-	at jzombies.UAVmanagement.dynamic_add_uav(UAVmanagement.java:416)
-	... 10 more
-FATAL [Thread-2] 2022-11-11 15:52:17,473 repast.simphony.batch.BatchScheduleRunner - BatchSchedule.execute: error when running the schedule
-Current tick (1.0)
-java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
-	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:72)
-	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:333)
-	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
-	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
-	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:238)
-	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
-	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.lang.reflect.InvocationTargetException
-	at jzombies.UAVmanagement$$FastClassByCGLIB$$bb9e9fc2.invoke(<generated>)
-	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
-	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
-	... 7 more
-Caused by: java.lang.NullPointerException
-	at ROCBuilder.UserEquipmentResp.deserialize(UserEquipmentResp.java:46)
-	at repast.NS3CommunicatiorHelper.receiveUserEquipmentResp(NS3CommunicatiorHelper.java:73)
-	at jzombies.Deconfliction$Util.genSinrModelInput(Deconfliction.java:961)
-	at jzombies.Deconfliction.ASTAR_Routing(Deconfliction.java:742)
-	at jzombies.Deconfliction.FillOutArray(Deconfliction.java:264)
-	at jzombies.UAVmanagement.dynamic_add_uav(UAVmanagement.java:416)
-	... 10 more
-FATAL [Thread-2] 2022-11-11 16:10:47,712 repast.simphony.batch.BatchScheduleRunner - BatchSchedule.execute: error when running the schedule
-Current tick (1.0)
-java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
-	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:72)
-	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:333)
-	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
-	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
-	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:238)
-	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
-	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.lang.reflect.InvocationTargetException
-	at jzombies.UAVmanagement$$FastClassByCGLIB$$bb9e9fc2.invoke(<generated>)
-	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
-	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
-	... 7 more
-Caused by: java.lang.NullPointerException
-	at ROCBuilder.UserEquipmentResp.deserialize(UserEquipmentResp.java:46)
-	at repast.NS3CommunicatiorHelper.receiveUserEquipmentResp(NS3CommunicatiorHelper.java:73)
-	at jzombies.Deconfliction$Util.genSinrModelInput(Deconfliction.java:962)
-	at jzombies.Deconfliction.ASTAR_Routing(Deconfliction.java:743)
-	at jzombies.Deconfliction.FillOutArray(Deconfliction.java:264)
-	at jzombies.UAVmanagement.dynamic_add_uav(UAVmanagement.java:416)
-	... 10 more
-FATAL [Thread-2] 2022-11-11 16:29:04,461 repast.simphony.batch.BatchScheduleRunner - BatchSchedule.execute: error when running the schedule
+	at ROCBuilder.SINRResp.deserialize(SINRResp.java:21)
+	at repast.NS3CommunicatiorHelper.receiveSINRResp(NS3CommunicatiorHelper.java:73)
+	at repast.UserEquipmentController.update(UserEquipmentController.java:37)
+	... 9 more
+FATAL [Thread-2] 2023-01-16 11:50:12,886 repast.simphony.batch.BatchScheduleRunner - BatchSchedule.execute: error when running the schedule
 Current tick (1.0)
 java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
 	at repast.simphony.engine.schedule.CallBackAction.execute(CallBackAction.java:129)
@@ -183,354 +35,181 @@ Caused by: java.lang.reflect.InvocationTargetException
 	... 6 more
 Caused by: java.lang.NullPointerException
 	at ROCBuilder.BaseStationResp.deserialize(BaseStationResp.java:48)
-	at repast.NS3CommunicatiorHelper.receiveBaseStationResp(NS3CommunicatiorHelper.java:88)
-	at repast.BaseStationController.update(BaseStationController.java:38)
+	at repast.NS3CommunicatiorHelper.receiveBaseStationResp(NS3CommunicatiorHelper.java:102)
+	at repast.BaseStationController.update(BaseStationController.java:35)
 	... 9 more
-FATAL [Thread-2] 2022-11-11 16:30:50,403 repast.simphony.batch.BatchScheduleRunner - BatchSchedule.execute: error when running the schedule
-Current tick (1.0)
+FATAL [Thread-2] 2023-01-16 11:53:11,496 repast.simphony.batch.BatchScheduleRunner - BatchSchedule.execute: error when running the schedule
+Current tick (420.0)
 java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
-	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:72)
-	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:333)
+	at repast.simphony.engine.schedule.CallBackAction.execute(CallBackAction.java:129)
 	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
 	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
-	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:238)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
 	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
 	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
 	at java.lang.Thread.run(Thread.java:748)
 Caused by: java.lang.reflect.InvocationTargetException
-	at jzombies.UAVmanagement$$FastClassByCGLIB$$bb9e9fc2.invoke(<generated>)
+	at repast.UserEquipmentController$$FastClassByCGLIB$$6c00ebb6.invoke(<generated>)
 	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
-	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
-	... 7 more
-Caused by: java.lang.IllegalArgumentException: Latitude 93°54.2'N is out of range (±90°).
-	at org.geotools.referencing.GeodeticCalculator.checkLatitude(GeodeticCalculator.java:280)
-	at org.geotools.referencing.GeodeticCalculator.setDestinationGeographicPoint(GeodeticCalculator.java:519)
-	at jzombies.Deconfliction.distance2Coordinate(Deconfliction.java:810)
-	at jzombies.Deconfliction.index_to_coordinates(Deconfliction.java:870)
-	at jzombies.Deconfliction.access$600(Deconfliction.java:102)
-	at jzombies.Deconfliction$Util.convertToLngLat(Deconfliction.java:991)
-	at jzombies.Deconfliction.ASTAR_Routing(Deconfliction.java:679)
-	at jzombies.Deconfliction.FillOutArray(Deconfliction.java:279)
-	at jzombies.UAVmanagement.dynamic_add_uav(UAVmanagement.java:417)
-	... 10 more
-FATAL [Thread-2] 2022-11-11 16:34:15,807 repast.simphony.batch.BatchScheduleRunner - BatchSchedule.execute: error when running the schedule
-Current tick (1.0)
-java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
-	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:72)
-	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:333)
-	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
-	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
-	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:238)
-	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
-	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.lang.reflect.InvocationTargetException
-	at jzombies.UAVmanagement$$FastClassByCGLIB$$bb9e9fc2.invoke(<generated>)
-	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
-	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
-	... 7 more
-Caused by: java.lang.IllegalArgumentException: Latitude 93°54.2'N is out of range (±90°).
-	at org.geotools.referencing.GeodeticCalculator.checkLatitude(GeodeticCalculator.java:280)
-	at org.geotools.referencing.GeodeticCalculator.setDestinationGeographicPoint(GeodeticCalculator.java:519)
-	at jzombies.Deconfliction.distance2Coordinate(Deconfliction.java:809)
-	at jzombies.Deconfliction.index_to_coordinates(Deconfliction.java:869)
-	at jzombies.Deconfliction.access$600(Deconfliction.java:102)
-	at jzombies.Deconfliction$Util.convertToLngLat(Deconfliction.java:990)
-	at jzombies.Deconfliction.ASTAR_Routing(Deconfliction.java:679)
-	at jzombies.Deconfliction.FillOutArray(Deconfliction.java:279)
-	at jzombies.UAVmanagement.dynamic_add_uav(UAVmanagement.java:417)
-	... 10 more
-FATAL [Thread-2] 2022-11-11 16:38:56,514 repast.simphony.batch.BatchScheduleRunner - BatchSchedule.execute: error when running the schedule
-Current tick (1.0)
-java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
-	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:72)
-	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:333)
-	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
-	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
-	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:238)
-	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
-	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.lang.reflect.InvocationTargetException
-	at jzombies.UAVmanagement$$FastClassByCGLIB$$bb9e9fc2.invoke(<generated>)
-	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
-	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
-	... 7 more
-Caused by: java.lang.IllegalArgumentException: Latitude 93°54.2'N is out of range (±90°).
-	at org.geotools.referencing.GeodeticCalculator.checkLatitude(GeodeticCalculator.java:280)
-	at org.geotools.referencing.GeodeticCalculator.setDestinationGeographicPoint(GeodeticCalculator.java:519)
-	at jzombies.Deconfliction.distance2Coordinate(Deconfliction.java:809)
-	at jzombies.Deconfliction.index_to_coordinates(Deconfliction.java:869)
-	at jzombies.Deconfliction.access$600(Deconfliction.java:102)
-	at jzombies.Deconfliction$Util.convertToLngLat(Deconfliction.java:990)
-	at jzombies.Deconfliction.ASTAR_Routing(Deconfliction.java:679)
-	at jzombies.Deconfliction.FillOutArray(Deconfliction.java:279)
-	at jzombies.UAVmanagement.dynamic_add_uav(UAVmanagement.java:417)
-	... 10 more
-FATAL [Thread-2] 2022-11-11 16:43:40,696 repast.simphony.batch.BatchScheduleRunner - BatchSchedule.execute: error when running the schedule
-Current tick (1.0)
-java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
-	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:72)
-	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:333)
-	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
-	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
-	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:238)
-	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
-	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.lang.reflect.InvocationTargetException
-	at jzombies.UAVmanagement$$FastClassByCGLIB$$bb9e9fc2.invoke(<generated>)
-	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
-	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
-	... 7 more
-Caused by: java.lang.IllegalArgumentException: Latitude 93°54.2'N is out of range (±90°).
-	at org.geotools.referencing.GeodeticCalculator.checkLatitude(GeodeticCalculator.java:280)
-	at org.geotools.referencing.GeodeticCalculator.setDestinationGeographicPoint(GeodeticCalculator.java:519)
-	at jzombies.Deconfliction.distance2Coordinate(Deconfliction.java:810)
-	at jzombies.Deconfliction.index_to_coordinates(Deconfliction.java:870)
-	at jzombies.Deconfliction.access$600(Deconfliction.java:102)
-	at jzombies.Deconfliction$Util.convertToLngLat(Deconfliction.java:991)
-	at jzombies.Deconfliction.ASTAR_Routing(Deconfliction.java:680)
-	at jzombies.Deconfliction.FillOutArray(Deconfliction.java:279)
-	at jzombies.UAVmanagement.dynamic_add_uav(UAVmanagement.java:417)
-	... 10 more
-FATAL [Thread-2] 2022-11-11 16:47:34,224 repast.simphony.batch.BatchScheduleRunner - BatchSchedule.execute: error when running the schedule
-Current tick (1.0)
-java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
-	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:72)
-	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:333)
-	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
-	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
-	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:238)
-	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
-	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.lang.reflect.InvocationTargetException
-	at jzombies.UAVmanagement$$FastClassByCGLIB$$bb9e9fc2.invoke(<generated>)
-	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
-	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
-	... 7 more
-Caused by: java.lang.IllegalArgumentException: Latitude 93°54.2'N is out of range (±90°).
-	at org.geotools.referencing.GeodeticCalculator.checkLatitude(GeodeticCalculator.java:280)
-	at org.geotools.referencing.GeodeticCalculator.setDestinationGeographicPoint(GeodeticCalculator.java:519)
-	at jzombies.Deconfliction.distance2Coordinate(Deconfliction.java:810)
-	at jzombies.Deconfliction.index_to_coordinates(Deconfliction.java:871)
-	at jzombies.Deconfliction.access$600(Deconfliction.java:102)
-	at jzombies.Deconfliction$Util.convertToLngLat(Deconfliction.java:992)
-	at jzombies.Deconfliction.ASTAR_Routing(Deconfliction.java:680)
-	at jzombies.Deconfliction.FillOutArray(Deconfliction.java:279)
-	at jzombies.UAVmanagement.dynamic_add_uav(UAVmanagement.java:417)
-	... 10 more
-FATAL [Thread-2] 2022-11-11 17:01:59,216 repast.simphony.batch.BatchScheduleRunner - BatchSchedule.execute: error when running the schedule
-Current tick (1.0)
-java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
-	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:72)
-	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:333)
-	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
-	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
-	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:238)
-	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
-	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.lang.reflect.InvocationTargetException
-	at jzombies.UAVmanagement$$FastClassByCGLIB$$bb9e9fc2.invoke(<generated>)
-	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
-	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
-	... 7 more
-Caused by: java.lang.IllegalArgumentException: Latitude 93°54.2'N is out of range (±90°).
-	at org.geotools.referencing.GeodeticCalculator.checkLatitude(GeodeticCalculator.java:280)
-	at org.geotools.referencing.GeodeticCalculator.setDestinationGeographicPoint(GeodeticCalculator.java:519)
-	at jzombies.Deconfliction.distance2Coordinate(Deconfliction.java:810)
-	at jzombies.Deconfliction.index_to_coordinates(Deconfliction.java:870)
-	at jzombies.Deconfliction.access$600(Deconfliction.java:102)
-	at jzombies.Deconfliction$Util.convertToLngLat(Deconfliction.java:993)
-	at jzombies.Deconfliction.ASTAR_Routing(Deconfliction.java:680)
-	at jzombies.Deconfliction.FillOutArray(Deconfliction.java:279)
-	at jzombies.UAVmanagement.dynamic_add_uav(UAVmanagement.java:417)
-	... 10 more
-FATAL [Thread-2] 2022-11-11 23:05:56,469 repast.simphony.batch.BatchScheduleRunner - BatchSchedule.execute: error when running the schedule
-Current tick (1.0)
-java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
-	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:72)
-	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:333)
-	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
-	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
-	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:238)
-	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
-	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.lang.reflect.InvocationTargetException
-	at jzombies.UAVmanagement$$FastClassByCGLIB$$bb9e9fc2.invoke(<generated>)
-	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
-	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
-	... 7 more
+	at repast.simphony.engine.schedule.CallBackAction.execute(CallBackAction.java:127)
+	... 6 more
 Caused by: java.lang.NullPointerException
-	at jzombies.Deconfliction.ASTAR_Routing(Deconfliction.java:698)
-	at jzombies.Deconfliction.FillOutArray(Deconfliction.java:267)
-	at jzombies.UAVmanagement.dynamic_add_uav(UAVmanagement.java:417)
-	... 10 more
-FATAL [Thread-2] 2022-11-11 23:06:32,880 repast.simphony.batch.BatchScheduleRunner - BatchSchedule.execute: error when running the schedule
-Current tick (1.0)
+	at ROCBuilder.SINRResp.deserialize(SINRResp.java:21)
+	at repast.NS3CommunicatiorHelper.receiveSINRResp(NS3CommunicatiorHelper.java:73)
+	at repast.UserEquipmentController.update(UserEquipmentController.java:37)
+	... 9 more
+FATAL [Thread-2] 2023-01-16 11:56:04,586 repast.simphony.batch.BatchScheduleRunner - BatchSchedule.execute: error when running the schedule
+Current tick (82.0)
 java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
-	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:72)
-	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:333)
+	at repast.simphony.engine.schedule.CallBackAction.execute(CallBackAction.java:129)
 	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
 	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
-	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:238)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
 	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
 	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
 	at java.lang.Thread.run(Thread.java:748)
 Caused by: java.lang.reflect.InvocationTargetException
-	at jzombies.UAVmanagement$$FastClassByCGLIB$$bb9e9fc2.invoke(<generated>)
+	at repast.BaseStationController$$FastClassByCGLIB$$3627cc96.invoke(<generated>)
 	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
-	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
-	... 7 more
+	at repast.simphony.engine.schedule.CallBackAction.execute(CallBackAction.java:127)
+	... 6 more
 Caused by: java.lang.NullPointerException
-	at jzombies.Deconfliction.ASTAR_Routing(Deconfliction.java:698)
-	at jzombies.Deconfliction.FillOutArray(Deconfliction.java:267)
-	at jzombies.UAVmanagement.dynamic_add_uav(UAVmanagement.java:417)
-	... 10 more
-FATAL [Thread-2] 2022-11-11 23:28:18,257 repast.simphony.batch.BatchScheduleRunner - BatchSchedule.execute: error when running the schedule
+	at ROCBuilder.BaseStationResp.deserialize(BaseStationResp.java:48)
+	at repast.NS3CommunicatiorHelper.receiveBaseStationResp(NS3CommunicatiorHelper.java:102)
+	at repast.BaseStationController.update(BaseStationController.java:35)
+	... 9 more
+FATAL [Thread-2] 2023-01-16 12:00:31,560 repast.simphony.batch.BatchScheduleRunner - BatchSchedule.execute: error when running the schedule
+Current tick (123.0)
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at repast.simphony.engine.schedule.CallBackAction.execute(CallBackAction.java:129)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at repast.BaseStationController$$FastClassByCGLIB$$3627cc96.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.CallBackAction.execute(CallBackAction.java:127)
+	... 6 more
+Caused by: java.lang.NullPointerException
+	at ROCBuilder.BaseStationResp.deserialize(BaseStationResp.java:48)
+	at repast.NS3CommunicatiorHelper.receiveBaseStationResp(NS3CommunicatiorHelper.java:102)
+	at repast.BaseStationController.update(BaseStationController.java:35)
+	... 9 more
+FATAL [Thread-2] 2023-01-16 12:01:54,948 repast.simphony.batch.BatchScheduleRunner - BatchSchedule.execute: error when running the schedule
 Current tick (2.0)
 java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
 	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:72)
 	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:333)
 	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
 	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
-	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:238)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
 	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
 	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
 	at java.lang.Thread.run(Thread.java:748)
 Caused by: java.lang.reflect.InvocationTargetException
-	at jzombies.UAVmanagement$$FastClassByCGLIB$$bb9e9fc2.invoke(<generated>)
+	at jzombies.UAV$$FastClassByCGLIB$$5aecaa3f.invoke(<generated>)
 	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
 	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
 	... 7 more
-Caused by: java.lang.NullPointerException
-	at ROCBuilder.UserEquipmentResp.deserialize(UserEquipmentResp.java:46)
-	at repast.NS3CommunicatiorHelper.receiveUserEquipmentResp(NS3CommunicatiorHelper.java:71)
-	at jzombies.Deconfliction$Util.genSinrModelInput(Deconfliction.java:972)
-	at jzombies.Deconfliction.ASTAR_Routing(Deconfliction.java:747)
-	at jzombies.Deconfliction.FillOutArray(Deconfliction.java:267)
-	at jzombies.UAVmanagement.dynamic_add_uav(UAVmanagement.java:417)
+Caused by: java.nio.BufferOverflowException
+	at java.nio.HeapFloatBuffer.put(HeapFloatBuffer.java:194)
+	at java.nio.FloatBuffer.put(FloatBuffer.java:867)
+	at prediction.input.InputFactory.produceInput(InputFactory.java:50)
+	at jzombies.UAV.genInputWithCurrentLocation(UAV.java:3336)
+	at jzombies.UAV.toString(UAV.java:3311)
+	at jzombies.UAV.probability_generation_step(UAV.java:2382)
+	at jzombies.UAV.step(UAV.java:2734)
 	... 10 more
-FATAL [Thread-2] 2022-11-11 23:31:16,176 repast.simphony.batch.BatchScheduleRunner - BatchSchedule.execute: error when running the schedule
-Current tick (13.0)
+FATAL [Thread-2] 2023-01-16 12:22:37,447 repast.simphony.batch.BatchScheduleRunner - BatchSchedule.execute: error when running the schedule
+Current tick (201.0)
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at repast.simphony.engine.schedule.CallBackAction.execute(CallBackAction.java:129)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at repast.BaseStationController$$FastClassByCGLIB$$3627cc96.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.CallBackAction.execute(CallBackAction.java:127)
+	... 6 more
+Caused by: java.lang.NullPointerException
+	at ROCBuilder.BaseStationResp.deserialize(BaseStationResp.java:48)
+	at repast.NS3CommunicatiorHelper.receiveBaseStationResp(NS3CommunicatiorHelper.java:102)
+	at repast.BaseStationController.update(BaseStationController.java:35)
+	... 9 more
+FATAL [Thread-2] 2023-01-16 12:27:17,456 repast.simphony.batch.BatchScheduleRunner - BatchSchedule.execute: error when running the schedule
+Current tick (2.0)
 java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
 	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:72)
 	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:333)
 	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
 	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
-	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:238)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
 	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
 	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
 	at java.lang.Thread.run(Thread.java:748)
 Caused by: java.lang.reflect.InvocationTargetException
-	at jzombies.UAVmanagement$$FastClassByCGLIB$$bb9e9fc2.invoke(<generated>)
+	at jzombies.UAV$$FastClassByCGLIB$$5aecaa3f.invoke(<generated>)
 	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
 	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
 	... 7 more
-Caused by: java.lang.NullPointerException
-	at ROCBuilder.UserEquipmentResp.deserialize(UserEquipmentResp.java:46)
-	at repast.NS3CommunicatiorHelper.receiveUserEquipmentResp(NS3CommunicatiorHelper.java:71)
-	at jzombies.Deconfliction$Util.genSinrModelInput(Deconfliction.java:972)
-	at jzombies.Deconfliction.ASTAR_Routing(Deconfliction.java:747)
-	at jzombies.Deconfliction.FillOutArray(Deconfliction.java:267)
-	at jzombies.UAVmanagement.dynamic_add_uav(UAVmanagement.java:417)
+Caused by: java.nio.BufferOverflowException
+	at java.nio.HeapFloatBuffer.put(HeapFloatBuffer.java:194)
+	at java.nio.FloatBuffer.put(FloatBuffer.java:867)
+	at prediction.input.InputFactory.produceInput(InputFactory.java:50)
+	at jzombies.UAV.genInputWithCurrentLocation(UAV.java:3336)
+	at jzombies.UAV.toString(UAV.java:3311)
+	at jzombies.UAV.probability_generation_step(UAV.java:2382)
+	at jzombies.UAV.step(UAV.java:2734)
 	... 10 more
-FATAL [Thread-2] 2022-11-12 16:23:32,987 repast.simphony.batch.BatchScheduleRunner - BatchSchedule.execute: error when running the schedule
+FATAL [Thread-2] 2023-01-16 12:28:50,417 repast.simphony.batch.BatchScheduleRunner - BatchSchedule.execute: error when running the schedule
+Current tick (2.0)
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:72)
+	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:333)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jzombies.UAV$$FastClassByCGLIB$$5aecaa3f.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+	... 7 more
+Caused by: java.nio.BufferOverflowException
+	at java.nio.HeapFloatBuffer.put(HeapFloatBuffer.java:194)
+	at java.nio.FloatBuffer.put(FloatBuffer.java:867)
+	at prediction.input.InputFactory.produceInput(InputFactory.java:50)
+	at jzombies.UAV.genInputWithCurrentLocation(UAV.java:3336)
+	at jzombies.UAV.toString(UAV.java:3311)
+	at jzombies.UAV.probability_generation_step(UAV.java:2382)
+	at jzombies.UAV.step(UAV.java:2734)
+	... 10 more
+FATAL [Thread-2] 2023-01-16 12:45:03,502 repast.simphony.batch.BatchScheduleRunner - BatchSchedule.execute: error when running the schedule
 Current tick (1.0)
 java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
-	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:72)
-	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:333)
+	at repast.simphony.engine.schedule.CallBackAction.execute(CallBackAction.java:129)
 	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
 	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
-	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:238)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
 	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
 	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
 	at java.lang.Thread.run(Thread.java:748)
 Caused by: java.lang.reflect.InvocationTargetException
-	at jzombies.UAVmanagement$$FastClassByCGLIB$$bb9e9fc2.invoke(<generated>)
+	at repast.UserEquipmentController$$FastClassByCGLIB$$6c00ebb6.invoke(<generated>)
 	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
-	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
-	... 7 more
+	at repast.simphony.engine.schedule.CallBackAction.execute(CallBackAction.java:127)
+	... 6 more
 Caused by: java.lang.NullPointerException
-	at ROCBuilder.UserEquipmentResp.deserialize(UserEquipmentResp.java:46)
-	at repast.NS3CommunicatiorHelper.receiveUserEquipmentResp(NS3CommunicatiorHelper.java:71)
-	at jzombies.Deconfliction$Util.genSinrModelInput(Deconfliction.java:975)
-	at jzombies.Deconfliction.ASTAR_Routing(Deconfliction.java:748)
-	at jzombies.Deconfliction.FillOutArray(Deconfliction.java:282)
-	at jzombies.UAVmanagement.dynamic_add_uav(UAVmanagement.java:417)
-	... 10 more
-FATAL [Thread-2] 2022-11-12 17:49:49,557 repast.simphony.batch.BatchScheduleRunner - BatchSchedule.execute: error when running the schedule
-Current tick (75.0)
-java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
-	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:72)
-	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:333)
-	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
-	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
-	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:238)
-	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
-	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.lang.reflect.InvocationTargetException
-	at jzombies.UAVmanagement$$FastClassByCGLIB$$bb9e9fc2.invoke(<generated>)
-	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
-	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
-	... 7 more
-Caused by: java.lang.NullPointerException
-	at ROCBuilder.UserEquipmentResp.deserialize(UserEquipmentResp.java:46)
-	at repast.NS3CommunicatiorHelper.receiveUserEquipmentResp(NS3CommunicatiorHelper.java:71)
-	at jzombies.Deconfliction$Util.genSinrModelInput(Deconfliction.java:984)
-	at jzombies.Deconfliction.ASTAR_Routing(Deconfliction.java:749)
-	at jzombies.Deconfliction.FillOutArray(Deconfliction.java:283)
-	at jzombies.UAVmanagement.dynamic_add_uav(UAVmanagement.java:417)
-	... 10 more
-FATAL [Thread-2] 2022-11-12 18:08:29,850 repast.simphony.batch.BatchScheduleRunner - BatchSchedule.execute: error when running the schedule
-Current tick (1.0)
-java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
-	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:72)
-	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:333)
-	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
-	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
-	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:238)
-	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
-	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.lang.reflect.InvocationTargetException
-	at jzombies.UAVmanagement$$FastClassByCGLIB$$bb9e9fc2.invoke(<generated>)
-	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
-	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
-	... 7 more
-Caused by: java.lang.NullPointerException
-	at ROCBuilder.UserEquipmentResp.deserialize(UserEquipmentResp.java:46)
-	at repast.NS3CommunicatiorHelper.receiveUserEquipmentResp(NS3CommunicatiorHelper.java:71)
-	at jzombies.Deconfliction$Util.genSinrModelInput(Deconfliction.java:995)
-	at jzombies.Deconfliction.ASTAR_Routing(Deconfliction.java:750)
-	at jzombies.Deconfliction.FillOutArray(Deconfliction.java:283)
-	at jzombies.UAVmanagement.dynamic_add_uav(UAVmanagement.java:417)
-	... 10 more
-FATAL [Thread-2] 2022-11-12 18:13:39,563 repast.simphony.batch.BatchScheduleRunner - BatchSchedule.execute: error when running the schedule
-Current tick (24.0)
-java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
-	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:72)
-	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:333)
-	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
-	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
-	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:238)
-	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
-	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.lang.reflect.InvocationTargetException
-	at jzombies.UAVmanagement$$FastClassByCGLIB$$bb9e9fc2.invoke(<generated>)
-	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
-	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
-	... 7 more
-Caused by: java.lang.NullPointerException
-	at ROCBuilder.UserEquipmentResp.deserialize(UserEquipmentResp.java:46)
-	at repast.NS3CommunicatiorHelper.receiveUserEquipmentResp(NS3CommunicatiorHelper.java:71)
-	at jzombies.Deconfliction$Util.genSinrModelInput(Deconfliction.java:996)
-	at jzombies.Deconfliction.ASTAR_Routing(Deconfliction.java:750)
-	at jzombies.Deconfliction.FillOutArray(Deconfliction.java:283)
-	at jzombies.UAVmanagement.dynamic_add_uav(UAVmanagement.java:417)
-	... 10 more
+	at ROCBuilder.SINRResp.deserialize(SINRResp.java:21)
+	at repast.NS3CommunicatiorHelper.receiveSINRResp(NS3CommunicatiorHelper.java:73)
+	at repast.UserEquipmentController.update(UserEquipmentController.java:37)
+	... 9 more

@@ -22,20 +22,19 @@ public class BaseStationController {
     return container;
   }
 
-  public BaseStationController(BaseStationContainer container) {
-    this.container = container;
+  public BaseStationController() {
+    this.container = BaseStationContainer.getInstance();
   }
 
 	@ScheduledMethod(start = 1, interval = 1)
   public void update() {
-    Context<Object> context = ContextUtils.getContext(this);
-		NS3CommunicatiorHelper ns3CommunicatiorHelper
-			= (NS3CommunicatiorHelper) context
-				.getObjects(NS3CommunicatiorHelper.class).get(0);
+    NS3CommunicatiorHelper ns3CommunicatiorHelper
+      = new NS3CommunicatiorHelper();
     for (BaseStation bs : container) {
       ns3CommunicatiorHelper.sendBaseStationReq(Integer.toString(bs.getId()));
       BaseStationResp resp = ns3CommunicatiorHelper.receiveBaseStationResp();
       bs.setNumberOfAttachedUe(Integer.parseInt(resp.getNumberOfUe()));
+      System.out.println("Send BaseStation Req " + bs.getId() + "\n" + bs);
     }  
   }
 }
