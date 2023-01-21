@@ -3298,16 +3298,10 @@ public class UAV {
 		StringBuilder sb = new StringBuilder();
 		sb.append(Integer.toString(internal_time_step) + ",");
 		sb.append(Integer.toString(id) + ",");
-		Geometry myPoint = geography.getGeometry(this);
-		Double lng = BigDecimal.valueOf(myPoint.getCoordinate().x)
-			.setScale(7, RoundingMode.HALF_UP).doubleValue();
-		Double lat = BigDecimal.valueOf(myPoint.getCoordinate().y)
-			.setScale(7, RoundingMode.HALF_UP).doubleValue();
-		sb.append(Double.toString(lng) + ",");
-		sb.append(Double.toString(lat) + ",");
 		sb.append(Double.toString(Math.log10(ue.getSinr()) * 10.0) + ",");
-		sb.append(Integer.toString(ue.getCqi()) + ",");
-		sb.append(Double.toString(distance) + ",");
+		sb.append(Double.toString(ue.getSinr()) + ",");
+		sb.append(Double.toString(ue.getAttachedBaseStationID()) + ",");
+		sb.append(Double.toString(ue.getDistance()) + ",");
 		List<float[]> wrap = genInputWithCurrentLocation();
 		double sinr = -1.0;
 		try {
@@ -3318,8 +3312,9 @@ public class UAV {
 		} catch (Exception e) {
 			throw new RuntimeException(e);
 		}
+		sb.append(Float.toString(wrap.get(0)[0]) + ",");
 		sb.append(Double.toString(sinr) + ",");
-		sb.append(Double.toString(ue.getDistance()) + ",");
+		// sb.append(Double.toString(ue.getDistance()) + ",");
 		// sb.append(Double.toString(wrap.distanceToAttachedBS));
 		return sb.toString();
 	}
@@ -3341,9 +3336,9 @@ public class UAV {
 
 class UAVLogger {
 	private Path path;
-	public static final String header = "Timestamp,ID,Lng,Lat,SINR,CQI,"
-		+ "Route Distance,Predict SINR,NS3 Distance to Attached BS,Repast Distance to Attached BS";
-
+	public static final String header = "Timestamp,Repast ID,Ue SINR(dB),"
+		+ "Ue SINR(Linear)"
+		+ "Ue Attached BS ID,Ue Distance,Repast Distance,Predicted Static SINR";
 	public UAVLogger(String path) {
 		this.path = Paths.get(path);
 		save(Arrays.asList(header));

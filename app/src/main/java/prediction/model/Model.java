@@ -87,11 +87,12 @@ public class Model {
 
 	public float calcPreictedSinr(float[] xForStaticPredictionModel,
 		float[] xForDropPercentageModel) {
-		float staticSinr = calcStaticSINR(xForStaticPredictionModel);
-		float dropPercentage = calcDropPercentage(xForDropPercentageModel);
-		float drop = staticSinr * dropPercentage;
-		float predictedSinr = staticSinr - drop;
-		return staticSinr;
+		float staticSinrDb = calcStaticSINR(xForStaticPredictionModel);
+		float staticSinrLinear = (float) Math.pow(10.0, staticSinrDb / 10.0);
+		float dropPercentageLinear = calcDropPercentage(xForDropPercentageModel);
+		float drop = staticSinrLinear * dropPercentageLinear;
+		float predictedSinrLinear = staticSinrLinear - drop;
+		return predictedSinrLinear;
 	}
 
 	public double calcWeightedSINR(float[] sinrX, float probX, double distanceToAttachedBS,

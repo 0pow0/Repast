@@ -14,6 +14,15 @@ public class UserEquipment {
   private int attachedBaseStationID; 
   private double sinr;
   private double distance;
+
+  public double getDistance() {
+    return distance;
+  }
+
+  public void setDistance(double distance) {
+    this.distance = distance;
+  }
+
   private int cqi;
 
   public int getUavId() {
@@ -41,19 +50,17 @@ public class UserEquipment {
     this.sinr = sinr;
   }
 
-  public double getDistance() {
-    return distance;
-  }
-
-  public void setDistance(double distance) {
-    this.distance = distance;
-  }
-
   public int getCqi() {
     return cqi;
   }
 
   public void setCqi(int cqi) {
     this.cqi = cqi;
+  }
+
+  @Override
+  public String toString() {
+    return "UserEquipment [uavId=" + uavId + ", attachedBaseStationID=" + attachedBaseStationID + ", sinr=" + sinr
+        + ", cqi=" + cqi + "]";
   }
 }

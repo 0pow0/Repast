@@ -35,11 +35,10 @@ public class UserEquipmentController {
       System.out.println("Send SINR Req " + ue.getUavId());
       ns3CommunicatiorHelper.sendSINRReq(Integer.toString(ue.getUavId()));
       SINRResp resp = ns3CommunicatiorHelper.receiveSINRResp();
-      // ue.setSinr(Math.log10(Double.parseDouble(resp.getSinr())) * 10.0);
       ue.setSinr(Double.parseDouble(resp.getSinr()));
       ue.setCqi(Integer.parseInt(resp.getCqi()));
-      ue.setDistance(Double.parseDouble(resp.getDistance()));
       ue.setAttachedBaseStationID(Integer.parseInt(resp.getEnbId()));
+      ue.setDistance(Double.parseDouble(resp.getDistance()));
     }  
   }
 
