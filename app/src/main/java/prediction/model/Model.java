@@ -13,6 +13,8 @@ public class Model {
 	private DropPercentageModel dropPercentageModel;
 	private double weight;
 	private double sinrThreshold;
+	private boolean interference;
+	private String unit;
 
   private static Model model = null;
   public static int numInterferenceBS = 3;
@@ -52,6 +54,11 @@ public class Model {
 			numberOfInterferingBaseStation, featureSize);
 		dropPercentageModel = new DropPercentageModel(pathForDropPercentageModel,
 			shapeForDropPercentageModel);
+
+		interference = AppConf.getInstance().getBoolean(
+			"prediction.model.Model.interference");
+		unit = AppConf.getInstance().getString(
+			"prediction.model.Model.unit");
 	}
 
 	public double calcHCost(double hcost, double sinr) {
@@ -70,12 +77,12 @@ public class Model {
 		return rx - noise;
 	}
 
-	private float calcStaticSINR(float[] x) {
+	protected float calcStaticSINR(float[] x) {
 		float y = staticPredictionModel.predict(x);
 		return y;
 	}
 
-	private float calcDropPercentage(float[] x) {
+	protected float calcDropPercentage(float[] x) {
 		float y;
 		try {
 			y = dropPercentageModel.predict(x);
@@ -88,11 +95,24 @@ public class Model {
 	public float calcPreictedSinr(float[] xForStaticPredictionModel,
 		float[] xForDropPercentageModel) {
 		float staticSinrDb = calcStaticSINR(xForStaticPredictionModel);
-		float staticSinrLinear = (float) Math.pow(10.0, staticSinrDb / 10.0);
-		float dropPercentageLinear = calcDropPercentage(xForDropPercentageModel);
-		float drop = staticSinrLinear * dropPercentageLinear;
-		float predictedSinrLinear = staticSinrLinear - drop;
-		return predictedSinrLinear;
+		float predictedSinrLinear;
+
+		if (interference) {
+			float staticSinrLinear = (float) Math.pow(10.0, staticSinrDb / 10.0);
+			float dropPercentageLinear = calcDropPercentage(xForDropPercentageModel);
+			float dropLinear = staticSinrLinear * dropPercentageLinear;
+			predictedSinrLinear = staticSinrLinear - dropLinear;
+		} else {
+			float staticSinrLinear = (float) Math.pow(10.0, staticSinrDb / 10.0);
+			predictedSinrLinear = staticSinrLinear;
+		}
+
+		if (unit.equals("Linear"))
+			return predictedSinrLinear;
+		else if (unit.equals("dB"))
+			return (float) (Math.log10(predictedSinrLinear) * 10.0);
+		else throw new RuntimeException("Unrecognized unit, available units are "
+			+ "Linear / dB");
 	}
 
 	public double calcWeightedSINR(float[] sinrX, float probX, double distanceToAttachedBS,
