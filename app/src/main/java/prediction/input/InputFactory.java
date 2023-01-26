@@ -10,6 +10,7 @@ import repast.BaseStationController;
 import repast.NS3CommunicatiorHelper;
 import repast.UserEquipment;
 import util.Utils;
+import util.AppConf;
 
 public class InputFactory {
   /*
@@ -28,7 +29,8 @@ public class InputFactory {
     BaseStationController controller = new BaseStationController();
 		List<float[]> xs = new ArrayList<>();
     int size = controller.getContainer().size();
-    FloatBuffer buffer = FloatBuffer.allocate((size - 1) * 5); 
+		int featureSize = AppConf.getInstance().getInt("featureSize");
+    FloatBuffer buffer = FloatBuffer.allocate((size - 1) * featureSize); 
 		int cnt = 0;
 		for (BaseStation bs : controller.getContainer()) {
 			double distance = Utils.calcDistance(lat, lng, bs.getLat(), bs.getLng());
@@ -41,13 +43,7 @@ public class InputFactory {
 			if (bs.getId() == attachedEnbID) {
 				xs.add(curr);
 			} else {
-				float[] x = new float[5];
-				x[0] = (float) distance;
-				x[1] = (float) bs.getTxPower();
-				x[2] = (float) bs.getBandwidth();
-				x[3] = (float) bs.getSubBandwidth();
-				x[4] = (float) bs.getSubBandOffset();
-				buffer.put(x);
+				buffer.put(curr);
 				cnt++;
 			}
 		}

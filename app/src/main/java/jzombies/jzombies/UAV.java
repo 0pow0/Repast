@@ -3302,6 +3302,7 @@ public class UAV {
 		sb.append(Double.toString(ue.getSinr()) + ",");
 		sb.append(Double.toString(ue.getAttachedBaseStationID()) + ",");
 		sb.append(Double.toString(ue.getDistance()) + ",");
+		/* 
 		List<float[]> wrap = genInputWithCurrentLocation();
 		double sinr = -1.0;
 		try {
@@ -3316,6 +3317,7 @@ public class UAV {
 		sb.append(Double.toString(sinr) + ",");
 		// sb.append(Double.toString(ue.getDistance()) + ",");
 		// sb.append(Double.toString(wrap.distanceToAttachedBS));
+		*/
 		return sb.toString();
 	}
 

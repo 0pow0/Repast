@@ -34,8 +34,9 @@ public class BaseStationController {
       ns3CommunicatiorHelper.sendBaseStationReq(Integer.toString(bs.getId()));
       BaseStationResp resp = ns3CommunicatiorHelper.receiveBaseStationResp();
       bs.setNumberOfAttachedUe(Integer.parseInt(resp.getNumberOfUe()));
-      System.out.println("Send BaseStation Req " + bs.getId() + "\n" + bs);
+      System.out.println(bs);
     }  
+    System.out.println();
   }
 }
 

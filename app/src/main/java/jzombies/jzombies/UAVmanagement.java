@@ -37,6 +37,7 @@ import repast.simphony.engine.schedule.ScheduleParameters;
 import repast.simphony.engine.schedule.ScheduledMethod;
 import repast.simphony.space.gis.Geography;
 import repast.simphony.util.ContextUtils;
+import util.AppConf;
 import repast.BaseStationContainer;
 import repast.BaseStationController;
 import repast.NS3CommunicatiorHelper;
@@ -288,14 +289,7 @@ public class UAVmanagement {
 					System.out.println("Success");
 					Context<Object> context = ContextUtils.getContext(this);
 					context.add(temp_uav);
-					/*
-		 			 * Routing Option 
-					 * Routing with SINR
-					UserEquipmentController userEquipmentController
-						= (UserEquipmentController) context
-							.getObjects(UserEquipmentController.class).get(0);
-					userEquipmentController.getContainer().add(temp_uav.getUe());
-					 */
+
 					Coordinate coord_uav = new Coordinate(temp_uav.return_start_coordinate_pair().get(0),
 							temp_uav.return_start_coordinate_pair().get(1));
 					Point geom_uav = fac.createPoint(coord_uav);
@@ -308,8 +302,24 @@ public class UAVmanagement {
 							+ temp_uav.return_end_coordinate_pair().get(1) + ")";
 					System.out.println("Probability Generation : " + start_location + "->" +
 					connection_location + "->" + destination_location);
-
 					this.id_index_map.put(temp_uav, "N/A");
+
+					/*
+		 			 * Routing Option 
+					 * Routing with SINR
+					 */
+					if (AppConf.getInstance().getBoolean("routingWithSINRPrediction")) {
+						Coordinate coor = geography.getGeometry(temp_uav).getCoordinate();
+						ns3CommunicatiorHelper.sendCreationReq(
+							Integer.toString(temp_uav.return_Id()),
+							Double.toString(coor.y),
+							Double.toString(coor.x),
+							0);
+						UserEquipmentController userEquipmentController
+							= (UserEquipmentController) context
+								.getObjects(UserEquipmentController.class).get(0);
+						userEquipmentController.getContainer().add(temp_uav.getUe());
+					}
 				} else {
 					this.fail_count++;
 					System.out.println("Fail Count " + fail_count);

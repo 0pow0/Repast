@@ -16,6 +16,7 @@ import ai.djl.MalformedModelException;
 import ai.djl.repository.zoo.ModelNotFoundException;
 import ai.djl.translate.TranslateException;
 import prediction.model.DropProbabilityPredictionModel;
+import prediction.model.Model;
 import prediction.model.SinrPredictionModel;
 import prediction.input.SinrPredictionModelInputWrap;
 import repast.BaseStation;
@@ -24,6 +25,7 @@ import repast.BaseStationController;
 import repast.NS3CommunicatiorHelper;
 import repast.simphony.engine.schedule.ScheduledMethod;
 import repast.simphony.space.gis.Geography;
+import util.AppConf;
 
 import java.io.*;
 import java.nio.FloatBuffer;
@@ -694,15 +696,18 @@ public class Deconfliction {
 		/*
 		 * Routing Option 
 		 * Routing with SINR 
-		ns3CommunicatiorHelper.sendCreationReq(
-			Integer.toString(uavID),
-			Double.toString(startLngLat.get(1)),
-			Double.toString(startLngLat.get(0)), 0);
-		baseStationController.update();
-		for (BaseStation bs : baseStationController.getContainer()) {
-			System.out.println(bs);
-		}
 		 */
+		if (AppConf.getInstance().getBoolean("routingWithSINRPrediction")) {
+			ns3CommunicatiorHelper.sendCreationReq(
+				Integer.toString(uavID),
+				Double.toString(startLngLat.get(1)),
+				Double.toString(startLngLat.get(0)), 0);
+			baseStationController.update();
+			for (BaseStation bs : baseStationController.getContainer()) {
+				System.out.println(bs);
+			}
+		}
+
 
 		while (openSet.size() > 0) {
 			// pull out from openSet
@@ -739,41 +744,28 @@ public class Deconfliction {
 				int newMovementCostToNeighbour = currNode.gCost + GetDistance(currNode, neighbour);
 				// and if it's lower than the neighbour's cost
 				if (newMovementCostToNeighbour < neighbour.gCost || !openSet.contains(neighbour)) {
-					/*
-		 			 * Routing Option 
-					 * Routing with SINR
-					List<Double> lngLat = util.convertToLngLat(neighbour);
-					double minLng = Math.min(lngLat.get(0), targetLngLat.get(0));
-					double maxLng = Math.max(lngLat.get(0), targetLngLat.get(0));
-					double minLat = Math.min(lngLat.get(1), targetLngLat.get(1));
-					double maxLat = Math.max(lngLat.get(1), targetLngLat.get(1));
-					List<List<Double>> samples = new ArrayList<>();
-					for (int k = 0; k < 10; k++) {
-						samples.add(util.genRandomLngLatPairInArea(minLng, maxLat,
-							maxLng, minLat));
-					}
-					//* xs could less than 10 since no connection sample are not included.
-					List<SinrPredictionModelInputWrap> xs = util.genSinrModelInput(samples, uavID);
-					double sumSinrOfAllSamples = 0.0;
-					for (SinrPredictionModelInputWrap wrap : xs) {
-						try{
-							sumSinrOfAllSamples += hCostCalculator.calcWeightedSINR(
-								wrap.x.array(), wrap.numberOfUeAttachedToInterferenceBS,
-								wrap.distanceToAttachedBS, 15);
-						} catch (TranslateException e) {
-							System.out.println(e);
-						}
-					}
-					double averageSINR = sumSinrOfAllSamples / 10.0;
-					 */
-
 					// we calculate the new costs
 					neighbour.gCost = newMovementCostToNeighbour;
 					neighbour.hCost = Math.abs(neighbour.x - target_node.x) + Math.abs(neighbour.y - target_node.y);
 
 		 			//* Routing Option 
 					//* Routing with SINR
-					// neighbour.hCost = (int) hCostCalculator.calcHCost(neighbour.hCost, averageSINR);
+					if (AppConf.getInstance().getBoolean("routingWithSINRPrediction")) {
+						List<Double> lngLat = util.convertToLngLat(neighbour);
+						double minLng = Math.min(lngLat.get(0), targetLngLat.get(0));
+						double maxLng = Math.max(lngLat.get(0), targetLngLat.get(0));
+						double minLat = Math.min(lngLat.get(1), targetLngLat.get(1));
+						double maxLat = Math.max(lngLat.get(1), targetLngLat.get(1));
+
+						int sampleSize = AppConf.getInstance()
+							.getInt("jzombies.Deconfliction.sampleSize");
+						List<List<Double>> samples = util.genNRandomLngLatPairsInArea(
+							sampleSize,
+							minLng, maxLat, maxLng, minLat);
+						double averageSINR = util.calcAverageSinr(samples, uavID, sampleSize);
+						neighbour.hCost = (int) hCostCalculator.calcHCost(neighbour.hCost,
+							averageSINR);
+					}
 					neighbour.fCost = neighbour.gCost + neighbour.hCost;
 					// Assign the parent node
 					neighbour.parentNode = currNode;
@@ -797,7 +789,8 @@ public class Deconfliction {
 
 		//* Routing Option 
 		//* Routing with SINR
-		// ns3CommunicatiorHelper.sendDeletionReq(Integer.toString(uavID));
+		if (AppConf.getInstance().getBoolean("routingWithSINRPrediction"))
+			ns3CommunicatiorHelper.sendDeletionReq(Integer.toString(uavID));
 
 		return turn_point;
 	}
@@ -987,10 +980,10 @@ public class Deconfliction {
 		//* Each elements in returned list is consist of 6 numbers.
 		//* [0] is distance to attached base station (for static SINR calc)
 		//* [1] ~ [5] is inputs for prediction model (5 features)
-		public List<SinrPredictionModelInputWrap> genSinrModelInput(
+		public List<List<float[]>> genSinrModelInput(
 			List<List<Double>> samples, int uavID) {
 
-			List<SinrPredictionModelInputWrap> res = new ArrayList<>();
+			List<List<float[]>> res = new ArrayList<>();
 
 			for (List<Double> coor : samples) {
 				double lng = coor.get(0);
@@ -1022,35 +1015,35 @@ public class Deconfliction {
 				//* will not containing inputs for this sample which will make the 
 				//* prediction results becomes 0.
 				if (attachedEnbID != -1) {
-					SinrPredictionModelInputWrap wrap
-						= new SinrPredictionModelInputWrap();
 					int size = baseStationController.getContainer().size();
-					//TODO 5 could be parameter
-					FloatBuffer buffer = FloatBuffer.allocate((size - 1) * 5); 
+					int featureSize = AppConf.getInstance().getInt("featureSize");
+					FloatBuffer buffer = FloatBuffer.allocate((size - 1) * featureSize); 
 					int cnt = 0;
+					List<float[]> xs = new ArrayList<>();
 					for (BaseStation bs : baseStationController.getContainer()) {
 						double distance = distance2Coordinate(geography, coor.get(0),
 							coor.get(1), bs.getLng(), bs.getLat());
+						float[] curr = new float[5];
+						curr[0] = (float) distance;
+						curr[1] = (float) bs.getTxPower();
+						curr[2] = (float) bs.getBandwidth();
+						curr[3] = (float) bs.getSubBandwidth();
+						curr[4] = (float) bs.getSubBandOffset();
 						if (bs.getId() == attachedEnbID) {
-							wrap.distanceToAttachedBS = (float) distance;
+							xs.add(curr);
 						} else {
+							//! FIX may needed by prob model
 							if (distance < ns3BaseStationInterferenceRange) {
-								wrap.numberOfUeAttachedToInterferenceBS
-									+= bs.getNumberOfAttachedUe();
+								// wrap.numberOfUeAttachedToInterferenceBS
+									// += bs.getNumberOfAttachedUe();
 							}
-							float[] x = new float[5];
-							x[0] = (float) distance;
-							x[1] = (float) bs.getTxPower();
-							x[2] = (float) bs.getBandwidth();
-							x[3] = (float) bs.getSubBandwidth();
-							x[4] = (float) bs.getSubBandOffset();
-							buffer.put(x);
+							buffer.put(curr);
 							cnt++;
 						}
 					}
 					assert cnt == size - 1;
-					wrap.x = buffer;
-					res.add(wrap);
+					xs.add(buffer.array());
+					res.add(xs);
 				}
 			}
 			return res;
@@ -1091,6 +1084,36 @@ public class Deconfliction {
 
 			return new ArrayList<>(Arrays.asList(random_x, random_y));
 		}
+
+		public List<List<Double>> genNRandomLngLatPairsInArea(
+			int n,
+			double topLeftLng, double topLeftLat,
+			double bottomRightLng, double bottomRightLat) {
+			List<List<Double>> res = new ArrayList<>();
+			for (int i = 0; i < n; ++i) {
+				res.add(genRandomLngLatPairInArea(topLeftLng, topLeftLat,
+					bottomRightLng, bottomRightLat));
+			}
+			return res;
+		}
+
+		public double calcAverageSinr(List<List<Double>> samples, int uavID,
+			int sampleSize) {
+			//* xs could less than 10 since no connection sample are not included.
+			List<List<float[]>> xs = util.genSinrModelInput(samples, uavID);
+			double sumSinrOfAllSamples = 0.0;
+			for (List<float[]> wrap : xs) {
+				try{
+					double sinr = Model.getInstance().calcPreictedSinr(wrap.get(0),
+						wrap.get(1));
+					sumSinrOfAllSamples += sinr;
+				} catch (Exception e) {
+					throw new RuntimeException(e);
+				}
+			}
+			double averageSINR = sumSinrOfAllSamples / (double) sampleSize;
+			return averageSINR;
+		}
 	}
 }
 
@@ -1105,7 +1128,7 @@ class HCostCalculator {
 			.build();
 		probModel = new DropProbabilityPredictionModel();
 		weight = 0.7;
-		sinrThreshold = 20.0;
+		sinrThreshold = 32.0;
 	}
 
 	public double calcHCost(double hcost, double sinr) {

@@ -52,6 +52,7 @@ import repast.simphony.space.continuous.RandomCartesianAdder;
 import repast.simphony.space.gis.Geography;
 import repast.simphony.space.gis.GeographyParameters;
 import repast.simphony.space.graph.Network;
+import util.AppConf;
 
 import com.vividsolutions.jts.geom.Coordinate;
 import com.vividsolutions.jts.geom.Geometry;
@@ -883,6 +884,9 @@ public class JZombiesBuilder implements ContextBuilder<Object> {
 		// temp_uav.set_connection_index_pair(connection_index_pair);
 		// uavs_list.add(temp_uav);
 
+		/**
+		 * * Launching individual UAV 
+		 */
 		List<String[]> uavStartEndLocations = readUavStartEndLocations(
 			"/home/rzuo02/work/repast/app/src/main/"
 			+ "resources/repast/start_end_pair_1.csv");
@@ -1065,16 +1069,18 @@ public class JZombiesBuilder implements ContextBuilder<Object> {
 		 * Routing Option 
 		 * Routing without SINR
 		 */
-		for (UAV uav : uavs_list) {
-			List<Double> startPair = uav.return_start_coordinate_pair();
-			double startLng = startPair.get(0);
-			double startLat = startPair.get(1);
-			ns3CommunicatiorHelper.sendCreationReq(
-				Integer.toString(uav.return_Id()),
-				Double.toString(startLat),
-				Double.toString(startLng),
-				0);
-			userEquipmentController.getContainer().add(uav.getUe());
+		if (!AppConf.getInstance().getBoolean("routingWithSINRPrediction")) {
+			for (UAV uav : uavs_list) {
+				List<Double> startPair = uav.return_start_coordinate_pair();
+				double startLng = startPair.get(0);
+				double startLat = startPair.get(1);
+				ns3CommunicatiorHelper.sendCreationReq(
+					Integer.toString(uav.return_Id()),
+					Double.toString(startLat),
+					Double.toString(startLng),
+					0);
+				userEquipmentController.getContainer().add(uav.getUe());
+			}
 		}
 
 		if (RunEnvironment.getInstance().isBatch()) {
