@@ -59,7 +59,6 @@ public class StaticPredictionModel {
       NDManager manager = ctx.getNDManager();
       NDArray array = manager.create(inputShape);
       array.set(input);
-      System.out.println(array);
       return new NDList(array);
     }
 

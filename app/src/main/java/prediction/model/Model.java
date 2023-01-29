@@ -13,7 +13,7 @@ public class Model {
 	private DropPercentageModel dropPercentageModel;
 	private double weight;
 	private double sinrThreshold;
-	private boolean interference;
+	private String method;
 	private String unit;
 
   private static Model model = null;
@@ -55,8 +55,8 @@ public class Model {
 		dropPercentageModel = new DropPercentageModel(pathForDropPercentageModel,
 			shapeForDropPercentageModel);
 
-		interference = AppConf.getInstance().getBoolean(
-			"prediction.model.Model.interference");
+		method = AppConf.getInstance().getString(
+			"prediction.model.Model.method");
 		unit = AppConf.getInstance().getString(
 			"prediction.model.Model.unit");
 	}
@@ -93,18 +93,31 @@ public class Model {
 	}
 
 	public float calcPreictedSinr(float[] xForStaticPredictionModel,
-		float[] xForDropPercentageModel) {
+		float[] xForDropPercentageModel, float[] xForProbPredictionModel) {
 		float staticSinrDb = calcStaticSINR(xForStaticPredictionModel);
+		float staticSinrLinear = (float) Math.pow(10.0, staticSinrDb / 10.0);
 		float predictedSinrLinear;
 
-		if (interference) {
-			float staticSinrLinear = (float) Math.pow(10.0, staticSinrDb / 10.0);
+		if (method.equals("min")) {
 			float dropPercentageLinear = calcDropPercentage(xForDropPercentageModel);
 			float dropLinear = staticSinrLinear * dropPercentageLinear;
 			predictedSinrLinear = staticSinrLinear - dropLinear;
-		} else {
-			float staticSinrLinear = (float) Math.pow(10.0, staticSinrDb / 10.0);
+		} else if (method.equals("max")) {
 			predictedSinrLinear = staticSinrLinear;
+		} else if (method.equals("prob")) {
+			float dropPercentageLinear = calcDropPercentage(xForDropPercentageModel);
+			float dropLinear = staticSinrLinear * dropPercentageLinear;
+			float minLinear = staticSinrLinear - dropLinear;
+			float prob;
+			try {
+				prob = probModel.predict(xForProbPredictionModel[0]);
+			} catch (TranslateException e) {
+				throw new RuntimeException(e);
+			}
+			predictedSinrLinear = prob * minLinear + (1 - prob) * staticSinrLinear;
+		} else {
+			throw new RuntimeException("Unsupported method. Available methods are:"
+				+ "min/max/prob");
 		}
 
 		if (unit.equals("Linear"))

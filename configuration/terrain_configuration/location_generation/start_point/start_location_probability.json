@@ -4,7 +4,7 @@
       "Location": [
         {
           "name": "launch area 1",
-          "probability": 0.0,
+          "probability": 0.1,
           "geometry": [
             {
               "type": "Point",
@@ -19,6 +19,33 @@
                 {
                   "x": -103.00605,
                   "y": 48.00989,
+                  "name": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Location": [
+        {
+          "name": "launch area 2",
+          "probability": 0.2,
+          "geometry": [
+            {
+              "type": "Point",
+              "top_left": [
+                {
+                  "x": -102.96721,
+                  "y": 47.99437,
+                  "name": ""
+                }
+              ],
+              "bottom_right": [
+                {
+                  "x": -102.96034,
+                  "y": 47.99104,
                   "name": ""
                 }
               ]

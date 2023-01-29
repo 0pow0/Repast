@@ -32,6 +32,7 @@ public class InputFactory {
 		int featureSize = AppConf.getInstance().getInt("featureSize");
     FloatBuffer buffer = FloatBuffer.allocate((size - 1) * featureSize); 
 		int cnt = 0;
+		int numberOfInterferingUe = 0;
 		for (BaseStation bs : controller.getContainer()) {
 			double distance = Utils.calcDistance(lat, lng, bs.getLat(), bs.getLng());
 			float[] curr = new float[5];
@@ -44,10 +45,12 @@ public class InputFactory {
 				xs.add(curr);
 			} else {
 				buffer.put(curr);
+				numberOfInterferingUe += bs.getNumberOfAttachedUe();
 				cnt++;
 			}
 		}
 		xs.add(buffer.array());
+		xs.add(new float[]{numberOfInterferingUe});
 		assert cnt == size - 1;
 		return xs;
   }  

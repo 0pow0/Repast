@@ -341,6 +341,7 @@ public class UAVmanagement {
 
 				ArrayList<Double> start_coordinate_pair = area_generate_start_points(terrain_start_location.get(area_name),
 						this.seed);
+				System.out.println(start_coordinate_pair);
 
 				if (!start_coordinate_pair.isEmpty()) {
 
@@ -450,6 +451,7 @@ public class UAVmanagement {
 						// connection_location + "->" + destination_location);
 						this.id_index_map.put(temp_uav, "N/A");
 
+
 						Coordinate coor = geography.getGeometry(temp_uav).getCoordinate();
 						ns3CommunicatiorHelper.sendCreationReq(
 							Integer.toString(temp_uav.return_Id()),
@@ -537,6 +539,7 @@ public class UAVmanagement {
 		double random_probability = (high - low) * rr1 + low;
 
 		if (random_probability <= probability) {
+			System.out.println(node);
 			double x_min = node.return_top_left_x_coordinate();
 			double x_max = node.return_bottom_right_x_coordinate();
 

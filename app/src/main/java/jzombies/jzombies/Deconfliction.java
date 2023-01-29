@@ -1019,6 +1019,7 @@ public class Deconfliction {
 					int featureSize = AppConf.getInstance().getInt("featureSize");
 					FloatBuffer buffer = FloatBuffer.allocate((size - 1) * featureSize); 
 					int cnt = 0;
+					int numberOfInterferingUe = 0;
 					List<float[]> xs = new ArrayList<>();
 					for (BaseStation bs : baseStationController.getContainer()) {
 						double distance = distance2Coordinate(geography, coor.get(0),
@@ -1032,17 +1033,14 @@ public class Deconfliction {
 						if (bs.getId() == attachedEnbID) {
 							xs.add(curr);
 						} else {
-							//! FIX may needed by prob model
-							if (distance < ns3BaseStationInterferenceRange) {
-								// wrap.numberOfUeAttachedToInterferenceBS
-									// += bs.getNumberOfAttachedUe();
-							}
+							numberOfInterferingUe += bs.getNumberOfAttachedUe();
 							buffer.put(curr);
 							cnt++;
 						}
 					}
 					assert cnt == size - 1;
 					xs.add(buffer.array());
+					xs.add(new float[]{numberOfInterferingUe});
 					res.add(xs);
 				}
 			}
@@ -1054,7 +1052,7 @@ public class Deconfliction {
 			double earth = 6378.137,  //radius of the earth in kilometer
 				pi = Math.PI,
 				m = (1 / ((2 * pi / 360) * earth)) / 1000;  //1 meter in degree
-			double newLatitude = TopLeftX + (dx * m);
+			double newLatitude = TopLeftX - (dx * m);
 
 			double dy = (double) (node.y * 90);
 			m = (1 / ((2 * pi / 360) * earth)) / 1000;  //1 meter in degree
@@ -1105,7 +1103,7 @@ public class Deconfliction {
 			for (List<float[]> wrap : xs) {
 				try{
 					double sinr = Model.getInstance().calcPreictedSinr(wrap.get(0),
-						wrap.get(1));
+						wrap.get(1), wrap.get(2));
 					sumSinrOfAllSamples += sinr;
 				} catch (Exception e) {
 					throw new RuntimeException(e);

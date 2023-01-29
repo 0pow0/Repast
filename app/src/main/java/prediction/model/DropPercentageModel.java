@@ -48,11 +48,9 @@ public class DropPercentageModel {
 
     @Override
     public NDList processInput(TranslatorContext ctx, FloatBuffer input) throws Exception {
-      System.out.println(input);
       NDManager manager = ctx.getNDManager();
       NDArray array = manager.create(inputShape);
       array.set(input);
-      System.out.println(array);
       return new NDList(array);
     }
 
