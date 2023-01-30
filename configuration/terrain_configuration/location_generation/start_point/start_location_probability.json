@@ -53,6 +53,33 @@
           ]
         }
       ]
+    },
+    {
+      "Location": [
+        {
+          "name": "launch area 3",
+          "probability": 0.1,
+          "geometry": [
+            {
+              "type": "Point",
+              "top_left": [
+                {
+                  "x": -102.96377,
+                  "y": 48.0388,
+                  "name": ""
+                }
+              ],
+              "bottom_right": [
+                {
+                  "x": -102.94987,
+                  "y": 48.03272,
+                  "name": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

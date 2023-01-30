@@ -16,6 +16,7 @@ import java.net.UnknownHostException;
 import java.nio.ByteBuffer;
 
 import ROCBuilder.Message;
+import util.AppConf;
 
 /*
  * Responsible for communication with NS3 through socket. Read and write
@@ -46,6 +47,7 @@ public class NS3Communicator {
   }
 
   private NS3Communicator() {
+    port = AppConf.getInstance().getInt("repast.NS3Communicator.port");
   }  
 
   private NS3Communicator connect() throws UnknownHostException, IOException {
