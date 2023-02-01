@@ -45,9 +45,9 @@ class Node {
 	//* x is latitude y is longitude
 	public short x = 0, y = 0;
 	public int t = 0;
-	public int hCost = 0;
-	public int gCost = 0;
-	public int fCost = hCost + gCost;
+	public double hCost = 0.0;
+	public double gCost = 0.0;
+	public double fCost = hCost + gCost;
 	public Node parentNode;
 	public boolean changeDirection = false;
 
@@ -568,9 +568,10 @@ public class Deconfliction {
 			// }
 			// }
 			if (p1.fCost == p2.fCost) {
-				return p1.hCost - p2.hCost;
+				return Double.compare(p1.hCost, p2.hCost);
 			}
-			return p1.fCost - p2.fCost;
+			return Double.compare(p1.fCost, p2.fCost);
+			// return (int) p1.fCost - p2.fCost;
 		}
 	};
 
@@ -741,7 +742,7 @@ public class Deconfliction {
 				// }
 
 				//* Distance is dis_x + dis_y
-				int newMovementCostToNeighbour = currNode.gCost + GetDistance(currNode, neighbour);
+				double newMovementCostToNeighbour = currNode.gCost + GetDistance(currNode, neighbour);
 				// and if it's lower than the neighbour's cost
 				if (newMovementCostToNeighbour < neighbour.gCost || !openSet.contains(neighbour)) {
 					// we calculate the new costs
@@ -1125,8 +1126,9 @@ class HCostCalculator {
 		sinrModel = new SinrPredictionModel.Builder().numIntfBS(numInterferenceBS)
 			.build();
 		probModel = new DropProbabilityPredictionModel();
-		weight = 0.7;
-		sinrThreshold = 32.0;
+		// weight = 0.7;
+		// sinrThreshold = 32.0;
+		sinrThreshold = AppConf.getInstance().getDouble("jzombies.HCostCalculator.sinrThreshold");
 	}
 
 	public double calcHCost(double hcost, double sinr) {

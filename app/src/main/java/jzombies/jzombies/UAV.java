@@ -197,6 +197,7 @@ class Operation {
 }
 
 public class UAV {
+	// public HashMap<
 	public double distance;
 	public static final String logPath
 		= "/home/rzuo02/work/repast/report/uav.csv";
@@ -3093,10 +3094,10 @@ public class UAV {
 			StringBuilder uav_index_string = new StringBuilder();
 			StringBuilder uav_coordinate_string = new StringBuilder();
 
-			Double x_coordinate = BigDecimal.valueOf(myPoint.getCoordinate().x).setScale(7, RoundingMode.HALF_UP)
-					.doubleValue();
-			Double y_coordinate = BigDecimal.valueOf(myPoint.getCoordinate().y).setScale(7, RoundingMode.HALF_UP)
-					.doubleValue();
+			// Double x_coordinate = BigDecimal.valueOf(myPoint.getCoordinate().x).setScale(7, RoundingMode.HALF_UP)
+					// .doubleValue();
+			Double x_coordinate = myPoint.getCoordinate().x;
+			Double y_coordinate = myPoint.getCoordinate().y;
 
 			// -76.2597052, 43.0802922
 			// double y = distance2Coordinate(geography, 43.0802922, -76.2597052,
@@ -3301,7 +3302,7 @@ public class UAV {
 		sb.append(Double.toString(Math.log10(ue.getSinr()) * 10.0) + ",");
 		sb.append(Double.toString(ue.getSinr()) + ",");
 		sb.append(Double.toString(ue.getAttachedBaseStationID()) + ",");
-		sb.append(Double.toString(ue.getDistance()) + ",");
+		sb.append(Double.toString(ue.getDistance()));
 		/* 
 		List<float[]> wrap = genInputWithCurrentLocation();
 		double sinr = -1.0;
@@ -3339,8 +3340,8 @@ public class UAV {
 class UAVLogger {
 	private Path path;
 	public static final String header = "Timestamp,Repast ID,Ue SINR(dB),"
-		+ "Ue SINR(Linear)"
-		+ "Ue Attached BS ID,Ue Distance,Repast Distance,Predicted Static SINR";
+		+ "Ue SINR(Linear),"
+		+ "Ue Attached BS ID,Ue Distance";
 	public UAVLogger(String path) {
 		this.path = Paths.get(path);
 		save(Arrays.asList(header));
