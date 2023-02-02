@@ -23,6 +23,7 @@ import repast.BaseStation;
 import repast.BaseStationContainer;
 import repast.BaseStationController;
 import repast.NS3CommunicatiorHelper;
+import repast.NS3Communicator;
 import repast.simphony.engine.schedule.ScheduledMethod;
 import repast.simphony.space.gis.Geography;
 import util.AppConf;
@@ -106,6 +107,7 @@ class VirtualBasestation {
 }
 
 public class Deconfliction {
+	public AttachedUeRecorder attachedUeRecorder;
 	private Geography<Object> geography;
 	private int ConflictThreshold;
 	private int internal_time_step;
@@ -139,6 +141,7 @@ public class Deconfliction {
 			int ConflictThreshold, double TopLeftY, double TopLeftX,
 			double BottomRightY, double BottomRightX, int simulation_time,
 			BaseStationController baseStationController) {
+		this.attachedUeRecorder = new AttachedUeRecorder();
 		this.util = new Util();
 		this.ns3CommunicatiorHelper = new NS3CommunicatiorHelper();
 		this.baseStationController = baseStationController;
@@ -727,6 +730,7 @@ public class Deconfliction {
 			for (Node neighbour : getNeighbours(currNode, closedSet)) {
 				if (ongoingSet.containsKey(generateIndex(neighbour.x, neighbour.y))) {
 					neighbour = ongoingSet.get(generateIndex(neighbour.x, neighbour.y));
+					neighbour.t = currNode.t + 1;
 				}
 
 				// Node currParentNode = currNode.parentNode;
@@ -763,7 +767,7 @@ public class Deconfliction {
 						List<List<Double>> samples = util.genNRandomLngLatPairsInArea(
 							sampleSize,
 							minLng, maxLat, maxLng, minLat);
-						double averageSINR = util.calcAverageSinr(samples, uavID, sampleSize);
+						double averageSINR = util.calcAverageSinr(samples, uavID, sampleSize, neighbour.t);
 						neighbour.hCost = (int) hCostCalculator.calcHCost(neighbour.hCost,
 							averageSINR);
 					}
@@ -784,6 +788,7 @@ public class Deconfliction {
 			System.out.println("The shortest path from source to destination " + "has length " + (min_dist - original_t));
 			target_node.t = min_dist;
 			turn_point = getTurnPoints(foundPath, target_node);
+			updateAttachedUeRecorder(foundPath, uavID);
 		} else {
 			System.out.println("Destination can't be reached from given source");
 		}
@@ -794,6 +799,16 @@ public class Deconfliction {
 			ns3CommunicatiorHelper.sendDeletionReq(Integer.toString(uavID));
 
 		return turn_point;
+	}
+
+	private void updateAttachedUeRecorder(List<Node> path, int uavId) {
+		List<List<Double>> coors = new ArrayList<>();
+		List<Integer> timesteps = new ArrayList<>();
+		for (Node node : path) {
+			coors.add(util.convertToLngLat(node));
+			timesteps.add(node.t);
+		}
+		attachedUeRecorder.update(coors, uavId, timesteps);
 	}
 
 	// save UAV location in each time tick
@@ -982,7 +997,7 @@ public class Deconfliction {
 		//* [0] is distance to attached base station (for static SINR calc)
 		//* [1] ~ [5] is inputs for prediction model (5 features)
 		public List<List<float[]>> genSinrModelInput(
-			List<List<Double>> samples, int uavID) {
+			List<List<Double>> samples, int uavID, int timestep) {
 
 			List<List<float[]>> res = new ArrayList<>();
 
@@ -1034,7 +1049,7 @@ public class Deconfliction {
 						if (bs.getId() == attachedEnbID) {
 							xs.add(curr);
 						} else {
-							numberOfInterferingUe += bs.getNumberOfAttachedUe();
+							numberOfInterferingUe += attachedUeRecorder.getByTimestepAndEnbId(timestep, bs.getId());
 							buffer.put(curr);
 							cnt++;
 						}
@@ -1097,9 +1112,13 @@ public class Deconfliction {
 		}
 
 		public double calcAverageSinr(List<List<Double>> samples, int uavID,
-			int sampleSize) {
+			int sampleSize, int timestep) {
 			//* xs could less than 10 since no connection sample are not included.
-			List<List<float[]>> xs = util.genSinrModelInput(samples, uavID);
+			List<List<float[]>> xs = util.genSinrModelInput(samples, uavID, timestep);
+			System.out.println("[Model Input]");
+			for (List<float[]> l : xs) {
+				l.forEach(array -> System.out.println(Arrays.toString(array)));
+			}
 			double sumSinrOfAllSamples = 0.0;
 			for (List<float[]> wrap : xs) {
 				try{

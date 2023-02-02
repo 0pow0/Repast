@@ -889,7 +889,7 @@ public class JZombiesBuilder implements ContextBuilder<Object> {
 		 */
 		List<String[]> uavStartEndLocations = readUavStartEndLocations(
 			"/home/rzuo02/work/repast/app/src/main/"
-			+ "resources/repast/start_end_pair_1.csv");
+			+ "resources/repast/start_end_pair_2.csv");
 		int n = uavStartEndLocations.size();
 		for (int i = 1; i < n; ++i) {
 			String[] line = uavStartEndLocations.get(i);

@@ -4,6 +4,7 @@
 package repast;
 
 import java.io.IOException;
+import java.time.Duration;
 
 import ai.djl.MalformedModelException;
 import ai.djl.repository.zoo.ModelNotFoundException;
@@ -14,9 +15,12 @@ public class App {
   public static void main(String[] args)
     throws IOException, ScenarioLoadException, ModelNotFoundException,
     MalformedModelException {
-    System.out.println("Working Directory = " + System.getProperty("user.dir"));
+    long startTime = System.nanoTime();
     InstanceRunner runner = new InstanceRunner();
     runner.configure(args);
     runner.run();
+    long timeElapsed = System.nanoTime() - startTime;
+    Duration duration = Duration.ofNanos(timeElapsed);
+    System.out.println("Simulation Time: " + duration);
   }
 }
