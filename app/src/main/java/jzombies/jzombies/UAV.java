@@ -53,6 +53,8 @@ import prediction.input.SinrPredictionModelInputWrap;
 import prediction.model.Model;
 
 import javax.measure.unit.SI;
+
+import util.AppConf;
 import util.Utils;
 
 class Operation {
@@ -199,8 +201,7 @@ class Operation {
 public class UAV {
 	// public HashMap<
 	public double distance;
-	public static final String logPath
-		= "/home/rzuo02/work/repast/report/uav.csv";
+	public static String logPath = AppConf.getInstance().getString("jzombies.UAV.sinrLogPath");
 	private static UAVLogger logger = new UAVLogger(logPath);
 	private UserEquipment ue;
 
@@ -3084,8 +3085,9 @@ public class UAV {
 
 		String fileName = temp_pre_fix + File.separator + "report" + File.separator + "batch_"
 				+ Integer.toString(current_batch) + File.separator + "uav_index" + ".csv";
-		String fileName_coordinate = temp_pre_fix + File.separator + "report" + File.separator + "batch_"
-				+ Integer.toString(current_batch) + File.separator + "uav_coordinate_reactive" + ".csv";
+		// String fileName_coordinate = temp_pre_fix + File.separator + "report" + File.separator + "batch_"
+				// + Integer.toString(current_batch) + File.separator + "uav_coordinate_reactive" + ".csv";
+		String fileName_coordinate = AppConf.getInstance().getString("jzombies.UAV.locationLogPath");
 		Geometry myPoint = geography.getGeometry(this);
 		try {
 			PrintWriter writer_uav_index = new PrintWriter(new FileOutputStream(new File(fileName), true));
@@ -3302,23 +3304,21 @@ public class UAV {
 		sb.append(Double.toString(Math.log10(ue.getSinr()) * 10.0) + ",");
 		sb.append(Double.toString(ue.getSinr()) + ",");
 		sb.append(Double.toString(ue.getAttachedBaseStationID()) + ",");
-		sb.append(Double.toString(ue.getDistance()));
-		/* 
+		sb.append(Double.toString(ue.getDistance()) + ",");
 		List<float[]> wrap = genInputWithCurrentLocation();
 		double sinr = -1.0;
 		try {
 			// sinr = Model.getInstance().calcWeightedSINR(wrap.x.array(),
 			// 	wrap.numberOfUeAttachedToInterferenceBS,
 			// 	wrap.distanceToAttachedBS, 15);
-			sinr = Model.getInstance().calcPreictedSinr(wrap.get(0), wrap.get(1));
+			sinr = Model.getInstance().calcPreictedSinr(wrap.get(0), wrap.get(1), wrap.get(2));
 		} catch (Exception e) {
 			throw new RuntimeException(e);
 		}
-		sb.append(Float.toString(wrap.get(0)[0]) + ",");
-		sb.append(Double.toString(sinr) + ",");
+		// sb.append(Float.toString(wrap.get(0)[0]) + ",");
+		sb.append(Double.toString(sinr));
 		// sb.append(Double.toString(ue.getDistance()) + ",");
 		// sb.append(Double.toString(wrap.distanceToAttachedBS));
-		*/
 		return sb.toString();
 	}
 
@@ -3341,7 +3341,7 @@ class UAVLogger {
 	private Path path;
 	public static final String header = "Timestamp,Repast ID,Ue SINR(dB),"
 		+ "Ue SINR(Linear),"
-		+ "Ue Attached BS ID,Ue Distance";
+		+ "Ue Attached BS ID,Ue Distance,Predicted SINR";
 	public UAVLogger(String path) {
 		this.path = Paths.get(path);
 		save(Arrays.asList(header));

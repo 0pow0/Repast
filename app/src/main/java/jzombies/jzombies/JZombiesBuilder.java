@@ -249,8 +249,9 @@ public class JZombiesBuilder implements ContextBuilder<Object> {
 				+ Integer.toString(numberofruntime) + File.separator + "uav_speed" + ".csv";
 		String fileName_uav_communication = temp_destination + File.separator + "report" + File.separator + "batch_"
 				+ Integer.toString(numberofruntime) + File.separator + "uav_communucation" + ".csv";
-		String fileName_uav_coordinate = temp_destination + File.separator + "report" + File.separator + "batch_"
-				+ Integer.toString(numberofruntime) + File.separator + "uav_coordinate_reactive" + ".csv";
+		// String fileName_uav_coordinate = temp_destination + File.separator + "report" + File.separator + "batch_"
+				// + Integer.toString(numberofruntime) + File.separator + "uav_coordinate_reactive" + ".csv";
+		String fileName_uav_coordinate = AppConf.getInstance().getString("jzombies.UAV.locationLogPath");
 		String fileName_uav_count_report = temp_destination + File.separator + "report" + File.separator + "batch_"
 				+ Integer.toString(numberofruntime) + File.separator + "uav_count_report" + ".csv";
 		String fileName_random_seed_report = temp_destination + File.separator + "report" + File.separator + "batch_"
@@ -888,8 +889,7 @@ public class JZombiesBuilder implements ContextBuilder<Object> {
 		 * * Launching individual UAV 
 		 */
 		List<String[]> uavStartEndLocations = readUavStartEndLocations(
-			"/home/rzuo02/work/repast/app/src/main/"
-			+ "resources/repast/start_end_pair_2.csv");
+			"/Users/zuorui/Work/Repast/app/src/main/resources/repast/start_end_pair_1.csv");
 		int n = uavStartEndLocations.size();
 		for (int i = 1; i < n; ++i) {
 			String[] line = uavStartEndLocations.get(i);

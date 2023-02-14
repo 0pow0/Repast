@@ -266,48 +266,53 @@ public class Deconfliction {
 		this.internal_time_step = start_time;
 		System.out.println("internal_time_step: " + this.internal_time_step);
 
-		long start = System.nanoTime();
-		ArrayList<Node> turn_point_first = ASTAR_Routing(
-			start_row_index, start_column_index, start_time,
-			conn_row_index, conn_column_index, conn_time,
-			curr_batch, curr_uav.return_Id());
-		long finish = System.nanoTime();
-		long timeElapsed = finish - start;
-		if (turn_point_first.isEmpty()) {
-			record_routing_information(start_time, timeElapsed * 0.000001, 0, curr_batch);
-			System.out.println("routing res " + false);
-			return false;
-		}
-		System.out.println("RUI: ASTAR 1");
-		stay_at_one_point(turn_point_first, 4);
+		// long start = System.nanoTime();
+		// ArrayList<Node> turn_point_first = ASTAR_Routing(
+			// start_row_index, start_column_index, start_time,
+			// conn_row_index, conn_column_index, conn_time,
+			// curr_batch, curr_uav.return_Id());
+		// long finish = System.nanoTime();
+		// long timeElapsed = finish - start;
+		// if (turn_point_first.isEmpty()) {
+			// record_routing_information(start_time, timeElapsed * 0.000001, 0, curr_batch);
+			// System.out.println("routing res " + false);
+			// return false;
+		// }
+		// System.out.println("RUI: ASTAR 1");
+		// stay_at_one_point(turn_point_first, 4);
+// 
+		// int last_time = turn_point_first.get(turn_point_first.size() - 1).t;
+		// ArrayList<Node> turn_point_two = ASTAR_Routing(
+			// conn_row_index, conn_column_index, last_time,
+			// end_row_index, end_column_index, conn_time,
+			// curr_batch, curr_uav.return_Id());
+		// finish = System.nanoTime();
+		// timeElapsed = finish - start;
+		// if (turn_point_two.isEmpty()) {
+			// record_routing_information(start_time, timeElapsed * 0.000001, 0, curr_batch);
+			// System.out.println("routing res 2" + false);
+			// return false;
+		// }
+// 
+		// System.out.println("RUI: ASTAR 2");
+		// System.out.println("routing time: " + timeElapsed * 0.000001 + "ms");
 
-		int last_time = turn_point_first.get(turn_point_first.size() - 1).t;
-		ArrayList<Node> turn_point_two = ASTAR_Routing(
-			conn_row_index, conn_column_index, last_time,
-			end_row_index, end_column_index, conn_time,
-			curr_batch, curr_uav.return_Id());
-		finish = System.nanoTime();
-		timeElapsed = finish - start;
-		if (turn_point_two.isEmpty()) {
-			record_routing_information(start_time, timeElapsed * 0.000001, 0, curr_batch);
-			System.out.println("routing res 2" + false);
-			return false;
-		}
+		// ArrayList<Node> turn_point = new ArrayList<Node>();
+		// turn_point.addAll(turn_point_first);
+		// turn_point.addAll(turn_point_two);
 
-		System.out.println("RUI: ASTAR 2");
-		System.out.println("routing time: " + timeElapsed * 0.000001 + "ms");
-
-		ArrayList<Node> turn_point = new ArrayList<Node>();
-		turn_point.addAll(turn_point_first);
-		turn_point.addAll(turn_point_two);
-
-		System.out.println("Adding Print turn points. The number of turn points is " + turn_point.size());
+		// System.out.println("Adding Print turn points. The number of turn points is " + turn_point.size());
 		// for (int w = 0; w < turn_point.size(); w++) {
 		// System.out.println("[" + turn_point.get(w).x + " " + turn_point.get(w).y + "
 		// " + turn_point.get(w).t + "]");
 		// }
 
-		turn_point.remove(turn_point.size() - 1);
+		// turn_point.remove(turn_point.size() - 1);
+
+		ArrayList<Node> turn_point = ASTAR_Routing(
+			start_row_index, start_column_index, start_time,
+			end_row_index, end_column_index, end_time,
+			curr_batch, curr_uav.return_Id());
 
 		if (turn_point.size() >= 1) {
 			System.out.println("Converting turn point index to coordinates. ");
@@ -316,7 +321,7 @@ public class Deconfliction {
 			curr_uav.set_connection_coordinate_pair(new ArrayList<ArrayList<Double>>(coordinate_pairs));
 			System.out.println(coordinate_pairs.size());
 		}
-		record_routing_information(start_time, timeElapsed * 0.000001, 1, curr_batch);
+		// record_routing_information(start_time, timeElapsed * 0.000001, 1, curr_batch);
 		System.out.println("routing success");
 		return true;
 	}
@@ -745,7 +750,6 @@ public class Deconfliction {
 				// neighbour.changeDirection = false;
 				// }
 
-				//* Distance is dis_x + dis_y
 				double newMovementCostToNeighbour = currNode.gCost + GetDistance(currNode, neighbour);
 				// and if it's lower than the neighbour's cost
 				if (newMovementCostToNeighbour < neighbour.gCost || !openSet.contains(neighbour)) {
@@ -788,7 +792,9 @@ public class Deconfliction {
 			System.out.println("The shortest path from source to destination " + "has length " + (min_dist - original_t));
 			target_node.t = min_dist;
 			turn_point = getTurnPoints(foundPath, target_node);
-			updateAttachedUeRecorder(foundPath, uavID);
+			if (AppConf.getInstance().getBoolean("routingWithSINRPrediction")
+				&& AppConf.getInstance().getString("prediction.model.Model.method").equals("prob"))
+				updateAttachedUeRecorder(foundPath, uavID);
 		} else {
 			System.out.println("Destination can't be reached from given source");
 		}
@@ -1049,7 +1055,8 @@ public class Deconfliction {
 						if (bs.getId() == attachedEnbID) {
 							xs.add(curr);
 						} else {
-							numberOfInterferingUe += attachedUeRecorder.getByTimestepAndEnbId(timestep, bs.getId());
+							// numberOfInterferingUe += attachedUeRecorder.getByTimestepAndEnbId(timestep, bs.getId());
+							numberOfInterferingUe += 2;
 							buffer.put(curr);
 							cnt++;
 						}
@@ -1136,75 +1143,19 @@ public class Deconfliction {
 }
 
 class HCostCalculator {
-	private DropProbabilityPredictionModel probModel;
-	private SinrPredictionModel sinrModel;
-	private double weight;
 	private double sinrThreshold;
 
 	public HCostCalculator(int numInterferenceBS) throws Exception {
-		sinrModel = new SinrPredictionModel.Builder().numIntfBS(numInterferenceBS)
-			.build();
-		probModel = new DropProbabilityPredictionModel();
-		// weight = 0.7;
-		// sinrThreshold = 32.0;
 		sinrThreshold = AppConf.getInstance().getDouble("jzombies.HCostCalculator.sinrThreshold");
 	}
 
 	public double calcHCost(double hcost, double sinr) {
-		if (sinr >= sinrThreshold) return hcost;
-		double phi = (sinrThreshold - sinr) / sinrThreshold;
-		return hcost * (1.0 + phi);
-	}
-
-	private static double calcStaticSINR(double distance, int numberOfRB,
-		double txPower) {
-		double noise = -174.0 + 10.0 * Math.log10((double) (numberOfRB * 180000));
-		double pathLoss = Math.max(23.9, 1.8 * Math.log10(100));
-		pathLoss = Math.max(pathLoss, 20.0);
-		pathLoss = pathLoss * Math.log10(distance) + 20.0 * Math.log10(40.0 * Math.PI * (2110e6 / 1e9) / 3.0);
-		double rx = txPower - pathLoss - 9.0;
-		return rx - noise;
-	}
-
-	public double calcWeightedSINR(float[] sinrX, float probX, double distanceToAttachedBS,
-			int numberOfRB) throws TranslateException {
-		// in dB
-		double staticSINR = calcStaticSINR(distanceToAttachedBS, numberOfRB, 40.0);
-
-		// Torch model is FLOAT32
-		double prob = (double) probModel.predict(probX);
-		// SINR_1 = log10(Linear Drop) * 10
-		double sinrDropDb = (double) sinrModel.predict(sinrX);
-		// Linear Drop = SINR_max - SINR_min (Linear)
-		// = 10^(SINR_1 / 10.0)
-		double sinrDropLinear = Math.pow(10.0, (sinrDropDb / 10.0));
-		// Linear Static = 10^(static/10.0)
-		double staticSINRLinear = Math.pow(10.0, (staticSINR / 10.0));
-		double sinrLinear = staticSINRLinear - sinrDropLinear;
-		double sinrDb = 10 * Math.log10(sinrLinear);
-	
-		double weightedSINR = prob * sinrDb + (1.0 - prob) * staticSINR;
-
-		System.out.println("[calcWeightedSINR]"
-			+ " Prob x = " + probX 
-			+ " Prob = " + prob
-			+ " x = " + Arrays.toString(sinrX)
-			+ " staticSINRLinear = " + staticSINRLinear 
-			+ " sinrDropLinear = " + sinrDropLinear 
-			+ " weighted SINR = " + weightedSINR
-			+ "Static SINR = " + staticSINR);
-		return staticSINR;
-	}
-
-	public DropProbabilityPredictionModel getProbModel() {
-		return probModel;
-	}
-
-	public SinrPredictionModel getSinrModel() {
-		return sinrModel;
-	}
-
-	public double getWeight() {
-		return weight;
+		// if (sinr >= sinrThreshold) return hcost;
+		// double phi = (sinrThreshold - sinr) / sinrThreshold;
+		// return hcost * (1.0 + phi);
+		//* Calculation 1 */
+		// return Math.max(1.0 + (sinrThreshold - sinr) / sinrThreshold, 1);
+		//* Calculation 2 */
+		return Math.max(1.0 + (sinrThreshold - sinr) / sinrThreshold, 0);
 	}
 }

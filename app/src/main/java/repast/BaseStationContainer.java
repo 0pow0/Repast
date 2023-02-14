@@ -18,6 +18,8 @@ import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import com.google.gson.JsonSyntaxException;
 
+import util.AppConf;
+
 /*  
  * Read configuration JSON file for base stations and construct base station
  * array. 
@@ -25,8 +27,7 @@ import com.google.gson.JsonSyntaxException;
 public class BaseStationContainer implements Iterable<BaseStation> {
   private ArrayList<BaseStation> baseStations;
   private static BaseStationContainer container = null;
-  public static String configFilePath = "/home/rzuo02/work/repast/app/src/main"
-    +"/resources/repast/base-stations.json";
+  public static String configFilePath;
 
   public static BaseStationContainer getInstance() {
     if (container == null) {
@@ -40,6 +41,7 @@ public class BaseStationContainer implements Iterable<BaseStation> {
   }
 
   private BaseStationContainer(String filePath) throws JsonIOException, JsonSyntaxException, FileNotFoundException {
+    configFilePath = AppConf.getInstance().getString("repast.BaseStationContainer.baseStationConfigPath");
     baseStations = new ArrayList<BaseStation>();
     JsonArray arr = JsonParser.parseReader(new FileReader(filePath)).
         getAsJsonObject().

@@ -5,11 +5,13 @@ package repast;
 
 import java.io.IOException;
 import java.time.Duration;
+import java.util.Scanner;
 
 import ai.djl.MalformedModelException;
 import ai.djl.repository.zoo.ModelNotFoundException;
 import repast.simphony.batch.InstanceRunner;
 import repast.simphony.scenario.ScenarioLoadException;
+import util.AppConf;
 
 public class App {
   public static void main(String[] args)
@@ -22,5 +24,13 @@ public class App {
     long timeElapsed = System.nanoTime() - startTime;
     Duration duration = Duration.ofNanos(timeElapsed);
     System.out.println("Simulation Time: " + duration);
+    // test();
+  }
+
+  private static void test() {
+    NS3CommunicatiorHelper helper = new NS3CommunicatiorHelper();
+    helper.sendCreationReq("1", "48.03261", "-102.985", 0);
+    helper.sendSINRReq("1");
+    helper.receiveSINRResp();
   }
 }

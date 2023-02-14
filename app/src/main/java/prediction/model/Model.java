@@ -8,8 +8,8 @@ import util.AppConf;
 
 public class Model {
 	private DropProbabilityPredictionModel probModel;
-	private SinrPredictionModel sinrModel;
 	private StaticPredictionModel staticPredictionModel;
+	private SinrPredictionModel sinrModel;
 	private DropPercentageModel dropPercentageModel;
 	private double weight;
 	private double sinrThreshold;
@@ -110,10 +110,13 @@ public class Model {
 			float minLinear = staticSinrLinear - dropLinear;
 			float prob;
 			try {
-				prob = probModel.predict(xForProbPredictionModel[0]);
+				if (xForProbPredictionModel[0] == 0.0f) prob = 0.0f;
+				else prob = probModel.predict(xForProbPredictionModel[0]);
 			} catch (TranslateException e) {
 				throw new RuntimeException(e);
 			}
+			System.out.println("x = " + Arrays.toString(xForProbPredictionModel)
+				+ " Prob = " + prob + " minLinear = " + minLinear + " 1-prob = " + (1 - prob) + " StaticLinear = " + staticSinrLinear);
 			predictedSinrLinear = prob * minLinear + (1 - prob) * staticSinrLinear;
 		} else {
 			throw new RuntimeException("Unsupported method. Available methods are:"

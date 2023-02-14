@@ -14,6 +14,7 @@ import ai.djl.translate.Translator;
 import ai.djl.translate.Batchifier;
 import ai.djl.translate.TranslateException;
 import ai.djl.translate.TranslatorContext;
+import util.AppConf;
 import ai.djl.repository.zoo.Criteria;
 import ai.djl.repository.zoo.ModelNotFoundException;
 import ai.djl.repository.zoo.ZooModel;
@@ -25,10 +26,11 @@ public class DropProbabilityPredictionModel {
     private ZooModel<Float, Float> model;
     private Predictor<Float, Float> predictor;
 
-    private static String modelPath = "/home/rzuo02/work/repast/app/src/main/resources/repast/traced_prob_regression_model.pt";
+    private static String modelPath;
     
     public DropProbabilityPredictionModel() throws ModelNotFoundException, MalformedModelException, IOException {
         this.translator = new InputTranslator();
+        modelPath = AppConf.getInstance().getString("prediction.DropProbabilityModel.path");
         criteria = Criteria.builder()
             .setTypes(Float.class, Float.class)
             .optTranslator((Translator) translator)
