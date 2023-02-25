@@ -1129,9 +1129,9 @@ public class Deconfliction {
 			double sumSinrOfAllSamples = 0.0;
 			for (List<float[]> wrap : xs) {
 				try{
-					double sinr = Model.getInstance().calcPreictedSinr(wrap.get(0),
-						wrap.get(1), wrap.get(2));
-					sumSinrOfAllSamples += sinr;
+					// double sinr = Model.getInstance().calcPreictedSinr(wrap.get(0),
+						// wrap.get(1), wrap.get(2));
+					// sumSinrOfAllSamples += sinr;
 				} catch (Exception e) {
 					throw new RuntimeException(e);
 				}

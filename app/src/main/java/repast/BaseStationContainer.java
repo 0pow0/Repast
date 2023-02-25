@@ -32,6 +32,8 @@ public class BaseStationContainer implements Iterable<BaseStation> {
   public static BaseStationContainer getInstance() {
     if (container == null) {
       try {
+        if (configFilePath == null)
+          configFilePath = AppConf.getInstance().getString("repast.BaseStationContainer.baseStationConfigPath");
         container = new BaseStationContainer(configFilePath);
       } catch (Exception e) {
         throw new RuntimeException(e);
@@ -41,7 +43,6 @@ public class BaseStationContainer implements Iterable<BaseStation> {
   }
 
   private BaseStationContainer(String filePath) throws JsonIOException, JsonSyntaxException, FileNotFoundException {
-    configFilePath = AppConf.getInstance().getString("repast.BaseStationContainer.baseStationConfigPath");
     baseStations = new ArrayList<BaseStation>();
     JsonArray arr = JsonParser.parseReader(new FileReader(filePath)).
         getAsJsonObject().

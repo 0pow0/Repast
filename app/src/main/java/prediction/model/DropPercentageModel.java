@@ -25,9 +25,8 @@ public class DropPercentageModel {
   private ZooModel<FloatBuffer, Float> model;
   private Predictor<FloatBuffer, Float> predictor;
 
-  public DropPercentageModel(String path, Shape shape) throws ModelNotFoundException, MalformedModelException, IOException {
+  public DropPercentageModel(String path) throws ModelNotFoundException, MalformedModelException, IOException {
     modelPath = path;
-    inputShape = shape;
     translator = new InputTranslator();
     criteria = Criteria.builder()
       .setTypes(FloatBuffer.class, Float.class)
@@ -39,9 +38,10 @@ public class DropPercentageModel {
     predictor = model.newPredictor();
   }
 
-  public float predict(float[] arr) throws TranslateException {
+  public float predict(float[] arr, Shape shape) throws TranslateException {
+    inputShape = shape;
     FloatBuffer buffer = FloatBuffer.wrap(arr);
-      return predictor.predict(buffer);
+    return predictor.predict(buffer);
   }
 
   final class InputTranslator implements Translator<FloatBuffer, Float> {

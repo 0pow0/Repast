@@ -17,7 +17,7 @@ public class InputFactory {
    * Query NS3 for base station id to which Ue at this location will attched.
    * @param coor: coor.get(0) is longitude, coor.get(1) is latitude
    */
-  public static List<float[]> produceInput(UserEquipment ue,
+  public static InputWrap produceInput(UserEquipment ue,
 		List<Double> coor) {
 		double lng = coor.get(0);
 		double lat = coor.get(1);
@@ -25,33 +25,20 @@ public class InputFactory {
 		while (attachedEnbID == -1) {
 			attachedEnbID = ue.getAttachedBaseStationID();
 		}
-  
+
+		InputWrap input = new InputWrap();
     BaseStationController controller = new BaseStationController();
-		List<float[]> xs = new ArrayList<>();
-    int size = controller.getContainer().size();
-		int featureSize = AppConf.getInstance().getInt("featureSize");
-    FloatBuffer buffer = FloatBuffer.allocate((size - 1) * featureSize); 
-		int cnt = 0;
-		int numberOfInterferingUe = 0;
 		for (BaseStation bs : controller.getContainer()) {
 			double distance = Utils.calcDistance(lat, lng, bs.getLat(), bs.getLng());
-			float[] curr = new float[5];
-			curr[0] = (float) distance;
-			curr[1] = (float) bs.getTxPower();
-			curr[2] = (float) bs.getBandwidth();
-			curr[3] = (float) bs.getSubBandwidth();
-			curr[4] = (float) bs.getSubBandOffset();
+			InputFromBaseStation x = new InputFromBaseStation(bs.getId(), distance,
+				bs.getTxPower(), bs.getBandwidth(), bs.getBandwidth(),
+				bs.getSubBandOffset(), bs.getNumberOfAttachedUe());
 			if (bs.getId() == attachedEnbID) {
-				xs.add(curr);
+				input.setInputOfAttachedBS(x);
 			} else {
-				buffer.put(curr);
-				numberOfInterferingUe += bs.getNumberOfAttachedUe();
-				cnt++;
+				input.getInputOfInterferingBS().add(x);
 			}
 		}
-		xs.add(buffer.array());
-		xs.add(new float[]{numberOfInterferingUe});
-		assert cnt == size - 1;
-		return xs;
-  }  
+		return input;
+  }
 }

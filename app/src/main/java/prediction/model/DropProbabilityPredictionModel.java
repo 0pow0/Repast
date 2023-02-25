@@ -19,52 +19,55 @@ import ai.djl.repository.zoo.Criteria;
 import ai.djl.repository.zoo.ModelNotFoundException;
 import ai.djl.repository.zoo.ZooModel;
 
-
 public class DropProbabilityPredictionModel {
-    private InputTranslator translator;
-    private Criteria<Float, Float> criteria;
-    private ZooModel<Float, Float> model;
-    private Predictor<Float, Float> predictor;
+  private static String modelPath;
+  private Shape inputShape;
+  private InputTranslator translator;
+  private Criteria<FloatBuffer, Float> criteria;
+  private ZooModel<FloatBuffer, Float> model;
+  private Predictor<FloatBuffer, Float> predictor;
 
-    private static String modelPath;
-    
-    public DropProbabilityPredictionModel() throws ModelNotFoundException, MalformedModelException, IOException {
-        this.translator = new InputTranslator();
-        modelPath = AppConf.getInstance().getString("prediction.DropProbabilityModel.path");
-        criteria = Criteria.builder()
-            .setTypes(Float.class, Float.class)
-            .optTranslator((Translator) translator)
-            .optModelPath(Paths.get(modelPath))
-            .build();
-        model = criteria.loadModel();
-        predictor = model.newPredictor();
+
+  public DropProbabilityPredictionModel(String path, Shape shape) {
+    this.translator = new InputTranslator();
+    modelPath = path;
+    inputShape = shape;
+    criteria = Criteria.builder()
+        .setTypes(FloatBuffer.class, Float.class)
+        .optTranslator((Translator) translator)
+        .optModelPath(Paths.get(path))
+        .build();
+    try {
+      model = criteria.loadModel();
+    } catch (ModelNotFoundException | MalformedModelException | IOException e) {
+      throw new RuntimeException(e);
+    }
+    predictor = model.newPredictor();
+  }
+
+  public float predict(float[] arr) {
+    FloatBuffer buffer = FloatBuffer.wrap(arr);
+    try {
+      return predictor.predict(buffer);
+    } catch (TranslateException e) {
+      throw new RuntimeException(e);
+    }
+  }
+
+  private final class InputTranslator implements Translator<FloatBuffer, Float> {
+
+    @Override
+    public NDList processInput(TranslatorContext ctx, FloatBuffer input) throws Exception {
+      NDManager manager = ctx.getNDManager();
+      NDArray array = manager.create(inputShape);
+      array.set(input);
+      return new NDList(array);
     }
 
-    public float predict(float arr) throws TranslateException {
-        return predictor.predict(arr);
+    @Override
+    public Float processOutput(TranslatorContext ctx, NDList list) throws Exception {
+      float[] res = list.get(0).toFloatArray();
+      return res[0];
     }
-
-    private final class InputTranslator implements Translator<Float, Float> {
-
-        @Override
-        public NDList processInput(TranslatorContext ctx, Float input) throws Exception {
-            Shape shape = new Shape(1);
-            NDManager manager = ctx.getNDManager();
-            NDArray array = manager.create(shape);
-            array.set(new float[]{input});
-            return new NDList(array);
-        }
-
-        @Override
-        public Float processOutput(TranslatorContext ctx, NDList list) throws Exception {
-            float[] res = list.get(0).toFloatArray();
-            return res[0];
-        }
-
-        @Override
-        public Batchifier getBatchifier() {
-            // TODO Auto-generated method stub
-            return null;
-        }
-    }
+  }
 }

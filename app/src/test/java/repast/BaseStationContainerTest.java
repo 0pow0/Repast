@@ -18,7 +18,7 @@ public class BaseStationContainerTest {
   @Test
   public void appHasAGreeting() throws JsonIOException, JsonSyntaxException, FileNotFoundException {
     BaseStationContainer.configFilePath
-      = "/home/rzuo02/work/repast/app/src/test/resources/base-stations.json";
+      = "/Users/zuorui/Work/Repast/app/src/test/resources/base-stations.json";
     BaseStationContainer classUnderTest = BaseStationContainer.getInstance();
     BaseStation bs = classUnderTest.get(0);
     assertEquals("test id", 1, bs.getId());
@@ -28,7 +28,7 @@ public class BaseStationContainerTest {
   @Test
   public void testIterator() throws JsonIOException, JsonSyntaxException, FileNotFoundException {
     BaseStationContainer.configFilePath
-      = "/home/rzuo02/work/repast/app/src/test/resources/base-stations.json";
+      = "/Users/zuorui/Work/Repast/app/src/test/resources/base-stations.json";
     BaseStationContainer classUnderTest = BaseStationContainer.getInstance();
     for (BaseStation bs : classUnderTest) {
       assertEquals("test id", 1, bs.getId());

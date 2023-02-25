@@ -49,6 +49,7 @@ import jzombies.Operator;
 import jzombies.Util;
 import jzombies.specific_mission_node;
 import prediction.input.InputFactory;
+import prediction.input.InputWrap;
 import prediction.input.SinrPredictionModelInputWrap;
 import prediction.model.Model;
 
@@ -3305,13 +3306,14 @@ public class UAV {
 		sb.append(Double.toString(ue.getSinr()) + ",");
 		sb.append(Double.toString(ue.getAttachedBaseStationID()) + ",");
 		sb.append(Double.toString(ue.getDistance()) + ",");
-		List<float[]> wrap = genInputWithCurrentLocation();
+		InputWrap wrap = genInputWithCurrentLocation();
 		double sinr = -1.0;
 		try {
 			// sinr = Model.getInstance().calcWeightedSINR(wrap.x.array(),
 			// 	wrap.numberOfUeAttachedToInterferenceBS,
 			// 	wrap.distanceToAttachedBS, 15);
-			sinr = Model.getInstance().calcPreictedSinr(wrap.get(0), wrap.get(1), wrap.get(2));
+			// sinr = Model.getInstance().calcPreictedSinr(wrap.get(0), wrap.get(1), wrap.get(2));
+			sinr = Model.getInstance().calcPreictedSinr(wrap);
 		} catch (Exception e) {
 			throw new RuntimeException(e);
 		}
@@ -3322,7 +3324,7 @@ public class UAV {
 		return sb.toString();
 	}
 
-	public List<float[]> genInputWithCurrentLocation() {
+	public InputWrap genInputWithCurrentLocation() {
 		Geometry myPoint = geography.getGeometry(this);
 		Double lng = BigDecimal.valueOf(myPoint.getCoordinate().x)
 			.setScale(7, RoundingMode.HALF_UP).doubleValue();
@@ -3331,7 +3333,7 @@ public class UAV {
 		ArrayList<Double> coor = new ArrayList<>();
 		coor.add(lng);
 		coor.add(lat);
-		List<float[]> xs = InputFactory.produceInput(ue, coor);
+		InputWrap xs = InputFactory.produceInput(ue, coor);
 		return xs;
 	}
 
