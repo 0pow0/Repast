@@ -55,4 +55,9 @@ public class InputWrap {
     }
     return res;
   }
+
+  @Override
+  public String toString() {
+    return "InputWrap [inputOfAttachedBS=" + inputOfAttachedBS + ", inputOfInterferingBS=" + inputOfInterferingBS + "]";
+  }
 }

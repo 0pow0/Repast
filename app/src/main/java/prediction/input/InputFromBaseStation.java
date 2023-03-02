@@ -30,4 +30,11 @@ public class InputFromBaseStation {
     arr[4] = (float) subBandOffset;
     return arr;
   }
+
+  @Override
+  public String toString() {
+    return "InputFromBaseStation [id=" + id + ", distance=" + distance + ", txPower=" + txPower + ", bandwidth="
+        + bandwidth + ", subBandwidth=" + subBandwidth + ", subBandOffset=" + subBandOffset + ", numberOfAttachedUe="
+        + numberOfAttachedUe + "]";
+  }
 }

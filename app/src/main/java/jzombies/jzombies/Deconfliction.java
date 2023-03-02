@@ -18,6 +18,8 @@ import ai.djl.translate.TranslateException;
 import prediction.model.DropProbabilityPredictionModel;
 import prediction.model.Model;
 import prediction.model.SinrPredictionModel;
+import prediction.input.InputFromBaseStation;
+import prediction.input.InputWrap;
 import prediction.input.SinrPredictionModelInputWrap;
 import repast.BaseStation;
 import repast.BaseStationContainer;
@@ -750,7 +752,18 @@ public class Deconfliction {
 				// neighbour.changeDirection = false;
 				// }
 
-				double newMovementCostToNeighbour = currNode.gCost + GetDistance(currNode, neighbour);
+				double newMovementCostToNeighbour;
+				if (AppConf.getInstance().getBoolean("routingWithSINRPrediction")) {
+					List<Double> neighborLngLat = util.convertToLngLat(neighbour);
+					List<List<Double>> neighborLngLatList = new ArrayList<>();
+					neighborLngLatList.add(neighborLngLat);
+					double neighborSINR = util.calcAverageSinr(
+						neighborLngLatList, uavID, 1, neighbour.t);
+					newMovementCostToNeighbour = currNode.gCost + hCostCalculator.calcGCost(neighborSINR);
+				} else {
+					newMovementCostToNeighbour = currNode.gCost + GetDistance(currNode, neighbour);
+				}
+
 				// and if it's lower than the neighbour's cost
 				if (newMovementCostToNeighbour < neighbour.gCost || !openSet.contains(neighbour)) {
 					// we calculate the new costs
@@ -1002,10 +1015,10 @@ public class Deconfliction {
 		//* Each elements in returned list is consist of 6 numbers.
 		//* [0] is distance to attached base station (for static SINR calc)
 		//* [1] ~ [5] is inputs for prediction model (5 features)
-		public List<List<float[]>> genSinrModelInput(
+		public List<InputWrap> genSinrModelInput(
 			List<List<Double>> samples, int uavID, int timestep) {
 
-			List<List<float[]>> res = new ArrayList<>();
+			List<InputWrap> res = new ArrayList<>();
 
 			for (List<Double> coor : samples) {
 				double lng = coor.get(0);
@@ -1037,34 +1050,24 @@ public class Deconfliction {
 				//* will not containing inputs for this sample which will make the 
 				//* prediction results becomes 0.
 				if (attachedEnbID != -1) {
-					int size = baseStationController.getContainer().size();
-					int featureSize = AppConf.getInstance().getInt("featureSize");
-					FloatBuffer buffer = FloatBuffer.allocate((size - 1) * featureSize); 
-					int cnt = 0;
-					int numberOfInterferingUe = 0;
-					List<float[]> xs = new ArrayList<>();
+					InputWrap inputWrap = new InputWrap();
 					for (BaseStation bs : baseStationController.getContainer()) {
 						double distance = distance2Coordinate(geography, coor.get(0),
 							coor.get(1), bs.getLng(), bs.getLat());
-						float[] curr = new float[5];
-						curr[0] = (float) distance;
-						curr[1] = (float) bs.getTxPower();
-						curr[2] = (float) bs.getBandwidth();
-						curr[3] = (float) bs.getSubBandwidth();
-						curr[4] = (float) bs.getSubBandOffset();
+						InputFromBaseStation x = new InputFromBaseStation(bs.getId(), distance,
+							bs.getTxPower(), bs.getBandwidth(), bs.getSubBandwidth(),
+							bs.getSubBandOffset(), 
+							// initial number of ue + number of ue has launched
+							bs.getNumberOfAttachedUe() + attachedUeRecorder.getByTimestepAndEnbId(timestep, bs.getId())
+						);
 						if (bs.getId() == attachedEnbID) {
-							xs.add(curr);
+							x.numberOfAttachedUe += 1;
+							inputWrap.setInputOfAttachedBS(x);
 						} else {
-							// numberOfInterferingUe += attachedUeRecorder.getByTimestepAndEnbId(timestep, bs.getId());
-							numberOfInterferingUe += 2;
-							buffer.put(curr);
-							cnt++;
+							inputWrap.getInputOfInterferingBS().add(x);
 						}
 					}
-					assert cnt == size - 1;
-					xs.add(buffer.array());
-					xs.add(new float[]{numberOfInterferingUe});
-					res.add(xs);
+					res.add(inputWrap);
 				}
 			}
 			return res;
@@ -1121,17 +1124,16 @@ public class Deconfliction {
 		public double calcAverageSinr(List<List<Double>> samples, int uavID,
 			int sampleSize, int timestep) {
 			//* xs could less than 10 since no connection sample are not included.
-			List<List<float[]>> xs = util.genSinrModelInput(samples, uavID, timestep);
+			List<InputWrap> xs = util.genSinrModelInput(samples, uavID, timestep);
 			System.out.println("[Model Input]");
-			for (List<float[]> l : xs) {
-				l.forEach(array -> System.out.println(Arrays.toString(array)));
+			for (InputWrap e : xs) {
+				System.out.println(e);
 			}
 			double sumSinrOfAllSamples = 0.0;
-			for (List<float[]> wrap : xs) {
+			for (InputWrap wrap : xs) {
 				try{
-					// double sinr = Model.getInstance().calcPreictedSinr(wrap.get(0),
-						// wrap.get(1), wrap.get(2));
-					// sumSinrOfAllSamples += sinr;
+					double sinr = Model.getInstance().calcPreictedSinr(wrap);
+					sumSinrOfAllSamples += sinr;
 				} catch (Exception e) {
 					throw new RuntimeException(e);
 				}
@@ -1156,6 +1158,10 @@ class HCostCalculator {
 		//* Calculation 1 */
 		// return Math.max(1.0 + (sinrThreshold - sinr) / sinrThreshold, 1);
 		//* Calculation 2 */
+		return Math.max(1.0 + (sinrThreshold - sinr) / sinrThreshold, 0) * hcost;
+	}
+
+	public double calcGCost(double sinr) {
 		return Math.max(1.0 + (sinrThreshold - sinr) / sinrThreshold, 0);
 	}
 }

@@ -3306,19 +3306,19 @@ public class UAV {
 		sb.append(Double.toString(ue.getSinr()) + ",");
 		sb.append(Double.toString(ue.getAttachedBaseStationID()) + ",");
 		sb.append(Double.toString(ue.getDistance()) + ",");
-		InputWrap wrap = genInputWithCurrentLocation();
+		// InputWrap wrap = genInputWithCurrentLocation();
 		double sinr = -1.0;
 		try {
 			// sinr = Model.getInstance().calcWeightedSINR(wrap.x.array(),
 			// 	wrap.numberOfUeAttachedToInterferenceBS,
 			// 	wrap.distanceToAttachedBS, 15);
 			// sinr = Model.getInstance().calcPreictedSinr(wrap.get(0), wrap.get(1), wrap.get(2));
-			sinr = Model.getInstance().calcPreictedSinr(wrap);
+			// sinr = Model.getInstance().calcPreictedSinr(wrap);
 		} catch (Exception e) {
 			throw new RuntimeException(e);
 		}
 		// sb.append(Float.toString(wrap.get(0)[0]) + ",");
-		sb.append(Double.toString(sinr));
+		// sb.append(Double.toString(sinr));
 		// sb.append(Double.toString(ue.getDistance()) + ",");
 		// sb.append(Double.toString(wrap.distanceToAttachedBS));
 		return sb.toString();
@@ -3343,7 +3343,7 @@ class UAVLogger {
 	private Path path;
 	public static final String header = "Timestamp,Repast ID,Ue SINR(dB),"
 		+ "Ue SINR(Linear),"
-		+ "Ue Attached BS ID,Ue Distance,Predicted SINR";
+		+ "Ue Attached BS ID,Ue Distance";//,Predicted SINR";
 	public UAVLogger(String path) {
 		this.path = Paths.get(path);
 		save(Arrays.asList(header));

@@ -31,7 +31,7 @@ public class InputFactory {
 		for (BaseStation bs : controller.getContainer()) {
 			double distance = Utils.calcDistance(lat, lng, bs.getLat(), bs.getLng());
 			InputFromBaseStation x = new InputFromBaseStation(bs.getId(), distance,
-				bs.getTxPower(), bs.getBandwidth(), bs.getBandwidth(),
+				bs.getTxPower(), bs.getBandwidth(), bs.getSubBandwidth(),
 				bs.getSubBandOffset(), bs.getNumberOfAttachedUe());
 			if (bs.getId() == attachedEnbID) {
 				input.setInputOfAttachedBS(x);
