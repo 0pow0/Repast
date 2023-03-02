@@ -1,0 +1,9 @@
+<context id="jzombies" 
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+   xsi:noNamespaceSchemaLocation="http://repast.org/scenario/context">
+   
+   <projection type="geography" id="geography"/>
+   <projection type="network" id="good infection network"/>
+   <projection type="network" id="fair infection network"/>
+   <projection type="network" id="bad infection network"/>
+</context>
