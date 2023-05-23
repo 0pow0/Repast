@@ -1,0 +1,1601 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Repast statecharts diagram
+Bundle-SymbolicName: repast.simphony.statecharts.diagram; singleton:=tru
+ e
+Bundle-Version: 2.9.1
+Bundle-ClassPath: bin/,.
+Bundle-Activator: repast.simphony.statecharts.part.StatechartDiagramEdit
+ orPlugin
+Bundle-Vendor: Argonne National Laboratory
+Bundle-Localization: plugin
+Export-Package: repast.simphony.statecharts.edit.parts,repast.simphony.s
+ tatecharts.part,repast.simphony.statecharts.providers
+Require-Bundle: org.eclipse.core.runtime,org.eclipse.core.resources,org.
+ eclipse.core.expressions,org.eclipse.jface,org.eclipse.ui.ide,org.eclip
+ se.ui.views,org.eclipse.ui.navigator,org.eclipse.ui.navigator.resources
+ ,org.eclipse.emf.ecore,org.eclipse.emf.ecore.xmi,org.eclipse.emf.edit.u
+ i,org.eclipse.gmf.runtime.emf.core,org.eclipse.gmf.runtime.emf.commands
+ .core,org.eclipse.gmf.runtime.emf.ui.properties,org.eclipse.gmf.runtime
+ .diagram.ui,org.eclipse.gmf.runtime.diagram.ui.properties,org.eclipse.g
+ mf.runtime.diagram.ui.providers,org.eclipse.gmf.runtime.diagram.ui.prov
+ iders.ide,org.eclipse.gmf.runtime.diagram.ui.render,org.eclipse.gmf.run
+ time.diagram.ui.resources.editor,org.eclipse.gmf.runtime.diagram.ui.res
+ ources.editor.ide,org.eclipse.draw2d;visibility:=reexport,org.eclipse.g
+ mf.runtime.draw2d.ui;visibility:=reexport,repast.simphony.statecharts.e
+ dit;visibility:=reexport,org.eclipse.ocl.ecore;visibility:=reexport,org
+ .eclipse.gef;visibility:=reexport,org.eclipse.emf.databinding,org.eclip
+ se.emf.databinding.edit,org.eclipse.jface.databinding,org.eclipse.core.
+ databinding.property,repast.simphony.statecharts.model;visibility:=reex
+ port,org.eclipse.jdt.core,repast.simphony.statecharts.generator,org.ecl
+ ipse.emf.validation;visibility:=reexport,org.eclipse.emf.validation.ocl
+ ;visibility:=reexport,org.eclipse.gmf.runtime.notation;visibility:=reex
+ port,org.eclipse.gmf.runtime.draw2d.ui.render.awt,org.eclipse.gmf.runti
+ me.draw2d.ui.render,org.w3c.dom.svg,org.apache.batik.svggen,repast.simp
+ hony.eclipse,org.eclipse.jdt.groovy.core,org.junit,org.eclipse.jdt.ui,o
+ rg.eclipse.ui.workbench.texteditor,org.eclipse.gmf.runtime.diagram.ui.p
+ rinting,org.eclipse.gmf.runtime.diagram.ui.printing.render,org.eclipse.
+ jdt.debug.ui,org.eclipse.jdt.launching,org.apache.batik.util,org.codeha
+ us.groovy.eclipse.ui
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: junit.framework,org.codehaus.groovy.eclipse.core
+
+Name: bin/repast/simphony/statecharts/edit/policies/StatechartTextNonRes
+ izableEditPolicy$2.class
+SHA-256-Digest: iarqioM3xLjMjzModzojdHGlC89tHQsMYNBhPWff2T8=
+
+Name: bin/repast/simphony/statecharts/editor/BracketInserter.class
+SHA-256-Digest: Si95EMvrh526smEiuZsfp7BqXrQVw9emmjlL7k6AmEs=
+
+Name: bin/repast/simphony/statecharts/editor/EditorSupport$4.class
+SHA-256-Digest: APnob1TsGukt+RjetWtZ01LepRQHvPJ4hZGNnEKOlQQ=
+
+Name: bin/repast/simphony/statecharts/edit/parts/StateEditPart$1.class
+SHA-256-Digest: 3Anb1rMapMsycMsbaDOxJwNDG5HZzN1+QqbcRx+5UAM=
+
+Name: bin/repast/simphony/statecharts/navigator/StatechartNavigatorItem.
+ class
+SHA-256-Digest: 5ezT25Xv/M3mafEj5ff5Ym2aIHWIrBg1rlv3QTR/DuA=
+
+Name: bin/repast/simphony/statecharts/policies/ShowPropsEditPolicy.class
+SHA-256-Digest: JT61/6g32Radwld1oqxwuI3toJuwvlFIUXlVDumTLFI=
+
+Name: bin/repast/simphony/statecharts/part/ModelElementSelectionPage.cla
+ ss
+SHA-256-Digest: pYRdAGn7H/1ZBicOFv7dBFUgjGZ1VdcRkQmRT9/0G7s=
+
+Name: bin/repast/simphony/statecharts/providers/ElementInitializers.clas
+ s
+SHA-256-Digest: uzU7KqvFhpTemJJ87jfmu9tyzzBr3oThSPBKI3IwMQk=
+
+Name: bin/repast/simphony/statecharts/part/StatechartDiagramUpdater.clas
+ s
+SHA-256-Digest: SWmlpIvDc40625m2BI0C63B7Bnho860KJWSxbiww6YM=
+
+Name: bin/repast/simphony/statecharts/part/StatechartCreationWizardPage0
+ $Validator.class
+SHA-256-Digest: qaQKvPNP8iuRv3WN/FoKQogLG7mx0nIrLcksdx0MNeg=
+
+Name: bin/repast/simphony/statecharts/part/StatechartNewDiagramFileWizar
+ d.class
+SHA-256-Digest: hh+hm4wCovLd7hgI2mVxSrkDWZM1WWADXvKm7somv40=
+
+Name: bin/repast/simphony/statecharts/edit/parts/FinalStateEditPart$Fina
+ lStateFigure.class
+SHA-256-Digest: 30cRsGrMewsP8ThtFpPFwgZVgEVPyW1Y3q+1o/HIKoU=
+
+Name: bin/repast/simphony/statecharts/part/DiagramEditorContextMenuProvi
+ der.class
+SHA-256-Digest: j8Sfzov1lnUoefGXcQKk4m1wcOOHLcoF0HNV21ehHng=
+
+Name: bin/repast/simphony/statecharts/part/StatechartCodeAdder.class
+SHA-256-Digest: 2VGc0/10gxMuxbz0Bcp+FLdwM1B3zTPIEd8d8AQ9Z80=
+
+Name: icons/svg/first_state.svg
+SHA-256-Digest: jqvSm7g6uTbjpqUcYV+IwIIw/juZ4wAgmfb+FJowHGE=
+
+Name: bin/repast/simphony/statecharts/edit/policies/StatechartTextSelect
+ ionEditPolicy.class
+SHA-256-Digest: f5GepPiFGVcwRilDrBPSpxbS6szegqooAB9+NZna4Jg=
+
+Name: bin/repast/simphony/statecharts/editor/GroovyBracketInserter$Groov
+ yBracketLevel.class
+SHA-256-Digest: SyB5LGyUQhbXz5xp8HQ1MvquE5qQeHVAmAtJ3u6dZGI=
+
+Name: bin/repast/simphony/statecharts/part/StatechartDiagramUpdateComman
+ d.class
+SHA-256-Digest: grL9hxfw2KrPnTRUjth6VGU2kgxeNwn1X7wquHsVo7k=
+
+Name: bin/repast/simphony/statecharts/edit/parts/PseudoState5EditPart.cl
+ ass
+SHA-256-Digest: UVq0B4yzusYOQ8Tcx+WPjIuib0yfyJ8Ql8dTBKjCNoU=
+
+Name: bin/repast/simphony/statecharts/sheets/PseudoStateSheet.class
+SHA-256-Digest: F90Gzu6ndlrkhM/XtEm4P5aYnNvUgUpXiM/l4HvwUMM=
+
+Name: bin/repast/simphony/statecharts/editor/StatechartCodeEditor.class
+SHA-256-Digest: XDK7ovgMKgAQWRc80LoHodfC3IhoApSFJiiDqO81fHs=
+
+Name: bin/repast/simphony/statecharts/providers/StatechartValidationProv
+ ider$Ctx_2005_3003.class
+SHA-256-Digest: GFWd/JkvdsGr3Yu1+uw/VUlRRrvbF6eSYcPf7cLHL9g=
+
+Name: bin/repast/simphony/statecharts/edit/parts/DefaultSizeNodeFigureFi
+ xedAnchors.class
+SHA-256-Digest: RBo9bqTfjgYUENax75QTn52ApGgR3CgbsdIp1yoaLAw=
+
+Name: bin/repast/simphony/statecharts/edit/policies/StatechartTextSelect
+ ionEditPolicy$2.class
+SHA-256-Digest: Iw61W7QUrUA+rpQOffmh5E+nWJhjN2fNWF+3EOrtrIo=
+
+Name: bin/repast/simphony/statecharts/part/StatechartMatchingStrategy.cl
+ ass
+SHA-256-Digest: c/dmczyrUaOBc/saHdJtrqscqOxsE1OgJehaAasRSIY=
+
+Name: bin/repast/simphony/statecharts/validation/TransitionValidator.cla
+ ss
+SHA-256-Digest: UyWZ03EWWXqGsyWPY8snqT99uko0blCXCJFSjKnnXWE=
+
+Name: bin/repast/simphony/statecharts/edit/parts/PseudoState3EditPart$In
+ itialStateFigure.class
+SHA-256-Digest: YE7OYG3MC47Nnk/lOEkzVB2PYw+kMfEGEGkmrn5eYbE=
+
+Name: bin/repast/simphony/statecharts/editor/BracketInserter$BracketLeve
+ l.class
+SHA-256-Digest: pq2Y6NBdSRekeGquuS5xV26g7oxBM8zMPEQ75vgn3A8=
+
+Name: bin/repast/simphony/statecharts/part/StatechartNewDiagramFileWizar
+ d$DiagramRootElementSelectionPage.class
+SHA-256-Digest: sLb2SixviOVm9b5JieJSsTC9IvAH9rfSXyLTpd9Ylxo=
+
+Name: bin/repast/simphony/statecharts/editor/Compiler$CompilerTask$Speci
+ alJavaFileManager.class
+SHA-256-Digest: KjsONXX3Thr3bSmWCH5Lrtf+N1y2BkXpmpbAMJFFooo=
+
+Name: bin/repast/simphony/statecharts/editor/EditorSupport$EditorData.cl
+ ass
+SHA-256-Digest: MiYcyWvRuHegXb14LE+gg8IKAAqy9B9s+yZydNifGtc=
+
+Name: bin/repast/simphony/statecharts/figures/FinalStateFigure.class
+SHA-256-Digest: VZdcHtOE4SQxYSjfauyRiuZ8UoV9EfcLhd+suwO42cA=
+
+Name: bin/repast/simphony/statecharts/navigator/StatechartNavigatorConte
+ ntProvider$3.class
+SHA-256-Digest: i9xsmv+DXlh6ZgQtRCzc8hylC2PtRDZToFLbfNkxDvo=
+
+Name: bin/repast/simphony/statecharts/edit/helpers/StateMachineEditHelpe
+ r.class
+SHA-256-Digest: sUR3U8OfKvFEEOgo2SUwxMGexrpmNm0WFwM/EwGJHHQ=
+
+Name: bin/repast/simphony/statecharts/sheets/DoubleToStringConverter.cla
+ ss
+SHA-256-Digest: WbMrNDw32nGC7yyPRQfEfn0kEJyb4sD8Rffm6EASX00=
+
+Name: bin/repast/simphony/statecharts/navigator/StatechartNavigatorSorte
+ r.class
+SHA-256-Digest: G9APo4tEbt8N2oaJsAoAIjgLGSbAxaA+5TkHJacCnxs=
+
+Name: bin/repast/simphony/statecharts/edit/parts/StateNameEditPart$2.cla
+ ss
+SHA-256-Digest: N2ETk3/z90OyQ0GyB7igCr1Caf0E4OdC4gtNZImV1Sg=
+
+Name: icons/obj32/State-32.png
+SHA-256-Digest: ElD2PImjxAICUuQl4j/dXh8LIFsTES3HAwZ7mtnj7EQ=
+
+Name: bin/repast/simphony/statecharts/edit/parts/StateName2EditPart$3.cl
+ ass
+SHA-256-Digest: pBPg2L5+1C1ESTcfDlzjbZ2d/q9rSxG95rEQcmXTH8s=
+
+Name: bin/org/eclipse/gmf/tooling/runtime/structure/DiagramStructure.cla
+ ss
+SHA-256-Digest: JMt8GgdxoqRC6F7xgzCivpIBgQDo+oB+5Re0Mk5FwMs=
+
+Name: bin/repast/simphony/statecharts/handlers/CodeGenHandler.class
+SHA-256-Digest: KzihsLL9P77CSvxW5nNIBLgB2mJOkoulAbmvPuWkVpY=
+
+Name: icons/obj32/First-State-32.png
+SHA-256-Digest: 5Yi5W9GmJRus55+0HQ+V/J8E6uR8HLBIhjo6Svbak8E=
+
+Name: bin/repast/simphony/statecharts/providers/StatechartValidationProv
+ ider$Ctx_2004_3002.class
+SHA-256-Digest: Jv9D8+kL+kQtQ3C+/TXXrlm8b1TwNFZQhbbuwn0jnu4=
+
+Name: bin/repast/simphony/statecharts/edit/parts/CompositeStatePopupBarE
+ ditPolicy.class
+SHA-256-Digest: TmHtHwxGvVLWx5qtrC6w5Yzwr9M+qlatiZAQ5naoAUQ=
+
+Name: bin/repast/simphony/statechart/part/CompliationUnitTests$PR.class
+SHA-256-Digest: oxuTQzCNGtcIHYPLP2+UlQWctKjW8IK+sYObZbtG6NY=
+
+Name: bin/repast/simphony/statecharts/sheets/AbstractEditorPropertySecti
+ on.class
+SHA-256-Digest: uBUYM7TLTT4oboPUAAz3wnYATK0BhSWHvZ6Utv1UnaQ=
+
+Name: bin/repast/simphony/statecharts/editor/StatechartJavaEditor.class
+SHA-256-Digest: m8PfTp7a0f8HWaWfHiXYmVO8fGbNGqcTnLk7S9LfemQ=
+
+Name: bin/repast/simphony/statecharts/parsers/MessageFormatParser.class
+SHA-256-Digest: 3Zt4L6HCHNXeR73iU5e8hl6x3nNp9FWsiXdeCfN3e/4=
+
+Name: bin/org/eclipse/gmf/tooling/runtime/draw2d/labels/SimpleLabelDeleg
+ ate.class
+SHA-256-Digest: 6mp/tderAEUk0AvRezIe493BDr23EhioHVcMwSvkQJs=
+
+Name: bin/repast/simphony/statecharts/part/StatechartDiagramEditor$3.cla
+ ss
+SHA-256-Digest: ZkV/7MC0pFAPRLA+L6j+RFv1aXplt2kVnPHUtx0linM=
+
+Name: bin/repast/simphony/statecharts/providers/StatechartValidationProv
+ ider$Adapter6.class
+SHA-256-Digest: XyJP0H8u5nfmqFG7mzYx34p+UPwLWLs6bcAVKJhjgzY=
+
+Name: bin/repast/simphony/statecharts/sheets/TransitionSheet.class
+SHA-256-Digest: bviE1WFMGuU+FHOn//QeKYSqlbYwEXOIjjxVF7yn3ao=
+
+Name: bin/repast/simphony/statecharts/editor/StatechartGroovyEditor$1.cl
+ ass
+SHA-256-Digest: tUTCTvogBDN7helC1MEm3IVlHyPHcGV2h9IgjJRh0Uw=
+
+Name: bin/org/eclipse/gmf/tooling/runtime/directedit/locator/TextCellEdi
+ torLocator.class
+SHA-256-Digest: sQ0kNQrJ6w+S6owvP+70OKrp61Up8ahwlbk6oSk/BWs=
+
+Name: bin/repast/simphony/statechart/part/CompliationUnitTests$MemoryByt
+ eCode.class
+SHA-256-Digest: KFNRalsu4F0Z5k+4K1xhlRUFaqcnE+iTGXl2fyOXPvw=
+
+Name: bin/repast/simphony/statecharts/edit/helpers/TransitionEditHelper.
+ class
+SHA-256-Digest: f6m/g4vj7HKY3y4UKqJKS846WwJsoQq7UVK103eOAfU=
+
+Name: bin/repast/simphony/statecharts/handlers/StatechartNature.class
+SHA-256-Digest: +q3OitF3uvqH0GIb1/z4FuTN3QFG7g1PBbI38NY5OwU=
+
+Name: bin/repast/simphony/statecharts/editor/BracketInserter$ExitPolicy.
+ class
+SHA-256-Digest: 9huTH/7kbtHWX4hVYqnDS9ePL2qFesqLhR6DxbK64Ak=
+
+Name: bin/repast/simphony/statecharts/sheets/LanguageButtonsGroup.class
+SHA-256-Digest: L2S7LDSKqEcHe0owh7BIsrTFw+KJI2RedWXiFe9HfH8=
+
+Name: bin/repast/simphony/statecharts/part/StatechartDocumentProvider$Re
+ sourceSetInfo.class
+SHA-256-Digest: 4j0jbPPWdt0fJgrCXV3zG9MR4ct2Xyqijt4M3Cp+tDw=
+
+Name: bin/repast/simphony/statecharts/part/StatechartDocumentProvider$Re
+ sourceSetInfo$SynchronizerDelegate$2.class
+SHA-256-Digest: b0H4gaEEDhI0xk+fuFE5lE6taSRgAyn0fhZi3sbE1wQ=
+
+Name: bin/repast/simphony/statecharts/preferences/DiagramConnectionsPref
+ erencePage.class
+SHA-256-Digest: 0opdogZQqaokJSgUNxsy6w+uWHMK8DwdcvUvIlzYW9I=
+
+Name: bin/repast/simphony/statecharts/sheets/Bug383650Fix$UpdateTextFocu
+ sListener.class
+SHA-256-Digest: 19B2MbqIH3ZxpdweRjA6NFqiMJqhAahxxjedVkoLwKI=
+
+Name: bin/repast/simphony/statecharts/part/StatechartCodeAdderFactory.cl
+ ass
+SHA-256-Digest: nuUSwOpTrDfWOPGa8pu/5wGxZIjKBtx5eT9aMqMgNu8=
+
+Name: bin/repast/simphony/statecharts/edit/policies/StateMachineItemSema
+ nticEditPolicy.class
+SHA-256-Digest: uvp4b8JBDw/RSWgCMu5h4g7VBTC+34/Kv4Kj27DS718=
+
+Name: bin/repast/simphony/statecharts/sheets/Bug383650Fix.class
+SHA-256-Digest: deuTTK5/IXhDoGebf7S0mVB5/SWkwzjS4FRqB12cOuI=
+
+Name: bin/repast/simphony/statecharts/editor/JavaSourceViewer.class
+SHA-256-Digest: /TY0zf1bC84eyL8PXQvUdXcmE2MT00cMaOj7WF0+9JQ=
+
+Name: bin/repast/simphony/statecharts/edit/commands/History2CreateComman
+ d.class
+SHA-256-Digest: bjCO8sHUq7tfwrGDBuMWGy7wnqH1zVXODHl9P+YacrI=
+
+Name: bin/repast/simphony/statecharts/editor/ErrorAnnotationHider$DL.cla
+ ss
+SHA-256-Digest: JEJ3VFVsh6VfLXUEGALZBZP9jfXnQrH2gtK4JhNEMao=
+
+Name: bin/repast/simphony/statecharts/navigator/StatechartDomainNavigato
+ rItem.class
+SHA-256-Digest: N6hzyknVZADeYCBPbiflmd4Ybgt4Zhb+W8ZxgJyEEcU=
+
+Name: bin/repast/simphony/statecharts/edit/parts/StateName2EditPart$1.cl
+ ass
+SHA-256-Digest: cNpU5zbm62eRxcJoqAmI1SqV2GoNdhf0usFUDBHqwtc=
+
+Name: bin/repast/simphony/statecharts/providers/StatechartValidationProv
+ ider$Ctx_2006_3006.class
+SHA-256-Digest: OnxsC6NYOAZa25GDQRSDbrNsiyyU1s2G/uU7duhcqhU=
+
+Name: bin/repast/simphony/statecharts/providers/StatechartModelingAssist
+ antProvider.class
+SHA-256-Digest: U5NmwGk4dUOJmMvFq7h1+uZIFX+gHSgUPiI2LjQV/zQ=
+
+Name: bin/repast/simphony/statecharts/providers/StatechartValidationProv
+ ider$Ctx_2007.class
+SHA-256-Digest: 2OvnWCpEFy2j3pxiCVtYsiuVKVyEaIvKdpzwDdk+xK8=
+
+Name: bin/repast/simphony/statecharts/edit/parts/State2EditPart.class
+SHA-256-Digest: SdkwNUC52q5VYtHnPGQWukrNxAyhd3R708KzyfrHZsI=
+
+Name: bin/repast/simphony/statecharts/editor/GroovySemanticReconciler.cl
+ ass
+SHA-256-Digest: +FGm61/oHJTQFjdst58LbYKuwM9vTJKerwiDeS5E6p0=
+
+Name: bin/repast/simphony/statecharts/edit/parts/PseudoState4EditPart.cl
+ ass
+SHA-256-Digest: X3rBqWgRX7VHgyPEVH/jM/ZrHi/XB8bpNCQ9N5649iA=
+
+Name: bin/repast/simphony/statecharts/part/StatechartDiagramEditorUtil$L
+ azyElement2ViewMap.class
+SHA-256-Digest: LX8iILqb1n/Ocur+XG1iXkTGSOR7F3cU9HTJEyoJVZA=
+
+Name: bin/repast/simphony/statecharts/edit/policies/FinalStateItemSemant
+ icEditPolicy.class
+SHA-256-Digest: 8O83/Qc5UoGh56zMpDG/DlFjaxeliYwWIcAId3sqTvg=
+
+Name: bin/repast/simphony/statecharts/edit/parts/CompositeStateComposite
+ StateCompartmentEditPart.class
+SHA-256-Digest: dxKZ1OH0g1N9/ZYVZ75r26qVF/5DNA3EiDx5Y9prc2U=
+
+Name: bin/repast/simphony/statecharts/part/StatechartDiagramEditorUtil$1
+ .class
+SHA-256-Digest: XQWTEb3K4khUev34oDH8315ut/PRlsvyOnkv6sTYnBw=
+
+Name: bin/repast/simphony/statecharts/edit/policies/CompositeStateCompos
+ iteStateCompartment2CanonicalEditPolicy.class
+SHA-256-Digest: l+gRMNUrDA8AHm2eEqTZB+/Z8ktogXcl58HzXwjtKxk=
+
+Name: bin/repast/simphony/statecharts/providers/StatechartValidationProv
+ ider$Ctx_4001.class
+SHA-256-Digest: DtuR4hFE6yBEDjHzKB2UTaN1pxrTEP1PKzEo2fX3RkQ=
+
+Name: bin/repast/simphony/statecharts/edit/parts/StateMachinePopupBarToo
+ l.class
+SHA-256-Digest: UaeI7XMovUA2DOGuHp+nEFGkPYv30PFW5CXZee1KPfM=
+
+Name: bin/repast/simphony/statecharts/edit/commands/PseudoState3CreateCo
+ mmand.class
+SHA-256-Digest: jvsD7+gnpcxYyzweyx4Ru2WSOSRj6bBCsQmLD2iBG/w=
+
+Name: bin/repast/simphony/statecharts/navigator/StatechartDomainNavigato
+ rItem$1.class
+SHA-256-Digest: yEzO96Q9Jjp34jVWITmURLdS4g4h7tqdY/lhOAv19xc=
+
+Name: icons/obj16/First-State-16.png
+SHA-256-Digest: D/sO9bE7V+q1GprwVnwiuesVT5Kz/jeO/wFT1U4b+D0=
+
+Name: bin/repast/simphony/statecharts/edit/parts/CompositeStateComposite
+ StateCompartment2EditPart.class
+SHA-256-Digest: Gzk9iRBglBOMLIy5b1L4HMyIwKtMG8DYRuZ8zPp4gpc=
+
+Name: bin/repast/simphony/statecharts/edit/parts/StateName2EditPart.clas
+ s
+SHA-256-Digest: lxVCqZXrIuL27RT9M9O4hkrkLzF1GUA4gSsvHzAfPwo=
+
+Name: bin/repast/simphony/statecharts/navigator/StatechartAbstractNaviga
+ torItem$2.class
+SHA-256-Digest: YbIWVYxq2Az4PpwQBpedL74udrsW+hfbL1qfx/jZV64=
+
+Name: bin/repast/simphony/statecharts/part/StatechartUriEditorInputTeste
+ r.class
+SHA-256-Digest: ErBNkjRZrvzVjKLFwetsIAukV2VBxFTBfaYeoE8iCAc=
+
+Name: bin/repast/simphony/statecharts/navigator/StatechartDomainNavigato
+ rContentProvider$3.class
+SHA-256-Digest: 0FFCK3yYMmjidajANv8NdZ1BeVw6xOg0sQAyrdYtZ7Q=
+
+Name: bin/repast/simphony/statecharts/edit/parts/StateName2EditPart$1$1.
+ class
+SHA-256-Digest: HyY1oB21HDY6BvPRzJAJ6UREPZ/dOatg9MlRt9JcP8I=
+
+Name: bin/repast/simphony/statecharts/edit/commands/CompositeStateCreate
+ Command.class
+SHA-256-Digest: Qws7lRy9GYN8oR/lgz34QXO0vB3eiSdF/sUZVSHvLZM=
+
+Name: bin/org/eclipse/gmf/tooling/runtime/directedit/TextDirectEditManag
+ er2.class
+SHA-256-Digest: uIaoF8KTUAkvXr0f6rISGEnaPNCnS3K4bZLnZ0dWCVs=
+
+Name: bin/repast/simphony/statecharts/edit/policies/FinalState2ItemSeman
+ ticEditPolicy.class
+SHA-256-Digest: 6dSunKzx3zjfjuQz1oSHBIqO9wWjxRq3vROkLwpKrdA=
+
+Name: bin/repast/simphony/statecharts/editor/ViewerSupport$1.class
+SHA-256-Digest: fc6dgoF7hcqAgPB2bvOvuDfJq28ixgZMIh95pxB2LgI=
+
+Name: bin/repast/simphony/statecharts/sheets/TransitionSheet$StringToTri
+ ggerType.class
+SHA-256-Digest: 5Ghhu4xbeXzWyRkilEcXtgN0gOhRJGZzo4MW8+5A+gc=
+
+Name: bin/repast/simphony/statecharts/navigator/StatechartAbstractNaviga
+ torItem$1.class
+SHA-256-Digest: 06CKSE9pMSYXhlblQTaYMObExiLRGUdc36zKcCUStns=
+
+Name: bin/repast/simphony/statecharts/providers/StatechartValidationProv
+ ider$Adapter4.class
+SHA-256-Digest: qCAbq/MG5bHTcqDvNjaHOSjR9f87OB26eQDxB/2klik=
+
+Name: icons/linksNavigatorGroup.gif
+SHA-256-Digest: ImVvouaD+OX3ra4x8JHOBF/JHwQqj+2C7noF/EAp4MI=
+
+Name: bin/repast/simphony/statecharts/edit/commands/StateCreateCommand.c
+ lass
+SHA-256-Digest: BRc/TrqmiXWKA6wnycXO3g9vZvl44HjqSmA701NBEco=
+
+Name: bin/repast/simphony/statecharts/expressions/StatechartOCLFactory.c
+ lass
+SHA-256-Digest: 2hzyiB+tH3H1geLB4DmNifXzWBDnAVsi8+UoeP6scog=
+
+Name: bin/repast/simphony/statecharts/part/StatechartVisualIDRegistry.cl
+ ass
+SHA-256-Digest: qIS7536mW9d3CQQznrGI2g/GZAsn2uFJSvy8NCybwJU=
+
+Name: bin/repast/simphony/statecharts/sheets/AbstractEditorPropertySecti
+ on$1.class
+SHA-256-Digest: KhHbqBU3dAomf7lyp4XtJZyEUvfr+QllA51wsdYM70g=
+
+Name: bin/repast/simphony/statecharts/sheets/BindableFocusableSheet.clas
+ s
+SHA-256-Digest: cszXTMAOAPI1iuoqeSHGtVHFJCNYmN9UFwWTw/M3cJE=
+
+Name: bin/repast/simphony/statecharts/navigator/StatechartNavigatorGroup
+ .class
+SHA-256-Digest: 0F4KmmjtJDypuCFoZvquYd6tK4hyW3sfi8KFk9JGltY=
+
+Name: bin/repast/simphony/statecharts/navigator/StatechartNavigatorItem$
+ 1.class
+SHA-256-Digest: IeiDGYlxiN10N0GnYD7UorlxPld1QtxKKOW6RCFDynE=
+
+Name: bin/repast/simphony/statecharts/edit/parts/CompositeStateNameEditP
+ art$1.class
+SHA-256-Digest: iEddnOmK7fsEHqTkRzOwh7Iik1JV+6jQqFSTEWlIl/M=
+
+Name: bin/repast/simphony/statecharts/edit/helpers/HistoryEditHelper.cla
+ ss
+SHA-256-Digest: 9XJnCLYkfFZLcoZcGagThxZRdFy2Gd4vm9LTOOW3ziw=
+
+Name: bin/repast/simphony/statecharts/edit/parts/CompositeStateName2Edit
+ Part.class
+SHA-256-Digest: Gp2eMjEpev0w2UrCyFMg75Wf9z9HrdVaEBOKiiVbp1k=
+
+Name: bin/repast/simphony/statecharts/edit/policies/CompositeStateCompos
+ iteStateCompartment2ItemSemanticEditPolicy.class
+SHA-256-Digest: TEnScVzDXGRVwgzo/5MJx7zZXufPAzSFWPUCZ2UMPXY=
+
+Name: bin/repast/simphony/statecharts/sheets/LanguageButtonsGroup$1.clas
+ s
+SHA-256-Digest: TTW5OB8CtBR7lsERqp+r9Vz0eN2VzrNOjS8LsTpWD3o=
+
+Name: bin/repast/simphony/statecharts/edit/parts/FinalStateEditPart$1.cl
+ ass
+SHA-256-Digest: 0CjZXjdwTwuER0WyMBLnabumj/VpiBoYp9c++6MqZYE=
+
+Name: bin/repast/simphony/statecharts/edit/policies/CompositeStateItemSe
+ manticEditPolicy.class
+SHA-256-Digest: MDOp4y+yVSwlFmwB9w36bqtO6yfMEq5ijlKGLx8HKIc=
+
+Name: bin/repast/simphony/statecharts/edit/parts/PseudoState3EditPart.cl
+ ass
+SHA-256-Digest: 8oGU+wuSPGeSVkek+bJ7f3r5DnvcyywOIXcO5WIaTcE=
+
+Name: bin/repast/simphony/statecharts/editor/BracketInserter$1.class
+SHA-256-Digest: wyMRQSBfXddhUk4Kv2ieseIMyffkCtjj1b2mn5j6L94=
+
+Name: bin/repast/simphony/statecharts/providers/StatechartValidationProv
+ ider.class
+SHA-256-Digest: TpWaEyrZ0Y/ZMQmak+94IL2uoGq+vS3+Q1RpZkhAUOo=
+
+Name: bin/repast/simphony/statecharts/providers/StatechartMarkerNavigati
+ onProvider.class
+SHA-256-Digest: cNJaSwRuYvMf/qhE6zpqOCSAt5kO3cOEOqldNvRxxuI=
+
+Name: bin/repast/simphony/statecharts/sheets/TransitionPropertySection.c
+ lass
+SHA-256-Digest: OklmEFFsTiErrpjjASRB4GbdheheN2qV6yQkravnKs0=
+
+Name: bin/repast/simphony/statecharts/edit/parts/FinalStateEditPart.clas
+ s
+SHA-256-Digest: krU+IVYs91v9oOvq277lJtMkkvvMBEmXAFzZzs59sww=
+
+Name: bin/repast/simphony/statecharts/sheets/HistoryStateSheet$1.class
+SHA-256-Digest: OgGyEdKX1naN3mw1eXNmoGWGJ9HPtYXxY7BumDaid60=
+
+Name: bin/repast/simphony/statecharts/sheets/TransitionSheet$2.class
+SHA-256-Digest: kACpAfcgTOgdE7NJtvNcc69WwcZ8WUHS+yOMZsKcJ0s=
+
+Name: bin/repast/simphony/statecharts/handlers/StatechartBuilder$Visitor
+ .class
+SHA-256-Digest: xrosPCJHXl7jptn+T4d23+ofDyJORqpgPGBcCdVeU78=
+
+Name: bin/repast/simphony/statecharts/providers/StatechartIconProvider.c
+ lass
+SHA-256-Digest: 8eD8WcMtsgrO8HrU3g/O2FT30gbGI0nhkRhQ9BtC5zw=
+
+Name: bin/repast/simphony/statecharts/edit/parts/CompositeState2EditPart
+ .class
+SHA-256-Digest: HXO1v8GRhg9Zykhw9iW/OhY0+ctt9/xXhcB+Wi89MF4=
+
+Name: bin/org/eclipse/gmf/tooling/runtime/draw2d/labels/VerticalLabel.cl
+ ass
+SHA-256-Digest: cmPdgCxfdQwxecpp3Ngkduzc59LiuAxbbO5T8pfphC4=
+
+Name: bin/repast/simphony/statecharts/part/StatechartNodeDescriptor.clas
+ s
+SHA-256-Digest: chpCHu9tPwu66o4pePhdjVNeRRI9eayjX0xLSln9Gh4=
+
+Name: bin/repast/simphony/statecharts/edit/commands/CompositeState2Creat
+ eCommand.class
+SHA-256-Digest: 5aC/CjZD3LXAB+xC7t7211KnfW6uUOB5sQiTuIHevg4=
+
+Name: bin/repast/simphony/statecharts/edit/parts/StateNameEditPart$1.cla
+ ss
+SHA-256-Digest: X+TjmW3orKHN6LRYrp5TfkgMehP9mSAOUK15E6lpii8=
+
+Name: bin/repast/simphony/statecharts/providers/StatechartValidationProv
+ ider$Adapter8.class
+SHA-256-Digest: kwvjxGRksrIJ6RMwVBCsGzHBQ6ufx8Q+YlUMggEO+To=
+
+Name: bin/repast/simphony/statecharts/parsers/AbstractParser$InvalidValu
+ e.class
+SHA-256-Digest: wdW1cb4/NY+Cvn9rHbCGLQ+jNXY3wI71hPtDBMXHgiw=
+
+Name: bin/repast/simphony/statechart/part/CompliationUnitTests$MemorySou
+ rce.class
+SHA-256-Digest: dZgrH6i/z5u14rcZjD7uOXFRiS1u5rbyOW1R9Q0G/ow=
+
+Name: .options
+SHA-256-Digest: ndqSEyFh7fhFuLJwpbFnS1WIMCUNVBA+xpGvJNkQthA=
+
+Name: bin/org/eclipse/gmf/tooling/runtime/edit/policies/reparent/Creatio
+ nEditPolicyWithCustomReparent.class
+SHA-256-Digest: Se/FVijlGKMl8nT+f8tUiZmJW0+9LwecBnkfiGdDbnQ=
+
+Name: bin/repast/simphony/statecharts/part/StatechartCreationWizardPage.
+ class
+SHA-256-Digest: 5WB3NDfD77eZpdUNt4tMihwzRsekVOLwCpoaYXowJtU=
+
+Name: bin/repast/simphony/statecharts/filter/TransitionFilter.class
+SHA-256-Digest: L93wL8v5a5yeHmzvz8x3lScgSq0/d8Aqn12Cz9YHcLA=
+
+Name: bin/repast/simphony/statecharts/part/ValidateAction$1.class
+SHA-256-Digest: roBUnYeUykJZMLPeFAelWOo1zdHXijTOhun3JMwc+vI=
+
+Name: bin/repast/simphony/statecharts/part/ShowPropsViewAction.class
+SHA-256-Digest: ka6ngFHVSHGo9iW2fTIJhNJgwjYuq5o+4cR+zvIwgS8=
+
+Name: bin/repast/simphony/statecharts/sheets/TriggerTypeItem.class
+SHA-256-Digest: P9s6rHZ2Bq4brOS9pCrCNnl+lgcCcud/+rLijQrziJY=
+
+Name: bin/repast/simphony/statecharts/providers/StatechartValidationProv
+ ider$Adapter7.class
+SHA-256-Digest: bpmfrPeKPnMxZOd1jhwrlffjbAF7iJ+g2UqL+XuSj/I=
+
+Name: bin/repast/simphony/statecharts/providers/StatechartValidationProv
+ ider$DefaultCtx.class
+SHA-256-Digest: kSwc1Pxs+4LQmuvJpMpZybl1IzS8PUfDL+tlbd2funw=
+
+Name: icons/obj16/First-State-16.xcf
+SHA-256-Digest: BxTuXbjVF3qyiYVdG+vmuyggXmYdsIVMst/VQR1L0hY=
+
+Name: bin/repast/simphony/statecharts/part/StatechartCodeAdderFactory$Ab
+ stractAdder.class
+SHA-256-Digest: 9uYMOdrM+Uzzf/kn54Cn+uQ57hp0mDbyY0MaS/xyrn0=
+
+Name: bin/repast/simphony/statecharts/editor/StatechartGroovyEditor.clas
+ s
+SHA-256-Digest: 3UKUTBoCo3OKjp0TRTEJ+lAkooqcLpHn3lFAL3w1bys=
+
+Name: bin/repast/simphony/statecharts/part/ValidateAction$2.class
+SHA-256-Digest: ZlCkikna0om8pVrKuVnfgN10IFCoLpBH4snOQaQczTU=
+
+Name: bin/repast/simphony/statecharts/handlers/StatechartConfigurator.cl
+ ass
+SHA-256-Digest: cgBtpdDTO7pb3pHAH/5/92AeetzHELUIcqz1YpMs5r4=
+
+Name: bin/repast/simphony/statecharts/sheets/TransitionSheet$3.class
+SHA-256-Digest: SeNTC6Q+XR5ao4mJYP7Q+DT4D4UdUBx+RLe8ATFYf0A=
+
+Name: bin/repast/simphony/statecharts/svg/SVGExporter$1.class
+SHA-256-Digest: DIihRh0XeP4L2fr78Q6FC4K8fv8ApiKgB1B9KaqsKcc=
+
+Name: icons/obj16/Choice-16.png
+SHA-256-Digest: +kpDkWZ6Tl6tkF05QkjBH97mxIdttdtdSq5Vl58S0PA=
+
+Name: bin/repast/simphony/statecharts/sheets/FocusFixComposite.class
+SHA-256-Digest: q3OZxBsogXJ5PkQzeops7ROH5wSVcIxylra1YyAIaLA=
+
+Name: bin/repast/simphony/statecharts/part/StatechartPaletteFactory$Node
+ ToolEntry.class
+SHA-256-Digest: He5EUF8wbWcDgErmAwOttVuX3k2EtDDI4iK4N47vyj4=
+
+Name: bin/repast/simphony/statecharts/edit/parts/HistoryEditPart$Shallow
+ HistoryFigure.class
+SHA-256-Digest: tfZOuNOteLjWUrNy2Cq9HBvS2BIouFdFrO7g7UH6gJ0=
+
+Name: bin/repast/simphony/statecharts/edit/parts/PseudoState5EditPart$Fi
+ rstStateFigure.class
+SHA-256-Digest: Bpx7kDjVFm13at65KBmCB0jI6cxzoTXxy6yYa1t4JXU=
+
+Name: bin/repast/simphony/statecharts/edit/parts/CompositeStateName2Edit
+ Part$1.class
+SHA-256-Digest: GeMe89OI+AnHUkPCvlXr5qwxntHTNruLCJB69Q6vUd4=
+
+Name: bin/repast/simphony/statecharts/edit/parts/TransitionEditPart$Side
+ .class
+SHA-256-Digest: XJKN+sllPoc2wLqLZzJsIdCLv9S5Rix4yY34ma00AfQ=
+
+Name: bin/repast/simphony/statecharts/editor/HighlightedPosition.class
+SHA-256-Digest: 7ARprE5SRn5+dJDmxZC+mLEi07NiAAPnHPhPphgTI2Y=
+
+Name: bin/repast/simphony/statecharts/edit/parts/StateEditPart.class
+SHA-256-Digest: ZN5OpHb+iGtk6XB4LRTQRoIPT5z9Z6Fow4FFq+eXg1w=
+
+Name: bin/repast/simphony/statecharts/sheets/HistoryStateSheet.class
+SHA-256-Digest: a4s7E0xCb/uDUfuibrzg5hCrXP5XH99OpNNR4fsEbok=
+
+Name: bin/repast/simphony/statecharts/part/ValidateAction$3.class
+SHA-256-Digest: rRIQ60W99RAmn5+UBZgpag5GrSM/XcfjlOwva1iZkZ8=
+
+Name: bin/repast/simphony/statecharts/part/DeleteElementAction.class
+SHA-256-Digest: BRc+4Q/hXEfRSheG0weOA+CpvT+0uddSS3L2Ou+LZFU=
+
+Name: bin/repast/simphony/statecharts/preferences/DiagramPreferenceIniti
+ alizer.class
+SHA-256-Digest: 75zoLHnP/RYpFdpo03mUdorBX7TBRhSqVlzp+tHZQwk=
+
+Name: bin/repast/simphony/statecharts/sheets/TransitionSheet$TriggerType
+ ToString.class
+SHA-256-Digest: 88n51uC4fk97Mq4UlO9qSjF4YZk61Rz9ONti8QttGGQ=
+
+Name: bin/repast/simphony/statecharts/edit/parts/CompositeStateEditPart$
+ 1.class
+SHA-256-Digest: hEU1JgRTdcCy2CQUzOekPAvlYHoVhfs/akL4lJagaxk=
+
+Name: bin/repast/simphony/statecharts/navigator/StatechartNavigatorConte
+ ntProvider$1.class
+SHA-256-Digest: R7Rh1u9nOHUOI+BucSb2WaBcDrA6r68WnYK6xZd5Wm4=
+
+Name: bin/repast/simphony/statecharts/edit/parts/PseudoState3EditPart$1.
+ class
+SHA-256-Digest: OEka9pwXNXaIlQOwc+Ay5rjZp6QfozpnNg9QD83YjTY=
+
+Name: bin/repast/simphony/statecharts/editor/SemanticHighlightingPresent
+ er$HighlightingPositionUpdater.class
+SHA-256-Digest: 3r3OW6B4jKIgvCVLfMe0NVJR63mcDdaiNWAaW8/bTto=
+
+Name: bin/repast/simphony/statecharts/edit/parts/StateNameEditPart.class
+SHA-256-Digest: qiJEc920TuvUQOYfEc0V/GNEBlAYPBgR74lmqJKw69M=
+
+Name: bin/repast/simphony/statecharts/edit/policies/StatechartBaseItemSe
+ manticEditPolicy$LinkConstraints.class
+SHA-256-Digest: bdd49CcugOSGFw0+Wn3Y2UNl7n3oBnNzRtoql1e9ZVY=
+
+Name: bin/repast/simphony/statecharts/editor/EditorSupport$GeneratorCall
+ .class
+SHA-256-Digest: jXA1POhqQa/m7UYnqf95WvJDlMhsR/EpDPFBxQ0WtTI=
+
+Name: bin/repast/simphony/statecharts/edit/policies/TransitionItemSemant
+ icEditPolicy.class
+SHA-256-Digest: EXe+fWqP0SDLv/m3kF1A2EpYLbMpx+QDAvR7Bq1RUgM=
+
+Name: bin/repast/simphony/statecharts/providers/StatechartValidationProv
+ ider$Adapter9.class
+SHA-256-Digest: dQ89MqJaLwRhTCbyFkbzurmb/0dHMp9agZU1LC8jNWQ=
+
+Name: bin/repast/simphony/statecharts/sheets/PseudoStatePropertySection.
+ class
+SHA-256-Digest: uRb+EaHxP65QpIOakiVUcsKWVKVjGNT04ohL2TC9+Us=
+
+Name: bin/repast/simphony/statecharts/preferences/DiagramPrintingPrefere
+ ncePage.class
+SHA-256-Digest: D6oUr6XEGHqeerxVO+7pvCJMLkDC0gipaCKBZCEAcIw=
+
+Name: bin/repast/simphony/statecharts/providers/StatechartParserProvider
+ $HintAdapter.class
+SHA-256-Digest: y87k+0AgsxasycF2Cwudvbu0BNudNSFcrdNxbICp/hU=
+
+Name: bin/repast/simphony/statecharts/edit/commands/HistoryCreateCommand
+ .class
+SHA-256-Digest: 2sSavzC4pk8d18PnK+eJ83HsdWxbFJj9OXWsN05n9+8=
+
+Name: bin/repast/simphony/statecharts/edit/parts/CompositeStateNameEditP
+ art$3.class
+SHA-256-Digest: TZ5QSe7y5cOVBFgp/eH4Lig0E8gskJrtrYjBopeNKwY=
+
+Name: bin/repast/simphony/statecharts/part/StatechartPaletteFactory$Link
+ ToolEntry.class
+SHA-256-Digest: csn66tPlU/JTapRE1zFr9oATJze6rhmLuL4Wj4BF8YI=
+
+Name: bin/repast/simphony/statecharts/sheets/DoubleVerifier.class
+SHA-256-Digest: Zj0fisJCRID1nm40r5Z8erL+jB8XqL0r5qiVKKBV6q8=
+
+Name: bin/repast/simphony/statecharts/edit/helpers/StateEditHelper.class
+SHA-256-Digest: 0pwT5GCZg44fcJqv/IrsTBb0hquBO9OVoSHKrX+rVK0=
+
+Name: bin/repast/simphony/statecharts/editor/StatechartSourceViewer.clas
+ s
+SHA-256-Digest: joq6lIEGboWyZjHDQAXTiyv0Gmyf3eFHranFvys3L+s=
+
+Name: bin/repast/simphony/statecharts/edit/parts/FinalState2EditPart$1.c
+ lass
+SHA-256-Digest: 4LMYk0+bAtUb01TqpRqc9gfB9Lb12e5W/Nd5ru0zAVg=
+
+Name: bin/repast/simphony/statecharts/edit/parts/CompositeStateName2Edit
+ Part$3.class
+SHA-256-Digest: QVaHhraZ0v/IRDsyG63iQpF9P4oOhLW/rD1jXvJsO4g=
+
+Name: bin/repast/simphony/statecharts/edit/parts/CompositeState2EditPart
+ $1.class
+SHA-256-Digest: 1w6B7FaprVzmOHhXBg4YBYY3ZMfYZ7C2KcVpTefWFRw=
+
+Name: bin/repast/simphony/statecharts/validation/CompositeStateValidator
+ .class
+SHA-256-Digest: S/fE0PxG8+r9aRe7S/8qvK6vFuzuR3NW+NQziggavOc=
+
+Name: bin/repast/simphony/statecharts/edit/parts/CompositeStateName2Edit
+ Part$2.class
+SHA-256-Digest: WIaCgfbAebsFw+6erds5FMk155KDm/sHx4x7f/V+wPM=
+
+Name: bin/repast/simphony/statecharts/edit/parts/CompositeStateNameEditP
+ art$2.class
+SHA-256-Digest: Etbwf2fN+9epmqkHHe2lkivB+9a/UDxu/54zhiAVKEM=
+
+Name: bin/repast/simphony/statecharts/editor/Compiler$CompilerTask.class
+SHA-256-Digest: BagzgFCWdJtgOhlXkJbc6lVFwEerHApqXCyD4hzVAf4=
+
+Name: bin/repast/simphony/statecharts/editor/ViewerSupport.class
+SHA-256-Digest: ak47HsB9x82kp9vouE1zebU4jXXEuY4bjnKyLJaZpog=
+
+Name: bin/repast/simphony/statecharts/providers/StatechartEditPartProvid
+ er.class
+SHA-256-Digest: jE8URnds9WOC9ctUhknxJ0DNtuhlC8ezS9bocUR1mN0=
+
+Name: bin/repast/simphony/statecharts/edit/parts/StateMachinePopupBarEdi
+ tPolicy.class
+SHA-256-Digest: oz7tMvj//AM5o+DYCzdj0QK5IDMRTV1WOdRPod5vxd0=
+
+Name: bin/repast/simphony/statecharts/sheets/FinalStateSheet.class
+SHA-256-Digest: vWkozZmuho6Z3YJvkAAlTOlNqTfAOZKQDOsjjB6rPfA=
+
+Name: bin/org/eclipse/gmf/tooling/runtime/update/UpdaterNodeDescriptor.c
+ lass
+SHA-256-Digest: EmeeKo5DS8NK1zO8r9q4CiHoLAnkk0LyA9tEUTznL+Y=
+
+Name: bin/repast/simphony/statecharts/edit/parts/HistoryEditPart$1.class
+SHA-256-Digest: u7ftrfpqpubcTVannmSplUC2IJo8rS9XiWSQw3FNIr4=
+
+Name: bin/repast/simphony/statecharts/edit/parts/PseudoState4EditPart$Ch
+ oiceFigure.class
+SHA-256-Digest: N/i+/mhOWOB5PC57EMVbnwdBLElR4WpWpPg8KHQ3UTM=
+
+Name: bin/repast/simphony/statecharts/edit/policies/PseudoState3ItemSema
+ nticEditPolicy.class
+SHA-256-Digest: GDWwbjrDTA+Z1ozQHnaBNCtYzIK2MBBvUxD27fpOZcs=
+
+Name: bin/repast/simphony/statecharts/providers/StatechartValidationDeco
+ ratorProvider$StatusDecorator.class
+SHA-256-Digest: STqbwWGHAgLivpPcGREx7ZiVdCqxZ3YAMQbZRI48qhk=
+
+Name: bin/repast/simphony/statecharts/part/StatechartCodeAdderFactory$Gr
+ oovyStatechartCodeAdder.class
+SHA-256-Digest: /bhgRCh3GaAVJU7WyyVsfAQVH2iMXUW5qs24YaDDQHM=
+
+Name: bin/repast/simphony/statecharts/svg/SVGGenerator.class
+SHA-256-Digest: LSUoUFqBgovba67eUO6Q402d7dU1IMoatfpUlOrHbIU=
+
+Name: plugin.xml
+SHA-256-Digest: d6vgKfyUrdqhajxaA3hTkJp5BuyqccEbM3TOFkWAyc4=
+
+Name: bin/repast/simphony/statecharts/edit/parts/StateName2EditPart$2.cl
+ ass
+SHA-256-Digest: cViLkiXcSXlknZmDgs+O+OAXGYXYN36mkgQ/IjdZb7U=
+
+Name: bin/repast/simphony/statecharts/editor/StatechartJavaEditor$1.clas
+ s
+SHA-256-Digest: 5hUB8pwMBPm5Iam0QQL5vH3PgF24fEeCdTm14KSZoD4=
+
+Name: icons/obj16/Deep-History-16.png
+SHA-256-Digest: HNggy4RAYRq5Ol0Ij2jmT35uPp4tXx6tA8gSVsj62JU=
+
+Name: bin/repast/simphony/statecharts/edit/parts/StateNameEditPart$3.cla
+ ss
+SHA-256-Digest: sRwCsl1cblbczNnHdh2QCdojgncujy4ZCbK7/d3so2k=
+
+Name: bin/repast/simphony/statecharts/svg/ExportToSVGUtil.class
+SHA-256-Digest: VciCCzEaIwFshk1NuiSA7XKmu3aOv4Ix1LrPiQ7FMX8=
+
+Name: bin/repast/simphony/statecharts/edit/parts/AnchorLocationFactory.c
+ lass
+SHA-256-Digest: mZapuX6cw7hdo4Um+fHIVxeQ9CSRIwb0cUPUAYQf/gs=
+
+Name: bin/repast/simphony/statecharts/preferences/DiagramRulersAndGridPr
+ eferencePage.class
+SHA-256-Digest: dnECFBthC8i6PeCYn1ziTAVj/fEIHVapghBxkNNovxs=
+
+Name: bin/repast/simphony/statecharts/providers/StatechartElementTypes.c
+ lass
+SHA-256-Digest: abB73RlM1CqJtK9hVXiXTKUTPr5V5LT2jkkMSBVwWbA=
+
+Name: bin/repast/simphony/statecharts/edit/parts/StateMachineEditPart.cl
+ ass
+SHA-256-Digest: VmTwCvdLgTlLpQpVuLmN3nPvcxPOV9YsuSjWXW73Iws=
+
+Name: bin/repast/simphony/statecharts/edit/parts/PseudoState2EditPart$Ch
+ oiceFigure.class
+SHA-256-Digest: QcefGKBh78bHKFPAcupsTacgfA4JVl+1IRRjVnzdE/g=
+
+Name: bin/repast/simphony/statecharts/svg/SVGExporter.class
+SHA-256-Digest: 5Xx9TxlG0K8z6x2e19oyfycOrZ05pAITjgRLZBRHe+Q=
+
+Name: bin/repast/simphony/statecharts/edit/policies/CompositeStateCompos
+ iteStateCompartmentCanonicalEditPolicy.class
+SHA-256-Digest: gNCBo/u8zicUcrSggeA00zCJ5HYmhMrsEKIeZzjzPlA=
+
+Name: bin/repast/simphony/statecharts/editor/ErrorAnnotationHider.class
+SHA-256-Digest: D4pN0s9zvyBw3yQtlIghXMsvLhfskH8T33hOqTNkA6U=
+
+Name: bin/repast/simphony/statecharts/providers/StatechartValidationDeco
+ ratorProvider.class
+SHA-256-Digest: otBOjaueVISIuPzdRye46hXjUbytFLnqlPH8dWt5NdY=
+
+Name: bin/repast/simphony/statecharts/edit/policies/PseudoState5ItemSema
+ nticEditPolicy.class
+SHA-256-Digest: UWaUHmTtO6WG+5Ab9Z/uoPMzDd1VyQK552Y+8Limw7w=
+
+Name: bin/repast/simphony/statecharts/edit/commands/FinalStateCreateComm
+ and.class
+SHA-256-Digest: qMPvn7p9QeMqizh79IzjoUhQSDZJ78mZIEFzxPM7iic=
+
+Name: bin/repast/simphony/statecharts/providers/StatechartValidationDeco
+ ratorProvider$1$1.class
+SHA-256-Digest: GtUhzXI39tnOa6TbvdBgJqL39yk/Lqh743fXf4qLaKg=
+
+Name: bin/repast/simphony/statecharts/part/StatechartDiagramActionBarCon
+ tributor.class
+SHA-256-Digest: rDOwUdlpafkvghLr1CpXY6c0AqIna4AUasgqnFXgzEU=
+
+Name: bin/repast/simphony/statecharts/svg/SVGExporter$OutPathInfo.class
+SHA-256-Digest: ++kI3PKFtU1xzVqKc3jGPg1QjUJLEl1kO+8xthg2tpc=
+
+Name: bin/org/eclipse/gmf/tooling/runtime/directedit/locator/CellEditorL
+ ocatorAccess.class
+SHA-256-Digest: v7e2K3ctbtJnYXQupcXPdezGjeRnpuijj4nbAOwb92o=
+
+Name: icons/obj16/transition-16.png
+SHA-256-Digest: eVuZ/XggRv0eXlvrjG7Gcn4pwcIty3jBR9tZD6VYQG0=
+
+Name: bin/repast/simphony/statecharts/edit/policies/StatechartTextNonRes
+ izableEditPolicy.class
+SHA-256-Digest: chDEn+flLJiJ/XCNyv1Qzt6PEqNDQh4D1v8tbub688w=
+
+Name: bin/repast/simphony/statecharts/editor/BracketInserter$ExclusivePo
+ sitionUpdater.class
+SHA-256-Digest: jBdGCLJwcT6F2KpgojiVhfNwSgFctRlQlx5cL1IFqZ0=
+
+Name: bin/repast/simphony/statecharts/handlers/StatechartBuilder$FullBui
+ ldVisitor.class
+SHA-256-Digest: Xy7fVhz5EcRi/6yv/MnMlcgFHAY1d1gLL118jYjk368=
+
+Name: bin/repast/simphony/statecharts/part/ModelElementSelectionPage$1.c
+ lass
+SHA-256-Digest: wRm8hd+VZiHnFoNlI318e+WP+j36BrwbNKI3tHL2MUY=
+
+Name: bin/repast/simphony/statecharts/edit/helpers/StatechartBaseEditHel
+ per.class
+SHA-256-Digest: G9bw9lyzl2IlxlnWIMh49Zri0JOT+A0bkF6EfdXFN3M=
+
+Name: bin/repast/simphony/statecharts/edit/parts/State2EditPart$1.class
+SHA-256-Digest: rHYX8jMiUjqGvXt+RyIu4+VjPxLL9TV3VdIEZutW70I=
+
+Name: bin/repast/simphony/statecharts/part/StatechartDiagramEditorPlugin
+ .class
+SHA-256-Digest: vs1mQSHHTiUwaQMYqMPXtno5EeK5j0YIiRpFwlLaKE4=
+
+Name: bin/repast/simphony/statecharts/edit/parts/History2EditPart$DeepHi
+ storyFigure.class
+SHA-256-Digest: QhbYT5xD0t9DDfRbbJ7V6R/0YRVx/Syyv/J4k8dS5dc=
+
+Name: bin/repast/simphony/statecharts/edit/policies/CompositeState2ItemS
+ emanticEditPolicy.class
+SHA-256-Digest: hZ3G89nzDD4RPZi7Kcq8zdWKT5BXBgdpfzPLSKSB0Lo=
+
+Name: bin/repast/simphony/statecharts/preferences/DiagramGeneralPreferen
+ cePage.class
+SHA-256-Digest: zSdJO8j9/0EF5q6pbe2i5I/2eEuORyCt+D9pObX1U0I=
+
+Name: bin/repast/simphony/statecharts/navigator/StatechartNavigatorLabel
+ Provider.class
+SHA-256-Digest: vGQXbw5DPO3O+qSjuy/nCysPWFGO8S/+4g8Rk9M0Iis=
+
+Name: bin/repast/simphony/statecharts/part/StatechartVisualIDRegistry$1.
+ class
+SHA-256-Digest: K0pdAW8crlnWD4FrG8Mlc8NrLiLs8NFikoPOJaZuzXM=
+
+Name: bin/repast/simphony/statecharts/providers/StatechartValidationProv
+ ider$1.class
+SHA-256-Digest: Z9M7x1BN4H2k072jJH+asCFvIpE4Xch6ikJhpphL3w0=
+
+Name: bin/repast/simphony/statecharts/edit/parts/PseudoStateEditPart$Ini
+ tialStateFigure.class
+SHA-256-Digest: 9e9u2hXYGNTqqbiXqcBzY0LIlKigcNd1wwNf9fsH0iI=
+
+Name: bin/repast/simphony/statecharts/part/StatechartDocumentProvider$2.
+ class
+SHA-256-Digest: EjX3anYKYnz/RUJkvzsvhcFwhHav3Chlpkx0wvodZcE=
+
+Name: bin/repast/simphony/statecharts/edit/parts/HistoryEditPart.class
+SHA-256-Digest: n6IQCANXSwjLBDJ09vdylsfj/+l6qE15exgAXGpJjyI=
+
+Name: bin/repast/simphony/statecharts/sheets/TransitionSheet$4.class
+SHA-256-Digest: T6I2JmDZbx1W3ylowDpEYgI/63OJkBNvbbI03XmHeW8=
+
+Name: bin/org/eclipse/gmf/tooling/runtime/edit/policies/labels/IRefresha
+ bleFeedbackEditPolicy.class
+SHA-256-Digest: FTSJzkAX3ixue6LuCAMnNVli5zcsQPF7EPYWPPaN5/c=
+
+Name: bin/repast/simphony/statecharts/navigator/StatechartDomainNavigato
+ rContentProvider.class
+SHA-256-Digest: Rk6ISmMHgWtItvk/l+C7LDrT2O2AH/8zQcM6M8WjJ8U=
+
+Name: bin/org/eclipse/gmf/tooling/runtime/update/UpdaterLinkDescriptor.c
+ lass
+SHA-256-Digest: vqlHJXDeLovpDN/xZPOkZY/AIthKJn2eR32WluWOHMc=
+
+Name: bin/repast/simphony/statecharts/sheets/FinalStateSheet$1.class
+SHA-256-Digest: WvqxOax4BYDdME2ejYtektycsLEUy4yBP0W6GFBDC7I=
+
+Name: icons/linkSourceNavigatorGroup.gif
+SHA-256-Digest: ImVvouaD+OX3ra4x8JHOBF/JHwQqj+2C7noF/EAp4MI=
+
+Name: bin/repast/simphony/statecharts/validation/Validator.class
+SHA-256-Digest: JG8H9TPmOupQ2cHJbwWgmgwsgPA6wCttXSZKsinMoPQ=
+
+Name: bin/repast/simphony/statecharts/edit/policies/StateMachineCanonica
+ lEditPolicy$Domain2Notation.class
+SHA-256-Digest: bhtXpiEcfXHLIdlXQ0OZSVIE59iFglEEW8ni3MVOzsY=
+
+Name: bin/repast/simphony/statecharts/part/StatechartInitDiagramFileActi
+ on.class
+SHA-256-Digest: JRoCwAMAYe+h+HjMomtA6SpqxkdPEibtjq+r4Y2uosA=
+
+Name: icons/obj16/Composite-State-16.png
+SHA-256-Digest: AM3DX6DBaW8t3RbbMgFWvi37KJRzprNOVW9R9SIwq8c=
+
+Name: bin/repast/simphony/statecharts/edit/parts/CompositeStateName2Edit
+ Part$1$1.class
+SHA-256-Digest: vAFZnJAip7AkjSt9BL0/TUQjbdQbtG2ySlzf8i3wWjU=
+
+Name: bin/repast/simphony/statecharts/editor/SemanticHighlightingPresent
+ er$1.class
+SHA-256-Digest: bdxXX/pPklHIy2YOyahuoVGqyaNs/4H7MmwTj+hAe3w=
+
+Name: bin/repast/simphony/statecharts/part/StatechartDocumentProvider$Re
+ sourceSetInfo$SynchronizerDelegate$1.class
+SHA-256-Digest: wxH7kS/GhaGS9hvnLgKcTKA3VLjn9W7GYFhyHYOIFcE=
+
+Name: bin/repast/simphony/statecharts/part/StatechartDiagramEditor.class
+SHA-256-Digest: S53gkrIfiZQQXucbVJtod/P0AYIhNU3/he+BKThJuGQ=
+
+Name: bin/repast/simphony/statecharts/sheet/StatechartPropertySection.cl
+ ass
+SHA-256-Digest: DUHkmBHISpxlaAK+0IpUAJYTpGeGXxTN5tmEoupiPHY=
+
+Name: bin/repast/simphony/statecharts/edit/policies/StatechartTextNonRes
+ izableEditPolicy$1.class
+SHA-256-Digest: K+0NzOoQURNoENBgQvuyhtZH8Y327gg+0aM24TN7dUc=
+
+Name: bin/repast/simphony/statecharts/edit/parts/FinalState2EditPart$Fin
+ alStateFigure.class
+SHA-256-Digest: QuSFx9QKhL3KSUGFBL0woW9KCM/Yp6YSGeVMr7rsfoQ=
+
+Name: bin/repast/simphony/statecharts/navigator/StatechartNavigatorConte
+ ntProvider$2.class
+SHA-256-Digest: xhp+eS5MS27YA8j4bYlstIwkLCLiU+aq8slGSRO3PVU=
+
+Name: bin/repast/simphony/statecharts/providers/StatechartValidationProv
+ ider$Adapter3.class
+SHA-256-Digest: SVgJMkAcQ9rXS8gkwmudg2yZkq+AGgldKE1/+fpweAU=
+
+Name: bin/repast/simphony/statecharts/edit/commands/PseudoState4CreateCo
+ mmand.class
+SHA-256-Digest: aAWoZYtUG2JBJYdu8OyZwErmPLGLq5fVIFaMx/V4I30=
+
+Name: bin/org/eclipse/gmf/tooling/runtime/edit/helpers/GeneratedEditHelp
+ erBase.class
+SHA-256-Digest: /ac+3VpxVEmmv85Qrk2SeHSN8hp8J2C6xFyX0mpqhUE=
+
+Name: bin/repast/simphony/statecharts/edit/parts/TransitionEditPart$Tran
+ sitionFigure.class
+SHA-256-Digest: LaMbch0UdPb10w+OSPngdeNmnFI7aZRK1amCEZS//M4=
+
+Name: bin/repast/simphony/statecharts/edit/parts/PseudoStateEditPart.cla
+ ss
+SHA-256-Digest: FP6EGn/7ET4NABoHY+4LCzz/KUBTnfuGeP6Nq3MNiLI=
+
+Name: icons/outgoingLinksNavigatorGroup.gif
+SHA-256-Digest: ImVvouaD+OX3ra4x8JHOBF/JHwQqj+2C7noF/EAp4MI=
+
+Name: bin/repast/simphony/statecharts/part/LoadResourceAction.class
+SHA-256-Digest: o2LZAvjZ2LzVsUKDJo6eItzPpgxdgHgtUH+80rGRR/k=
+
+Name: icons/obj32/Choice-32.png
+SHA-256-Digest: eWidq1ZCLufvNN+2f+5/qTNkFLt0AHvyk/FMzzSHVcY=
+
+Name: bin/repast/simphony/statecharts/editor/Compiler$CompilerTask$Memor
+ ySource.class
+SHA-256-Digest: gyWm6DrN3o7x/5nSZTP7sFzju68oiWGbyTVeW9z7Atg=
+
+Name: bin/repast/simphony/statecharts/editor/GroovyBracketInserter$Groov
+ yExclusivePositionUpdater.class
+SHA-256-Digest: QCGq5Euxd8elKNtpXgxX5M3MmunaAviqP4NpswWJW/k=
+
+Name: bin/repast/simphony/statecharts/editor/EditorSupport$8.class
+SHA-256-Digest: GUfYmwqE52ne9SeP3INhNT/6qkGCytFxakcCJ2Rvd5g=
+
+Name: bin/repast/simphony/statecharts/edit/commands/PseudoStateCreateCom
+ mand.class
+SHA-256-Digest: oKYG/Keqy2fhEszszY7DTMvPZwiIAUW10MAcdFCJMtw=
+
+Name: bin/repast/simphony/statecharts/part/StatechartDocumentProvider$Re
+ sourceSetInfo$SynchronizerDelegate.class
+SHA-256-Digest: oY3TzRE6ZISPmQH1T2uwdyx7fV0slulk5yHMp+mE5xw=
+
+Name: bin/repast/simphony/statecharts/part/StatechartNewDiagramFileWizar
+ d$1.class
+SHA-256-Digest: VJ9tdwjVrQS3A9kVFTdV6gGKsbKK2XHnmxFoP8VscNA=
+
+Name: icons/obj16/State-16.png
+SHA-256-Digest: rMomBcxLUWwgdypunmBePP2hturOU/N9elEQse+36ac=
+
+Name: bin/repast/simphony/statecharts/edit/policies/StateMachineCanonica
+ lEditPolicy.class
+SHA-256-Digest: 49iNIejbv0kBatYF9DNbj4ScVJE9oXYTzOM78b688pc=
+
+Name: bin/repast/simphony/statecharts/editor/GroovyBracketInserter.class
+SHA-256-Digest: IKIN0Y7zJftJVwQq4kjd3OFIRM2G1ghYEmqpX5sa0iE=
+
+Name: bin/repast/simphony/statecharts/edit/policies/HistoryItemSemanticE
+ ditPolicy.class
+SHA-256-Digest: Jc0sntcVZ16CoEftuI2+N0jDUgfOSxyIljjbs532nnw=
+
+Name: icons/obj32/Shallow-History-32.png
+SHA-256-Digest: 6PWhOrSdZAIP9fJK3Rff0MdEgxewRvmUUdy5AcwL+3Y=
+
+Name: bin/repast/simphony/statecharts/edit/parts/History2EditPart$1.clas
+ s
+SHA-256-Digest: Db1K09xlBvM3EExjdzpnXgOeqrTE+EqoZbN+yYStlDU=
+
+Name: icons/linkTargetNavigatorGroup.gif
+SHA-256-Digest: ImVvouaD+OX3ra4x8JHOBF/JHwQqj+2C7noF/EAp4MI=
+
+Name: bin/repast/simphony/statecharts/part/StatechartDiagramEditor$1.cla
+ ss
+SHA-256-Digest: wJLA11DbqHZrqvJYrs1cXH9bOGU5wbv7a0aS5BYyRTk=
+
+Name: bin/repast/simphony/statecharts/sheets/TransitionSheet$1.class
+SHA-256-Digest: HWUFvAyRImx0KtiOIIl7i3ec3yCGQOXsQm82gVdQZ94=
+
+Name: bin/repast/simphony/statecharts/navigator/StatechartDomainNavigato
+ rContentProvider$2.class
+SHA-256-Digest: UL7k/ULbdtQWa4tcP9Ntdsk/m3iqdM4j1LkL/lQdLlY=
+
+Name: bin/repast/simphony/statecharts/navigator/StatechartNavigatorConte
+ ntProvider.class
+SHA-256-Digest: NFZN3ZDI9leZ305nMnoynLj9+xkQibQZ5Ex1RFLGr/A=
+
+Name: bin/repast/simphony/statecharts/edit/commands/PseudoState5CreateCo
+ mmand.class
+SHA-256-Digest: fVN9iP8eFpA52m8fSnxVIGa2S092aw/wWtcjZcl5rCg=
+
+Name: bin/repast/simphony/statecharts/handlers/StatechartPerspectiveConf
+ igurator.class
+SHA-256-Digest: VRbM4HTbLpgJoGDuhsQPxMD3xgX61uVTIfZLcKG1c/I=
+
+Name: bin/org/eclipse/gmf/tooling/runtime/directedit/locator/VerticalLab
+ elCellEditorLocator.class
+SHA-256-Digest: fMHpn7hi3cDzYR7vAbXxkkTWUkOzCRwPgimrPh6Sxq8=
+
+Name: bin/repast/simphony/statecharts/edit/policies/State2ItemSemanticEd
+ itPolicy.class
+SHA-256-Digest: v3XwfuE1iAMMh0i+QRPeudvFGn1y6K0CB7eLonpMHzI=
+
+Name: icons/obj16/Final-State-16.png
+SHA-256-Digest: Kh5yXKG9A/mb5iNi8jCD4xPMDIIRB0MV7Z7+Yw80xNo=
+
+Name: bin/repast/simphony/statecharts/edit/parts/StateEditPart$StateFigu
+ re.class
+SHA-256-Digest: XynxKQFj1a3LIcbEWxsIfoXDcyvl3r8ERjg33r4QHZI=
+
+Name: bin/repast/simphony/statecharts/edit/policies/StatechartTextSelect
+ ionEditPolicy$1.class
+SHA-256-Digest: dgHapbwKaoeQTrh9A4LWJ3Hkc4yCe82ptmTFre5jfN4=
+
+Name: icons/obj32/Initial-State-32.png
+SHA-256-Digest: pFmzUm/FaDcczPj3Q+1xd9MMJAiJMh87Xu3NqZ7/j7U=
+
+Name: bin/repast/simphony/statecharts/edit/parts/CompositeStateEditPart$
+ CompositeStateFigure.class
+SHA-256-Digest: Yj76rx7u6+HO4RC1o6pFC0FSeaZ4HUy8O2aZbCdpZYk=
+
+Name: bin/repast/simphony/statecharts/sheets/TransitionSheet$StringToMes
+ sageType.class
+SHA-256-Digest: VR86iERA06V4Lm/Acmuyhf7sHxJnWhvZxXA4JNNvUtE=
+
+Name: bin/repast/simphony/statecharts/providers/StatechartValidationProv
+ ider$Adapter5.class
+SHA-256-Digest: n/P12PuEZ09We097+P4bIGUD7y6xZu4hSzmNJ+nOoRM=
+
+Name: bin/repast/simphony/statecharts/edit/parts/PseudoState2EditPart.cl
+ ass
+SHA-256-Digest: y+TSnl2hPG/8E/BZ5jmFqOEY52KoPEIq+zMz3KvgHyw=
+
+Name: bin/org/eclipse/gmf/tooling/runtime/directedit/locator/LabelCellEd
+ itorLocator.class
+SHA-256-Digest: C8w4xbK3GcbA7uODT8IDqvOm/I8vN0wrh5RU0ep4ZAg=
+
+Name: icons/obj32/Deep-History-32.png
+SHA-256-Digest: klgpiadIkTk4BWUG17P/1t4Fag2f/tiWK5CH7PRVPXU=
+
+Name: bin/repast/simphony/statecharts/part/StatechartDiagramEditor$2.cla
+ ss
+SHA-256-Digest: +c7dQDirXqkmIlBC0AgafjZ+ZwQIhCZdHuh98wBMwvM=
+
+Name: bin/repast/simphony/statecharts/providers/StatechartParserProvider
+ .class
+SHA-256-Digest: xUBHShylBCm8ZTsIKPbo/M4PDuaYLsSn/+Id4b5btyg=
+
+Name: bin/repast/simphony/statecharts/part/StatechartCodeAdderFactory$Ja
+ vaStatechartCodeAdder.class
+SHA-256-Digest: V3q+mxrOpDDNWCRH25wf4rrnzdJbwCEusoEHnfYXgaQ=
+
+Name: bin/org/eclipse/gmf/tooling/runtime/edit/policies/reparent/MoveVie
+ wCommand.class
+SHA-256-Digest: RQFQNtzRIJDcB3KLxCDQy4Ti9zuljw2E9U9QcObaRX8=
+
+Name: bin/repast/simphony/statecharts/edit/parts/CompositeStateEditPart.
+ class
+SHA-256-Digest: 8b4LmKswqyugxrJ/JVNemdUnBW4+QygGyKC2JJ6JM0A=
+
+Name: bin/repast/simphony/statecharts/edit/parts/PseudoState4EditPart$1.
+ class
+SHA-256-Digest: ejlCUEsQwTuRWjaOrYLk45X64ooquzt89QPzIkIszRw=
+
+Name: bin/repast/simphony/statecharts/navigator/StatechartDomainNavigato
+ rLabelProvider.class
+SHA-256-Digest: +CNzx61tFVzX7vXsMCsx2eDj7pYhDuTOxZ+0DgBnLUI=
+
+Name: bin/repast/simphony/statecharts/providers/StatechartValidationDeco
+ ratorProvider$StatusDecorator$1.class
+SHA-256-Digest: qDVY2L+McfDCbjROA5zrreadm9K+nXE17Wl141T9wXI=
+
+Name: bin/repast/simphony/statecharts/validation/BadCodeFinder.class
+SHA-256-Digest: YWwBk5lDXELb8FPWcD62X8umD616QzkaOxZU5xPDWiw=
+
+Name: bin/repast/simphony/statecharts/edit/parts/CompositeStateNameEditP
+ art$1$1.class
+SHA-256-Digest: RKlWZ+2SbYElZf+coFiA2P9v4lo/mdF7YMj/3k/eFYw=
+
+Name: bin/repast/simphony/statecharts/editor/EditorSupport$7.class
+SHA-256-Digest: enK2gfjTmZlBpibjeXPTnvoG8CKpLiaxG7dNaEh6aLk=
+
+Name: bin/repast/simphony/statecharts/part/DiagramEditorContextMenuProvi
+ der$1.class
+SHA-256-Digest: VPhIcDcAkB5A2Vk3ad4JHgIAXXr7+fjuilwmvDrRLZc=
+
+Name: bin/repast/simphony/statecharts/edit/commands/PseudoState2CreateCo
+ mmand.class
+SHA-256-Digest: D8dDM1aGWK7w7i/ssx0EueLRuu7bTjFlnkc3sIXxQdA=
+
+Name: bin/repast/simphony/statecharts/sheets/StateSheet$1.class
+SHA-256-Digest: o45ETjWKhc3TU5qMyRatVWIa/cdDeH4ND/q/G8I9ZZ0=
+
+Name: bin/repast/simphony/statecharts/edit/parts/PseudoState2EditPart$1.
+ class
+SHA-256-Digest: 42ecjNgu2dfcPJmMi1XGw4ldH2gx6EnMb5JYQia5aYk=
+
+Name: bin/repast/simphony/statecharts/edit/parts/PseudoState5EditPart$1.
+ class
+SHA-256-Digest: znB+xs4Ca0BLjDLiDkkd7i1BGiF+lMwQ5sWIwZuvvek=
+
+Name: bin/repast/simphony/statecharts/editor/GroovyBracketInserter$Groov
+ yExitPolicy.class
+SHA-256-Digest: 0aMc6V6RhX1II7fK90aOE0S+IgiFWA0vcPuo/6CX+C8=
+
+Name: bin/repast/simphony/statecharts/editor/Compiler$CompilerTask$Memor
+ yByteCode.class
+SHA-256-Digest: pE+6ns3azcSYNwv/3Tmvw1Kqq+OKFSGU0W8i15UoiKg=
+
+Name: bin/repast/simphony/statecharts/editor/EditorSupport$1.class
+SHA-256-Digest: sm721lcMee2BypqvQNjxzfyQXD2uNrduXZkcRgZv2Y4=
+
+Name: icons/obj16/Initial-State-16.png
+SHA-256-Digest: tsxOAb90t2L4s4Q6GOubFoCJTweqVXK1aqZ5zacyvAk=
+
+Name: bin/repast/simphony/statecharts/part/StatechartDocumentProvider.cl
+ ass
+SHA-256-Digest: yKm2+a/5yIh+HAZAP4Nz5/3sCHK8V8cpzIf0sQlzZ7M=
+
+Name: bin/repast/simphony/statecharts/edit/parts/FinalState2EditPart.cla
+ ss
+SHA-256-Digest: 8IwLCeQvNv0c4hLUw40IzmOqhHYlOW9PSqQWfDkWnpE=
+
+Name: bin/repast/simphony/statecharts/edit/policies/StateMachineItemSema
+ nticEditPolicy$DuplicateAnythingCommand.class
+SHA-256-Digest: FIwyc43Y5hCS1ylz8XvmYbM5pS90Anax5FquFJhMTMc=
+
+Name: bin/repast/simphony/statecharts/edit/parts/StatechartEditPartFacto
+ ry.class
+SHA-256-Digest: bn22Xe2Uq0jCyN7nNzDJu0i3OpetMLuonrdCDuKnMwc=
+
+Name: bin/repast/simphony/statecharts/figures/ChoiceFigure.class
+SHA-256-Digest: xgOAm1mfP6zSZmiJjgk06xQIntMQw7dzUP+l1lcbGiQ=
+
+Name: bin/repast/simphony/statecharts/policies/ShowPropsEditPolicy$1.cla
+ ss
+SHA-256-Digest: WEfNkYH/l2CVU4UpnvXKbrNslnK8EucVCAbiA82z8FA=
+
+Name: bin/org/eclipse/gmf/tooling/runtime/update/DiagramUpdater.class
+SHA-256-Digest: h9lzsObLDU3oh0ccTAU6dFW43a+1Pt3N4fj3l44Ibyc=
+
+Name: bin/repast/simphony/statecharts/providers/StatechartValidationProv
+ ider$Adapter2.class
+SHA-256-Digest: nVmYsbI31puhreIASR307W+sHv362vA9zNi6ETjGKFc=
+
+Name: bin/repast/simphony/statecharts/part/StatechartDocumentProvider$Re
+ sourceSetInfo$SynchronizerDelegate$3.class
+SHA-256-Digest: CyhXQeE07mZc7nrNYF60WTV9dcpsu0d9dblDXdDXSs4=
+
+Name: bin/repast/simphony/statecharts/providers/StatechartValidationDeco
+ ratorProvider$1.class
+SHA-256-Digest: XBSxEFEgJBUvTdcAZb3VgmWQTMgc3qNxnyqnBXPGe9E=
+
+Name: bin/repast/simphony/statecharts/sheets/HistoryStatePropertySection
+ .class
+SHA-256-Digest: x0Aui+C4sbWzlQWZs4UnhPfRGkNp30/le5tHJj7CCcI=
+
+Name: bin/repast/simphony/statecharts/navigator/StatechartNavigatorActio
+ nProvider.class
+SHA-256-Digest: WAPbXim+9phGgOrDYCqGpKym7NdsD3C24gxPYlffb2Q=
+
+Name: bin/repast/simphony/statecharts/part/StatechartCreationWizardPage0
+ .class
+SHA-256-Digest: 4fBKH9+5MtEGClSKs1RAYw8rAWk+/Ka2FzoZ4+FQscE=
+
+Name: bin/repast/simphony/statecharts/part/StatechartDocumentProvider$Re
+ sourceSetModificationListener.class
+SHA-256-Digest: J64AVH87cb5YLJd40zyM07umFIqbEjWvuUvMLvOwI1A=
+
+Name: bin/repast/simphony/statecharts/edit/commands/TransitionCreateComm
+ and.class
+SHA-256-Digest: sULNuemylghs2QUnPZ5G3gRBK6Gz0gW6shu75QpheqI=
+
+Name: icons/obj32/Final-State-32.png
+SHA-256-Digest: jfITOgyB3NZKh7Mp2nRBFkccpsuAncqdR4Psob64xXk=
+
+Name: bin/repast/simphony/statecharts/navigator/StatechartDomainNavigato
+ rContentProvider$1.class
+SHA-256-Digest: S+yDniFmpMCt9N6gKYRgmKdvej4z3yyEM3IZnFd/hJM=
+
+Name: bin/repast/simphony/statecharts/part/Messages.class
+SHA-256-Digest: nOpyBws0VhkjEY+2MlK6dbjgDlrBLnHWia9kR56dWT4=
+
+Name: bin/repast/simphony/statecharts/edit/helpers/PseudoStateEditHelper
+ .class
+SHA-256-Digest: 1+sS+Uz9+yzDbx692sKWsl+F6gLi98sezP+FyEnYt6E=
+
+Name: bin/repast/simphony/statecharts/edit/parts/StateNameEditPart$1$1.c
+ lass
+SHA-256-Digest: J+LK8FsgrgiF91HR7ILUaOOVGMFTmRsAX9a5vf94dZs=
+
+Name: bin/org/eclipse/wb/swt/SWTResourceManager.class
+SHA-256-Digest: i0JyRXV56cXHJv4r+Yhqab9996Q8uFVEAN/2StFS1Hw=
+
+Name: bin/repast/simphony/statecharts/part/StatechartLinkDescriptor.clas
+ s
+SHA-256-Digest: Uew94cPqWKYhCCWdFp/3+YFV0GwiNKot+YJx7esaI+A=
+
+Name: bin/repast/simphony/statecharts/providers/StatechartValidationProv
+ ider$Adapter1.class
+SHA-256-Digest: DgKGRCvYoH5mMtuW/xpDBMNRZuO9o3RLEjgE83rzzO4=
+
+Name: bin/repast/simphony/statecharts/edit/commands/TransitionReorientCo
+ mmand.class
+SHA-256-Digest: 0/1zJfyx7vOYu4lzEMHPdk0knk2b29lAIsHl2Ve8TkA=
+
+Name: bin/repast/simphony/statecharts/part/StatechartCreationWizard$OnFi
+ nish.class
+SHA-256-Digest: BjcVrsL9AKMBnu9UIEhWVLhSpRgOxE7MOO6qLs1mmto=
+
+Name: bin/repast/simphony/statecharts/edit/helpers/FinalStateEditHelper.
+ class
+SHA-256-Digest: t7SEPGm//1fC5j/YmZ/6jUvxD/G6F7FsOb8aLs/nno8=
+
+Name: bin/repast/simphony/statecharts/edit/parts/StateMachineEditPart$No
+ deLabelDragPolicy.class
+SHA-256-Digest: mGq23jpEnEuFk4uEbMV7/fO9JTX4u60lNRNgDudhxjY=
+
+Name: bin/repast/simphony/statecharts/expressions/StatechartOCLFactory$E
+ xpression.class
+SHA-256-Digest: 7+cnhdDy+H4TAoFX7EnC+w7jIZ+nVikgWzQspcb9xz4=
+
+Name: bin/repast/simphony/statecharts/sheets/StatePropertySection.class
+SHA-256-Digest: XkFIK1I6cpj1mMIc0f8pS5eZYKQ84OzefrkFIJvg2Cs=
+
+Name: icons/obj16/StatechartDiagramFile.gif
+SHA-256-Digest: 0ogfndt7J7aql1qpoKP3E62uLNx1uhLv0ryYiqu6nS8=
+
+Name: bin/repast/simphony/statecharts/edit/parts/TransitionEditPart.clas
+ s
+SHA-256-Digest: LKiqOyU2spmoFMnQu2jElujbr2nwUHNNV0iIrUQ2ejk=
+
+Name: bin/repast/simphony/statecharts/sheets/StateSheet.class
+SHA-256-Digest: KoVhUxssAyaQzJIk7PqNXplzsJCIYT938//BC5l0Ssw=
+
+Name: bin/repast/simphony/statecharts/edit/parts/CompositeState2EditPart
+ $CompositeStateFigure.class
+SHA-256-Digest: spb8dZM8UmpvNPyVKuTppDA8rNbK1/wedF589ZuG0vQ=
+
+Name: bin/repast/simphony/statecharts/editor/EditorSupport$6.class
+SHA-256-Digest: sJeWbIZjFGPvEMUtLzJT1o9AQxDSrkyXd1lIy2lTHaY=
+
+Name: bin/org/eclipse/gmf/tooling/runtime/update/UpdaterLinkDescriptor$2
+ .class
+SHA-256-Digest: PWcCL1KCvZvDUQzCsJ4qzeB80Be99MToH7UXN5vC0ck=
+
+Name: bin/repast/simphony/statecharts/editor/Highlighting.class
+SHA-256-Digest: Oz9rm5EKLMJZs83ZFco4QUlrgs+I5De/52e3gBXXv9M=
+
+Name: bin/repast/simphony/statecharts/editor/ErrorAnnotationHider$ErrorL
+ ineData.class
+SHA-256-Digest: bjEa9qk1VLKTDhOFGZkVox25qQT0j/LVt5nTKgVzqcc=
+
+Name: bin/org/eclipse/gmf/tooling/runtime/update/UpdaterLinkDescriptor$1
+ .class
+SHA-256-Digest: Nr7xmvj8tAEf+sQ6o86JmqjIIGzcRiqhno++6n3wD3o=
+
+Name: bin/repast/simphony/statecharts/figures/ShallowHistoryFigure.class
+SHA-256-Digest: bSn6Irz6vnRpXFRjWoWVjGKSB6uuPJjldBcbVUV6Xw4=
+
+Name: bin/repast/simphony/statecharts/parsers/AbstractParser.class
+SHA-256-Digest: GKUGZoiCf+XfUeP9nwUULgLke/uDO4Xufi+X0aVdXhM=
+
+Name: bin/repast/simphony/statecharts/navigator/StatechartNavigatorActio
+ nProvider$OpenDiagramAction.class
+SHA-256-Digest: nPv/yyx+irIw0xJtFdgIRw9Jg1c8jg+u3hJg2oXi10A=
+
+Name: icons/obj32/transition-32.png
+SHA-256-Digest: YXFIvRo4TBiRLQ61P9MRash8/xjh279YphPnII2QhtI=
+
+Name: bin/repast/simphony/statecharts/edit/commands/State2CreateCommand.
+ class
+SHA-256-Digest: wdtYzgWc9sIjSYW0wVB1xxbT/6z7+XQIafdxiYfSwF4=
+
+Name: bin/repast/simphony/statecharts/part/StatechartDocumentProvider$1.
+ class
+SHA-256-Digest: isRn3ms4IYmEwWEQk2iJG66dem0Q0uqJUIu2XsT7WMs=
+
+Name: bin/repast/simphony/statecharts/sheets/FinalStatePropertySection.c
+ lass
+SHA-256-Digest: ImNwbJj7MSyaTjDjtF5ODpshM7V78tV8MVc93ZY0gOc=
+
+Name: bin/repast/simphony/statechart/part/CompliationUnitTests.class
+SHA-256-Digest: UvKalDJb/acvrWRvyFoEeG+gRk8UBGnykheoPx33fMI=
+
+Name: bin/repast/simphony/statecharts/editor/GroovyBracketInserter$1.cla
+ ss
+SHA-256-Digest: VKsirvkzn+16SNpkJWqdjSF7X/lpIZWUAszmVTDp4K8=
+
+Name: icons/incomingLinksNavigatorGroup.gif
+SHA-256-Digest: ImVvouaD+OX3ra4x8JHOBF/JHwQqj+2C7noF/EAp4MI=
+
+Name: bin/repast/simphony/statecharts/editor/EditorSupport.class
+SHA-256-Digest: JtC2rU2B4YzVLsYFGLaGRxSBwquwxKAkeBjxZRuSZ4Q=
+
+Name: bin/repast/simphony/statecharts/edit/policies/History2ItemSemantic
+ EditPolicy.class
+SHA-256-Digest: aPkrO8Y511RdMXUSyvvfcUxTnWBcGUD8PZDXNbE+KN4=
+
+Name: bin/repast/simphony/statecharts/navigator/StatechartAbstractNaviga
+ torItem.class
+SHA-256-Digest: QKu8Udr8gmmIowPqmpi5Jq2zUJtpc3/3LFOe76vtgUg=
+
+Name: bin/repast/simphony/statecharts/part/StatechartDiagramEditor$Focus
+ Setter.class
+SHA-256-Digest: 8z2TcPMg+GH63rNlBU1vyCG2GcCdTWZj3R3KgDRh3JI=
+
+Name: bin/repast/simphony/statecharts/part/StatechartCreationWizard.clas
+ s
+SHA-256-Digest: 4eS4cEiAU4MPZ+tK+0fCfuGf/HLoIpDhgur6/4kbh3s=
+
+Name: icons/obj16/Shallow-History-16.png
+SHA-256-Digest: JClz31diA7Jef9xaKmGMxlg5ypgIImPsBnOPdPnTnjw=
+
+Name: bin/repast/simphony/statecharts/part/StatechartDiagramEditorUtil.c
+ lass
+SHA-256-Digest: vfrIaFEPqJKHtGtredM/YeuG/s1ijsngXQ5WbQoHC3E=
+
+Name: plugin.properties
+SHA-256-Digest: Hk76hP2/T8lVuk/1mIpBFAAmhVSDjYeytHkSKO0FuiY=
+
+Name: bin/repast/simphony/statecharts/edit/parts/PseudoStateEditPart$1.c
+ lass
+SHA-256-Digest: awD3TBpWxoUWIBcGS7oFyOvpZSUTTrCt8wlhPDU697I=
+
+Name: bin/repast/simphony/statecharts/edit/helpers/CompositeStateEditHel
+ per.class
+SHA-256-Digest: peHbaCAIODphU0ow/G5Hkq0k8QNvQC1yEHkwXKVzR24=
+
+Name: bin/repast/simphony/statecharts/editor/SemanticHighlightingPresent
+ er.class
+SHA-256-Digest: 9TvC1xsgoeVpEGetOqHAZe4fBfmbd1OScZWTZ6Z/h+c=
+
+Name: messages.properties
+SHA-256-Digest: TvMpzkWewbFlDA257pgZ5atHK2DMZvXQnHCw0YWUdAk=
+
+Name: icons/obj32/Composite-State-32.png
+SHA-256-Digest: cp70uP0BSKnH0mnTPrt2FPlPqunRRdDdQrKAlk309QY=
+
+Name: bin/repast/simphony/statecharts/edit/commands/FinalState2CreateCom
+ mand.class
+SHA-256-Digest: JtztebD9lxo/rj/n8wDP9vMxYtm7T8iEBAJ7K3LfX5g=
+
+Name: bin/repast/simphony/statecharts/navigator/StatechartNavigatorLinkH
+ elper.class
+SHA-256-Digest: 199OokPUUag/RjddwJ2Cs3aw/cAwTJARCMn7YMcprGM=
+
+Name: bin/repast/simphony/statecharts/edit/parts/CompositeStateNameEditP
+ art.class
+SHA-256-Digest: roddtvB5RZ7Lic3l1sOcD+SAE2dKXjf9Cm9nzzfa+j4=
+
+Name: bin/repast/simphony/statecharts/edit/policies/PseudoStateItemSeman
+ ticEditPolicy.class
+SHA-256-Digest: RJj2hZ6rJpDk4HBevAFTRInYlZLOqRmza/NH5DlGsQw=
+
+Name: bin/repast/simphony/statecharts/preferences/DiagramAppearancePrefe
+ rencePage.class
+SHA-256-Digest: BP7DPmlYzKbTmqCvMvzD+JaekRnfPbuZ9HJFaW7i3AQ=
+
+Name: bin/repast/simphony/statecharts/edit/policies/PseudoState2ItemSema
+ nticEditPolicy.class
+SHA-256-Digest: 8NbVuANWc68zsWdvkyj0Rb//x3j3O5ISAbfSH610zcw=
+
+Name: bin/repast/simphony/statecharts/editor/EditorSupport$5.class
+SHA-256-Digest: dH2JiRoMutVr0+iIvUY5/34RIOYAtPtv49Z3iP5awh4=
+
+Name: icon_license.html
+SHA-256-Digest: rlwDLh782qZwnweVtrNQHQZK54hnQ/6Ia1kH/zLR100=
+
+Name: icons/obj16/logo-16.png
+SHA-256-Digest: LWCOx20N941+pJskqo2fZYPMR8fTTlXl6xzkZm5jolY=
+
+Name: bin/org/eclipse/gmf/tooling/runtime/edit/policies/reparent/Creatio
+ nEditPolicyWithCustomReparent$MoveRequestWithParentInfo.class
+SHA-256-Digest: 0sgILfpMNIv/BbSvc0lMj3zMaUFOGLNrY5M5QLoFViI=
+
+Name: bin/repast/simphony/statecharts/sheets/TransitionSheet$MessageType
+ ToString.class
+SHA-256-Digest: quwSTLPuYDVx6bAb/zKyTSX77CQCWq1/ZQNrD54s+v8=
+
+Name: bin/repast/simphony/statecharts/editor/EditorSupport$2.class
+SHA-256-Digest: pZ59D2yZtYlE2qICcWcoxZOxI0El7UFm7b5smhfJE6E=
+
+Name: bin/repast/simphony/statecharts/edit/policies/PseudoState4ItemSema
+ nticEditPolicy.class
+SHA-256-Digest: ooFILh2i3GfZpModT3HXnou4UX9rdbEprFyEr9+85/o=
+
+Name: bin/repast/simphony/statecharts/editor/GroovySourceViewer.class
+SHA-256-Digest: y+hlVHm5s84qqe4aEh/vLURemDsAqLyNB4qM89WSlZU=
+
+Name: bin/repast/simphony/statecharts/edit/parts/FixedConnectionAnchor.c
+ lass
+SHA-256-Digest: wPw99+6OLo52QfQDZkHP2JjC5P9GRhJh+ecffsOKxhg=
+
+Name: bin/repast/simphony/statecharts/editor/Compiler.class
+SHA-256-Digest: ElyTPf1Ss+vvYZDOohuTxNqno5F1m9QMEzn9pMSNW94=
+
+Name: bin/repast/simphony/statecharts/sheets/StringToDoubleConverter.cla
+ ss
+SHA-256-Digest: MXtuftsYzd1SuYGOZh7OhJvlmQ/kcPP6VM3TrFl5e+E=
+
+Name: bin/repast/simphony/statecharts/edit/policies/StateItemSemanticEdi
+ tPolicy.class
+SHA-256-Digest: uBZb4fT2oFb2Pm5kIQa7p3yNCa1Kn+5u9e+BjCgNrww=
+
+Name: bin/repast/simphony/statecharts/sheet/StatechartSheetLabelProvider
+ .class
+SHA-256-Digest: uYM/tDwPg8bWl2yR7biAqpqEtsABTTp3H6YD9fXujXs=
+
+Name: bin/repast/simphony/statecharts/sheets/StateMachineSheet.class
+SHA-256-Digest: 1wfZxU1RzPwf9civv2tY3B5Y0XYxI+XENr8iXWKN+hg=
+
+Name: bin/repast/simphony/statecharts/providers/StatechartValidationDeco
+ ratorProvider$MarkerObserver.class
+SHA-256-Digest: QhJIjH5F+wU7akcM61zLX4nw/zDwJfBCX1D0oEUHi1M=
+
+Name: bin/repast/simphony/statecharts/edit/policies/StatechartBaseItemSe
+ manticEditPolicy.class
+SHA-256-Digest: Thlaonrf8DMAO+4fG9SiKlhAuCny89HbDI4k2JAfA7g=
+
+Name: bin/repast/simphony/statecharts/figures/DeepHistoryFigure.class
+SHA-256-Digest: KuScI12JiC31lxh+7n9bhhsntAa4iH5r3xOJ+7elifs=
+
+Name: bin/repast/simphony/statecharts/figures/InitialStateFigure.class
+SHA-256-Digest: lG8+jCjTUsyTRYxQ0r/EHVdwczAeW53uW6Fv5HfWZb4=
+
+Name: bin/repast/simphony/statecharts/expressions/StatechartAbstractExpr
+ ession.class
+SHA-256-Digest: VlPgSvj9EfXOC2PIGcCTqiMt9vJE+rde+A5Ry0C0SMA=
+
+Name: bin/repast/simphony/statechart/part/CompliationUnitTests$Owner.cla
+ ss
+SHA-256-Digest: /HAQM2q7BLxo3lI0j+ODa151dNvcHxbHvMUtmFu+9f8=
+
+Name: bin/repast/simphony/statecharts/providers/StatechartViewProvider.c
+ lass
+SHA-256-Digest: aTIYaEqk8JpoQbrLJhMbUpX1cWHXhrUSWTOR7qeU+Kw=
+
+Name: bin/repast/simphony/statecharts/part/StatechartDiagramUpdater$1.cl
+ ass
+SHA-256-Digest: QEwaKw6CMGqzM0Z9ln/xhyA5k5KtzWqzWsgX5IDdF/Y=
+
+Name: bin/repast/simphony/statecharts/edit/policies/CompositeStateCompos
+ iteStateCompartmentItemSemanticEditPolicy.class
+SHA-256-Digest: Shk1m8qykpXUbcPE0VjKo8jVYtmnAEW+akWzBF//zKU=
+
+Name: bin/repast/simphony/statecharts/providers/StatechartValidationProv
+ ider$CtxSwitchStrategy.class
+SHA-256-Digest: RIVNaZbbfw6TkJ1cX7u9wQBDutCXC7a0Z33Chlz8qEA=
+
+Name: icons/obj32/First-State-32.xcf
+SHA-256-Digest: DBU3cz0WZKsfT/Qp2AOI7YQKByadRn2X83ETRcFVgFw=
+
+Name: bin/repast/simphony/statecharts/figures/EntryStateFigure.class
+SHA-256-Digest: yvmUIkqZnILvMjAWknHA8uCOrYVTlSQE2anPbqFmwt4=
+
+Name: bin/repast/simphony/statechart/part/CodeAdderTests.class
+SHA-256-Digest: w/R52JwCKK4bgliGMnYmXtilvDIE58u9GCFiReFbw4Y=
+
+Name: bin/repast/simphony/statechart/part/CompliationUnitTests$SpecialJa
+ vaFileManager.class
+SHA-256-Digest: hpCeJ74MMnTIKOWv0NNp56ibdYloG40umx2jcGDVZs0=
+
+Name: bin/repast/simphony/statecharts/sheets/BindingSupport.class
+SHA-256-Digest: GZkxHOwSRmKu5yGrpWxw3J5MPeGl4yPizqdDUnFULJA=
+
+Name: bin/repast/simphony/statecharts/edit/parts/State2EditPart$StateFig
+ ure.class
+SHA-256-Digest: d0KgGCbUlFIYdKio1rCZfNRgwu4UfY6TXN3ZOtswmjM=
+
+Name: bin/repast/simphony/statecharts/editor/EditorSupport$3.class
+SHA-256-Digest: aXKoQdJ6jRGC/8xqTfV7FCZzwQz9E4CK28MsS32ncJE=
+
+Name: bin/repast/simphony/statecharts/handlers/StatechartBuilder.class
+SHA-256-Digest: 8SniKNCzYXRca2LXOv4J5EhoNlgHBNoZoFgmVFP8NPY=
+
+Name: bin/repast/simphony/statecharts/part/StatechartPaletteFactory.clas
+ s
+SHA-256-Digest: N9zkiahRM1H57Pu2QRLpB1EWF4BLGoaI5lLbNV02l9g=
+
+Name: bin/repast/simphony/statecharts/sheets/StateMachinePropertySection
+ .class
+SHA-256-Digest: 0UVBB7CjrJqSdo/4wAwnlhWS9F1Zi7vSchYq+ITVDfQ=
+
+Name: bin/repast/simphony/statecharts/editor/CodeUpdateStrategy.class
+SHA-256-Digest: fvOtjsju/LliDxuY6GKGyrFEzQC3FxPHGi5o1zOqX7o=
+
+Name: icons/wizban/NewStatechartWizard.gif
+SHA-256-Digest: 15VGN1Ak08TzRkkQGVs2O1CfCXxV8aVbM9HBuOx/nRA=
+
+Name: bin/repast/simphony/statecharts/edit/parts/History2EditPart.class
+SHA-256-Digest: 6p5QxKInvgL4E5+yMHPY3cc/wPWhqTNU0lnR/3ZhziE=
+
+Name: bin/repast/simphony/statecharts/editor/ActiveFocusControlExpressio
+ n.class
+SHA-256-Digest: q2u/J2t1t/wMiD0zAVZoER0+R0S8vRPZ7ehxlh+5as8=
+
+Name: bin/repast/simphony/statecharts/part/ValidateAction.class
+SHA-256-Digest: flrsOYPRvOQkn/wpvXabOT/Gb2Z9YataqL0aZ3ZsEvI=
+

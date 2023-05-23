@@ -1,0 +1,355 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Repast chart
+Bundle-SymbolicName: repast.simphony.chart
+Bundle-Version: 2.9.1
+Bundle-ClassPath: lib/jcommon-1.0.23.jar,lib/jfreechart-1.0.19.jar
+Export-Package: com.keypoint,org.jfree,org.jfree.base,org.jfree.base.con
+ fig,org.jfree.base.log,org.jfree.base.modules,org.jfree.chart,org.jfree
+ .chart.annotations,org.jfree.chart.axis,org.jfree.chart.block,org.jfree
+ .chart.demo,org.jfree.chart.editor,org.jfree.chart.encoders,org.jfree.c
+ hart.entity,org.jfree.chart.event,org.jfree.chart.imagemap,org.jfree.ch
+ art.labels,org.jfree.chart.needle,org.jfree.chart.plot,org.jfree.chart.
+ renderer,org.jfree.chart.renderer.category,org.jfree.chart.renderer.xy,
+ org.jfree.chart.resources,org.jfree.chart.servlet,org.jfree.chart.title
+ ,org.jfree.chart.urls,org.jfree.chart.util,org.jfree.data,org.jfree.dat
+ a.category,org.jfree.data.contour,org.jfree.data.function,org.jfree.dat
+ a.gantt,org.jfree.data.general,org.jfree.data.io,org.jfree.data.jdbc,or
+ g.jfree.data.resources,org.jfree.data.statistics,org.jfree.data.time,or
+ g.jfree.data.time.ohlc,org.jfree.data.xml,org.jfree.data.xy,org.jfree.d
+ ate,org.jfree.io,org.jfree.layout,org.jfree.resources,org.jfree.text,or
+ g.jfree.threads,org.jfree.ui,org.jfree.ui.about,org.jfree.ui.about.reso
+ urces,org.jfree.ui.action,org.jfree.ui.tabbedui,org.jfree.util,repast.s
+ imphony.chart2,repast.simphony.chart2.engine,repast.simphony.chart2.gui
+ ,repast.simphony.chart2.wizard
+Require-Bundle: repast.simphony.core,repast.simphony.scenario,repast.sim
+ phony.plugin.util,repast.simphony.gui,repast.simphony.data,repast.simph
+ ony.runtime,saf.core.ui
+Bundle-Vendor: Argonne National Laboratory
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+
+Name: bin/repast/simphony/chart2/engine/TimeSeriesControllerActionIO$Tim
+ eSeriesActionLoader$1.class
+SHA-256-Digest: jzGohUOuWiQlxjRhv+A7xVRDmciIpgBZXvq0Da3qipg=
+
+Name: bin/repast/simphony/chart2/wizard/SeriesConfigTableModel.class
+SHA-256-Digest: Ohb8AIVa/ubgV8xfvaPm9nbx5+kiCvUg0hAoB7U50MA=
+
+Name: bin/repast/simphony/chart2/wizard/TimeSeriesGeneralStep.class
+SHA-256-Digest: 3FRJmOV4CCKF3fObeohYbJugYGn70IQYK+8gSDX4NUU=
+
+Name: bin/repast/simphony/chart2/XYDataSinkSourceSeries.class
+SHA-256-Digest: CRYrlWU+cSD8uSU07h+gxVQost8Ov/wEOZRZVXSVrc0=
+
+Name: bin/repast/simphony/chart2/StaticHistogramDataset$YHandler.class
+SHA-256-Digest: qoyDxVERpBF/N8JfOi5EFmQdWHZxEb3wCzyps3p7TWU=
+
+Name: bin/repast/simphony/chart2/XYDataSinkSourceSeries$Row.class
+SHA-256-Digest: nTa0b5RDN9skxWy5qLYCi2TMyNK0zXm4wNIxQjZBLO0=
+
+Name: bin/repast/simphony/chart2/engine/HistogramChartDescriptor$Histogr
+ amType$1.class
+SHA-256-Digest: 2rKW3vznXn1m/4uzewWHmfX6cd6Oy3XrMJ9inS127G4=
+
+Name: bin/repast/simphony/chart2/engine/TimeSeriesComponentControllerAct
+ ion.class
+SHA-256-Digest: 2xjhYygyed4mQ3/Q3vLv0wpPkqSY9/0A6qTQ6lFOTjM=
+
+Name: bin/repast/simphony/chart2/XYDataSinkValueSeries$SeriesData.class
+SHA-256-Digest: sXCaCX7EUkfbzzcQ1/VoBxSs1BOCWGAndoIVp5I5HIk=
+
+Name: bin/repast/simphony/chart2/gui/TimeSeriesActionEditorCreator.class
+SHA-256-Digest: M8xDXP4YZ6tTwQ18jROPbC4xx+iFYE8oyrZfm96oAXs=
+
+Name: bin/repast/simphony/chart2/wizard/ChartPropertiesStep$3.class
+SHA-256-Digest: kuX3yhelcOdcqWIgvBByp1T3g0qmK5/K2/VYVlSFRms=
+
+Name: licenses/lgpl-2.1.txt
+SHA-256-Digest: QARWEVoHZsYzjzVMFGHkyX1Fpdpb3YFdTyxvGBUZ5Pc=
+
+Name: bin/repast/simphony/chart2/wizard/HistogramWizardModel.class
+SHA-256-Digest: HOTws4XkGo9F18zH78TF2Ibt7yh6TlWQb3vZImVaL/w=
+
+Name: bin/repast/simphony/chart2/wizard/HistogramChartPropertiesStep$2.c
+ lass
+SHA-256-Digest: +obSfiFf4t0cWA71oPZEU0O3x7gC6C4WUGLfhq/RLs4=
+
+Name: bin/repast/simphony/chart2/engine/TimeSeriesChartDescriptor.class
+SHA-256-Digest: r0i3bT+SqZw0hA8QsVJc8NutABsjVHGrl8Q/r5ELLkE=
+
+Name: bin/repast/simphony/chart2/StaticHistogramDataset$AddYHandler.clas
+ s
+SHA-256-Digest: 77r/QJl5+eBtLN5O5RWaOXD8xV/uBSSEmTQHCyBizxA=
+
+Name: licenses/repast-license.txt
+SHA-256-Digest: sgcGxHlhIfJK9mnMFOtvz0jBQxnJYR0r5EDSz4qPlYU=
+
+Name: bin/repast/simphony/chart2/engine/HistogramComponentControllerActi
+ on.class
+SHA-256-Digest: LHZYbdh//e/pB84Bfl1fG7Y5CT9D905VLVxy87pNy4U=
+
+Name: bin/repast/simphony/chart2/gui/HistogramActionUI.class
+SHA-256-Digest: nWm74N8r3s1ekZw2exdEPmf3ycJWvgvM/3T3MJLTx9A=
+
+Name: bin/repast/simphony/chart2/wizard/TimeSeriesGeneralStep$1.class
+SHA-256-Digest: mL1KOFf+cbGmk9INJOy0d7tikQfM+o1HiJqVoOFHV38=
+
+Name: lib/jfreechart-1.0.19.jar
+SHA-256-Digest: 2zIKpziY4nQ9M0N9rA/2EtPnYU35ao8uWRSZ00+kgU4=
+
+Name: bin/repast/simphony/chart2/wizard/TimeSeriesWizardModel.class
+SHA-256-Digest: /sXB1Yps5glfoxltGMFUO2SbxEIgGt/I7C2c0846pU8=
+
+Name: plugin_jpf.xml
+SHA-256-Digest: QFeaI5eIk3JJdDwuOSUZO1HyqdeBeH1hLXcgmEdrrik=
+
+Name: bin/repast/simphony/chart2/XYDataSinkSourceSeries$SeriesData.class
+SHA-256-Digest: 3QGxJIK9rXBQaNCuKtqTYHcGjoMlVvuvYANNJMQpgUA=
+
+Name: bin/repast/simphony/chart2/AbstractXYChartCreator.class
+SHA-256-Digest: XzFr67nbAb6OBJ+cTYiM+KFGTWVW2VEB0eiOPR76CaE=
+
+Name: bin/repast/simphony/chart2/wizard/AggregateChartStep.class
+SHA-256-Digest: zcGJr+9TlIDOWWe/ETjjY0/hOFzBeXfagiyDLBYw4n4=
+
+Name: bin/repast/simphony/chart2/StaticHistogramDataset.class
+SHA-256-Digest: veH9ruWiJgnnBF6DeTz+HZIdKk8VSz/pw3DScWHqUgs=
+
+Name: bin/repast/simphony/chart2/HistogramDataSink$Updater.class
+SHA-256-Digest: X9MuusGHMMGmmx5jEhsQYxS5XoewMiR0aXdrzV04mlg=
+
+Name: bin/repast/simphony/chart2/wizard/HistogramDataStep$1.class
+SHA-256-Digest: Ui1QnWH68s74tMoGbpvcJ8DZqEOkF7U/1Ypj7tFgCEc=
+
+Name: bin/repast/simphony/chart2/FixedRangeFix.class
+SHA-256-Digest: DsP9sf+M3JAx6QRwaEmBqqPVnYlNvQlyvbUinAUVo1Q=
+
+Name: bin/repast/simphony/chart2/ChartCreator.class
+SHA-256-Digest: 0PopbLwhXr4by39pZFR83mOxSNbO4IDWu6xa/rgQhTw=
+
+Name: bin/repast/simphony/chart2/HistogramUpdateListener.class
+SHA-256-Digest: YNu+Joi+O+O/mqap+OXhqAmrJQYDPEEMt+iFkVQLtiQ=
+
+Name: bin/repast/simphony/chart2/wizard/HistogramChartPropertiesStep$4.c
+ lass
+SHA-256-Digest: E2i5daYDnYE/sTMERCvM4MBhQjFAZyUfTqN+UkyCSVM=
+
+Name: bin/repast/simphony/chart2/wizard/HistogramPropertiesStep$1.class
+SHA-256-Digest: teSst+O0dq2RyY5I1VWL3HoCcV91hpbHhSLiHsChhWk=
+
+Name: bin/repast/simphony/chart2/DataConverter.class
+SHA-256-Digest: 5ct9wRWCrrTdfyfv6PzMdDZ9QcGBs3MAexw4OP0uB9M=
+
+Name: bin/repast/simphony/chart2/DynamicHistogramDataset.class
+SHA-256-Digest: fBcWUPPo9z9V8LBPTGbsywVVKuYevnJ4VOdCNW6FUDo=
+
+Name: bin/repast/simphony/chart2/wizard/HistogramWizardModel$1.class
+SHA-256-Digest: NKC2JZkcMVkK4wzuMpcHP979cmiYy8DzijT1fxAxnOQ=
+
+Name: bin/repast/simphony/chart2/wizard/HistogramPropertiesStep.class
+SHA-256-Digest: /sWYMObmWxFjoQKMke3OjVbyuqcanqm1g2VpqN1Ig6w=
+
+Name: lib/jcommon-1.0.23.jar
+SHA-256-Digest: HmcEAoCUhMcex01VtAAipMSTnHkRvTnuWgz7Oq9WOXw=
+
+Name: bin/repast/simphony/chart2/wizard/SeriesConfigTableModel$1.class
+SHA-256-Digest: yCABX8c9gPhTm8KRyEOmd9OdAglnxZjZilAa/MLe92c=
+
+Name: bin/repast/simphony/chart2/HistogramChartCreator.class
+SHA-256-Digest: +vufGkxUW6boeD5Q3ok5y0gna/HmofIAFfsEZYqO9BU=
+
+Name: bin/repast/simphony/chart2/XYDataSinkValueSeries.class
+SHA-256-Digest: 0mRjSaPM/L6ZknAprIDJOkFAJSt56+JmIHKQ0Vvt3n8=
+
+Name: bin/repast/simphony/chart2/wizard/HistogramPropertiesStep$2.class
+SHA-256-Digest: hcuAnHiQdKr1DgkZGAidqzB3mSzfzb54t89SRY63FPE=
+
+Name: bin/repast/simphony/chart2/AbstractChartCreator.class
+SHA-256-Digest: HA6TMtWSML5tVMkqD7l04rP2AT7Dtgky7r+IoU4jl6c=
+
+Name: bin/repast/simphony/chart2/AbstractXYSeriesDataSink.class
+SHA-256-Digest: 7xn5LCbJQ/nzOW01dBGU4LtMi0VkAHgHPrLBWek4h7E=
+
+Name: bin/repast/simphony/chart2/wizard/HistogramDataStep$2.class
+SHA-256-Digest: uhYvHGx+vLnrCT7mwKgvy9ALbOz2Go3BnUy9OGlvmYc=
+
+Name: bin/repast/simphony/chart2/OutOfRangeHandling$1.class
+SHA-256-Digest: kAJDrfyFFyopt6Bmv+UX6sTWS4b60soe7OCyetHs19w=
+
+Name: bin/repast/simphony/chart2/engine/HistogramChartDescriptor$Histogr
+ amType.class
+SHA-256-Digest: WEuA9SISaA4VmiB7K+9wkWtrjF0xhRgd1HVqw/pFydg=
+
+Name: bin/repast/simphony/chart2/wizard/ChartPropertiesStep.class
+SHA-256-Digest: 7TKe1EmnlzBDRuUO5hDkKAgLwrSRl5D8ZQA+Od7mWcE=
+
+Name: bin/repast/simphony/chart2/engine/ChartActionCreator.class
+SHA-256-Digest: G60yZ+ufiMBM5SPgdbZTpFhQbc/Xtrdhi2PhtMYpfKo=
+
+Name: bin/repast/simphony/chart2/wizard/HistogramChartPropertiesStep$3.c
+ lass
+SHA-256-Digest: rIWNNhxBO15I6hPZJiXl7MQulxtlUbevgVmSz5Hg4i8=
+
+Name: bin/repast/simphony/chart2/wizard/SeriesConfigTableModel$RowItem.c
+ lass
+SHA-256-Digest: efPIdGxbeaQb4pwjkaoZAm1PGTRdqhm4GOMt2o9VBrI=
+
+Name: bin/repast/simphony/chart2/wizard/ColorEditor.class
+SHA-256-Digest: F+27X9/ckcC9GHwXEcOmal/mHLO+dlpBgavlqR+TCpM=
+
+Name: bin/repast/simphony/chart2/engine/HistogramControllerActionIO$Hist
+ ogramActionLoader.class
+SHA-256-Digest: jmZuHH0T6ZvyVUv2VLmAFmtt5Xrtxa6yZ7q9pKYZVEc=
+
+Name: bin/repast/simphony/chart2/wizard/ColorRenderer.class
+SHA-256-Digest: szuCQMAYDFHKXsBAQ01rw8cztlLLXg4ZYdRLMaEImx4=
+
+Name: bin/repast/simphony/chart2/XYDataSinkSourceSeries$Updater.class
+SHA-256-Digest: QpOALFtKpaDqVSwWRfVenwf0ho6lzF5uNBZ/gfT45Mo=
+
+Name: bin/repast/simphony/chart2/wizard/TimeSeriesGeneralStep$2.class
+SHA-256-Digest: 7jYtV8uyA0FTgYKC8vOfGEqpXfPnq6SxpMxlIMOCZdU=
+
+Name: bin/repast/simphony/chart2/XYDataSinkValueSeries$InitDataConverter
+ .class
+SHA-256-Digest: 0KgVY/kr3ZQostj2Kdv/rmT38ZQZRdQqNmKSi4SBMyo=
+
+Name: bin/repast/simphony/chart2/LineChartCreator$LabelGenerator.class
+SHA-256-Digest: D3UqmRvkCqJTiwobrxr1kkHMNfqzDdCScZdFPWvxdRg=
+
+Name: bin/repast/simphony/chart2/LineChartCreator.class
+SHA-256-Digest: uM6Sq/TockNYCCaBItkydEuDwiDCHTAMA/Pxt+DSRk8=
+
+Name: bin/repast/simphony/chart2/XYDataSinkValueSeries$Updater.class
+SHA-256-Digest: htoUsX9uRepDHxi8lpFuINe3+u48o6vgge6lNDfJkRA=
+
+Name: bin/repast/simphony/chart2/wizard/TimeSeriesWizardModel$1.class
+SHA-256-Digest: bQmqSZf7OSGhaMo171fcu6CyLVaTqGBu9Ak9P8T0jUg=
+
+Name: bin/repast/simphony/chart2/OutOfRangeHandling$2.class
+SHA-256-Digest: 2V917IOzDtDPaW1IYiv3usx/WUpRN8lr+VHUCEcoG2c=
+
+Name: bin/repast/simphony/chart2/wizard/TimeSeriesEditorWizard$2.class
+SHA-256-Digest: mTBpTCfOnZeR/Enyv9XtoHh+uyMtrau4fy6ALsfI3i0=
+
+Name: bin/repast/simphony/chart2/wizard/DataSetRenderer.class
+SHA-256-Digest: 1mrRVFwiJnz47r9EvodZB68IkxS9GXkgbhJ2KMTzBQY=
+
+Name: bin/repast/simphony/chart2/wizard/NonAggregateChartStep$1.class
+SHA-256-Digest: MD0HOJTm/zcw/i/p0Lvtd0+mJVGT3HiiNRqPMupvvG8=
+
+Name: bin/repast/simphony/chart2/engine/HistogramChartDescriptor$Histogr
+ amType$2.class
+SHA-256-Digest: k+UWaqZQtR5V7EZw3LAie5auWoywcFTGxseh9p0aVF8=
+
+Name: bin/repast/simphony/chart2/wizard/TimeSeriesEditorWizard.class
+SHA-256-Digest: iBGxoq8z+AzLVzNvkznsOVzTSKABH0J17ay1RqPeDtg=
+
+Name: bin/repast/simphony/chart2/RangeFix.class
+SHA-256-Digest: y1Bze2GUFRcQspGViUQhCkBxJis3LnyKgk3gh+AinAk=
+
+Name: bin/repast/simphony/chart2/gui/HistogramChartActionEditorCreator.c
+ lass
+SHA-256-Digest: 4j/zrqz7y27r+e2t+t1l6z/5Oj2GXxh0Hmd5P7oYIuc=
+
+Name: bin/repast/simphony/chart2/wizard/HistogramDataStep.class
+SHA-256-Digest: 32wXblHNiYf+15gCU9pXza5vK5UInNrId2VNd1Ur5UA=
+
+Name: bin/repast/simphony/chart2/HistogramDataSink.class
+SHA-256-Digest: hJEdKKfvPJcKCuRMbIC770NpXRJBQd9ey8WMsxmoBw4=
+
+Name: bin/repast/simphony/chart2/wizard/NonAggregateChartStep.class
+SHA-256-Digest: ugw+uWpkNihObiaZcMSDibUhhmCNdnQTJ0y1FqItpTM=
+
+Name: bin/repast/simphony/chart2/wizard/HistogramPropertiesStep$3.class
+SHA-256-Digest: bekHvksbb2UCoSzvohlGkmHQeSpstcBEfxp2CdRSBKU=
+
+Name: bin/repast/simphony/chart2/engine/ChartDescriptor.class
+SHA-256-Digest: aG54SQQYZH4tx4lCDZ/Al2qiGH2yDat0u7hZoLYhr0g=
+
+Name: bin/repast/simphony/chart2/gui/TimeSeriesChartMenuItem.class
+SHA-256-Digest: cgB5hVpnr2V/zygKRfxN839Cj6A3IujE6WBaOj7Vei4=
+
+Name: bin/repast/simphony/chart2/OutOfRangeHandling.class
+SHA-256-Digest: 1PlY0fgAwGK+8TNY4+do9RiNVqwwA/94DytHVH2IHbM=
+
+Name: bin/repast/simphony/chart2/BooleanConverter.class
+SHA-256-Digest: Q6gaAZtwmRYWx5+ZVNITVCLcGtLtXG4u7RfsmGgPmz4=
+
+Name: bin/repast/simphony/chart2/AbstractHistogramDataset.class
+SHA-256-Digest: DexEfmVcRc7gutJ5wxFHQw86r4LmnCOWQ3Y2vTGV8hg=
+
+Name: bin/repast/simphony/chart2/wizard/ChartPropertiesStep$1.class
+SHA-256-Digest: HhWACC2xRnqh/X9oLacVF9Ly1coSgpKpCVl5fNRtS/s=
+
+Name: bin/repast/simphony/chart2/wizard/HistogramEditorWizard.class
+SHA-256-Digest: R7dPQ25NEyE0K+0yLyP30fCijDETDYfUg29Kpxxz9Xs=
+
+Name: bin/repast/simphony/chart2/engine/TimeSeriesControllerActionIO.cla
+ ss
+SHA-256-Digest: UfhJi6Q/DCn+b/34zWAyBfX0Hoodg518yfgxlSuUpAQ=
+
+Name: bin/repast/simphony/chart2/HistogramDataSink$InitDataConverter.cla
+ ss
+SHA-256-Digest: 6Y8D/QoaVfPp9+jzgU8T8soZHqUSvdOFyFnIg1rb28Q=
+
+Name: bin/repast/simphony/chart2/NumberConverter.class
+SHA-256-Digest: DcpBm255JHcemc7FO/7QM/n1G7n4dcGoYsriTMvaFI0=
+
+Name: bin/repast/simphony/chart2/OutOfRangeHandling$3.class
+SHA-256-Digest: r0d1InQ7E5A2UcjN+tR5MoBCjGdU0dCSdjezy02wIlA=
+
+Name: bin/repast/simphony/chart2/engine/TimeSeriesChartDescriptor$Series
+ Data.class
+SHA-256-Digest: ktDGGQwFBJfGwb54rFHp8ejCdHrEf8txM7rQ9TETGco=
+
+Name: bin/repast/simphony/chart2/wizard/HistogramChartPropertiesStep$1.c
+ lass
+SHA-256-Digest: t6wUx8WJr50JG3gonBaiU0jTn7UnBIm2uOub0Esj5/w=
+
+Name: bin/repast/simphony/chart2/gui/HistogramMenuItem.class
+SHA-256-Digest: flc4IsBw9AY7bSwaHgpb21hprCdxQF/vqGYkB1teuS0=
+
+Name: bin/repast/simphony/chart2/SingleHistogramDomainAxis.class
+SHA-256-Digest: FtUGvtRDCKMjkBqAGSr7aVuFbe+PM0GX+zK2YRKHLY8=
+
+Name: bin/repast/simphony/chart2/BatchUpdateXYSeries.class
+SHA-256-Digest: vOEFPNoltrT9p5NuNP1kTibi17+bEd/rz8gUmC7k6Jc=
+
+Name: bin/repast/simphony/chart2/engine/TimeSeriesControllerActionIO$1.c
+ lass
+SHA-256-Digest: kiPbxY/fH/Z4JHIDjWFX2N2bYwYRG655sgoAu4BqRO4=
+
+Name: bin/repast/simphony/chart2/ColorSetter.class
+SHA-256-Digest: dnQ+waRPcWTP/oD8HSYf2yPR6+R8KwaCos4tAqfl72k=
+
+Name: bin/repast/simphony/chart2/engine/HistogramControllerActionIO.clas
+ s
+SHA-256-Digest: KzFZQ1M0TykAbL4iakEZquh4Rkl/oTQJAStUVNKalyg=
+
+Name: bin/repast/simphony/chart2/gui/TimeSeriesActionUI.class
+SHA-256-Digest: CkQM9oEB6eZNJ9Jz0UZAIUWeG1zYrIsITKnpkyHyCmo=
+
+Name: bin/repast/simphony/chart2/wizard/HistogramChartPropertiesStep.cla
+ ss
+SHA-256-Digest: C270paJLhngD+2d8C8cpqiIpRU7aKR5GBcOPT0LfyCs=
+
+Name: bin/repast/simphony/chart2/OverflowLegendUpdater.class
+SHA-256-Digest: Xy26OGjVnNgQ7HK1a3tXnflIPS+EiB8J0+AoM97qtY8=
+
+Name: bin/repast/simphony/chart2/engine/ChartDescriptor$ChartType.class
+SHA-256-Digest: OFIVpldBksEC1opajZTlUypwT84kpzv/9aD76F4q20k=
+
+Name: bin/repast/simphony/chart2/wizard/TimeSeriesEditorWizard$1.class
+SHA-256-Digest: UnkWHAkqwOIlPVY1jcH9Pwyaao5g0N2i/ugm0nFegyk=
+
+Name: bin/repast/simphony/chart2/engine/HistogramChartDescriptor.class
+SHA-256-Digest: iZkiWQxqd3JDIyhMO+UuPmnznhhKh9CYaOJSEukEvlQ=
+
+Name: bin/repast/simphony/chart2/engine/TimeSeriesControllerActionIO$Tim
+ eSeriesActionLoader.class
+SHA-256-Digest: RKEYzf5gdRbTGQkqKFZ0aDOJfxmj1hy2ONKNinu1z0I=
+
+Name: bin/repast/simphony/chart2/wizard/ChartPropertiesStep$2.class
+SHA-256-Digest: Y568Vl4QfsyxUIwlPyzR0N3nYxw5oHBOQuNc9qwTHiE=
+

@@ -1,0 +1,1700 @@
+Signature-Version: 1.0
+Created-By: 11.0.12 (Eclipse Foundation)
+SHA-256-Digest-Manifest: uX8i9pACnUHB+plQ8U1NpgA+jRQZ08aTMyTU68WCCFE=
+SHA-256-Digest-Manifest-Main-Attributes: 0kRbvXJrsoYQVRCTqw1HaTHtHG9afOK
+ zDJ6ty/GV5pY=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$12.class
+SHA-256-Digest: 9yN0vuuvFj7n+MkhUfW4/tFP/WDNILkMIqaE1P1LshQ=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$65.class
+SHA-256-Digest: g4a9rrAo4oYLRPHJqC2qu3bBZ+UqYD4lWKYDSTV4dqQ=
+
+Name: repast/simphony/relogo/ide/gui/NetlogoSimulation$1.class
+SHA-256-Digest: OxDR7frLy/PeyGYLQjhL3D1qbaKAJhydjD/uaptk3Ws=
+
+Name: bin/repast/simphony/relogo/ide/intf/NLControl.class
+SHA-256-Digest: Fi2vhiUjGrjkWqtSLd+LmyudeIhJUCHrY2uwarkGBYU=
+
+Name: bin/repast/simphony/relogo/ide/dynamics/NetLogoSystemDynamicsParse
+ r$file_return.class
+SHA-256-Digest: Z0FVVIzdThtFknDTGGZMpSl6zdP+cZ23J6S7i2ijm0Y=
+
+Name: bin/repast/simphony/relogo/ide/image/NetLogoImagesParser.class
+SHA-256-Digest: X6xgyydTC5z9ncwv/rPA+zERDlLUW6xLO4764NFJHw8=
+
+Name: bin/repast/simphony/relogo/ide/plugin/ContextDisplayNetworkSanitiz
+ er$_sanitize_closure10.class
+SHA-256-Digest: tw95kMfVq/tA+VgVy7YzZ/LNzFLa1ZscbY36nXNC6qg=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$78.class
+SHA-256-Digest: lD4auug3KXrx11hVtDeYGUYPdFRD66JEGONa5afMM5o=
+
+Name: bin/repast/simphony/relogo/ide/wizards/NewLinkWizard.class
+SHA-256-Digest: xtdW7R8Ze1Ak0mBkcrPyx7tsoYkUQEdTgHtoeHIbPSI=
+
+Name: bin/repast/simphony/relogo/ide/plugin/ContextDisplayNetworkSanitiz
+ er$_sanitize_closure8.class
+SHA-256-Digest: hzew9Ye3Ag6r9CXtW9ArRlJG+bFEYT90miPYwrXLxX4=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$78.class
+SHA-256-Digest: CChi723et2SacSlM05c2fqMV/E0XWw0creT2D2YZeHk=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$38.class
+SHA-256-Digest: hzzj33WsirJugfk4Lp8jukdh1uLxlxWs+zLFG+0peiw=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$38.class
+SHA-256-Digest: R5/Or5wEs2izSzEDJQ8dLxhydB/OjFPsknOY4661Qw4=
+
+Name: bin/repast/simphony/relogo/ide/ReLogoLaunchConfigurationDelegate$1
+ .class
+SHA-256-Digest: 9RiZQdOFhHM2VI9BrQAC5mYwmOcVi0FiyLqLOZPR+zg=
+
+Name: repast/simphony/relogo/ide/intf/NLControl.class
+SHA-256-Digest: NAzghmh5CjkRUHLrAQ3siRx5/le8p5lnquynaHT1crY=
+
+Name: repast/simphony/relogo/ide/image/NLPolygonPrimitive.class
+SHA-256-Digest: HnxzLID5fqTUlsn13OdxJbX3ZyWO7PjZSQ3bta7LrJc=
+
+Name: repast/simphony/relogo/ide/code/Paren.class
+SHA-256-Digest: 9gITluikjGFwUsFCmf+Ky9dLeXDP/H92/ufQeiC9QTI=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$2.class
+SHA-256-Digest: 3BPYSS67sANkPIkxVFlbvobJcX0ofdb3CwYDzXv8oEI=
+
+Name: bin/repast/simphony/relogo/ide/plugin/ContextDisplayNetworkSanitiz
+ er$_sanitize_closure15.class
+SHA-256-Digest: joG//A5SBrfu52NERXZy7RxbtQigyAWn0ef6FqYkUBc=
+
+Name: templates/catchAll.stg
+SHA-256-Digest: Hc5icVkX/Mxj9W6X5+6AKhBw9DJA3ja0YuNNx8RCTmw=
+
+Name: bin/repast/simphony/relogo/ide/image/ImageTester$3.class
+SHA-256-Digest: 5mYtgxPOAnFYpYnsoBxiWJ+cOEva6Fuh7Tql2rwNWho=
+
+Name: repast/simphony/relogo/ide/image/ImageTester$3.class
+SHA-256-Digest: cPnmJ8RHj0DDFZRNWUY5zJ4PhJYtwNjqeJRYxtZD/Ys=
+
+Name: bin/repast/simphony/relogo/ide/plugin/Startup$3.class
+SHA-256-Digest: OH7W+d9O9+wzfTMKxFy/HNuvmkAnPf0wFSSZnlF7aYQ=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$52.class
+SHA-256-Digest: 6F2vMot1ZCUYTAryexK5hnHlC6Uefk+yaMgVx2b79cE=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$92.class
+SHA-256-Digest: cEJ6ufYjbgaGWFzp1Jj7NvxZG0nyVwOnim04pn8YYJY=
+
+Name: repast/simphony/relogo/ide/ReLogoLaunchConfigurationDelegate$1.cla
+ ss
+SHA-256-Digest: UwTEBCKxrtMS8xEm+7HknPBIcCZfPYJC1yf5/Boo7z8=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$12.class
+SHA-256-Digest: 52Gdd9A077xH5S10q9sj7oYp/QHotwgmV5ynOKCopA8=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$92.class
+SHA-256-Digest: Sa8WXGZ7ib6ROn1WxCKwf6qL+/dfY6mBtb4VTIrIrHs=
+
+Name: bin/repast/simphony/relogo/ide/plugin/Startup$2$1.class
+SHA-256-Digest: JzfkyHfszv324RKoTtQI2f0F5h+ZMWo1jKXRC9Vi1fk=
+
+Name: templates/userOTPLclasses.stg
+SHA-256-Digest: Fxz6M+mvBcVaa1qeR7AHzbn5cj6lhy6zqHgtTma6Ifo=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$52.class
+SHA-256-Digest: 9ydCdYF9RcD9VLAV7RXm85+GcX0ww106fYuMutYcuQg=
+
+Name: repast/simphony/relogo/ide/wizards/NetlogoWizardPageOne$Validator.
+ class
+SHA-256-Digest: py5Ki7dCr18WxXOjsoyhm5SXrKhUgHM3tn32ZLmcG+I=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$57.class
+SHA-256-Digest: cN+N/UMPnpjOdvk0DHgfxKpq9L4m283ubWtUGMLId8g=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$84.class
+SHA-256-Digest: r5HR4/2v5u24MFXju6+vihMKxqAct4AyuyN2nP0Lpjk=
+
+Name: bin/repast/simphony/relogo/ide/wizards/NewRelogoProjectWizard.clas
+ s
+SHA-256-Digest: KPONxmUR2oiaFBUqPZrCMaRjY1YCecc8APzk75411Qw=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$44.class
+SHA-256-Digest: TudKRqpa9Ggq+vGgkcn9rBF3rshcbM1oPFp06A8T4UE=
+
+Name: repast/simphony/relogo/ide/code/CodeSectionParser.class
+SHA-256-Digest: YHgSyZBGd1M/EBgqCUruQLgWgyVXOMc8NPpJHxnx+J4=
+
+Name: repast/simphony/relogo/ide/NewPatchWizardAction.class
+SHA-256-Digest: /tStRTyOZufUt+0pB02H6meCo1nVrM/UBQxn6FWTcgs=
+
+Name: repast/simphony/relogo/ide/dynamics/NetLogoSystemDynamicsParser$en
+ try_return.class
+SHA-256-Digest: tf/Vb9Jvxpc4db/7pZgfPARL8Zk5amqtHmSbtWfB5c4=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$33.class
+SHA-256-Digest: 8ylabsrfPpS4RWwg0sCVc3bHuW5FHQ3UZOA9v7qXKQM=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$73.class
+SHA-256-Digest: Xxqwndmcr5RKaub3WD9GCuI+CdrQaA1sDpr0kofp/G8=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$3.class
+SHA-256-Digest: 9dc/89MCVbJ8tvfWoLHFp4eCy26QIqp41HxrDKOgrnI=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$86.class
+SHA-256-Digest: 49sx6zOjzWunL+6r0lwwvo9+8Sruzf1DWIwMZ+bip/A=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$73.class
+SHA-256-Digest: stZ3wePNzFGeOlnmDZcsPAppKgJ8QuWHPMfC19ngXcM=
+
+Name: repast/simphony/relogo/ide/intf/ControlSectionParser$1.class
+SHA-256-Digest: UJCtteFmH3OAAoJCEWpisgDIDebger1NAyej1/fedK0=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$33.class
+SHA-256-Digest: qdrvaHx/qXrDyyFrw1c5jko/eIQpSGh2NDAEIvuWjKE=
+
+Name: bin/repast/simphony/relogo/ide/dynamics/SystemDynamicsParser$1.cla
+ ss
+SHA-256-Digest: zW+H32VNOlJxKk/S05Hu18+EdTE3wYnGaxAb9h+s7hM=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$7.class
+SHA-256-Digest: EUP309cIRmK09lXG7lXaiDM/EMrt+j0SkMgL+V0j2+0=
+
+Name: repast/simphony/relogo/ide/image/NetLogoImagesLexer.class
+SHA-256-Digest: +aMEPSB7389HL5PGp/tA3R5S+5XwTBCwW+O+fWqdf2c=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$17.class
+SHA-256-Digest: P5B7u25F61db9+PnnPljJw9HLY7Bjtw3gpr7mwIPLIo=
+
+Name: repast/simphony/relogo/ide/code/RelogoClass.class
+SHA-256-Digest: IFRB0j1Q6hjCb+ch1s2laALdJYT3LxMZSho/ePM+77k=
+
+Name: repast/simphony/relogo/ide/wizards/NetlogoWizardPageOne$ShapesList
+ LabelProvider.class
+SHA-256-Digest: fX3+n7DEzR0sOoM6p2yIQq4lNqoipXy6TmEIaNNEnpI=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$57.class
+SHA-256-Digest: FJNT52WSBlFdsquYp190e3tNBxOM8i0cXDID0hxgGW8=
+
+Name: grammars/NetLogoRGW.g
+SHA-256-Digest: 8mi4ZyhvqxXZDiYFkG0ozVbwciRvPu+hWs0ft+TNOHQ=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$17.class
+SHA-256-Digest: Iwb4ROUUPN8eIdfVtKrmgay20jWHwGosUBusjC30ZFo=
+
+Name: bin/repast/simphony/relogo/ide/code/Selector.class
+SHA-256-Digest: o6ifIfiP5/tECVfbFAx7PXultdeFAWsNo7zM+DlZ/Fw=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$49.class
+SHA-256-Digest: PdAuebhU6FC7caPDHJiUaYQOcY/lm4FsZL7scJ56M6w=
+
+Name: repast/simphony/relogo/ide/wizards/NewPatchWizard.class
+SHA-256-Digest: vNYpJQtqKPWYSMwTEmRB9jkqb6mEEmPXb7yryHzDGfA=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$19.class
+SHA-256-Digest: yMog8aKI5EjLdoTDl6XS4Xd4tTq6SGKamaSHnGuyBLs=
+
+Name: bin/repast/simphony/relogo/ide/code/Attribute.class
+SHA-256-Digest: qPaldwqEw3qf+Giwma5MICuOmcISQXGLfGzuukwPVSc=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$19.class
+SHA-256-Digest: aVj4pWOQWWW9qaJ21eCAzRlUDgjldyYsmaHMhc6eTFU=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$49.class
+SHA-256-Digest: SOHn+xT1pHYNLI3UlNqVIgbenV9tGIqEiUntzW99RMg=
+
+Name: bin/repast/simphony/relogo/ide/wizards/NewReLogoEntityWizardUtils$
+ ReLogoEntityType.class
+SHA-256-Digest: fIdjih28u7rFn+Wf2YTR4r/GQ/ztRgDzzojzZQ084aU=
+
+Name: bin/repast/simphony/relogo/ide/dynamics/NetLogoSystemDynamicsParse
+ r.class
+SHA-256-Digest: pr4bsL515n/SK4hCzpqD5I8P5AqRIkba3RBTtue4VZc=
+
+Name: icons/newpatch.gif
+SHA-256-Digest: hbviqljdQdxPLYwZyHLC122PtkomdRfSmV7/kbwyXgE=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$81.class
+SHA-256-Digest: L7StRoNXeDYRRskrOUQ8DEYNQcqIqp1ArkZ0uEyxsw4=
+
+Name: repast/simphony/relogo/ide/wizards/NetlogoWizardPageOne$JREGroup$2
+ .class
+SHA-256-Digest: 0rDzhWd9gNiaI+RSc46WK810738QjM/Bt8Y/Tf6+b6o=
+
+Name: grammars/NetLogoSystemDynamics.g
+SHA-256-Digest: qaHMS0Z9AKcUAbRR73xAyM0BJ/RVqm/CwSniLQqIwxE=
+
+Name: repast/simphony/relogo/ide/wizards/WizardUtilities.groovy
+SHA-256-Digest: x3AYdS7qOVIMZxR/FOXyr4ZPYnl/YmZMXf6NV+ykjb4=
+
+Name: bin/repast/simphony/relogo/ide/code/Profile.class
+SHA-256-Digest: wATCu9hKj8FdRD0/DHGdz2ZRD5VoRcB9FhyZ0WmczB4=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$76.class
+SHA-256-Digest: x+w8RT6opiFqwHqp0WNT8SWdXKZjyYKSylGu8JnqQJw=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$46.class
+SHA-256-Digest: PQvHa/j63UxHSMqqLf9hxmVxdQsN1R8xqLmFqtXuuwk=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$46.class
+SHA-256-Digest: 4Xkzvs2ZrIPEKb+ymBwnlfwVNrd4hfZoxNcIKCzzGKI=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$8.class
+SHA-256-Digest: wQ5IEB+yy30jKW6MultXGsDxS+AJqmqfUB743iuAPLs=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$76.class
+SHA-256-Digest: IBRcATGivn1NtMeXNHnW6DtN88AkmZXtXS1FkYXElzg=
+
+Name: bin/repast/simphony/relogo/ide/image/ImageTesterG$_buildSwing_clos
+ ure3.class
+SHA-256-Digest: 4l0PXZlgBPOjiQUEPRQvA2+vL4PXpj488IszVUbgG3E=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$81.class
+SHA-256-Digest: qVvIqZNukWttWrQQ8BgSJlFA4mRuFp5TmHTloIgSu+g=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$5.class
+SHA-256-Digest: M5mldl8Qvq6NxaROdnAFlXLKneaWdF4kpznjKzwMZCw=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$23.class
+SHA-256-Digest: oNMqoF0TF7ER1tucGh03+r0ptipXX62RLQaIKvcqIjA=
+
+Name: repast/simphony/relogo/ide/image/ImageSelectionPanel$2.class
+SHA-256-Digest: O66PidWZRVjD6UE/MRX4aGdBrAjboKANVjNO3L6qtjQ=
+
+Name: repast/simphony/relogo/ide/image/NLLinePrimitive.class
+SHA-256-Digest: cByRaSvyKmhdo25XuxTdpRycIKG8bEpC4vBkc1oSnkA=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$84.class
+SHA-256-Digest: FqWjglV3+97hriMSl2+0QflBrDgE11WULnTP1jnKVFE=
+
+Name: repast/simphony/relogo/ide/intf/NLSlider.class
+SHA-256-Digest: ZBFFaEvlvdTudRuIjD7YZ6SsavXucPtCddEeR2FObzI=
+
+Name: bin/repast/simphony/relogo/ide/gui/ScanModels.class
+SHA-256-Digest: FIF2FS+iDLVTJDGt+SGOfBtqIhulD1YJOQdlGQE4YUI=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$60.class
+SHA-256-Digest: azVLpb22aYndRA6D0Fq1IdWHUEJ7pp+H7XaXWDF/MwQ=
+
+Name: bin/repast/simphony/relogo/ide/wizards/NetlogoImportWizard$2.class
+SHA-256-Digest: XjsQxlMieMeo/aqB3CXd6KLFGSNMX4SZi/DUg/7ORps=
+
+Name: repast/simphony/relogo/ide/dynamics/NetLogoSystemDynamicsParser.cl
+ ass
+SHA-256-Digest: g8buUeMsBtxJBJxeilGh59GVpqdFrGpfe7U3lgBsQRs=
+
+Name: repast/simphony/relogo/ide/wizards/NetlogoWizardPageOne.class
+SHA-256-Digest: pDZ0GnKwutnvFcT5ASeH8r2CaUYi3/JavOz5ucD/oPM=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$9.class
+SHA-256-Digest: rZ1uHFJdRujatOXz9f7zXI751RksH5y7whS6loiObTo=
+
+Name: bin/repast/simphony/relogo/ide/image/ImageSelectionPanel$2.class
+SHA-256-Digest: WduJ+xJQk1q7AxrL50nAFD0oTcm83lwPt+qWwHa5A2A=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$60.class
+SHA-256-Digest: keN7SZs/8tMequDp+tJYDimHlQkUw5MUsDVqfEQtYzs=
+
+Name: bin/repast/simphony/relogo/ide/code/Block.class
+SHA-256-Digest: fZAeD6Cf3qQUZFmWm8qCJc+KGhJXylykzvYLewqOUpE=
+
+Name: repast/simphony/relogo/ide/gui/NetlogoSimulation$3.class
+SHA-256-Digest: u/jGx5VU9YZGtEdlE3PF2XCNCE8mxMODEtPJrk8LBF8=
+
+Name: repast/simphony/relogo/ide/intf/NLGraphicsWindow.class
+SHA-256-Digest: Jmapda1926C5KhHe8hx/VED8uJIOk9wp6iTt0buYlkg=
+
+Name: repast/simphony/relogo/ide/code/Attribute.class
+SHA-256-Digest: CJw9G9JnYlRoeY46wpxj9RI5E5AAPtcxdFTcxa80k5g=
+
+Name: templates/LinkStyle.java.txt
+SHA-256-Digest: Zx9yMFUeX4ts1Mfix1ioJ/2zdZVnQdRTlXlCsi9eD3o=
+
+Name: bin/repast/simphony/relogo/ide/dynamics/SystemDynamicsParser.class
+SHA-256-Digest: q5vjcGLq9LY/0MCvlJbfDOG/cb4mDzjUSzA0jB0dufk=
+
+Name: icons/newturtle.gif
+SHA-256-Digest: fQARZqFfG+kYSVsxZduD/7yF9dsIHR+ax2bwpNHpET0=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$54.class
+SHA-256-Digest: CbcGyUgVp3YOkI+WaPpVEz8UpA1pKNKLLpaWuVFO4ds=
+
+Name: repast/simphony/relogo/ide/intf/NLOutput.class
+SHA-256-Digest: XUTBIklII+MfNhQkqRlyn5iPdtnzmoR7MRdWLcHylUk=
+
+Name: repast/simphony/relogo/ide/intf/NetLogoInterfaceLexer.class
+SHA-256-Digest: nLNFfJhPAcv9nCxCdhChwisIqYnTHjqe19S+fvmXSpc=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$31.class
+SHA-256-Digest: +dxn/hfAQyP2By7hTwe3TlO7a5+CsqZRNl1fkQ8kAB8=
+
+Name: icons/newlink.gif
+SHA-256-Digest: GUZja+6MLV1lzkfhMPm1rMOOLsTLQyPwwUT6+SNzzwU=
+
+Name: templates/null.model
+SHA-256-Digest: BRwyJvK5DfR3Azd8sHnL8arrRhFAWzfM2oCQ77u/CRU=
+
+Name: repast/simphony/relogo/ide/intf/NLInputBox.class
+SHA-256-Digest: vfkRZKb6H6tinQky3bV5IlboaeIQwyXxiHWZKNBqHbs=
+
+Name: repast/simphony/relogo/ide/gui/ScanModels.class
+SHA-256-Digest: sfTh/ucf4i5uctVCcUzoAV2J9dX5LiLhXW049041yyk=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$25.class
+SHA-256-Digest: dK3o90WSybtWLa6KnAuxAd2kJwDExRUJ+rPdJ/Ph0jo=
+
+Name: repast/simphony/relogo/ide/wizards/NewReLogoEntityWizardPage.class
+SHA-256-Digest: eYIThHdsByhgsO4zHTjS5Nk0YqQBgVpQuFlwZAV2dqA=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$31.class
+SHA-256-Digest: 6tUQgyeXn1Y1voRuVJ7caeIJzWhsGPqFVaMH5dckl4k=
+
+Name: bin/repast/simphony/relogo/ide/plugin/Startup$1.class
+SHA-256-Digest: CVkNUXA4s6Hx1aZOFHH3IbKyE6hhXSfQUbB10BpIhzU=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$54.class
+SHA-256-Digest: Su66Nxh5b0Bkq4PTV1qNqU6CgcfyolEr15+qfoyM9zc=
+
+Name: templates/WayPointStyle.java.txt
+SHA-256-Digest: IGHNiParjF/4mXhmrzn8fdIJSjtsLtjXo3yVFUMcrKI=
+
+Name: repast/simphony/relogo/ide/image/ImageSectionParser.class
+SHA-256-Digest: i++djua9KpQlXfaZJt+HojIUm56fd/mxNFXVN1icuxI=
+
+Name: repast/simphony/relogo/ide/wizards/NetlogoWizardPageOne$ShapesGrou
+ p.class
+SHA-256-Digest: nz3ainXjTkIBi54+64bMEl4KYdyJskRsTCIH0STmU4w=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$25.class
+SHA-256-Digest: pFDXaciRBilTw0zHfzq80loRRdWy4dem0Q3sGzMnsKU=
+
+Name: icons/sample.gif
+SHA-256-Digest: nityhfdwDBvBTJAmLEfJHWWF9m4KlBIJ1DoECZjq87w=
+
+Name: templates/ReLogoPanelCreator.java.txt
+SHA-256-Digest: 81hlRk+rW1EB5hTn4Zdjwje9vKa0wjrA0dnQWf29NS4=
+
+Name: bin/repast/simphony/relogo/ide/wizards/NewPatchWizardPage.class
+SHA-256-Digest: CQm8PD81WU2J+7ImFpZJ+uGCv59pcRv4OWWasdmhgBw=
+
+Name: repast/simphony/relogo/ide/NewTurtleWizardAction.class
+SHA-256-Digest: Syy2Vmce4dhGNXnIZm5xeq1QQ/6k/IUNXFZG1XHkQVE=
+
+Name: repast/simphony/relogo/ide/code/NetLogoRGWLexer$DFA12.class
+SHA-256-Digest: 5JZHmtk7dORamCuA/Ra0+YkF+idRSyhv0RUBQ0iicWQ=
+
+Name: bin/repast/simphony/relogo/ide/gui/NetlogoSimulation$1.class
+SHA-256-Digest: Zd7TKolQXJmaU79tTWz4/lrDZ5VX/i9PlFS9hB4nmtg=
+
+Name: repast/simphony/relogo/ide/wizards/NetlogoImportWizardTest.class
+SHA-256-Digest: xRNjbOqdBopTUwx49WoHgNkXKGF6rx6G5cCA9TtrQQo=
+
+Name: bin/repast/simphony/relogo/ide/dynamics/NetLogoSystemDynamicsLexer
+ $DFA12.class
+SHA-256-Digest: eJvtCgY/YR+64jVvHr7UFU+wjHysLSYwlNU9W+GcTqM=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$82.class
+SHA-256-Digest: tQPl4vkFpMPb11tif7Te/ThSR14blEN1mdCTZMkp0sE=
+
+Name: bin/repast/simphony/relogo/ide/image/NLIcon.class
+SHA-256-Digest: BOU4GupsIsPhbb7poDJYlYTdhno2jsiTE9xaygcwSD0=
+
+Name: icons/newobserver.gif
+SHA-256-Digest: 21F90N+7ojbhWiqxnnLOVi7g435OnyIfyS7MODixpVo=
+
+Name: bin/repast/simphony/relogo/ide/wizards/NewReLogoEntityWizardUtils.
+ class
+SHA-256-Digest: ekMyDRYPGw6vm0jaRTXI4lmIyMSTaSezZEIIUBNRjbc=
+
+Name: bin/repast/simphony/relogo/ide/wizards/NewObserverWizard.class
+SHA-256-Digest: OyWQPjDGQ7JkFpq9eI0rxQRZvS7fLDdrOGy/uit9/JQ=
+
+Name: repast/simphony/relogo/ide/dynamics/SystemDynamicsParser.class
+SHA-256-Digest: UmwMDVK1cLlD+m88o8erxhoDNGillNC9gAobPFBgw9A=
+
+Name: bin/repast/simphony/relogo/ide/code/ProcedureInvocation.class
+SHA-256-Digest: 2jmBCuMlbphf5Sd8WlMInEqgDs2Ut9cWCI9LCOz2K+o=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$88.class
+SHA-256-Digest: K9QdsKMe5pcuh4DSCfu7sZ7GEmETFVFa2Y87xvCi9KM=
+
+Name: templates/UserGlobalsAndPanelFactory.stg
+SHA-256-Digest: Okp9yxptwuKdMERfCI8gjDySsrU1kssH1bdGjX9tzT4=
+
+Name: repast/simphony/relogo/ide/image/ImageTesterG.groovy
+SHA-256-Digest: K/l2Q+RjG4+1Dq5fTI49nZClie+STIA7KJNWUYQQ7wQ=
+
+Name: repast/simphony/relogo/ide/code/NetLogoRGWParser$prog_return.class
+SHA-256-Digest: sycvlVP8Rfsb4Fyk5rMUo7f3NzycvExpy6lfRSS6AHk=
+
+Name: repast/simphony/relogo/ide/NewObserverWizardAction.class
+SHA-256-Digest: ZiA3Sw1RCoF7+SflOAISD+fmQPOB6xmlIEprFazY1gY=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$35.class
+SHA-256-Digest: dV66hl9Zd0rC8+j5MAq9gZoZnV21FGB/wlzVTFFJ5Ss=
+
+Name: repast/simphony/relogo/ide/dynamics/SystemDynamicsParser$1.class
+SHA-256-Digest: q4eZaKswf8tafLZImgUFpYVeR1XJfdzoIh9KU5nvSNE=
+
+Name: bin/repast/simphony/relogo/ide/intf/NLChooser.class
+SHA-256-Digest: QQ+BT2fbsLkMwkBhxyWJKaJH2tAFLoVmyTauV3sF33o=
+
+Name: repast/simphony/relogo/ide/dynamics/NetLogoSystemDynamicsParser$fi
+ le_return.class
+SHA-256-Digest: 4Xhi32G53KOcPd1YksyOfMZSFpkm7MH8hi1taBVD44s=
+
+Name: repast/simphony/relogo/ide/wizards/NewPatchWizardPage.class
+SHA-256-Digest: cUnB5b4bwJdbGuRoW+1tT8ayedwfgAc6k1ScQVvS/Ss=
+
+Name: grammars/NetLogoInterface__.g
+SHA-256-Digest: j6Sypnpjy4ZRgu08VXWJDoyB4cFNBxB+dvoLgj/00n4=
+
+Name: bin/repast/simphony/relogo/ide/intf/NLPen.class
+SHA-256-Digest: PKUPYocGRNoT7GiVugL2TpNd20iLr2rZpld8a2lhgNU=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$27.class
+SHA-256-Digest: BPWKKK1vvIx1ESE41Rctg9D6ILkqVwHoWqiPXkKrgD8=
+
+Name: bin/repast/simphony/relogo/ide/code/RelogoClass.class
+SHA-256-Digest: IzvxB6k8SxIIf0zUYSgtiNCpcRmJr1NA9D0kgWcTA5w=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$35.class
+SHA-256-Digest: e7lwTMNRGlZRoc8kHyIQ0/ryrEJQdlr3/fyCaXrSte4=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$47.class
+SHA-256-Digest: Kz8yj3z9MDlrzkLW3IUwJwGBfvXlYkmKGd1knsCXyRM=
+
+Name: templates/TurtleStyle.java.txt
+SHA-256-Digest: IhTIGu/aOtJDPcJKRfTa4xBoEoDdKisWQAul12YC/hY=
+
+Name: repast/simphony/relogo/ide/wizards/NetlogoImportWizard$1.class
+SHA-256-Digest: Jte1GpxNMc6Jx2xxZQ+1Yj2vJ4DY/m6YQLcsE8YlHRo=
+
+Name: bin/repast/simphony/relogo/ide/NewObserverWizardAction.class
+SHA-256-Digest: C4K2W6fNxNR6fRDcWBy+hKMnJH25ROuZjmwwk9MDZgM=
+
+Name: bin/repast/simphony/relogo/ide/plugin/ContextDisplayNetworkSanitiz
+ er$DefDisplayReturner.class
+SHA-256-Digest: hHS5aLcQqAOlotMz7gfxEvnWqNKHExTWhWamKMgOOkM=
+
+Name: repast/simphony/relogo/ide/code/NetLogoRGWParser$stat_return.class
+SHA-256-Digest: zrCJvzHdDL4lm8oHjmbTx3TFhW38W1dMSHB7hnC9bqc=
+
+Name: bin/repast/simphony/relogo/ide/plugin/ContextDisplayNetworkSanitiz
+ er$_sanitize_closure6.class
+SHA-256-Digest: /hYthZ9HppJsWZSUGpY6cQMKd7vDHtCplxMN4T/PAP4=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$27.class
+SHA-256-Digest: wNuXh9EDZVQKMqNnkx5yogHlDpV6vpz1/mfQ/TXxdFI=
+
+Name: repast/simphony/relogo/ide/intf/NLButton.class
+SHA-256-Digest: X2B6k3CRNhr+wGAeZU9QKdEGpYqA/Leq2Of3a9qOmlk=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$90.class
+SHA-256-Digest: 9DuctbActthdLtQXT1AtH9bU2oQp1bPqdLP12N1gArk=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$90.class
+SHA-256-Digest: LpTxHYXep/ddH7zTAl7opCh0504LrQcN+l3wXGNy4lY=
+
+Name: repast/simphony/relogo/ide/ReLogoLaunchConfigurationDelegate.class
+SHA-256-Digest: lOeA103mmY24ut0njwFptmwcyiIFa/QpMJBmbD4m+rQ=
+
+Name: repast/simphony/relogo/ide/image/ImageSectionParser$1.class
+SHA-256-Digest: +jR3crrV7A2ML6fwWr+uR394mZhm2CP4GsuDH3uANdY=
+
+Name: repast/simphony/relogo/ide/image/ImageSelectionPanel.class
+SHA-256-Digest: dQoFYDzdHIOhmRTD8GnygsMQDNitUvHYkZRPJ03zm2Y=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$50.class
+SHA-256-Digest: FLOpsgdXvAvKPkzvvn9spLCc1QVA5IUXaUgHMfkI59U=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$34.class
+SHA-256-Digest: GXriP3XOYdX//yLUAF0VH4a1CX278H9vlh0ENTwl3NI=
+
+Name: bin/repast/simphony/relogo/ide/gui/NetlogoSimulation$3.class
+SHA-256-Digest: 5EZMqIzKs5kZus4oDPP+840Efhub5KMOTRWKYuE3fhw=
+
+Name: grammars/NetLogoImages__.g
+SHA-256-Digest: U1VJKh9Rlew/pqCJRYdHFiCn7PtN200xK6VD6Mtt0Qo=
+
+Name: repast/simphony/relogo/ide/wizards/NetlogoImportWizard$2.class
+SHA-256-Digest: DKsF9/F0atFghE4Txhs9Z4O9yrV05iH1xvb7bMHpufU=
+
+Name: repast/simphony/relogo/ide/ReLogoPerspectiveFactory.class
+SHA-256-Digest: pieD5mlZIzJjCZTQbAOePV5IA+a6leRLV+ouG9UNy1I=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$28.class
+SHA-256-Digest: ZxNmA/FBpKzGcNai5ZtjfmHAJXTcW1m4BmHdPxtDwbo=
+
+Name: licenses/mitre-relogo-import-wizard-license.txt
+SHA-256-Digest: Xufimv2rOKIGBhDkBTSYOyHXskdMALyB57HZOgjvGCA=
+
+Name: bin/repast/simphony/relogo/ide/intf/NetLogoInterfaceParser$number_
+ return.class
+SHA-256-Digest: HCxGa+tm4TAHYgBCgTbDd8PSni/qThZs0+lSojSXILQ=
+
+Name: repast/simphony/relogo/ide/intf/NLPen.class
+SHA-256-Digest: 56MXAJjdfShA1SUGC5x8yOiyWe5A4f2ASDQlYr3NxlI=
+
+Name: repast/simphony/relogo/ide/wizards/NewReLogoEntityWizardUtils$ReLo
+ goEntityType.class
+SHA-256-Digest: GOebYX5VBq/CJ8jm7d9VffUodcWbp5YxU9vgRpATkFo=
+
+Name: bin/repast/simphony/relogo/ide/code/CodeSectionParser$1.class
+SHA-256-Digest: Kxb7c0SJ3zEhEgXx/Cne48f3arLksmyVU7SUpZrr6mY=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$28.class
+SHA-256-Digest: B6tcMtJqeHcRfrq2XdIY4AKnO/PAUtfwbnEqp6ni2xE=
+
+Name: bin/repast/simphony/relogo/ide/code/NetLogoRGWParser.class
+SHA-256-Digest: a4Iow2hGZ8sEds9Rk6clcg9MqnvyAr1v3a3VQDubHu0=
+
+Name: bin/repast/simphony/relogo/ide/image/NLLinePrimitive.class
+SHA-256-Digest: fHAtabekNYzdZRrI3jezSKFqHoHrEaeQzhgkNzVqOJM=
+
+Name: bin/repast/simphony/relogo/ide/plugin/ContextDisplayNetworkSanitiz
+ er$_sanitize_closure5.class
+SHA-256-Digest: uwTVMbVb0NGc3YzsbBzs/Vt9ifGc9WPuxRATKLPq22M=
+
+Name: repast/simphony/relogo/ide/code/Profile.class
+SHA-256-Digest: LWO87aQgMPInWas+rYi054ikcShJzBPrp2cOTd5sBVE=
+
+Name: repast/simphony/relogo/ide/dynamics/NetLogoSystemDynamicsLexer$DFA
+ 12.class
+SHA-256-Digest: QSpatrjQ5EA5MBkrjTpw3G3VqlGHlaYLzHcidUjn0Ok=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$50.class
+SHA-256-Digest: lqofCMCVfPrWvx9sS54mqgI53UhI4Ry+ww8P+/PmNV8=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$34.class
+SHA-256-Digest: NPjSvfN0OSyTYYvHR8Qt6qnHDypS5K0f5UFGwxGE8Ng=
+
+Name: repast/simphony/relogo/ide/wizards/NetlogoImportWizard.class
+SHA-256-Digest: 0CPWDwNa2PmgDC5cMPF+FsHJh6Y9IrylHZY37lGfERQ=
+
+Name: bin/repast/simphony/relogo/ide/plugin/ContextDisplayNetworkSanitiz
+ er.class
+SHA-256-Digest: oai8GUURYCSTSWiUJYBqvLV1tOm0Oa5LcuAL/l7LQIU=
+
+Name: bin/repast/simphony/relogo/ide/image/ImageTesterG$_buildSwing_clos
+ ure2.class
+SHA-256-Digest: hUphw27HH3gA9eKNDMnrbiRPHE2vPfugKs53Wff2IEQ=
+
+Name: bin/repast/simphony/relogo/ide/plugin/ContextDisplayNetworkSanitiz
+ er$1.class
+SHA-256-Digest: ZJNx0LQwHgHWwb4nWBIft8UeQdyZIu4HV2PVFhw/pY4=
+
+Name: bin/repast/simphony/relogo/ide/gui/NetlogoSimulation.class
+SHA-256-Digest: DiSt45bMsZU1w2ik4MIOFBaA6vw6Vyrjs2433T/GZJQ=
+
+Name: bin/repast/simphony/relogo/ide/wizards/NetlogoWizardPageOne$JREGro
+ up.class
+SHA-256-Digest: vd+PQ5cxme7u8owUJXrd6n8sgM66QycZcIhCdtSUybM=
+
+Name: grammars/NetLogoImages.g
+SHA-256-Digest: JxDkRuVD5IGHB3IApGptrIDolifnQN+y4qrm4GQEjds=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$29.class
+SHA-256-Digest: OLgFqX3laInKhM9G9nNzh6P1zPH43IdmWbsNYLFt12w=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$39.class
+SHA-256-Digest: SZIzDOOTX7ymVz0V0TBKC2EIgyj3a6UnsQR2EjcnJgM=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$89.class
+SHA-256-Digest: AaV5Le9Tpn4BddQpGWzIjCBVVWrgTuExZj9IHAdFgtk=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$29.class
+SHA-256-Digest: j1CE7jxxt0rOdo+DgxXUjMysCwRzl0Mvhgjge2eic1Y=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$39.class
+SHA-256-Digest: g7VpQzZNhKrIbe9AptILVntSHtuX+EnpGNshfqWqIQs=
+
+Name: repast/simphony/relogo/ide/code/NetLogoRGWParser$codeLine_return.c
+ lass
+SHA-256-Digest: UVmbwOqw0gaxl5Z64hf58xIqeRa1gOWjVL2NWrb4V1I=
+
+Name: bin/repast/simphony/relogo/ide/intf/NLSwitch.class
+SHA-256-Digest: uKYWB3ygQJd9MTr0b7O4bObMvylYYDJWvwG6Gt2JUhM=
+
+Name: bin/repast/simphony/relogo/ide/intf/NetLogoInterfaceParser.class
+SHA-256-Digest: +7sjeu0mXP4bpGuuhQVzdOKXjxVjsL+xjbHsdDR9dt0=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$91.class
+SHA-256-Digest: u2qYMZTQK/Ebaehhn+7gwqcreuP+tgNug85aDRz6jsU=
+
+Name: grammars/NetLogoSystemDynamics__.g
+SHA-256-Digest: hryN/eyKwe1dePZuDqkdSPm/tww62MxFYIZOLjt5QjI=
+
+Name: icons/rladd3.gif
+SHA-256-Digest: H6TO0uvnsp19iXGsQyzmjVbnb9q0zvDNOD7y3SBouD8=
+
+Name: bin/repast/simphony/relogo/ide/plugin/ContextDisplayNetworkSanitiz
+ er$_prettyPrint_closure1.class
+SHA-256-Digest: 8ANY9zn9MLAC78LK98e+++eSiDZtyPAQdKh8lgKrwCo=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$36.class
+SHA-256-Digest: qRPrkB9egl3GNCAEBu8CNHo76wrZZPyd6QlGWzdUtp8=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$36.class
+SHA-256-Digest: Ku4SdiltQole+Mu0hLVMukU3Qs0O85nfvWIeGd5wsOk=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$86.class
+SHA-256-Digest: 8WRiyDBQ2vvrSh6R8pGdKueHdHgvzjxAOHxXRU8NmoM=
+
+Name: bin/repast/simphony/relogo/ide/image/NLPolygonPrimitive.class
+SHA-256-Digest: gMSCIxPWs36al45grE11AINf646rxtQRds3sawDhJCs=
+
+Name: bin/repast/simphony/relogo/ide/wizards/NetlogoWizardPageOne$Valida
+ tor.class
+SHA-256-Digest: xvTvsoPWuNaJCq9frO3PKZLnSjOs0EzRmyqujrdxzZA=
+
+Name: bin/repast/simphony/relogo/ide/intf/NLCommandConsole.class
+SHA-256-Digest: OxenQeiP87DJbww6w+Uo5GMB+kVeQ4+3nY5G1ETFxQ4=
+
+Name: bin/repast/simphony/relogo/ide/plugin/ContextDisplayNetworkSanitiz
+ er$_sanitize_closure7.class
+SHA-256-Digest: /U5NenB/ONumUwx7d5+SyxFDOVK3vhOBMQOr38mWgTA=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$43.class
+SHA-256-Digest: NTX+0qGRSWG4v3fwazC6q3u4iCg1xe3ZmTDNXObbt5o=
+
+Name: repast/simphony/relogo/ide/code/NetLogoRGWParser$codeElement_retur
+ n.class
+SHA-256-Digest: 6kgNkm7ius/eUQaXSu/pZgrk31WHJMG3p9Awe5jt6HA=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$41.class
+SHA-256-Digest: JXbGVT43Ahpj8xQEKpuyOhNV1I/Bx/nNxWRctQ9jqDg=
+
+Name: icons/rlnew_wiz1.gif
+SHA-256-Digest: y7h3KsvLmGFHOq7yX/YBmfUKb1TNF1Gdm7b65pe8fB0=
+
+Name: repast/simphony/relogo/ide/code/CodeSectionParser$1.class
+SHA-256-Digest: pXwmgSCviGc2nexnM0Jmj65PzNOqO5tt3t/aoHLx4SE=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$44.class
+SHA-256-Digest: W7HQTjjyU+xuPG3GJiJBkJavpCfFkgFtFuuQX/9EV0A=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$40.class
+SHA-256-Digest: +lw+unLUwvO5k2PBFkIB6SBnY69ZTdquSiT03z0jkyo=
+
+Name: bin/repast/simphony/relogo/ide/image/ImageSelectionPanel.class
+SHA-256-Digest: sU1DbsKJk+1h/xbulXhywoyQMOF0VIeATPaSgDWAymw=
+
+Name: repast/simphony/relogo/ide/dynamics/NetLogoSystemDynamicsParser$re
+ f_return.class
+SHA-256-Digest: p1Rbw1oq8KP6f8lNaZXOWDPgEAhpNTMtvkLRAZxg3Yw=
+
+Name: templates/TrackingLinkStyle.java.txt
+SHA-256-Digest: pQEYAPvVJUPj6b/vwsydmvRQInrj+HxvKqHZOCXZHik=
+
+Name: bin/repast/simphony/relogo/ide/code/NetLogoRGWLexer$DFA12.class
+SHA-256-Digest: GH0adTzTX39kvveP2QG+IeTbhu9cA/Sc088/fV1w/Mk=
+
+Name: repast/simphony/relogo/ide/intf/NLTextbox.class
+SHA-256-Digest: bTH6wR02HhC0FH6EhCjaQ4QTo4R1Ab+F8WxPFa1I3Qg=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$87.class
+SHA-256-Digest: nZv9n0bzE9l9t4bgZgD3AjhXUwRfGaWE2pQBD7pmJ60=
+
+Name: repast/simphony/relogo/ide/code/NetLogoRGWParser$toEndBlock_return
+ .class
+SHA-256-Digest: cCk762bPy5helMx03XTJ3NFUzaaMgYvR6dU157XltoQ=
+
+Name: repast/simphony/relogo/ide/image/NLIcon.class
+SHA-256-Digest: w3UFstIbUDFTAUKWOU3vAIy7PKCuz1objGrcKqzurCA=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$37.class
+SHA-256-Digest: 23Thug6CcdWxy/DfY+zGEIOFl/fq2zAUkbWGE1dWp3I=
+
+Name: bin/repast/simphony/relogo/ide/dynamics/NetLogoSystemDynamicsParse
+ r$intg_return.class
+SHA-256-Digest: DlsN4JQhfkqlB0bo++C9gmsq1cDXr80VMhn5Io9PZLU=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$87.class
+SHA-256-Digest: hf3SEbZeSH0O/jeme/tJ1scZ872BgL+xeCenOZRPg8g=
+
+Name: bin/repast/simphony/relogo/ide/wizards/WizardUtilities.class
+SHA-256-Digest: W+xUPPOPzGapPyymZj+N3UkS+18K9ubHLnrw6opKI6I=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$43.class
+SHA-256-Digest: EEiLp6c8gMxbd9pakKfbuNEIzKgSFS2xyA/9ZRr68ig=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$41.class
+SHA-256-Digest: sFfJsk4w2zhTSeJv742H0G6vm0KWuYgfU29r8U7tpfs=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$93.class
+SHA-256-Digest: udnDkuCSxY4kdNu2XiNLm0L7izN8v/vJhYFS8/C/wHw=
+
+Name: repast/simphony/relogo/ide/handlers/ReLogoBuilderTests.class
+SHA-256-Digest: ivyq5kkOZOvv4qWsKMWC/O1A+vmwUy+/MMwpRwrrRSQ=
+
+Name: bin/repast/simphony/relogo/ide/dynamics/NetLogoSystemDynamicsParse
+ r$ref_return.class
+SHA-256-Digest: OSgNF78D0keZKljwhJ8fn7Mz+9w3XSpvWJdRVHYeVKk=
+
+Name: grammars/NetLogoInterface.g
+SHA-256-Digest: XI2IkVXDbz+Q9L+GfBHmfITXH7G63kTk5lUHYA+dwsc=
+
+Name: bin/repast/simphony/relogo/ide/wizards/NetlogoImportWizardTest.cla
+ ss
+SHA-256-Digest: gWdovkfi7tB6y0LajCK8k4zABO1oMLnB4vkzFw14yK0=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$88.class
+SHA-256-Digest: +6rXyPAFmYSi29MrIDk5GzbfJQNXU7JWq98ZPULKloA=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$93.class
+SHA-256-Digest: j28+h4PGrbq9PN0FYu3B/DWyHZkha/ZF7wrAfLXvqkE=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$89.class
+SHA-256-Digest: J3QZofdS4Jwfy6A1AWbnkB+knAlo6F+SQlf64ZLSEig=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$37.class
+SHA-256-Digest: z4U50Q3hmfYLgt30k/r28ZVEPdakOh96rTRcy/6TBuk=
+
+Name: repast/simphony/relogo/ide/wizards/NewRelogoProjectWizard.class
+SHA-256-Digest: arXNC8iVFN6tOLA2wumcav77KhAWUbPMgN2QZSyX0cg=
+
+Name: bin/repast/simphony/relogo/ide/wizards/WizardUtilities$_getFileNam
+ esInDirectory_closure1.class
+SHA-256-Digest: m3FUnmTs+nORBzPUq28s/VFpO6HVYa2CW8Y5MSuiqHo=
+
+Name: bin/repast/simphony/relogo/ide/ReLogoFilter.class
+SHA-256-Digest: VaFdKLncNT9r5MTSmNpwlwmN8BzGRfa9lOIq2cpxV54=
+
+Name: bin/repast/simphony/relogo/ide/plugin/ContextDisplayNetworkSanitiz
+ er$_sanitize_closure9.class
+SHA-256-Digest: XvsROt2ejZZbd6tSfvQvMSMZwzugI1Bvxp3u2miTdqc=
+
+Name: grammars/NetLogoRGW.tokens
+SHA-256-Digest: gSdlOPCwHaLJjkYPcv+1V5OBOwoQv7jF355CLJH3Guo=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$42.class
+SHA-256-Digest: +/RT40yfu3iCJwPFEnriavLI7mdQf0wcT1nOAbFZZrg=
+
+Name: repast/simphony/relogo/ide/image/ImageSelectionPanel$ImagePanel.cl
+ ass
+SHA-256-Digest: bdyTVJZ4MwkSZu4CkEzpCbhUtx/9nZeSRwAMPd0TLNU=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$42.class
+SHA-256-Digest: XpYF2lMS2dxgvLAi2cbg70DVuRFlm19XkwdK5e338YA=
+
+Name: plugin.xml
+SHA-256-Digest: skF6L1piD0a+tTOGtUuwH2W0zgDfO17rPbSSbdVrwZM=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$72.class
+SHA-256-Digest: +5FGhjauwQegx/ONQWNpAenPNPCbY57jetosXNyi3Gs=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$85.class
+SHA-256-Digest: BdON46mPXZENWQ5PT44pFOvs1r98bxaWQi0kwfxKTig=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$4.class
+SHA-256-Digest: x2bsphYx+educPzjWcPN6/y4gL5yjjJy/nixLV8rhZM=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$8.class
+SHA-256-Digest: C1qYAkYaGoN7AWXBl2w4ckAXgQZb+Rr9ug6/z5tAQVk=
+
+Name: repast/simphony/relogo/ide/wizards/NewObserverWizardPage.class
+SHA-256-Digest: PcLqwcIZaM+xFsllxThaBwpcTMKcNsD7FNLfx7gAZuU=
+
+Name: bin/repast/simphony/relogo/ide/image/ImageTesterG$_buildSwing_clos
+ ure4.class
+SHA-256-Digest: 4VySsC2P6l6VbJTvCkJ+Ja5v42AWXhG66a8erBBw6II=
+
+Name: bin/repast/simphony/relogo/ide/wizards/NetlogoWizardPageOne$Shapes
+ ListLabelProvider.class
+SHA-256-Digest: 5pJ7I+dAk7c63LNX9o4MpbUeLxqssG1UqFZh7LBkBvg=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$45.class
+SHA-256-Digest: xkBAl3MgSyrGWhaZKucyDK2LwndOQAYLn5Un7pjUufk=
+
+Name: repast/simphony/relogo/ide/intf/NetLogoInterfaceParser.class
+SHA-256-Digest: pBiS/0S8HP+3UzJ6jN98aQqkUk5p7/LSrKldsD54Jzs=
+
+Name: repast/simphony/relogo/ide/NewReLogoProjectWizardAction.class
+SHA-256-Digest: lkNziB3ZGYr0SGYz8T2MWr6hdpbzcZpSlVqwriYBeW8=
+
+Name: bin/repast/simphony/relogo/ide/intf/NLInputBox.class
+SHA-256-Digest: +j2K/STpGRPYCIDzU18eS9eHKMc3jCyfe2Uw8GuMsYE=
+
+Name: bin/repast/simphony/relogo/ide/handlers/ReLogoBuilderTests.class
+SHA-256-Digest: lVb5PqKdzQgqaGJZmdIaFakI/4CJfYc8aqdC0glvNNE=
+
+Name: repast/simphony/relogo/ide/NewLinkWizardAction.class
+SHA-256-Digest: fyo9CnPy7UMMZMm/AzZ5DtNNh4DIF19Zb50SAUAqkvo=
+
+Name: bin/repast/simphony/relogo/ide/wizards/ListAvailableNatures.class
+SHA-256-Digest: 1ZfMG2HhGYlQ4rjIPkd9d03VzGp4dpTGNzUQTB8aLTQ=
+
+Name: bin/repast/simphony/relogo/ide/NewLinkWizardAction.class
+SHA-256-Digest: qWW99dcvKCM230vNUyVTc/yx9hvSeGp1Bv0pMSWxlCk=
+
+Name: icons/rlpersp1.gif
+SHA-256-Digest: UCcHXjjdTOfqpeh+DMsimKWTEHhZDGxEnCheAdEldJg=
+
+Name: repast/simphony/relogo/ide/code/Block.class
+SHA-256-Digest: 94MaK12DwOMSE12RHPMQpchg//Oxikc2h4mrhmyHRs0=
+
+Name: bin/repast/simphony/relogo/ide/dynamics/NetLogoSystemDynamicsParse
+ r$str_return.class
+SHA-256-Digest: O07U7fVd/B2v4WtGE2yYqss2ONh9tV+8xVvSVjCDe9U=
+
+Name: repast/simphony/relogo/ide/intf/NetLogoInterfaceParser$anything_re
+ turn.class
+SHA-256-Digest: R0sveSGvlZISzJCK7VK0+oPMR4DJ+T/Gh8YqNfCH/Y8=
+
+Name: bin/repast/simphony/relogo/ide/NewPatchWizardAction.class
+SHA-256-Digest: O3rs9AQt3XOm86tXhllesitUBSwEdlDxabihf/3Y08g=
+
+Name: repast/simphony/relogo/ide/wizards/NewReLogoEntityWizardUtils.clas
+ s
+SHA-256-Digest: FvyVFVPRHJXqbdl2A+cLmz4lJYrvLeFHu8qxNFuMhJs=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$18.class
+SHA-256-Digest: S36fCMpNFmGDypJESDshk+NBHVrEnxtP96YknGJMMvo=
+
+Name: icons/relogoadd2.gif
+SHA-256-Digest: Hk+dsSXKA03dVOYQ5ocbNPPCMzW7cQTaDLU2ps2V+1E=
+
+Name: repast/simphony/relogo/ide/image/ImageTester.class
+SHA-256-Digest: DGIiv6itiALAlBVddCF35YPiE1+bK7ao9hcMcRiUW5o=
+
+Name: bin/repast/simphony/relogo/ide/code/CodeSectionParser.class
+SHA-256-Digest: Ro6IB3odjdTGaNlYpBMuBtHNS1PL3T7qk8lf7gegqbk=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$58.class
+SHA-256-Digest: l8tj6Tq8a/4XU/CanH6rXBi/KVr1EkNvdQE4Za8OBwI=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$58.class
+SHA-256-Digest: MuELq1FB5XDoy/Q1U5yCNbtugryyXZ8Lgpe1TggRdMs=
+
+Name: bin/repast/simphony/relogo/ide/wizards/NetlogoWizardPageTwo$1.clas
+ s
+SHA-256-Digest: 0pgjNhdcfpdJHwJI0ipn49mqjocImk++imi01sCt9ck=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable.class
+SHA-256-Digest: GvaCmr1yNaBNaMF7bC8b0NhNUEASd3odKPJ7dvP4GJI=
+
+Name: bin/repast/simphony/relogo/ide/image/ImageTesterG.class
+SHA-256-Digest: g7Zti25Ptk3z4O4AcmVENRXvlCSPBLglOk4dzFpx/zs=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$9.class
+SHA-256-Digest: 4FJLUqxZn9QSYp5eCX/XYwFy/fEpD6D9wmKfjLIf/Is=
+
+Name: templates/context.stg
+SHA-256-Digest: w90aZyVT7fVsdL4K1owl3j2rJEvxo+i6D8nQ2xQARFI=
+
+Name: icons/rlnew_wiz2.gif
+SHA-256-Digest: jeQxlKdNiy8scEtavZ+cTZrDM1QJ9yfSr3pvKzDDcYQ=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$32.class
+SHA-256-Digest: rERQj+GS1ItSWCbWdAXmfjBHBeR0EjCDFkxl1gth2Nc=
+
+Name: repast/simphony/relogo/ide/dynamics/NetLogoSystemDynamicsParser$st
+ r_return.class
+SHA-256-Digest: ubbmqmeNn2ulHOLgrYxh9MemX0FpNJs50EgMK3ECN1Y=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$32.class
+SHA-256-Digest: 5c4wv7KQwC+Mwki37FIb6RCqyp0DdoCRQDs5+eEbL14=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$72.class
+SHA-256-Digest: G9+thqWwqaji6XSEZHUbPRenaTAKMnU2sSGcrnPyOtc=
+
+Name: bin/repast/simphony/relogo/ide/code/NetLogoRGWParser$toReportBlock
+ _return.class
+SHA-256-Digest: TsMtKRqshpSDkAQmSt/TMsHrRVXjEsQzwWRqetYPAG4=
+
+Name: bin/repast/simphony/relogo/ide/wizards/NewTurtleWizard.class
+SHA-256-Digest: +6YluV/tN/LVL9mzSJ0u5iyLFcan1n22/orbtVuSy0M=
+
+Name: bin/repast/simphony/relogo/ide/code/NetLogoRGWParser$toEndBlock_re
+ turn.class
+SHA-256-Digest: +MGjuKTojGvQsaPmNWvJP0dlJvyzoYOJIajPDpVGSLM=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$80.class
+SHA-256-Digest: PYLXzv/Spulf8Y8e7CCqcsC753zwJV6vFOx+z/V0RuE=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$40.class
+SHA-256-Digest: GFFg2FdhRCSYAa2b+Ap+2by2bay0Kp6kimjulN52vfo=
+
+Name: repast/simphony/relogo/ide/wizards/NewTurtleWizard.class
+SHA-256-Digest: g6lgmJsmr/wvE4PwLLFFV5/blZFb6Ism3W3U4FF8ZqE=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$80.class
+SHA-256-Digest: VbnqRJdwuPzxo2yY/wa0mEIXy8FTFbc5LcCeBJQVHSo=
+
+Name: icons/relogoadd_old.gif
+SHA-256-Digest: N+iIMLuHI5JNW/Yzg93kJ6UBaqh6gCAKUlqkXWARSj4=
+
+Name: repast/simphony/relogo/ide/wizards/NetlogoWizardPageOne$JREGroup.c
+ lass
+SHA-256-Digest: wAknoSYGDgr0799RYBRSqkxntuDC4h4DbGHQg7dOb44=
+
+Name: repast/simphony/relogo/ide/wizards/NewObserverWizard.class
+SHA-256-Digest: HKteTyEdD+Y/yAuEa2GImOTDjkLdX2rVy9izEuhnATo=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$18.class
+SHA-256-Digest: 96q+Fdl87VEDKvpSSjy2k3S6XDZvOGwCowafZpY4KcA=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$11.class
+SHA-256-Digest: auHQXj7BTFu4hP7SJRl5c6Vvxnx/czCNDU38tA6egAA=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$51.class
+SHA-256-Digest: cJQsChYZTjYViRwbsB7yFv1fonXEXg/25TuNMVBOMFo=
+
+Name: repast/simphony/relogo/ide/intf/NLSwitch.class
+SHA-256-Digest: jiEsepmNzH6IvcfkJ6wTF/7TPJv++hvcZN2bQ2cLHZY=
+
+Name: repast/simphony/relogo/ide/wizards/NetlogoWizardPageOne$NameGroup.
+ class
+SHA-256-Digest: SY6H5lPOaWezLAqRX0e64wMCv+iRgQJdVKP2MFHz5fs=
+
+Name: bin/repast/simphony/relogo/ide/code/Paren.class
+SHA-256-Digest: q4Bu00IqtSksCIChQzfdvRENOMv7G1Gh+N4q9vTaehY=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$91.class
+SHA-256-Digest: vac6aVQcgbrGjWYsB7HIRWXDxDIvoXmycan0pHEmCNs=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$51.class
+SHA-256-Digest: XB+O5qbRjVw0msygwrtN/qIGOaVW6Q3jiy4fjboxkX4=
+
+Name: repast/simphony/relogo/ide/image/ImageTester$4.class
+SHA-256-Digest: fwNrie/GEpWeYghPoToZoJ9AgRifd+KhghjYcvgzxw8=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$11.class
+SHA-256-Digest: dE9+i0Q8wLznAG5buMgN57ZP/kzbxaT3Tbug5EAYvVY=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$45.class
+SHA-256-Digest: QaHCBxsZ+KFVId8ruKzRmWIYI9Kp2DSVHPaax8rVU4w=
+
+Name: icons/rladd2.gif
+SHA-256-Digest: HKN7YIXLHiRC9QmDD54w0rQpsiV/q2zlGAUaESz85Kg=
+
+Name: bin/repast/simphony/relogo/ide/intf/NLButton.class
+SHA-256-Digest: r1EVBtO7uz2iN74CDHxKBfWsJaSB1oxCQh3KJ2XKIIc=
+
+Name: bin/repast/simphony/relogo/ide/dynamics/NetLogoSystemDynamicsLexer
+ .class
+SHA-256-Digest: KcfpEvQXQMZEw3LZbBgWgfUBierOy5xc7/cZCgFG5Ms=
+
+Name: repast/simphony/relogo/ide/dynamics/NetLogoSystemDynamicsLexer.cla
+ ss
+SHA-256-Digest: FwLefZU6YT3Y76TUn1RNhXUDj+isCg6078Dfkj+s5G8=
+
+Name: bin/repast/simphony/relogo/ide/ReLogoPerspectiveFactory.class
+SHA-256-Digest: jd0eyiT+yBozdyArr1dEy4LQIFhZyc0mWl9lNPeHFcU=
+
+Name: bin/repast/simphony/relogo/ide/intf/NLMonitor.class
+SHA-256-Digest: UNDM0LZlQqpAQD6w6JawRgIes7YIN1EsCotpE+HanX4=
+
+Name: repast/simphony/relogo/ide/wizards/NewLinkWizard.class
+SHA-256-Digest: Px9Rb1e+7sgG3sjWqEoOyweUlXqokuH++L6VfDTQfh4=
+
+Name: repast/simphony/relogo/ide/gui/NetlogoSourcePanel.form
+SHA-256-Digest: F2Kqcy0JUStAkeNU3zydtkDTKFjT6NlKUPxDuFDw2BE=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$85.class
+SHA-256-Digest: KTQJgGYmBIDyq989fByGXzL03evvNJ1WQMJ4rgWt3i8=
+
+Name: repast/simphony/relogo/ide/wizards/NetlogoWizardPageOne$DetectGrou
+ p.class
+SHA-256-Digest: jTZYqgf58ZhRjeNuf3w5ygB+HzI/ORX214nD6+B/CL0=
+
+Name: bin/repast/simphony/relogo/ide/image/ImageTesterG$_scanNLFile_clos
+ ure1.class
+SHA-256-Digest: PCtT1MNGExBzzH46qL3xpBRu9j9xsruhCiIlajjJDLY=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$69.class
+SHA-256-Digest: xyrsiQqfgK2BTQgF5X262WWowHIyoKZ59cdaI2x34Zo=
+
+Name: bin/repast/simphony/relogo/ide/intf/NLGraphicsWindow.class
+SHA-256-Digest: +NBmYx95Odu7JGUKZZCbO9nP8dbkFtOnfAmazMwgpUo=
+
+Name: repast/simphony/relogo/ide/wizards/NewTurtleWizardPage.class
+SHA-256-Digest: tU0OZC9RfgtfOmm25S6K3tG3RRUVacVcc4BBcIPaGUk=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$79.class
+SHA-256-Digest: rY5ATXyNfHVv1b4V47kMaKXhzYuY1bLHjUqAGRZmDH8=
+
+Name: bin/repast/simphony/relogo/ide/dynamics/NetLogoSystemDynamicsParse
+ r$model_return.class
+SHA-256-Digest: O7O+UIWuupVm8xhGADcfWRAx9GHwezNaywiax3mIIBM=
+
+Name: bin/repast/simphony/relogo/ide/dynamics/NetLogoSystemDynamicsParse
+ r$entry_return.class
+SHA-256-Digest: lZtt4WFfZvIHWPfA014pL77mID75Uo+/OGAL/PcnO5s=
+
+Name: repast/simphony/relogo/ide/gui/NetlogoSourcePanel.class
+SHA-256-Digest: FXXfwjA0PQ9hrcDBuFbWt1Sc7iV2xd75vuEQZhHiMgU=
+
+Name: repast/simphony/relogo/ide/intf/NLMonitor.class
+SHA-256-Digest: /4L8D/aMeD2DdWRxX83lH7FGKYFJ+DBgo5gPqZPcMn4=
+
+Name: bin/repast/simphony/relogo/ide/code/NetLogoRGWParser$codeElement_r
+ eturn.class
+SHA-256-Digest: uM32AhQRNsrzP3MWCFJ4QKY6I8d9Fl81n8QojAgSxlU=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$56.class
+SHA-256-Digest: K/0iGi5zADmBVUSaGlRJ+uwUjztALxpvXBnExLWXBVQ=
+
+Name: bin/repast/simphony/relogo/ide/plugin/Startup$2$2.class
+SHA-256-Digest: fUIYEDu2G/CPqyTk5J1bY67p0N2I4RqKJ0A69g/q6H0=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$69.class
+SHA-256-Digest: 4zcJbzt4wtR1FctF2kk3TZjBoERLebhykoYlSxurbUM=
+
+Name: repast/simphony/relogo/ide/wizards/NetlogoWizardPageTwo.class
+SHA-256-Digest: g7f9dHfeSOw4e06cKI1GFFbSJuqkFWZym3f4CS698Rw=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$79.class
+SHA-256-Digest: eqCYgaOE8WRpNG8/B3MMxWWB4Q0VijIlJvdU//z6lh0=
+
+Name: bin/repast/simphony/relogo/ide/NewTurtleWizardAction.class
+SHA-256-Digest: m7uxQXGSJqqNB50aYFrTSdJwGJtH6Q8VQsoRHOvwShE=
+
+Name: templates/repast.simphony.action.display_relogoDefault.xml.stg
+SHA-256-Digest: 1hinQzirYgsvyvM/LehCF6/t67qgGQ7+YE/o/N9xxFo=
+
+Name: bin/repast/simphony/relogo/ide/intf/NetLogoInterfaceLexer$DFA13.cl
+ ass
+SHA-256-Digest: mQgpXWyfLkSTfIjd49nzJtA978BnTmiMB96vTbGOlXQ=
+
+Name: bin/repast/simphony/relogo/ide/plugin/Startup$4.class
+SHA-256-Digest: MJg78pSpx4pl4w2s1JzPjNGS6znDObst6FxJIS6otUU=
+
+Name: bin/repast/simphony/relogo/ide/plugin/ContextDisplayNetworkSanitiz
+ er$_sanitize_closure11.class
+SHA-256-Digest: uJ6Erd0AHsfZLlOSyORKMha1Kh8eIyPkJptLNcPT7r4=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$26.class
+SHA-256-Digest: jC0nIcwY1ZojhmLwXTvNu5qjoC7JqMYmT015tKKZUCY=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$26.class
+SHA-256-Digest: Fvibq3YKuh4gdMQGfb0Q8EPcKQFRzFtVERsFC90f16w=
+
+Name: bin/repast/simphony/relogo/ide/plugin/ContextDisplayNetworkSanitiz
+ er$_sanitize_closure11$_closure16.class
+SHA-256-Digest: eO30s18ZjDly0zUbtCaNKCxy2s7+d3j+s2CGrB67XII=
+
+Name: bin/repast/simphony/relogo/ide/image/NetLogoImagesLexer.class
+SHA-256-Digest: dhqWUgKxxF3gaLboUPIcium7pkFoGIoimU5qnq0r/KY=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$56.class
+SHA-256-Digest: 1ICxneUstD0M4hQxuYCoM1dFdbbOjQQVSipPVOjTcQU=
+
+Name: bin/repast/simphony/relogo/ide/plugin/Startup.class
+SHA-256-Digest: XV3qStxqfjhhEj0PaXWVCFXvED3N0mjhjrciOGQ4Za0=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$83.class
+SHA-256-Digest: afKayuiTqPIXHDcOHJfIC7S1AxMHFg5MxR4DK4BpDmU=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$61.class
+SHA-256-Digest: 2Z9dA36ZWNwAPlLIbREr1vOJg6e8EGw+dAusVijPfJg=
+
+Name: bin/repast/simphony/relogo/ide/image/NLRectanglePrimitive.class
+SHA-256-Digest: D4FppeaPZ/OGOQ/sdOFvbuVASkAGcBVOo0iwqWZWjyQ=
+
+Name: bin/repast/simphony/relogo/ide/image/ImageSectionParser$1.class
+SHA-256-Digest: Bf+mhM7wIzUWe91L3JpIgHxoaFF2ULo/+cEmXhq+XYI=
+
+Name: repast/simphony/relogo/ide/dynamics/NetLogoSystemDynamicsParser$in
+ tg_return.class
+SHA-256-Digest: 1nx8GRo4EvL6mK2gZunv+dP84HiPKfOyQAZWczlHYSI=
+
+Name: bin/repast/simphony/relogo/ide/plugin/ContextDisplayNetworkSanitiz
+ er$_sanitize_closure4.class
+SHA-256-Digest: OhP0xR4ktnKQZpQz7hFGm7e/2AOW6N424vrv3ZubcWc=
+
+Name: repast/simphony/relogo/ide/ReLogoFilter.class
+SHA-256-Digest: wOc7Fuyio+zKXXvJr/uCQcLPLXxjrykVqCv24WxmEag=
+
+Name: repast/simphony/relogo/ide/intf/NetLogoInterfaceParser$floatnum_re
+ turn.class
+SHA-256-Digest: 37jYVYvMf3B4RWXLGNt6WfDqam774Y6grjsaLX34bk8=
+
+Name: repast/simphony/relogo/ide/plugin/Startup.class
+SHA-256-Digest: s0nE8DBsR1qCBitAjllqIpD4ef80YAMzD71uube92aY=
+
+Name: templates/SimBuilder.groovy.txt
+SHA-256-Digest: YxoWxwzuDkTqSNHMdjX3FJTG7UO0pmz0p51ciMNoBPY=
+
+Name: repast/simphony/relogo/ide/code/NetLogoRGWParser$codeBlock_return.
+ class
+SHA-256-Digest: 5xtrg46P5Xrd87KueCuTEV4wMCoIh63CQjHE98Ou27Y=
+
+Name: repast/simphony/relogo/ide/wizards/NetlogoWizardPageTwo$1UpdateRun
+ nable.class
+SHA-256-Digest: 1EcNh5XmodsqCr9oJ746rIyRZb8xnImSJ2DaFTlhrr8=
+
+Name: repast/simphony/relogo/ide/intf/ControlSectionParser.class
+SHA-256-Digest: nxWY70lMN+Fn88ga4A7DNisN2dNR6y8soZANpHkXaj8=
+
+Name: bin/repast/simphony/relogo/ide/plugin/Startup$2.class
+SHA-256-Digest: 62BnIEpoozvmyH+lsnCstOx/zHV+85MuhYPNJCeUHOA=
+
+Name: bin/repast/simphony/relogo/ide/dynamics/NetLogoSystemDynamicsParse
+ r$fltgt_return.class
+SHA-256-Digest: Bnu8r9eNO8HUYjvNIXQ7DRTs2XSayPocG287k329kfI=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$47.class
+SHA-256-Digest: eF2eS1kgBvWNIcVk/+5J7Ew9/ExyeW18yQWqOJgLLuI=
+
+Name: repast/simphony/relogo/ide/intf/NetLogoInterfaceParser$number_retu
+ rn.class
+SHA-256-Digest: 9UB6qMlB7WgiFnUZZhDydNjuitE9jLoaMdKjDqE1bgU=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$6.class
+SHA-256-Digest: B1v9F3hFIdawmXvcniLqPuPSp1siDnJfzJPLMDrGTnI=
+
+Name: bin/repast/simphony/relogo/ide/wizards/NewObserverWizardPage.class
+SHA-256-Digest: Mn4BjmP0zUBONwBJrLcPmJYgZPHIU4Ye5TyEfUlNnuE=
+
+Name: repast/simphony/relogo/ide/wizards/NetlogoWizardPageOne$JREGroup$1
+ .class
+SHA-256-Digest: FRYR2Al1Zojg3Ep20gIhZaf5DPysYdJx452AT9uRlDs=
+
+Name: bin/repast/simphony/relogo/ide/wizards/NewReLogoEntityWizardPage.c
+ lass
+SHA-256-Digest: qjhQu/yiNs6E0gp+GXD8WF4sSAhte7b9eYXciGEFgHQ=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$24.class
+SHA-256-Digest: 0pUrACivd5C9odIqY/N1OrnsSUs3vxd4IBTr5ZD3uZo=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$30.class
+SHA-256-Digest: YOJ47IglF/LXocibllaoO0bGB3X59iAEvbQ6gWIAviA=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$24.class
+SHA-256-Digest: xjfrskT1kIEeDw4ETBBOlKsTx/PtQNM1u9X8eEC8xZg=
+
+Name: repast/simphony/relogo/ide/image/ImageSelectionPanel$1.class
+SHA-256-Digest: U9oh32cWBD+/k7wQHoIbBG4BDfLwX9pNony6Uxrb44o=
+
+Name: templates/parameters.stg
+SHA-256-Digest: La3LBsEzb6b2SDpyFZwkjQQmjebaFquBOS6bYbuGJmI=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$53.class
+SHA-256-Digest: eljna64nEx/wjRGVYrLQeuJkndxfdeRS8qWgr2Nqtms=
+
+Name: bin/repast/simphony/relogo/ide/gui/NetlogoSimulation$2.class
+SHA-256-Digest: S41xFmlIaqPrMf7X2BvDMaa00b7yJZsgUA+WoqR87BU=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$83.class
+SHA-256-Digest: 73h/51vovggDhVytk/JTxoPP4L5RDTpmBHddGTtZ0uY=
+
+Name: repast/simphony/relogo/ide/image/ImagePanel.class
+SHA-256-Digest: JvigrQAgcATYS5+nbU46qrRQipgZCRXmeC8FflMb4Cc=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$53.class
+SHA-256-Digest: hDo4zn73CDID7xLOA7gJVWT6Ts0+ZwwJEEeqEHGFLgs=
+
+Name: repast/simphony/relogo/ide/gui/NetlogoSimulation$2.class
+SHA-256-Digest: ptDe+DSgZn7yEoWf4jRTPkO4vtylXkHziRIUJbOcCZ4=
+
+Name: icons/rladd1.gif
+SHA-256-Digest: DXhHyYA1nRot2Hmx0dffcKu3B9C2SMr7lkxOnDwa6YE=
+
+Name: icons/newrelogoprj_wiz.gif
+SHA-256-Digest: nSbEzMqwIp0g7Yq7TC4hgssM0EyUvl9E/ssbSRzGqhI=
+
+Name: grammars/NetLogoSystemDynamics.tokens
+SHA-256-Digest: job4M11pSIHnkjxDTwlrd+Gje0Bh4QC1ADHMiXsVHZc=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$48.class
+SHA-256-Digest: OxAw+k3gQDTfK9u8tmq99xJwp9k0WhPMesYMdV8+x5M=
+
+Name: bin/repast/simphony/relogo/ide/image/ImageTester.form
+SHA-256-Digest: 1C39zDS4bEzjhfE9Y9FATTiKofKzFpdfAjqrHby9Qb4=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$48.class
+SHA-256-Digest: +3bTfI5tPrlU7KcxCB8bczszoWJfRQPVVDaR5kJ38/s=
+
+Name: repast/simphony/relogo/ide/plugin/ReLogoResourceDeltaVisitor.class
+SHA-256-Digest: KsXUs5qgBQQOfWSkQCwjGpwIQ+ygRoFhGKOffTzYx/c=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$30.class
+SHA-256-Digest: MBparVwdNQRRtB2ZL2qH6lb0fpndaZLJMlgj4V+KTkc=
+
+Name: bin/repast/simphony/relogo/ide/wizards/NetlogoImportWizard$1.class
+SHA-256-Digest: drv012pgtmC3b1ZuCOk/tO970XGV6fhXLNh2PJ6LxeQ=
+
+Name: bin/repast/simphony/relogo/ide/code/NetLogoRGWLexer.class
+SHA-256-Digest: rXeIMKOrQloTPxomnXXVgAWrsmpgDYyu+yMHZIabuTI=
+
+Name: repast/simphony/relogo/ide/intf/NLChooser.class
+SHA-256-Digest: GqDOoDRwsSSFhdlLc0UTJ8H55YCl+zh0jNdvbpx1tC8=
+
+Name: icons/relogoadd.gif
+SHA-256-Digest: YAB4NOVoaDLhDn3txkZ4wFPDW+5rM1xNdeco1A1vQck=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$7.class
+SHA-256-Digest: TWW3YFSX68cGfNThj0JNRKOcoYOGqqJ9PyBKGxIcSig=
+
+Name: repast/simphony/relogo/ide/code/ProcedureInvocation.class
+SHA-256-Digest: ceWZQQOW2ehVB7y32XERVYjtFnrdvyZtg1x6o29IUt8=
+
+Name: bin/repast/simphony/relogo/ide/code/ProcedureDefinition.class
+SHA-256-Digest: GBpSkangCWSxVHCg9mMI8OAq/l0DPq+gqr0TiRwcIp0=
+
+Name: grammars/NetLogoImages.tokens
+SHA-256-Digest: BMWn0GHVL1DquEvqXHwdThKMH/CKYKOzLOZJEcjayLs=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$77.class
+SHA-256-Digest: gvizeiJR4lqZ/CtAY9bHBLXjLpNTypLQcZr33eiOzq4=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$77.class
+SHA-256-Digest: Nxcb12968l0JVUt7Ieei/HdEULhuv6IhrTchSYuYTb4=
+
+Name: relogo/Activator.class
+SHA-256-Digest: B1/eWzGAD7ur7yss1gdnAUCaRzAye3BJh74jMMk/a7I=
+
+Name: bin/repast/simphony/relogo/ide/code/NetLogoRGWParser$prog_return.c
+ lass
+SHA-256-Digest: HZMNP5j7/eoJj4yIgpUEetIRpRsjjgthw+D/0c9v+rU=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$82.class
+SHA-256-Digest: vx8tew1Kxl+6qVKyLrTDO8OqCnrnSl6KyK6UnAqT86M=
+
+Name: repast/simphony/relogo/ide/code/Selector.class
+SHA-256-Digest: Uj2iGklqbHt/qkdaJAIj6GrWCAIXf65ClD/72VAyTQE=
+
+Name: bin/repast/simphony/relogo/ide/plugin/ContextDisplayNetworkSanitiz
+ er$_getCandidateDisplayFiles_closure3.class
+SHA-256-Digest: kXXgu4472NlcllvsuiZhPq6GKs9gYvNwA1wj5YQ+VF4=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$75.class
+SHA-256-Digest: T0QrEnKuCl3+jc6bVIFmZDeFB/OIpqvvrLXF8/iA69Q=
+
+Name: repast/simphony/relogo/ide/plugin/Startup$2.class
+SHA-256-Digest: YJmdGFwCwCfuHo3l3Kc8Zl6KhpWBDgAjaEn/3yHkpUE=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$55.class
+SHA-256-Digest: 81GJbnqhiqYEoNoomWFrq/6M9jUwDmLIO9pe8bkN76c=
+
+Name: grammars/NetLogoInterface.tokens
+SHA-256-Digest: pkeSSHLQIBpFhOGfax2VAS7CEg3WrpWVCBPCZ4MMWIc=
+
+Name: icons/addrelogo3.gif
+SHA-256-Digest: KRbCPUwB/IhHS5NVErB6PP1o+FPxg1IXDV43p88g/e8=
+
+Name: bin/repast/simphony/relogo/ide/wizards/NewPatchWizard.class
+SHA-256-Digest: NmYERuGX0UpvwgZ0HnRKQqzS0AoSnGXwqQ6TgjgVTlA=
+
+Name: repast/simphony/relogo/ide/code/NetLogoRGWParser$toReportBlock_ret
+ urn.class
+SHA-256-Digest: S1pfAkXP9YlEhu7LYkZEFyN3EJDIQ2o7uML40DLHprw=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$5.class
+SHA-256-Digest: ly7SZuzrOAkvB2jpkzOPQA4brmrfe6mh6EBddn2HqQU=
+
+Name: repast/simphony/relogo/ide/intf/NLPlot.class
+SHA-256-Digest: /hJ88rEcM/Pzb9A4Bw+HTaqY0ncKAKE9GgqyQkLqD1A=
+
+Name: repast/simphony/relogo/ide/code/MethodPartition.class
+SHA-256-Digest: /IXGRYkLf4dIFjk3L4bk1a3uDmK4ukOiJslrRPhx1Xg=
+
+Name: repast/simphony/relogo/ide/code/NetLogoRGWLexer.class
+SHA-256-Digest: 3n7skHV3stVEZbeZJnhojxz+WbLQvP7jwWLX/pNrb3Y=
+
+Name: bin/repast/simphony/relogo/ide/image/ImageSelectionPanel$1.class
+SHA-256-Digest: O72p+uxqPichgnOtKIAdkpcZhHBtq1z4eC6UGeE6h9M=
+
+Name: repast/simphony/relogo/ide/image/NetLogoImagesParser.class
+SHA-256-Digest: O0VQ+4Wzv+bPBhBRWbReeZNCH1TuqCJoh+aNjzpde4I=
+
+Name: bin/repast/simphony/relogo/ide/plugin/ReLogoResourceDeltaVisitor.c
+ lass
+SHA-256-Digest: /bqe9687uDTWG+Faqz2lePBP8CjgVx8xik7iLhxgU8U=
+
+Name: repast/simphony/relogo/ide/code/NetLogoRGWParser.class
+SHA-256-Digest: Np3NiNkgSALXMTF1WsxI0cCiF0dccBkJFuE4tKVBvBo=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$15.class
+SHA-256-Digest: kyclj6CacKMA9yX9g3hHGNcCUmP4pNhaZQaU1Gn+0p4=
+
+Name: repast/simphony/relogo/ide/image/ImageTester.form
+SHA-256-Digest: nGKPeWHUNytBKZk+vSG5Dbk0PwOH+F8ZYo+kgzYN8ZA=
+
+Name: repast/simphony/relogo/ide/image/NLCirclePrimitive.class
+SHA-256-Digest: hv945xYRfMywk68ms8DSG4VBEVgT/EwPk9PE72oB1SY=
+
+Name: repast/simphony/relogo/ide/code/RelogoClass$Breed.class
+SHA-256-Digest: 2xOSwovZFSn0zPgX7udrevuL/QIcg9EHAFUyzWOgvFs=
+
+Name: bin/repast/simphony/relogo/ide/wizards/NewTurtleWizardPage.class
+SHA-256-Digest: tvVCQdv1HCBCBXmik4GAY8BpXcqoIOOJiw4NBBC0zOg=
+
+Name: repast/simphony/relogo/ide/wizards/NetlogoWizardPageTwo$1.class
+SHA-256-Digest: a2PVli04XmU7bk4QRNqb8ok9sYUsW4a6l1nDQaqE3t8=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$15.class
+SHA-256-Digest: fph53iAG1WeE0aPgfTlXd2LAtC/NpUz2npoua6sfzVE=
+
+Name: icons/rlpersp3.gif
+SHA-256-Digest: ii1V3Xcjc+2Le00hpX8RIZJgc8CnRpi/RlgFf+pZKso=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$55.class
+SHA-256-Digest: y+fv8WnRNTqZ9XLJ3srwZrxV5BBTg049pd+BNW3UdcM=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$75.class
+SHA-256-Digest: yoz1UdJpcSUaPU7pGdzS0xrBjuxpoIrTo/T2G24kXi0=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$67.class
+SHA-256-Digest: WjTJM3C838X9OzZ9PEavPDoJLpnrxcAI1RzOIO1wcIk=
+
+Name: repast/simphony/relogo/ide/plugin/Startup$2$1.class
+SHA-256-Digest: iRwC8F1174KF8/WpowfT1JDSWESxxoe3hqAgSR88+8o=
+
+Name: plugin_jpf.xml
+SHA-256-Digest: siFo9VGiGCa/zk0L6Xy/rYJUk+TD4LPJesjAc4ccWws=
+
+Name: repast/simphony/relogo/ide/wizards/NewLinkWizardPage.class
+SHA-256-Digest: 962GLMHh7sXP747E8tvjs6bb5Ts3tBTB4F9zkyzFHLQ=
+
+Name: bin/repast/simphony/relogo/ide/plugin/ContextDisplayNetworkSanitiz
+ er$_sanitize_closure12.class
+SHA-256-Digest: pBGeOhq2kISPKwWcLbPrkLZ2Bw3DcfShMkZq8vbEqW8=
+
+Name: libs/antlrworks-1.1.7.jar
+SHA-256-Digest: 7GE/AuYDtPFcAmaH4ee/4XiCnAnifZAltnzDqBlYsAg=
+
+Name: repast/simphony/relogo/ide/plugin/ContextDisplayNetworkSanitizer.g
+ roovy
+SHA-256-Digest: l9V9VS7ESxdAi2hHvszVigXCvGJh8bn4AMByWfCRTrY=
+
+Name: bin/repast/simphony/relogo/ide/dynamics/NetLogoSystemDynamicsParse
+ r$wsp_return.class
+SHA-256-Digest: hw2glYadcIq9ebYX1CoEjK7A1Z+sbwh9etuqFNIzWnI=
+
+Name: bin/repast/simphony/relogo/ide/plugin/ReLogoResourceChangeListener
+ .class
+SHA-256-Digest: tAsEkjIuZj+8eycGuzk624dq//FlYQLxrvZviu/ahKY=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$6.class
+SHA-256-Digest: Mx3kMikiRdIc0vlOItpOI7cKbdrv3NzGcTSPWtfUrsw=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$10.class
+SHA-256-Digest: K9JQhiym3tL4Ufhoy7PNHcH+GtWnN4B3lVt1z5YuXsE=
+
+Name: repast/simphony/relogo/ide/dynamics/NetLogoSystemDynamicsParser$ws
+ p_return.class
+SHA-256-Digest: pypDV7V2FiHUQo14UlDk4QeZOH86tJr72xD+E+KMYsg=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$74.class
+SHA-256-Digest: R8yor10mNNxqGKOCll9yE4T4dJvFzSWb8IBT6ht7JX4=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$63.class
+SHA-256-Digest: eg98sy5/t3lsY1dcpmppjT7CLhTv198UBUHfkXjfp74=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$21.class
+SHA-256-Digest: vBO5YVcUIbhs6VOcXWXeuaUaQ2SMWJcwH619NM3rlyU=
+
+Name: bin/repast/simphony/relogo/ide/ReLogoLaunchConfigurationDelegate.c
+ lass
+SHA-256-Digest: DqEg7ImlLG7+IkjKZhWoW5/FDmPOp9FiOxhNj2A+CaA=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$61.class
+SHA-256-Digest: xoQHHH3DWDL0ip3w8xpnP6oyP957fB3U+oP5a0kfm/U=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$23.class
+SHA-256-Digest: oAA3Vo24Tw58VJWKi/jsq9T4VWNqJ4/ggmXbAijsNcc=
+
+Name: bin/repast/simphony/relogo/ide/wizards/NetlogoWizardPageOne$Detect
+ Group.class
+SHA-256-Digest: UVLy5M4KpFYdOOuE7SpMa/1KGR6hiOpBK6KInvV2Tf8=
+
+Name: repast/simphony/relogo/ide/plugin/Startup$2$2.class
+SHA-256-Digest: O7ytsPmtrUJkVIY6VcZfe3tBa3NPoJAZ709GoKqxiog=
+
+Name: bin/repast/simphony/relogo/ide/image/NLCirclePrimitive.class
+SHA-256-Digest: 1QcAFihCWI6W2ZF2Ehz3lpf2k6G4LkABZpRQq8Jsq18=
+
+Name: bin/repast/simphony/relogo/ide/plugin/ContextDisplayNetworkSanitiz
+ er$_sanitize_closure13.class
+SHA-256-Digest: zNGCWZfNh2Ij81BsLQfEovKnrG3Za6DZP4ytfU3pjlQ=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$74.class
+SHA-256-Digest: XgCa3CdBhwmPkGA8ouTUPeqPkeiBtxFy4gOPNRrcNKE=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$10.class
+SHA-256-Digest: Ty3h+lRef2kDQg7GYbKadCGohY5AZcJI92NYfJu/hV8=
+
+Name: bin/repast/simphony/relogo/ide/intf/NLPlot.class
+SHA-256-Digest: xVrlvFLTLsfqklHWkDwTjlIckmfdz542Ik+X6UXZ2cw=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$68.class
+SHA-256-Digest: ivCeYy+KcFsxk4hhDQX0hggV8tmg3Elvtr7yNwFRZ2o=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$68.class
+SHA-256-Digest: B4EhBIBrP++lQFYhNerrPFxIAHAmTvvHTsfVLNWNcZg=
+
+Name: bin/repast/simphony/relogo/ide/gui/NetlogoSourcePanel.class
+SHA-256-Digest: 4cG6I9XZjnlmecr9ofymCA7qtE4Wlk5xWugGPnljWLA=
+
+Name: bin/repast/simphony/relogo/ide/wizards/NetlogoWizardPageTwo.class
+SHA-256-Digest: QQqqp9J4pskiOKUXzXrrtnFr0vDvbLJCmQvWByczeik=
+
+Name: bin/repast/simphony/relogo/ide/NewReLogoProjectWizardAction.class
+SHA-256-Digest: W8sJwjEk7OnFbhvqn4HrCLb82SdpXQEJfMXKVHWPKkY=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$22.class
+SHA-256-Digest: sNJrDfr8WMbIOyXgksI5/h/Vkt+KQlL9CUzS1SsvmYw=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$62.class
+SHA-256-Digest: pJ/n/bzo4u+MjW5qdheY5z+uqfGtEN95Jn+yhSO4Oz0=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$22.class
+SHA-256-Digest: 1HufuOHVTflt38/3bqtcaMZP0nRYrESpNluAkdhVq+0=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$62.class
+SHA-256-Digest: pysemG5UEmrBIZgUKSNg6fOrc8z9tEaSfcHzLoyX9Y8=
+
+Name: icons/rlpersp2.gif
+SHA-256-Digest: X0ZiQRrB5iC3ugfpmZUfRIquIDeRG86dkWuR0/DA/gY=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$59.class
+SHA-256-Digest: OVqcPsDUcyUVpJtpzgpBqD54nBPeFswIKOuhqTR5z6w=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$1.class
+SHA-256-Digest: KVWqrMc0rZei0sKkPrZHCxTYnLa50w0c1eIaDVPfbv4=
+
+Name: bin/repast/simphony/relogo/ide/plugin/ContextDisplayNetworkSanitiz
+ er$_sanitize_closure14.class
+SHA-256-Digest: iOgEIPvDeTzefL1WO68GlMC8W8QlhVgQb+LQDb8JmQc=
+
+Name: repast/simphony/relogo/ide/image/NLRectanglePrimitive.class
+SHA-256-Digest: zl8fnxtxpYkN1IpY3t4Dvm8CWQL9g+LoDWseaYSYkvU=
+
+Name: bin/repast/simphony/relogo/ide/wizards/NetlogoWizardPageTwo$1Updat
+ eRunnable.class
+SHA-256-Digest: Ro0mJM4KxU7apdh1udy3B3faSGfUtbKsIfpP7nvv1UE=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$59.class
+SHA-256-Digest: aFxbmx+rpdpkuMaIFaeg3ym+ZI/9K//3b8yhVOEB2g8=
+
+Name: bin/repast/simphony/relogo/ide/code/RelogoClass$Breed.class
+SHA-256-Digest: AlLpUvNgJK0taRaz0g8Nd0L5Y0OCFmkOOjYypTxk9pM=
+
+Name: bin/repast/simphony/relogo/ide/image/ImageTester$4.class
+SHA-256-Digest: LHPPm9PIApg45ssK3MRnR5N09/HPnu1LnJJMxlJHKk8=
+
+Name: bin/repast/simphony/relogo/ide/wizards/NetlogoWizardPageOne$JREGro
+ up$2.class
+SHA-256-Digest: yc34oKwwMi0qFjixafmq2Bcfmdo3kd5/r4yE6AgkoUk=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$13.class
+SHA-256-Digest: pVPQaydLEIJUnlu8VWDHITVjsVrEIGFeqLQvqBfEjF4=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$71.class
+SHA-256-Digest: 0nAhY3YaFxpN4Eo8IH6nqhu4G0hQ7j6rp61+cCHw7/w=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$16.class
+SHA-256-Digest: 7vfAWghN3oG/t2mi1UEv8C5Z7u+MCqiU9++vkXBLLWE=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$16.class
+SHA-256-Digest: 8JhD15iMd89nbrHRzYqoNyEzh1xdwiAU+boZybTddqw=
+
+Name: templates/PatchStyle.java.txt
+SHA-256-Digest: e1U93QqdzbL1awHxLsN/XeVKO5Ts3TlQpIrAeM+oJIE=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$66.class
+SHA-256-Digest: R9h8Ifgb4u24Ppc6juE9WV1U16d7yFdYKW7Nzwsg8Dc=
+
+Name: bin/repast/simphony/relogo/ide/image/ImagePanel.class
+SHA-256-Digest: Kw9Obi5N1BbuTMQFtKH4yX+/pBNKor9BxDiKQw0CfTI=
+
+Name: repast/simphony/relogo/ide/dynamics/NetLogoSystemDynamicsParser$mo
+ del_return.class
+SHA-256-Digest: KMWdGu59Fppogwa4BE1Cta3VHgSBrglBO7cBwfbvPuk=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$63.class
+SHA-256-Digest: r5sbU9lhC7HPtBqE98Ylh0CZx2r1n6skHXNs6jhZhxw=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$21.class
+SHA-256-Digest: FxR5JPxkPp/97cm4ecb1AaPDgcFJ/geGSU/y+9p+iWo=
+
+Name: repast/simphony/relogo/ide/plugin/ReLogoResourceChangeListener.cla
+ ss
+SHA-256-Digest: sM1/6JrWQwHzZwfImvpB+EeXjKW/axwkuhr1twfEPAw=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$20.class
+SHA-256-Digest: 2gTaH6SVUdKx71xUY003P0YSZoEhhPqkS2wHAdBoGGI=
+
+Name: bin/repast/simphony/relogo/ide/code/NetLogoRGWParser$stat_return.c
+ lass
+SHA-256-Digest: GnoMA2jrCAdhVMBkIpvCYd0Me9kINsFCayrcaCkgIwY=
+
+Name: bin/relogo/Activator.class
+SHA-256-Digest: 6dZPUX5gwUNo/lYuwtr/PDdXGUeVUWFgzjcGvCcAiJk=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$64.class
+SHA-256-Digest: RuUEANzFXso7fR3ZNVfRPWM8t4l5QIfNVWDh0bpmTvQ=
+
+Name: repast/simphony/relogo/ide/code/ProcedureDefinition.class
+SHA-256-Digest: Lqwwv/QszxBNFX3/0S0k/kAi9cqCZGlhwImg3nnoPHw=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$2.class
+SHA-256-Digest: 6UAMLWWrcpUyPMaKHL7Xdm//DFct/h+1550U4V+Fa1Y=
+
+Name: bin/repast/simphony/relogo/ide/plugin/ContextDisplayNetworkSanitiz
+ er$_plainPrettyPrint_closure2.class
+SHA-256-Digest: u/sazjjXVrLo+NUNdtjzaujToyiVfDVfefxtj56buxc=
+
+Name: icons/add.gif
+SHA-256-Digest: 2PBmoZNyJt5rIi6THZZjPVz7Myuui1QSm4lMrW7It6Q=
+
+Name: grammars/NetLogoRGW__.g
+SHA-256-Digest: /TUJpQzxX1VwRAzapwIMPqkEm/ItMBsaIDBI629yjjU=
+
+Name: bin/repast/simphony/relogo/ide/intf/NLOutput.class
+SHA-256-Digest: 0R3JqJvLSHQckcvUzRA9HusuSuYd+wz8Emsd+Bw3HH4=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$67.class
+SHA-256-Digest: 19Kyctx2+w10snZXdqNXoaxqnB128Uj2b9hwpNxGM2M=
+
+Name: repast/simphony/relogo/ide/plugin/Startup$1.class
+SHA-256-Digest: xddz7X8LjfYXbgsxObjNStiPcBW1d4h6HJ6TJsGi2rc=
+
+Name: repast/simphony/relogo/ide/gui/NetlogoSimulation.class
+SHA-256-Digest: gx3GPWXE0SIGDOKUib7hzD/V1seQSzq5BTjleT2pe7I=
+
+Name: bin/repast/simphony/relogo/ide/wizards/NetlogoWizardPageOne$Shapes
+ Group.class
+SHA-256-Digest: 3sdsUOx1SjbkAwoYQ8TdWoKFS7ju6uvCZBGHDTIvIsc=
+
+Name: bin/repast/simphony/relogo/ide/code/NetLogoRGWParser$codeLine_retu
+ rn.class
+SHA-256-Digest: 0WXNzlukxDA1D2cc19yy5wnCt5+rcwzkcarBjCUj2Sw=
+
+Name: bin/repast/simphony/relogo/ide/image/ImageTester$2.class
+SHA-256-Digest: TOfNoliXPp1kpcJhPDLWscHKwPqVt4MdRfG2cSnwBCw=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$3.class
+SHA-256-Digest: vgn+IsxUwYbEuoIFZ0BKsdacWC5zAs4aXsJR/0R7eWw=
+
+Name: bin/repast/simphony/relogo/ide/intf/NetLogoInterfaceParser$anythin
+ g_return.class
+SHA-256-Digest: wnjzGv5181Jv+NAjaiMp6mdO5voASubBVeLyeg6zVE4=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$20.class
+SHA-256-Digest: cWq2Iy18R5gKj8GroHgDAaD9TOemj/De9n7QdFFkCmI=
+
+Name: bin/repast/simphony/relogo/ide/intf/ControlSectionParser$1.class
+SHA-256-Digest: VGq9x6O58y2v5TSzGjl6PyO8cPIC2uAL59Krg90vFtQ=
+
+Name: repast/simphony/relogo/ide/plugin/Startup$4.class
+SHA-256-Digest: T3kklnxn9ndKDH8QZtkd0Ly/pUF0DZkVM3J2bK49sIE=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$14.class
+SHA-256-Digest: Gh5WLNX3M/AG/tOppwhl0x817lGyKsyLaPjyXGuYeWM=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$70.class
+SHA-256-Digest: u/3ub6xnYRKG6iEgemrcuCxsHQStekb4KLjWAnnDe10=
+
+Name: bin/repast/simphony/relogo/ide/gui/NetlogoSourcePanel.form
+SHA-256-Digest: IYQXfhnYWCgDftYSqpy6dSe9DKh5Y4ejYu4p2xs2LHg=
+
+Name: bin/repast/simphony/relogo/ide/wizards/NetlogoWizardPageOne$NameGr
+ oup.class
+SHA-256-Digest: 3w4z93eIUOEtGGuHXRdpCx0dmff4A13f6SnL3N2uCCs=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$14.class
+SHA-256-Digest: Fk22r9uVvV3N5dKyRBJh8mLn/vvvtIktnxWJzZttCmE=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$70.class
+SHA-256-Digest: aH3psdOlvNkQKJFMk6O57ZhxexZJ3Kvx6g/yaQ5ZhRE=
+
+Name: templates/model.stg
+SHA-256-Digest: K2jLZjldveHQ5DYgnazxE5/KIqJ9FFzoewDoAnYMf9E=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$64.class
+SHA-256-Digest: a8mgqf2VCrKEm8gchwrHniTK62aK6J9dSTcGnW72O6k=
+
+Name: bin/repast/simphony/relogo/ide/intf/NetLogoInterfaceParser$floatnu
+ m_return.class
+SHA-256-Digest: Q1OhByAa/Ukxkuy3oF+iHMJwzFg1cLsmHg5b+bybMu8=
+
+Name: repast/simphony/relogo/ide/image/ImageTester$2.class
+SHA-256-Digest: ZyVpENY56tlICASGrwvufGICsLdCG/cXXHPZ7TRsBZc=
+
+Name: bin/repast/simphony/relogo/ide/code/MethodPartition.class
+SHA-256-Digest: g6GERtWCMNjzKRaSJdhW5bdvvyUfKDpSoFwRpHljojs=
+
+Name: bin/repast/simphony/relogo/ide/image/ImageSectionParser.class
+SHA-256-Digest: kUUYZpkDHZi6k1aZtzRF4lFos04mVVgRVswv5IDoiOc=
+
+Name: bin/repast/simphony/relogo/ide/wizards/NetlogoWizardPageOne.class
+SHA-256-Digest: WRwkEoTXaRHJ3UbluS9yMEN2rCoobTDBROf6ziqiHzs=
+
+Name: bin/repast/simphony/relogo/ide/image/ImageSelectionPanel$ImagePane
+ l.class
+SHA-256-Digest: 0JDee8/YItV6K+0JVGPlW6MjGRBrLcatqEr/aZkiVdU=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$71.class
+SHA-256-Digest: ut+mkmNquAnHUs4D3JAkN7aSzdj7InWhQxSzU0EN8ts=
+
+Name: bin/repast/simphony/relogo/ide/intf/NLSlider.class
+SHA-256-Digest: J9EiGKnCVPusfLasWRLfSJwhUFWGjprED9RG8Msh8pM=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable.class
+SHA-256-Digest: gfdAQ5SK+AfJp1cb0EuAW50AFKk2KlwXiy0jnwgXrXw=
+
+Name: repast/simphony/relogo/ide/wizards/ListAvailableNatures.class
+SHA-256-Digest: mVwTVXO4SXgGTD7sz29hcc1Tyae6686DE3k77B5OEwg=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$66.class
+SHA-256-Digest: ovcY9VifpLc4JAyoc3TITJKmnGhx7Br1aLI+Nfg04bI=
+
+Name: repast/simphony/relogo/ide/plugin/Startup$3.class
+SHA-256-Digest: 3dJXpKktWI3Pu6YpeaCnwtJY13+0CA3mvYiambU7mq8=
+
+Name: bin/repast/simphony/relogo/ide/intf/ControlSectionParser.class
+SHA-256-Digest: 7/b+ghWm/tx/N25w+jto26kDNPG97pVuDUMBcZwxOCY=
+
+Name: bin/repast/simphony/relogo/ide/intf/NetLogoInterfaceLexer.class
+SHA-256-Digest: hQwsMcAY+7wBlnIMlA4SP7yOb2mW8OY0VACS6FcHc8U=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$13.class
+SHA-256-Digest: Q2lEaUAuxewnppEZNFBJl5Sh3n2jCAKMmdu6++Q0MR8=
+
+Name: bin/repast/simphony/relogo/ide/intf/NLTextbox.class
+SHA-256-Digest: OgfMtL7D2CgsgB2GguhttLcPvseUgwsNS9H3F+oJ7Oc=
+
+Name: repast/simphony/relogo/ide/dynamics/NetLogoSystemDynamicsParser$fl
+ tgt_return.class
+SHA-256-Digest: P9O8gLBpbVd7OCNQugtEHp/qPcnLnMHwKwDG5ExZnes=
+
+Name: bin/repast/simphony/relogo/ide/wizards/NewLinkWizardPage.class
+SHA-256-Digest: 1pxiE+WMgej0PGc+5YneLu/KL4wm1PZ1tLbsrfK7+q0=
+
+Name: repast/simphony/relogo/ide/image/ImageTester$1.class
+SHA-256-Digest: W5/JfR8I5y9Z+t0Lyc08amoBc2l4QSG7WEnsSWDXfzY=
+
+Name: bin/repast/simphony/relogo/ide/code/NetLogoRGWParser$codeBlock_ret
+ urn.class
+SHA-256-Digest: hM89peStlPWx0DPiQDhlN6Y0veK87iGeXqEPIrRuhhs=
+
+Name: bin/repast/simphony/relogo/ide/image/ImageTester$1.class
+SHA-256-Digest: Kyum+ZUk9hz9M8xErWD6X3gRVgaIxtXfztqygm0TLLM=
+
+Name: repast/simphony/relogo/ide/intf/NetLogoInterfaceLexer$DFA13.class
+SHA-256-Digest: iz8d/4N1BwHjM4v2M2UUo+wG0AeDHBAlFZinrE31thw=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$1.class
+SHA-256-Digest: pevW5p0WWWyDajMEBJp9F2hU4xNl71eLe/9Q8Zupj9s=
+
+Name: bin/repast/simphony/relogo/ide/code/SymbolTable$65.class
+SHA-256-Digest: oMRyBzNja7Kuvq44QmU5uhCEfhD44J98Kr2gDRiFm0k=
+
+Name: bin/repast/simphony/relogo/ide/image/ImageTester.class
+SHA-256-Digest: XHCXH0CBns1PTMjSDGJrlKUuihzPmBMQkTl6jRMt9Is=
+
+Name: bin/repast/simphony/relogo/ide/wizards/NetlogoImportWizard.class
+SHA-256-Digest: P6kp3iRHYmgW0zq76GLd2KevzwM++5OL+bDGuMCPlYA=
+
+Name: bin/repast/simphony/relogo/ide/wizards/NetlogoWizardPageOne$JREGro
+ up$1.class
+SHA-256-Digest: ZRVKiDM7ojXJswIHLw7hR379qLMsC2ETAcc6pwmJYxQ=
+
+Name: repast/simphony/relogo/ide/intf/NLCommandConsole.class
+SHA-256-Digest: qUVn2M37+ARNrBDrPbzo89sQ0k41MYjKuaGVHwLzm8M=
+
+Name: repast/simphony/relogo/ide/code/SymbolTable$4.class
+SHA-256-Digest: 3AcLkB17G8ycKrDQijTMoQO4MZjoQWwvzglOASwThbM=
+

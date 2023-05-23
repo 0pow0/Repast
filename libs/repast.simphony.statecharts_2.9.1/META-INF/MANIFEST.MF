@@ -1,0 +1,256 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Repast statecharts
+Bundle-SymbolicName: repast.simphony.statecharts
+Bundle-Version: 2.9.1
+Export-Package: repast.simphony.statecharts
+Require-Bundle: repast.simphony.core;visibility:=reexport
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: Argonne National Laboratory
+
+Name: bin/repast/simphony/statecharts/BranchState$2.class
+SHA-256-Digest: TAAb3y4wR3LFcweyjP3FPxsuBJ7Kim7KUBdQXbnhxYw=
+
+Name: bin/repast/simphony/statecharts/SimpleState.class
+SHA-256-Digest: LKgIUzvgLJIQNuxFRJrphogBjCytN0XmHzGo8xseqUE=
+
+Name: bin/repast/simphony/statecharts/old/SimpleState.class
+SHA-256-Digest: T+GAhDX7OP5r2R6It4YNMe123f6MtpiTXSyjfJkWGaQ=
+
+Name: bin/repast/simphony/statecharts/MessageTrigger.class
+SHA-256-Digest: reudbLb9YdN3My5VtVFlvx0sMIXBWKAf6rv0W6vJ7u0=
+
+Name: bin/repast/simphony/statecharts/SelfTransitionBuilder.class
+SHA-256-Digest: zFWU1QpLAqqoYP0jBfbBA2hHEgQI2ykJ/AXfSY79ktc=
+
+Name: bin/repast/simphony/statecharts/DefaultIntegrator$Element.class
+SHA-256-Digest: sjSVQoH8Da4R2ckSbhpiDKGP7KEqfPWp0DSfExZRJC0=
+
+Name: bin/repast/simphony/statecharts/StateChartScheduler$1.class
+SHA-256-Digest: zBIEwhFJfQmeaEqhvU2kNJJSC041fCM/z6YcbceS6No=
+
+Name: bin/repast/simphony/statecharts/TransitionBuilder$EmptyGuard.class
+SHA-256-Digest: fvrKgqkYXuvMlkFhqxfX9gswGD8QylhiikkBvGSgSfg=
+
+Name: bin/repast/simphony/statecharts/old/StateChart.class
+SHA-256-Digest: uaWMiyst6hZeCnIuYFE4xmKEB8R5euMRdr3M7hjxmc0=
+
+Name: bin/repast/simphony/statecharts/AlwaysTrigger.class
+SHA-256-Digest: 8GFUJFtrw4wLEH9zd3RG9l1bUvkQJm+BauV7ymt6sjg=
+
+Name: bin/repast/simphony/statecharts/UnconditionalByClassMessageChecker
+ .class
+SHA-256-Digest: aePlHA1AgCNguSsqSJgCh4yyTNh6QTvNg0w2ZuCY8JI=
+
+Name: bin/repast/simphony/statecharts/GuardCondition.class
+SHA-256-Digest: JWd8jsdM9T3Vl9ZGvLSQdT1YAu4I8Zrg6u6V+6QtBi0=
+
+Name: bin/repast/simphony/statecharts/StateChartScheduler.class
+SHA-256-Digest: NfYBvaZYkMNRRuzVGCh7IXw8ADHgARZvzmp2BjmdFAk=
+
+Name: bin/repast/simphony/statecharts/TransitionResolutionStrategy.class
+SHA-256-Digest: NjrkvOnkwjkUO9SJH6cfxhkJUvKvP4AEKkq5PJyVdgc=
+
+Name: bin/repast/simphony/statecharts/MasterBuilderFactory.class
+SHA-256-Digest: MW0muffvJ5DGFTbTD75lVcRAgJ9epp4xIB8BTmVGBXw=
+
+Name: bin/repast/simphony/statecharts/MessageConditionMessageChecker.cla
+ ss
+SHA-256-Digest: YdOqpOEC8L38wNTkb1h1Y+DL5ykOxEeirlQrOpxDoj8=
+
+Name: bin/repast/simphony/statecharts/old/Transition.class
+SHA-256-Digest: XEnaWnjzLniUlKWRLIM2q6xJU6tIem56VTxAfTCLvH0=
+
+Name: bin/repast/simphony/statecharts/AbstractStateBuilder$2.class
+SHA-256-Digest: +lSDiFB6BFd6IUx3FT7q2QizTLFwZy4lJXYdoETHLdQ=
+
+Name: bin/repast/simphony/statecharts/AgentTransitionMessageChecker.clas
+ s
+SHA-256-Digest: Yo/1Io0Ei4xRuT0UIzkPrsixfbZXI5GaMm+4mExmTLY=
+
+Name: bin/repast/simphony/statecharts/AbstractState.class
+SHA-256-Digest: K87RftR9Ide6/FHuGJDEL9Zs482/tyo6ZwIZJ5yhPOw=
+
+Name: bin/repast/simphony/statecharts/CompositeStateBuilder.class
+SHA-256-Digest: ydZY9GRkFWLcpFGSHbx9KQbJ+6opGCjOVrB62O+YY2Y=
+
+Name: bin/repast/simphony/statecharts/HistoryState.class
+SHA-256-Digest: mLMv7OqUbw8JIEI1Z+M0mAV6It6gAn9pug1sQs+r7eU=
+
+Name: bin/repast/simphony/statecharts/StateChartResolveAction$PriorityCo
+ mparator.class
+SHA-256-Digest: 14wgYWzUFISUX7S8XLRmBqwagItKGefqZU2qZrScNtc=
+
+Name: bin/repast/simphony/statecharts/ProbabilityTrigger.class
+SHA-256-Digest: 2oq+910JUeCqjV7jPM92kBWi3z3+Zr5DzEoAU0+56jI=
+
+Name: bin/repast/simphony/statecharts/TriggerListener.class
+SHA-256-Digest: iJ5JMSEhuATva3EAUrj9rbN2RoJXalaO8PScfKOEYnA=
+
+Name: bin/repast/simphony/statecharts/FinalState.class
+SHA-256-Digest: vMZb/KOOsfDLxf51PNV76H627y5DFg3EcBZhgEbjrNE=
+
+Name: bin/repast/simphony/statecharts/SimpleStateBuilder.class
+SHA-256-Digest: bHquunmjmzvwsOeIAnxXGPrqVSFsc9hvwcmccgvFlJc=
+
+Name: bin/repast/simphony/statecharts/StateChartResolveAction.class
+SHA-256-Digest: elHagVRc1iQi7NbZ69lxRqVNOhRn9MkKZ2QhcqEPyUk=
+
+Name: bin/repast/simphony/statecharts/StateChartListener.class
+SHA-256-Digest: p2DOUlGWRkehL7KN7PIQAU3+Kmwh2dKVT1GPw/b1G5U=
+
+Name: bin/repast/simphony/statecharts/TriggerDoubleFunction.class
+SHA-256-Digest: 1+/z3Gaq2X4C0w4HNer6GEVjD/w0IL0ykGVzjX/sUGo=
+
+Name: bin/repast/simphony/statecharts/OutOfBranchTransitionBuilder.class
+SHA-256-Digest: iRyCOkEiT9IH9TPaNqcdji6/bFkYwnkp7QQXr21cyag=
+
+Name: bin/repast/simphony/statecharts/StateChartBuilder.class
+SHA-256-Digest: SiG+Qmzwea6sWxh6wsdRTS+I9FyomEJaF/Yn4B6v8Rk=
+
+Name: bin/repast/simphony/statecharts/BranchStateBuilder.class
+SHA-256-Digest: FGVTefimO4kPgd8x4kazJUuZCUyFWc0fdM9oRq5C9Wc=
+
+Name: bin/repast/simphony/statecharts/MessageChecker.class
+SHA-256-Digest: sctFNwWuFw67hnxM9ap/ctZcoiaG3kzBTgLqfkzSifw=
+
+Name: bin/repast/simphony/statecharts/ConditionTriggerCondition.class
+SHA-256-Digest: Yjgl9VBeraTh79unA1FYbk1d/CT3T/IKxUcbmbpmwVU=
+
+Name: bin/repast/simphony/statecharts/MessageEquals.class
+SHA-256-Digest: H5ybtxVTtdf/hxdo4q09OdFfEXrw3/Ffo/t0iJ13/HA=
+
+Name: plugin_jpf.xml
+SHA-256-Digest: EFDaSkiWoGFFlpebafgWn1n/PTFW6s6G+QKAQwR6rwk=
+
+Name: bin/repast/simphony/statecharts/StateChartScheduler$ResolveActions
+ MapValue.class
+SHA-256-Digest: gm2xOP2rDksvZ340WdZF4evGCbwiaUvS05J2PKUp5nU=
+
+Name: bin/repast/simphony/statecharts/UnconditionalMessageChecker.class
+SHA-256-Digest: hAByRSXghS96Q6gct5hCvLXFeAB5vRU3+NPue3P2rF0=
+
+Name: bin/repast/simphony/statecharts/BranchBuilder.class
+SHA-256-Digest: Bp97lMLZ1LlNNa8oHNEHmUziBjf9rR4VUpZ6EM5UDy0=
+
+Name: bin/repast/simphony/statecharts/TimedTrigger.class
+SHA-256-Digest: 2wzg1OeTD4odZDZ2vE5D1+004ElHEfCz0f5oMWa6/Io=
+
+Name: bin/repast/simphony/statecharts/Transition.class
+SHA-256-Digest: CBXn13yOs1GggON1GB6BWnAHQz0GLnG8jfu6tzhFewE=
+
+Name: bin/repast/simphony/statecharts/MessageEqualsMessageChecker$1.clas
+ s
+SHA-256-Digest: Te/UXecWsygOYzFhe+SZ8Xsrfk2kFqCHytruQCoOF14=
+
+Name: bin/repast/simphony/statecharts/BranchState.class
+SHA-256-Digest: OckXeUy8wtSgZ5ycY51cGmS7C4k7wnD8AFNmn+/jtA4=
+
+Name: bin/repast/simphony/statecharts/TimedTrigger$1.class
+SHA-256-Digest: hZC9ePm2nlkJBkCb0hE++PekBhHr1j3UDvC47wZP5wk=
+
+Name: bin/repast/simphony/statecharts/AbstractTrigger.class
+SHA-256-Digest: PFda4pHvoyG03vW4/iWzcMiNOky2r2W+Tafy2Bqmz4I=
+
+Name: bin/repast/simphony/statecharts/generator/GeneratedFor.class
+SHA-256-Digest: AsaFGq5R06BrbBmlcy+GWYpmx9AXpfXYWWFtzpVqg8c=
+
+Name: bin/repast/simphony/statecharts/DefaultIntegrator.class
+SHA-256-Digest: ETN9j3XqIHa4hhY4tK1zBg0PLedH3HoyQPTL6LKMGp4=
+
+Name: bin/repast/simphony/statecharts/TransitionBuilder.class
+SHA-256-Digest: IXKXOWLOY2z69xCr9YULnUZIT0Alod2jl4mZ0H8KACA=
+
+Name: bin/repast/simphony/statecharts/old/TimedTransition.class
+SHA-256-Digest: Wc9KNhe5J4LvvdeLh2yDW6Rw2XVPnYt8d5UaheqLYZc=
+
+Name: bin/repast/simphony/statecharts/DefaultStateChart$PriorityComparat
+ or.class
+SHA-256-Digest: wR9Iun/byItsx4x7ZDasfoE+wvRl+v72szcfekPdRzI=
+
+Name: bin/repast/simphony/statecharts/StateChart.class
+SHA-256-Digest: iWsCR7gWNZ1LYRXl5NjbSjLhkocSvi+LAapIjix09s8=
+
+Name: bin/repast/simphony/statecharts/TransitionAction.class
+SHA-256-Digest: dVKyjT4+heDq6kd6Oit6oD4/RgMtB2DPnYpEF4NHtOQ=
+
+Name: bin/repast/simphony/statecharts/ExponentialDecayRateTrigger$1.clas
+ s
+SHA-256-Digest: LPpeyU7h1Wrq8HoSk3dUOm8l1Q1Ug17KQ9n0N2+2wYs=
+
+Name: bin/repast/simphony/statecharts/HistoryStateBuilder.class
+SHA-256-Digest: AXPPCCP/zbpSbTgWhj5Iy+eRoRwis29+lC0KgqVDlfo=
+
+Name: bin/repast/simphony/statecharts/MessageEqualsMessageChecker.class
+SHA-256-Digest: xtZtr/UQQNRVTRtYP8ExGiqI2JhYawdwoEjBjrSJquQ=
+
+Name: bin/repast/simphony/statecharts/ConditionTrigger.class
+SHA-256-Digest: 509vkkR8xIRY6ilEy29UORxKPbmHgEm4YcoyvAHMUtI=
+
+Name: bin/repast/simphony/statecharts/StateChartBeginAction$PriorityComp
+ arator.class
+SHA-256-Digest: DIKDVCdhvAfrUB3WjjkM1+A1RTeV/aSPmV7MhUDdxu8=
+
+Name: bin/repast/simphony/statecharts/StateChartScheduler$2.class
+SHA-256-Digest: 4MYd8MLA3HF1d3i7ewSzOLe3ym/+YIR/Hw3BYHbfaaw=
+
+Name: bin/repast/simphony/statecharts/StateAction.class
+SHA-256-Digest: w6cO1VGCl8roNRtJUJl1c4/QApA7MiBzQtZeLm/pc2w=
+
+Name: bin/repast/simphony/statecharts/StateChartBeginAction.class
+SHA-256-Digest: FttiJoDmeJsihQ54fOVHS3E7/wfLYf8GeHCqj/VMIx4=
+
+Name: bin/repast/simphony/statecharts/CompositeState.class
+SHA-256-Digest: 3Va95X46y034acTizQIi384Qa6A595bc+PVOivgx/Qg=
+
+Name: bin/repast/simphony/statecharts/MessageCondition.class
+SHA-256-Digest: S+TO2FowkiK4ylcHih1X/GaWzrxzm45NvFeERc0cxvI=
+
+Name: bin/repast/simphony/statecharts/SelfTransition.class
+SHA-256-Digest: XtKx8qGdeOGCNfHe+KFf394T8bvb1whrBbHvB0avk+k=
+
+Name: bin/repast/simphony/statecharts/Trigger.class
+SHA-256-Digest: AF1wGxnOklDoVINRxQHafpUxBMYAy0PDswMN6oxlvjE=
+
+Name: bin/repast/simphony/statecharts/old/CompositeState.class
+SHA-256-Digest: t5IDbw3rh2z60F6Vr2mpLPmLs48QDl+F6gxuOMPvdnA=
+
+Name: bin/repast/simphony/statecharts/AbstractStateBuilder$1.class
+SHA-256-Digest: AcZ81tnqz3GdprMe2nvRwjsr+cg7XQOtX6ZEamHM7bE=
+
+Name: bin/repast/simphony/statecharts/DefaultStateChart.class
+SHA-256-Digest: 04k/cNRwTzbA/dvnGd4M3pX04i1lgnYznObSC1DcM/M=
+
+Name: bin/repast/simphony/statecharts/AbstractStateBuilder.class
+SHA-256-Digest: PjW9c2ZVfSPD6PTZHcRqx3qrCEVsFyE9BoiHTRUc1NI=
+
+Name: bin/repast/simphony/statecharts/StateChartScheduler$BeginActionsMa
+ pValue.class
+SHA-256-Digest: CoaPg7BawFhommMzOvr2IWOzWebXS2MjtmOigwZA/0I=
+
+Name: bin/repast/simphony/statecharts/BranchState$1.class
+SHA-256-Digest: QLGtskNRiKpWa+OAYhUO/fNE76T72FYreTwDeX6fRWc=
+
+Name: bin/repast/simphony/statecharts/DefaultOutOfBranchTransitionBuilde
+ r.class
+SHA-256-Digest: LxFdT5IhVVD9tRWGtkg4yrYcq9wfQowjukpAZPoNTIw=
+
+Name: bin/repast/simphony/statecharts/StateChartSimIntegrator.class
+SHA-256-Digest: +kwEXkUOAy+Pnryohh0g0FgIQGqZtLpFvwlbAI4O1vg=
+
+Name: bin/repast/simphony/statecharts/ExponentialDecayRateTrigger.class
+SHA-256-Digest: L+rAcxvrL4N3358+ugc8XNSnHGFYiYJQwMujFsFP2RE=
+
+Name: bin/repast/simphony/statecharts/FinalStateBuilder.class
+SHA-256-Digest: ftChbAkaQNbkvbNqNzLt3pV+WSY1bD7FWU4agQM+nBU=
+
+Name: bin/repast/simphony/statecharts/TransitionBuilder$EmptyOnTransitio
+ n.class
+SHA-256-Digest: yD09oUxY8UfZJldu7bK2eXeedUEkT5y2jP2ZQbswO5I=
+
+Name: bin/repast/simphony/statecharts/ProbabilityTrigger$1.class
+SHA-256-Digest: ue25CFlOfEucDtBg2OemcOB2lHFrTUTkifgeRv3M3SM=
+
+Name: bin/repast/simphony/statecharts/old/State.class
+SHA-256-Digest: Kg28fLKU3xkRZqeCA3YxAYV5jrOP5rv9RuFL0l+tDR8=
+

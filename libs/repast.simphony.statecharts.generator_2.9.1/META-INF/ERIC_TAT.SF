@@ -1,0 +1,156 @@
+Signature-Version: 1.0
+Created-By: 11.0.12 (Eclipse Foundation)
+SHA-256-Digest-Manifest: 46Av0UFMAcl1tt9xyPk/Kbn30VY+wmj/x6wVudoHwwE=
+SHA-256-Digest-Manifest-Main-Attributes: GxmzRP95m+d2azo7VTxNui5AYBfTJpU
+ dqyfzfW+rrPM=
+
+Name: repast/simphony/statecharts/generator/DirectoryCleanerTests.class
+SHA-256-Digest: dyKT3pcNPl/Q4hilGa5E6sVSc6fTsHWe9IvN+MKrwHc=
+
+Name: my/statechart/GeneratorTest.class
+SHA-256-Digest: 9X0IDaKyT7zo76cJnj0QvaCRH5x+oLpOrfAnrSLR3uk=
+
+Name: repast/simphony/statecharts/generator/CodeExpander.class
+SHA-256-Digest: boPJRSb+vxXld9lgZFU7bYftfwwSled/qgQCxBFPL70=
+
+Name: bin/repast/simphony/statecharts/generator/CodeGenerator$1.class
+SHA-256-Digest: YpElCOBSzKRZngtJwdr711tgN3uObP7ShShaxQf8vaI=
+
+Name: repast/simphony/statecharts/generator/GeneratorUtil$Names.class
+SHA-256-Digest: nvlsCJfLmMxizk9IIKSC24A1VDgICsK9dRTVAPza8Aw=
+
+Name: repast/simphony/statecharts/generator/CodeGeneratorConstants.class
+SHA-256-Digest: L0yshP1+fTkNmSLF27PR/OdQoMs4TjZ2zIixVOYlbbU=
+
+Name: bin/repast/simphony/statecharts/generator/TemplateGenerator$1.clas
+ s
+SHA-256-Digest: 2TI+n68nF743HC2iavbUuCJicWfqjYwllPUh+KFW1zo=
+
+Name: src/action_template.xpt
+SHA-256-Digest: bevRmac2CcLS87QBW7Q3Q85ZiNC2/RkW5g0gB5gZrgg=
+
+Name: bin/repast/simphony/statecharts/generator/DirectoryCleanerTests.cl
+ ass
+SHA-256-Digest: 8fxcYfB3kjAC4hSjsyMOkU07m7L5xZOJk7II/nX8F4U=
+
+Name: bin/repast/simphony/statecharts/generator/PathUtils.class
+SHA-256-Digest: jHXScqjmSsxyJgDFWs6HM/bpVrOvwye1Mq1rXxAth+w=
+
+Name: generator.xpt
+SHA-256-Digest: NfrIExBKWiVUSljrnI9f/C2M/H1xPHKx1g5siE4bWdc=
+
+Name: bin/repast/simphony/statecharts/generator/CodeExpander.class
+SHA-256-Digest: qQvi1+LzcRvSISr1N3AJOb3ixQHbWKeNlLRFy8L4nSE=
+
+Name: bin/generator.xpt
+SHA-256-Digest: co6zwFdsZLSpiypjP7QKxUcbPEQtWSc0ZRSb1E/QWcY=
+
+Name: repast/simphony/statecharts/generator/CodeGenFilter.class
+SHA-256-Digest: 807JaG9SMEpnjD7PyGky08gbIBDL+HIaVxXI/HSK4t8=
+
+Name: repast/simphony/statecharts/generator/CodeGenerator$1.class
+SHA-256-Digest: tnVpQD80Sj08zXutsf5scJQXxcWkhf6G5NwwDueu93E=
+
+Name: bin/repast/simphony/statecharts/generator/CodeBeautifier.class
+SHA-256-Digest: ek4NTPd3ydwoFGy1bLmX4CHeO1Zruo5561kaUd0btC4=
+
+Name: bin/repast/simphony/statecharts/generator/StateMachineValidator.cl
+ ass
+SHA-256-Digest: BiJBDcnpAWxebH+VayRCSydn7EZeN/hziYKBsF+JX2c=
+
+Name: bin/repast/simphony/statecharts/generator/GeneratorUtil$Transition
+ Block.class
+SHA-256-Digest: 9lRSC4ZMm24HC+Qh9bqYW6ThlgX9ExyMd3B5MH/PX1k=
+
+Name: bin/repast/simphony/statecharts/generator/GeneratorUtil.class
+SHA-256-Digest: ZGG3lyIFJNVnhZscrSGRO+6Z0tIV/PIMp4ZdLaiYjU4=
+
+Name: bin/repast/simphony/statecharts/generator/GeneratorUtil$Names.clas
+ s
+SHA-256-Digest: xp12CbmjzBnO2xqHjgLa5t305KQtwR8ILolH5OXx2X8=
+
+Name: repast/simphony/statecharts/generator/TemplateGenerator.class
+SHA-256-Digest: Y4gthMz4IhfpFgGvunbzXPA6CuHiQh3kjL6cTWFZTJk=
+
+Name: my/statechart/Agent.class
+SHA-256-Digest: Ywvtb2LlD6fxaH5JcFwA2fgpV8uXWui25x2xJZTTB0k=
+
+Name: repast/simphony/statecharts/generator/OrphanFilter.class
+SHA-256-Digest: 51RIabADbhimz2JYhGpkI+SmQZDal9DrH+8fQa7mtW4=
+
+Name: bin/repast/simphony/statecharts/generator/CodeGeneratorConstants.c
+ lass
+SHA-256-Digest: jNNdBSjlSJhiOLHCVBWiny2Hu25/0hBDsgPebBvzDN0=
+
+Name: action_template.xpt
+SHA-256-Digest: dh0PT+a+xyRaAsu8WflzR1oYFRZONM7Gn+x6/PiQl3M=
+
+Name: repast/simphony/statecharts/generator/GeneratorUtil.class
+SHA-256-Digest: 9MgFmsU7mjxJMbYatrilnT0K4jX90lyyywr3B9SJq2Y=
+
+Name: repast/simphony/statecharts/generator/GeneratorUtil$TransitionBloc
+ k.class
+SHA-256-Digest: HbS+pqsQFkT2kot56PaTEGfy4F3oj5RJxpfdIo562ig=
+
+Name: repast/simphony/statecharts/generator/GeneratorUtil$StateBlock.cla
+ ss
+SHA-256-Digest: pCQLMndtDTzhU91bxxRNJyK0JTCrdv/8N+FwIVZrjX0=
+
+Name: bin/repast/simphony/statecharts/generator/CodeGenerator.class
+SHA-256-Digest: 9m2V3A8LYhfU35/NOppMWL4SsC2Ni/w5G+MLbsi2oMA=
+
+Name: bin/repast/simphony/statecharts/generator/TemplateGenerator.class
+SHA-256-Digest: 0jhVNkps8djRV0lHSH+zTcgEWiLxhpQSYH5pcRpbQrQ=
+
+Name: bin/repast/simphony/statecharts/generator/GeneratorRecord.class
+SHA-256-Digest: kHZs3ImCcf8F4dNMGwXzSp/5d8N51vTjDo+TmkdkCiI=
+
+Name: repast/simphony/statecharts/generator/GeneratorRecord.class
+SHA-256-Digest: h/ZZbi6gPKGXRK0t4lzyc3lA2u7dGFJ539NxXdL+7HQ=
+
+Name: bin/repast/simphony/statecharts/generator/CodeGenFilter.class
+SHA-256-Digest: wS6KPbFWXx65V7LNgZ0U6lR+cC2o/S4sXYpOhZSmMOE=
+
+Name: generator_util.ext
+SHA-256-Digest: NDQVgpcg3dVyd2IWu7JPwj4XR5tkyK6shofCLFKTn24=
+
+Name: src/generator.xpt
+SHA-256-Digest: YJVV9D5SDM+2OlX/dA7o+qV0hDxvkvrFhwVMCXGNc6M=
+
+Name: repast/simphony/statecharts/generator/TemplateGenerator$1.class
+SHA-256-Digest: jtPF/svb48iZgBmLiO8mT9QOwdOLy81oFJVRfOdjelE=
+
+Name: bin/repast/simphony/statecharts/generator/CodeExpanderTests.class
+SHA-256-Digest: 0Zlwv4LcZu6y0dvu33hxOJEXU8Ki7cmFAeLzIgwfkK0=
+
+Name: repast/simphony/statecharts/generator/CodeExpanderTests.class
+SHA-256-Digest: HFNwBOC1PCjF9+oAORZnnaUYspqPx9yH8aX+mmU9800=
+
+Name: repast/simphony/statecharts/generator/StateMachineValidator.class
+SHA-256-Digest: 9Q0VX7mWDWNQbSuJQC+LP6GFioN1pOOj3U+OEeTmcQ0=
+
+Name: src/generator_util.ext
+SHA-256-Digest: qWC9eDsAaletfeDFIJC+n52WDPcWjBAmDgs2TlsMNPE=
+
+Name: bin/action_template.xpt
+SHA-256-Digest: hzeUANft/w7BDIn8Kx+kuCoINM8mVnMDXaP9LBb+BPM=
+
+Name: repast/simphony/statecharts/generator/PathUtils.class
+SHA-256-Digest: BoHWCCu+Zv5Lqz8LtcPyhgmpC6NaI8XlaLvMJjoKFiI=
+
+Name: repast/simphony/statecharts/generator/CodeGenerator.class
+SHA-256-Digest: C0f/sdbHQAso7WNnLLGNjKUEWIhcbls+yY65PYT3IBA=
+
+Name: bin/repast/simphony/statecharts/generator/OrphanFilter.class
+SHA-256-Digest: JhP+ygZcvUXXdmqxNVATxRFx7rcRtjQEIPnVk6CYosI=
+
+Name: repast/simphony/statecharts/generator/CodeBeautifier.class
+SHA-256-Digest: Jxp3KBR4yaA7GIoxoT4vtI0vM8P+/Kxl4IAWnQgL8lk=
+
+Name: bin/generator_util.ext
+SHA-256-Digest: ++PeAmN1mCSf90XwnCBkGw8Xj+vtd/gnVL5EBdGI8uw=
+
+Name: bin/repast/simphony/statecharts/generator/GeneratorUtil$StateBlock
+ .class
+SHA-256-Digest: RiDEP9EZIu4+MkNqAgAe+oSgU27O1c+P8U9wCbQZY/I=
+

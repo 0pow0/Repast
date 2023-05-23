@@ -1,0 +1,1723 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Repast visualization
+Bundle-SymbolicName: repast.simphony.visualization
+Bundle-Version: 2.9.1
+Require-Bundle: repast.simphony.core,repast.simphony.scenario,repast.sim
+ phony.gui,repast.simphony.plugin.util,saf.core.ui,repast.simphony.runti
+ me,org.codehaus.groovy,libs.ext,org.junit
+Bundle-Vendor: Argonne National Laboratory
+Export-Package: repast.simphony.visualization,repast.simphony.visualizat
+ ion.cgd,repast.simphony.visualization.cgd.algorithm,repast.simphony.vis
+ ualization.cgd.graph,repast.simphony.visualization.cgd.util,repast.simp
+ hony.visualization.continuous,repast.simphony.visualization.decorator,r
+ epast.simphony.visualization.editedStyle,repast.simphony.visualization.
+ editor,repast.simphony.visualization.editor.space,repast.simphony.visua
+ lization.engine,repast.simphony.visualization.grid,repast.simphony.visu
+ alization.gui,repast.simphony.visualization.gui.styleBuilder,repast.sim
+ phony.visualization.network,repast.simphony.visualization.visualization
+ 2D,repast.simphony.visualization.visualization2D.layout,repast.simphony
+ .visualization.visualization2D.style,repast.simphony.visualization.visu
+ alization3D,repast.simphony.visualization.visualization3D.layout,repast
+ .simphony.visualization.visualization3D.style,repast.simphony.visualiza
+ tionOGL2D
+Bundle-ClassPath: lib/jung-visualization-2.0.1.jar,lib/MS3DLoader-1.0.8.
+ jar,bin/
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+
+Name: bin/repast/simphony/visualization/visualization2D/DisplayLayer2D.c
+ lass
+SHA-256-Digest: NOpVq8BlDpuP/wB4bGw+Ejj/1ZAYUJFu6vboSX18T0k=
+
+Name: bin/repast/simphony/visualization/IDisplayLayer.class
+SHA-256-Digest: 0uPHIRARQ/ppMVzi1cwM+ZVWjxiKN/cGSjICVmlRK/E=
+
+Name: bin/repast/simphony/visualization/gui/ContinuousStyleStep$1.class
+SHA-256-Digest: vdZAJTG4K45Truo0R7c4Fhz0Eef/ZcLqxIgcK6Wqw+U=
+
+Name: bin/repast/simphony/visualization/decorator/ProjectionDecoratorFac
+ tory.class
+SHA-256-Digest: N7TTIaGQJ9KTcY/6ENKcSRTzqGJj/YfGSp2zQktDqh4=
+
+Name: bin/repast/simphony/visualization/gui/NetLayoutStep.class
+SHA-256-Digest: zsUsljUSOcDF/8uZr6UjRLv3JVFyCFh5MPCDGqGrTHc=
+
+Name: bin/repast/simphony/visualization/editor/DisplayEditor2D.class
+SHA-256-Digest: cW+nzc4/3ZqGANqfgbBolT6aHGrmwNTm2iWG5W5w28E=
+
+Name: bin/repast/simphony/visualization/visualization3D/DisplayLayer3D.c
+ lass
+SHA-256-Digest: jY9HQ/8026inuwiKZ/dWdx+4qE4wavhxe884vY7xWNI=
+
+Name: bin/repast/simphony/visualization/AbstractLayoutUpdater.class
+SHA-256-Digest: jxLPEzJaCIbbDdZnQ8DlP9ENb5g/2/vizmYGmJYxBaI=
+
+Name: bin/repast/simphony/visualization/NullLayout$1.class
+SHA-256-Digest: OncQkxXycClyvRpptAVvgleMqqF2RohHPPROCemo5r4=
+
+Name: bin/repast/simphony/visualization/engine/StyleRegistrar3D.class
+SHA-256-Digest: 2YseSMLxbYYZTnKZo9qQaMCuZIPNIkE8C3RVEwzn6Zg=
+
+Name: bin/repast/simphony/visualization/engine/DisplayCreator3D$2.class
+SHA-256-Digest: JwxjmnoG5BfDtMcYHZAASvbEeJ6ey+V7BOmmYOqKTvA=
+
+Name: bin/repast/simphony/visualization/visualization2D/RepastCanvas2D$r
+ epastPiccoloMouseWheelListener.class
+SHA-256-Digest: ga1KMUOG672Bm2RoNPzLzI+iOdaP49sbkX7Dfopird4=
+
+Name: bin/repast/simphony/visualization/visualization3D/ValueDisplayLaye
+ r3D.class
+SHA-256-Digest: YRdaMpL8WfvhxyklKiNBC87Y8p4AUmSgqvERYnwb/7Y=
+
+Name: bin/repast/simphony/visualization/editor/AgentEditor$3.class
+SHA-256-Digest: LqBpFLGOJkpl84CKC979G1dVy3uZIULI9s5OJcza+kY=
+
+Name: bin/repast/simphony/visualization/visualization3D/style/DefaultVal
+ ueLayerStyle3D.class
+SHA-256-Digest: +qLRnZ4S/MrA85+nkNVJZSgba6/lRMFkUhvg8RJynVs=
+
+Name: bin/repast/simphony/visualization/cgd/algorithm/Parser.class
+SHA-256-Digest: +3ZeDEjnBp7P4Aa3lp7Nf5ATXNlBkGB/CVb/NpSDfkM=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/EditedValueLaye
+ rStyleDialog$1.class
+SHA-256-Digest: fnFYuNoZUkdW9xewnSImWLwF5BUpXiDRFgTiK92+AV0=
+
+Name: bin/repast/simphony/visualization/engine/DisplayType.class
+SHA-256-Digest: +A8XPz56Z3LlUKHrRKKq6JJPg0iyicp2m8Sz7McKc9c=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/AbstractStyleDi
+ alog$1.class
+SHA-256-Digest: 9ZB4PxxCAD4Nj5KMfKFa1rc/U9MI/yc1NHLSoXnvOx8=
+
+Name: bin/repast/simphony/visualization/grid/Grid2DLayout.class
+SHA-256-Digest: lnMN6cxNr7kTtRYZjXr8kmrE0KTRXscboFQh7+6ej7A=
+
+Name: bin/repast/simphony/visualization/visualization3D/AbstractDisplayL
+ ayer3D.class
+SHA-256-Digest: 1pY5IyxnjSbfJgg0XDKEZabS/KQBirGTvaLpFId/FNg=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/EditedStyleDial
+ og$10.class
+SHA-256-Digest: ZReIFNu2f14/R2ZdoYQDG0kEM2r29kwWYvFDWBaLCbc=
+
+Name: bin/repast/simphony/visualization/engine/DisplayCreatorOGL2D$3.cla
+ ss
+SHA-256-Digest: wvboeO1T2AsMkt3ti86MHHgFweJyhj2u7cGww7RFQ9E=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/SimpleEditedEdg
+ eStyleDialog$9.class
+SHA-256-Digest: ljndhko/bAyyk7Cor6XzfjsRiio2Ij7oZil007zdyh8=
+
+Name: bin/repast/simphony/visualization/cgd/CGDProcessor.class
+SHA-256-Digest: JePU2mWrv9WE/n8DsmgPsw7PjlTOxATtzyjorDTFz2Y=
+
+Name: bin/repast/simphony/visualization/editor/AgentEditor$SourceTargetR
+ enderer.class
+SHA-256-Digest: EzCj/SfVc6sHhh8VHPxRNj6XA+5ZWYrvVLEAamweenk=
+
+Name: bin/repast/simphony/visualization/visualization3D/style/DefaultEdg
+ eStyle3D.class
+SHA-256-Digest: d/VKueehKHfWhgi4t8NTtDvo7/bewFLYKRMpkzUIIa4=
+
+Name: icons/delete_user.png
+SHA-256-Digest: 0dzLr/LL4Yextwe0MaOfqX470vwuCowA0SOdcd4rOV0=
+
+Name: bin/repast/simphony/visualization/visualization2D/style/Style2D.cl
+ ass
+SHA-256-Digest: UGGsJm3yVHE4tqkKu9dZrQPiyG7CXSa+xrzsSdW6ygA=
+
+Name: bin/repast/simphony/visualization/editedStyle/EditedStyleOGL2D.cla
+ ss
+SHA-256-Digest: I3b0OH8qVzIqARTlIysfaMqNFG95ItZOQI7KqFXyL5k=
+
+Name: bin/repast/simphony/visualizationOGL2D/SVGToBufferedImage$BITransc
+ oder.class
+SHA-256-Digest: J/tGGhJ7EjFiQNb3nfcWXiUluOStFgFOQ4uHB5HZW+k=
+
+Name: bin/repast/simphony/visualization/gui/GridStyleStep$1.class
+SHA-256-Digest: iK1DTGHTwg5PEEvMy4Apuw2KAQstAPeOvwgtq6JiJss=
+
+Name: bin/repast/simphony/visualization/editor/VizEditorForm$1.class
+SHA-256-Digest: fFWU3OxxJtojfcx9FtozDkcSovcMx6e9qzAE4Cnhd1A=
+
+Name: bin/repast/simphony/visualization/gui/NameOnlyGeneralStep.class
+SHA-256-Digest: xvcVb/xwY99+OVIEH9MbZlEACFCy14obT7hMncMVYmE=
+
+Name: bin/repast/simphony/visualization/visualization3D/NodeVisualItem.c
+ lass
+SHA-256-Digest: r8qRpkxWdgXKhn1KEBLPy8HEiGb/Pde/ILMBVJ7WRG8=
+
+Name: bin/repast/simphony/visualization/editor/AgentEditor$8.class
+SHA-256-Digest: T+kLIc4KoI/6sZO5nbBUD2Duye0/RNB5IgA6XgY9zY0=
+
+Name: bin/repast/simphony/visualization/visualization2D/Display2D$1.clas
+ s
+SHA-256-Digest: +1PF8emkhx56nDCnukawWOmTVk383/FcTIgoZ8LddNc=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/EditedStyleDial
+ og$4.class
+SHA-256-Digest: Hak9Sa/fIl2U4dJYtllXZTmrUV43jlPDF9alQ3z7wB4=
+
+Name: bin/repast/simphony/visualization/cgd/graph/CGDNode.class
+SHA-256-Digest: 2/EtG9uC4dDUUdz7k/7kLmnDl56U4adcEBQbRxV5JzE=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/SimpleEditedEdg
+ eStyleDialog$14.class
+SHA-256-Digest: vONA+66sJ9+QIYB1fLnJfCzEtv68KD8lB10XVY3BaVY=
+
+Name: bin/repast/simphony/visualization/gui/NetLayoutStep$1.class
+SHA-256-Digest: sf/6DMjt50MRmhVizqXuaPvsD9rGLtyVenNomOYsF5Q=
+
+Name: bin/repast/simphony/visualization/engine/CartesianProjectionDescri
+ torFactory.class
+SHA-256-Digest: i0ZVp0ewsspVMauuxyRMPi+NkefYUNUifca1zPj01/g=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/EditedStyleDial
+ og$23.class
+SHA-256-Digest: tGtPAfw44BbiRFPjIIGMKCnXNkbZB87wCVjy/q0F0oA=
+
+Name: bin/repast/simphony/visualization/visualization3D/style/EdgeStyle3
+ D.class
+SHA-256-Digest: PIYYlfpkBnp6BfALUI9QoXgadEx88bonX67A7xPDiEI=
+
+Name: bin/repast/simphony/visualization/editedStyle/DefaultEditedStyleDa
+ ta2D.class
+SHA-256-Digest: iWgskDLkWin+gdzJi9LRQFEqNJeYTu9zn00Diblm/ow=
+
+Name: bin/repast/simphony/visualization/gui/AgentSelectionPanel$5.class
+SHA-256-Digest: tQDo9NaOuE0xncahwZ29Y+8fmPm2XlqIVQOICmzExEE=
+
+Name: icons/select.png
+SHA-256-Digest: 6VpTDsn493+17pXD4ZSeem16dYoW56J9PwZ1JojgrRc=
+
+Name: icons/minus.png
+SHA-256-Digest: dZP2WL+rIi0J2IJH69u6cE/3gLfa+rHbEzWzvWv210Y=
+
+Name: bin/repast/simphony/visualization/gui/GeneralStep$DisplayItem.clas
+ s
+SHA-256-Digest: u3pxxVj3F9pQKel45CvkeBR5Sgqbg1kKxg5+JGXNvJU=
+
+Name: bin/repast/simphony/visualization/gui/StyleStep$AgentTypeElement.c
+ lass
+SHA-256-Digest: NtT9bdZF9ROIMGbkOL2A7K0FwBaONmIhPaR5u8sJtjY=
+
+Name: bin/repast/simphony/visualization/visualization3D/NullLabel.class
+SHA-256-Digest: MhBrmu8s/hsxnaXDInF9Z1uMoQaN3oUT8Ku47eYkoXs=
+
+Name: bin/repast/simphony/visualization/gui/ScheduleStep.class
+SHA-256-Digest: 8CzYaEa16xer0J8mt+YvCTykFtAGi7ZJeBlcRTJhtig=
+
+Name: lib/MS3DLoader-1.0.8.jar
+SHA-256-Digest: ZGsp9RUToN79N7/PTAxat0He2gfyD6lBLYE4ucA9RQc=
+
+Name: bin/repast/simphony/visualization/engine/VLStyleRegistrar$Registra
+ r.class
+SHA-256-Digest: fCo8KDSrYFELumVQF+3z/68BcrkH/D3Cap8SsDvgaKU=
+
+Name: bin/repast/simphony/visualization/editor/GridAddListener$LocationA
+ dder.class
+SHA-256-Digest: Fi/CVxRWAo11jCOFVxnNrBq7eVuxlHpoXP3DmOXFn60=
+
+Name: bin/repast/simphony/visualization/visualization2D/ValueDisplayLaye
+ r2D.class
+SHA-256-Digest: P3DegNy+De7a2DXgb+mgr5ceSav0tTwKr1bv5Do072E=
+
+Name: bin/repast/simphony/visualization/network/DirectedLineEdgeVisualIt
+ em.class
+SHA-256-Digest: uT/bGcLefsoW/84+aM3KBSs6wexsJq88s1RU1rS/QEA=
+
+Name: bin/repast/simphony/visualization/gui/DisplayDescriptorFactory.cla
+ ss
+SHA-256-Digest: Thb/yttn+LZwG942+bOlymjDwkMUsM/6j25bjx5KeT4=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/SimpleEditedEdg
+ eStyleDialog$2.class
+SHA-256-Digest: tsNzzipXM75xX42o4UubUeKB3p5c4+DIpsP6MDrqYMc=
+
+Name: bin/repast/simphony/visualization/VisualizedObjectContainer.class
+SHA-256-Digest: Ak39QMYsEE/VQjiqhZEHAHYgRnQeAf1cj4s8HIuLy2U=
+
+Name: bin/repast/simphony/visualization/visualization3D/style/TaggedAppe
+ arance.class
+SHA-256-Digest: fNuBoI6EWSYLDN6fPlaYy65WXxm8sm5+RlhzwjA9e3U=
+
+Name: bin/repast/simphony/visualization/engine/VLStyleRegistrar.class
+SHA-256-Digest: QiHpqAUAjmUhcIsx2lbLhb7pO2hIM6jHmiO0y8o27io=
+
+Name: bin/repast/simphony/visualization/engine/DisplayProducer.class
+SHA-256-Digest: n74z5921/Se4ebZqEzW6+LEUsEmj0w1l4xcdvarOV2s=
+
+Name: bin/repast/simphony/visualizationOGL2D/SVGToNamedShape$ShapeData.c
+ lass
+SHA-256-Digest: n1hEoKPld9I9wtyCOgLPcZrWPazPF5L0kj5UEeXc4Is=
+
+Name: bin/repast/simphony/visualization/continuous/Continuous2DLayout.cl
+ ass
+SHA-256-Digest: pOJZtE+/DJQX64tERs/SfBqtmyP9d92g2ncsq+8t26o=
+
+Name: bin/repast/simphony/visualization/editedStyle/EditedValueLayerStyl
+ e3D.class
+SHA-256-Digest: YvxDAzKOeVu+RaE5MgCJqNz3pPx9dk9nn1j/ot38sro=
+
+Name: bin/repast/simphony/visualization/engine/NetworkStyleRegistrar.cla
+ ss
+SHA-256-Digest: JAGxHH1coGpdr5ezpnAGocSccWdFfyvZNs/K3o9j4Hg=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/EditedStyleDial
+ og$1.class
+SHA-256-Digest: yQEDVMqz3F+fSIBz/74VLWj1iChqaP63oaRaaORdQ0g=
+
+Name: bin/repast/simphony/visualization/gui/DisplayConfigurationWizard$1
+ .class
+SHA-256-Digest: w8i0zhBm3IDp6hxYwBLJg1yfYbcrSBKdKCj9jdL7hGQ=
+
+Name: bin/repast/simphony/visualization/visualization2D/RepastCanvas2D$r
+ epastPiccoloMouseMotionListener.class
+SHA-256-Digest: ZMMooZ3a0NEv6UZCLpujsSOeh/d6LTxVd2vAt+9X9Mw=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/EditedStyleDial
+ og$28.class
+SHA-256-Digest: 5jdeQ4l9FwMySFMRiMlg59BGvE56Grc4kG1l8Wvvbqk=
+
+Name: bin/repast/simphony/visualization/gui/EdgeStyleStep.class
+SHA-256-Digest: 06V/0ICHqTouWc8/1iLbDf2V4Wgitey/z6qWQZlok94=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/EditedStyleDial
+ og$25.class
+SHA-256-Digest: FsU55JooLTblHp0qw2VGLJyscI0IkO0sLXRUYm/FYsM=
+
+Name: bin/repast/simphony/visualization/engine/ProjectionDescriptor.clas
+ s
+SHA-256-Digest: EWXYppmPtdYrSnYnVRGq3ysLWhsO3Lk/xN/zoZHD+3Y=
+
+Name: bin/repast/simphony/visualization/editor/EdgeFinder.class
+SHA-256-Digest: xXOcgk7Ucs+MIKz+aPvr26CnJKLUodKyMyEptrn6EjE=
+
+Name: bin/repast/simphony/visualization/editor/PNodeSelectionListener.cl
+ ass
+SHA-256-Digest: riIWRcFb6Pb53FSfNK7aPB7QGSWhTV58zH8Ha+tEat4=
+
+Name: bin/repast/simphony/visualization/editor/AgentEditor$10.class
+SHA-256-Digest: HZ7Qyd0yfgIbyGg4UqHylXjaTkFkD4/HCJcG7qrVq0Y=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/SimpleEditedEdg
+ eStyleDialog$11.class
+SHA-256-Digest: wukHs1YyW7BHnNUpbukmt22LAKZGppHO30Q9RtSqGRQ=
+
+Name: bin/repast/simphony/visualization/network/NetworkDisplayLayer3D.cl
+ ass
+SHA-256-Digest: hImBsHsI/55VfnWJZ653YzU1O/uaaeXUtDmAGmrT1vY=
+
+Name: bin/repast/simphony/visualization/editor/PropertyDescriptorAdapter
+ .class
+SHA-256-Digest: Agdtm/Po8w4gle+GdFwNXOhPkPvu+j09qpenLHgGRjg=
+
+Name: bin/repast/simphony/visualization/visualization3D/Display3D$1.clas
+ s
+SHA-256-Digest: 9XOyCTnvFZNgDf734cSM/ZjnCrOQy5spWeRmuMjoMZ8=
+
+Name: bin/repast/simphony/visualization/MovedLayoutUpdater.class
+SHA-256-Digest: wvJ/4Qnf/oZ3LYdCxdWusF+RBkNgETWE45Li0dj5VvM=
+
+Name: bin/repast/simphony/visualization/engine/AbstractProjectionDescrip
+ tor.class
+SHA-256-Digest: zdhohocPTe1xKoSl/mW5qLdRS3EowZDo4m0CfuVzOC8=
+
+Name: bin/repast/simphony/visualizationOGL2D/SVGToBufferedImage.class
+SHA-256-Digest: bURkJ0kX9CyQ5vc356FiojpgFbt09wxiF+Btpl47Ab4=
+
+Name: bin/repast/simphony/visualization/gui/DisplayConfigurationWizard$3
+ .class
+SHA-256-Digest: bcj6dx0akHtjva/3d/rp5bht1C+MnGyJFwY6cLlVsuA=
+
+Name: bin/repast/simphony/visualization/gui/GeneralStep$2.class
+SHA-256-Digest: OgIUoGNXx48OgF6r9BP9I65MQ1Wx9mYSUioIrQUw4so=
+
+Name: bin/repast/simphony/visualization/gui/GridStyleStep.class
+SHA-256-Digest: Lw/GhLS+JWKsXEUE5DqeOQawy/QXsRQOPRG6Pe6PYQE=
+
+Name: bin/repast/simphony/visualization/visualization3D/DefaultValueDisp
+ layLayer3D.class
+SHA-256-Digest: 7r1hbh5W2Xnsa0Em8yvMg0jSBwqF88ZzBx5NMDQn3lM=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/EditedStyleDial
+ og$31.class
+SHA-256-Digest: sXt/OWiyFxv33NoVANeyQhW/dOBmvp8CTEuDOmqv+rE=
+
+Name: bin/repast/simphony/visualization/visualization2D/Display2D$Render
+ er.class
+SHA-256-Digest: p2f+IcNZ6QYpog+rmKxxmSQw9QWo2dBbIdOR4yoJnbA=
+
+Name: bin/repast/simphony/visualization/grid/GridDecorator.class
+SHA-256-Digest: 8sq1tDkmoFU4cSMZ88pChtNXPGLYzxxnbreuBeZq25M=
+
+Name: bin/repast/simphony/visualization/grid/Grid3DLayout$Locator.class
+SHA-256-Digest: eZr9IH544dD29yI72ON3Bd4mfU45AMbdIWEjQ6TSitY=
+
+Name: bin/repast/simphony/visualization/gui/DisplayOptionsDialog.class
+SHA-256-Digest: eARacYT58lyLme0DkKEQwZgq+nixuBC2QiiszGCWMrA=
+
+Name: bin/repast/simphony/visualization/gui/DisplayWizardCreator.class
+SHA-256-Digest: j746vimyQ19E/3NXwcNfI+5DlTo+jxdxzb2dXfmMVpE=
+
+Name: bin/repast/simphony/visualization/editor/DisplayEditor3D$1.class
+SHA-256-Digest: pUHQoLR5EduaASAw+64sHPgUK7SM8R7VdWQ7FXJnV3s=
+
+Name: bin/repast/simphony/visualization/gui/AgentSelectionPanel$2.class
+SHA-256-Digest: fv5CPcN6SXH2O+7412Y/UR2Ky8xFIOvuqgPTgwf4RP8=
+
+Name: bin/repast/simphony/visualization/visualization3D/VisualItem3DAdde
+ rRemover.class
+SHA-256-Digest: gaWf687XGI7NgiydH5RT16z07lqAlnXvNbvdhqxF7IE=
+
+Name: bin/repast/simphony/visualization/editedStyle/DefaultEditedEdgeSty
+ leData2D.class
+SHA-256-Digest: A4u1YwvLt+MDviWv51zGKaCOwxeWsje4mktEw6Nqx8A=
+
+Name: bin/repast/simphony/visualization/DisplayData.class
+SHA-256-Digest: ndV9F8YsqyWubDGxorNMqkFdib9WHiY/AhOKTWIZ24A=
+
+Name: bin/repast/simphony/visualization/editor/VizEditorForm.class
+SHA-256-Digest: f4jF6pBFTZxjz6hjejtoWTIrVuiZTHGAZ7bqWzYdrmk=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/IconFile2DFilte
+ r.class
+SHA-256-Digest: cuGt9mMiNGtphtX2ov5AAEwyOis34TTSOORbQLC5pfQ=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/SimpleEditedEdg
+ eStyleDialog$4.class
+SHA-256-Digest: FYfcC2MB8gtUQjf3ShTxiJd52epe/UfMp6PUHRQj7TE=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/EditedStyleDial
+ og$19.class
+SHA-256-Digest: htVE/wn4Vz+hkdQ68CMkoO/d+53z/6XnPkOJulb4uUw=
+
+Name: bin/repast/simphony/visualization/visualization3D/style/TaggedBran
+ chGroup.class
+SHA-256-Digest: q62ZUKg3tJ46IFqnFA8zb9QfnhAMLFRGVFx6f+0gI/0=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/EditedStyleDial
+ og$2.class
+SHA-256-Digest: f4nUPjUCm2oHmg1JI6O15+dPeuRkEEJOSU2RxYaBpqs=
+
+Name: bin/repast/simphony/visualization/visualization2D/style/DefaultEdg
+ eStyle2D.class
+SHA-256-Digest: TH4jR/g5Cy0+gcSXF/3tD0tP8ONoBorRpm17/awWie4=
+
+Name: bin/repast/simphony/visualization/editor/AgentEditor.class
+SHA-256-Digest: ws09DVgTeuMPWP+rcLzgJ8QL+o8Q2dCS6xpz58npU2k=
+
+Name: bin/repast/simphony/visualization/editor/PEditorEventListener.clas
+ s
+SHA-256-Digest: RxuZkOUlK+Yc/qIBE55GEE4OoWxpNnKubz00IKz1UrA=
+
+Name: bin/repast/simphony/visualization/engine/StyleRegistrar.class
+SHA-256-Digest: 8cBrya/tBrnWs8e5Gq10jHl1HLPNrHPwvxQOkOHCGDA=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/PreviewEdge3D.c
+ lass
+SHA-256-Digest: rXrRGe3Iq6Omrj//Eaq1ra1DsqlOyrWjZrTm4JPn+gw=
+
+Name: bin/repast/simphony/visualization/visualization3D/AbstractDisplay3
+ D.class
+SHA-256-Digest: 7V9zcgD/7uKESM3tSco/JKiVpJFOithdIID8OkbkCmg=
+
+Name: bin/repast/simphony/visualization/gui/NetStyleTableModel.class
+SHA-256-Digest: 2HDoxbiVNzpO6YhFUwQjaCg2aNitX2VprTOzNkKWCSc=
+
+Name: bin/repast/simphony/visualization/editedStyle/EditedEdgeStyleData.
+ class
+SHA-256-Digest: 6GNBHFjMtRkefnzJ01KOMaVq3eyhUpir/t4CvYoJfy0=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/EditedStyleDial
+ og$26.class
+SHA-256-Digest: FvJPoJn/C38Th6qMUEcYnAESl+72ei3YnHJgGMPS5HI=
+
+Name: bin/repast/simphony/visualization/AbstractNetworkLayout.class
+SHA-256-Digest: TZ/TiCmk6LNuveyQI1r32pDmqkcgFIfUSWJHdYplvtg=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/SimpleEditedEdg
+ eStyleDialog$6.class
+SHA-256-Digest: MXRJkBERJmy8F7OT5UjYgiSOMQ8XgVIGxhxAgM//4sg=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/EditedStyleDial
+ og$13.class
+SHA-256-Digest: WKqS6XwI/aouReLZLFeeCU12DLigw+7YKPPW9cSxl3I=
+
+Name: bin/repast/simphony/visualization/cgd/graph/CGDGraph.class
+SHA-256-Digest: EqBLBvGaNWmVJOv3s1WodFjK5K12JV4FUxFXWqxz/fk=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/EditedStyleDial
+ og$8.class
+SHA-256-Digest: 0Q91xM8R6Urmb6XY9r+I6nrjVzEZRlTnnt2MC8M08zk=
+
+Name: bin/repast/simphony/visualization/engine/StyleRegistrar2D.class
+SHA-256-Digest: EjE2/slm7J4xo13GNK8l6obVxg6vqFPQSZ86ojdxJXM=
+
+Name: bin/repast/simphony/visualization/engine/DisplayCreator2D$1.class
+SHA-256-Digest: 7zTUScYqPCT1kcXsMaGc1klsd3Rr2DOd5CuXlE+VOSc=
+
+Name: bin/repast/simphony/visualization/visualization3D/style/Style3D$La
+ belPosition.class
+SHA-256-Digest: PEo8IIvcU99IIEuO6SfL0m3/W1/F9xAz4DaYlCFg8Uo=
+
+Name: bin/repast/simphony/visualizationOGL2D/ValueLayerDisplayLayer.clas
+ s
+SHA-256-Digest: HtL9O9e0qcOiimm9DnoeJv+unsvlzeJmsmdISw57C8o=
+
+Name: bin/repast/simphony/visualization/AddedRemovedLayoutUpdater.class
+SHA-256-Digest: mhwxecO/aURJc1WxBqbU/6SaRcFyfa/C7QvrKm6Puh4=
+
+Name: bin/repast/simphony/visualization/gui/AgentSelectionPanel$3.class
+SHA-256-Digest: vLwjecrdco9GNcN5GQ5cdr4aCF3eaQXdzdAPO4LowO0=
+
+Name: bin/repast/simphony/visualization/gui/StyleStep$1.class
+SHA-256-Digest: mlYLBxWCfEVyTaHNxkBc7SdCddpTkh+qCq1l4rJYVnw=
+
+Name: bin/repast/simphony/visualization/editedStyle/DefaultEditedEdgeSty
+ leData3D.class
+SHA-256-Digest: vjtGhFgLN6Qh8lD4LOZ79DdXKa7EuJ4k1sPskYRan3Q=
+
+Name: bin/repast/simphony/visualization/engine/DisplayDescriptor.class
+SHA-256-Digest: tenGYX8D1YSQ9+UJI8QxkWUOho7JgVMz04eHKfVhA1Q=
+
+Name: bin/repast/simphony/visualization/visualization3D/style/Style3D.cl
+ ass
+SHA-256-Digest: BYOzLX8ZO8A6spyFQPZCgdCQCzs/6I4nDOs4kGYe8Bs=
+
+Name: bin/repast/simphony/visualization/editor/FloatingList$3.class
+SHA-256-Digest: KdZwylmekf/bzrpMUfBD+yp7fV6ZY2OyDgam+Yp7PB0=
+
+Name: bin/repast/simphony/visualization/cgd/algorithm/ClanGraphDecompAlg
+ orithm.class
+SHA-256-Digest: aVsVXu0DBaxKUPkoZd1gLvtNS9wI3L5ODrSfGhZFwYU=
+
+Name: bin/repast/simphony/visualization/visualization3D/layout/JungGraph
+ ElementAccessor.class
+SHA-256-Digest: 9Cd6UAv5iG5X5tMfg9pIpxoakHgZ8XB1pUW43dNp6UE=
+
+Name: bin/repast/simphony/visualization/decorator/ProjectionDecorator2D.
+ class
+SHA-256-Digest: 87eluhBwtjUGYnUrBk39l9fAIA8z46U2J9+t+h2VF2k=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/SimpleEditedEdg
+ eStyleDialog$7.class
+SHA-256-Digest: Gegjtce96GVcCskouZpDIO5KoV+s2BhNx+gpS/QCfcA=
+
+Name: bin/repast/simphony/visualization/visualization3D/MouseTranslate.c
+ lass
+SHA-256-Digest: DVk6xT0o7/MckhDoWIzJdOEdAkqnuXQEum5UGYJoTog=
+
+Name: icons/down.png
+SHA-256-Digest: shTCcq23tFWJNfMR731gn19to9FNmlcnjk4aBKpjJ0o=
+
+Name: bin/repast/simphony/visualization/visualization2D/layout/FRLayout2
+ D.class
+SHA-256-Digest: E6CdfnX6+hvq9YxhUBIzpIjd1sqCHZOmWIN9LoHqblI=
+
+Name: bin/repast/simphony/visualization/editor/EmptyEdgeFinder.class
+SHA-256-Digest: YyltHDaUTeaiOk2Wo/zzCfbOKrDXpaR6ZzxHVRSPpUU=
+
+Name: bin/repast/simphony/visualization/editor/EditorFactory.class
+SHA-256-Digest: Av/fYRE+eGDrwUP+la7noH/vx8cjOe7yYJYZuE7WrfE=
+
+Name: bin/repast/simphony/visualization/visualization3D/Display3D$MainBe
+ havior.class
+SHA-256-Digest: i4z1qW6u6o8OHb/9E7xz07ZV664V7FCC/+GfQGu15dc=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/EditedValueLaye
+ rStyleDialog$4.class
+SHA-256-Digest: dG2JStrlFfUVKRsKcxG44tcpq25JALaJVaORYwua6zE=
+
+Name: bin/repast/simphony/visualization/editedStyle/EditedValueLayerStyl
+ eData.class
+SHA-256-Digest: oZmohzBCkffkl5weguH8t2zJRgSPWp8YVm3Ez5Mb3q4=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/PreviewEdge.cla
+ ss
+SHA-256-Digest: QNucEiHE9FOxsT9dulY6xGMGnCz8pfKOpFsCXqZDGMw=
+
+Name: bin/repast/simphony/visualizationOGL2D/ImageSpatialSource.class
+SHA-256-Digest: UnX+spV1QcJwdWfQf2TOXqr42/0sp/5vm+hn5EBPf2E=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/EditedValueLaye
+ rStyleDialog.class
+SHA-256-Digest: qRd7TQPuFzED84lPfs3PpWSNRO+qANT31hmGcykUKks=
+
+Name: bin/repast/simphony/visualization/visualization2D/ShapeFactory2D.c
+ lass
+SHA-256-Digest: XxO0AabD82kWFSHncWDNKfnsW8Xyt8sN76yyiZCpYI0=
+
+Name: bin/repast/simphony/visualizationOGL2D/SVGToNamedShape.class
+SHA-256-Digest: tzYj/iLGOHpnDgkK7VgDHUYFJAyJXTmoAkyKCbL+v/s=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/EditedStyleDial
+ og$3.class
+SHA-256-Digest: XOh1xm86La5Jju4S3d+yashnZoBnP8rJkyTeeOrL3a8=
+
+Name: bin/repast/simphony/visualization/gui/GeneralStep.class
+SHA-256-Digest: Gr2PoQe1xOInfvGSgm5CKLhjGmnhZJ1nRbnUzMJKJ8A=
+
+Name: icons/link_16.png
+SHA-256-Digest: nRBuRsBvOCyuwOau4KTjHVZ3t1jid53lmcsYnV2kiF0=
+
+Name: bin/repast/simphony/visualization/engine/DisplayComponentControlle
+ rAction$DisplayUpdater.class
+SHA-256-Digest: HmGQkV86Tg21lFytLO9fEzq3PYaaL2Fhav0n/8Gngb8=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/EditedStyleDial
+ og$18.class
+SHA-256-Digest: 3iE1OC4uXEZhdS4YFgtx8ejMwctFakPZHfwfrIe3yoQ=
+
+Name: bin/repast/simphony/visualization/visualization3D/DataUpdateBehavi
+ or.class
+SHA-256-Digest: kt76CTPtR1JurcA1bR/M7b/QPKtKgvqETHi7YwrDve4=
+
+Name: bin/repast/simphony/visualization/editedStyle/EditedValueLayerStyl
+ eOGL2D.class
+SHA-256-Digest: pg+OduNodZ9YFGtGZKvIXp0U7R62bYI1IAu8Dmsyphs=
+
+Name: bin/repast/simphony/visualization/engine/VLStyleRegistrar2D.class
+SHA-256-Digest: /DNdYZnhHb9VUQefm5h7Z3OPSFn/zIMjZqfnqe28yHY=
+
+Name: bin/repast/simphony/visualization/engine/DisplayCreator2D$2.class
+SHA-256-Digest: xg1sUhxHade82nsb4Od9RJniToORllKXTrNzy9g4ALs=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/EditedValueLaye
+ rStyleDialog$3.class
+SHA-256-Digest: jT72WaVPS3p8vITtCxPV9jwIH45Z+OlHalpnfgooVdY=
+
+Name: icons/agent_up.png
+SHA-256-Digest: KnIUcvVAw3sL8TInaV5lnuGisuDpow2o7p1jE6GeG5M=
+
+Name: bin/repast/simphony/visualization/editedStyle/EditedValueLayerStyl
+ e2D.class
+SHA-256-Digest: PS2Wsck+SCjbrqIqG15EtA7EIHKZPm1635cgEG1edJo=
+
+Name: bin/repast/simphony/visualization/editor/EditorNotifier.class
+SHA-256-Digest: 1nwW1hvjmHqs84SzE/44o8RjK8vbaTXlIh505S1IyMw=
+
+Name: icons/forward.png
+SHA-256-Digest: llTdiV3qKAMFVn+B+pRY2rm4Gy6KueISOhvynMVp4kw=
+
+Name: bin/repast/simphony/visualization/editedStyle/LineStyle.class
+SHA-256-Digest: N4w9LcmFBnm+0+nT0C9+SAqpXp35JwQTZcXFW4OSuZA=
+
+Name: bin/repast/simphony/visualization/LayoutUpdater.class
+SHA-256-Digest: 079wA7lf4yVKk8nYz7Fcl6solxtSkiz8/5tI9iwQU0o=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/EditedStyleDial
+ og$12.class
+SHA-256-Digest: WtQvAqAIln80mSm0AeUJGRUUmZEbV9gSyq24BoNaiDw=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/EditedStyleDial
+ og$22.class
+SHA-256-Digest: Q4G+WBh2Cnquqg/VB7sXUNnQ0n1DAXeiD5vljSLmaSQ=
+
+Name: bin/repast/simphony/visualization/grid/Grid2DProjectionDecorator.c
+ lass
+SHA-256-Digest: hwCS945cpM1/JdH+xdWJ8r8aVjBKGBIOIVwyUwYP0bg=
+
+Name: bin/repast/simphony/visualization/visualization3D/AppearanceFactor
+ y$PolygonDraw.class
+SHA-256-Digest: z/QUT2uM5e94aZ2zD+LvOdylSVaQKR2jDt4tuJMhLiE=
+
+Name: bin/repast/simphony/visualization/engine/DisplayCreatorOGL2D$1.cla
+ ss
+SHA-256-Digest: tJa0XwCj4D0rQK4uZTUTuY4qYXywjnFALfNlCtcYsNw=
+
+Name: bin/repast/simphony/visualization/visualization3D/layout/JungNetwo
+ rkLayout.class
+SHA-256-Digest: 7S03w2wp7N+UP6PP/KvsXjMpRbICSvDAKKeJQuqZlqE=
+
+Name: bin/repast/simphony/visualization/editedStyle/EditedStyleUtils.cla
+ ss
+SHA-256-Digest: V+C01lM3wltrBN9PO/WDfIl7ga90ac6vqKZ7XpsztWE=
+
+Name: icons/info_viz_pointer.png
+SHA-256-Digest: 71rn0R8krgmaDi14bASaetQ0wwBY4Oz/CSUIWKRO3Gg=
+
+Name: bin/repast/simphony/visualization/editor/FloatingList$1.class
+SHA-256-Digest: 9FajbXv1E7iJCs8hfjncdKHoLwcjzr09GLhDiz4hrCc=
+
+Name: bin/repast/simphony/visualization/gui/StyleClassStep$2.class
+SHA-256-Digest: bq4XHhl2hpWY/z9YsVOVXCu8KVy80Tbms5ghPgWlqFM=
+
+Name: bin/repast/simphony/visualization/visualization2D/layout/KKLayout2
+ D.class
+SHA-256-Digest: qPe+BYadlwjopndsLQmTBPpY0sDUcFaZ3AdX0KfFLEE=
+
+Name: bin/repast/simphony/visualization/visualization3D/layout/Spherical
+ Layout.class
+SHA-256-Digest: ccZyMj/O9ZAFBdkYA9XNelD6exY9TwOis5ijbtumP7Y=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/EditedStyleDial
+ og$6.class
+SHA-256-Digest: o3H4LIagy7HItRinNwV4lOrrBzKZDySeM8JPNGHKrt4=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/EditedStyleDial
+ og$9.class
+SHA-256-Digest: Gb8JEnQwa5VroLNkiWkhCYZ1jgXyCtLa5/XJpemZre8=
+
+Name: bin/repast/simphony/visualization/engine/VLStyleRegistrarOGL2D.cla
+ ss
+SHA-256-Digest: bXojHOxN2cnfzizXGn8z1YVaFg5ja6Ax/EODiJfg7Oo=
+
+Name: bin/repast/simphony/visualization/visualization3D/ShapeFactory.cla
+ ss
+SHA-256-Digest: dSxWcN4jL2wTiBcp4Wh2vviUsYeCprPkKKExYlxZ4QY=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/SimpleEditedEdg
+ eStyleDialog$8.class
+SHA-256-Digest: M+CMWaCeNesbGKSE1qjIXKnHBaw1O149o2pWgWYogJY=
+
+Name: bin/repast/simphony/visualization/engine/VisualizationRegistryData
+ .class
+SHA-256-Digest: nPs4p0G5fztlfVpc57QIb7+3lKwfOPmEeOv9r094fa8=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/LineStyleIcon.c
+ lass
+SHA-256-Digest: PYbOwY4uiMahPD2hA3T2zh5HUnN2gT1IhA/sQd4X+MY=
+
+Name: bin/repast/simphony/visualization/editor/DefaultEdgeFinder.class
+SHA-256-Digest: Mo8FbXJ8jPLly5tmCcB7dLujJbRFLFIL5VBNl2kz/t4=
+
+Name: bin/repast/simphony/visualization/cgd/util/Separation.class
+SHA-256-Digest: USIe6Uo3FyTjmYyTJld5zXqvLnoQK9wHBu/A32LAv/k=
+
+Name: bin/repast/simphony/visualization/gui/DisplayActionEditorCreator.c
+ lass
+SHA-256-Digest: zyaoUVp59T8VkYQpBcNBEfW2QV7BLNyJrwxgfwNHl2Y=
+
+Name: bin/repast/simphony/visualization/grid/Grid3DLayout.class
+SHA-256-Digest: Ubhhs+IT9bynj8fKD+U20XEaW5pu5kxxbUVeGR6461g=
+
+Name: bin/repast/simphony/visualization/editor/space/Projected3DGrid.cla
+ ss
+SHA-256-Digest: Ydth/T2D3cZCpBBsyiMdsY0xV3YwqVD4x8WE+Qj0B1g=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/EditedStyleDial
+ og$17.class
+SHA-256-Digest: S/t+F0HxekWzAT+OSIHH0GKhMSMRHSwjoX4gj9U0xII=
+
+Name: bin/repast/simphony/visualization/engine/DisplayControllerActionIO
+ .class
+SHA-256-Digest: 84MMQKA9ATjBFNoPQZ1sD8wfgxadmVKMuWjkVgskmz8=
+
+Name: bin/repast/simphony/visualization/editor/AmountPropertyEditor.clas
+ s
+SHA-256-Digest: MxFNuCHqjvDZjd/raIE32IBm/ilR8lpPcMFD3yLb/W8=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/EditedStyleDial
+ og.class
+SHA-256-Digest: NfR/IbUKwFmJeVwnx2FlTyimFhFgV74jte+3zLaQShM=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/EditedValueLaye
+ rStyleDialog$5.class
+SHA-256-Digest: mgRI34jg0HDqWXDD/3O4XG/nO18Opy2A90cVFqJp4u8=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/EditedValueLaye
+ rStyleDialog$8.class
+SHA-256-Digest: 7SK+a4WZ02bWuzO975uOrNtsa7VTTmsxyDzHTTa6DYA=
+
+Name: bin/repast/simphony/visualization/visualization3D/Display3D.class
+SHA-256-Digest: KKrCePycT3hiPgOQRXUScVqR2Rd4EppjdvPYS3DyQiI=
+
+Name: bin/repast/simphony/visualization/cgd/CGDLayout.class
+SHA-256-Digest: g1O1BXTAe2mKMl1t/mSyxBeiwdsliU/odMRjMWMaj+8=
+
+Name: bin/repast/simphony/visualization/engine/DefaultProjectionDescript
+ or.class
+SHA-256-Digest: 5N0pPBHGz6lWT6K1lV1I86MuvjCd95iSDzYbhfksa/w=
+
+Name: bin/repast/simphony/visualization/editor/SpaceAddListener$Location
+ Adder.class
+SHA-256-Digest: SY+tUzqjmb4lXYIqjIIpLV8XSozzZyVp44e6wJ8zx4U=
+
+Name: bin/repast/simphony/visualization/DefaultDisplayData.class
+SHA-256-Digest: 90DcFHe3Awk2gy4pi9aiYcNqs/U//Dbd2xFuf2xQURw=
+
+Name: bin/repast/simphony/visualization/editor/NetAddEdgeHandler.class
+SHA-256-Digest: cra2zxhEGT4zOXjlBFzs5BfbJFGMir5uZ9vb5iCAMKk=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/EditedValueLaye
+ rStyleDialog$7.class
+SHA-256-Digest: uy5YcY4kZNHOatH5Elz1CuhgQfGBTSj3zUs3YY0W7kE=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/EditedStyleDial
+ og$14.class
+SHA-256-Digest: 5GS2xw5h84KP/9puuXndwjNn7DHfMopDafJbHGzL/JU=
+
+Name: bin/repast/simphony/visualization/engine/DisplayCompositeActionCre
+ ator.class
+SHA-256-Digest: wX1Wcaco2HbWB1O+hCk8SbX4VsfWRu1KNvZ322qe9sI=
+
+Name: bin/repast/simphony/visualization/editor/ContSpaceMoveHandler.clas
+ s
+SHA-256-Digest: eIT/dQmFNPKNz2NxCvH3vCnVQNts/GKeq9rWVz+U3aU=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/EditedStyleDial
+ og$7.class
+SHA-256-Digest: PLC6ACiN08wg9whH7KcoyppotC8QXLYjpRun0x0k5Xc=
+
+Name: icons/move.png
+SHA-256-Digest: 0lqaTTJnrfgeO5FJPsoWEd2KmwmM0BNXPqMGHamwiS4=
+
+Name: bin/repast/simphony/visualization/editor/FloatingList$2.class
+SHA-256-Digest: rKxIXS6xIsbbhlrJnMJdPyvJRsRa5jz+R3fZynARSZU=
+
+Name: bin/repast/simphony/visualization/gui/StyleClassStep$1.class
+SHA-256-Digest: 4zHTr48wYT69aKo0FdyahP2TpX7kEiLouVj7xRWrHfo=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/EditedStyleDial
+ og$21.class
+SHA-256-Digest: YoFvT5hGnOfA619zB+RUxZC/+tr48cjCB4glNS99O0Y=
+
+Name: bin/repast/simphony/visualization/gui/StyleStep.class
+SHA-256-Digest: 3gLBz0DQ7HarGDK7bfnPqylKp9/oDGPfVuHT4OamM10=
+
+Name: bin/repast/simphony/visualization/visualization2D/layout/TreeLayou
+ t2D.class
+SHA-256-Digest: bSEMKgEzlL0sLdVEybC5K1bHIyBAxknLM0jEWDgjT0Y=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/IconFactory2D.c
+ lass
+SHA-256-Digest: 7Zr6VLKSyxs6PX2X//dIdochDCR885oJEl6EaNTsIhI=
+
+Name: bin/repast/simphony/visualization/editor/GridAddHandler.class
+SHA-256-Digest: z4xFw6c5Kh6SV3arDom5B8cUJljlkdF1XZcwpwc2X5M=
+
+Name: bin/repast/simphony/visualization/engine/DisplayControllerActionIO
+ $DisplayActionLoader.class
+SHA-256-Digest: 8RwdRCe7BrG8Yl+bouyO4QPVmUtc4V2Zx/5EkRwK9Xw=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/EditedValueLaye
+ rStyleDialog$6.class
+SHA-256-Digest: S11KGvZAmHoj/tZ927mloI5TeXWmjYuSqO5MN6QKWig=
+
+Name: bin/repast/simphony/visualization/visualization3D/layout/FR3DLayou
+ t.class
+SHA-256-Digest: zUIl80oqpzgk7hXiX+pEK2CZWkFWY/I9Wm/E83ZacEM=
+
+Name: icons/add_group.png
+SHA-256-Digest: TkC69loC748kPjnqhY4LgX/LnSzShIFKF0p274qfNZ0=
+
+Name: bin/repast/simphony/visualization/engine/DisplayCreatorOGL2D.class
+SHA-256-Digest: oQEwM6LpJN70obcU9LibiDSx7qFftrI3cdUzlscTmqM=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/EditedStyleDial
+ og$15.class
+SHA-256-Digest: 7J2xDIsZtmi+7gpiCY9Nc2IEQzQEggBrBudqfIQEttA=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/EditedStyleDial
+ og$20.class
+SHA-256-Digest: DhXWYoJezqjH/VGwLGXjYDeTpD7foy7buGR4Oj3hOCc=
+
+Name: bin/repast/simphony/visualization/visualization3D/layout/FR3DLayou
+ t$FRVertexData.class
+SHA-256-Digest: 4bfAcMLOcqag0fGqwOLFYtwbiO/RovCa223+DCSWVr8=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/SimpleEditedEdg
+ eStyleDialog.class
+SHA-256-Digest: SVwX3H/tn3IvCXc0Uo7XmrTzP0d8ybYwBehs+HZlne8=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/EditedStyleDial
+ og$29.class
+SHA-256-Digest: a5dwrNcx2R+OcA+KD6Wv/sl1/Akhd4hpL+eT8X6aMe4=
+
+Name: bin/repast/simphony/visualization/editor/GridLocationToolTip.class
+SHA-256-Digest: Ogdavs4Dfng4s023fOP6bUQrQmfQCtP2jvFHizpKWR8=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/PreviewEdge2D.c
+ lass
+SHA-256-Digest: 8uvxMA1hQ6nmZD3mvPppYJZfGDRf+kbwPxCkZDqLXck=
+
+Name: bin/repast/simphony/visualization/continuous/Continuous3DProjectio
+ nDecorator.class
+SHA-256-Digest: Y6TJi57a18NEyc861N7fh5TiWf4oV/LB7hp/Gj7jpBM=
+
+Name: bin/repast/simphony/visualization/visualization3D/AbstractDisplay3
+ D$DummyValueDisplayLayer.class
+SHA-256-Digest: l+Q+Q1CZ1ShquLUvH2SDUFkKlD34i8YI8seA5JPYNYg=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/EditedStyleDial
+ og$16.class
+SHA-256-Digest: mCpYrVznVq0Ka7Kd3lP7xUF1jwQRjNiDOu1VpcOID8Y=
+
+Name: bin/repast/simphony/visualization/UnitSizeLayoutProperties.class
+SHA-256-Digest: xabp81mr9Hx2/yUAhm1fpVpQgMORcZnGfs4zwoX7KK4=
+
+Name: bin/repast/simphony/visualization/gui/AgentStyleTableModel.class
+SHA-256-Digest: zSBwDuACYvKQClmJLfH+7ceKBMpsdegQecbZ3orAIbU=
+
+Name: bin/repast/simphony/visualization/visualization2D/Display2D.class
+SHA-256-Digest: a1jkTk4bnn3LbNe2UvYsqJhwP1yX+pNuxF5Cd0S9NKM=
+
+Name: bin/repast/simphony/visualization/editor/space/Projected3DSpace.cl
+ ass
+SHA-256-Digest: euX72f1r7tnrik4L59wbBtsBBxTAzYCFeb4kZ6pSxWM=
+
+Name: bin/repast/simphony/visualization/visualization2D/layout/CircleLay
+ out2D.class
+SHA-256-Digest: MAJcl7dvYHb62Q6osp9zVP9lkWGxQHsJJUBv3Ps2F5Q=
+
+Name: bin/repast/simphony/visualization/editor/VizEditorForm$2.class
+SHA-256-Digest: 2Grko+mqfzmABEQebQn2LNh0E7yorzXROnh3OEsjqQ8=
+
+Name: licenses/repast-license.txt
+SHA-256-Digest: sgcGxHlhIfJK9mnMFOtvz0jBQxnJYR0r5EDSz4qPlYU=
+
+Name: bin/repast/simphony/visualization/gui/ValueLayerStep.class
+SHA-256-Digest: PWw+AiSVf/L2c7hrrPLVHw0rsQXccaLAYI4Z8mVpI3s=
+
+Name: bin/repast/simphony/visualizationOGL2D/DefaultEdgeStyleOGL2D.class
+SHA-256-Digest: fWp0gBtyMETt/e+RqBJfwi4W0nFmofeChTBqJyWHLdg=
+
+Name: bin/repast/simphony/visualization/cgd/util/ParseClanTree.class
+SHA-256-Digest: Qt1cvdOGkD03EfmKUJu9ckPydAOoFYrkZv5ideUmj0E=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/AbstractStyleDi
+ alog.class
+SHA-256-Digest: eufggsM9WmquIO8I3wdooqsTILzpHxOUxyW2Kbtsq6c=
+
+Name: bin/repast/simphony/visualization/decorator/DecoratorConstants.cla
+ ss
+SHA-256-Digest: 8XxZ/ETCg0IX8f2SJTkVnokTLeNOlTNU0I6lE7xWNcM=
+
+Name: bin/repast/simphony/visualization/gui/AgentSelectionPanel.class
+SHA-256-Digest: abbUIqlLqfLvYu9v0RNHKqc4nsRjvXvfardYs05bj+U=
+
+Name: bin/repast/simphony/visualization/editor/AgentEditor$9.class
+SHA-256-Digest: 6OksonAwjffcimfw8s6+SRIBAPxE0asTuooIfzVn/i8=
+
+Name: bin/repast/simphony/visualization/engine/VLStyleRegistrar3D.class
+SHA-256-Digest: UBgMPmT1uVwSlUSzWqI/3bnKvDDpkSBvm9k/LyGIlkw=
+
+Name: bin/repast/simphony/visualization/editor/AgentEditor$AddMenuAction
+ .class
+SHA-256-Digest: 4Y+2xi5v1Ihtk0FYDSb9HrNXm40lIzLHKgLRY69ojl8=
+
+Name: bin/repast/simphony/visualization/editedStyle/DefaultEditedValueLa
+ yerStyleData2D.class
+SHA-256-Digest: 7T5KahtvBdbmxGRjp/qOrycOgEbsS1VsreMZWquq5TU=
+
+Name: bin/repast/simphony/visualization/visualization2D/style/EdgeStyle2
+ D.class
+SHA-256-Digest: 1affztkpnSVuI/cDcZ3oPF2Xv1idI0JUAmDKQ1Waq6M=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/SimpleEditedEdg
+ eStyleDialog$15.class
+SHA-256-Digest: E4OpmmpfmMrw4xF/up5WwBtcz0hlkZ4rZWSuKR1ewAs=
+
+Name: bin/repast/simphony/visualization/gui/GeneralStep$1.class
+SHA-256-Digest: 5fo27ify5cK/cuSzhOJL4ChKqnou6LorpLTVDb+jVUk=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/EditedStyleDial
+ og$5.class
+SHA-256-Digest: yRIcRXjwHMgBagMwoMOfzy/9VKuzvp9Z1J9MZZ25QmU=
+
+Name: bin/repast/simphony/visualization/gui/GridStyleStep$2.class
+SHA-256-Digest: lh6QdL/AhwBfwdKgIaNhig7RRemP4qowMJvesPckAgY=
+
+Name: bin/repast/simphony/visualization/decorator/ProjectionDecorator3D.
+ class
+SHA-256-Digest: ONiM/dIlgIq902OCkcZTJ12qy1VAwjS9D5rDslfuHV8=
+
+Name: bin/repast/simphony/visualization/gui/AgentSelectionPanel$6.class
+SHA-256-Digest: GqIOFR8sVRNcSZPnqFIMG81c8+jDFt5UUv/Ju6mfbMY=
+
+Name: bin/repast/simphony/visualization/gui/AgentSelectionStep$AgentData
+ Renderer.class
+SHA-256-Digest: 0FcQVvDgovxu0Q2MVdsle+ydOniCW5DzSdghcLrhR/0=
+
+Name: bin/aragost/repast/visualization/UpdatableTexture2D.class
+SHA-256-Digest: cUtTNbNgZhe1hHmEDIPmgIgE40dSumx+eIgSkKJv3wQ=
+
+Name: bin/repast/simphony/visualizationOGL2D/ValueLayerStyleOGL.class
+SHA-256-Digest: p25ifs2iMZS+DjTXL6sVH1rm9+Xa0/PBaNBHRO2+gCg=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/EditedStyleDial
+ og$24.class
+SHA-256-Digest: QgM72xxKjiUwO6vLbdQa0wSMV3llzRikyj3lMwp09yQ=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/EditedStyleDial
+ og$30.class
+SHA-256-Digest: /z6y82Hf9YCgHliqEzGaSvvpVRoUWUOH0+qBLaGWMjo=
+
+Name: bin/repast/simphony/visualization/editor/SelectionHandler.class
+SHA-256-Digest: RJDjb9E87kaZREypwQx+oUZenBSH/5hs3ID+vQgNNe8=
+
+Name: bin/repast/simphony/visualization/visualization3D/VisualItem3D.cla
+ ss
+SHA-256-Digest: yh3ScPwTRSKXYqmJjOHN4XO7iVD2AcCrw7SrBXk6eP8=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/EditedStyleDial
+ og$11.class
+SHA-256-Digest: 5LxtAHQQNwFkSKvQ+eXI4B6NiO7r3xlSSIgzloZlCY8=
+
+Name: bin/repast/simphony/visualization/gui/AgentSelectionStep$2.class
+SHA-256-Digest: nlmHuOe2eUdkd8Qs4Z6ZNu6QLdSy7ashOusKyn/N2AA=
+
+Name: bin/repast/simphony/visualization/visualization3D/AbstractLabel.cl
+ ass
+SHA-256-Digest: q7zLXEEv/RaH/X3J2OCGThyet/2JpiaiZxEVf2935bQ=
+
+Name: bin/repast/simphony/visualization/AbstractDisplayData.class
+SHA-256-Digest: EE9/UKGGOrHwPX7ngr4F73H2RN/Al375gDy9ACj6xeQ=
+
+Name: bin/repast/simphony/visualizationOGL2D/StyledDisplayLayerOGL2D$Lab
+ elEntry.class
+SHA-256-Digest: C3LqfmKi7vPATvI7cmKlzYqgnPEOUdWlsAHu5U0RNZU=
+
+Name: bin/repast/simphony/visualization/editedStyle/EditedEdgeStyleOGL2D
+ .class
+SHA-256-Digest: oKJUH8SlADR7UylIlc6RAy+F0VNYn7INy7WATIL9osc=
+
+Name: bin/repast/simphony/visualizationOGL2D/SVGSpatialSource.class
+SHA-256-Digest: IB6lslG2aN7CwFz/zuRRT1RWFCVxSqUIrmbqpiqqSUY=
+
+Name: bin/repast/simphony/visualization/editedStyle/EditedEdgeStyle3D.cl
+ ass
+SHA-256-Digest: d5JkiTZ8Yg72qJglww4l7UEkGozOinEFTTWzKpRybSg=
+
+Name: bin/repast/simphony/visualization/engine/BoundingBox.class
+SHA-256-Digest: uyC1a20FGDtVbjCLk+DV6Lqb5iDSk10CWNBQ2zZzqQI=
+
+Name: bin/repast/simphony/visualization/editedStyle/EditedStyleUtils$1.c
+ lass
+SHA-256-Digest: CAqUM2a0QkPwk9V8vJg4ibVpdZjpx5QBigpmLkoe2Fc=
+
+Name: bin/repast/simphony/visualization/grid/Grid3DLayout$Locator2D.clas
+ s
+SHA-256-Digest: DYhPgTdlcAulseWigPZ9P/99Pugrvlo5wE/lFkuwELQ=
+
+Name: bin/repast/simphony/visualization/engine/DisplayCreatorOGL2D$2.cla
+ ss
+SHA-256-Digest: 4ARaVThsmJr2A6H5T/iKXfifAK7ORQ0SeI24A2qmkf4=
+
+Name: bin/repast/simphony/visualization/editor/NetMoveHandler.class
+SHA-256-Digest: c0TiFi6qMJ5VGEBPy86FRPrHZRozMkUvQrqj4zKbgF8=
+
+Name: bin/repast/simphony/visualization/visualization3D/style/DefaultSty
+ le3D.class
+SHA-256-Digest: h3ouXZPC8yZ+Fnq5mDNINpVyrpGkCu+VWU7omJ0T6n8=
+
+Name: icons/edit.png
+SHA-256-Digest: Bs74ks6MxgLqzQLI2H9bk4J943zOYohZn4hcnMXCETI=
+
+Name: bin/repast/simphony/visualization/network/EdgeVisualItem.class
+SHA-256-Digest: LklmNFRWGXbNyjbgLyJ5Qe5Z+qgO5SnzymGqKlQBmDk=
+
+Name: bin/repast/simphony/visualization/editedStyle/PaintableStyleData.c
+ lass
+SHA-256-Digest: t6eWe3zLYsapczFys/cnXpHsRN+gtqxYXtZV1aYKrP8=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/PreviewIcon2D.c
+ lass
+SHA-256-Digest: vpVVbfGQhYyib2s7r78rx0NFZCqVb6/qICTNWK0zuAA=
+
+Name: icons/search.png
+SHA-256-Digest: dX8i3u+qv8y5Q2xOVVgD9KtOrDjszbs8Q06wWrz62s4=
+
+Name: bin/repast/simphony/visualization/LayoutUpdater$Condition.class
+SHA-256-Digest: Q2JtNGJ6epI9EX4n6QhG/I/SA04nnSvwOGO+w2K1kjo=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/EditedStyleDial
+ og$32.class
+SHA-256-Digest: FQwQ0ssSJ+YL2UhPJw8hKc6z5DxIWEVClJg2gakjOq4=
+
+Name: bin/repast/simphony/visualization/continuous/Continuous2DProjectio
+ nDecorator.class
+SHA-256-Digest: yYK0s8zEbcj7h7Y6ZdQHusKV+/zhbid5pf47wCrlTtU=
+
+Name: bin/repast/simphony/visualization/editedStyle/EditedStyle2D.class
+SHA-256-Digest: uhGUzHvbOH0Ffyvmuqrl1iyszyrSI+C0FwKYagpYSUQ=
+
+Name: bin/repast/simphony/visualization/editor/GridMoveHandler.class
+SHA-256-Digest: DAmzJaTpoCnLn5h8ZHVjsFE8skkRcn7En5oaiej5ypo=
+
+Name: bin/repast/simphony/visualization/editor/GridAddListener.class
+SHA-256-Digest: mjjuk5QdGKVvOU8PeFTC1l0IRbcjVERl9EvQlwaok38=
+
+Name: bin/repast/simphony/visualization/engine/DisplayCreationException.
+ class
+SHA-256-Digest: pLbEaOL8soL270r3gCekIC9iZpporqgyMS1qIQMJTv8=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/SimpleEditedEdg
+ eStyleDialog$5.class
+SHA-256-Digest: lEO/3ioYq6Gb2J57yONim5eYKMP24bRdpAFYWi2b3JE=
+
+Name: bin/repast/simphony/visualization/gui/AgentSelectionPanel$1.class
+SHA-256-Digest: P+yRE/k70cPbueIp9Ef/lHycem3GzuDndapqKJiaoJg=
+
+Name: bin/repast/simphony/visualization/editor/FloatingList.class
+SHA-256-Digest: MVRvISGYIUq1l6zEsQ/Jz+IMjUTruTQErVT29ffNVI8=
+
+Name: bin/repast/simphony/visualizationOGL2D/StyleOGL2D.class
+SHA-256-Digest: RwLcZpwxjhJHSnf1KPSMkK67i4mbI1etaNkmxBWeT4U=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/SimpleEditedEdg
+ eStyleDialog$13.class
+SHA-256-Digest: UDmOJSk2rCLGX0sXc91lCWI/KoPfIwDu3x/Xp3gPnMg=
+
+Name: bin/repast/simphony/visualization/editor/SpaceAddListener.class
+SHA-256-Digest: 7tG0otVajdc3/pGwytigIqHDT2CjsgrySROWJ6iPU/Q=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/EditedValueLaye
+ rStyleDialog$2.class
+SHA-256-Digest: muX5qKroHBi+zoqHQtoxumThPUg5b3ULXevOtkUKbNI=
+
+Name: bin/repast/simphony/visualization/visualization3D/AppearanceFactor
+ y.class
+SHA-256-Digest: V12X5FCiVHrZhFK+74r9ADH/tH4zmJNWibjOtk23mjU=
+
+Name: bin/repast/simphony/visualizationOGL2D/StyledDisplayLayerOGL2D.cla
+ ss
+SHA-256-Digest: fU0V+CAa5C00J0uHHuLBQn71hpbfkstvmFk49m62v64=
+
+Name: bin/repast/simphony/visualization/engine/DisplayCreator2D$3.class
+SHA-256-Digest: GbtXG/nni5U+/12ja/v4TAeSS1m0L9RE9lR8dSqEBAw=
+
+Name: bin/repast/simphony/visualization/engine/DefaultDisplayDescriptor.
+ class
+SHA-256-Digest: BAr3jp4KPJxiZZ4HwjdnfIZJi0E4E9u4DBK63IT8abU=
+
+Name: bin/repast/simphony/visualization/gui/AgentSelectionPanel$4.class
+SHA-256-Digest: M2KZFbaeK50rCf3AycA5IbTWIShWz/kaHGp9e/VKyLg=
+
+Name: bin/repast/simphony/visualization/continuous/ContinuousDecorator.c
+ lass
+SHA-256-Digest: Z4YtjwF5hZjhZoM2semlxsminMpM7w5RJkMvDlBcx34=
+
+Name: bin/repast/simphony/visualization/visualization3D/MouseZoom.class
+SHA-256-Digest: 3CAaBIXIJy/h/mhYgMpwJT98PP9/nEw2xNJqC8IVXKg=
+
+Name: bin/repast/simphony/visualization/engine/AbstractCartesianDisplayC
+ reator.class
+SHA-256-Digest: kuYz3ioMynz4Edlu9ICOxJSzQm05lBQFyCgn9ge3vlc=
+
+Name: bin/repast/simphony/visualization/gui/ContinuousStyleStep$2.class
+SHA-256-Digest: O5CaLDlR+BCKdfSzlrVivvVqia110VJAVlKlTTNZ5es=
+
+Name: bin/repast/simphony/visualization/visualization3D/MeshGridGeometry
+ .class
+SHA-256-Digest: fnPEzgnYczMacTVY7NLmr6YElMgyifr8tgogNrv5pKE=
+
+Name: bin/repast/simphony/visualization/visualization3D/AbstractDisplay3
+ D$1.class
+SHA-256-Digest: avr3CWAuM41Lcmey64+c4yXgrKxftYYulG6GNsBSbUI=
+
+Name: bin/repast/simphony/visualization/gui/DisplayConfigurationWizard$4
+ .class
+SHA-256-Digest: s4ZGm73BmYeNmuBnVOhii9A6buyQgTqjMxtL7sRLax8=
+
+Name: bin/repast/simphony/visualization/editor/DisplayEditor.class
+SHA-256-Digest: S1WAqR4Sduzh04jXrhIMZXJHJeM5E0k3cbAuTorBaho=
+
+Name: bin/repast/simphony/visualization/visualization3D/layout/Random3DL
+ ayout.class
+SHA-256-Digest: FQ/P3CgO2jZ096+piyJQxlVNBJGrNAQl+Gsl4vvyU4U=
+
+Name: bin/repast/simphony/visualization/grid/Grid3DLayout$Locator3D.clas
+ s
+SHA-256-Digest: F91ZY0bT71bfJhBiXCTjUqcnPoi3mbsEntYht9e/gec=
+
+Name: icons/edit_add.png
+SHA-256-Digest: lvEbgbFv29dm8EHjPrpCw/MuACggUjeJJvlkXJbRXx0=
+
+Name: icons/edit_remove.png
+SHA-256-Digest: TY0zf8PYoB6x2FEke1QxQZR7ZaOa41Km5lnyl2TgJLk=
+
+Name: bin/repast/simphony/visualization/editor/NetAddListener$TmpLayout.
+ class
+SHA-256-Digest: sDS2nhflTKkQmss/VCsxpOAjaufdcawtdJQU++unq/s=
+
+Name: bin/repast/simphony/visualization/gui/StyleClassStep.class
+SHA-256-Digest: lc0Ed506mSyQVo0S1+EseZ8HBrm5O21cEcPmggJdIdY=
+
+Name: bin/repast/simphony/visualization/visualization2D/ImageLoader.clas
+ s
+SHA-256-Digest: hU2JIrFvXh1jmoKJ2L/gWP/aSi8pRXE5Dc8XWeqvIH8=
+
+Name: bin/repast/simphony/visualization/editor/AddListener.class
+SHA-256-Digest: eky4jiaIbPA8yQ4VrZSdTsDZ4oVZEEPmwPjxmfxFaK0=
+
+Name: bin/repast/simphony/visualization/network/DirectedEdgeVisualItem.c
+ lass
+SHA-256-Digest: rjVkvIDHUGJ7TAowTBoI4zMHR7qf6vDN0zZ9A/DFCWg=
+
+Name: icons/add_user.png
+SHA-256-Digest: gZgHhALiGNZVcJwjsiN4CGy4eVuigTSyFlzyotkOQNg=
+
+Name: bin/repast/simphony/visualization/engine/StyleRegistrar$Registrar.
+ class
+SHA-256-Digest: YNRZrvIdJxIWVvU4AJQIFnCiJz19qc7akf1lyBpV2gA=
+
+Name: icons/wms2.png
+SHA-256-Digest: SC+Lqj4uAO0P+FSsAGsrZSejCTdnT86Ecmb81SAsUGw=
+
+Name: bin/repast/simphony/visualization/visualization3D/DataGeometryUpda
+ ter.class
+SHA-256-Digest: 8hTA7di3ao/raAyoNp3DI3pn72q5OCW9TwjY8UdAX0Q=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/ModelFile3DFilt
+ er.class
+SHA-256-Digest: RKTO9GNcPk9eYLl4XtMDmgm6ILQIIKxy2p8zYJu6pZ8=
+
+Name: bin/repast/simphony/visualization/visualization2D/Display2D$Update
+ r.class
+SHA-256-Digest: PMe2XRkIR+wtfCbQeQOLIA2CXufdlKVk0seusckeCwI=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/EditedStyleDial
+ og$27.class
+SHA-256-Digest: HTN0ZQqdqdnvk9D7mLaUJRULuXoKDvFccXObSiF1he4=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/SimpleEditedEdg
+ eStyleDialog$3.class
+SHA-256-Digest: ltajJBWzXaCqY1hYLmuOEKZcPUcEWgr1VMLuEHwODAI=
+
+Name: bin/repast/simphony/visualization/cgd/graph/GraphUtil.class
+SHA-256-Digest: 1dE94YLSRdBQNB+z2AwPWFFHQDgE8A/r7uxNxIzkYiA=
+
+Name: bin/repast/simphony/visualization/visualization3D/Canvas3DListener
+ .class
+SHA-256-Digest: 2ONxLUHMSjuad61H/8MxFl+cVFnLI9HPBPUIy58ENIQ=
+
+Name: bin/repast/simphony/visualization/visualization3D/layout/JungRadiu
+ sGraphElementAccessor.class
+SHA-256-Digest: 85Mnxiyz0tiEcvWlSw56vQhsApM+ybp8ZM1j55IYYQw=
+
+Name: bin/repast/simphony/visualization/editor/VizEditorForm$ButtonListe
+ ner.class
+SHA-256-Digest: NQa3J7RJxxrhFFQPUUg31URZGHqOUutD8sixvYWa/yM=
+
+Name: bin/repast/simphony/visualizationOGL2D/DisplayOGL2D$ImageablePanel
+ .class
+SHA-256-Digest: 2jPngTetvidFA1AW52Lm1RrptK2e/FW0mVIYo0wpKmo=
+
+Name: bin/repast/simphony/visualization/gui/StyleTableModel.class
+SHA-256-Digest: Feoj4WxrBJx1JLsnw19N3FttodNtyEZRPKaS0/wlw10=
+
+Name: bin/repast/simphony/visualization/editor/NetAddListener.class
+SHA-256-Digest: ci6FVer5mQaC3sN+YPnM8H6iDAQpV1P2SCAOlQmUKmo=
+
+Name: bin/repast/simphony/visualization/visualization3D/Display3D$2.clas
+ s
+SHA-256-Digest: cP+Qi9fqOJhp3oFvzOa/kV5mLaChdkIxZXf6EujtHBg=
+
+Name: bin/repast/simphony/visualization/visualization3D/MouseRotate.clas
+ s
+SHA-256-Digest: LLiBtwfO4fkTM915mupFYozt1+vL+pMIeKorQLclICs=
+
+Name: bin/repast/simphony/visualization/editor/SyntheticDisplayData.clas
+ s
+SHA-256-Digest: 89eBb4owFG298jO9G+ETLb1AlxkSKOdNhaOHvxJRUa0=
+
+Name: bin/repast/simphony/visualization/engine/BasicDisplayDescriptor.cl
+ ass
+SHA-256-Digest: tcmlcWr9PpdJ4d/Mz9JEpXidTENfdAwzF3NR7MtYgpg=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/SimpleEditedEdg
+ eStyleDialog$10.class
+SHA-256-Digest: Q1zHL2WYa4Fd/US9VGm9ZuJm9myuup28ClQoxqw1O+U=
+
+Name: bin/repast/simphony/visualization/visualization3D/Transformer.clas
+ s
+SHA-256-Digest: Puhe7iiZBFyEE4QWRY6+NMgM7yqbGHNP2KkAZ33nTHM=
+
+Name: bin/repast/simphony/visualization/cgd/graph/CGDEdge.class
+SHA-256-Digest: TD0U8Cu+d7reyMqnwg6bJ0p4N8PCz7tC01K5m6QAxSA=
+
+Name: bin/repast/simphony/visualization/gui/DisplayConfigurationWizard$2
+ .class
+SHA-256-Digest: neVIGCl6yBcrmwX1bYpMWwTihut1JMDFy6nPOgeJseM=
+
+Name: bin/repast/simphony/visualization/visualization2D/style/DefaultSty
+ le2D.class
+SHA-256-Digest: FlotN2dch05OKaLQDSsdi2M/bm1yqlsPOJaSXxNAO0I=
+
+Name: bin/repast/simphony/visualization/visualization2D/layout/JungLayou
+ t.class
+SHA-256-Digest: /2oQyL32CUj1xu25MvraluwkiDANXkBVlcCQv+p9S5k=
+
+Name: bin/repast/simphony/visualization/gui/DisplayConfigurationWizard$5
+ .class
+SHA-256-Digest: 8bwzBapaDv+IJfVmPP/5TfBXf1DU3TTvHKGFa4eJjhY=
+
+Name: bin/repast/simphony/visualization/editedStyle/SizeableStyleData.cl
+ ass
+SHA-256-Digest: /CrsCA2X0X1k5lw7e1avnkKMAHsor3PQiNff3PBuDrM=
+
+Name: bin/repast/simphony/visualization/gui/DisplayWizardModel.class
+SHA-256-Digest: a3rAJbX2xB5ZUm3oP76Uut0G6axqMJMy6l5YRXms4ro=
+
+Name: bin/repast/simphony/visualizationOGL2D/DisplayOGL2D$2.class
+SHA-256-Digest: rfy3mzi1Gx38Qx0j9Lc4g0BZj2ScaMCj3YXXm2HdctQ=
+
+Name: icons/up.png
+SHA-256-Digest: C5HYUPhlX5MA5f+RJ+Mf9gVERCx4Qh8r7MOdxf6psnY=
+
+Name: bin/repast/simphony/visualization/gui/EdgeStyleStep$1.class
+SHA-256-Digest: 5NMnMaJhNVhaCSYfddDlpXdoWTll9o/DG1snc5nogJA=
+
+Name: bin/repast/simphony/visualization/AbstractDisplay.class
+SHA-256-Digest: Rkp7kvj/PJQT0ZtpBmU1Cbd5R2suw7pPi8DghDCIGqk=
+
+Name: bin/repast/simphony/visualization/engine/StyleRegistrarOGL2D.class
+SHA-256-Digest: DVjGLL/WWyEiiwYurFiq9pEQVH8X62fxOlyVVSCudHY=
+
+Name: bin/repast/simphony/visualization/IntervalLayoutUpdater.class
+SHA-256-Digest: LokSmrot8l3gW2CiODAu3D7fAvucw0cXsFa1GlBo+uE=
+
+Name: bin/repast/simphony/visualization/grid/Grid3DProjectionDecorator.c
+ lass
+SHA-256-Digest: ovLwwibmYO02xVBIMybVMjAUAEgiUpDvu8Fl5pqYhOU=
+
+Name: bin/repast/simphony/visualizationOGL2D/AbstractDisplayLayerOGL2D.c
+ lass
+SHA-256-Digest: RUgObM/nGUGTLO9sgyOnq1Gn4gHU3ok1KXUi984kW9Y=
+
+Name: bin/repast/simphony/visualization/gui/DisplayActionUI.class
+SHA-256-Digest: Fn7oqAFOlQEjtNphDi/rcV0Q/i7ZrxjjtDefDqHF6Ug=
+
+Name: licenses/lgpl-2.1.txt
+SHA-256-Digest: xP+x0Prgr/bOL8Fz8J+dPdnlcxIXzFyGw+pUJEUeh1A=
+
+Name: bin/repast/simphony/visualization/visualization3D/layout/JungVerte
+ xLocationFunction.class
+SHA-256-Digest: Yo6NbsiZxs6hTZ4R5uOF1Q/nf3nMGF3iK5eyWKI/+DY=
+
+Name: icons/plus.png
+SHA-256-Digest: ZnMpSwo3GhvVEjgeXQqf5/6g2MKNvkdswxvf+26XUlM=
+
+Name: bin/repast/simphony/visualization/editedStyle/EditedStyleUtils$3.c
+ lass
+SHA-256-Digest: GZF04diZwT1Hx3CbJHE7X0JX0DwJq4DpOKP7cIgVdZw=
+
+Name: bin/repast/simphony/visualization/editor/EditorEvent.class
+SHA-256-Digest: DuKhRqzOxROUyMA4SKETBV4BBHjUgvwxTRoT/WcLUwo=
+
+Name: bin/repast/simphony/visualization/visualization2D/Random2DLayout.c
+ lass
+SHA-256-Digest: H4SR4mrJNrI6W/GYXgTcwdeuhqW4xGeseUBhhBwsr70=
+
+Name: bin/repast/simphony/visualization/visualization3D/Label.class
+SHA-256-Digest: IgctEzmw0uS8qTDcOpMRCbEjiOBvOql8OAPyXPTF3N0=
+
+Name: bin/repast/simphony/visualization/editor/DisplayEditor3D.class
+SHA-256-Digest: 3mhROFXuPGP7C/bZ6k0eIEoaCIlsG9plGn0EFaqQawI=
+
+Name: bin/repast/simphony/visualization/gui/StyleClassFinder.class
+SHA-256-Digest: 9PSXx2zvhe+yBbZPu4Zc1ntRey2S8/l80+/zOzw/S6M=
+
+Name: bin/repast/simphony/visualization/gui/ValueLayerStep$editBtnListen
+ er.class
+SHA-256-Digest: OXhCh2aS5pPK38MXULaulJCzHtYDjXLlXb0MutaFfXI=
+
+Name: icons/back.png
+SHA-256-Digest: ldryJ/EBw24aB3joMrifaD4iWgJRHf/OxPqfzNEdb3U=
+
+Name: bin/repast/simphony/visualization/visualization2D/Display2D$3.clas
+ s
+SHA-256-Digest: WosMM5Wm3Jt8/JyRP49Aw4+56Gh2Fy8ROkhS0VRh6HY=
+
+Name: bin/repast/simphony/visualization/editedStyle/DefaultEditedStyleDa
+ ta3D.class
+SHA-256-Digest: rp2ipwqRWk1O+4flXIS6RXji7Gn4jmSCQlhqTZnNRY4=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/SimpleEditedEdg
+ eStyleDialog$12.class
+SHA-256-Digest: ia9FwEH0VGi+C1pwMxnysbJEGxxQZxm7AQYsgfe1VwQ=
+
+Name: bin/repast/simphony/visualizationOGL2D/SpatialSource.class
+SHA-256-Digest: NQigpVYh15/OgoOVPnWQhl0A3+oewqu/myUYTqogEbY=
+
+Name: bin/repast/simphony/visualization/visualization3D/style/ValueLayer
+ Style3D.class
+SHA-256-Digest: J6hlc+3uNNw4LJCEtiHDKZZS7nABZ4419awGLRGE22s=
+
+Name: bin/repast/simphony/visualization/editor/AgentEditor$6.class
+SHA-256-Digest: UnswBu5nLtCApP2oVUv1HSsOu/Am1LBGgyVIevmf2Zo=
+
+Name: bin/repast/simphony/visualizationOGL2D/DefaultStyleOGL2D.class
+SHA-256-Digest: KDM+oVTd4pr0q5zcVQuJnKhWVle4ZW2UDrHHauB3V4Y=
+
+Name: bin/repast/simphony/visualizationOGL2D/NamedSpatialSoure.class
+SHA-256-Digest: pQWU57v6An7aYEivZMr9j13NIdD196t/AmRzMI0wLP4=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/EditedStyleDial
+ og$33.class
+SHA-256-Digest: GuKSHW0ZOHAdkk8pwiqVjEtoilcI8Oz+USNxSATuN/g=
+
+Name: bin/repast/simphony/visualization/editor/AgentCloner.class
+SHA-256-Digest: dU5n4LMB8VyP9Q/vsLrVB7DCPOV1UX/ypqvzUxzhTu0=
+
+Name: bin/repast/simphony/visualization/editor/SelectionHandler$NodeFilt
+ er.class
+SHA-256-Digest: 4KxkSUFE22r0TQqniVZxpLlxLFD0lHSW1KL2FY/RF3A=
+
+Name: bin/repast/simphony/visualization/gui/ContinuousStyleStep.class
+SHA-256-Digest: Ln1W+OnyOdoooK+5BqlT2Kh13/Y4KxTcmVMZdsMQft0=
+
+Name: bin/repast/simphony/visualization/engine/CartesianDisplayDescripto
+ r.class
+SHA-256-Digest: mAEyeM8fI7OK3Ykln/KgdLMmj+srbhZjcDYGXEorj3A=
+
+Name: bin/repast/simphony/visualization/visualization2D/style/DefaultVal
+ ueLayerStyle.class
+SHA-256-Digest: OS24llSD0SllqpCXHErtpritG5spmvJue39TezXPAC4=
+
+Name: bin/repast/simphony/visualization/visualization3D/layout/GEM3DLayo
+ ut$VertexData.class
+SHA-256-Digest: oYqgbleT/Z5XL9ubhlteu3z1itD+tC3sQAbaW43t1fE=
+
+Name: bin/repast/simphony/visualization/visualization3D/DataGeometry.cla
+ ss
+SHA-256-Digest: AtVHdNe23oNs2zMVuWVe6mSOYTOjg69HOgOtZbWoptU=
+
+Name: bin/repast/simphony/visualization/visualization3D/layout/GEM3DLayo
+ ut.class
+SHA-256-Digest: alKRpiEM1InG3LKju9EkEiTv0LIT3p/YIlTCsgIC78U=
+
+Name: bin/repast/simphony/visualization/editedStyle/EditedStyleData.clas
+ s
+SHA-256-Digest: oxjAsEfiB1rbBz5xsc51t4pm50+fVw5JGggjDWs/PB0=
+
+Name: bin/repast/simphony/visualization/NullLayout.class
+SHA-256-Digest: HbfxzSHuE7dA+Vlqg/2cUDldB2+cQzczC28mRcfI6p8=
+
+Name: bin/repast/simphony/visualization/gui/EdgeStyleStep$ListElement.cl
+ ass
+SHA-256-Digest: mF8ENFvoz9hc42G/rbhVq+VtAo5H5Qlvpnce2kDGlGA=
+
+Name: bin/repast/simphony/visualization/engine/NetworkStyleRegistrarOGL2
+ D.class
+SHA-256-Digest: Lgw7YLpI2gby8mNZuFSGweFEdNMbsZiHBjacWPt9iDY=
+
+Name: bin/repast/simphony/visualization/editor/FloatingList$CellRenderer
+ .class
+SHA-256-Digest: Q67JkUNzCZSA+W2dzKUX4hQNh6xTbpRSmDalfvwM/JI=
+
+Name: plugin_jpf.xml
+SHA-256-Digest: 8hXP1KY5ZndchEzh+vxtgXjODfZIeOFnG/hJwv3fXMc=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/PreviewIcon3D.c
+ lass
+SHA-256-Digest: 5ziLq9kTCxEWpj+NhPwqqCbbgpQsu74Vo1JeRQMnQa0=
+
+Name: bin/repast/simphony/visualization/visualization2D/layout/ISOMLayou
+ t2D.class
+SHA-256-Digest: om1RxE25SZdAW99btVZheUMF92snkw3lOioej81DRnU=
+
+Name: bin/repast/simphony/visualization/visualization3D/BehaviorTracker.
+ class
+SHA-256-Digest: tDnZwGHVtK0HYd89QZ0m0qD2SZ5fDr+nieJ35+PnLjQ=
+
+Name: bin/repast/simphony/visualization/visualization3D/layout/Dimension
+ Local.class
+SHA-256-Digest: DGRfftANh5oG3mQYeUGIpLUdAoOaWUeLYXlb1P6UJXk=
+
+Name: bin/repast/simphony/visualization/editor/SpaceAddHandler.class
+SHA-256-Digest: WZkUsQCv2Fh4/sYJAYFdC0+h/cTZQd3Rswxd8p6rDUk=
+
+Name: bin/repast/simphony/visualization/engine/DefaultDisplayDescriptorC
+ onverter.class
+SHA-256-Digest: WQTzLeJv2rCBqjQfjclVHwYcD11fsw8NaGEZXJxAdjg=
+
+Name: bin/repast/simphony/visualizationOGL2D/EdgeStyleOGL2D.class
+SHA-256-Digest: fYUKWMsn78EiFUcUKWD2v0G/w51q56li/eMt7v97sms=
+
+Name: bin/repast/simphony/visualization/visualization3D/AbstractDisplay3
+ D$ImageablePanel.class
+SHA-256-Digest: LdcfMe8FOfFyh9QaA/i1TFVoQ+UxzHIu2UrDxXzoDPM=
+
+Name: bin/repast/simphony/visualization/visualization2D/StyledDisplayLay
+ er2D.class
+SHA-256-Digest: g111J1UbMIRmfWRg84b3NceC5Oxw4lI6s7KZ9j5Duyc=
+
+Name: bin/repast/simphony/visualization/gui/EdgeStyleStep$2.class
+SHA-256-Digest: 56Rh9TQWswWron0DgBWQCuKxFUJReFURqcMYxRnJ2+A=
+
+Name: bin/repast/simphony/visualization/visualization3D/layout/JungRando
+ mVertexLocationDecorator.class
+SHA-256-Digest: c6AjqNgxPziEgbSq/zBtjUNLAI7N+IiQk+jOoJNLW3Y=
+
+Name: bin/repast/simphony/visualization/engine/DisplayCreator3D.class
+SHA-256-Digest: 2VCSaoGE1TI4EfJaXuttsxYPPOgI0D4BJDlyDnHhYwg=
+
+Name: bin/repast/simphony/visualizationOGL2D/DisplayOGL2D$1.class
+SHA-256-Digest: wzskYd8Bg41jULs5AgHBNYcIxetEVJ8/I+7VkmuSAvc=
+
+Name: bin/repast/simphony/visualization/editor/PNodeSelector.class
+SHA-256-Digest: btjBaBNPPuqxC0Vci7ZgWpZKnmqRYNKGwtRmKiKU6EU=
+
+Name: bin/repast/simphony/visualization/continuous/ContinuousProjectionD
+ escriptor.class
+SHA-256-Digest: tyhluAKw0DSYsF6bJ7YXxqwYuibZMHW4nj6OxgiASSM=
+
+Name: bin/repast/simphony/visualization/gui/DisplayConfigurationWizard$6
+ .class
+SHA-256-Digest: Bj6c+P2IYdQc2qXrQ5BPKhuSEVCq2QUtkyoYFMlGFPE=
+
+Name: bin/repast/simphony/visualization/visualization2D/ArbitraryLayout.
+ class
+SHA-256-Digest: rFvsa4KsGox3iVyJacSPwotmWyRlz/wd+SaVpJXfjx8=
+
+Name: bin/repast/simphony/visualization/visualization3D/style/EdgeStyle3
+ D$EdgeType.class
+SHA-256-Digest: n+YZlmyn2Jc8JWvBFERfq2CnkHYnrsIoNxyzWNW63lk=
+
+Name: bin/repast/simphony/visualization/editor/AgentEditor$1.class
+SHA-256-Digest: q1wl/D+DBz7bF0TcCSKU3Kb/W+Qbtobt/j0ANJ6vcT8=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/SimpleEditedEdg
+ eStyleDialog$1.class
+SHA-256-Digest: ofRb2PUBIGY6kqBTILAM1uJaX4sR0DRltQ0vI3Bo5/g=
+
+Name: bin/repast/simphony/visualizationOGL2D/NetworkLayerOGL2D.class
+SHA-256-Digest: 0cxeYaJtz71hcKOQByMVxAAr6reJ/TLWNiLAmSlWOTI=
+
+Name: bin/repast/simphony/visualizationOGL2D/SpatialWrapper.class
+SHA-256-Digest: Ad2xWg1/rmoeCRV2HHTJmdSe2/0EE4iK/C2XgrCuKUc=
+
+Name: icons/agent_down.png
+SHA-256-Digest: hdmyLH9JSCtVSF8fNRO/L9RR5bIK/llg39VELdA3O1s=
+
+Name: bin/repast/simphony/visualization/editedStyle/DefaultEditedValueLa
+ yerStyleData3D.class
+SHA-256-Digest: JGOVJs+plnlabQd0jykWFqQoTl4IlZuH+OWwIl/VN3E=
+
+Name: bin/repast/simphony/visualization/visualization2D/Display2D$2.clas
+ s
+SHA-256-Digest: 44tL+2a/zfri1WXZrOxf8rnP/clatobiF436AKpFUpY=
+
+Name: bin/repast/simphony/visualization/editor/AgentEditor$7.class
+SHA-256-Digest: 510oyPub5GyX3TUx9WHBXMF/U11aZNo/g9ELIJ1vmmE=
+
+Name: bin/repast/simphony/visualization/editor/NetAddListener$NetAddHand
+ ler.class
+SHA-256-Digest: ouFS/F3Yry9nz549ER8d7Yyspvbw1YFF5skj910LoNg=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/SimpleEditedEdg
+ eStyleDialog$16.class
+SHA-256-Digest: /PSbsFq+3iNffO4riVw8YCLwwJvoSpdMqG23mpxWEMo=
+
+Name: bin/repast/simphony/visualization/grid/GridProjectionDescriptor.cl
+ ass
+SHA-256-Digest: HrB4HHXxsIaGye3ksP4jKqdzE1slzkTkCGmorp+6NEM=
+
+Name: bin/repast/simphony/visualization/visualization3D/IDisplayLayer3D.
+ class
+SHA-256-Digest: kMs8/Z9uNtONpjEClKoIQnEeGWCT6U2J9yXjZby6iyw=
+
+Name: bin/repast/simphony/visualization/engine/NetworkStyleRegistrar2D.c
+ lass
+SHA-256-Digest: VWVHMJW4EYSG9o7SHDTDBndKW51nAXj717GuOfLOSw0=
+
+Name: bin/repast/simphony/visualization/engine/NetworkStyleRegistrar3D.c
+ lass
+SHA-256-Digest: xRosucYgk8RZjnzccHbnVTg4bojnGj+aF0jOqFi4b3s=
+
+Name: icons/wms.png
+SHA-256-Digest: zceWZc2JnfBgLgGwqDCQLnmQf1tVss23iiGM1gUFl6E=
+
+Name: bin/repast/simphony/visualizationOGL2D/ValueLayerStyleOGL$Shading.
+ class
+SHA-256-Digest: eY8fGR0nCgPvRDZymU1KOLucmmCT+91kIneiiXlp6Iw=
+
+Name: bin/repast/simphony/visualization/engine/ValueLayerDescriptor.clas
+ s
+SHA-256-Digest: cFZmGYrWpizBqx6HuskH2vI/Rc8ZCdypYXX0c+39TuU=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/PreviewIcon.cla
+ ss
+SHA-256-Digest: IwsuNvppd2Y/goNoBCgIKFVqJsp7VUvstWytzs+riaY=
+
+Name: bin/repast/simphony/visualization/visualization2D/RepastCanvas2D.c
+ lass
+SHA-256-Digest: rGcPrjAla+u6nQTMHs6QuGnySYEi+HyxYfMaOb6OjXg=
+
+Name: bin/repast/simphony/visualization/engine/DisplayComponentControlle
+ rAction.class
+SHA-256-Digest: TGCw63qGEFVDkHxzDX2kTZ9T4JRtja6VgppykbQlrto=
+
+Name: icons/3d_smiley.png
+SHA-256-Digest: ul/EGn2hs6TZFZ7syzYDhb85mvqcs9+/c0mAKByuHp8=
+
+Name: bin/repast/simphony/visualization/visualization2D/layout/IterableL
+ ayout.class
+SHA-256-Digest: CT8i0uQb34qfk1T/J1an4kjqscVkvomk2ML6XcLs+mM=
+
+Name: bin/repast/simphony/visualization/editedStyle/EditedStyle3D.class
+SHA-256-Digest: kscC4yx3TCBwGzYE/HEVxLYAD40ARTsM7QhZCQZ0qQM=
+
+Name: bin/repast/simphony/visualization/engine/DisplayValidator.class
+SHA-256-Digest: bDRx9VQ8IuKi6IiSUhb60LT4kDsYnXQgoqNagXO/jts=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/SimpleEditedEdg
+ eStyleDialog$19.class
+SHA-256-Digest: tHSdZEuQ6LAnFM4JREkz+OAvUWi1ThAkVElhSiyHGV4=
+
+Name: bin/repast/simphony/visualization/gui/DisplayConfigurationWizard.c
+ lass
+SHA-256-Digest: Qgr4w9e1ply5uMrrkk+VvvUVOMSwyA9cBY9rBoavVpE=
+
+Name: bin/repast/simphony/visualization/gui/DefaultDisplayMenuItem.class
+SHA-256-Digest: /1mlgFqJlY4s6Jlj1c+Xvjlty6imwx1MX277GB0oAb4=
+
+Name: licenses/jung-license.txt
+SHA-256-Digest: BFoxi0StVEBvLY9aZwV6FYzhC7Q3mK4lRzqHmhEFs8E=
+
+Name: bin/repast/simphony/visualization/cgd/util/Clan.class
+SHA-256-Digest: sywH9nCqIVKPSw2ay8gnE//+FOUGH5P9KArmsr9cY0o=
+
+Name: bin/repast/simphony/visualization/editedStyle/EditedEdgeStyle2D.cl
+ ass
+SHA-256-Digest: DV2/Ta303yvtN/Y0Ckmqq2xYJZmTuJQs5Owb4f4gWjE=
+
+Name: bin/repast/simphony/visualization/gui/AgentSelectionStep.class
+SHA-256-Digest: 2EYi/Ezz9Fbx4OalJjJ+fuZpLeeGjUSBzqovPDZSg+w=
+
+Name: bin/aragost/repast/visualization/DirtyRegion.class
+SHA-256-Digest: RSQa9i8pP1Y8wBb7GYrEuBei36523QVK/QABl3WdF/k=
+
+Name: bin/repast/simphony/visualization/gui/AgentSelectionStep$1.class
+SHA-256-Digest: uG9VP1CmoUncPIhWThkfQSO6vHJllyr1s+y28cu3cPc=
+
+Name: bin/repast/simphony/visualization/visualization3D/ProjectionStyle3
+ D.class
+SHA-256-Digest: SU1d0X+b48KgtHnIjh+aosecIHM4ONSyEU9k/jVy3wQ=
+
+Name: bin/repast/simphony/visualization/engine/ProjectionDescriptorFacto
+ ry.class
+SHA-256-Digest: qLlzsJutTbEHOfCOW8fAR869tZZ/fvKOwb+6/FB19Mg=
+
+Name: bin/repast/simphony/visualization/visualization2D/IDisplayLayer2D.
+ class
+SHA-256-Digest: 6OAFb6Ir5DV4NdlasjM6uyVT/54IIuELuqLQxT+uTNM=
+
+Name: bin/repast/simphony/visualization/continuous/Continuous3DLayout.cl
+ ass
+SHA-256-Digest: ydWh1GXX3KKTjT2rv2glicgCtW8Pj8dB5RclImK47jc=
+
+Name: bin/repast/simphony/visualization/decorator/AbstractProjectionDeco
+ rator.class
+SHA-256-Digest: myQuaBpABKgPLr1JE6UpwONjY+HylMuq8D1LlCpcqNg=
+
+Name: bin/repast/simphony/visualization/editor/AgentEditor$2.class
+SHA-256-Digest: zWVr26HsG12cQ6BP3+mgQdbii+8N0WLbcCpYj8Clt2g=
+
+Name: bin/repast/simphony/visualization/network/LineEdgeVisualItem3D.cla
+ ss
+SHA-256-Digest: 4bfhFoAHwriIiNqi8cpXrLJtN+18DX4BHCRWT6fkuGk=
+
+Name: bin/repast/simphony/visualization/editedStyle/EditedStyleUtils$2.c
+ lass
+SHA-256-Digest: su0c5kWcJc59W1Pjx0owGsz129E8NX9/svBe3l7RrWc=
+
+Name: bin/repast/simphony/visualization/engine/DisplayCreator3D$1.class
+SHA-256-Digest: HElunNXAcVhOCIsbTv/yHWC/U9cMSasVP11QrG1U2fA=
+
+Name: bin/repast/simphony/visualization/DefaultDisplayData$1.class
+SHA-256-Digest: DKrtZhGcffVayjnVeU359LtyXA7rFt8QWKmiGp7f/2M=
+
+Name: bin/repast/simphony/visualization/gui/DisplayConfigurationWizard$7
+ .class
+SHA-256-Digest: aOr1wcUtlV+XwYfW3gk2VTEOsI4Q5EnzSKREEXjjrq4=
+
+Name: bin/repast/simphony/visualizationOGL2D/DisplayOGL2D$3.class
+SHA-256-Digest: hebZrtw5VHlJN3npDfV2WnqmSRxsoCrn9Iccc1AD1EE=
+
+Name: bin/repast/simphony/visualization/engine/VisualizationRegistry.cla
+ ss
+SHA-256-Digest: nNwAyTMKFjsS2v1ZD5HE18r32b3v/b2vfyzzkb6IaPc=
+
+Name: bin/repast/simphony/visualization/visualization3D/AgentLabel.class
+SHA-256-Digest: dPZVYqV++LYMlB+BQNrEAJpIMXtcCbwoUZE4iDobsms=
+
+Name: bin/repast/simphony/visualization/editor/AgentEditor$5.class
+SHA-256-Digest: pvoPJFbOGHb/oBiUSNu6bzt5wq7OGAEk8EApqpsT8f8=
+
+Name: icons/kweather.png
+SHA-256-Digest: AyXfhal0ExSNBwTbGq6PhwN8dC1s4fafGzwFTvy52xc=
+
+Name: bin/repast/simphony/visualization/network/NetworkDisplayLayer2D.cl
+ ass
+SHA-256-Digest: SZQnrQjclAxP0wup+IXS54zE5CvbAK/NvlN6MqEG9xc=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/SimpleEditedEdg
+ eStyleDialog$18.class
+SHA-256-Digest: N9xyQQMvplhATsfh13b/s5d7IdxI+xMgeE2oSk5ZgXM=
+
+Name: bin/repast/simphony/visualization/editor/DisplayEditor$Mode.class
+SHA-256-Digest: Dh+Ylbm/NKmM6sM6LvZoErJI3yMEdxBZmLzyrNgNqHY=
+
+Name: bin/repast/simphony/visualization/visualization2D/style/ValueLayer
+ Style.class
+SHA-256-Digest: tuCjPBd1ESSvYdQ3g4Sdb075YnKUIPmMm2GEoNzICik=
+
+Name: bin/repast/simphony/visualization/editedStyle/ModelLoaderUtils.cla
+ ss
+SHA-256-Digest: T9hq+xBbVNBL2GrK8pwnIRAgpfrmY3XkRCsi0b9cmUQ=
+
+Name: bin/repast/simphony/visualization/engine/DisplayCreator2D.class
+SHA-256-Digest: tUUp+XC2yzOsJENWIksaoy7faHgbatkVEjuaFDe/AFw=
+
+Name: bin/repast/simphony/visualization/engine/NetworkStyleRegistrar$Reg
+ istrar.class
+SHA-256-Digest: eGn1KE9SUMiVBDPuusGW6g/6+nA/lT9hxwASKfavRko=
+
+Name: bin/repast/simphony/visualizationOGL2D/ColorMapStyleAdapter.class
+SHA-256-Digest: favVqNYcNFRbj8k/WTyI5Xfk1FLNy5SWOqJQFEUb03o=
+
+Name: bin/repast/simphony/visualization/gui/styleBuilder/SimpleEditedEdg
+ eStyleDialog$17.class
+SHA-256-Digest: XW5yS78BNp67zRP7OccZJaJLJaaZun/jEDvknX3rXho=
+
+Name: bin/repast/simphony/visualization/visualization3D/RepastCanvas3D.c
+ lass
+SHA-256-Digest: MjfRefjkrF0heL4Z67HiLZxqJU/XXe0XcLmP9x0IfZQ=
+
+Name: bin/repast/simphony/visualization/engine/DisplayCreator3D$3.class
+SHA-256-Digest: XhfMp/n5ty4l7HkMZNIUCotq2tSB0uUXFwf4ryWGSXw=
+
+Name: bin/repast/simphony/visualization/network/PEdge.class
+SHA-256-Digest: IhVvlgdrTl4QhQQjuOfT4wju5rU3R7t6Q48ZfGCp+7o=
+
+Name: bin/repast/simphony/visualization/editor/AgentEditor$4.class
+SHA-256-Digest: nFWBjyjzqUbuHvPvalbYNdbwfJK5Qo9sdizANI/vtKQ=
+
+Name: bin/repast/simphony/visualization/UpdateLayoutUpdater.class
+SHA-256-Digest: pbwkFdBe0L+R6BPJGBps8tDpE735pwQrInWNTFRWihY=
+
+Name: bin/repast/simphony/visualization/cgd/util/CGDTreeSet.class
+SHA-256-Digest: ZA4E80aCCmYHNqFVxjHs+/wmP4f88avZCv7BYoYH17I=
+
+Name: lib/jung-visualization-2.0.1.jar
+SHA-256-Digest: sbqXo65Jtz3JeJ9dAhEJrfT6Gqflkb6vXU1IBO6cKi8=
+
+Name: bin/repast/simphony/visualization/engine/DisplayCreator.class
+SHA-256-Digest: MhV2yFLDxSAgbhWyVlYu2Oaj6s5OJ5B58V4sw5ojDUQ=
+
+Name: bin/repast/simphony/visualization/engine/DisplayDescriptorValidato
+ r.class
+SHA-256-Digest: 13BDVeRcRU+tP0Mw1XivlXsMqAGW6aNNw4WgtAaaVcM=
+
+Name: bin/repast/simphony/visualization/grid/GridShape.class
+SHA-256-Digest: gvF9ZSbLPYo7idzFGaufP+Zzdc2Ql/ht48/IDkYe3zo=
+
+Name: bin/repast/simphony/visualization/engine/DisplayCreatorFactory.cla
+ ss
+SHA-256-Digest: DLEZIOTkkE7h4IffgVwWc30qoJ4UMRQeZ6GqUO3OMoA=
+
+Name: bin/repast/simphony/visualization/network/EdgeLabel.class
+SHA-256-Digest: zIVOrJQyIiyXNpWjmfT1vW8oRkd38bnUivkwbkV2E0c=
+
+Name: bin/repast/simphony/visualizationOGL2D/DisplayOGL2D.class
+SHA-256-Digest: /sZ8D2ywJtzAOwHHGKo/mJYA8c7OwBZAfcByloamYr4=
+
+Name: bin/repast/simphony/visualization/gui/AgentSelectionPanel$AgentLis
+ t.class
+SHA-256-Digest: nq8I3a7IcXehrlIZNQOZ68bsJ792D8wvqLykZEGH/Ow=
+

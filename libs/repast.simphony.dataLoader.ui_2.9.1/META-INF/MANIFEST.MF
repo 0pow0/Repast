@@ -1,0 +1,348 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Repast dataloader ui
+Bundle-SymbolicName: repast.simphony.dataLoader.ui
+Bundle-Version: 2.9.1
+Export-Package: repast.simphony.dataLoader.ui,repast.simphony.dataLoader
+ .ui.wizard,repast.simphony.dataLoader.ui.wizard.builder
+Require-Bundle: repast.simphony.dataLoader,repast.simphony.gui,saf.core.
+ ui,repast.simphony.plugin.util,repast.simphony.runtime,repast.simphony.
+ scenario,repast.simphony.core,repast.simphony.freezedry
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: Argonne National Laboratory
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/builder/ObjectFiller$Fiel
+ dEntry.class
+SHA-256-Digest: UWfFxIO/eP97m40iGKrRZe+s7diIPch6ly/MgLvIL+0=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/builder/AdderPanel$2.clas
+ s
+SHA-256-Digest: xQRl+40jONL5Qy4E3OuEmhU7GNvFu3dK0tqjamgNOdg=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/ClassContextActionBuilder
+ .class
+SHA-256-Digest: /CVurVu46iUDwl/QCdl1rb7pom00DnGI0wZVaNVv+y8=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/builder/ProbeListener.cla
+ ss
+SHA-256-Digest: jwHfHKkW1mLyEG0VGvxlrgyBJnsy2fkl7R8FMvHWP+I=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/DFDataLoaderDirectoryChoo
+ serStep.class
+SHA-256-Digest: zreUGgiIX/tp726+BE8LhBrEjDKgLdejo09GoAMmp4A=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/builder/NetworkDescriptor
+ .class
+SHA-256-Digest: +g1n1PjUwEdJjws7cfYpwO7KSZkgKrpeQRc1Fvpgh5A=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/XMLFileChooserStep$2.clas
+ s
+SHA-256-Digest: 4L8A2T4FACPfNsMlmuslah51ZPO+tCLA+IdpMvifBww=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/builder/AgentAdder$1.clas
+ s
+SHA-256-Digest: JIzmL1LRqp6U8xbJdwVjb3QpFU4l3t12IzK2PWFH5cU=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/builder/NetworkCheckNode.
+ class
+SHA-256-Digest: LnMcAfZ1DgMuwJaESuAyz1epLtXYocZ6OluBNVZO6dg=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/builder/CheckNodeRenderer
+ $TreeLabel.class
+SHA-256-Digest: 2NO+J4cZ5qESubXCMy+fJTFjjmTTv6pYbfBDygGdpkU=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/ClassBuilderStep$1.class
+SHA-256-Digest: mBOdygXmrv2vQQIZjzsmankaLBol+AMJiWaJHX/Q99o=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/builder/CheckNodeEditor.c
+ lass
+SHA-256-Digest: 4aPpU7SqSrn0kfGHEiy/fKwTrbsEDavIvB9UTeyvNQI=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/builder/AdderPanel.class
+SHA-256-Digest: YTYJXwHMZfCWwgtTl44W2SJVUT0kQT0sf2JMIXVJsCU=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/builder/AgentLayer.class
+SHA-256-Digest: vNUbJjIA/9sIsojxvXi5tlRIY8EjzcvBPoq9SHZj610=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/builder/AdderPanel$5.clas
+ s
+SHA-256-Digest: ZvX0ajHTgfqWHlFGFR0B2z4pQj4GwBIkZMZPkqWYJLQ=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/builder/ObjectFiller$Meth
+ odEntry.class
+SHA-256-Digest: emMdrmUAqKhDC4igPueRk7GDXh39IQ3dggpoIyhRpwk=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/builder/SquareIcon.class
+SHA-256-Digest: fJI+H0qQ8htr3eXvVYo5HnpLjmrRaNxebQDgaYflQAc=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/builder/RelationshipDescr
+ iptor.class
+SHA-256-Digest: DeVjrj+UKwEwpsHqsYbtjGAD+JGgdd08MmolLQl2cmY=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/builder/AgentDescriptorFi
+ llerPanel$FieldWrapper.class
+SHA-256-Digest: mObk70jUvs6o8HQD9sJiXATFrWhwPNMsMetoi9Wncz4=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/DelimitedFileDataLoaderOp
+ tion.class
+SHA-256-Digest: qg9FjpA1IC+L0ENbb1lXlvDcnL8yLvGKjM0RdbNZ110=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/DummyContextActionBuilder
+ .class
+SHA-256-Digest: up+mLZBbejQHP7c6YG69G2APu0ZbImUo3VPD0FnMT/4=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/builder/CheckNode.class
+SHA-256-Digest: y+xlJ0ldL8JwQnuNuZsTz6hL+BCDj2u7lDcQxNM40Bs=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/ClassBuilderStep$ClassRen
+ derer.class
+SHA-256-Digest: BexwZF8CkOdgV3I3whgIa1ikl+Ixbor3j3ZivxzgKM0=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/builder/AgentLayerCheckNo
+ de.class
+SHA-256-Digest: Ltw3GQZ6ynSKXTLilD/75ExS0V/kSx+/4YuME/WkcNk=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/builder/GraphicalBuilderO
+ ption.class
+SHA-256-Digest: 7WXkk8S6O+uGxDjhSrpnGI6Kol52MIVme0atXtsi7aU=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/DataLoadingSetupFinish.cl
+ ass
+SHA-256-Digest: 9dFWu12jgv4mRBeSqc0UpjIunUU3GI0q3Ajec0mrR8A=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/builder/AdderPanel$3.clas
+ s
+SHA-256-Digest: 6Il6wtjU1AfJCVlMNzD/XyHtlGT1+ABCG9TXosRUfkE=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/builder/RemoveListener.cl
+ ass
+SHA-256-Digest: PMZ05+1TvqYXzHiuhkZFSu2InSwh692xQlIc0inkbTw=
+
+Name: licenses/repast-license.txt
+SHA-256-Digest: sgcGxHlhIfJK9mnMFOtvz0jBQxnJYR0r5EDSz4qPlYU=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/builder/NetworkCheckNode$
+ LineIcon.class
+SHA-256-Digest: Y1VYHEc0pTIn929TzYeVui8HQfe+0NbNU/qLGfpDznw=
+
+Name: bin/repast/simphony/dataLoader/ui/CNDataLoaderActionUI.class
+SHA-256-Digest: TIZyorflBe1Dz0FfEKI4C7urw4gaygNHDIVcy0XaNKU=
+
+Name: bin/repast/simphony/dataLoader/ui/DataLoaderEditor.class
+SHA-256-Digest: NfeDSgIDSrL61PxPMM7KJ145XmSTPSr71abvm9B7Lvw=
+
+Name: bin/repast/simphony/dataLoader/ui/DataLoaderActionUI.class
+SHA-256-Digest: o0NWvIEfngaFqfYcOpYGriPDd83asY9YmORVvd9Q8MM=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/builder/BuilderDataLoader
+ ActionEditorCreator.class
+SHA-256-Digest: xoZCWyCvKLUor5gm1wKRGG9BsromOAMWs/dhISnKwt4=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/builder/ContextBuilderWiz
+ ardStep.class
+SHA-256-Digest: 6NXm9bbKjd00yJ+CMme+L5/SAjVPHoUfueAEgkweFpA=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/builder/CheckNode$State.c
+ lass
+SHA-256-Digest: AucP9GxIz7J1yTaB9zbXdRcS1oGNAhcIJCmuzpmeKYc=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/builder/ContextDescriptor
+ .class
+SHA-256-Digest: TqqWxiDrOvkE54phqoz9WmLtTQUK6Pa1QQ1W0uJVTLg=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/ContextXMLDataLoaderOptio
+ n.class
+SHA-256-Digest: Opyq0PiepZwzK6EDDE8FUeoN0cEHq+ZveUr3Cits8es=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/XMLContextActionBuilder.c
+ lass
+SHA-256-Digest: yJl2ki2JgHJxLiyJRHL1gmbblCKn1YaUYHQtgkYSc2U=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/builder/BuilderDataLoader
+ ControllerActionIO.class
+SHA-256-Digest: J9T91bw9i1BG2Qq4hXu98KPMfTIsZxP3ha95SVO7WMA=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/builder/LegendLabel.class
+SHA-256-Digest: vrwU9/gVulqBfvab1e2YUHVeOOdq16c7nW+/FNpAj/M=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/builder/RelationshipAdder
+ $1.class
+SHA-256-Digest: p2331E21f6qmRS1qMJH5QRqnL7uRBRsTccMbtcx13zc=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/XMLFileChooserStep$3.clas
+ s
+SHA-256-Digest: aaHShQPG7bC1b5sBX0yyE1LJMK1hFUMYOIsAMIxGkHM=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/FreezeDryerContextActionB
+ uilder.class
+SHA-256-Digest: t5GZIOb6VzukN+AB1KY8QQZQsACRfrq80IA9JIr+r80=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/SpecificClassOption.class
+SHA-256-Digest: gJdc7dRpFzKO5gec0HAK2PSJ7ayS3xuMABryHHFXzKQ=
+
+Name: bin/repast/simphony/dataLoader/ui/CNDataLoaderActionPanel$2.class
+SHA-256-Digest: 5b6h+l9/H+kcQuAnOyUOopBxZmX3/lrxcraK1a3M63A=
+
+Name: plugin_jpf.xml
+SHA-256-Digest: pgXQgcS3ijlZgwgCH8GMdScG3sJ9oa87pOe2oBzWG2g=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/ContextActionBuilder.clas
+ s
+SHA-256-Digest: DLLDrX6gPnDU2jX6Q4VQzIBwDGv83K/dkW8la3bIFdw=
+
+Name: bin/repast/simphony/dataLoader/ui/MIContextXMLLoaderActionEditorCr
+ eator.class
+SHA-256-Digest: mnSU6/ysEzMRQsXpFXadwDHPPxOqMzGX1PMYz0Au+Ak=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/DataLoaderWizardPluginUti
+ l$1.class
+SHA-256-Digest: fff2k6CWE62w0DJ18m0oQLyf/Rxd+qLmPGTtr+cu0Ps=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/ClassBuilderStep.class
+SHA-256-Digest: Iq7TAz3bM2Z6mYOipLn+6YAW8SkCi892Fo0ItQW36EU=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/FreezeDryedClassChooserSt
+ ep.class
+SHA-256-Digest: Bwyzby6byBOkrMKc8aM7iGgae8Qn1ujqhHfVNsiz+gQ=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/builder/LegendLabel$Squar
+ eIcon.class
+SHA-256-Digest: sk/h/+vV6es+4ai5LkLEmMpW0TKPyIDi+fLNU85SFkc=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/builder/CheckNodeRenderer
+ $TreeCheckBox.class
+SHA-256-Digest: kwOdGSuVSbfJkXF7L8YeEA8u8/fpRp0Uhv9kc8EB8h8=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/DataLoaderWizardModel.cla
+ ss
+SHA-256-Digest: NUFCUzzErNhxs/kDpURaKeqH4K2mUeWc4H0rX1UErFc=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/builder/ContextCreatorCan
+ vas.class
+SHA-256-Digest: d2X+zR5pt6GuXBmm34P8hylzxFV1KBEC5EhLSatAwMU=
+
+Name: bin/repast/simphony/dataLoader/ui/CNDataLoaderActionPanel$1.class
+SHA-256-Digest: OEwECPY3L8sbMwIHbzdpK/P95obdZSXJcEyqWjEM8bg=
+
+Name: bin/repast/simphony/dataLoader/ui/CNDataLoaderActionPanel.class
+SHA-256-Digest: lwN8NSDLyl7wMJbQAaN041GXG7Y0okaj/2u+M87No2Q=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/builder/ObjectFiller$Prop
+ ertyEntry.class
+SHA-256-Digest: eqJbvwQ6Jo6bZWs31ypXW7VUjf+Bba0lZKoxLxsODXw=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/builder/NetworkLayer.clas
+ s
+SHA-256-Digest: 4dKkwKJsb0fWJzybk4qk1lUT6SCCi/4K1cUyUoEJxrI=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/builder/RelationshipDescr
+ iptorFillerPanel.class
+SHA-256-Digest: FjNg92NgV3b1J2xgnhqe3xjLX4qCeLqMgtF0ISeysKs=
+
+Name: bin/repast/simphony/dataLoader/ui/DFDataLoaderActionEditorCreator.
+ class
+SHA-256-Digest: Qje3T9B1mDBXa73OnKufSSF6lwRCcK6dx8HaOoEIBvI=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/XMLLoaderOption.class
+SHA-256-Digest: hwMPVMJM/hqd58nfZgz1I0e8eLLbUQa0dBP3Bnakolc=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/builder/AgentDescriptorFi
+ llerPanel.class
+SHA-256-Digest: a7WtEe5NdIitqC1v7l6UOsSmnUkbWVTyU4gDflaXFwo=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/XMLFileChooserStep$4.clas
+ s
+SHA-256-Digest: jhw8NDX92tWqWfwhsiO+1mYvowxENNxGiokDMuz3LHU=
+
+Name: bin/repast/simphony/dataLoader/ui/ContextXMLLoaderActionEditorCrea
+ tor.class
+SHA-256-Digest: dZIn39L9SSdIIC+pr/cfUeOF2eqWKcQu1ZAC4CEIxoA=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/DataLoaderWizardPluginUti
+ l.class
+SHA-256-Digest: eOXtIdnHORUIkY+ALeeL2I5q6mnZY/KyHRQbpaS5joA=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/XMLFileChooserStep$1.clas
+ s
+SHA-256-Digest: vrQmpBLki18A5wQchLBZieWpJIAAawzaDevd/7D93nk=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/ContextXMLActionBuilder.c
+ lass
+SHA-256-Digest: GQv233Jxkxgkx77wjd/VHWWnmWpK0tseM2pUJwDW58M=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/builder/ObjectFiller.clas
+ s
+SHA-256-Digest: fBHR4YbOeN8gANtDdBYFLG3oI5D5cw0odW0zMSGUpLc=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/DFDataLoaderContextAction
+ Builder.class
+SHA-256-Digest: Mf2E2z9egC/DrT1teE/aRngvwyfpNqSoBHSB8FIrjck=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/builder/AgentDescriptor.c
+ lass
+SHA-256-Digest: ETXCxWT44rkj4hzBVmd6FNCE7LemoZSxYpiprm992Yk=
+
+Name: bin/repast/simphony/dataLoader/ui/CNDataLoaderActionEditorCreator.
+ class
+SHA-256-Digest: q8kdlToyYACqKEFkCi807QioE3dlhMDqUngmAlEDOB4=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/DataLoaderWizardOption.cl
+ ass
+SHA-256-Digest: d4LmLcqFsINinfKNpTpyUcFVDoEDF6nZDSN/8bM0Z+8=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/builder/AdderPanel$1.clas
+ s
+SHA-256-Digest: TwCpx5Jvl1zfAUmXnh28TTdeXfzh0glvyAGBPT2eCmE=
+
+Name: bin/repast/simphony/dataLoader/ui/DFDataLoaderActionUI.class
+SHA-256-Digest: 4bu5tY0odqG6lC2dor2Hjlwzh8k6w+hRwqKFEhaaAPs=
+
+Name: bin/repast/simphony/dataLoader/ui/DefaultDataLoaderMenuItem.class
+SHA-256-Digest: dH6KTcl9Y1J1QQoF/v29Jx4NX79Aw2zgf1jhvRHKg/0=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/MIContextXMLActionBuilder
+ .class
+SHA-256-Digest: q99e0zr2PJf31pCYDCdj7Z29411hozHao+72/t0lOSY=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/builder/RelationshipAdder
+ .class
+SHA-256-Digest: /J1DY4dsA96ezReQiGrrPmZweZKJdxpZpiWmmm12NAM=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/builder/AdderPanel$NodeSe
+ lectionListener.class
+SHA-256-Digest: ewl5vwUecN8pZuAywjVD5RH+eI8XmrL+GdPZEC8xlWU=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/builder/CheckNodeRenderer
+ .class
+SHA-256-Digest: nHHYa0aj5gEW6f706R/ft0KX9fq5EUxEEJ1waxo7QIU=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/XMLFileChooserStep.class
+SHA-256-Digest: sCVackqVeTxdQFDMMJDa3HJTK9pHGV1QcEGEX4CZjK0=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/builder/BuilderContextBui
+ lder.class
+SHA-256-Digest: yiDJpsqZbQce2ay7YqDjW0aa0AE5sgYPn8fIfHE60w0=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/builder/GUIContextActionB
+ uilder.class
+SHA-256-Digest: d0lqk/6ZI2Xs6ZsMPcMVNWLZ7POTVBScsqI0ENwNi+Q=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/builder/LegendLabel$1.cla
+ ss
+SHA-256-Digest: HBqeSGjesZ6cIbLZ1CcI7CjUod7Drnn/LxqEjavQpbE=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/MIContextXMLDataLoaderOpt
+ ion.class
+SHA-256-Digest: WcCSrc1nzCfRK1Nf5XscWkxb9L11o1n0BbMjAgrO9ZI=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/builder/AdderPanel$4.clas
+ s
+SHA-256-Digest: RUENcw/NTvYIyfAxoBh0FiwW52xeXtmwP8W/UttOB80=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/builder/BuilderDataLoader
+ ControllerAction.class
+SHA-256-Digest: mngwvcBQrJA/BdOnXdBzID6Ij9qlsIdmoxpGiYo1Bm4=
+
+Name: bin/repast/simphony/dataLoader/ui/wizard/builder/AgentAdder.class
+SHA-256-Digest: mWaeDHVJ7t3DOujz7OSsxRvqNAPNuYtEaf5cC4LP9Xk=
+

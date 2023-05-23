@@ -1,0 +1,1523 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Repast groovy
+Bundle-SymbolicName: repast.simphony.groovy
+Bundle-Version: 2.9.1
+Export-Package: groovy.inspect.swingui,groovy.model,groovy.swing,groovy.
+ swing.binding,groovy.swing.factory,groovy.swing.impl,groovy.swing.model
+ ,groovy.swing.table,groovy.text,groovy.text.markup,groovy.util,groovy.u
+ til.slurpersupport,groovy.xml,groovy.xml.dom,groovy.xml.markupsupport,g
+ roovy.xml.slurpersupport,groovy.xml.streamingmarkupsupport,org.apache.g
+ roovy.swing.binding,org.apache.groovy.swing.extensions,org.apache.groov
+ y.xml.extensions,org.apache.groovy.xml.tools,org.codehaus.groovy.bindin
+ g,org.codehaus.groovy.runtime,org.codehaus.groovy.tools.xml,repast.simp
+ hony.groovy.math
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: Argonne National Laboratory
+Require-Bundle: org.codehaus.groovy;bundle-version="3.0.8"
+Bundle-ClassPath: lib/groovy-swing-3.0.8.jar,lib/groovy-templates-3.0.8.
+ jar,lib/groovy-xml-3.0.8.jar
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure20
+ 8.class
+SHA-256-Digest: 0wNOM/L6xZCi6gsLBL1uCO+MS8P7K4cg6Yuc3vjpK/I=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure22
+ 8.class
+SHA-256-Digest: ohUXIDbRr5cfj/orcfyihjpqOiODkzutynqe1+tG6fI=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure90
+ .class
+SHA-256-Digest: Ng3DWd8pVT2yTHuwOAfUQRgOeezyfqb9aB9Hw+bEoDg=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure32
+ 6.class
+SHA-256-Digest: YPSXO8vgOMCSMiYUj40O/PyDuAJBnNJYBtkYMP5/2ck=
+
+Name: bin/repast/simphony/groovy/math/UnitsCategory.class
+SHA-256-Digest: yYdgvOF0573+951SLFsrXxU64rTMsIbeCivApNIWbrY=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure30
+ 6.class
+SHA-256-Digest: 3k/cyHGiUTpFFigf3EINso+r0a2KBpw2mk6RzlKf3uA=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure24
+ 8.class
+SHA-256-Digest: tQ/r71B+2zAnPSi3SxbhKf0b9OUM0sJW9cueNjakR0M=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure70
+ .class
+SHA-256-Digest: /F4GeBIpNXHJgPl/IrAp/zCgtkkEZTHLq/T8yfJgVIA=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure26
+ 8.class
+SHA-256-Digest: Gx1IoHKLkTH+J1ylox6MAocJURdDqSCI/KTEo7S/bn4=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure31
+ 3.class
+SHA-256-Digest: ZJitdj3zYK5M7oef7ztOb1DRWbxzxFf+onw+M2NItqo=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure50
+ .class
+SHA-256-Digest: sHXL4iNBp9zC0J0RY2JsFYBZbYHzzj89mvZZ75dl3C4=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure21
+ 5.class
+SHA-256-Digest: D2UUcS6iLZnhJMZ7NWUBhYo8ENg/+9e2LbpaualxTWE=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure19
+ 2.class
+SHA-256-Digest: me9BPCZgGcjvuMOC1+JpYViBvBop1Ywgw8rmLt0Fgus=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure28
+ 8.class
+SHA-256-Digest: E6gZG6qS4gVQh1nMkTcCy1tdxaPj/788pctLA5kev44=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure83
+ .class
+SHA-256-Digest: 3O5drtjzeKps7TX5/kbZhMuUCaBrABfg9uFpX6UapdE=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure11
+ 7.class
+SHA-256-Digest: CXu3Al4NUCpNP/lVwNG0V49KDX0lKG/mjujKsh1ngpc=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure25
+ 5.class
+SHA-256-Digest: po3F90BPoOajc1p4FKvRFWaQUubx9gY/8tdshIuwNtM=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure29
+ 0.class
+SHA-256-Digest: OJVL6gc3Vu2SC87msAiEIYWNKOwR/N5lwJXaT8ztv0U=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure30
+ 0.class
+SHA-256-Digest: +fpdBwtAg0CDynYvk7xBMwMCGtFlKVm6rayG6b8mfes=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure15
+ 2.class
+SHA-256-Digest: cRvGioLcaG5X4weG3BHoGwKNhkHGOGjKzunkKw4Y+V8=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure17
+ 2.class
+SHA-256-Digest: FTbdkUGNxrSJgLQGm49lUhOWUhEsaUlZ9bUG4iOYqWw=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure23
+ 5.class
+SHA-256-Digest: fhh06TiK+dx3jHnFag+GaX3RYvwbWi6TYeOuLvuDXhk=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure32
+ 0.class
+SHA-256-Digest: fhIdP6mtBEVeaulCZtbos16jOUbho5oMBYuh5/T1upo=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure27
+ 5.class
+SHA-256-Digest: 6x+UQQUnWf3m1WSlEJImORYUFwwCG53BXAwF+/ZYwMY=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure15
+ 7.class
+SHA-256-Digest: mkB495Ds7UKbxAo+kxpmM27g5c6L5uLjgfxnaLaVPMs=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure25
+ 0.class
+SHA-256-Digest: PaKY87JMPogu55mfMDsN3uXUh6Fsdy+MZrQfbH7DIrI=
+
+Name: licenses/repast-license.txt
+SHA-256-Digest: sgcGxHlhIfJK9mnMFOtvz0jBQxnJYR0r5EDSz4qPlYU=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure13
+ 7.class
+SHA-256-Digest: WX/wO6XZzhn0i7VS2UZvnLyVDgjhDHVuycXGcd9wzWc=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure17
+ 7.class
+SHA-256-Digest: niGmT5tVmsrybEWfmVyUo7YCoxkprg7I0E79g5iwI2E=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure27
+ 0.class
+SHA-256-Digest: l0QeNZEn6Hp3oi1GfWJ9/0fXpnocT93ovNWAUJyZbZo=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure43
+ .class
+SHA-256-Digest: 6FNQ9YNXvcnoXh655+cL5cK5zHxYhr0ycvCl82894mU=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure23
+ .class
+SHA-256-Digest: sbfbrBJPoNPV+qxFhtYQCJOAIzO72IaQy+9vN6SmQ40=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure23
+ 0.class
+SHA-256-Digest: fcQ9WLI35uYNEjG4bauoNHDYDHDC2/Ubz8y4lniJ1uU=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure15
+ .class
+SHA-256-Digest: LAwMqC+mHGOAMoMYEahRaKJHVqriUYJ/2tQT3X3SLWQ=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure63
+ .class
+SHA-256-Digest: SOJhl3E4SyNQAVQfKspeOiE4iJEE0K/QV2V6YAKo4lw=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure2.
+ class
+SHA-256-Digest: LRkv+Dy/e0bXokcDF5JrZ3ZqD0pkGZpEJkvpz9VDYlU=
+
+Name: bin/repast/simphony/groovy/math/MathOperations.class
+SHA-256-Digest: lhC6b23wxqFB99rC4ME6rbjNPtW/Pi8aP6QuV0BiMxE=
+
+Name: licenses/jsp-servlet-api-license.txt
+SHA-256-Digest: LH4ib/lD58n2oanY2toK85a8+FFt20kW01BUVlveoDM=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure75
+ .class
+SHA-256-Digest: n2OqQEwNnNw84elAUIEpt9Fyk47hGiKZzumuL/XOoCI=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initCalculus_closur
+ e351.class
+SHA-256-Digest: BMwLuyUQwOHV2SGlsVMM5CPEhEYIKtBrAA+CgpSt3l8=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure35
+ .class
+SHA-256-Digest: BBSn6/6TkCNlpioyPqczaPYB6LzcK+Uq6H4vTO9zevo=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure55
+ .class
+SHA-256-Digest: LXLdM0Uk9aim+MD4SLRhI2VbMurmPaFd+peTnf9ir+Y=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure11
+ 1.class
+SHA-256-Digest: Vl5mbIeUXppknZfqX0hfL2QlYRCcCUwiQoK2d6+s1V0=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure95
+ .class
+SHA-256-Digest: 4j3BfqkujCPUxI/nshiZl9/Ym+DS07mTbrd/+R3zWuo=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure29
+ 6.class
+SHA-256-Digest: /vXIJOTP5ErhyhTgh9XHozSBQiCO1Ws9Q6NzTiLXbOU=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure15
+ 1.class
+SHA-256-Digest: bZ6LTA1hHCFtm4F6al5RzdRxu53BX1uckizk/7QLGIU=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure13
+ 8.class
+SHA-256-Digest: lfINwTR9ei8xadhStsnIkMKEXSxC+5uAZ8WO3Or3A5Y=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure27
+ 6.class
+SHA-256-Digest: yxiap/vyPZ3DsjSLwlBif/0IqkqQ3h4oQ6ycArA1Kcg=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure29
+ .class
+SHA-256-Digest: zFanW+sPAFeW8oBUUP6y7aKuBJfrkjE444VuhxnfuzU=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure62
+ .class
+SHA-256-Digest: HlrjKdjqzEdFdbEaOM0RRWr+CKg8SKBtOJt0cBqByjk=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure30
+ 1.class
+SHA-256-Digest: PIJPA0zXY/nCHK4BVBr++efpelJGfmd7a/OoiqbpYDE=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure31
+ 8.class
+SHA-256-Digest: qQCfAKa6K+UyzZVOKJT+43iMhMMiydeBYogB9LII5xE=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure17
+ 8.class
+SHA-256-Digest: +HQPVsk9u2uCR6P2VOZ9SsBhRvymVOjnIQd3zVLyD0o=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure18
+ 4.class
+SHA-256-Digest: /aHtV1srF0+47nrEhncdRuZdDwl71MIMY/dmdCW/1ss=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initMatrix_closure3
+ 43.class
+SHA-256-Digest: F9irLFMMBtZLe53qo6iauoIcI9VhbXpEl6KJFwP2ouI=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure69
+ .class
+SHA-256-Digest: 1Q+7h2GstrGnmNeJ0hIjTkgW/vdRhTRZRa+TX5/xy04=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initCalculus_closur
+ e345.class
+SHA-256-Digest: 5BjwEzscAOESkBjQPqKZkP7UqZj+gLYImF1b/WdZUAg=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure24
+ 3.class
+SHA-256-Digest: mOxpUPGTKtDSxDBrfmHnpcudvdRle3Omy05zTDeerhU=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure20
+ 3.class
+SHA-256-Digest: ITU3qp+FGnTPrUY20GNfSQnltbaKwFTVKorYga/pM5U=
+
+Name: bin/repast/simphony/groovy/math/MatrixOperations.class
+SHA-256-Digest: oKP4itUNAIy0rgvBPvFrhtHt80irZYfUCpsok5kb+3k=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure28
+ 2.class
+SHA-256-Digest: sm/9fEB28XW4uGz3QTKwyM+/HFnO29I6IS5wAXtsdJs=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure10
+ 5.class
+SHA-256-Digest: wOzzOL9QkpuB6gQl3szv30OlPXaxSsrhrm+r7Dje+YY=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure14
+ 5.class
+SHA-256-Digest: 17cVb8ZwovcNyu8kBK6m+hhCwR+H3TtNuN3kwHb0tTI=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure19
+ 7.class
+SHA-256-Digest: ZXCvfdJvsIff03VVexi6qdRgFnLoMdQCM04q74KcWdU=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure32
+ 5.class
+SHA-256-Digest: 0zsyD5ZOH1Om6DhMuJ44ZuJHEqocM2ok7K0jBJ0OjXM=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure16
+ .class
+SHA-256-Digest: VVfse9WXHMMWyEDt+fcLrmWSaqmhXn7yyySHG/pm3kE=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure29
+ 5.class
+SHA-256-Digest: p7lyCxHC9GQPYY+dajdrAgMlOpE87VbcPEeqb1jbILY=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure56
+ .class
+SHA-256-Digest: vuVdF25fku1mjT8TjntAbD7CXyLW18NwiLkCEOgS3Eg=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure96
+ .class
+SHA-256-Digest: gcjwMfoUg2YuAbtdfVEcjiNfcRyYchGdQZclUttDreg=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure13
+ 2.class
+SHA-256-Digest: eXS4UcoO4Was4dwfVg0Gm12CTVtecOtN1zrI0DQTYlY=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure68
+ .class
+SHA-256-Digest: jFzk+WCmUxO+PLzpGzbVy7QAURgRQ0wbrQvuiQYVwwk=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure91
+ .class
+SHA-256-Digest: x4u2iFDXLLlLChzG2UG2MdWCs94SGaMm3hOitaPj8i8=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure18
+ 5.class
+SHA-256-Digest: 3PYmjrhmfCESXOdMG19OacTR23OL9v93clKdgSYmUp8=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initMatrix_closure3
+ 44.class
+SHA-256-Digest: RSBvpzzVV5r/SIAndwM997ZF0BGmR5lW9VNjlnThtWs=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure20
+ 9.class
+SHA-256-Digest: MSrM5JbyJ1ah4s02yOcKIdV6R7n+zafPyuD2KjMgluA=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure20
+ 2.class
+SHA-256-Digest: 1et9Kw7ZRf1A3Bf64IsMbrhytGPi07fgaEVT9+7MAnw=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure24
+ 2.class
+SHA-256-Digest: F5/qzaZDG48kTF88PUGD7yNpJJxZ4yG3+egzGOG1brA=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure28
+ .class
+SHA-256-Digest: c4BzzaIIrZs7V/93qLCNr9SJqE8TFcAJ3zYXPpvlC/8=
+
+Name: licenses/common-public-license.txt
+SHA-256-Digest: UTK3MhQaf4O+JNktKMhpQSNRESR5ooNi+y2oknlupKw=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure30
+ 7.class
+SHA-256-Digest: XLX9qrhQv5F14nj69zcGGhHNzayoj6Yk24yR/sEhKXw=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure31
+ 2.class
+SHA-256-Digest: 0xegvRkY7aP8yHi3Z+ZTFkYVK7MD+Z/f2In6iA8Pixw=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure14
+ 4.class
+SHA-256-Digest: ndZV7bLBEojQ53agPxVLfyqpEtC3n2nr5TJJ9/2UD0o=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure10
+ 4.class
+SHA-256-Digest: EpIHTS/cAqgBpk90ap8TVwYvhvDbOvMWS4C23h0E+wQ=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure28
+ 3.class
+SHA-256-Digest: /AF42N4NANnkiVDBp3anKSUcRCdveG3FpyY1F9d2+ng=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure17
+ 3.class
+SHA-256-Digest: rk1ZNCVWtqw8MQca2oCDew64uqcqQOmrDsSbR9w6SCg=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure10
+ .class
+SHA-256-Digest: 8cnZyKZU1vt9Y7Ksn3G4jyDLAML3wl2AE0rlwvzY7cg=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure24
+ 9.class
+SHA-256-Digest: aDHU3NfVmS0mSBPXvQssk1ukBezden0CjOrLaRdpG/4=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure25
+ 4.class
+SHA-256-Digest: TnE8s4i0g390E6wNFXR6j0lZEdyZeO3lf1rorwjcNrA=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure28
+ 9.class
+SHA-256-Digest: 4KpGjMzEV6HQIScRg8dJ7xeASpaaQ/P41Vmo9RnATPM=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure21
+ 4.class
+SHA-256-Digest: 5s4HaqI5ZhVWQ85O02tN+KNg1gKluQuu8PXVwIzbIuc=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure27
+ 1.class
+SHA-256-Digest: rOAm5h8kKowvWKmcEXbMYguTqsedQ3yuR8e71Xf7t6s=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure31
+ 9.class
+SHA-256-Digest: 9RE4mJClhsvN+ZhBmG2gaymadAft2q14UxtMuXCOW1Y=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure22
+ .class
+SHA-256-Digest: e+P0ofmH46wLfjpIuVblAFwiNzyfsBDxA62DZDl3sgY=
+
+Name: lib/groovy-xml-3.0.8.jar
+SHA-256-Digest: L4Z41RQECCY9dERbG86eqcPQl4FKs70aaIAyVYHV/CI=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure11
+ 6.class
+SHA-256-Digest: F9AiV+zK/h//b98+oHrJnk158ak/67Bpo7ehF2Zqd0o=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure15
+ 6.class
+SHA-256-Digest: gQAapr7RzYZgO3gPRnSioWgDXpZAmHNu73qGdd1m9qs=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure10
+ 3.class
+SHA-256-Digest: tQJ5EVmWYRvDyuJKsipQLMCvYjMJ1YE5Cv/T+D2amw8=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure23
+ 1.class
+SHA-256-Digest: a/fH8xygClzjRxinJpLFGgbW19YsENoITb88PVu7W1w=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure12
+ 3.class
+SHA-256-Digest: R06tG3X4bQGXABodrUZhu/nbpQGGrenPRANf/cugIFc=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure29
+ 4.class
+SHA-256-Digest: zUuJhyHAOAUEyEt/4b7vq1ifIuD6oTPMI6vU4BcRwKI=
+
+Name: lib/groovy-swing-3.0.8.jar
+SHA-256-Digest: 2U+5BLYsOu3maV4ReGJJUkc+Jo3gWS+yiNTr34vdlK4=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure28
+ 4.class
+SHA-256-Digest: z8dAPWVcL3iOShp/fxLSv30kbLu6oddq8kdlRcQ5JMU=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure77
+ .class
+SHA-256-Digest: hNusPrCMORiH8F//Qv/o06FKw69AZM7G29LcjuSOyoY=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure97
+ .class
+SHA-256-Digest: HGqBwhzjTNXfg2R8z2QV0VS4xikUFB6BMLgIrGrZryE=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure24
+ .class
+SHA-256-Digest: wknUUYg6a66wIt3xH5W1igAy/G1XPpUePFrYiaTazE8=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure54
+ .class
+SHA-256-Digest: GYXUBSExu4JTqYKfRhkPlWlGkqW46+ccpCt9XqAqIjg=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure74
+ .class
+SHA-256-Digest: r8jetpnqwp3kaHYaR2PQ9kOl9EL1yoNIQlr2il6iars=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initCalculus_closur
+ e350.class
+SHA-256-Digest: SHG+/xLbKf0xazkwAL/ynAfFVeOj4mjXRalIdw/ISiA=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure10
+ 0.class
+SHA-256-Digest: +ao3MtWd17TT1ie6/fu2PoykOFsXjbBPk6tgsRWPcfU=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure84
+ .class
+SHA-256-Digest: d5xDAOhw//dBShIIqzOOv3dB6rvEW6zXoBbg6CPTx/Y=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initMatrix_closure3
+ 32.class
+SHA-256-Digest: mXZtVXrsa+g+xZnDcGZQxR4vn9lP6EvI7iCqqItrL90=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure3.
+ class
+SHA-256-Digest: RolYP6oq0PLOus4KT+Gi6n6dpz3FwYYlj8tmxAnYn1M=
+
+Name: bin/repast/simphony/groovy/math/CalculusOperations$_integralCalcul
+ ateRK4_closure4.class
+SHA-256-Digest: Gh5PncAFNKxNvqgfoDmJNOx66gT04JadwuSh4auSr3M=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure31
+ .class
+SHA-256-Digest: jAtv+hOa74fr1sZ7Nqq8m50BPsYi9aizyrbv52WFh1Y=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure51
+ .class
+SHA-256-Digest: YRFUjqzX+uC2TTz7vE4G2f1uKDRipwlXGFbU0Ot3rs4=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure18
+ 0.class
+SHA-256-Digest: hHLegS18pgeq9jLrBsKOLo1Zd50z3TEarOaPZUJ7u4E=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure16
+ 0.class
+SHA-256-Digest: 4N38TRcSjaTtpxN9bY5lVYSfpALR7x7zgr80H5Q20Iw=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure22
+ 7.class
+SHA-256-Digest: i2YSzOycWsHkISYI8y2OcSi9L9cQD9B0rDgigi6RN20=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure61
+ .class
+SHA-256-Digest: RAlO8Q2ppUFCwQKoX0giGCgMOoGRUoQtDhI9O6YoGco=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure81
+ .class
+SHA-256-Digest: yyw4v4lY0wB4AvUlfNWMzqrc5Rf5/BiGgVdrEooaAyE=
+
+Name: bin/repast/simphony/groovy/math/CalculusCategory.class
+SHA-256-Digest: lu53a4Vflf3MieShHpjhoK1+yEIhOP5edyJlnzZhfxs=
+
+Name: bin/repast/simphony/groovy/math/CalculusOperations.class
+SHA-256-Digest: BQmNIIw0MBHJk4FlIlmBL18uTawk0eugDxle4zeFWWU=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure14
+ 9.class
+SHA-256-Digest: fsNNWfWHbCEftOInoQ1UX5t6tiVPqMvgrLP6qsCv7Zw=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure20
+ 7.class
+SHA-256-Digest: HUghEKAjhZ08mWkCn9TJXGUL1q/ZePaMnwkzGe74q2M=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure20
+ 4.class
+SHA-256-Digest: A+SodN684klaOcFFpDtoCf0qfKgcRJAtRAhpD+mfKyI=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure28
+ 7.class
+SHA-256-Digest: qOeMxVXWiIRQtB2/q4moyb4fUpWOpJoH/Oa4cti/750=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure32
+ 2.class
+SHA-256-Digest: 1xwNy86DnayvL76AExmMYKyt6LnZt8t/x+RbhaOacEk=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initCalculus_closur
+ e349.class
+SHA-256-Digest: oYkdIxCshx/HVMvj1FvnJSEVhr3cLJOf2uVDqBQ/9Eg=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure31
+ 7.class
+SHA-256-Digest: TGPzgXKppAgNJUp4I9YzxDK8zcazix/HyhqenfsbbZA=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure18
+ 3.class
+SHA-256-Digest: OVxyuIGI+L9WsAbnqXRabN8GkN3aJ8r03ZaCAJyNxys=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure25
+ 9.class
+SHA-256-Digest: fWSBwsgyLUXmowmFW5dq+CkQoH/fxQ1qT2pdlPnRU00=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure27
+ 9.class
+SHA-256-Digest: VOOytYh5/5zXo1zvJEqCtb10Wzk8+HHV4mGHCRg7U/E=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure31
+ 4.class
+SHA-256-Digest: gujLpRQV/jALKA+9ZCN4avgueC3rZ9E4f9mikRzvIv0=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure16
+ 9.class
+SHA-256-Digest: gjPWAEIFflqpaYkTNJRK7WZ0eaMX9kozvtPLXzIOA3E=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure27
+ .class
+SHA-256-Digest: Uq1SUfLt1SA3nliRhLA7IlYZMrI1mRlsAfbKjNv4BaQ=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure26
+ 4.class
+SHA-256-Digest: oFj8GS336vzrF22g3cJpwE1zsTpEZq0NSvXlVdyE8lk=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure14
+ 6.class
+SHA-256-Digest: cYFARWpB6vzwiRSXJMIP8KhkdpKViRi7O6/+oYCkHac=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure47
+ .class
+SHA-256-Digest: lo6QBLj0G49gtO0EvHe5oWP4oVBTnM5mqEtUfSNfqjc=
+
+Name: bin/repast/simphony/groovy/math/UnitsOperations.class
+SHA-256-Digest: 0CGSQMUO+VZkNxUlH4XXCI9lYUbCJUeu7Q9WUodf3LU=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initCalculus_closur
+ e346.class
+SHA-256-Digest: BFcfdzRorTefLedmC5DnShXJW3uUhWkMu8zzop6WOEU=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure23
+ 6.class
+SHA-256-Digest: BhThjHW1O5BEOvUcmfXipAlxSwpQpXYhTtpZQoEaz7c=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure12
+ 6.class
+SHA-256-Digest: j/JKMrnnhJ+n+BuITp+t7m3cwIx0OyG76bJbqu6S7Vc=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure24
+ 1.class
+SHA-256-Digest: QXZzsMC6nczqrfpWTLcZgdBtps81LN+RyMQE+JeKX1k=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure26
+ 1.class
+SHA-256-Digest: ArwmrTfGASAAfY3nAF1oaHgeS0Tp5TysGZkAnPOllzM=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure52
+ .class
+SHA-256-Digest: f2maIlWC8A0hlHOy3m+qzIJFJCVRZaURLAH75VFtOWA=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure32
+ 1.class
+SHA-256-Digest: VemFJYmAH3yWHY6FhCbqxqlENmKGdC7ozHtFSjP4zLA=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure1.
+ class
+SHA-256-Digest: gnRU81yt385XAgi4mNUKzusv+Jk4NOopO7oIzqZjdUE=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure25
+ 6.class
+SHA-256-Digest: z7vMvh8XQudHLJ7o6Dr2ZKQl/CDfjs/9NPLVa3MlF1E=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure49
+ .class
+SHA-256-Digest: kv58ZxWZjlnH4imB9RADh188PIAaF1yBY32ZE1CJlic=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure13
+ 1.class
+SHA-256-Digest: bmPJkoeyM7taWK4CI91V4DZNWf7fbT4RgJ8nA0y34kE=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure19
+ .class
+SHA-256-Digest: rLC9nMTDZe5FA1/ypZfMku6sZw1u3Z9PZThNS5dOF30=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure28
+ 6.class
+SHA-256-Digest: aTtVcS3Jrh9Aysgp1teS8H6wPa2h/vjggurWj3S3mpo=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure11
+ 8.class
+SHA-256-Digest: oR5fFBzBkADgCUiyNCrEYUecaaCJwEd2OsXWcV5FvNg=
+
+Name: licenses/groovy-license.txt
+SHA-256-Digest: 5miQ7ASfoOhDsxmYYGydNj1brR+nu5dQpfdz7SAE8Ew=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure14
+ 8.class
+SHA-256-Digest: uM8+YLKWgotrKWbLcGpheWwR61Fcp8uuzvVs6d5zNPU=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure19
+ 8.class
+SHA-256-Digest: ScfKmiMqK9HRFnJM1cAFGtgKzejLdAcmjVfDk3iWaNI=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure23
+ 3.class
+SHA-256-Digest: 0EpX1qzsSO+g4yFCqy9O1RbFdBXGLzEzLrHtyUjNutU=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure99
+ .class
+SHA-256-Digest: bioPuJ2bSo1wU8TQw03WKjFGmGxzX7Yx5rxZmPvYtQ0=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure21
+ 0.class
+SHA-256-Digest: bvK5OOgNjaerSFt+CzvevlgzFXbuloDkZzcf4FZboYE=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure29
+ 2.class
+SHA-256-Digest: ulYmz165R1wpDL8cmRygC04uaCcFh0d9SREJ0uruzEk=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure12
+ 5.class
+SHA-256-Digest: fCRcS7qTz3AUOwnW+1XXrYfpcDuJXUkYH4yUerD4ClI=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure26
+ 2.class
+SHA-256-Digest: SwnywYHxDI1gHpVg233TpCeeMfjKTmgrBm1dQgStoeU=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initCalculus_closur
+ e352.class
+SHA-256-Digest: Q+XeIYG2Igus1oR34H6+owI2QNpjeDSKRpkwaZ5i5OI=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure31
+ 5.class
+SHA-256-Digest: dDa4rwXjnLPgN6cqYNgZclNXJAfutiro5hiYg2whDLw=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure10
+ 2.class
+SHA-256-Digest: gCfJCgxP89Ixj9LUP89fAXEoCMotzczGXPpvIV2h6qg=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure26
+ .class
+SHA-256-Digest: lhsw7WZ1ZNGTvkEc5B6LwijlvOiRF9zSY1qoREhRtPo=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure76
+ .class
+SHA-256-Digest: DQkF2qFZEET9rG/WQi2kuZlFqYmr/rgnOdgksti4Chs=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure11
+ 9.class
+SHA-256-Digest: iTZKJpnQrrqty5iU3LOFI9M1yYwvykkS8t860yB/XqY=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure25
+ 7.class
+SHA-256-Digest: 6D57DZYHyoULhtydgugmnD0D8liEoVdSVhsNTo3dJ/Q=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure24
+ 0.class
+SHA-256-Digest: FEqhopBnidyO2+vP7it3GFJZSXVZ8eCplvt2D4UT2yM=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure53
+ .class
+SHA-256-Digest: WhCm5vkJfH0Q64VT6Q4KyMbIwelphRxNBtJtUwqN0sk=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure14
+ 7.class
+SHA-256-Digest: M7rNfQXKLon844v0RskKOGKtJ4pqiJFb+wHPcz9Exvo=
+
+Name: licenses/xstream-license.txt
+SHA-256-Digest: 47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure13
+ 0.class
+SHA-256-Digest: JCHE8tQQRPbeHnEQMpZocEcS/4Vzd2Yiq7WashDQEAU=
+
+Name: licenses/apache-license.txt
+SHA-256-Digest: mzvDMK25ZL+RBju3ZQneCszu/e0vHnIKspyVL5olJgA=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure48
+ .class
+SHA-256-Digest: HhImqN99ZECfa4zu5qMuFeWPdjDwIrwpH67D0hruMwI=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure12
+ 4.class
+SHA-256-Digest: rM5jT6sfd0+oROvGxmdHEkDWS3OlFoe/g8nVwkwoyjg=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure26
+ 3.class
+SHA-256-Digest: 3kkMC+RNaParf5e5SZhsiW45yifZ+fW033/xbDQRjjk=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure23
+ 4.class
+SHA-256-Digest: Aj3eWgxgglBHwgBO1kdR/kmFZFjNZNYJiZGf7yYXMNA=
+
+Name: lib/groovy-templates-3.0.8.jar
+SHA-256-Digest: 5HhT2ulF6lNlrwoEGBXhmC1dh2yNE09RZCocjKkXcD8=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure20
+ 6.class
+SHA-256-Digest: Ir+UcG+AKM6+LuAPAwdC7FujfiBzpotyEqFP15E5Umk=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure30
+ .class
+SHA-256-Digest: IH3PgsvEqj7q1zpk15h7fSRXYZiuG939OUlER/A9woM=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initCalculus_closur
+ e348.class
+SHA-256-Digest: xtw+YcNEMyBPHcLTGY4UD4/Xx3IEtkYQmGAc+pWAZoA=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure15
+ 3.class
+SHA-256-Digest: 2x+qq4KwmXhiS9IzPEg0HuCqAZmTJpd3V0qHXmIpkIM=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure19
+ 9.class
+SHA-256-Digest: Ox76hAGjlh0T9oOuZ3Q4G7NQm9vaKO1u4l7yXqczkRE=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure25
+ .class
+SHA-256-Digest: ygpfK4l7zkwzimWKQr/qvOqXLbmJ8s4/Xlvar9cAls0=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure22
+ 9.class
+SHA-256-Digest: pVa4Rj4JwSGH8I4+6UW3Vl/z0te6CDpGCEukzJeaMG8=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure10
+ 1.class
+SHA-256-Digest: BikDrEuOrhTP3bd5E8Gml2FeEgZ18aa3/YTzaSzdU+c=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure82
+ .class
+SHA-256-Digest: kI6diL3SSDhqNgHzrCcT6FKesK9/paVSX6rQLB6Es+g=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure18
+ 1.class
+SHA-256-Digest: dFNWJAOr7fYan7Jr+Nxl8Y9MOEXGqNELrsipLt13fBk=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure29
+ 1.class
+SHA-256-Digest: WOSaeu/h/H1yvGFRvvQUllRcBCGe3ElBrp5V4KfY5Uc=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure17
+ 6.class
+SHA-256-Digest: EoIaVUW71aS9z2TRZn9rX9X51eXWMM3mgld5V1fLbcA=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure21
+ 1.class
+SHA-256-Digest: hmSDsHQ71SDcVIhAXvEpQ8awq+D8CVJIRM8lck28k0U=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure21
+ 8.class
+SHA-256-Digest: WXKCHU/8PJb0du8TOXhOcZOYS5RizKR3lz8BXjnihDg=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure80
+ .class
+SHA-256-Digest: Lmkc0rjWLQkn/vCajAWCyRtSiBm47nDGFmEpDPB73sI=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure31
+ 6.class
+SHA-256-Digest: 5Se6UPbO8lVD/6MWY70D08V8BuV5dN362+AtgQo88g8=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure25
+ 8.class
+SHA-256-Digest: 5DneDKQ4xsFfeGubcSkQiUH+gU8UxG/ZbzdDrTb8KAM=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure30
+ 3.class
+SHA-256-Digest: EWzrVu/+g1HhAm2r8/XukYYHgI6Yrd6ErfZbm6L5bNM=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure32
+ 3.class
+SHA-256-Digest: jqp2VoY+ZD3oGgSkl+Y4Tk8+6dcOazb4z1lPeq3mWLw=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure60
+ .class
+SHA-256-Digest: g5VnPC/fm7RuBsw1cdvWSpqkxUTCuJHzQ0STlq4lNII=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure23
+ 8.class
+SHA-256-Digest: Qis9IKwamzu91mXY85iSPFGdFBbKXGIHWglG5FMw6zw=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initCalculus_closur
+ e347.class
+SHA-256-Digest: K0HUaDQ9NNNx4R8MfHfSWvGYklUhwxfLOqRR1eNVrfI=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure20
+ 5.class
+SHA-256-Digest: bnlU49tFmwy7Yt+w29clbCNPP7nLLt2T7jy0oRtVPi0=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure22
+ 5.class
+SHA-256-Digest: w2//HlrjAjEvTOvB7BtDZ5G3qA53TkGi6SqcjLns0Ro=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure93
+ .class
+SHA-256-Digest: oP8hWFsedYamlQwbRirXXEI1D4NKZRlaYxSlSE1F9W8=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure27
+ 8.class
+SHA-256-Digest: IU2r4zQbkPXsKR7P8wpvzSVCySymJnxKD+gbfpq6Aqg=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure29
+ 8.class
+SHA-256-Digest: S+MZAbazVcePl41N/8rFc4JWfoyEY0nGQCrfhvEf+6s=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure10
+ 7.class
+SHA-256-Digest: 44VoKU9tooG4G2PcWHOfMZWwd+suFGM4+qrUJmSp1y8=
+
+Name: licenses/lgpl-2.1.txt
+SHA-256-Digest: 4gSqkVIm04FoUTbXUcpvaRYM4nDWwoi6zNFLRQruewM=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure16
+ 2.class
+SHA-256-Digest: bT2sxzAEjtw0DW426nx3XMjxibgcFuFgTJ13XXSSMaQ=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure12
+ 7.class
+SHA-256-Digest: aywyjAOpE+VgBKTV+Dk00vJv7+66CouECHjJFUU+PTI=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure24
+ 5.class
+SHA-256-Digest: pJiD1UU+wOCYb+RWZx4kaDCudB1t8z3xPZc3y9hlvpw=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure31
+ 0.class
+SHA-256-Digest: 0JGOm/01lry+jB7uvvfb6m3ifmUwmmP4ADoWKcQb3TU=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure14
+ 2.class
+SHA-256-Digest: 8l0GtPXEkZPEwqcOaLl9KEiCx5zGp651Z1Gb6GrLHsw=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure18
+ 2.class
+SHA-256-Digest: y1eCJP6+DX78HCCgUUJDq4hFN+siOAihjjfSboVnkj0=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure26
+ 5.class
+SHA-256-Digest: tHZzq/J1/O077NQwr82NtUguWn51wDeBeduFMLhDoFo=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure33
+ 0.class
+SHA-256-Digest: PQuXF4xk8li4bRJZTp3upcUrP6li+Jbm8tntSTfpLLU=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure21
+ 2.class
+SHA-256-Digest: dg44QQBoQlFMQpX4dSKH3vBkZA6ox1yQ3mdeNGSOfSg=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure12
+ 2.class
+SHA-256-Digest: Vgzet85mPO5krWC8TWAyE2dEHXWvdr09VD97404IvXo=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure28
+ 5.class
+SHA-256-Digest: zXDrimq0Pj6SD/lW2lUbPYUPCj/2n4Se+GbxPrNY2Kc=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure58
+ .class
+SHA-256-Digest: rg2msy8Uo5PX838u5/eLzbvhrhlUTIyZezvcoG9+nds=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure17
+ 5.class
+SHA-256-Digest: v/ePCg+aupfCVOaIBA1iqe3YNgrkZBrJE4shv6cc4ww=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure19
+ 5.class
+SHA-256-Digest: Pit04H6S5fTHlU5JOSZ4vEV5i/MAZlzRxHDSuSvF1/w=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure23
+ 2.class
+SHA-256-Digest: xZFkRIDaMFfL/WziCqrM0yL7ba0/ffnqmSMlUhMmRcA=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure98
+ .class
+SHA-256-Digest: 46JEzfjBzMfdqcqpDZWk8yh34dP+du9Z9s4zichjId4=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure18
+ .class
+SHA-256-Digest: bmpIW093hndHQq3/O3N/dC5Kco8xoXh+kG0afksvwrc=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure13
+ 4.class
+SHA-256-Digest: F+F1OnPYoW7xymxeZhKw88/RmOUV5Dfrh8ZgS0sRrwA=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure38
+ .class
+SHA-256-Digest: Q9cZVwmNnvD+YUQxN2t4ome/Fd2yVqv225UVFYvTKnk=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure78
+ .class
+SHA-256-Digest: If6FqWEtqn2fYrAWYgobcD7etBXnU3X5AIVJMqvkl1U=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure11
+ 4.class
+SHA-256-Digest: hwOF4R/qodQ8WfGLSzbcwimZmslT9KyY0pOz+XMvA6o=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure27
+ 3.class
+SHA-256-Digest: Tcd9j1XQM2XyX4F/lAQ/2aJfy9H3S0ZUy8KptSU1I4Q=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure29
+ 3.class
+SHA-256-Digest: hJ7/hl1fnjD6Gi2Zsf8lWuvrzlG8f8tPC4RnScOJvTM=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure15
+ 4.class
+SHA-256-Digest: JItJKEG2TXHYYazqBjLUCoImT1cKbCPV+9c6gojid3I=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure20
+ .class
+SHA-256-Digest: /1Qma2pci7TZf0LKxKZAgb2TLZSKO/hM6x7wAPNUjm4=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure40
+ .class
+SHA-256-Digest: 0WirCp+K7AS4RWYDeGpiwU8744tUPKuRKgsOGflUHf4=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initMatrix_closure3
+ 34.class
+SHA-256-Digest: UE10PkwhPIE+97CJ7d2tHgHlzD8wkGtWi6LBxi6g+So=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure12
+ .class
+SHA-256-Digest: dE8oLN9ACi6iB5mq2EBUiQ1Fb5WVos1nKXSxJkm96D8=
+
+Name: plugin_jpf.xml
+SHA-256-Digest: rMOMkJZn6zkk7eG5Ebcu73VzPbCJzezWv9tY0RutW78=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure32
+ .class
+SHA-256-Digest: p2CEFHxV650UJBxHtD9pLqYVNiITbWeUrTWa+i17H0Y=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure30
+ 9.class
+SHA-256-Digest: UI8uZ7oM3t5485WT4pNzvuTmCo6E0NGuWontDzTTJw4=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure32
+ 9.class
+SHA-256-Digest: o0U8FF4mzZYgTB9VLdl4McSYuAxKsMbgztToAIlRBD0=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure26
+ 6.class
+SHA-256-Digest: Qob23y6jREK3errsmbixlv8qAOs9GgCPte+vx14cAbk=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure39
+ .class
+SHA-256-Digest: /bn+qjYBbFzqqIPzIKON0Dv4ofrleD6wVr/SBPxKkzM=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure12
+ 8.class
+SHA-256-Digest: D+5CCBa1iUPU/MhdMoFtYnl1QpCNlayJelBCYczUo2w=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure31
+ 1.class
+SHA-256-Digest: QXaNoudQWjMWb8F91K6MguE1tuAbiAycbkUUDXQjEvY=
+
+Name: licenses/axion-license.txt
+SHA-256-Digest: M6mPl+bTCTaKuNVYN1zBVHVDBEDnarysnUElCjjz1y8=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure16
+ 1.class
+SHA-256-Digest: +dUu7Q6zx4MMX7b/QVC1BYoVJax5fUkGInEv7UwXq6I=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure30
+ 8.class
+SHA-256-Digest: XKRrp3xKoYCe3nVxM2GsWrOACYnKnEaQiI8Mu3PI440=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure16
+ 8.class
+SHA-256-Digest: +Xq7Y+lU/7A99PDrsNT2RLWtaSHTt0Zim7SBW/NqvJg=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure79
+ .class
+SHA-256-Digest: bBkhbHqmoOy5UfTY1kY4gIQVUzJOB0JmQ7PS2sd3vhk=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initMatrix_closure3
+ 33.class
+SHA-256-Digest: JLyJWJXDwVySuK19PYBA6m4Fw5G6LsQsvytqD6ZQUFk=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure17
+ 4.class
+SHA-256-Digest: wBTxvEWIdwdqqJa62vT9jiYw5Qll/O4GYa0b1DBppTk=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure21
+ 3.class
+SHA-256-Digest: Sld9+8gFmFjfNbj3B6zs3nD4xhzuMQDyecnlclWlvPM=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure25
+ 3.class
+SHA-256-Digest: uOFoiwfs4B7vIAwA5MY69P/ZGyIIzss8skF2qZ64LaQ=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure11
+ 5.class
+SHA-256-Digest: rMhxl/ngHAen6481tVYKzMocWf/qDScY0keIdlLNp2Y=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure15
+ 5.class
+SHA-256-Digest: bIJd4gGYgqPzKvjYoRzWJDT3jQJ9iVUYLR0sNGebTI4=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure27
+ 2.class
+SHA-256-Digest: lztIJy0z4vV42UpoxBVjVdFBEOUK8b1zw05d7c/MGk8=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure22
+ 0.class
+SHA-256-Digest: 8xPSfoGfmEthnEgkUY34Jv/rvvhuEeIUYFXwV7c6HuQ=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure5.
+ class
+SHA-256-Digest: Xz+XJC2iYWcfN4jH3Mn9sILjtVOvXidHSSJFLStwdPo=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure46
+ .class
+SHA-256-Digest: 2bFf8Mi8Mm7HWo7c1Kp23LdLlcGedd9Sa1Yx03/4YWk=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure86
+ .class
+SHA-256-Digest: SJSLtbyLW0IUZiTFr30e5f6NPgUG2y5CHaV1UDJcG+o=
+
+Name: bin/repast/simphony/groovy/math/MatrixCategory.class
+SHA-256-Digest: EDdWyy5ConrJHVab/LGVsDtPb01gwh4x6FhzVoS6gi4=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure26
+ 0.class
+SHA-256-Digest: T8wSLxcbaPMBkxbSTsqIMvgs1waaksHRpS1W6p1+ihY=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure33
+ .class
+SHA-256-Digest: p+O83S30gw5xFgFSj9siM6wht7oKyTt5Z/0ZS0a+Fxk=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure23
+ 7.class
+SHA-256-Digest: HDcWDTnNgY9SaL8PmTTgCjNSonyRd4GvrUC+Hvi2zuI=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure19
+ 0.class
+SHA-256-Digest: Ye/TOFBlowsUzohGNpm6xJN61+cli2FZlXDIPxDDSYI=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure16
+ 7.class
+SHA-256-Digest: sOhw9Pf0lDGTBIykGGdXDxQOYUX92rm27n8exVmT4bU=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure27
+ 7.class
+SHA-256-Digest: H09PLUWscQhSDl0aJ94KETff4K377HxmruDIrnibKIw=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure73
+ .class
+SHA-256-Digest: KPglF/vPFWpdjBlJPDmcxBtMIbftBQZrlAqbdAT4QHA=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure13
+ 9.class
+SHA-256-Digest: WpMV1RKdUk6fet5LHKa0qMv60crnqHnoCoJRNgm2DSw=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure15
+ 0.class
+SHA-256-Digest: B0RPLUH8Noul10DClXGqVZGxeZFb/fsk3Dj81JStyXk=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure17
+ .class
+SHA-256-Digest: ntjjN/GXidEO4U8aA5boJqp5QdhyNg3CuNCIS57X60o=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure17
+ 9.class
+SHA-256-Digest: iyP/iwf2k+6ajtAkRcHmX0rVraMaFG7iCl+zKL6bQJ8=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure4.
+ class
+SHA-256-Digest: unwuDnnzjjbPcLyWKHHXE+CGh3MKooC1ftgRSaQEwls=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure32
+ 4.class
+SHA-256-Digest: ifSEIsjMnelIsBnZ8MV5mYbggumSDtTzJXFlUhwRQyo=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure85
+ .class
+SHA-256-Digest: PenbkUjvsbs1UDgeZmsEi5sNO8Xg2Tniuzgo8z8RFsY=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure45
+ .class
+SHA-256-Digest: nJPbWKYPq3xSjnSMtx7ERI2HBiSSwWD5Evr3nNMFioU=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure22
+ 6.class
+SHA-256-Digest: 44W1ybUSYrSwNBca8zPgGsEVPdkszp+APXHHL4ezlLw=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure12
+ 1.class
+SHA-256-Digest: m7Pl3L/ppPrlaJQ796RxOrmQIHCZlgQiBSlFdVdjCqI=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initMatrix_closure3
+ 39.class
+SHA-256-Digest: ziIM+fBIzXtX6v49SQ6SSteT+z2/y4ViYwOosQRc13g=
+
+Name: licenses/asm-license.txt
+SHA-256-Digest: m3ioRMkQrbHE8mzP3/nAz1hL+OzU6La+3dwqr1UOFGs=
+
+Name: licenses/jmock-license.txt
+SHA-256-Digest: aECvtW5QYaXHvnGWkJgWjIiM/NwXX6tm+DK7UUKeeqA=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure19
+ 6.class
+SHA-256-Digest: w8tnCzPAEjlemrAclzHphLAtzRZ/7Xdw77Zw+MMWb/A=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure87
+ .class
+SHA-256-Digest: ixG54tt15c1rnyGu236HvIaLrs8H717y5ZHTbjfU888=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure6.
+ class
+SHA-256-Digest: A9ZN99UMWwpIBx+JWHup2mQuit3nojOkaORVo21hjLE=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure67
+ .class
+SHA-256-Digest: y5Q2CCsSvtoGLLGqYRJl5HXVjSO63S6Fl11u93MbjaA=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure11
+ 3.class
+SHA-256-Digest: 2wHV5+wERy4Z/cOPXnHvv9op6hcDA8pDxlMl7q4yzyQ=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure57
+ .class
+SHA-256-Digest: 3hk8xMUV6sUcjhRl2J1hzjBK6DyXnuTG0RTYLQ2hwsg=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure27
+ 4.class
+SHA-256-Digest: VgqVMS4UnZvhQJaEtoT9DsroTtGEl30RQ45+0rxfCpQ=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure44
+ .class
+SHA-256-Digest: SdjRwWc3j+AUeWws2fmi39QqCAK48C1q5A37CAG4U14=
+
+Name: licenses/xpp3-license.txt
+SHA-256-Digest: mM5szkqPFYkCtq/rwDJkDKNfWXmbH31cVTyW9ydc8Gw=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure13
+ 3.class
+SHA-256-Digest: A9XuR7jLeSPPkwzeTVXjEnpUC5XVBttfo7uV+HOcbKs=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure14
+ 3.class
+SHA-256-Digest: KdJv3+MwNNnZgqBAaH6m5FdLvk30Lwnr+GNqndvVJ88=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure64
+ .class
+SHA-256-Digest: 5E1aAj6biDxthhAjgnohXdF5H3yLGXy8ewetcmG1yGg=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure34
+ .class
+SHA-256-Digest: fZa0IiStnZWwfwnCxP+JFNRSyyfTto0fu9LK0RAY9HA=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure14
+ .class
+SHA-256-Digest: gZmUgox/YEJ54UB3AIpQaVptvjDEbOZv8gL3GVNyNwM=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initMatrix_closure3
+ 42.class
+SHA-256-Digest: VXH9xFiKjIlb077G5B1O7m0LXSuoXNoSidsRiHsvbWU=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure11
+ .class
+SHA-256-Digest: f0gfF7jU4V01WgX/4VPKw2pqYMST/RgZlbi1/XjFet4=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure11
+ 0.class
+SHA-256-Digest: eONjIGVBA+M/Luoh9IF8h5Y7RbgBOoS6IZ0O4QQVAb8=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure21
+ .class
+SHA-256-Digest: b9m3ogs6EVhQnVWsAyayjHkArguB7CFeCoh8XQd2rnA=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initMatrix_closure3
+ 38.class
+SHA-256-Digest: lwI66PMSkSjOr2Igql1KWIq0+ZGgYRDxULl6gTSoMG4=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure41
+ .class
+SHA-256-Digest: DYaqEvLHTpedXe96Pt2avRK2akBeJfehe+LV4sAl/F0=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initMatrix_closure3
+ 35.class
+SHA-256-Digest: WEeQI4UbW4YGTVkZgQeJbzdd6E0fCZCtLBuaN5FvPs0=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure30
+ 2.class
+SHA-256-Digest: h5xQEpiK3LnTxNT9ywIHUq2DNiDJCNq8UUAuYayGsTM=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure10
+ 9.class
+SHA-256-Digest: QeqK12DJ3i/R+Is//4eqVUha/MFTLfo9Na53JhAI+io=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure24
+ 7.class
+SHA-256-Digest: iE0RwNzc5PfkUNz2g5+pj4dJcCNI7IwFr0NFVI36/Jk=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure12
+ 9.class
+SHA-256-Digest: Ur8SI+BCp1PBlKBMjsuH6Xp5ZM/re/UsU+d+nBrU1S8=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure21
+ 9.class
+SHA-256-Digest: I6iNgR+AsT9Ft6rcInMQTtSJIdJUvt7v/zKez8zgkrU=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure12
+ 0.class
+SHA-256-Digest: 0+fNYrEc1+db1w3Iinn8JgMdwDXAjzKWWe2teR9DGWs=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure14
+ 0.class
+SHA-256-Digest: qGt0vDOSs0crj3Aw4IRj7vI/YZCCB/wWQb6UfQydT0s=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure26
+ 7.class
+SHA-256-Digest: 0XnAc3FGKIOly/PAskte/QTax9+XvojFlJdT7atnrHE=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure10
+ 6.class
+SHA-256-Digest: ubHBKg9wFhJl5E4Lh4FCUtCnLe+RHu+33ZUjJzFL+Gk=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure18
+ 9.class
+SHA-256-Digest: jnrejMy2fs5bwoAfU0v5G9CdRe/8IAWRU7rjxB59kaM=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure24
+ 4.class
+SHA-256-Digest: +6reKxmdPQsyfKt/29IqUuEsIAttaXREAOLniVj/k1I=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure16
+ 3.class
+SHA-256-Digest: EE8KwazIggE94zkAjR2EA46BPWL1evDkR9Bzdrub9mM=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure22
+ 4.class
+SHA-256-Digest: oeRF9CFqsUXPQ8KGA0QMFk1nauLkHenRavqIfSnzlqQ=
+
+Name: bin/repast/simphony/groovy/math/CalculusOperations$_integral_closu
+ re5.class
+SHA-256-Digest: OMcDl2g442TO98OFjdLoPi1VEg+bm2RmkKJUU5P2OB8=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure92
+ .class
+SHA-256-Digest: GAeQIFEHivpdGrlplUKwPcKIQyq5+yaXW9M5hxYBYRM=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure23
+ 9.class
+SHA-256-Digest: f7XEOJj+4kaXwXgXSuklginzAE/z+eoxf2KgK+/R6ns=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure29
+ 9.class
+SHA-256-Digest: Zso/qYGAtYJQJjLV64nEA812t+4K3rEj1MyytURb1tE=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure17
+ 1.class
+SHA-256-Digest: 9ftDGcWLsQyFrrt8oUX8fw0cmtwDfrfCyYYl0wevHvo=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure19
+ 1.class
+SHA-256-Digest: zFecsmMiYkvNB2uCRPmwt5ohHoYv/O5vsG+v54oUMU8=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure21
+ 6.class
+SHA-256-Digest: 5N/Equafu1Q/rJONTkyWXQv4BT9GiVpeOGYW9dnQOLg=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure72
+ .class
+SHA-256-Digest: Hlu/nXCVt4JKIKUSPif26QA5u9coWORvZCONEmyNnuA=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure9.
+ class
+SHA-256-Digest: K3evnVwRWXgDw/u3R4E98Tj2ffi0PhT8nXfQupXw1Ws=
+
+Name: licenses/mx4j-license.txt
+SHA-256-Digest: eeY1mJcpAglUuOPXMQyaJVmsXov8JmQnoUUYo3oGuLA=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure28
+ 1.class
+SHA-256-Digest: DvLYtMmLOLt80gCMKsvOhGEjVS+j1fEBFkCgNzc++/8=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure16
+ 6.class
+SHA-256-Digest: ijKMhFkvkHx6zCn30tpE1jO/ocTzGaGstkSGTrlHtpo=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure18
+ 6.class
+SHA-256-Digest: keYOpyX8LB0SJA+pLBKmxbFnKsaYh4tG8iR6mSIIDds=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure20
+ 1.class
+SHA-256-Digest: +vrw3XDFgFWnpkF1Zy2O0xWm9KuK8B0ndeq4lyWRvP4=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure22
+ 1.class
+SHA-256-Digest: z27Hx4dZ3HDNzxObJZ+TWSY7pytAb4+f6fF0LV44g2Y=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure14
+ 1.class
+SHA-256-Digest: mMxlQzkRlf5OXkFU1Fpvmo0LzStNIc+zjxItvO3JRdw=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure24
+ 6.class
+SHA-256-Digest: IUv7H7+8vSZyqAsSA0H0OQ7aHhgmRoSQpIyBPr+8rKk=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure59
+ .class
+SHA-256-Digest: WUoNybRxi22pOZwkk0PpW0QcC/ad0HVU9hde3zt7m8c=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure33
+ 1.class
+SHA-256-Digest: VhJwT9jUwQpwyc0i8gCjOV6W6o8m+3XqOXAsfLJwj38=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure32
+ 8.class
+SHA-256-Digest: riXPyIdN2iyWAYI4mO4FLGzuh32akbPNBzYKEnX5ngc=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure8.
+ class
+SHA-256-Digest: tMO/b5KugvkzxCJzrSBN4NvwnjUBpP5Cje9Jj/2V3Ds=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initMatrix_closure3
+ 37.class
+SHA-256-Digest: +27s4PNpumdVhUg8LhIGS2Ht0hHrtiSrVyPKZ17hyDQ=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure22
+ 3.class
+SHA-256-Digest: q4M1SxY0hSamfp/N8MZbDxNpdH0wB7ZfX1lbw6lKigE=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure19
+ 4.class
+SHA-256-Digest: cTngd7Dbjxndayu+JylMQf1zeS82Ql/BLP9i58ATIIg=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure10
+ 8.class
+SHA-256-Digest: svepKnBuMaOM9wepQkk+HcXEVv0hfTaKnfxmftD6quE=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC.class
+SHA-256-Digest: +R29NBClUWlmJs1HwyCrS4DRxReJm5LTfX1VJgrVnIo=
+
+Name: bin/repast/simphony/groovy/math/CalculusOperations$_derivative_clo
+ sure2.class
+SHA-256-Digest: x1dRRrSWYhk2FnsqJ09kPav7l3OqZX5VFU0KAsXBhnM=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure18
+ 8.class
+SHA-256-Digest: ZjBGmsHp6Nuy6fgi+Lb4u/ya6G2UCDLqKSdbel1tzDc=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure15
+ 8.class
+SHA-256-Digest: R8Yap8Uqxy1K5vKvoamp/bbLHyxdP/9PotSuDSVsmEI=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure16
+ 4.class
+SHA-256-Digest: 9CYARMdv3FGtapWXE3zSLbikAnJO/HNZc8WDg99Dymc=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure36
+ .class
+SHA-256-Digest: /K743kD0IxvWM0qkQF1RSf1u8/R/v6uKElxjBm4qmMc=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure30
+ 5.class
+SHA-256-Digest: ro1UMTHyr0GdVjespHdyfqKhCCn+pwkt4q27dr/fcbs=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure20
+ 0.class
+SHA-256-Digest: AuAS8aBV/uwbQ4RmUUg6cyz3BiWcDzY2SKWPUXp426g=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure89
+ .class
+SHA-256-Digest: dqLeqowcbV5WBBDVUilK65LKb52jYxfDbz6PhijmNdQ=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure13
+ 5.class
+SHA-256-Digest: Vbs+ZE31XVDGiSPZ8shy9ELXs4+pFqiSosf3DuqlvWQ=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure25
+ 2.class
+SHA-256-Digest: 4Z6tL1iI2L/HP90fAuGrujp6a8X0iCnIk6/BKywwLho=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure16
+ 5.class
+SHA-256-Digest: q4d2qZx9+NBPidon7cQk2z+6hsbwBF8g46G2zV8mXeY=
+
+Name: bin/repast/simphony/groovy/math/CalculusOperations$_derivative_clo
+ sure1.class
+SHA-256-Digest: Iaak6wwTiEBHt1f/Z1WhsNHyS4pDwya0wbv6TyBD77w=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initMatrix_closure3
+ 40.class
+SHA-256-Digest: UF6oP7yfNrsVQt6PI3LBdGPlr7YYIjvduWjawqjwbBo=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure11
+ 2.class
+SHA-256-Digest: mEO/wHfcc8owBnv84Zcikhm0xmPzKjdXYpoEM/lv+xQ=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure66
+ .class
+SHA-256-Digest: jw0hQouA9tk8XjuJNWdn0b3O5h4Q8dHiDbUHUwFLoqU=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure17
+ 0.class
+SHA-256-Digest: BdG6mM0SaRKSS4bi8n8Oo6DE2fxa70CKmfTTRkftj1s=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure32
+ 7.class
+SHA-256-Digest: Aib2Yan0dhjTZMOYGVQUnzkBrmv8gPyIwsV0izUa4WE=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure71
+ .class
+SHA-256-Digest: MHzwN+oBoTSooqQLvoADcXqjxOdSh0hO5pzfzyizPHc=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure13
+ .class
+SHA-256-Digest: E9vAjxjr7Z/T3NiOPivpO2NTSkVFdCZbeNBeRmokrAs=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure28
+ 0.class
+SHA-256-Digest: uo3Za/7ZtiEU8IVNfK4GIS/teKJcYUYMl2FYnhdoVcY=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure18
+ 7.class
+SHA-256-Digest: ySUWAvAmYlsF2heyAd7LNRO5Z7zcllt1kPrRM+qYxbQ=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initMatrix_closure3
+ 36.class
+SHA-256-Digest: Z9bK2Y1Dca6+uOP05dIL1QLvYvKRMC9PMaYmYY7iqp4=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure22
+ 2.class
+SHA-256-Digest: rMw1JqNTlUgQE33fuXAicmzyvedu1tFKRrIVF/y4dw8=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure15
+ 9.class
+SHA-256-Digest: gS4scnCin5acP8/yHpzlV04Ons4J+zv77Slvx5U4n48=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure21
+ 7.class
+SHA-256-Digest: 6sRwBVfaJQ4+9ECbhWC1cND7Sf2SAffEfdl5uBhjjk4=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure29
+ 7.class
+SHA-256-Digest: BymrJtHTVf0/VKK3BNDhvKVMWIzh28Am5y7qxZG4gMc=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure94
+ .class
+SHA-256-Digest: CYQMYIGa0BJFJ1CVuIV3yaltPDXiN0l4uTpnXaWMVy0=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure88
+ .class
+SHA-256-Digest: Ur4TzhvBZMbm/v3NslZM3VgsUbJHfxkA9Ie5XRc+Gx0=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure7.
+ class
+SHA-256-Digest: aaEFUkuZgT2AlfwqJ+v09TKy4yGG/SALGa/V5RZE4KU=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure26
+ 9.class
+SHA-256-Digest: j+8Yynua/fCZ3IYzHnyMuipy+4yJA8uulcZUTAk6a88=
+
+Name: bin/repast/simphony/groovy/math/EmptyCategory.class
+SHA-256-Digest: Yp9UnunGjT+m5Qgu5eKyLZKfOzGoj8+OaZbDOWUasSA=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure19
+ 3.class
+SHA-256-Digest: TYP5N/I6R0m1e6O6j7Tov6dYgjLJD7cgtWxnYfOWnbg=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure30
+ 4.class
+SHA-256-Digest: iA2LEdQmCg1vJe536j3ExL7CxvCiU5Tm3XG6mb2jIaw=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure37
+ .class
+SHA-256-Digest: dDqjWvS3+doKnCT79wZPaS2+GuIh4HFj6maLEEYJu54=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure65
+ .class
+SHA-256-Digest: 7Mh7wQU54wNu0D3nepQWYXjBhcdplO6HEwr3w+TrCek=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initMatrix_closure3
+ 41.class
+SHA-256-Digest: MmMLwdwrvzc4ylxZ2w1MYuTDT4yzKewfVTW4Z77+/+s=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure25
+ 1.class
+SHA-256-Digest: x0/6kQzYChmbrHOuF1tqLrVtrM0II3Cbg6WWQGa6iSA=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure42
+ .class
+SHA-256-Digest: UpMttan8rJnp/WlWmqs4g+NZjYE2GmomlZ7xQMmtBx8=
+
+Name: bin/repast/simphony/groovy/math/RepastMathEMC$_initUnits_closure13
+ 6.class
+SHA-256-Digest: Z2wo+jZ0UGqWwGAYu+cgAt2KvRLRlTapkJ+cp4RdoUA=
+
+Name: bin/repast/simphony/groovy/math/CalculusOperations$_integralCalcul
+ ateEuler_closure3.class
+SHA-256-Digest: BUWFuhGwXA/dcDVYWnZQ9QgHATggqaqRLWuPI6+SL64=
+

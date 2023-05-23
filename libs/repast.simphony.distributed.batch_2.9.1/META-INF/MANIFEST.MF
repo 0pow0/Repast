@@ -1,0 +1,437 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Repast distributed batch
+Bundle-SymbolicName: repast.simphony.distributed.batch
+Bundle-Version: 2.9.1
+Require-Bundle: repast.simphony.batch,repast.simphony.core,repast.simpho
+ ny.data,repast.simphony.scenario,repast.simphony.runtime;visibility:=re
+ export,org.junit
+Export-Package: com.jcraft.jsch,org.apache.tools.ant,org.apache.tools.an
+ t.helper,repast.simphony.batch,repast.simphony.batch.parameter,repast.s
+ imphony.batch.ssh
+Bundle-ClassPath: .,lib/jsch-0.1.48.jar,lib/ant.jar,lib/ant-launcher.jar
+ ,lib/xmltask.jar
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: Argonne National Laboratory
+
+Name: bin/repast.slurm
+SHA-256-Digest: 6Iuns+gDj5U2tSpzLampP94ZFxgJfo4Chsjt1u4fiPI=
+
+Name: repast/simphony/batch/LocalDriver.class
+SHA-256-Digest: gecB9T66UlWT67fpMGHzYTqGuGZFdtDxH3l6yR4TXnI=
+
+Name: bin/repast.pbs
+SHA-256-Digest: Sa4aKKQqSYUM06iEti6kiBJhWp9euh2ZtaoQmg9Ce0I=
+
+Name: bin/repast/simphony/batch/LocalDriver$Instance.class
+SHA-256-Digest: 4dGAIpYuep8lK3UaAJTgX0g2sVSkunmx4Ltq+pu/mHQ=
+
+Name: repast/simphony/batch/ssh/OutputPattern.class
+SHA-256-Digest: c9gYwop5Md2uOcCG/AUqOuuw2ronctJwkEkiL0YWJ4M=
+
+Name: repast/simphony/batch/ssh/RemoteSession.class
+SHA-256-Digest: OQH4aGaCArTuROcId3Tr8w9IfYmzbxdRuXqrLYR7NYU=
+
+Name: resources/repast.pbs
+SHA-256-Digest: Sa4aKKQqSYUM06iEti6kiBJhWp9euh2ZtaoQmg9Ce0I=
+
+Name: bin/repast/simphony/batch/ssh/SessionsDriver.class
+SHA-256-Digest: NPwZl9lNzFtGlmQ75KPKiHgjeVeWbKbEEgDBpwD3nRA=
+
+Name: repast/simphony/batch/ssh/OutputFinder$1.class
+SHA-256-Digest: oP2zrt1JPiQKB7zaN1DorBaYKVvn5SrC4Yow3mFrq1s=
+
+Name: repast/simphony/batch/ssh/MatchedFiles.class
+SHA-256-Digest: OJw12SNx68iVxUGVDiACYM3f1DQfK0kFzjRC2qMhIS8=
+
+Name: repast/simphony/batch/ssh/ModelArchiveConfigurator.class
+SHA-256-Digest: atyE6zJwP0glBJSoIpxn7V4AhS6LV2bqW5weJpvbb3Y=
+
+Name: bin/repast/simphony/batch/LocalDriver$ProcessRunner.class
+SHA-256-Digest: YbpVuHY7X23M2wHdeHO84jghyCFzLDW8z0hCs3DziGo=
+
+Name: bin/repast/simphony/batch/ssh/LocalStatusCopier.class
+SHA-256-Digest: HdFmevfigQQNxfhMA2HmSBqddmcJDiqPAcYdJvjO2I8=
+
+Name: bin/repast/simphony/batch/batch.properties
+SHA-256-Digest: qavHySIwNnHvsR3RFUpDlHaKYByKhQp0VDXPDotg/44=
+
+Name: bin/repast/simphony/batch/ssh/SSHSessionFactory$1.class
+SHA-256-Digest: Wwyj5OgoBggeZNX0Dipd5RjFYcwW6wzYARlD5qsARfo=
+
+Name: lib/ant-launcher.jar
+SHA-256-Digest: Q5SVHo2FM3Mr9XRfTnv/pyEijH1UdaLV8UPLNe2cKUE=
+
+Name: bin/repast/simphony/batch/parameter/ParametersToInput.class
+SHA-256-Digest: q1G3reervzDsHCeTUTwhkDSusKwF5dUHamyGUemUJLk=
+
+Name: repast/simphony/batch/ssh/SessionBuilder.class
+SHA-256-Digest: nuXJ3JzmQkpSMHXDhHSwMHLjLUEPuwLoIyI4db4ZwOY=
+
+Name: bin/repast/simphony/batch/ssh/DefaultOutputPatternCreator.class
+SHA-256-Digest: JgUFWu2YYVIWUi2vCz7MmDpurgWC2+V6cMA6GODDeFw=
+
+Name: repast/simphony/batch/BatchConstants.class
+SHA-256-Digest: eqom2oD98xT2KS+vw6uuhBseABQZrSRcNJIcTZThAIM=
+
+Name: repast/simphony/batch/OneRunBatchRunner.class
+SHA-256-Digest: cUGxMAaBEnTkJPxjiTDU73hBup3njkUmxPeRZhBNO80=
+
+Name: repast/simphony/batch/ssh/LocalSession$ProcessRunner.class
+SHA-256-Digest: NpcefFmYx/i7zLYGsvFBTAFAVhcLlA/+WPIVieKsn+4=
+
+Name: repast/simphony/batch/LocalDriver$Instance.class
+SHA-256-Digest: 4dGAIpYuep8lK3UaAJTgX0g2sVSkunmx4Ltq+pu/mHQ=
+
+Name: repast/simphony/batch/ssh/Configuration.class
+SHA-256-Digest: 1SwNUVhofTCbJPbjSb42ZLIUTGaLbBOqaNDzz5dPFHM=
+
+Name: bin/repast/simphony/batch/ssh/OutputAggregator.class
+SHA-256-Digest: XEAGCv7RJ1ccaUScCuaTtS8XY+2KTNs6axPs4sX/hNY=
+
+Name: bin/repast/simphony/batch/ssh/OutputFinder.class
+SHA-256-Digest: dGx3totBL1jTWDPpEa+Pq/ylyMZmd8VUt4eUI4C9p/4=
+
+Name: repast/simphony/batch/ssh/LocalOutputFinder.class
+SHA-256-Digest: MVVX0oOFPzNOymDOVctHUjgv/HEfUJk2Nx9TF5rtdsI=
+
+Name: bin/repast/simphony/batch/ssh/RemoteStatusCopier.class
+SHA-256-Digest: ZKhXTbPL2qH2T2MbFP1hUJJeMmYZtLdKzjVyXt+67dQ=
+
+Name: bin/repast/simphony/batch/ssh/BaseOutputNamesFinder.class
+SHA-256-Digest: DKC74LhsXc0oSm2ZQJiwTC2DYiAQDQwIuMmxakpXEQk=
+
+Name: bin/repast/simphony/batch/parameter/ParameterLineParser.class
+SHA-256-Digest: 95k5qTNoWyK9wnCeZw1/U3cBUMgEus7KEfbGgn1UUjI=
+
+Name: bin/repast/simphony/batch/ClusterOutputFinder.class
+SHA-256-Digest: AR74MKuidXB9UcfRm4WWteINeOJVI/e0KLlzrCqagWY=
+
+Name: repast/simphony/batch/ssh/LocalSession.class
+SHA-256-Digest: 7td7MpWWjCI0T7mNERB+SwzgHvIxp3llks6et2PCZoI=
+
+Name: plugin_jpf.xml
+SHA-256-Digest: Fhuyb+HZSAgzhvc7NR/HRVex29tucKJfmr+Ki7yKzwc=
+
+Name: lib/jsch-0.1.48.jar
+SHA-256-Digest: nvqebRKUR3pMXnlzvDMfdlVS38jDT1LanmsY7EiyUIE=
+
+Name: bin/repast/simphony/batch/ssh/SessionBuilder.class
+SHA-256-Digest: nuXJ3JzmQkpSMHXDhHSwMHLjLUEPuwLoIyI4db4ZwOY=
+
+Name: bin/repast/simphony/util/Unzipper.class
+SHA-256-Digest: 9BFoVCTF1oPe4oh88C0wGhTtTvgC3Lj4O5YeoUVFAbo=
+
+Name: repast/simphony/batch/ssh/ConsoleUserInfo.class
+SHA-256-Digest: WAQ2k+Y607H0xEn+U4WugNyoosn+lqr+LtIuTZ7nvNk=
+
+Name: repast/simphony/batch/ssh/OutputAggregator$1.class
+SHA-256-Digest: +OzuRx9bI4ByZczJwVB45lHXASg7+EWK3GLlWNRKXFw=
+
+Name: bin/repast/simphony/batch/ssh/OutputPattern.class
+SHA-256-Digest: c9gYwop5Md2uOcCG/AUqOuuw2ronctJwkEkiL0YWJ4M=
+
+Name: repast/simphony/util/Unzipper.class
+SHA-256-Digest: 9BFoVCTF1oPe4oh88C0wGhTtTvgC3Lj4O5YeoUVFAbo=
+
+Name: repast/simphony/batch/ssh/SessionPropsParser.class
+SHA-256-Digest: 7Po+uaDi9VORaJSb/0EjfaznSRmb8laX3Oo9kxjUZK8=
+
+Name: resources/repastwrapper.sh
+SHA-256-Digest: APB66foN8pfhcXDSIO1TzbUWn2SdcOZbCYGm24I9z/c=
+
+Name: bin/repast/simphony/batch/ssh/StatusException.class
+SHA-256-Digest: XS43FfjYUt1+wgW7zZ5XnqdnNwOEqQrlEOw1c8TROEA=
+
+Name: repast/simphony/batch/parameter/ParameterLineParser.class
+SHA-256-Digest: 95k5qTNoWyK9wnCeZw1/U3cBUMgEus7KEfbGgn1UUjI=
+
+Name: repast/simphony/batch/ssh/RemoteStatusGetter.class
+SHA-256-Digest: Ka1DcPzxGs9f6dhMKvhsk/X6p92YoZkUW0xLTVwIEQI=
+
+Name: bin/repast/simphony/batch/ssh/LocalOutputFinder.class
+SHA-256-Digest: MVVX0oOFPzNOymDOVctHUjgv/HEfUJk2Nx9TF5rtdsI=
+
+Name: repast/simphony/batch/ssh/OutputFinder$Instance.class
+SHA-256-Digest: qYNCW08775ZvtR23eXiqXCrqsKAl6uNqp22HOyGnb5Q=
+
+Name: bin/repast/simphony/batch/ssh/SSHSessionFactory.class
+SHA-256-Digest: 9krVlMCDereo+v3wyUGST9ZWLHK0fY3LuPaaKZKm0Pg=
+
+Name: repast/simphony/batch/ssh/OutputAggregator.class
+SHA-256-Digest: XEAGCv7RJ1ccaUScCuaTtS8XY+2KTNs6axPs4sX/hNY=
+
+Name: repast/simphony/batch/ssh/SessionsDriver.class
+SHA-256-Digest: NPwZl9lNzFtGlmQ75KPKiHgjeVeWbKbEEgDBpwD3nRA=
+
+Name: repast/simphony/batch/ssh/OutputPatternPropsParser.class
+SHA-256-Digest: aDwMBvhA/ghMnyO9TFzHWQQcrJAtmzn0iolO3Yeqqnw=
+
+Name: bin/repast/simphony/batch/ClusterOutputCombiner.class
+SHA-256-Digest: xVSDEVHOYB51S7T3evVYM23cTK6PHr31CjTHLUtR12E=
+
+Name: bin/repast/simphony/batch/ssh/OutputFinder$Instance.class
+SHA-256-Digest: qYNCW08775ZvtR23eXiqXCrqsKAl6uNqp22HOyGnb5Q=
+
+Name: repast/simphony/batch/ssh/SSHSessionFactory$1.class
+SHA-256-Digest: Wwyj5OgoBggeZNX0Dipd5RjFYcwW6wzYARlD5qsARfo=
+
+Name: bin/repast/simphony/batch/ssh/Configuration.class
+SHA-256-Digest: TnCbRUz+Cf43jNU4AVTL76mpquDdJVrE1V2P6OFSG1I=
+
+Name: resources/outputcombiner.sh
+SHA-256-Digest: V53PF/RHm1OdlcJfLZq+pOGxgZeYUirTiJjB9Gm+YeY=
+
+Name: resources/repastwrapper_slurm.sh
+SHA-256-Digest: MjIgJ9CrnO/ZgjpSECDt82wMa6204n1LP2toE8eSoVY=
+
+Name: resources/fake_jar_to_avoid_watcher_init_warnings.jar
+SHA-256-Digest: n4O+2ECnknfUJDWqSWcQliSeFjWG/8+Q+SuQCg//oVQ=
+
+Name: bin/repast/simphony/batch/ClusterOutputFinderTests.class
+SHA-256-Digest: RhPH+rxw2LnO2t9lqGRxSBsgaQO/22hhmzi7vMM1RXU=
+
+Name: config/SSH.MessageCenter.log4j.properties
+SHA-256-Digest: BNTn8DmyFdbX8cVVhVopHhMxmK85+YxjEr+JlWckq6I=
+
+Name: bin/repast/simphony/batch/ssh/LocalOutputFinder$FileGatherer.class
+SHA-256-Digest: ziXtqPz+YT/zwK8w7hU7k8BTub/Y27JNbrTucz6/YjU=
+
+Name: bin/repast/simphony/batch/BatchConstants.class
+SHA-256-Digest: eqom2oD98xT2KS+vw6uuhBseABQZrSRcNJIcTZThAIM=
+
+Name: bin/repast/simphony/batch/ssh/SessionException.class
+SHA-256-Digest: k7XihB+3VmP/XqYgZxOVYSuk0MRP2WM8cNXRilJSLFM=
+
+Name: repast/simphony/batch/ssh/BatchParameterChunker.class
+SHA-256-Digest: +9vY9TCo0zKhAp88eZ0Ge7CM4XxUVtcmldsY2GHXrY0=
+
+Name: bin/repast/simphony/batch/ssh/RemoteDonePoller.class
+SHA-256-Digest: 3OYlBHyRabuZJenPfxGauSbbnP3TxdoJ5nCw4kF4ihU=
+
+Name: bin/repast/simphony/batch/FindOutputTests.class
+SHA-256-Digest: NSHod9KjwCjCDSP3Xt06v3m0cVZwwcCmRO0Rq1UIBTo=
+
+Name: bin/repast/simphony/batch/ssh/OutputPatternPropsParser.class
+SHA-256-Digest: 9OeNU8qGZGhFOMkq9bDEnvFDE3vohyzizZoZ5ids8uE=
+
+Name: bin/scripts/build.xml
+SHA-256-Digest: fTEqvhZgXs746f3eszZPZCFoCVSldS9SSaZp8NHqXp0=
+
+Name: repast/simphony/batch/parameter/ParametersToInput.class
+SHA-256-Digest: q1G3reervzDsHCeTUTwhkDSusKwF5dUHamyGUemUJLk=
+
+Name: bin/repast/simphony/batch/ssh/Session.class
+SHA-256-Digest: itsAsT+hfYSzJ7xjvs41WWOwnZdcw6ptszdv1OfTJaE=
+
+Name: repast/simphony/batch/batch.properties
+SHA-256-Digest: qavHySIwNnHvsR3RFUpDlHaKYByKhQp0VDXPDotg/44=
+
+Name: lib/ant.jar
+SHA-256-Digest: /8WBjKjN4u0RHZ1sZ2PTAUKa2Yl1gvCWi4DBoTbp26Q=
+
+Name: repast/simphony/batch/ssh/SSHSession.class
+SHA-256-Digest: iKt0DkySoWGITIw5zJrD2eFShpi9EpWQcz1TqNDK0O4=
+
+Name: repast/simphony/batch/ssh/SSHSessionFactory.class
+SHA-256-Digest: 9krVlMCDereo+v3wyUGST9ZWLHK0fY3LuPaaKZKm0Pg=
+
+Name: repast/simphony/batch/ssh/OutputPatternPropsParser$OutputPatternBu
+ ilder.class
+SHA-256-Digest: eTbq9EZxy6xnLZCP8Hll54sefmSSASiJYzeIhAN7K1g=
+
+Name: scripts/build.xml
+SHA-256-Digest: fTEqvhZgXs746f3eszZPZCFoCVSldS9SSaZp8NHqXp0=
+
+Name: bin/repast/simphony/batch/ssh/ConsoleUserInfo.class
+SHA-256-Digest: UfykvK11MlIMLgvJlwEN/1xJUX0ueSetZLS0F5KzZfA=
+
+Name: bin/repast/simphony/batch/ssh/LocalSession.class
+SHA-256-Digest: 7td7MpWWjCI0T7mNERB+SwzgHvIxp3llks6et2PCZoI=
+
+Name: bin/repast/simphony/batch/ssh/OutputAggregator$1.class
+SHA-256-Digest: +OzuRx9bI4ByZczJwVB45lHXASg7+EWK3GLlWNRKXFw=
+
+Name: bin/repast/simphony/batch/parameter/ParametersToInput$Iter.class
+SHA-256-Digest: q7gaAOacKVy+IkEX5EJ7PlMlJUjpj+61l3Jqpv3QhYo=
+
+Name: repast/simphony/batch/ssh/OutputFinder.class
+SHA-256-Digest: dGx3totBL1jTWDPpEa+Pq/ylyMZmd8VUt4eUI4C9p/4=
+
+Name: bin/repast/simphony/batch/ConfigTest.class
+SHA-256-Digest: MRCtn51A0I4sBaIr+ggTvBwIAhT387RhkffweCK3vGc=
+
+Name: repast/simphony/batch/ssh/RemoteDonePoller.class
+SHA-256-Digest: kBdhwLtpZydwAKNWZ9OBnLtMivdvQ7Ok5BRA/r2obHw=
+
+Name: bin/repast/simphony/batch/RunningStatus.class
+SHA-256-Digest: 0BMeP3Ai0A5a3IipD9tkmowlTFk4o72nsliziW1tq/U=
+
+Name: bin/repast/simphony/batch/ssh/RemoteStatusGetter.class
+SHA-256-Digest: Ka1DcPzxGs9f6dhMKvhsk/X6p92YoZkUW0xLTVwIEQI=
+
+Name: repast/simphony/batch/LoggingOutputStream.class
+SHA-256-Digest: ENeQS23mQneUtgJtID6yyG2D9Y2ukkiyt4Z7ZPuO3R4=
+
+Name: lib/xmltask.jar
+SHA-256-Digest: WYT+xpKNEtupnxp5wPHAwegPxxoBsslCg6OFfkLCEP0=
+
+Name: bin/repast/simphony/batch/ProcessOutputLogWriter.class
+SHA-256-Digest: MTsrYpri7TJ+xCbkSnbJ+7upTXAr9nF5WbWTCZ9DqUQ=
+
+Name: repast/simphony/batch/ClusterOutputCombiner.class
+SHA-256-Digest: xVSDEVHOYB51S7T3evVYM23cTK6PHr31CjTHLUtR12E=
+
+Name: repast/simphony/batch/InstanceRunner.class
+SHA-256-Digest: MoPXOzjQEVc3dIXCvGLs3Dv1szYI/la8gbWTCA5iQEw=
+
+Name: bin/repast/simphony/batch/ssh/BatchParameterChunkerException.class
+SHA-256-Digest: yXhMyXV4rQtt4n8Zb+tPAsqqt3tP1G+hUpuJpuaIkpM=
+
+Name: repast/simphony/batch/ssh/LocalStatusCopier.class
+SHA-256-Digest: HdFmevfigQQNxfhMA2HmSBqddmcJDiqPAcYdJvjO2I8=
+
+Name: repast/simphony/batch/ssh/SessionException.class
+SHA-256-Digest: k7XihB+3VmP/XqYgZxOVYSuk0MRP2WM8cNXRilJSLFM=
+
+Name: bin/repast/simphony/batch/InstanceRunner.class
+SHA-256-Digest: MoPXOzjQEVc3dIXCvGLs3Dv1szYI/la8gbWTCA5iQEw=
+
+Name: repast/simphony/batch/ssh/ModelArchiveConfiguratorException.class
+SHA-256-Digest: hyHDrhhedrCnHKlW+V7rgwWOKceDppz+FuXNzF3pEpc=
+
+Name: repast/simphony/batch/ssh/LocalOutputFinder$FileGatherer.class
+SHA-256-Digest: ziXtqPz+YT/zwK8w7hU7k8BTub/Y27JNbrTucz6/YjU=
+
+Name: bin/repast/simphony/batch/ssh/BatchParameterChunker.class
+SHA-256-Digest: FaiAkVdc4sAsw9Gb9rysDGtC4F0OciRYb+TFSCxeo+Q=
+
+Name: repast/simphony/batch/InstanceRunner$1.class
+SHA-256-Digest: RWzVvSeQC1JAwCBNArnokWsATlGoKuD3Tt27DoNuVGg=
+
+Name: src/scripts/build.xml
+SHA-256-Digest: fTEqvhZgXs746f3eszZPZCFoCVSldS9SSaZp8NHqXp0=
+
+Name: repast/simphony/batch/ssh/BaseOutputNamesFinder$FinderOutput.class
+SHA-256-Digest: foYiCYIS7b5BYhJuzNGRjLzDU6XbcS1UFig0NFqWzlM=
+
+Name: bin/repast/simphony/batch/OneRunBatchRunner$ORBController.class
+SHA-256-Digest: IGK9mb0kNYgYBZujqvmwwTrsaQYPVf3SeXSQGPendqU=
+
+Name: repast/simphony/batch/ssh/StatusException.class
+SHA-256-Digest: XS43FfjYUt1+wgW7zZ5XnqdnNwOEqQrlEOw1c8TROEA=
+
+Name: bin/repast/simphony/batch/ProcessOutputWriter.class
+SHA-256-Digest: /OOIySYwCyD83j39sEFu/na0kPHXunD2jBc/tv/ABpw=
+
+Name: bin/repast/simphony/batch/ssh/SSHSession.class
+SHA-256-Digest: yG4fuUQ4Yd46ocokkxSmYIWe6xnGnsd99oaXhYVvkFE=
+
+Name: bin/repast/simphony/batch/ssh/RemoteSession.class
+SHA-256-Digest: dAvkEua6zUVBzOo3+RXPYyUqpmDYgAaL+IOzNV7GWiY=
+
+Name: bin/repast/simphony/batch/ssh/LocalSession$ProcessRunner.class
+SHA-256-Digest: NpcefFmYx/i7zLYGsvFBTAFAVhcLlA/+WPIVieKsn+4=
+
+Name: bin/repast/simphony/batch/ssh/BaseOutputNamesFinder$FinderOutput.c
+ lass
+SHA-256-Digest: foYiCYIS7b5BYhJuzNGRjLzDU6XbcS1UFig0NFqWzlM=
+
+Name: bin/fake_jar_to_avoid_watcher_init_warnings.jar
+SHA-256-Digest: n4O+2ECnknfUJDWqSWcQliSeFjWG/8+Q+SuQCg//oVQ=
+
+Name: bin/repast/simphony/batch/ssh/LocalDonePoller.class
+SHA-256-Digest: XftNYqAjs+DUdlsm8CDydEGoUHUCLnByxvH0mVDLBso=
+
+Name: bin/repast/simphony/batch/RemoteOutputTest.class
+SHA-256-Digest: uZKqmI31jVVqapxRqi2O7ZJG5VEJyVIiFRn1PhPRjmM=
+
+Name: repast/simphony/batch/RunningStatus.class
+SHA-256-Digest: 0BMeP3Ai0A5a3IipD9tkmowlTFk4o72nsliziW1tq/U=
+
+Name: bin/repast/simphony/batch/InstanceRunner$1.class
+SHA-256-Digest: RWzVvSeQC1JAwCBNArnokWsATlGoKuD3Tt27DoNuVGg=
+
+Name: repast/simphony/batch/ssh/RemoteOutputFinderCopier.class
+SHA-256-Digest: JFvUKO9pD7Yay9fdTwA1lONx3oRg1K+Ed8WsNKtn058=
+
+Name: bin/repast/simphony/batch/ssh/OutputPatternPropsParser$OutputPatte
+ rnBuilder.class
+SHA-256-Digest: eTbq9EZxy6xnLZCP8Hll54sefmSSASiJYzeIhAN7K1g=
+
+Name: bin/repast/simphony/batch/ssh/ModelArchiveConfiguratorException.cl
+ ass
+SHA-256-Digest: hyHDrhhedrCnHKlW+V7rgwWOKceDppz+FuXNzF3pEpc=
+
+Name: repast/simphony/batch/ssh/DefaultOutputPatternCreator.class
+SHA-256-Digest: JgUFWu2YYVIWUi2vCz7MmDpurgWC2+V6cMA6GODDeFw=
+
+Name: repast/simphony/batch/LocalDriver$ProcessRunner.class
+SHA-256-Digest: YbpVuHY7X23M2wHdeHO84jghyCFzLDW8z0hCs3DziGo=
+
+Name: bin/repast/simphony/batch/ssh/OutputFinder$1.class
+SHA-256-Digest: oP2zrt1JPiQKB7zaN1DorBaYKVvn5SrC4Yow3mFrq1s=
+
+Name: repast/simphony/batch/ProcessOutputLogWriter.class
+SHA-256-Digest: MTsrYpri7TJ+xCbkSnbJ+7upTXAr9nF5WbWTCZ9DqUQ=
+
+Name: repast/simphony/batch/ssh/BatchParameterChunkerException.class
+SHA-256-Digest: yXhMyXV4rQtt4n8Zb+tPAsqqt3tP1G+hUpuJpuaIkpM=
+
+Name: resources/repast.slurm
+SHA-256-Digest: 6Iuns+gDj5U2tSpzLampP94ZFxgJfo4Chsjt1u4fiPI=
+
+Name: repast/simphony/batch/ClusterOutputFinder.class
+SHA-256-Digest: AR74MKuidXB9UcfRm4WWteINeOJVI/e0KLlzrCqagWY=
+
+Name: bin/repast/simphony/batch/ssh/ModelArchiveConfigurator.class
+SHA-256-Digest: UDSzl+cNJHTUo5D5b3tAp1G+0sLmzHvkXYeFuPt8zD4=
+
+Name: repast/simphony/batch/ssh/LocalDonePoller.class
+SHA-256-Digest: j/kXatsDWIFbNMdN+3/PQqGI45CacQCRdgA6hYABoAY=
+
+Name: repast/simphony/batch/ssh/RemoteStatusCopier.class
+SHA-256-Digest: ZKhXTbPL2qH2T2MbFP1hUJJeMmYZtLdKzjVyXt+67dQ=
+
+Name: bin/repast/simphony/batch/LocalDriver.class
+SHA-256-Digest: k2rAly2ywTTd3MYWOOUM3gYOIN1J5N7/+eTVR+3j8f4=
+
+Name: bin/repast/simphony/batch/OneRunBatchRunner.class
+SHA-256-Digest: 14bzFTeS9cvfC0sg59wiimU24j0YHxZGLpYEaOb12bE=
+
+Name: repast/simphony/batch/ssh/BaseOutputNamesFinder.class
+SHA-256-Digest: DKC74LhsXc0oSm2ZQJiwTC2DYiAQDQwIuMmxakpXEQk=
+
+Name: repast/simphony/batch/ssh/Session.class
+SHA-256-Digest: itsAsT+hfYSzJ7xjvs41WWOwnZdcw6ptszdv1OfTJaE=
+
+Name: bin/repast/simphony/batch/ssh/MatchedFiles.class
+SHA-256-Digest: OJw12SNx68iVxUGVDiACYM3f1DQfK0kFzjRC2qMhIS8=
+
+Name: repast/simphony/batch/ProcessOutputWriter.class
+SHA-256-Digest: /OOIySYwCyD83j39sEFu/na0kPHXunD2jBc/tv/ABpw=
+
+Name: bin/repast/simphony/batch/ssh/SessionPropsParser.class
+SHA-256-Digest: B1yUeEWezpxa8YC26RGRxospsVuVSO1DdsRd3x4aqQY=
+
+Name: repast/simphony/batch/parameter/ParametersToInput$Iter.class
+SHA-256-Digest: q7gaAOacKVy+IkEX5EJ7PlMlJUjpj+61l3Jqpv3QhYo=
+
+Name: repast/simphony/batch/OneRunBatchRunner$ORBController.class
+SHA-256-Digest: IGK9mb0kNYgYBZujqvmwwTrsaQYPVf3SeXSQGPendqU=
+
+Name: bin/repast/simphony/batch/LoggingOutputStream.class
+SHA-256-Digest: ENeQS23mQneUtgJtID6yyG2D9Y2ukkiyt4Z7ZPuO3R4=
+
+Name: bin/repastwrapper_slurm.sh
+SHA-256-Digest: MjIgJ9CrnO/ZgjpSECDt82wMa6204n1LP2toE8eSoVY=
+
+Name: bin/repast/simphony/batch/ssh/RemoteOutputFinderCopier.class
+SHA-256-Digest: JFvUKO9pD7Yay9fdTwA1lONx3oRg1K+Ed8WsNKtn058=
+
+Name: bin/outputcombiner.sh
+SHA-256-Digest: V53PF/RHm1OdlcJfLZq+pOGxgZeYUirTiJjB9Gm+YeY=
+
+Name: bin/repastwrapper.sh
+SHA-256-Digest: APB66foN8pfhcXDSIO1TzbUWn2SdcOZbCYGm24I9z/c=
+

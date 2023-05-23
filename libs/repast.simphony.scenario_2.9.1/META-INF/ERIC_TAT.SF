@@ -1,0 +1,307 @@
+Signature-Version: 1.0
+Created-By: 11.0.12 (Eclipse Foundation)
+SHA-256-Digest-Manifest: 1hZdQCQfAIwiecWnNgVfrGelVVhjMsnivjQIuyKhdJQ=
+SHA-256-Digest-Manifest-Main-Attributes: csyhwApskk6g2rjEvp43hKSyf66WFBi
+ P3haVpIX07C8=
+
+Name: bin/repast/simphony/scenario/ScenarioCreatorTest.class
+SHA-256-Digest: 0QOs5IxYylY1M1Yhh/eYc3CYIuiSMtG2lGPzopM2n1M=
+
+Name: plugin.xml
+SHA-256-Digest: 8juoRKt92ysb31GfXyqLIGsjmV9G4J7fbZtKbBEXq1o=
+
+Name: bin/repast/simphony/scenario/data/AttributeFactory$PType.class
+SHA-256-Digest: bZNrmpb3O1t5488yNEOjcbzhT8RTaprVJFxUjWVug+Y=
+
+Name: bin/repast/simphony/scenario/AbstractDescriptorControllerActionIO.
+ class
+SHA-256-Digest: +z0OlPGPeL+iOTQnNxHbx+YPLQQMm8q7E3p+ri6bHsM=
+
+Name: bin/repast/simphony/scenario/ScenarioChangedSupport.class
+SHA-256-Digest: cl7F56hYgq/efHsCK+Vu4DC3kGDhNYI6UbpGyeErVEQ=
+
+Name: bin/repast/simphony/scenario/AbstractDescriptor.class
+SHA-256-Digest: jz52LEA3/TOlOyu4dUg6l42zITMPcpREI0spm0/Fmq4=
+
+Name: bin/repast/simphony/scenario/data/ProjectionType_old$1.class
+SHA-256-Digest: vRApcqgiQAiFdZONrISKczXuo3irR7pwHLhiMCy/26M=
+
+Name: bin/repast/simphony/scenario/ScenarioLoadException.class
+SHA-256-Digest: gXHMd72mrFhJ4/LmgjGN3XWC80TAA4DEV1kcspaGNmQ=
+
+Name: bin/repast/simphony/scenario/Scenario.class
+SHA-256-Digest: 1/JPHOPYfONBDlPJDY4kxrqNv/WLlSIgwNjcg8nxoV8=
+
+Name: bin/data/context.xml
+SHA-256-Digest: BlXWXO5zDoXG9xLRf1E61klE8CiKwog6umpgU6Eg6jc=
+
+Name: bin/repast/simphony/scenario/ScenarioCreator.class
+SHA-256-Digest: eyVl3c3AQDbt11HmRhBMoufdW6SYWQApcDyDTXfyZVw=
+
+Name: bin/repast/simphony/scenario/data/ContextFileIOConstants.class
+SHA-256-Digest: meAJkq3h8HsjsizR6Ma3Sld62QrJoqsdTmq1wkOBNWE=
+
+Name: bin/repast/simphony/plugin/CompositeControllerActionCreator.class
+SHA-256-Digest: 7BLQmY7kTxTHmmn2vPoi4vmbZ4c29a06GAqXBFeS6u4=
+
+Name: bin/repast/simphony/scenario/AbstractControllerActionIO.class
+SHA-256-Digest: 4ATzfFbQj3Uv9/tcBwt5L0PKKALPKHoQXGGVXdZPclo=
+
+Name: bin/repast/simphony/plugin/ControllerActionIOExtensions.class
+SHA-256-Digest: eO9oUT7U6fa/JbMKU3GM4G+1/H1RSaGxghthFNdcG5c=
+
+Name: licenses/repast-license.txt
+SHA-256-Digest: OiLqoygTE6vasbSFEGEJChgkBjTMACDWztuXCGv4an4=
+
+Name: bin/repast/simphony/scenario/ControllerActionIO.class
+SHA-256-Digest: SiKtMflSD0gexsAduSJGgruYMCOwu/BU3nVckN0MeTI=
+
+Name: bin/repast/simphony/scenario/eclipse/NewUserPathtFileWizard.class
+SHA-256-Digest: 5rB9fVUP3PcsSRMyNjluuWZzpqL8FHjOuN+6PQDO11U=
+
+Name: bin/repast/simphony/scenario/data/DisplayDescriptorXMLConverter$IE
+ ventProcessor.class
+SHA-256-Digest: +BEDT7cLM4xdL3/V2ygHX8ESVETR0UFN8X0JH8nt8m4=
+
+Name: bin/repast/simphony/scenario/DescriptorActionSaver.class
+SHA-256-Digest: KXrjG7oZAkJYFPeMdFfqejUEyAiuFXmhtn9Hak3CuXc=
+
+Name: bin/repast/simphony/scenario/data/ContextData.class
+SHA-256-Digest: 3fZIL/OEyKk2yiKiV6UcFp4pL9oqHqo3pJe4KYzoDzI=
+
+Name: bin/repast/simphony/scenario/ScenarioChangedListener.class
+SHA-256-Digest: KS2wYajEjBRwMGG8l++VYDvxs7h3tn/wswKAwyIsApg=
+
+Name: bin/repast/simphony/scenario/ScenarioCPInitializer.class
+SHA-256-Digest: 08VLKWTQ2lhooXfxKyrgC8DF/teYBCFC7HiSOerWvLM=
+
+Name: bin/repast/simphony/scenario/data/Classpath.class
+SHA-256-Digest: arfv9RnKmddUu5kwowEMpw8VDiQeVdIa69FWPu91A/c=
+
+Name: bin/repast/simphony/scenario/ScenarioLoader.class
+SHA-256-Digest: MXnH5jjRjXWBtYp3tkGvZPxFIFFErgGcNmW9s5ynNzI=
+
+Name: bin/repast/simphony/annotate/FieldPropertyManipulator.class
+SHA-256-Digest: nX+N/nBBsngAA288Q4cYSnl9vdJanjAr6LXcqbJJEes=
+
+Name: plugin_jpf.xml
+SHA-256-Digest: SYv+7Rig4JmhzqsK7zkRitU3nDTTP4fXt3Y5UtVx1As=
+
+Name: bin/repast/simphony/scenario/ObjectActionLoader.class
+SHA-256-Digest: TXdcPpzjWqOiQGHqjVRDgMbDLyzBbNCfQYhzCkwL95Y=
+
+Name: bin/repast/simphony/scenario/ScenarioEntry.class
+SHA-256-Digest: W6t8RaWH4XvNbTX9TakoyUxmyONqbPQf9WcsfnQ4Uhs=
+
+Name: bin/repast/simphony/scenario/data/DisplayDescriptorXMLConverter$Pr
+ ojectionsProcessor.class
+SHA-256-Digest: A0PaGMUgVZsXqs9WtoB6qPeq5UvKhqQOfnl/WIyssrc=
+
+Name: bin/repast/simphony/score/TestConverter.class
+SHA-256-Digest: qHXzxAiRqKM1XNTFzqkPL38vQEkGl1sL9gQbfgXHSmI=
+
+Name: bin/repast/simphony/scenario/ScenarioFileLoader$1.class
+SHA-256-Digest: I+ENbrbFIt1G6iehFPnhdMKIRjTWrxZaXvWlt6qt5RM=
+
+Name: bin/target.rs/repast.dataLoader.engine.ClassNameDataLoaderAction_1
+ .xml
+SHA-256-Digest: BjPhQ5vB8EerJoMZfY8pup9OHpS+BBk+kVDOpuuyEbo=
+
+Name: bin/repast/simphony/score/TestAttributeType.class
+SHA-256-Digest: SQuBs0CN2NQkWIw3yQ5zGo6vv3LnwhpUzbQ27Xf2J9U=
+
+Name: bin/repast/simphony/scenario/ActionLoader.class
+SHA-256-Digest: VRqOZ4P+1eUcbbokwZimQ/MUY5IM3PZngevyzP2HvR8=
+
+Name: bin/repast/simphony/scenario/ModelInitializer.class
+SHA-256-Digest: fr/RyDlh2c/ZhQZ8hhK+ikzWjqxvHn6Qy+QAhJ5bZj8=
+
+Name: bin/target.rs/model.score
+SHA-256-Digest: YNKyavX3mreR9sCF+YAJSzxAr5eF/xQTzFhw7rt4ksc=
+
+Name: bin/repast/simphony/annotate/PropertyAnnot.class
+SHA-256-Digest: fcC+J4qpq/QGkk+axPq92hh7k6uV7EOWo5Xt+4j/qfs=
+
+Name: schemas/context.xsd
+SHA-256-Digest: l8TKs3Cf3aOO5mA+Ix+lpRf3V/ubo9mtLBZnlQ4qM3I=
+
+Name: bin/repast/simphony/scenario/data/UserPathFileReader.class
+SHA-256-Digest: pEQ4xsFQkbvO4BkhHg2D6FfWLTTNG4YAQzNauNQbbSY=
+
+Name: bin/repast/simphony/score/ReaderTests.class
+SHA-256-Digest: 9Qu1/NmIicjT5JL+FtH66n1/EZAYJ1lHQdWFYXlj7h0=
+
+Name: bin/source/model_subcontext_external.score
+SHA-256-Digest: fy7pMqMcFxJIsHDH3Nckejd/hFwXxltLLyVmMICapxo=
+
+Name: bin/repast/simphony/scenario/data/AgentData.class
+SHA-256-Digest: XagtzoW7E9PPFJbgz68glZg/FIgQBW0s3GjnMoX13N8=
+
+Name: bin/repast/simphony/plugin/ScenarioCreatorExtensions.class
+SHA-256-Digest: Z7l4HlNhRj1xQEivAOw9WJEo6n/BC075qxU4QS0XGog=
+
+Name: bin/repast/simphony/scenario/ScenarioSaver$SaverScenarioEntry.clas
+ s
+SHA-256-Digest: jeoW5zQRWu2aCgEF945TvYELiaqm1RnERZGy52CNDks=
+
+Name: bin/repast/simphony/scenario/data/AttributeFactory.class
+SHA-256-Digest: vfvrs523HNV2xaEAj8LavSbWaL+xy4pBUF+oyJcmeeQ=
+
+Name: bin/repast/simphony/scenario/data/DisplayDescriptorXMLConverter.cl
+ ass
+SHA-256-Digest: ArA/G/tcJfX8nhvjdrblUQlDJXenQ+9FbuxrPEiFgiE=
+
+Name: schemas/user_path.xsd
+SHA-256-Digest: pl8sf24Wbkkz5FPMDHol0a7ktePHCZe0ws6Fbn/TgHQ=
+
+Name: bin/source/model_subcontext_load.score
+SHA-256-Digest: K4pY3sEFr6jWf+OrPrlHo/hryKUh5V0zj8fzPRfPKJk=
+
+Name: icons/txt.png
+SHA-256-Digest: E1QtEdtmiRv0oOAuN89gvofrulAlS9nIlmTI4bAtWVA=
+
+Name: bin/repast/simphony/scenario/Scenario.vt
+SHA-256-Digest: iHMCK4+D0dDLdEMZ6pPtA4VTWOcFoDOEqD2E9KtOoR8=
+
+Name: bin/repast/simphony/scenario/data/Attribute.class
+SHA-256-Digest: MdMy2qwn/JUrmDXyejsOlxykZ5HPmRpx7GD/3iXeHxU=
+
+Name: bin/repast/simphony/scenario/DefaultActionLoader.class
+SHA-256-Digest: I/ehSULbYKxbjpmYQkJMWuPGatpdTE+COOwc2sH09Sk=
+
+Name: bin/repast/simphony/scenario/data/ContextFileWriter.class
+SHA-256-Digest: 5Ph1iASjZ7ll7HXMOoyJ0JGMWDJlqpD4Efv5ZoSSM0Q=
+
+Name: bin/repast/simphony/scenario/eclipse/NewContextFileWizard.class
+SHA-256-Digest: 7bqvo+XH5wf3+Gu1C968xyLqHc62UkB00WRoHhY8CEk=
+
+Name: bin/repast/simphony/scenario/AbstractActionLoader.class
+SHA-256-Digest: 7+cpFD60xDh57sMA24yKDjcE2bIRjdW0xfrgMIBSj8M=
+
+Name: bin/repast/simphony/scenario/DescriptorActionLoader.class
+SHA-256-Digest: 7dEJpzUSYx4OiOqmBqq3dht8uZhIykN4DUg25S0aKqE=
+
+Name: bin/repast/simphony/scenario/DescriptorConverter.class
+SHA-256-Digest: nGRaZRFS25Sz9N/2bdk8MS71FQ0b4sTNkAbA1xH9J8g=
+
+Name: bin/repast/simphony/scenario/ScenarioChangedEvent.class
+SHA-256-Digest: uymtHwgaRoN8iNXZPl6/n71AMKb66enJ/j45suJ2/2U=
+
+Name: bin/repast/simphony/scenario/ScenarioFileLoader.class
+SHA-256-Digest: ZujplTmgHdHOZEVKNetrS2z3GegI5Fi9eDy3YP8Lpy0=
+
+Name: bin/repast/simphony/scenario/data/ContextFileReader.class
+SHA-256-Digest: Vrauml4toDFmarP7bFvKjv0T7UJzxeR7ZvR5P2edhiU=
+
+Name: bin/repast/simphony/scenario/ConverterTests.class
+SHA-256-Digest: Cqy+FO47+8cRQiDa1QXbBZ7FHU+G0Eynnkg6UH8Qhs4=
+
+Name: bin/repast/simphony/scenario/data/UserPathData.class
+SHA-256-Digest: KUmGHe0VFjvgdQNPNvEr28IP2WUF14O4CVfLt8id7Iw=
+
+Name: bin/repast/simphony/score/DisplayDescriptorConvertTests.class
+SHA-256-Digest: aS6D+m6LEjWgIWXXA2i3LAzoMOL8lMhJAu9biNIBtaI=
+
+Name: bin/target.rs/scenario.xml
+SHA-256-Digest: S8hp9p4K7tK5oee+2C+87SZqkbMAGJUXGr6Jx9u4iBo=
+
+Name: bin/repast/simphony/scenario/data/ProjectionType_old.class
+SHA-256-Digest: UtPY35KIFR4bEvNM/2k9pJooNG/Dxb/DLUahZ7P2Q8I=
+
+Name: bin/repast/simphony/scenario/ScenarioSaver$1.class
+SHA-256-Digest: 6buGFaewPIegmgXYaNKKmcMqLl69T+/lYPt9+c+OlkE=
+
+Name: bin/repast/simphony/scenario/ScenarioCreatorExtension.class
+SHA-256-Digest: teEVEPiQdhqLWqBp7qE3f+i71gom7jwjOjIzncS0FFE=
+
+Name: bin/repast/simphony/scenario/PersonDescriptor.class
+SHA-256-Digest: 9Ki9/Rlmgh/CgwVo/Yh9sYoo1O9vOY+BEQKIMTgXfvw=
+
+Name: bin/repast/simphony/scenario/data/AttributeContainer.class
+SHA-256-Digest: N0bqsXq1DuwqwLWb/mCBZrT77mQK+Wh7VEm/KnW8DuM=
+
+Name: bin/repast/simphony/scenario/data/ProjectionType_old$2.class
+SHA-256-Digest: HtuLvPnzQyyQWK/1UfzYmDk+YAOzEKaesr5doTS8e8g=
+
+Name: bin/repast/simphony/scenario/ScenarioSaver.class
+SHA-256-Digest: nhNYZP6Gj76oC8dokQsCgrY/6N0F1t5j5VOGLiM32e8=
+
+Name: bin/data/repast.simphony.action.display_4.xml
+SHA-256-Digest: JlHvqZV75OkmweHm20gVvHOm582Puc3f2bbpoH/T848=
+
+Name: bin/repast/simphony/scenario/data/DefaultAttribute.class
+SHA-256-Digest: 3GQELLSPsDT8+dJIMViaP/opBGDfMmxS6mybY+rDVw0=
+
+Name: bin/repast/simphony/annotate/AgentAnnot.class
+SHA-256-Digest: uDbiaydRtVaXxjis3yBG902XcsXFY1sG1JuDFEttnnQ=
+
+Name: bin/repast/simphony/annotate/PropertyManipulator.class
+SHA-256-Digest: tRMGm+4CqnB9f/18hm6JQorBtrX5PS0osK0xM0bJm/I=
+
+Name: bin/data/context_copy.xml
+SHA-256-Digest: C7/Pwq8ujIYbXpPx0FmvpznXEYsD7QoZUuKO5Acfk5k=
+
+Name: bin/repast/simphony/plugin/ActionExtensions.class
+SHA-256-Digest: w53ijs9Uk/hsbFvaQT9IvU5HWMG2EzqmqNNwVuHdruI=
+
+Name: bin/data/model.xml
+SHA-256-Digest: zZpiejRetLu9L89XzYdy8Acs795d66ppo0wUogVMFN4=
+
+Name: bin/repast/simphony/plugin/ModelPluginLoader.class
+SHA-256-Digest: K2nHAVl4tD71mmuzpEooi1lzMYcD1JroYNRyWovBx44=
+
+Name: bin/repast/simphony/scenario/Scenario$2.class
+SHA-256-Digest: fhz5Ke84E7si5FTJDWyqdeZ2r8nqfbU9G6EnbthvoYY=
+
+Name: bin/repast/simphony/scenario/ConverterTests$1.class
+SHA-256-Digest: r88Fb+v4bH32fiHELoSUj/4SHuxQhiqZge2mlJT8F5Y=
+
+Name: bin/repast/simphony/scenario/ScenarioUtils.class
+SHA-256-Digest: 85G1PK9VUrH2wP5nHdDWoC4Jm9ndfcFYN/2R/8WQkK8=
+
+Name: bin/repast/simphony/scenario/data/ProjectionType_old$3.class
+SHA-256-Digest: YXDrtJ50RG5Woh57T0sDN+PgSAJJZ1ZaKk4B0M772ZA=
+
+Name: bin/repast/simphony/scenario/DefaultControllerActionIO.class
+SHA-256-Digest: vdjYnchiKMXAVXjg2TWwwUq5ICCkQFzgFQwlkqkIuC4=
+
+Name: bin/repast/simphony/scenario/data/ProjectionData.class
+SHA-256-Digest: JxKZJOCVh/G4x0XHPIEkP/ToICt4A76V+S/iH/eVqcA=
+
+Name: bin/repast/simphony/scenario/ScenarioUtilsTest.class
+SHA-256-Digest: 9T/u+TgKnOksRY3B1BVhtQgU+b6+oAzauZjw0RmZ3zQ=
+
+Name: bin/repast/simphony/plugin/ControllerActionExtensions.class
+SHA-256-Digest: mmcWdRlMtlFcZWp3Ryn3br/oDG1xkJL0aW2fpwfT7mY=
+
+Name: bin/repast/simphony/scenario/data/ProjectionType_old$4.class
+SHA-256-Digest: Tgciy36Dj9NyzjIUQp8mm4yH0cmedl76u5N5G2hkWrk=
+
+Name: bin/repast/simphony/scenario/Scenario$1.class
+SHA-256-Digest: x51rXxc0QeyKlXlPz1gatjSuPcQ9/YtlZ2bFUllc620=
+
+Name: bin/repast/simphony/scenario/ActionSaver.class
+SHA-256-Digest: Bbpl/Kvm73pZaBi+c7mvINj+AB5cwrxQdKzHOTrJUdI=
+
+Name: licenses/CPL.txt
+SHA-256-Digest: 3SbBNwwWxeRYz120r68nNQYu73LIVnGa79yk/pExQqA=
+
+Name: bin/repast/simphony/scenario/FastMethodConvertor.class
+SHA-256-Digest: /vUyihZVqTyPRc2+OLeuBo75acYHsWf3zvZ2A3f2UG0=
+
+Name: bin/repast/simphony/scenario/data/DisplayDescriptorXMLConverter$Ev
+ entProcessor.class
+SHA-256-Digest: P+TYXcnF7la28a4ccXoQxolAiPLx6eA66cXyjwfzlW8=
+
+Name: bin/repast/simphony/scenario/ScenarioConstants.class
+SHA-256-Digest: s7Y0F4Ve54JqlDwSAUmkzxMy7oQ0Fy+BDy5c0Jn1bxw=
+
+Name: bin/repast/simphony/scenario/data/AgentDataTest.class
+SHA-256-Digest: zUIQKPUnddRtlXnoGhwfFOGO7OpjOagVKXt5D4SHNSg=
+
+Name: bin/repast/simphony/scenario/ScenarioWatcheeInitializer.class
+SHA-256-Digest: w+6CsdMmsQQUjzMIcmz9JcYpL6LFjSqjTAbpv1COXso=
+
+Name: bin/repast/simphony/scenario/DefaultActionSaver.class
+SHA-256-Digest: xa7b9nP4ok/CYb7eBMcrgttJG15AMkcIVHLgHnZbVMg=
+

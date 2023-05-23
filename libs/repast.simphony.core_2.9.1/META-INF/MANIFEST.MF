@@ -1,0 +1,2531 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Repast core
+Bundle-SymbolicName: repast.simphony.core
+Bundle-Version: 2.9.1
+Bundle-ClassPath: lib/jsr108-0.01.jar,lib/concurrent-1.3.4.jar,lib/colle
+ ctions-generic-4.01.jar,lib/jbullet.jar,lib/colt-1.2.0-no_hep.jar,bin/,
+ lib/jung-algorithms-2.0.1.jar,lib/jung-api-2.0.1.jar,lib/jung-graph-imp
+ l-2.0.1.jar,lib/jung-io-2.0.1.jar,lib/velocity-1.4.jar,lib/dom4j-1.6.1.
+ jar,lib/xmlbeans-2.3.1.jar,lib/opencsv-2.3.jar,lib/commons-lang3-3.1.ja
+ r,lib/cglib-nodep-2.2.3.jar,lib/poi-3.9-20121203.jar,lib/poi-ooxml-3.9-
+ 20121203.jar,lib/ooxml-schemas-1.1.jar,lib/hsqldb-2.3.2.jar,lib/jscienc
+ e-4.3.1-no_ogis.jar,lib/commons-math3-3.6.1.jar,lib/commons-collections
+ -3.2.2.jar,lib/commons-io-2.5.jar,lib/stack-alloc.jar
+Bundle-Localization: plugin
+Export-Package: .,EDU.oswego.cs.dl.util.concurrent,EDU.oswego.cs.dl.util
+ .concurrent.misc,au.com.bytecode.opencsv,au.com.bytecode.opencsv.bean,c
+ ern.clhep,cern.colt,cern.colt.bitvector,cern.colt.buffer,cern.colt.func
+ tion,cern.colt.list,cern.colt.list.adapter,cern.colt.map,cern.colt.matr
+ ix,cern.colt.matrix.bench,cern.colt.matrix.doublealgo,cern.colt.matrix.
+ impl,cern.colt.matrix.linalg,cern.colt.matrix.objectalgo,cern.jet.math,
+ cern.jet.random,cern.jet.random.engine,cern.jet.random.sampling,cern.je
+ t.stat,cern.jet.stat.quantile,com.bulletphysics,com.bulletphysics.colli
+ sion.broadphase,com.bulletphysics.collision.dispatch,com.bulletphysics.
+ collision.narrowphase,com.bulletphysics.collision.shapes,com.bulletphys
+ ics.dynamics,com.bulletphysics.dynamics.constraintsolver,com.bulletphys
+ ics.dynamics.vehicle,com.bulletphysics.linearmath,com.bulletphysics.lin
+ earmath.convexhull,com.bulletphysics.util,corejava,edu.uci.ics.jung.alg
+ orithms.blockmodel,edu.uci.ics.jung.algorithms.cluster,edu.uci.ics.jung
+ .algorithms.filters,edu.uci.ics.jung.algorithms.flows,edu.uci.ics.jung.
+ algorithms.generators,edu.uci.ics.jung.algorithms.generators.random,edu
+ .uci.ics.jung.algorithms.importance,edu.uci.ics.jung.algorithms.layout,
+ edu.uci.ics.jung.algorithms.layout.util,edu.uci.ics.jung.algorithms.mat
+ rix,edu.uci.ics.jung.algorithms.metrics,edu.uci.ics.jung.algorithms.sco
+ ring,edu.uci.ics.jung.algorithms.scoring.util,edu.uci.ics.jung.algorith
+ ms.shortestpath,edu.uci.ics.jung.algorithms.transformation,edu.uci.ics.
+ jung.algorithms.util,edu.uci.ics.jung.graph,edu.uci.ics.jung.graph.even
+ t,edu.uci.ics.jung.graph.util,edu.uci.ics.jung.io,edu.uci.ics.jung.io.g
+ raphml,edu.uci.ics.jung.io.graphml.parser,javax.measure,javax.measure.c
+ onverter,javax.measure.quantity,javax.measure.unit,javax.realtime,javol
+ ution,javolution.context,javolution.io,javolution.lang,javolution.testi
+ ng,javolution.text,javolution.util,javolution.xml,javolution.xml.sax,ja
+ volution.xml.stream,javolution.xml.ws,net.sf.cglib.asm,net.sf.cglib.asm
+ .signature,net.sf.cglib.beans,net.sf.cglib.core,net.sf.cglib.proxy,net.
+ sf.cglib.reflect,net.sf.cglib.transform,net.sf.cglib.transform.impl,net
+ .sf.cglib.util,org.apache.commons.collections,org.apache.commons.collec
+ tions.bag,org.apache.commons.collections.bidimap,org.apache.commons.col
+ lections.buffer,org.apache.commons.collections.collection,org.apache.co
+ mmons.collections.comparators,org.apache.commons.collections.functors,o
+ rg.apache.commons.collections.iterators,org.apache.commons.collections.
+ keyvalue,org.apache.commons.collections.list,org.apache.commons.collect
+ ions.map,org.apache.commons.collections.set,org.apache.commons.collecti
+ ons15,org.apache.commons.collections15.bag,org.apache.commons.collectio
+ ns15.bidimap,org.apache.commons.collections15.buffer,org.apache.commons
+ .collections15.collection,org.apache.commons.collections15.comparators,
+ org.apache.commons.collections15.functors,org.apache.commons.collection
+ s15.iterators,org.apache.commons.collections15.keyvalue,org.apache.comm
+ ons.collections15.list,org.apache.commons.collections15.map,org.apache.
+ commons.collections15.multimap,org.apache.commons.collections15.set,org
+ .apache.commons.io,org.apache.commons.io.comparator,org.apache.commons.
+ io.filefilter,org.apache.commons.io.input,org.apache.commons.io.monitor
+ ,org.apache.commons.io.output,org.apache.commons.io.serialization,org.a
+ pache.commons.lang3,org.apache.commons.lang3.builder,org.apache.commons
+ .lang3.concurrent,org.apache.commons.lang3.event,org.apache.commons.lan
+ g3.exception,org.apache.commons.lang3.math,org.apache.commons.lang3.mut
+ able,org.apache.commons.lang3.reflect,org.apache.commons.lang3.text,org
+ .apache.commons.lang3.text.translate,org.apache.commons.lang3.time,org.
+ apache.commons.lang3.tuple,org.apache.commons.math3,org.apache.commons.
+ math3.analysis,org.apache.commons.math3.analysis.differentiation,org.ap
+ ache.commons.math3.analysis.function,org.apache.commons.math3.analysis.
+ integration,org.apache.commons.math3.analysis.integration.gauss,org.apa
+ che.commons.math3.analysis.interpolation,org.apache.commons.math3.analy
+ sis.polynomials,org.apache.commons.math3.analysis.solvers,org.apache.co
+ mmons.math3.complex,org.apache.commons.math3.dfp,org.apache.commons.mat
+ h3.distribution,org.apache.commons.math3.distribution.fitting,org.apach
+ e.commons.math3.exception,org.apache.commons.math3.exception.util,org.a
+ pache.commons.math3.filter,org.apache.commons.math3.fitting,org.apache.
+ commons.math3.fitting.leastsquares,org.apache.commons.math3.fraction,or
+ g.apache.commons.math3.genetics,org.apache.commons.math3.geometry,org.a
+ pache.commons.math3.geometry.enclosing,org.apache.commons.math3.geometr
+ y.euclidean.oned,org.apache.commons.math3.geometry.euclidean.threed,org
+ .apache.commons.math3.geometry.euclidean.twod,org.apache.commons.math3.
+ geometry.euclidean.twod.hull,org.apache.commons.math3.geometry.hull,org
+ .apache.commons.math3.geometry.partitioning,org.apache.commons.math3.ge
+ ometry.partitioning.utilities,org.apache.commons.math3.geometry.spheric
+ al.oned,org.apache.commons.math3.geometry.spherical.twod,org.apache.com
+ mons.math3.linear,org.apache.commons.math3.ml.clustering,org.apache.com
+ mons.math3.ml.clustering.evaluation,org.apache.commons.math3.ml.distanc
+ e,org.apache.commons.math3.ml.neuralnet,org.apache.commons.math3.ml.neu
+ ralnet.oned,org.apache.commons.math3.ml.neuralnet.sofm,org.apache.commo
+ ns.math3.ml.neuralnet.sofm.util,org.apache.commons.math3.ml.neuralnet.t
+ wod,org.apache.commons.math3.ml.neuralnet.twod.util,org.apache.commons.
+ math3.ode,org.apache.commons.math3.ode.events,org.apache.commons.math3.
+ ode.nonstiff,org.apache.commons.math3.ode.sampling,org.apache.commons.m
+ ath3.optim,org.apache.commons.math3.optim.linear,org.apache.commons.mat
+ h3.optim.nonlinear.scalar,org.apache.commons.math3.optim.nonlinear.scal
+ ar.gradient,org.apache.commons.math3.optim.nonlinear.scalar.noderiv,org
+ .apache.commons.math3.optim.nonlinear.vector,org.apache.commons.math3.o
+ ptim.nonlinear.vector.jacobian,org.apache.commons.math3.optim.univariat
+ e,org.apache.commons.math3.optimization,org.apache.commons.math3.optimi
+ zation.direct,org.apache.commons.math3.optimization.fitting,org.apache.
+ commons.math3.optimization.general,org.apache.commons.math3.optimizatio
+ n.linear,org.apache.commons.math3.optimization.univariate,org.apache.co
+ mmons.math3.primes,org.apache.commons.math3.random,org.apache.commons.m
+ ath3.special,org.apache.commons.math3.stat,org.apache.commons.math3.sta
+ t.clustering,org.apache.commons.math3.stat.correlation,org.apache.commo
+ ns.math3.stat.descriptive,org.apache.commons.math3.stat.descriptive.mom
+ ent,org.apache.commons.math3.stat.descriptive.rank,org.apache.commons.m
+ ath3.stat.descriptive.summary,org.apache.commons.math3.stat.inference,o
+ rg.apache.commons.math3.stat.interval,org.apache.commons.math3.stat.ran
+ king,org.apache.commons.math3.stat.regression,org.apache.commons.math3.
+ transform,org.apache.commons.math3.util,org.apache.poi,org.apache.poi.c
+ ommon.usermodel,org.apache.poi.ddf,org.apache.poi.dev,org.apache.poi.ex
+ tractor,org.apache.poi.hpsf,org.apache.poi.hpsf.extractor,org.apache.po
+ i.hpsf.wellknown,org.apache.poi.hssf,org.apache.poi.hssf.dev,org.apache
+ .poi.hssf.eventmodel,org.apache.poi.hssf.eventusermodel,org.apache.poi.
+ hssf.eventusermodel.dummyrecord,org.apache.poi.hssf.extractor,org.apach
+ e.poi.hssf.model,org.apache.poi.hssf.record,org.apache.poi.hssf.record.
+ aggregates,org.apache.poi.hssf.record.cf,org.apache.poi.hssf.record.cha
+ rt,org.apache.poi.hssf.record.common,org.apache.poi.hssf.record.cont,or
+ g.apache.poi.hssf.record.crypto,org.apache.poi.hssf.record.pivottable,o
+ rg.apache.poi.hssf.usermodel,org.apache.poi.hssf.util,org.apache.poi.op
+ enxml4j.exceptions,org.apache.poi.openxml4j.opc,org.apache.poi.openxml4
+ j.opc.internal,org.apache.poi.openxml4j.opc.internal.marshallers,org.ap
+ ache.poi.openxml4j.opc.internal.signature,org.apache.poi.openxml4j.opc.
+ internal.unmarshallers,org.apache.poi.openxml4j.opc.signature,org.apach
+ e.poi.openxml4j.util,org.apache.poi.poifs.common,org.apache.poi.poifs.c
+ rypt,org.apache.poi.poifs.dev,org.apache.poi.poifs.eventfilesystem,org.
+ apache.poi.poifs.filesystem,org.apache.poi.poifs.nio,org.apache.poi.poi
+ fs.property,org.apache.poi.poifs.storage,org.apache.poi.ss,org.apache.p
+ oi.ss.extractor,org.apache.poi.ss.format,org.apache.poi.ss.formula,org.
+ apache.poi.ss.formula.atp,org.apache.poi.ss.formula.constant,org.apache
+ .poi.ss.formula.eval,org.apache.poi.ss.formula.eval.forked,org.apache.p
+ oi.ss.formula.function,org.apache.poi.ss.formula.functions,org.apache.p
+ oi.ss.formula.ptg,org.apache.poi.ss.formula.udf,org.apache.poi.ss.userm
+ odel,org.apache.poi.ss.usermodel.charts,org.apache.poi.ss.util,org.apac
+ he.poi.ss.util.cellwalk,org.apache.poi.util,org.apache.poi.xslf,org.apa
+ che.poi.xslf.extractor,org.apache.poi.xslf.model,org.apache.poi.xslf.mo
+ del.geom,org.apache.poi.xslf.usermodel,org.apache.poi.xslf.util,org.apa
+ che.poi.xssf.dev,org.apache.poi.xssf.eventusermodel,org.apache.poi.xssf
+ .extractor,org.apache.poi.xssf.model,org.apache.poi.xssf.streaming,org.
+ apache.poi.xssf.usermodel,org.apache.poi.xssf.usermodel.charts,org.apac
+ he.poi.xssf.usermodel.extensions,org.apache.poi.xssf.usermodel.helpers,
+ org.apache.poi.xssf.util,org.apache.poi.xwpf.extractor,org.apache.poi.x
+ wpf.model,org.apache.poi.xwpf.usermodel,org.apache.velocity,org.apache.
+ velocity.anakia,org.apache.velocity.app,org.apache.velocity.app.event,o
+ rg.apache.velocity.app.tools,org.apache.velocity.context,org.apache.vel
+ ocity.convert,org.apache.velocity.exception,org.apache.velocity.io,org.
+ apache.velocity.runtime,org.apache.velocity.runtime.compiler,org.apache
+ .velocity.runtime.configuration,org.apache.velocity.runtime.directive,o
+ rg.apache.velocity.runtime.exception,org.apache.velocity.runtime.log,or
+ g.apache.velocity.runtime.parser,org.apache.velocity.runtime.parser.nod
+ e,org.apache.velocity.runtime.resource,org.apache.velocity.runtime.reso
+ urce.loader,org.apache.velocity.runtime.visitor,org.apache.velocity.ser
+ vlet,org.apache.velocity.test,org.apache.velocity.test.misc,org.apache.
+ velocity.test.provider,org.apache.velocity.test.view,org.apache.velocit
+ y.texen,org.apache.velocity.texen.ant,org.apache.velocity.texen.util,or
+ g.apache.velocity.util,org.apache.velocity.util.introspection,org.apach
+ e.xmlbeans,org.apache.xmlbeans.impl.common,org.apache.xmlbeans.impl.con
+ fig,org.apache.xmlbeans.impl.inst2xsd,org.apache.xmlbeans.impl.inst2xsd
+ .util,org.apache.xmlbeans.impl.jam,org.apache.xmlbeans.impl.jam.annotat
+ ion,org.apache.xmlbeans.impl.jam.internal,org.apache.xmlbeans.impl.jam.
+ internal.classrefs,org.apache.xmlbeans.impl.jam.internal.elements,org.a
+ pache.xmlbeans.impl.jam.internal.javadoc,org.apache.xmlbeans.impl.jam.i
+ nternal.parser,org.apache.xmlbeans.impl.jam.internal.reflect,org.apache
+ .xmlbeans.impl.jam.mutable,org.apache.xmlbeans.impl.jam.provider,org.ap
+ ache.xmlbeans.impl.jam.visitor,org.apache.xmlbeans.impl.jam.xml,org.apa
+ che.xmlbeans.impl.piccolo.io,org.apache.xmlbeans.impl.piccolo.util,org.
+ apache.xmlbeans.impl.piccolo.xml,org.apache.xmlbeans.impl.regex,org.apa
+ che.xmlbeans.impl.richParser,org.apache.xmlbeans.impl.schema,org.apache
+ .xmlbeans.impl.soap,org.apache.xmlbeans.impl.store,org.apache.xmlbeans.
+ impl.tool,org.apache.xmlbeans.impl.util,org.apache.xmlbeans.impl.valida
+ tor,org.apache.xmlbeans.impl.values,org.apache.xmlbeans.impl.xb.ltgfmt,
+ org.apache.xmlbeans.impl.xb.ltgfmt.impl,org.apache.xmlbeans.impl.xb.sub
+ stwsdl,org.apache.xmlbeans.impl.xb.substwsdl.impl,org.apache.xmlbeans.i
+ mpl.xb.xmlconfig,org.apache.xmlbeans.impl.xb.xmlconfig.impl,org.apache.
+ xmlbeans.impl.xb.xmlschema,org.apache.xmlbeans.impl.xb.xmlschema.impl,o
+ rg.apache.xmlbeans.impl.xb.xsdownload,org.apache.xmlbeans.impl.xb.xsdow
+ nload.impl,org.apache.xmlbeans.impl.xb.xsdschema,org.apache.xmlbeans.im
+ pl.xb.xsdschema.impl,org.apache.xmlbeans.impl.xsd2inst,org.apache.xmlbe
+ ans.soap,org.apache.xmlbeans.xml.stream,org.apache.xmlbeans.xml.stream.
+ events,org.apache.xmlbeans.xml.stream.utils,org.dom4j,org.dom4j.bean,or
+ g.dom4j.datatype,org.dom4j.dom,org.dom4j.dtd,org.dom4j.io,org.dom4j.jax
+ b,org.dom4j.rule,org.dom4j.rule.pattern,org.dom4j.swing,org.dom4j.tree,
+ org.dom4j.util,org.dom4j.xpath,org.dom4j.xpp,org.hsqldb,org.hsqldb.auth
+ ,org.hsqldb.dbinfo,org.hsqldb.error,org.hsqldb.index,org.hsqldb.jdbc,or
+ g.hsqldb.jdbc.pool,org.hsqldb.lib,org.hsqldb.lib.java,org.hsqldb.lib.ta
+ r,org.hsqldb.map,org.hsqldb.navigator,org.hsqldb.persist,org.hsqldb.res
+ ources,org.hsqldb.result,org.hsqldb.rights,org.hsqldb.rowio,org.hsqldb.
+ scriptio,org.hsqldb.server,org.hsqldb.types,org.hsqldb.util,org.jscienc
+ e,org.jscience.economics.money,org.jscience.geography.coordinates,org.j
+ science.geography.coordinates.crs,org.jscience.mathematics.function,org
+ .jscience.mathematics.number,org.jscience.mathematics.structure,org.jsc
+ ience.mathematics.vector,org.jscience.physics.amount,org.jscience.physi
+ cs.model,org.openxmlformats.schemas.drawingml.x2006.chart,org.openxmlfo
+ rmats.schemas.drawingml.x2006.chart.impl,org.openxmlformats.schemas.dra
+ wingml.x2006.main,org.openxmlformats.schemas.drawingml.x2006.main.impl,
+ org.openxmlformats.schemas.drawingml.x2006.picture,org.openxmlformats.s
+ chemas.drawingml.x2006.picture.impl,org.openxmlformats.schemas.drawingm
+ l.x2006.spreadsheetDrawing,org.openxmlformats.schemas.drawingml.x2006.s
+ preadsheetDrawing.impl,org.openxmlformats.schemas.drawingml.x2006.wordp
+ rocessingDrawing,org.openxmlformats.schemas.drawingml.x2006.wordprocess
+ ingDrawing.impl,org.openxmlformats.schemas.officeDocument.x2006.customP
+ roperties,org.openxmlformats.schemas.officeDocument.x2006.customPropert
+ ies.impl,org.openxmlformats.schemas.officeDocument.x2006.docPropsVTypes
+ ,org.openxmlformats.schemas.officeDocument.x2006.docPropsVTypes.impl,or
+ g.openxmlformats.schemas.officeDocument.x2006.extendedProperties,org.op
+ enxmlformats.schemas.officeDocument.x2006.extendedProperties.impl,org.o
+ penxmlformats.schemas.officeDocument.x2006.relationships,org.openxmlfor
+ mats.schemas.officeDocument.x2006.relationships.impl,org.openxmlformats
+ .schemas.presentationml.x2006.main,org.openxmlformats.schemas.presentat
+ ionml.x2006.main.impl,org.openxmlformats.schemas.spreadsheetml.x2006.ma
+ in,org.openxmlformats.schemas.spreadsheetml.x2006.main.impl,org.openxml
+ formats.schemas.wordprocessingml.x2006.main,org.openxmlformats.schemas.
+ wordprocessingml.x2006.main.impl,repackage,repast.simphony,repast.simph
+ ony.context,repast.simphony.context.space.continuous,repast.simphony.co
+ ntext.space.graph,repast.simphony.context.space.grid,repast.simphony.co
+ ntext.space.physics,repast.simphony.engine.controller,repast.simphony.e
+ ngine.environment,repast.simphony.engine.graph,repast.simphony.engine.s
+ chedule,repast.simphony.engine.watcher,repast.simphony.engine.watcher.q
+ uery,repast.simphony.filter,repast.simphony.freezedry,repast.simphony.f
+ reezedry.datasource,repast.simphony.freezedry.freezedryers,repast.simph
+ ony.freezedry.freezedryers.proj,repast.simphony.graph,repast.simphony.p
+ arameter,repast.simphony.query,repast.simphony.query.space.continuous,r
+ epast.simphony.query.space.graph,repast.simphony.query.space.grid,repas
+ t.simphony.query.space.projection,repast.simphony.random,repast.simphon
+ y.render,repast.simphony.space,repast.simphony.space.continuous,repast.
+ simphony.space.delaunay,repast.simphony.space.graph,repast.simphony.spa
+ ce.grid,repast.simphony.space.physics,repast.simphony.space.projection,
+ repast.simphony.util,repast.simphony.util.bytecode,repast.simphony.util
+ .collections,repast.simphony.valueLayer,repast.simphony.visualization,r
+ epast.simphony.xml,schemaorg_apache_xmlbeans.system.sE130CAA0A01A7CDE5A
+ 2B4FEB8B311707,schemaorg_apache_xmlbeans.system.sXMLCONFIG,schemaorg_ap
+ ache_xmlbeans.system.sXMLLANG,schemaorg_apache_xmlbeans.system.sXMLSCHE
+ MA,schemaorg_apache_xmlbeans.system.sXMLTOOLS,schemasMicrosoftComOffice
+ Excel,schemasMicrosoftComOfficeExcel.impl,schemasMicrosoftComOfficeOffi
+ ce,schemasMicrosoftComOfficeOffice.impl,schemasMicrosoftComVml,schemasM
+ icrosoftComVml.impl,watcherOOP.test
+Require-Bundle: repast.simphony.runtime,org.junit,libs.ext
+Bundle-Vendor: Argonne National Laboratory
+Eclipse-LazyStart: false
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+
+Name: bin/repast/simphony/space/grid/AbstractGrid.class
+SHA-256-Digest: 5jqtsU+Hv1PDAXaTnWN630TAgO5nQO6K6cPdM9YJP0c=
+
+Name: bin/repast/simphony/context/space/graph/DefaultNodeCreator.class
+SHA-256-Digest: eKEG1tSmCU+/TNYxdkWoqhAAnPHj8DDlN8YSai1Ejzk=
+
+Name: bin/repast/simphony/context/space/graph/AbstractGenerator.class
+SHA-256-Digest: 6jT4Zo6sxrVjKBTxMyzywpggyM0ioFrMFngfVAB3jJY=
+
+Name: bin/repast/simphony/engine/controller/TickListener.class
+SHA-256-Digest: /G/+IPhADhtMSubahNypVdhf0B1TfW1edAHht1Y3IEE=
+
+Name: bin/repast/simphony/engine/watcher/WatchContextListener.class
+SHA-256-Digest: xgwPXXXVzdVS1iOh+S7ayadRv8wQuIVUgufOO5lM2HU=
+
+Name: bin/repast/simphony/filter/NotFilter.class
+SHA-256-Digest: JgWK0tXwUDvTPofefWAX/bGK8TSCS4dE8/QHYktppeY=
+
+Name: bin/repast/simphony/space/physics/DefaultPhysicsSpace.class
+SHA-256-Digest: uIlGZOY5c0H7cFYVtMI9AWBJDVgJcrXIdLczWBNjp2o=
+
+Name: bin/repast/simphony/engine/controller/ClassFilter$AlwaysPassFilter
+ .class
+SHA-256-Digest: agwM79tEm5cok9ZGc+V2MyMvxfKAS27/6mlOk3oNolM=
+
+Name: bin/repast/simphony/engine/watcher/query/NamedWithinVNBooleanExpre
+ ssion.class
+SHA-256-Digest: k0IvnY8gEk/OVn+ANADR6WnkvoPXHLK8g/6/G5JyB1o=
+
+Name: bin/repast/simphony/context/space/continuous/ContinuousSpaceFactor
+ y.class
+SHA-256-Digest: SG3NOBwl/r5AsS3dJQnUxfm/tW89w688TZc1TUkBjpU=
+
+Name: bin/repast/simphony/parameter/MutableParameters.class
+SHA-256-Digest: +sJgaKOCaiuzIcK7/WefTt8QpO4VLQDKRwiVN+AQWXU=
+
+Name: bin/repast/simphony/space/grid/GridPointTranslator.class
+SHA-256-Digest: b6pnY1nl9nbMqdbUD1M67temr+Srjmkmi63h8yC56fA=
+
+Name: bin/watcherOOP/test/WatcheeChildB.class
+SHA-256-Digest: ISYj/jTP4G1e908eYujxo8LWr2gGbpRzqEUBX3xHYDI=
+
+Name: bin/repast/simphony/engine/controller/ScheduledMethodControllerAct
+ ion$PickData.class
+SHA-256-Digest: X0J/8KXUFp17VwljBk4uD7NQVWqs5tf330dQwjSTzvU=
+
+Name: bin/repast/simphony/util/VelocityUtils.class
+SHA-256-Digest: D9H4QSDIrKfcPUWkXQI0cKmKoh5wWoYtu8wuKYTsk6w=
+
+Name: bin/repast/simphony/space/graph/ShortestPath.class
+SHA-256-Digest: vba1enwcp0nOznjB2jwdFQ8QLxOYZu+6uVxHKeKwvrk=
+
+Name: bin/repast/simphony/engine/watcher/ArgMatcher$SetDataTrigger.class
+SHA-256-Digest: d8VdjuspauOpnaQxGMzMzYYPa13SuGXaA3Ou1g9GKzA=
+
+Name: bin/repast/simphony/valueLayer/ValueLayerStore.class
+SHA-256-Digest: wXby15ybcOCHFFb9DHwDebhPUxVCfrtwdrzs7e5jTMU=
+
+Name: bin/repast/simphony/parameter/DefaultParameters.class
+SHA-256-Digest: rhOXAnFJ3JYw0YnDvvf7T/0N9dZqqzm0Vg2hOoCx5pQ=
+
+Name: bin/repast/simphony/freezedry/freezedryers/ContextFreezeDryer.clas
+ s
+SHA-256-Digest: pKvOOcawSZMnkTX2v2dBI+p0qAA/zS0ZpXzvmT3p0SY=
+
+Name: bin/repast/simphony/context/space/graph/NetworkMatrixReader.class
+SHA-256-Digest: FoCbsma+eCZaOo0CkrE+BbZhXqs4qAHPizpQVIagfPg=
+
+Name: bin/repast/simphony/visualization/ProbeListener.class
+SHA-256-Digest: C2hgzyKT2VD7xTz1/trfoXh4dhtqLq+Gh+PQKNlT/CM=
+
+Name: bin/repast/simphony/util/PriorityQueue.class
+SHA-256-Digest: m3FgNNAiXymVPoj7dhyY42weEX1E1euFBtV4WLTpjHg=
+
+Name: bin/repast/simphony/visualization/DisplayListenerSupport.class
+SHA-256-Digest: RdCfRw81CX/mHFbliO7iq0E4ZCKudIgK3cIfVSc+xhU=
+
+Name: bin/repast/simphony/filter/RegExStringFilter.class
+SHA-256-Digest: ZjhZp7pllYYNkA/XlmIvYNInO1priKgct5fRe2Zx82E=
+
+Name: bin/repast/simphony/xml/DelegatingEdgeCreator.class
+SHA-256-Digest: h1OGqsDjeQ8g6FGiX34tlZ/2IbRdQ44Yhcqgd+Nh8t8=
+
+Name: lib/colt-1.2.0-no_hep.jar
+SHA-256-Digest: iHh+ezhLUYfYt7AKmRTgqTqSJn5sAyBPbX7t9s7wLIU=
+
+Name: bin/repast/simphony/space/continuous/InfiniteBorders.class
+SHA-256-Digest: 9yeLIZO1B6l8cJd5E42BCuPpXnQ4nmTMgnLjrW7Sx/A=
+
+Name: bin/repast/simphony/space/grid/AbstractGridPointTranslator.class
+SHA-256-Digest: 4P07iWhsSoDsA3vhDUDHVDsXbnl+JzAH/v1PpdttY6U=
+
+Name: bin/repast/simphony/random/DefaultRandomRegistry$GeneratorInfo.cla
+ ss
+SHA-256-Digest: X3s630dmN4cCsnZcfAkdO5j8aR41BpVPMaOHZHenRkA=
+
+Name: bin/repast/simphony/engine/controller/ContextTraverser.class
+SHA-256-Digest: 8GP/oxrMgTCFVUP4OU8hxTxGWMpfPI6J2jOmO7FBEJ4=
+
+Name: bin/repast/simphony/random/RandomRegistry.class
+SHA-256-Digest: WipXnVnjwiBJQ5XFliOst75u6hquApHD9Ly8gU5UpLI=
+
+Name: bin/repast/simphony/util/collections/NaryTree$Node.class
+SHA-256-Digest: oGE8sWFcRKho2WUZHMY9ZnDCpUdKQdSQk4Jz+6pATTs=
+
+Name: bin/repast/simphony/engine/controller/ScheduledMethodControllerAct
+ ion$ScheduleMethodAction.class
+SHA-256-Digest: zyonpzR1SKbkTrLJgf6oGn55xxSzKi6JATehoM3+oaI=
+
+Name: bin/repast/simphony/engine/watcher/query/ASTWithinMoore.class
+SHA-256-Digest: swmTeRhBl8kp2J16uCMwpU2UApzB7f+LDs+AeAf6dSg=
+
+Name: bin/repast/simphony/space/SpatialException.class
+SHA-256-Digest: aogoc5N9qwqdI4tn41PU27CiofmTU7KjFL7XyRdGfCY=
+
+Name: bin/repast/simphony/context/space/graph/ContextJungNetwork.class
+SHA-256-Digest: GGyi0wHYTeoYPN2czD5Q2l/FttpVzydCbsPFoQd1Zqk=
+
+Name: bin/repast/simphony/space/continuous/NdPoint.class
+SHA-256-Digest: Tx6Zz0dtrsdp3wpsu837QxKeVOTpOob4DAoO63wvhBM=
+
+Name: bin/repast/simphony/engine/schedule/IScheduleFactory.class
+SHA-256-Digest: RierbjLH1ivXhq2yJn2Sd/wPdNfmpIETu86FcP6wyts=
+
+Name: bin/repast/simphony/space/continuous/AbstractContinuousSpace$Point
+ Holder.class
+SHA-256-Digest: Xl1wHyI+pNWwmV9CQEqer9c3ztR8dYayFd73wcZIZGw=
+
+Name: bin/repast/simphony/util/collections/CompositeIndexedIterable.clas
+ s
+SHA-256-Digest: mBTh83fT/1O1wxQDI2MhHSMNIwHE6TjsWI6dpaMZff4=
+
+Name: bin/repast/simphony/space/continuous/BouncyBorders.class
+SHA-256-Digest: BWGsYvb3l7hb1KRZRbjlMknb46+ug+QD4inYboz/orQ=
+
+Name: bin/repast/simphony/freezedry/freezedryers/BigDecimalFreezeDryer.c
+ lass
+SHA-256-Digest: CLRgHYWDZ4zXwGBmWr7ai2s2PnBDFr68lnSZOGr5qqQ=
+
+Name: bin/repast/simphony/space/graph/JungEdgeTransformer.class
+SHA-256-Digest: o+KAcMIlqlMUEFBSa6ApBKIca7OGoeKIU3ogjrhGq1k=
+
+Name: bin/repast/simphony/context/space/grid/GridFactoryFinder.class
+SHA-256-Digest: GboZb8bNz4fhqf1Hein8l+S1xF2IoH4KPzGbNgPrpmA=
+
+Name: bin/repast/simphony/parameter/ParameterTypeFactory.class
+SHA-256-Digest: X9xCdx+Kzwgshuga/7Nl3UlxsJv22Q8WIXqdOAqYMEM=
+
+Name: bin/repast/simphony/space/projection/ProjectionEvent$Type.class
+SHA-256-Digest: PL4BnY0NOv7R44tOZ9DL8j3xo/mN6fDa2UAspEVcdf8=
+
+Name: lib/stack-alloc.jar
+SHA-256-Digest: 2o6yjFKq8JijnIZW0y26T3S85xso6uMpAW6HglDD2nA=
+
+Name: bin/repast/simphony/freezedry/FieldUtilities.class
+SHA-256-Digest: G/YRcjpnwGWA/oXIg71OUCkjA+vNIt+gk2IHjv4ybP4=
+
+Name: bin/repast/simphony/space/delaunay/DrawingArea.class
+SHA-256-Digest: QsPrNVIVM+TjqZR3daRFqIDXI5Nrp/vwJQv5o61rQJs=
+
+Name: bin/repast/simphony/engine/watcher/Generator.class
+SHA-256-Digest: vVLLiYV6dw9JeoWMQg3tlKO4ZZTOpfHfmw7q6X1jO5E=
+
+Name: bin/repast/simphony/engine/watcher/query/NamedWithinBooleanExpress
+ ion.class
+SHA-256-Digest: tzYp6Vs6JfOs8zNNtN90o4puhvyRESaiz4RXMiRWS+k=
+
+Name: bin/repast/simphony/engine/environment/ScheduleRegistryFactory.cla
+ ss
+SHA-256-Digest: XeffcPoz38EYU78kjXZmmM12Q6p1pzFkT7S7rUtAk34=
+
+Name: bin/watcherOOP/test/WatcherWithQuery.class
+SHA-256-Digest: V6AeSuf3ouNt/MmsKQZFzw26GOehHN6P8V4sfzSscI8=
+
+Name: bin/org/jscience/physics/amount/Amount$3.class
+SHA-256-Digest: ztTOziUY40WTzgcgvjz6Nhg+2cDY7UAexq+nbADFvBc=
+
+Name: bin/repast/simphony/query/space/graph/NetPathWithin$DistancePredic
+ ate.class
+SHA-256-Digest: 0qxl1THjpeGxZ+nXoNtHP0NTWo0N2i4yLoqBREU7SoQ=
+
+Name: bin/repast/simphony/space/projection/Adder.class
+SHA-256-Digest: maKcQ2pnchHnYpovEnxPtFbC8WnAYdF74L1KHSq/Xgs=
+
+Name: bin/repast/simphony/visualization/Box.class
+SHA-256-Digest: iGCNtCYQF+qDqPI86DuDgkl3k/4k1W6c9yPStYQEfDQ=
+
+Name: lib/jung-api-2.0.1.jar
+SHA-256-Digest: CipAOF8Vt8fdy8W/O8FuWUK7r4cL/qpDueWlYP3Invc=
+
+Name: bin/repast/simphony/query/InstanceOfQuery.class
+SHA-256-Digest: siqDVQ+ob2mx28lcOYpLt9fpelVqkfVXTF1Lh1lnzUA=
+
+Name: bin/repast/simphony/util/ClassFinder$ClassAdder.class
+SHA-256-Digest: 1H1/h3Pz2sE558mkVV4YTz3LEC0T4wtbv7IEpQ9gw5I=
+
+Name: bin/repast/simphony/util/bytecode/ByteCodeUtilities.class
+SHA-256-Digest: W3tvcBABq7h9Pn6MCZHdrQlSSaiJjUJ7+w7SNu8eb4Y=
+
+Name: bin/repast/simphony/context/space/grid/GridFactory.class
+SHA-256-Digest: tfBMNjMoYVIn9Zl1dlc+G6JB2g4s8WCI6D1UxZsTfa8=
+
+Name: bin/repast/simphony/engine/controller/DefaultController.class
+SHA-256-Digest: sdiymnVYVT7uqOyouM3KYWPJ5/BJoHZ7bQ/v3JgCEVw=
+
+Name: bin/repast/simphony/query/space/graph/NetworkSuccessor.class
+SHA-256-Digest: NhsREqEEDGrSPnYQyhDZ6sXnlgFc4TyJoJDxrluqVL4=
+
+Name: bin/repast/simphony/visualization/Layout.class
+SHA-256-Digest: wsCZ4UnfOqO85s5cyVLe5yz5wXNMJcuxRsSFieSSHb8=
+
+Name: bin/repast/simphony/engine/watcher/query/ASTWithin.class
+SHA-256-Digest: xWRXt2NkELEN0CLq7WNxKotNuC9ZzI3WAdrYxTPYEy8=
+
+Name: bin/repast/simphony/query/space/projection/Within.class
+SHA-256-Digest: JK1v5/oj/8/DK0f9RedTOXxDlH5qLMxp6bIPsq5MTHI=
+
+Name: bin/repast/simphony/xml/DefaultContextConverter.class
+SHA-256-Digest: GojKhpokgCbGCxeLayG9mW91aloNLJACnRLhYnb/rgo=
+
+Name: lib/hsqldb-2.3.2.jar
+SHA-256-Digest: 50Pyf56Ea/Zv7C4m1XTcEffRoWUwrti/aH/heGp8LsY=
+
+Name: bin/repast/simphony/freezedry/freezedryers/PrimitiveFreezeDryer$Pr
+ imitiveConverter$9.class
+SHA-256-Digest: /dbpLvwXa2AexaUpEzHp/N9nTdeKByCTJqecDtC4STw=
+
+Name: bin/repast/simphony/freezedry/ContextFreezeDryingAction.class
+SHA-256-Digest: DFfMKjyCSofdFsscxOtqNOeKkW+U+Itr35NHA3PG1dM=
+
+Name: bin/repast/simphony/space/continuous/ContinuousSpace.class
+SHA-256-Digest: hL9cgRw0b/7tEsnZQiW0Plepn61WDM/k22hd+fWsJn4=
+
+Name: bin/repast/simphony/freezedry/FreezeDryedParentChild.class
+SHA-256-Digest: cnzrtdEG16bu3iyxiuzggHztAaATeRNiyweTfvKqlRY=
+
+Name: bin/repast/simphony/util/FileUtils.class
+SHA-256-Digest: qkHS5zfjzh9bGHz2OAnAUVtDJChlHZn91vNSsyhYv40=
+
+Name: bin/repast/simphony/freezedry/freezedryers/PrimitiveFreezeDryer$Pr
+ imitiveConverter$4.class
+SHA-256-Digest: cdp8k8iDfvJ8y8X1wfb2hYlJfSxl4r6kGtVYz2y1ny8=
+
+Name: bin/repast/simphony/query/AbstractPropertyQuery.class
+SHA-256-Digest: 495zjuPebSqRXl6ika2Wvy8UV828OXHVQ9kPWiGUjlA=
+
+Name: bin/repast/simphony/context/ContextEvent.class
+SHA-256-Digest: +HCeI+V9BxjwbKrdLoGAgMGI4KCxAZ0J9dXerAwNmIw=
+
+Name: bin/repast/simphony/freezedry/ArrayValueHandler$4.class
+SHA-256-Digest: T+mKPU9s8dSxriFWhxWchT/kLytR1QRKF3NukoGqSww=
+
+Name: bin/repast/simphony/engine/watcher/query/NamedLinkedBooleanExpress
+ ion.class
+SHA-256-Digest: f+dsCyjnL1YkHLlvI5eFHrF7YDWxsY0+UbiihJwuLtY=
+
+Name: bin/repast/simphony/engine/schedule/DefaultScheduleFactory.class
+SHA-256-Digest: Slxd/c2BZNG/MIXaKST1N5SgzhUknf02b+EcsXFZJdk=
+
+Name: bin/repast/simphony/engine/schedule/PriorityQueueAction.class
+SHA-256-Digest: 0IiLQNp8Iw42D06CpV8ejjZvIfxaLgeFmoqUF2XpPEI=
+
+Name: bin/repast/simphony/context/ContextListener.class
+SHA-256-Digest: iIHjep08Mxzg9KbzyEZk2xToVGmwIXKCCjuKjUhTN9A=
+
+Name: bin/repast/simphony/render/Renderer.class
+SHA-256-Digest: JTAYugoBO5an2gH0Jb7a1wl5E8GTdfyItTuFcgOI77A=
+
+Name: lib/jung-io-2.0.1.jar
+SHA-256-Digest: kI/eCTiXJzvZU0YZz70F4a2UGEM//f98BZDRe+cNFno=
+
+Name: bin/repast/simphony/parameter/BeanParameters.class
+SHA-256-Digest: krl+5gtswqG2g6VCSfSAhg1ARdAsmPsA48exIVZi0hw=
+
+Name: bin/repast/simphony/query/space/projection/WithinMoore.class
+SHA-256-Digest: sza/tLDD5k+PHyoSS36jJ5XNdyK2O8m0mGNRudGDfIY=
+
+Name: bin/repast/simphony/query/QueryUtils.class
+SHA-256-Digest: Jwdf2c/Nhw3ZMxP/g+gULFYzP2oY/6e74DmLI/IQHZc=
+
+Name: bin/repast/simphony/freezedry/FreezeDryingException.class
+SHA-256-Digest: i0+MlBCVj7HHg4z30V0jF2EsCw66BJiBEVrm2TnuJYg=
+
+Name: bin/repast/simphony/engine/schedule/PriorityType.class
+SHA-256-Digest: ujR3DLRtYdJ1riMQacBRge7K7/Q6eMg33crM0BXU93g=
+
+Name: bin/repast/simphony/xml/XMLSerializer$RootConverter.class
+SHA-256-Digest: YmR9+ql6WWUQVDnP86lZ02yZlDpWk7yUqAF6gjZYQVA=
+
+Name: bin/repast/simphony/engine/watcher/ArgMatcher$SetWatcheeDataValueT
+ rigger.class
+SHA-256-Digest: NnM06hpZjX79tVB2AxpaNx81W5iBJggXwOcVt31IJlw=
+
+Name: bin/repast/simphony/engine/schedule/ThreadedAction$ActionRunner.cl
+ ass
+SHA-256-Digest: Zcaw32IyCD6IWF+AQOhArzhIsUmQOUTwRE1mvVR/iQk=
+
+Name: bin/repast/simphony/engine/watcher/ReWriteTarget.class
+SHA-256-Digest: cvCdCpKXHdfPDRL4l5jyPEE0CyJLJzFJeOr1O3KOKVc=
+
+Name: bin/repast/simphony/context/space/graph/NetworkFileFormat$1.class
+SHA-256-Digest: QNErAUSYEjzX3zmWt7MVYF7ajZ5xzMGpI/o3Y3KyHFI=
+
+Name: bin/repast/simphony/util/ContextUtils.class
+SHA-256-Digest: eHWaWjedzOz8q2Y17cSfrvLR/i/dwUU8UFi6ceYRVME=
+
+Name: bin/repast/simphony/engine/schedule/ActionQueue$DummyAction.class
+SHA-256-Digest: FeK93XQDF6B5y5PGh0XshglPi5rYaUYo2VLL6Ws4k94=
+
+Name: bin/repast/simphony/parameter/BoundParameters$ObjectParameter.clas
+ s
+SHA-256-Digest: 2AsEbf/N4ZlTlDGqMNdO72wTqa/eYchrvMlitmeXMm4=
+
+Name: bin/repast/simphony/freezedry/ArrayValueHandler$7.class
+SHA-256-Digest: uuCX7nOoazUMtnqUpN+jwtlcM3i5Y4DyzVkwopyO80Q=
+
+Name: bin/repast/simphony/engine/watcher/WatcherTestRunner.class
+SHA-256-Digest: t+yFNM8f9ylEuNzyPJXeledzfYjt92JDc9eizs6Wi5M=
+
+Name: bin/repast/simphony/query/PropertyGreaterThan.class
+SHA-256-Digest: ccbMGA/1E0tvbs3YRjXtYYgC3Gwqv6Q3Nkd8V2GFGaE=
+
+Name: bin/repast/simphony/visualization/VisualizationProperties.class
+SHA-256-Digest: fvTAeZPc9Wo92geCydEhXwKaB8U13SCbCHLMOezdGbQ=
+
+Name: bin/repast/simphony/parameter/DefaultSchema.class
+SHA-256-Digest: TprVHkZ+bf6hiZRET+K0N/LuX62h/iOgmvIIFGGtU4I=
+
+Name: bin/repast/simphony/engine/watcher/ImmediateExecutor.class
+SHA-256-Digest: YhV4KwHNKT4iK6GWrqh/fXUaV0p/7VD0aKHKNn1i0n0=
+
+Name: bin/repast/simphony/engine/watcher/ModelSpec.xml
+SHA-256-Digest: P4TiJDeXGO6wfTRgTiEIBhf9OoFX20xzUj2mj8/SYww=
+
+Name: bin/repast/simphony/parameter/StringConverterFactory.class
+SHA-256-Digest: 0MuNtQ+ctP9b4mmr0epDYTUFGQ1wnzwxdsaeVhfObHo=
+
+Name: bin/repast/simphony/engine/schedule/ScheduleParameters.class
+SHA-256-Digest: U/bhez0gp70GvVDLdgY7LKi/eIYe9eHWoj0Xfxlv+h0=
+
+Name: bin/repast/simphony/parameter/StringConverterFactory$PrimConverter
+ .class
+SHA-256-Digest: WcWEGlMBwQgUOXLS09p1hoiMcAjuP6DTrwyG0ss8WHY=
+
+Name: bin/repast/simphony/engine/controller/DefaultController$2.class
+SHA-256-Digest: HiAIYg6j44uGglmtTJ/Z7rdfFL0cRS6hHy9pkjG6AJo=
+
+Name: bin/repast/simphony/space/projection/Projection.class
+SHA-256-Digest: oO3J2aztl/m+OTFvrinZw7gxgwTFxSoQPcGEpdMQW1o=
+
+Name: bin/repast/simphony/valueLayer/BufferedGridValueLayer.class
+SHA-256-Digest: WAbrFgBiCXIYNKvFBpVv4EoX+9q/zISblgAkJ+ENSMk=
+
+Name: lib/dom4j-1.6.1.jar
+SHA-256-Digest: WTVS/+o8WCPGYCR4tQAqfFJf2QSjxE8avkBlwi7frHM=
+
+Name: bin/repast/simphony/parameter/ParameterFormatException.class
+SHA-256-Digest: IXxsshac5SZx4DjI5TP71QmLAhLBuqZCQVcd+aY/eOE=
+
+Name: bin/repast/simphony/util/ToStringComparator.class
+SHA-256-Digest: LspSo2gGdtNzEgBdtxylNPcSmQuTk6m0CXs6/Kkqb+8=
+
+Name: bin/repast/simphony/parameter/ParameterTypeFactory$IntegerParamete
+ rType.class
+SHA-256-Digest: qum4GA8Q92ofKJQRHdVhK3iKyYzaFGFNw1hKLRhDB0s=
+
+Name: bin/repast/simphony/context/SmallDefaultContext.class
+SHA-256-Digest: dsantfaGszSEIbrHB+PiRPyCO7eliuZr6Uy/sRQUkcI=
+
+Name: bin/repast/simphony/space/continuous/CoordinateAccessor.class
+SHA-256-Digest: P8MWpU2fdzRQm5fXA9yWs8qJ618vwrjaCaXJ1jtXr/s=
+
+Name: bin/repast/simphony/engine/graph/Executor.class
+SHA-256-Digest: 7dLs5eOxGd2QThlSUpYHmMcG9YgdLSuEqmg6r2Sr+cY=
+
+Name: bin/repast/simphony/engine/schedule/ScheduleGroup$OrderComparator.
+ class
+SHA-256-Digest: deGMCVn1GWhOX15TXOX6eMzNiAlRGx/uDWXxxu3kwjs=
+
+Name: bin/repast/simphony/engine/watcher/WatcheeDataFinder$ClassData.cla
+ ss
+SHA-256-Digest: JqR7SSL76kJtwsitrAhFn8DF6nWlUgtAzZab4DkFvG4=
+
+Name: bin/repast/simphony/query/space/grid/GridWithin$IterableCreator1D.
+ class
+SHA-256-Digest: nZsKh8ox5mNzDaAUAFCcxCYDloNnRQl1b81rTwHbpWM=
+
+Name: bin/repast/simphony/query/space/continuous/ContinuousWithin.class
+SHA-256-Digest: RjxZsqhuc/UUOxFuHYz168IWhFiUZ1reZvlKoL6Xifc=
+
+Name: bin/repast/simphony/engine/controller/DefaultController$5.class
+SHA-256-Digest: LH+D3JoymzA/jgLx6l8mhLYSe1xPIxKgIc2aFhhNzMc=
+
+Name: bin/repast/simphony/engine/watcher/query/QueryParserTokenManager.c
+ lass
+SHA-256-Digest: UbagZUEdy51AStwQ1P4yxc6PVUzwGkwfRLIVxJBm3gk=
+
+Name: bin/org/jscience/physics/amount/Amount.class
+SHA-256-Digest: dQqAt/JZQtqbBqQ8UXTYoUCjPYNyZ4vL86I0agvxOEM=
+
+Name: bin/repast/simphony/engine/controller/DefaultControllerRegistry.cl
+ ass
+SHA-256-Digest: 2TWPZjww6xJAcnxrMk+r2WiwDhYExiADLTWoa5RmbkM=
+
+Name: bin/repast/simphony/engine/schedule/IterableCallBackAction$SetupEx
+ ecutor.class
+SHA-256-Digest: 3jNc8jJWgCsIWiUlJZU5Gu0prcNLxuazTaF24gjVU4U=
+
+Name: bin/repast/simphony/engine/watcher/WatcherTrigger.class
+SHA-256-Digest: Ft9uZzhMzdEdWgYQVb1rdjMfgphHxBIM8EpMHrm44a8=
+
+Name: bin/repast/simphony/util/bytecode/DataSource.class
+SHA-256-Digest: eVI1rBlYXD5QQheH/DIlpJI3FGkEhxDgohXwSv1OPCY=
+
+Name: bin/repast/simphony/parameter/ParameterUtils.class
+SHA-256-Digest: /rSf5Q9CEKrKDnqtwY4TBc3fFq9+aEYJLgDj2HFKE6s=
+
+Name: bin/repast/simphony/context/space/physics/DefaultPhysicsSpaceFacto
+ ry.class
+SHA-256-Digest: jv3UFC2Om9OD2NTBLyxbDf1hyhjt6PMZjSMeFTfUiv0=
+
+Name: bin/repast/simphony/util/collections/TreeVisitor.class
+SHA-256-Digest: RRuTmO9K9wy89ALKDFXD2W2Q3fqIJ37ciQ6J3QHXm4M=
+
+Name: licenses/proactive-license.txt
+SHA-256-Digest: nUDQk7tDbHWHyFJrLJIF3Sg251vNYep92+U0ZTtuWAk=
+
+Name: bin/repast/simphony/query/PredicateQuery.class
+SHA-256-Digest: 2n0srbuHCR6W20Ty26PeMLPIgQfae+uwvj8aWb2zJ/Q=
+
+Name: bin/repast/simphony/space/continuous/SingleOccupancyCoordinateAcce
+ ssor.class
+SHA-256-Digest: 79IhclghPViuiNlaPto8kk5z8xx8eb9PSbBTGxWyfBM=
+
+Name: bin/repast/simphony/freezedry/freezedryers/PrimitiveFreezeDryer$Pr
+ imitiveConverter$2.class
+SHA-256-Digest: f+TlogHdovaJL4sHPV8GyLh88yvfzjzIhzuaQt7j4E4=
+
+Name: bin/repast/simphony/context/space/graph/NetworkFactory.class
+SHA-256-Digest: i3vsyAel4LK7tPANpdpyl0j30w8G4sY9lZS7Feyd/DI=
+
+Name: bin/repast/simphony/engine/environment/DefaultControllerAction.cla
+ ss
+SHA-256-Digest: rk7qBLly7vhEj1AuB5Xjtp7BOn4PkU/JE2L+UCnK+J4=
+
+Name: bin/repast/simphony/engine/controller/ControllerActionConstants.cl
+ ass
+SHA-256-Digest: PoDdrwMLkmBOuaIt+15TBPVatmgC0U6hxeGFuGaVQx4=
+
+Name: bin/repast/simphony/freezedry/datasource/DFRowData.class
+SHA-256-Digest: K53lYneGWFZ2PlwksHp80NyBRAQr7QI2d4LgqFBFqaA=
+
+Name: bin/repast/simphony/context/space/graph/NetworkGenerator.class
+SHA-256-Digest: BzjMvmA2l2ux8dVxgYn11DAN2CofENz/CwFKWFcAjPs=
+
+Name: bin/repast/simphony/engine/watcher/Watch.class
+SHA-256-Digest: Tt/h8RFSxDMhdQGFAtTXVD+mf476L9T5sPfRRzwsQuM=
+
+Name: bin/repast/simphony/util/Settings.class
+SHA-256-Digest: YPpPU9TNrP59Ds0H4i+/P8f27BR0brHiqQC7PjMLOb4=
+
+Name: bin/repast/simphony/engine/watcher/query/ColocatedBooleanExpressio
+ n.class
+SHA-256-Digest: 1F5/BCB1j9VGk+tflqc15p5kWjjhj7AUOw5uMVrG6Qg=
+
+Name: bin/repast/simphony/visualization/DisplayEditorLifecycle.class
+SHA-256-Digest: CC4S0eFCcZAGObeuNvXYMxDXoPpwV3TA87Ty4JXIB2Y=
+
+Name: bin/repast/simphony/space/graph/JungNetwork.class
+SHA-256-Digest: LoqJxGMwenIC/hQEP1ujaud/HnbSWOpwPo5M5Xbmh5s=
+
+Name: bin/repast/simphony/space/grid/InfiniteBorders.class
+SHA-256-Digest: PQ9Eu19gZfx+EFixihfeYTs87KOKcxeMnIu7d/hKCQU=
+
+Name: bin/repast/simphony/util/ClassPathEntry$1.class
+SHA-256-Digest: shqvuOGRIQQM29GFlzwaqLwdKRf+yIHl52jTIrF+Dok=
+
+Name: bin/repast/simphony/parameter/BeanParameters$Parameter.class
+SHA-256-Digest: mtLb8q9z2UQpy3ngYVjkfccSZ+HaczRwkbvic1KrHAM=
+
+Name: bin/repast/simphony/engine/environment/ControllerRegistry.class
+SHA-256-Digest: YcIvR4VwkKLcmw6AGGLtNFCSnd2k7XcfH5UEQCCVC3g=
+
+Name: bin/repast/simphony/engine/environment/RunEnvironment$PauseAction.
+ class
+SHA-256-Digest: IOSk55QhjgqZqI7AQImsFBzmAO0/yePIhe46f3v1Kf0=
+
+Name: bin/repast/simphony/util/collections/Contains.class
+SHA-256-Digest: 1wBDoy4LseylSruoIkETDSju15Q1/KV8Yp7ySlmtgJE=
+
+Name: bin/repast/simphony/space/grid/StrictBorders.class
+SHA-256-Digest: cIILNihyqJ78vcuYtO7SrV1UHn6kmxjnPDT50L/I2u0=
+
+Name: bin/repast/simphony/engine/controller/ClassFilter.class
+SHA-256-Digest: uwAHsAvR9/lQSlM76B6XgZNhcc79kYcFkfBUMWGwL2g=
+
+Name: bin/repast/simphony/freezedry/FreezeDryer.class
+SHA-256-Digest: ZpF8RoYaZ6pQYBSedJzASE2KgjPLaYd3KKsYvfFTI0c=
+
+Name: bin/repast/simphony/space/delaunay/TriangulationPoint.class
+SHA-256-Digest: tyv462KmXF+LQ7/MSgjqO/p4wATJhRHUFKwHXNGpZsU=
+
+Name: bin/repast/simphony/engine/environment/DefaultGUIRegistry.class
+SHA-256-Digest: VzkapRH+2hsz2Z83kxVVLYoX1ryy+HDvoz/o8L/ew5s=
+
+Name: bin/repast/simphony/query/space/grid/GridWithin$IterableCreatorND.
+ class
+SHA-256-Digest: cgXntEoI728XBKAqLpAbQNE++qsFUiDw5uPV01hqJkM=
+
+Name: bin/repast/simphony/engine/watcher/query/Token.class
+SHA-256-Digest: A6KeF35gaxmPJ8dtfMLkkZuF6aLmPf/Q7QJwmBcub3Q=
+
+Name: bin/repast/simphony/engine/watcher/Counter.class
+SHA-256-Digest: Q1OOrydDV1hkOi4DQx0zDOh0BRptrgBxZocHtGnHOhQ=
+
+Name: bin/repast/simphony/engine/schedule/Descriptor.class
+SHA-256-Digest: nivYXlwPDIa3OsUzXS4NIDnqSy/8Lar5ZPI2Rz6fIyA=
+
+Name: bin/repast/simphony/space/grid/FastDenseSingleOccuGrid.class
+SHA-256-Digest: joji8JSUsVFqsL+iYJrVYQDk2ZV9j69/55KDQJgWN6U=
+
+Name: bin/repast/simphony/xml/XMLSerializer$Root.class
+SHA-256-Digest: mhLZcdanPKLowmiS4d9qIThpBWSCZob2wHDxNo13hs0=
+
+Name: bin/repast/simphony/context/DefaultContext.class
+SHA-256-Digest: TXHPUMaiyO3Op9LZJkS+ez7497V49LGfOHCBh/+zlRE=
+
+Name: bin/repast/simphony/freezedry/freezedryers/ArrayFreezeDryer.class
+SHA-256-Digest: vUKN4AFd+pjCTG17rGzYLKclorqSeQkC06Wd3AfOvYQ=
+
+Name: bin/repast/simphony/filter/AllFilter.class
+SHA-256-Digest: +eITMuwtoObADlg2HT+0V7FWGmYuCnlDr+o3dozWBPc=
+
+Name: bin/repast/simphony/valueLayer/ContinuousValueLayer.class
+SHA-256-Digest: KBlzjI7NBMTG4sAnIQhEGMB+T3SVXu3JQYwujlw7iSY=
+
+Name: bin/repast/simphony/context/Contexts.class
+SHA-256-Digest: /W6MlTNy3JOSP6kXCIJrsZ1+GozUPUYZeWbz7e2+FPE=
+
+Name: bin/repast/simphony/engine/controller/ControllerActionVisitor.clas
+ s
+SHA-256-Digest: 9HE5/wHWVU4EFMUAUv7p4ssegRIZGE2q+N56+graUSg=
+
+Name: bin/repast/simphony/parameter/StringConverterFactory$BooleanConver
+ ter.class
+SHA-256-Digest: 3/tNzB/z9lgBtdRHbBB5X2I9Hgkc8sgkg6C4x4jBqNM=
+
+Name: bin/repast/simphony/engine/watcher/WatchContextListener$CacheEntry
+ .class
+SHA-256-Digest: F4m/iwD0ggvGPWyE+1qZMm1feawFr+Sg7YPhylJ+0vA=
+
+Name: bin/repast/simphony/freezedry/freezedryers/proj/ProjectionDryer.cl
+ ass
+SHA-256-Digest: ElxZ1Vh3SMZkXw061bbV6KBtJ4iIeP071Ry25KY5Hhk=
+
+Name: bin/repast/simphony/context/ContextEvent$EventType.class
+SHA-256-Digest: gMJ9q68ar+VfoxdwsA1A8l19+g7vSAbMbefz7rwuuiI=
+
+Name: bin/repast/simphony/util/ClassUtilities.class
+SHA-256-Digest: tON0K71h3nQsBHiCBycwIHDPpNR9z+ol9cvRQIn0Qcs=
+
+Name: bin/repast/simphony/context/space/graph/Lattice1DGenerator.class
+SHA-256-Digest: eHKvf0R5z0t319Xoqcl4/lh5CxrvfTSDJq+c3BBJba8=
+
+Name: bin/repast/simphony/engine/controller/Controller.class
+SHA-256-Digest: 9igHWzeGzBlthQ/PnZS0UEuJSWyVwloMzoLGgiL9fYw=
+
+Name: bin/repast/simphony/query/space/graph/NetworkAdjacent.class
+SHA-256-Digest: 7YVMkqCrLyF35/AMtPjCCb5xORv0BsLqxO/dt98ob3U=
+
+Name: bin/repast/simphony/space/grid/MooreContains.class
+SHA-256-Digest: M5k6TKh0nkhJGpE3pJmsRxxdVB56sOrwTbigcutR+aM=
+
+Name: bin/repast/simphony/engine/watcher/ClassReWriteTest.class
+SHA-256-Digest: I3k2EQHRhv4JR50ssgGrJ+N9L5hLitudIDWKVdttC88=
+
+Name: bin/repast/simphony/parameter/ParameterSchema.class
+SHA-256-Digest: fQGcqzp6/gjBm0mjaby3I2xgvE+88ggTn1Jc1aPjKls=
+
+Name: bin/repast/simphony/engine/watcher/WatcherTest$2.class
+SHA-256-Digest: epsJzsruicAsGWoGwPY68/URHVQ1LLujqU9lKnsXJgU=
+
+Name: bin/repast/simphony/engine/schedule/ThreadedAction$ThreadedInterva
+ lRescheduler.class
+SHA-256-Digest: n5WW6L436Se4hkZyrpwON6c9T+3N6F5GmBLMoO+YyuM=
+
+Name: bin/repast/simphony/valueLayer/ValueLayer.class
+SHA-256-Digest: l4rQA/ZeOBI7hnydw9gWxcu+sJXUH39kFEe251jtxAU=
+
+Name: bin/repast/simphony/engine/watcher/WatcheeData.class
+SHA-256-Digest: ZHblr0QwAI8PiN6iWdUzv5kFVAwJ85kR0C0MHMgdk7I=
+
+Name: bin/repast/simphony/freezedry/freezedryers/CollectionFreezeDryer.c
+ lass
+SHA-256-Digest: lqW7SnUVOD3YR29Vuo7COYIAisjsYJeCN1dUqvT81qc=
+
+Name: bin/repast/simphony/render/RendererManager.class
+SHA-256-Digest: fvGDZP10pdPdJnq+rtdB411+nwemAs+BycOXFmLNOf0=
+
+Name: bin/watcher_test.jar
+SHA-256-Digest: Z5tWjt/PyCa4f5Qv5E8BvHlJ0KSMUq+ih62ICy8csA8=
+
+Name: bin/repast/simphony/space/physics/PhysicsSpace.class
+SHA-256-Digest: zAgaIdv//2xb6MNRvoVQkHD5DTfe9cVE/OlNKq1QvOw=
+
+Name: bin/repast/simphony/visualization/IDisplay.class
+SHA-256-Digest: LzW5kGj1c6IxKRDhRRnDOD6RyYb87m47ne1KQ46VjPQ=
+
+Name: bin/repast/simphony/engine/watcher/query/QueryParserConstants.clas
+ s
+SHA-256-Digest: /HC5TtbsxiUT2MLOIYyH74IQ5xMNaNuJH5mV+bPHs9Q=
+
+Name: bin/repast/simphony/space/graph/EdgeCreator.class
+SHA-256-Digest: 0jUkPYWC0RVY0VePNEiAYUL3tD4ouJrZAZzAGm1MBgI=
+
+Name: bin/repast/simphony/engine/watcher/ArgMatcher$AbstractTrigger.clas
+ s
+SHA-256-Digest: SWqiC65tLqLGfkFgrjXWqisF0Fkcdzw8QK7bePb9p74=
+
+Name: bin/repast/simphony/parameter/ParameterTypeFactory$ShortParameterT
+ ype.class
+SHA-256-Digest: z6lSFO1azrUrfpOTiiQBTWPKqZ/dBLFEvjboomq6og0=
+
+Name: bin/repast/simphony/util/SimUtilities.class
+SHA-256-Digest: TDKhVgNx5OqnvFAmcgFcQWMDQ5XRrxBLB8YTsSFnXaU=
+
+Name: bin/repast/simphony/engine/schedule/DefaultAction.class
+SHA-256-Digest: n2XyV0EdqvLZgvqBJwkfTQyvqM+ZieAdWnNuv5UGb8E=
+
+Name: bin/repast/simphony/freezedry/freezedryers/PrimitiveFreezeDryer$Pr
+ imitiveConverter$6.class
+SHA-256-Digest: BB1fEDtz64KNdKh88f+8GGj6JWnTtQNyhCsCJFWtigM=
+
+Name: bin/repast/simphony/parameter/ParametersCreator.class
+SHA-256-Digest: iku4H42UxoTnAv2Scggm8ictGitFKeMyzD1tA4RTCDA=
+
+Name: bin/repast/simphony/space/continuous/WrapAroundBorders.class
+SHA-256-Digest: mxQxyeAmeDD56xJCITclnlzCpj1kSe5Gt2pEurcC57o=
+
+Name: bin/repast/simphony/space/graph/NetworkEvent.class
+SHA-256-Digest: 57q4MbEZtTWc2U00VC/ldMZ+x/piZmwsV+qzqGskPKk=
+
+Name: bin/repast/simphony/parameter/StringConverterFactory$IntConverter.
+ class
+SHA-256-Digest: y6rn6JcSmedXFQZNjl2uLowv+kp7fRihh2D16EG27U0=
+
+Name: bin/repast/simphony/engine/watcher/query/LinkedToBooleanExpression
+ .class
+SHA-256-Digest: RboVSsyPOMK0xjTO8tpMzGhEhwBcnjIWcAvaQv/tP7k=
+
+Name: bin/repast/simphony/parameter/ParameterTypeFactory$LongParameterTy
+ pe.class
+SHA-256-Digest: 14Oc3atV4gKDxsynOIl73ilBy62gPMfhZJQ0GmrQ+6o=
+
+Name: bin/watcherOOP/test/SimpleWatcher.class
+SHA-256-Digest: XIIjuRcsyWUZV2MBduX8eVxdIXwaUHelCCdpIExMyN4=
+
+Name: bin/repast/simphony/engine/schedule/DefaultSchedulableActionFactor
+ y.class
+SHA-256-Digest: P9EVrkxVltq6eAOxxI3F3FaanDqX5xnxZp/JLq+9SdU=
+
+Name: bin/repast/simphony/query/space/projection/LinkedTo.class
+SHA-256-Digest: wK2K1PwG/cLfW94sSUDu1ZgQ5pEj1QumP0/gFDMOYdI=
+
+Name: bin/repast/simphony/engine/graph/IterableTraverser.class
+SHA-256-Digest: 1sg4vAWpJsP1KogeNBibGubbRFlg71/om44al6Zssjw=
+
+Name: bin/repast/simphony/space/physics/RigidBodyFactory.class
+SHA-256-Digest: 3aU2iapx5YSo4XHdPOQs7+YSdKAnQzjFm9lfX0D7mEY=
+
+Name: bin/repast/simphony/engine/watcher/query/NotBooleanExpression.clas
+ s
+SHA-256-Digest: u3n1qborjR/Wu8bZhPBctJeBPluW4nXoXBew9/5pIqI=
+
+Name: bin/repast/simphony/engine/watcher/query/WithinVNBooleanExpression
+ .class
+SHA-256-Digest: MFsmZGg4/j0wg0auxdlD9DoxzkbXdbmZeg5tI5wa1vA=
+
+Name: bin/repast/simphony/freezedry/AbstractFreezeDryer.class
+SHA-256-Digest: nRut6mDXCQzMonD2JRTCqV2VdFYHGLQDUmFScK4CezI=
+
+Name: bin/repast/simphony/freezedry/freezedryers/proj/NetworkProjectionD
+ ryer.class
+SHA-256-Digest: dqt7Bk3NSauB0i/dfxLp6830ksQ+skXR4E9YQTSN1/8=
+
+Name: bin/repast/simphony/random/DefaultRandomRegistry.class
+SHA-256-Digest: CZCZd4ilCCFkInBdPKa+j6ivg3npZadkM2G5VFwafYE=
+
+Name: bin/repast/simphony/context/space/continuous/ContinuousSpaceFactor
+ yFinder.class
+SHA-256-Digest: vtA/VKWw6eoMGOr8EtOqwxQCO19BdiJQLLnYT+UfWY8=
+
+Name: bin/repast/simphony/engine/graph/AbstractGraphExecutor.class
+SHA-256-Digest: KPnrsXmT3pf/9KW/7gTND45QYE7QQOJAM4jsq96Psvs=
+
+Name: bin/repast/simphony/filter/OrFilter.class
+SHA-256-Digest: hccO65moEbDzMMXVVGDMZoUkBjlZRvBpv2KOaLm8IaY=
+
+Name: bin/repast/simphony/space/continuous/ContinuousAdder.class
+SHA-256-Digest: AVmrv41fOlG3EmotkkoL0rDdFtdBSy9QYrcwKNqNHCk=
+
+Name: bin/repast/simphony/engine/graph/IGraphSchedule.class
+SHA-256-Digest: TQzo3c90AlB3cQkACKhdy9UlhsVvDaaH8hMsRLrZJlw=
+
+Name: bin/watcherOOP/test/OOPWatcherOnA.class
+SHA-256-Digest: jP3AkQVG6TCQXV9pfGlCKbju/FFWwg5R3BxY6y7FU4I=
+
+Name: bin/repast/simphony/engine/controller/WatcherControllerAction.clas
+ s
+SHA-256-Digest: QARMPkXZuydPR+FR1CrtQkvCDawkRXhuCvOX/D/F+0M=
+
+Name: bin/repast/simphony/engine/watcher/WatcherTest$4.class
+SHA-256-Digest: j9158iQQiIdeZ0hLgWskgWIETEnWug0N3k7SytpMuH8=
+
+Name: bin/repast/simphony/engine/watcher/query/WithinBooleanExpression.c
+ lass
+SHA-256-Digest: H/BXpksvz5Z6Cp5rAFGtdF0Sl1lAjn1fR1SNq+7MOvU=
+
+Name: bin/repast/simphony/visualization/DisplayEvent.class
+SHA-256-Digest: +a+4zbSrrdx7cTtCrgv/X1uSdju26hkLY9DcBHMsRnw=
+
+Name: bin/repast/simphony/query/PropertyGreaterThan$GreaterThan.class
+SHA-256-Digest: b+lt4IuO6JBrvNSGlfodz7Uf3AmKXcjP+0jZRSpNkXA=
+
+Name: bin/repast/simphony/util/FileUtils$1.class
+SHA-256-Digest: 14x8DHaBATXC0RBqUepbndtQK0rHGl0xZ13FaOWnqdY=
+
+Name: bin/repast/simphony/freezedry/freezedryers/proj/GridProjectionDrye
+ r2.class
+SHA-256-Digest: 642VGQAIWfaTSBIV2JdBk2lrhxcgwTsEfE9hPIkUqEo=
+
+Name: bin/repast/simphony/space/continuous/RandomCartesianAdder.class
+SHA-256-Digest: MAecSaJ3jIfHe3v+tGLYd/eV79jY69sMJUL81dSiVJk=
+
+Name: bin/repast/simphony/engine/schedule/DefaultActionFactory.class
+SHA-256-Digest: KS6MCxrvOhRZtOh8FZasHadgK/p4a3AygkoGJqM1DxQ=
+
+Name: bin/repast/simphony/context/DefaultContextFactory.class
+SHA-256-Digest: cDJgHI2/1HGwTdCYKJar6gfCDr5fgJRBEFpaOYqBYWI=
+
+Name: bin/repast/simphony/engine/schedule/ThreadedAction.class
+SHA-256-Digest: h13ZUcVEdYXOlnf6yAzJ4U3NmCxmNgYt2c2K7TEeuPc=
+
+Name: bin/repast/simphony/engine/watcher/query/ParseException.class
+SHA-256-Digest: NvnR5b1FzFcnTqzl71xZgozcr85td/6om0kar0dgTMs=
+
+Name: bin/repast/simphony/query/space/grid/MooreQuery$Iterator2D.class
+SHA-256-Digest: PQP2CufnQuA+BniH2trH9tECNcLAuqYyFfYO8C/WauU=
+
+Name: bin/repast/simphony/query/PropertyGreaterThanEquals.class
+SHA-256-Digest: Qx7wXgaz1gXuo6iR+rRpafdJBf7n/0ePh+OYCADNfww=
+
+Name: bin/repast/simphony/freezedry/freezedryers/proj/ContinuousProjecti
+ onDryer.class
+SHA-256-Digest: suWfL2zW088FtS2nUGoA5Zb0EtWiIagvlWBcGZYiH8Q=
+
+Name: bin/repast/simphony/space/delaunay/IrregularGridRenderer.class
+SHA-256-Digest: 3H0uTycyI970U/68ew5sMwB+M32ON8QATDXMvZ8uIxo=
+
+Name: bin/repast/simphony/engine/controller/DefaultRandomStreamAction.cl
+ ass
+SHA-256-Digest: xGNUYdx+eAZg8ibIYUR8sA1Pu9lVEC8/Sbcik+hQW78=
+
+Name: bin/repast/simphony/util/PredicateFiltered.class
+SHA-256-Digest: IFpQHWVuiJlBwMVfisCMzFlhA/GaRPhU8C3I/caZHOc=
+
+Name: bin/repast/simphony/engine/watcher/query/query.jjt
+SHA-256-Digest: QMS6LmSp6CkrSwwZ6AAJfkM5W/z9SxqpcQnuS4mvfRE=
+
+Name: bin/repast/simphony/engine/watcher/MyWatcher.class
+SHA-256-Digest: As1S2jK1B9MyI4sjYG0ZYWuXW3pyzSQ8GcgPWza97Mo=
+
+Name: bin/repast/simphony/filter/FilteredIterator.class
+SHA-256-Digest: v/X72ovqJM3u27LaHHZPTBUUdCvXsAIsGhD7ATROBn0=
+
+Name: bin/repast/simphony/engine/controller/DefaultSchedulableAction.cla
+ ss
+SHA-256-Digest: EzCIWSU4aiKNlgNiX0WykCdlzd06/oPBVzbbw/VoRio=
+
+Name: bin/repast/simphony/engine/watcher/query/ASTColocated.class
+SHA-256-Digest: ku6NAaaxuTeDERrgkMnHejg9aSL1FJXZMm4eGMRw76U=
+
+Name: bin/repast/simphony/query/space/grid/AbstractGridQuery.class
+SHA-256-Digest: N0LABEW5+Ty8bRvilSGhreh4VQsIzB9EazF3A9Ev56k=
+
+Name: bin/repast/simphony/freezedry/datasource/DelimitedFileDataSource.c
+ lass
+SHA-256-Digest: Tp4De334CTgWJATYmAy9ZrFJGO4PBxba3f1bgLCft9k=
+
+Name: bin/repast/simphony/util/ClassFinder$Adder.class
+SHA-256-Digest: LynbgQO8MioN/eEjth6TPv+jRviD9MhTBFvTDmeDMW4=
+
+Name: bin/repast/simphony/engine/schedule/DefaultSchedulableDescriptor.c
+ lass
+SHA-256-Digest: UPOuBGMbjTuIuImpg9Kyep1ewz90VUJ80PqEkwo0SBs=
+
+Name: bin/repast/simphony/engine/schedule/ActionQueue.class
+SHA-256-Digest: PxVTUk/G2D6ddsgtyBZ0avqOD8yMv4hPuXHoJ7elhnM=
+
+Name: bin/repast/simphony/util/collections/Tree.class
+SHA-256-Digest: 3WvgVdJLOmqCpJfyBU1R14pa9VcGH3x2uqImQU1J/xI=
+
+Name: bin/repast/simphony/engine/controller/DefaultController$DefaultAct
+ ionComparator.class
+SHA-256-Digest: /xyYwxT3XBWzdvYDIKQpfkOTiKhGqepMr6bmgoUqdgY=
+
+Name: bin/repast/simphony/space/grid/Grid.class
+SHA-256-Digest: mxpKw/8bE6VuIjiCp2WP32Xqp9UjF8OHyFTACJpDnaQ=
+
+Name: bin/watcherOOP/test/WatcheeRoot.class
+SHA-256-Digest: S5imKalsKzjswncjmiBYfLch8xyoXO4NxY8hmoEtdeI=
+
+Name: bin/repast/simphony/engine/watcher/WatcherTest$5.class
+SHA-256-Digest: gSC+HQAf+nzfHGHpUqEaN5CUo1o0uL0++81aodvGQGI=
+
+Name: bin/repast/simphony/engine/environment/RunListener.class
+SHA-256-Digest: uTGkfyNUwidAyVaO3PSjTrIrLE1hWcoaeRmfd5716tA=
+
+Name: bin/repast/simphony/engine/controller/DescriptorControllerAction.c
+ lass
+SHA-256-Digest: MOxA7WniSElurWXXnPVUjSsG44k3Npb/BGRWx5x3Ubs=
+
+Name: bin/repast/simphony/freezedry/ArrayValueHandler.class
+SHA-256-Digest: gxWKZ9tlH3TXPMQsXvi8T6wnWAVj5ZRtjuDRJ23Cvd0=
+
+Name: bin/repast/simphony/util/collections/CollectionUtils$MapPredicate.
+ class
+SHA-256-Digest: WJg99Zekz/tW1yCJUjsgiEn8zJj3QojHR6gJjTOnjSQ=
+
+Name: lib/concurrent-1.3.4.jar
+SHA-256-Digest: EmOd75pbXr9WBAq3ZL1Ct+ZiUj07mD5dXaBL83vhUvk=
+
+Name: bin/repast/simphony/engine/watcher/WatchAnnotationReader.class
+SHA-256-Digest: jDGW6q1JpOxzdA8fky+Viezo1HAe+3vjWuOGdlriCiI=
+
+Name: bin/repast/simphony/engine/schedule/AbstractAction$Rescheduler.cla
+ ss
+SHA-256-Digest: 6vkuTga1/QODn4mWeX0sd6aPhrhZrnAM6z4jGWV9WLI=
+
+Name: bin/repast/simphony/freezedry/PrimitiveArrayFreezeDryer.class
+SHA-256-Digest: ucImaCVNzZU3urFzr/EuL0H6Ncoqbc6L/nJfEBwkznw=
+
+Name: bin/repast/simphony/space/grid/GridPoint.class
+SHA-256-Digest: jL8PIo5yMLJdQomgcIaPQ6sz0NnxEVzP3XUSgYADxEE=
+
+Name: bin/repast/simphony/query/space/projection/Linked.class
+SHA-256-Digest: i6FvKXfSByvc2Gvb8jFLrYvc2IYmQufy/ih65RhXhf4=
+
+Name: bin/repast/simphony/query/PropertyGreaterThanEquals$GreaterThanEqu
+ als.class
+SHA-256-Digest: HVV0ZFNsSANd2dCtfdyn678+FwFcNUTSw3goXZdoaEY=
+
+Name: bin/repast/simphony/engine/schedule/ScheduleGroup$PriorityComparat
+ or.class
+SHA-256-Digest: TV3+tEnfiGuCndc8Oue2pmsymVMrTxWaip2xeMq/dPk=
+
+Name: bin/repast/simphony/engine/watcher/query/ASTLinked.class
+SHA-256-Digest: yveRehQ+GtGIAxErk1WkfMZiKGt8cSH1qmjcHq3M1eU=
+
+Name: bin/repast/simphony/engine/schedule/ISchedulableAction.class
+SHA-256-Digest: z5krBKu8xZP4SVYNaLu8RN+mmN2YysLkfX7RxZOSgKY=
+
+Name: bin/repast/simphony/query/space/grid/GridWithin$IterableCreator.cl
+ ass
+SHA-256-Digest: DNBWbnmDg0MgNhd1RYFceRzDnC4KQV5iE4i8PpXHhMw=
+
+Name: bin/repast/simphony/space/grid/MultiOccupancyCellAccessor.class
+SHA-256-Digest: iER/1AcV44oTxBc4LWr74KUXS/P5wR5WGGX2srxKkT4=
+
+Name: bin/repast/simphony/engine/environment/ProjectionRegistryData.clas
+ s
+SHA-256-Digest: aBt6LIDfijw4bojpYMKMyivbsiabVxA7AfVl7rR0GCM=
+
+Name: bin/repast/simphony/parameter/ParametersWriter.class
+SHA-256-Digest: HbdJ0FBMweWnYTKjKY2QjMek+8CqvfTdRVKYQZxZQck=
+
+Name: bin/repast/simphony/context/space/continuous/DefaultContinuousSpac
+ eFactory.class
+SHA-256-Digest: W2CYXZH79EHvS/Fv1ki0Zj81dJRCdwlAnRdNFAPWR+8=
+
+Name: bin/repast/simphony/engine/environment/GUIRegistryType.class
+SHA-256-Digest: K7pV9XnJbuIkLi8Fv5z17Cvq8RqhI3MPqsg2uLMT+ak=
+
+Name: bin/repast/simphony/freezedry/freezedryers/PrimitiveFreezeDryer$Pr
+ imitiveConverter$7.class
+SHA-256-Digest: JcTHCZs8Ul2qBrqpEWIOlkdhrCcRP9uZOrBzn3ld5Fw=
+
+Name: bin/repast/simphony/parameter/ParameterType.class
+SHA-256-Digest: CCBYdgZE4/H3FHrFLbD5pinvhKM7kW2iyCn1uVPWfHI=
+
+Name: bin/repast/simphony/parameter/ParameterTypeFactory$FloatParameterT
+ ype.class
+SHA-256-Digest: sJGZ5MiyT1wFekF6Vlq7wMxE4vPovcsu0ZUxenbU/+c=
+
+Name: bin/repast/simphony/engine/watcher/ArgMatcher$SetValueTrigger.clas
+ s
+SHA-256-Digest: N9jIWz2ISwB+VRwiEM39yM4eaAi8UlCEe8fWAIw8fSo=
+
+Name: bin/repast/simphony/parameter/StringConverterFactory$ByteConverter
+ .class
+SHA-256-Digest: x7i0NFs7F2svubedd4lDiXgYC0EXT7jbizNPcRH1X6U=
+
+Name: bin/watcherOOP/test/OOPWatcherOnB.class
+SHA-256-Digest: vc0AUkrIdfSJ6rVtquuWx3l06XZWRLXOmMYAxUZkSVA=
+
+Name: bin/repast/simphony/space/grid/DefaultGrid.class
+SHA-256-Digest: sDDL9fS17rgqpaSjX/YavlUdMRCbQHdN6i0+orejd84=
+
+Name: bin/repast/simphony/engine/schedule/AbstractAction$IntervalResched
+ uler.class
+SHA-256-Digest: XoKjS2NOBc8ngbCIkF4tEXh1Wewt31YmlhGTHfL3gSQ=
+
+Name: bin/repast/simphony/query/Query.class
+SHA-256-Digest: nxYaM6R0oJquN1tRJLIMT98FHbVRYDLs6aW0rAUeMeY=
+
+Name: bin/repast/simphony/engine/watcher/query/OrBooleanExpression.class
+SHA-256-Digest: zZRih1aAh0Mq9ySTZq2ocH8/S6jqpcXwUGJdN2cxYrU=
+
+Name: bin/repast/simphony/engine/watcher/TriggerScheduler.class
+SHA-256-Digest: uxBQWf+xP9qKfpBzv3srsqaBxKqaVkJ+huGi63/QnH8=
+
+Name: lib/jscience-4.3.1-no_ogis.jar
+SHA-256-Digest: MG9RMX/QnvjIQo3ajn03h1VdT7uKl2zHjRvdkodNgpA=
+
+Name: bin/repast/simphony/engine/graph/GraphExecutor.class
+SHA-256-Digest: 9qJguMvyf0JeOnzdStmMsZKO6WjVlL9bsOi2xAsYgo8=
+
+Name: bin/repast/simphony/query/space/grid/GridWithin$IterableCreator2D.
+ class
+SHA-256-Digest: Ukn8W4j0msz9AmwvfisPY/IolVY5g821aaYKokXzTNk=
+
+Name: bin/repast/simphony/engine/graph/EngineGraphUtilities$MapPredicate
+ .class
+SHA-256-Digest: hoE4Cj4kvO65w2bGWbAaU4wY9IEt/x5FRs25pNdIe+Q=
+
+Name: bin/repast/simphony/engine/graph/NetworkTopologyExecutor.class
+SHA-256-Digest: nJ4nQahG3JHQabGEjeXMFPDfs1n0rZ3cNbLhUyIzV3Q=
+
+Name: bin/repast/simphony/parameter/FileParameterType.class
+SHA-256-Digest: isWbj1Ch+eVZldVRfxaLE2v7pJXyQD7lSdDS23kB3pg=
+
+Name: bin/repast/simphony/engine/watcher/Watcher3.class
+SHA-256-Digest: Ar6XCPLiqK5hmADClxdN+h9XOg4c/MSBKhM+Iro5NR8=
+
+Name: bin/repast/simphony/engine/watcher/query/ASTOrExpression.class
+SHA-256-Digest: 7F5UspEjfMehMaj8G+8JhbOEtM/Lz8sJVJZMGOr+Nvs=
+
+Name: bin/repast/simphony/xml/AmountConverter.class
+SHA-256-Digest: OeU91RWP2eiKiEV+A5tZEIMvQFs00OO7VV2Y06ZkML4=
+
+Name: bin/repast/simphony/util/collections/Pair.class
+SHA-256-Digest: riyQFRSSQfAufadGz0ZOB1cqLOiVILga8rCuv/P2Llo=
+
+Name: bin/repast/simphony/context/space/graph/AdjacencyMatrix.class
+SHA-256-Digest: YcfOXdxop/WYlTFmgM9GvlNT+NEsr9ok6Wdex7Q8i/w=
+
+Name: bin/repast/simphony/engine/controller/ClassFilter$ClassFilter2.cla
+ ss
+SHA-256-Digest: UnWD24SvUjtnOK6hNk85k+TDcO65YokxS1m36ka+ypA=
+
+Name: bin/repast/simphony/util/collections/RandomIterable.class
+SHA-256-Digest: vXLW7Q5s1X+QKMBfXau8oVXVqGNTw+VC3yRLKflqqks=
+
+Name: bin/repast/simphony/space/delaunay/DelaunayGraph.class
+SHA-256-Digest: PMPbN+IelGPxC6o3vWmHi/5WfB/DDnJBqFYmlrLOD/4=
+
+Name: bin/repast/simphony/query/space/grid/VNQuery.class
+SHA-256-Digest: eoDjgxfOsjI34F0J+Bge0N/0DJrm8PVA/DFQR4lZ6hs=
+
+Name: bin/repast/simphony/visualization/ProbeEvent$Type.class
+SHA-256-Digest: BKO7fcaoiyeEpdK3FwsRhSSDjR1bb1q0GcdL82HJw0E=
+
+Name: bin/repast/simphony/util/collections/IndexedIterable.class
+SHA-256-Digest: lAOSvE9yX4CzTdBXAT3b1q+C8IbfTm897O+bk+G4rFg=
+
+Name: bin/repast/simphony/engine/controller/AbstractControllerAction$1.c
+ lass
+SHA-256-Digest: 70kdDfjIhSJDuDKHRkCSP6MhqBmkV1ZjqqPbwCJooUk=
+
+Name: bin/repast/simphony/engine/watcher/query/ASTNot.class
+SHA-256-Digest: 8pi/7TRdhCjQB+OozmnfzJ9cjAiuQc8dgCyn4eMXPHI=
+
+Name: bin/repast/simphony/freezedry/freezedryers/PrimitiveFreezeDryer$Pr
+ imitiveConverter$5.class
+SHA-256-Digest: 7I9WDpAdJZReL0D2bvSxbUImwmqn4ug7DmZmoHELqm4=
+
+Name: bin/repast/simphony/engine/controller/ScheduledMethodControllerAct
+ ion$StaticMethodAction.class
+SHA-256-Digest: a29ybkVJw/zvAh6wb58D39C/m4DtNUrHC2iDbDCA8+A=
+
+Name: bin/repast/simphony/engine/controller/ClassFilter$ClassFilter3.cla
+ ss
+SHA-256-Digest: W7qtuqhaUBvNbNtSw7vrspVm83Hk4hXCyuZnOKuQoXQ=
+
+Name: bin/repast/simphony/query/WithinDistance.class
+SHA-256-Digest: avStBrFwzqhE6R+osRIlxjT+n5uZAp1of2C+mY1R140=
+
+Name: bin/repast/simphony/util/Launcher.class
+SHA-256-Digest: VXcI/d+F1TB0jS3ddsA/hCVJoQqvWvWJSiyvAfcgGiI=
+
+Name: bin/repast/simphony/engine/watcher/query/QueryParser$JJCalls.class
+SHA-256-Digest: uK/JyU+r2sQnrOXcizn30o08k2u3lD118WrdoJwk7Gw=
+
+Name: bin/repast/simphony/engine/environment/RunEnvironment$StopAction.c
+ lass
+SHA-256-Digest: ytMbg39dA3cuEIbSL/rlboSNldmPqBEt11skl8bs8Aw=
+
+Name: bin/repast/simphony/parameter/ParameterConstants.class
+SHA-256-Digest: g27alJteDr3oyYRW0yrYQqsdXuR07a3R75LoTqJSyvQ=
+
+Name: bin/repast/simphony/query/space/grid/MooreQuery$Iterator3D.class
+SHA-256-Digest: E6wpKsUkjCHoTAYJi6+rI+24s/B7bjOzdXwJGLMVsfA=
+
+Name: bin/repast/simphony/context/space/graph/DLNetworkLoader.class
+SHA-256-Digest: uXq44Szwix9tAGSrjRXtpR7Gnu2hSNEjVgvfXoaEggg=
+
+Name: bin/repast/simphony/engine/controller/SchedulingControllerAction.c
+ lass
+SHA-256-Digest: nG/tCERZp+O0DPCDjr9XgX6FWgJHKGl2bXVq7DS1JF8=
+
+Name: bin/repast/simphony/engine/watcher/Watcher2.class
+SHA-256-Digest: JS5Urm889lKhR5Q4GkebZpN4d+hkv1Q3ekDabMjj+6A=
+
+Name: bin/repast/simphony/util/IntRange.class
+SHA-256-Digest: 81HBE/5JD1NnnmVZ9hkSS+CLucLbMSjGN3qmbdgtGEs=
+
+Name: bin/repast/simphony/space/grid/BouncyBorders.class
+SHA-256-Digest: G9Vie6J/p7NSLW+WiA+dVcsrVCYxtTDGSq8dSaxIxxk=
+
+Name: bin/repast/simphony/space/continuous/AbstractPointTranslator.class
+SHA-256-Digest: BZBpRx7ovc8FB81cHFcKXBYLgnpIpDQlWvtogRWNBqc=
+
+Name: bin/repast/simphony/engine/watcher/WatcherTriggerSchedule.class
+SHA-256-Digest: Ro/YlPXdTsBVCiv6ilWJKIW3AU7+emFV0+X4+ULJQDk=
+
+Name: licenses/jts-license.txt
+SHA-256-Digest: e0ofM9OG1D9KtDFJ9QCq7W5cYIhCysuXVzAo/olC7UI=
+
+Name: bin/repast/simphony/engine/watcher/query/SimpleNode.class
+SHA-256-Digest: S+aeC6MYiduwRMDGnpIVjQzcs6M6Gj1SEvjW0A1i0ZE=
+
+Name: bin/repast/simphony/filter/AndFilter.class
+SHA-256-Digest: A3HlTZPBJyoE+D8mhq6dS07Vn/sOJK6bmJGjHnRX0hI=
+
+Name: bin/repast/simphony/engine/watcher/query/NamedLinkedToBooleanExpre
+ ssion.class
+SHA-256-Digest: Fg5N6VrKs+znbqGQbKde0WBkrwyXHWjveAsvM72R/B8=
+
+Name: bin/repast/simphony/freezedry/datasource/DFClassLister.class
+SHA-256-Digest: ydufk/qWsQna1b/4sJhUTDjkJbDi3uwSqpq3wAmc6BI=
+
+Name: bin/repast/simphony/engine/graph/GraphScheduleUtilities.class
+SHA-256-Digest: rPoBIL5PwXa2cKl3hm2r2MILn6gcW/k07nJo2bbRJzo=
+
+Name: bin/repast/simphony/util/ClassPathEntry.class
+SHA-256-Digest: /gOepKaZ/EuHh5quldIqUZ1nc074MTX9Mit2CpOfMcc=
+
+Name: bin/repast/simphony/visualization/ProbeEvent.class
+SHA-256-Digest: EVmeiaMN1VXJjQZaAJnFubWHJRFmtjY19qW533ZdKzE=
+
+Name: bin/repast/simphony/random/DistributionsAdapter.class
+SHA-256-Digest: yv6AF5d3ZTmiJIirrGwi0t3sGqV0dtbUTfLxD6ZJgNA=
+
+Name: bin/repast/simphony/engine/controller/ClassFilter$ClassFilter4.cla
+ ss
+SHA-256-Digest: 2EFdnxhue48BjIMd53hwL26N0EE0yM1HSPj6+x5zW6A=
+
+Name: bin/repast/simphony/context/AbstractContext.class
+SHA-256-Digest: HeHX9hhfs6xA60s05SotW4ilrjxEB+D91Dij4w4y1B8=
+
+Name: bin/repast/simphony/engine/schedule/AbstractAction.class
+SHA-256-Digest: uYMvvOq+aEDSf1oeV+Vs3FcCknU6pyn7h2Ogy7Buh74=
+
+Name: bin/repast/simphony/engine/watcher/ArgMatcher$SetDataValueTrigger.
+ class
+SHA-256-Digest: ekkgSgWKkyYa0vnAhdNfYZF3Sc3Vt7llBElh4LzrPTw=
+
+Name: bin/repast/simphony/parameter/StringConverterFactory$FloatConverte
+ r.class
+SHA-256-Digest: MIVsR7fUdVtgmctklNWBIFh1uO0i3pyWP2oRuVg9ICc=
+
+Name: bin/repast/simphony/engine/watcher/WatcheeDataFinder$FinderResult.
+ class
+SHA-256-Digest: lPrceoGJpBeJo5BE58dcLGPwwuqMJdq2OiBO70b18qc=
+
+Name: bin/repast/simphony/context/space/grid/ContextFastSingleGrid.class
+SHA-256-Digest: 3d8H21kgNj2rTi5zfs15QobVlVKolRKIs2zlYj+yt7s=
+
+Name: bin/repast/simphony/engine/watcher/query/NamedLinkedFromBooleanExp
+ ression.class
+SHA-256-Digest: 093NZUXoruPgzKyAy5Qr3kxDCjlEkDrSiO63GN2/tMo=
+
+Name: bin/repast/simphony/util/collections/NaryTree.class
+SHA-256-Digest: FeaXMvR4Ouq7tYC2GLPdYmrNbaTZinXZI9ezSTQnfkE=
+
+Name: bin/repast/simphony/engine/schedule/Frequency.class
+SHA-256-Digest: tTteDAay44fdxopuxYGoI7UvES6SAa8hF/TIDh+yMe0=
+
+Name: bin/repast/simphony/space/grid/WrapAroundBorders.class
+SHA-256-Digest: bzev0eK1++E93xPxk94Iu+F7QgVxmJT8I9rXWZAuA9Q=
+
+Name: bin/repast/simphony/random/Lambda.class
+SHA-256-Digest: QwPTPHOlbi1fIMxyLlAPDgiLnkt/Et42WQXBi1xhNFU=
+
+Name: bin/repast/simphony/engine/controller/ClassFilter$ClassFilterN.cla
+ ss
+SHA-256-Digest: THVUCwLpu9Bchoz0TaK1a4jC216JzTiSr6VADWYccQo=
+
+Name: bin/repast/simphony/valueLayer/GridValueLayer.class
+SHA-256-Digest: EMddU3gTiwtSC7w3gmyCWB/AC2zCyvCLDofSNmABwic=
+
+Name: bin/watcherOOP/test/OOPWatcherOnC.class
+SHA-256-Digest: 7YKkatrQjRM3QkKcuseo5FlyitvNaAsnyvCtsXsr5ho=
+
+Name: bin/repast/simphony/query/PropertyEquals$1.class
+SHA-256-Digest: RcuCMfJKtA4R05sdVhuDyg18bk60ptI6PmmP7vWzY3Q=
+
+Name: bin/repast/simphony/engine/schedule/IActionFactory.class
+SHA-256-Digest: bGGduDv2USQ+XzXM+J2BWzp3tezJTue2pYRFq/Wtrgs=
+
+Name: bin/repast/simphony/freezedry/freezedryers/MapFreezeDryer.class
+SHA-256-Digest: /IleGka5wwMzL5fd792EitTBaI55XN30TjmWA3e2nV4=
+
+Name: bin/repast/simphony/parameter/ParameterTypeFactory$BooleanParamete
+ rType.class
+SHA-256-Digest: axnM20RD5cMKh2Kb3vHuj3sxnXACW7NUb/aT7RGa6io=
+
+Name: bin/repast/simphony/parameter/ParametersParser.class
+SHA-256-Digest: E0r/NPlCgyT2OazgiAm+DU23XdSUKwfwQrlvlSK3E1c=
+
+Name: bin/repast/simphony/engine/watcher/PickTestAgent.class
+SHA-256-Digest: PRQHgRCQOlXBKYb8pfySLCwhsOGqFz6ng+wMmMuw8mw=
+
+Name: bin/repast/simphony/query/PropertyLessThan$LessThan.class
+SHA-256-Digest: BvQzWdFdGY/vUf4IPAUBW5EwPXsAUgOhK0NDoFFPhPA=
+
+Name: bin/repast/simphony/space/grid/BouncyBorders$BounceDimension.class
+SHA-256-Digest: Uu0xN+kTOXDtxqqpxdJez1OI9GsDePwLYceKUdjSKFQ=
+
+Name: bin/repast/simphony/filter/InstanceOfFilter.class
+SHA-256-Digest: b3q9+FOvlYDxfm1oCB6UFjRKA+M1Y3xPKOh+WxMXvk0=
+
+Name: bin/repast/simphony/space/grid/SimpleGridAdder.class
+SHA-256-Digest: 7XsACiLp7Ljp/ynQ6zhYtkeMnQ1VogmoFBVRzea3VGE=
+
+Name: bin/repast/simphony/engine/watcher/ArgMatcher$SetWatcheeValTrigger
+ .class
+SHA-256-Digest: CMeEpUh6LDrU9lovYR8+Fo73YlRcSbFnXECtlAl4uYw=
+
+Name: bin/repast/simphony/engine/watcher/query/AndBooleanExpression.clas
+ s
+SHA-256-Digest: t6/BXSkF7QQ7+KdNk3ai6Kl37DRr5gXk73DTFtwDnbc=
+
+Name: bin/repast/simphony/space/graph/Network.class
+SHA-256-Digest: MoXXoogtfue9gSzSQKkIJaOy8fEneDkkVnA9/QIBHxo=
+
+Name: bin/repast/simphony/engine/environment/DefaultScheduleRegistry.cla
+ ss
+SHA-256-Digest: gosCJPLL/XZQn98dzBP6db40iONwC05OZ72UxxXNJCY=
+
+Name: bin/repast/simphony/context/AbstractSpatialContext.class
+SHA-256-Digest: 9TYIZuC9kx6PPRqi4K7/W/dEeVO4z/Nrcxm11KHyo4o=
+
+Name: bin/repast/simphony/parameter/SteppedRange.class
+SHA-256-Digest: 8i3+mjabnnoQvt9TxPQeAbTbYwGyf91b7qxN9V0L8RI=
+
+Name: bin/repast/simphony/util/collections/CollectionUtils.class
+SHA-256-Digest: hzZeGe1pCBC/6x/Srgsq3UPO7cRic5wC8lPgdEVk9v4=
+
+Name: bin/repast/simphony/context/ContextFactory.class
+SHA-256-Digest: dSciYLmckcNR4ecYUte2UCD2kysy8pPeNrf234SSI2w=
+
+Name: bin/repast/simphony/util/ClassFinder$StringAdder.class
+SHA-256-Digest: 1LS0udADXcupOZ2gBaqYopciJrnCS+xiQgqdpET03jk=
+
+Name: bin/repast/simphony/engine/schedule/ActionList.class
+SHA-256-Digest: htCRac3hx1Dx5K/wrcdHTL5wWqe8Vzr+boU04nh8its=
+
+Name: bin/repast/simphony/freezedry/freezedryers/PrimitiveFreezeDryer$Pr
+ imitiveConverter$3.class
+SHA-256-Digest: K27a8fsDl8mtZ9Iq/s9Xi0bqPAXfYOX+rPMEX6ulcFU=
+
+Name: bin/repast/simphony/engine/schedule/ISchedule.class
+SHA-256-Digest: VBntQmeMOCWVV/f98VKMLaSGVPL259JJPs8Wq7ToC7E=
+
+Name: bin/repast/simphony/util/ContextUtils$1.class
+SHA-256-Digest: R48u0rT97BEVY4eeKm027YohMleL1RolYWLS4vb+7Y8=
+
+Name: bin/repast/simphony/engine/schedule/ScheduleGroup.class
+SHA-256-Digest: iUhpir+u9GyXi9wuDCMzY45972jFSzq6+vvg9bKG87E=
+
+Name: bin/repast/simphony/engine/watcher/query/query.jj
+SHA-256-Digest: lUcMHsRSnsrvBEOaGMXwPWyY9SPsXSYBv8XN5EiiYaE=
+
+Name: bin/repast/simphony/engine/schedule/CallBackAction.class
+SHA-256-Digest: MAN9J2ZP+bnKfcHMLUIRhVY0Moc6xZm9Kseu1JCKPU4=
+
+Name: bin/repast/simphony/util/RandomAccessScanner.class
+SHA-256-Digest: EwVTsUVRHF0W2b2z25Ucb5K8cm/fIAU70lGT2schOkA=
+
+Name: lib/jung-graph-impl-2.0.1.jar
+SHA-256-Digest: HMbXArV9AJKVWMJnxSpLZWWl2mumzAw48Zbt7ZT7LKI=
+
+Name: bin/repast/simphony/query/PropertyLessThanEquals$LessThanEquals.cl
+ ass
+SHA-256-Digest: JMCFtdKXc7jWZk445JF0L7Mvs1Vdx18UDHPq0NDkF5w=
+
+Name: bin/repast/simphony/random/RandomHelper.class
+SHA-256-Digest: YIq3WgJSa3aYRLLAiqfNJjKFjs8nj7SnBx5Ba9MWmn0=
+
+Name: bin/repast/simphony/engine/watcher/PerfTest.class
+SHA-256-Digest: oefD+CK2AeTJfiOV1VI7Whv1q4XsWvkq0F2uhyiDlPM=
+
+Name: bin/repast/simphony/engine/watcher/WatcheeDataNode.class
+SHA-256-Digest: BPmMOGSmmoFAzub1+K+caIOmXrJt1WT+B2WJgS+DfnI=
+
+Name: bin/repast/simphony/util/collections/FilteredIterator.class
+SHA-256-Digest: hPAjqRYohvU+9bOBB90JK3o9zwH7H7zZDXQYp/tKzZU=
+
+Name: bin/repast/simphony/parameter/ParameterTypeFactory$StringParameter
+ Type.class
+SHA-256-Digest: 3vuTUtW0MIkzRaGZqwMTdJuN/x3bnDI5CSzba2vDKCg=
+
+Name: bin/repast/simphony/engine/schedule/SchedulableDescriptor.class
+SHA-256-Digest: B7Nea94V0Vb6caMk/GdPOf82seMqeQLlRW9Pkynrc2g=
+
+Name: bin/repast/simphony/visualization/IDisplay$LayoutFrequency.class
+SHA-256-Digest: FN7+mm/Rg1W7/ISC8ngzMpVHafi6Lghyn4Y7JVBEQPU=
+
+Name: bin/repast/simphony/parameter/ParametersValuesLoader.class
+SHA-256-Digest: Rlbao8UHxK75h8uBYg/FWuFozGsP/ez8TsE+O9xZGlE=
+
+Name: bin/repast/simphony/engine/watcher/Watchee.class
+SHA-256-Digest: Zq9gQ9oCSk/WC2ktw9tnpMbHTFGDRn0sd1NPERGvpkE=
+
+Name: bin/repast/simphony/space/graph/RepastPajekVertexTransformer.class
+SHA-256-Digest: 78c4w0hHLdI2AWxGIIZHX99iHvikXUsumZxMyqcYhGU=
+
+Name: bin/repast/simphony/engine/watcher/WatchItems.class
+SHA-256-Digest: rDwJCOoIiDHhEERtYxqdxT1vFyHBaIoBhDPlzOGIRT8=
+
+Name: licenses/repast-license.txt
+SHA-256-Digest: sgcGxHlhIfJK9mnMFOtvz0jBQxnJYR0r5EDSz4qPlYU=
+
+Name: bin/repast/simphony/context/space/grid/ContextGrid.class
+SHA-256-Digest: z3YQZbhmZMVyunP8I/gOTkr7o/cZu9xss9pwLw9HXoc=
+
+Name: bin/repast/simphony/engine/watcher/query/BooleanExpressionCreator.
+ class
+SHA-256-Digest: Akt1J2LXdke+zKVAl19jO2OObVqaEMEBTIiOXLJFQWg=
+
+Name: bin/repast/simphony/engine/watcher/query/NamedWithinMooreBooleanEx
+ pression.class
+SHA-256-Digest: feyVSlcKWjaXDBW1853wDXV16Jnu7p5eyXAA63NcrqE=
+
+Name: bin/repast/simphony/engine/schedule/ContextSchedulableDescriptor.c
+ lass
+SHA-256-Digest: L/pX01wJGsJ7qObbtf6tLxe0FOr5Dp9KjmC+YpJ71hY=
+
+Name: bin/repast/simphony/query/space/grid/GridWithin.class
+SHA-256-Digest: 6PcYIuSgi8sw1k+RqkcVD+BD0GNTMD2jIxZWr+YX3VI=
+
+Name: bin/repast/simphony/xml/Keys.class
+SHA-256-Digest: nAPufXs4ABBHD+C3F5rs41mHJvQilgjsJgCw6P4Zr+c=
+
+Name: lib/velocity-1.4.jar
+SHA-256-Digest: /56ho61YLlikCnv3RGYRAaocHcufTeamRyL/XQk4CFM=
+
+Name: bin/repast/simphony/engine/schedule/ScheduledMethod.class
+SHA-256-Digest: q8Sj1kQI/V/kFa26kmlAyZ/fXG4+zn4/qDf7DxanjNc=
+
+Name: bin/repast/simphony/util/RangeCombination$RangeComboBuilder.class
+SHA-256-Digest: 1Qkx/JDq7F0+UbAv5u4BWNfRPlRzBLf7bZH93/z9Mmc=
+
+Name: licenses/violinstrings-license.txt
+SHA-256-Digest: 2Erd7XKUkzL8NZ7+TPjD969P4OgnlFYVyyzRNEk42X0=
+
+Name: bin/repast/simphony/engine/watcher/query/QueryParser$LookaheadSucc
+ ess.class
+SHA-256-Digest: Pc9PUEMuKvJuXgJ6lfx5daJGixcISNSs/uYyzOyRC80=
+
+Name: bin/repast/simphony/freezedry/ArrayValueHandler$3.class
+SHA-256-Digest: Zo5+2G4JcTy8Z1HByx68BF0CXdvOviFjSdfy1FCtwxM=
+
+Name: bin/repast/simphony/space/graph/NetworkListener.class
+SHA-256-Digest: 8vIbd9XpASrc7kb1wnr5YBdOhh+wEdBsRXgU3cLj5PQ=
+
+Name: bin/repast/simphony/util/collections/OpenLongToDoubleHashMap$Itera
+ tor.class
+SHA-256-Digest: JB2/WbCckmcf6UGPPWMbh9PfJL0zriL+Oi11iEDHrF8=
+
+Name: bin/repast/simphony/engine/watcher/query/BooleanExpressionBuilder.
+ class
+SHA-256-Digest: xHXHEf2jZRpwi6cOy+BHpcyqkt5v/MbUlKIWMSpFU+Q=
+
+Name: bin/repast/simphony/freezedry/freezedryers/PrimitiveFreezeDryer$Pr
+ imitiveConverter$8.class
+SHA-256-Digest: PAvsV5/69x++GmqlTyhfsHtd3oAwjWfRwe0fpMcFx60=
+
+Name: bin/repast/simphony/engine/watcher/NotifierID.class
+SHA-256-Digest: bPvSej0ooIE6VIAdPKrVuThYtqOAFwonvxwv5XVcID8=
+
+Name: bin/repast/simphony/parameter/StringConverterFactory$StringStringC
+ onverter.class
+SHA-256-Digest: 8b3Kj8RHgQGOXKpNjhV188PSXUpmpplzpbn961tz9+Q=
+
+Name: bin/repast/simphony/valueLayer/MaxGridFunction.class
+SHA-256-Digest: RYgagIJJBlxh2eX9Jia8Siv1mjMwUyI95f+TGL90wfo=
+
+Name: bin/repast/simphony/query/PropertyNotEquals$Equals.class
+SHA-256-Digest: UxIr1VY7xunEbn9cMiXX/ymqRUHS338AGyAVbWeHJ1U=
+
+Name: bin/repast/simphony/xml/GridConverter.class
+SHA-256-Digest: MmFdpy+R9OF6RXjfJN0Lj/xGFneTFrjK+tWcng4VKjo=
+
+Name: bin/repast/simphony/space/continuous/BouncyBorders$Dimension.class
+SHA-256-Digest: +654KIaSzNrOfX3zriAJbHWVr6jasWZhbkH2mqGhOa4=
+
+Name: bin/repast/simphony/filter/EqualsToFilter.class
+SHA-256-Digest: MpRJaSXAt1WHBRabS2N0WEWCmFR7THdw/f8UvLWk+tA=
+
+Name: bin/repast/simphony/engine/schedule/ISchedulableActionFactory.clas
+ s
+SHA-256-Digest: Pa48vJMiOTsIxO2Xhouv9l7wA/QnH8bJPSKYIKd/ync=
+
+Name: bin/repast/simphony/context/space/graph/NetworkBuilder.class
+SHA-256-Digest: m2Ot93kgk5zacSxCsJL+TIHX/N5svn3IWQhddGoW5y4=
+
+Name: bin/repast/simphony/engine/watcher/DefaultWatchData.class
+SHA-256-Digest: mL9bJroPZyy+FxTq+Xv6B5pY4XLiHiiH66jDV2wuE84=
+
+Name: bin/repast/simphony/space/grid/GridDimensions.class
+SHA-256-Digest: i1SEQg2qkD43ux2RbEvwv9GKSv2Ug40MOfU5xTChIb4=
+
+Name: bin/repast/simphony/space/graph/RepastPajekEdgeTransformer.class
+SHA-256-Digest: XvVnw51mBHSG7PjQswjoHGKd5EsPvyHo/zMSmyYjh1U=
+
+Name: bin/repast/simphony/util/ClassPathFilter.class
+SHA-256-Digest: Bjhed0TiqQ/mvVVXigZsViL6JfaPtmbxh10LXFbhVxw=
+
+Name: bin/repast/simphony/util/collections/ListIndexedIterable.class
+SHA-256-Digest: +3cobVF1zVrS47fnYJYGVqmrkE5SG3PiBH/6eNfU7EQ=
+
+Name: bin/repast/simphony/engine/watcher/query/ASTNumber.class
+SHA-256-Digest: ZkLyzMRiSmtzZx723prL7Tl31sCf5uw2rIh6m2vN6WU=
+
+Name: bin/repast/simphony/engine/controller/DefaultContextSchedulableCon
+ trollerAction.class
+SHA-256-Digest: WPTny3ScTiDGHe2yMi8tW8IJueshySstRM6B3Z4tBx8=
+
+Name: bin/repast/simphony/context/FormerDefaultContext$ContextHint.class
+SHA-256-Digest: eunXJpkqUIFeuypXL33T8AYspjboUp7CCun5/EYNTr8=
+
+Name: bin/repast/simphony/engine/watcher/WatcherOOPTestRunner.class
+SHA-256-Digest: dgDU/CFcvnOIMLZU9/TgF2VkqLv3VvLtQoa1K7hVaII=
+
+Name: bin/repast/simphony/util/SystemConstants.class
+SHA-256-Digest: w3CQOHBVrQ8X4LpEG3pd6LVcqqbDE2vk4UM/8xT9W1U=
+
+Name: bin/repast/simphony/query/OrQuery.class
+SHA-256-Digest: kjIbtYdhr3Y9buHm0yiwE2uDUw3i+sTWMqpGRMSb1bo=
+
+Name: bin/repast/simphony/visualization/ProbeListenerSupport.class
+SHA-256-Digest: YBX6ClxX5LpCsuSPu2C1lNSdwNs9WHVlSIsRPsDTdjk=
+
+Name: bin/repast/simphony/context/ContextIterable.class
+SHA-256-Digest: e/OWRw+KHXmiHHO6bKXZdKqY4gsEz0y64Jk6tSvGLbs=
+
+Name: bin/repast/simphony/engine/controller/DefaultController$1.class
+SHA-256-Digest: NcljhjPkg5/ZZNC6t3CNEfLtjeiCFG5+/nO2Il4Nmjc=
+
+Name: bin/repast/simphony/query/space/grid/MooreQuery$Iterator1D.class
+SHA-256-Digest: 8LU7AcsNQ7xKypuuScU3A/bCzskOvqc8MqMfobLs7nQ=
+
+Name: bin/repast/simphony/context/space/graph/NetworkFileFormat$2.class
+SHA-256-Digest: p4KaxcpQ3+SAJYOFLVH6Ja1zaJE4P/86B9xJlxjqejM=
+
+Name: bin/repast/simphony/engine/environment/DefaultRunEnvironmentBuilde
+ r.class
+SHA-256-Digest: w3GxaO+nVMF1/C1I8q5+EaSuuneo1rWOV1eAFgDyOCI=
+
+Name: bin/repast/simphony/engine/watcher/WatcheeDataFinder$NodeIterator.
+ class
+SHA-256-Digest: m0SCgOPFS6dV0xs+QHhxVCO0hY3Bc9ddq+wjQBLKPQI=
+
+Name: bin/repast/simphony/engine/schedule/ThreadedAction$ThreadedAtResch
+ eduler.class
+SHA-256-Digest: /VhRQWsscQWTFsWnBv3gu2YZfOPa6pGMkc9cGev+knc=
+
+Name: bin/repast/simphony/engine/watcher/WatcheeDescriptor.class
+SHA-256-Digest: Z9RBHdeI9bOGbjMaBnbZzU8nkgXG1LvrmSzcWJmFW6A=
+
+Name: bin/repast/simphony/engine/watcher/WatcherEditor.class
+SHA-256-Digest: Ku2nA6n5WZL5nf3IFHJZ2Ot4c4cgR6WtB63XLbZH0bM=
+
+Name: bin/repast/simphony/engine/watcher/ArgMatcher$SetWatcheeValueTrigg
+ er.class
+SHA-256-Digest: Dbu6ewTLG3qVxcU1smedRRJoDN6mGhjt3hfZx97AQoU=
+
+Name: bin/repast/simphony/engine/watcher/Notifier2.class
+SHA-256-Digest: ochL6NmhxxTMAxh+ucuRA5s/Fy5Ovcmh8knPyoihPw8=
+
+Name: bin/repast/simphony/engine/watcher/query/ASTAndExpression.class
+SHA-256-Digest: r7GcjvWubFJV1RC01Z6EFo97mb3jfbkn/XFY8uuqLbE=
+
+Name: bin/repast/simphony/space/grid/RandomGridAdder.class
+SHA-256-Digest: lKW5NSHYHGSSDiiBzZV7Kef4SUo8PxxFxZmc1S3iNzc=
+
+Name: bin/repast/simphony/util/collections/SimpleWrapper.class
+SHA-256-Digest: d+Hkh5IvpqkHI/OZ/+SDvR0FxdPcjhfqa1QFCjZeXsw=
+
+Name: bin/org/jscience/physics/amount/Amount$4.class
+SHA-256-Digest: 2dw/46501whFa90TN49ZQEPR/JVQKb3ZBN6Fu63Jwek=
+
+Name: bin/watcherOOP/test/WatcheeChildA.class
+SHA-256-Digest: kkxxQenQxzG/QyVUS4LeHaLy4fku5EVLREjeNSFrVtQ=
+
+Name: bin/repast/simphony/engine/controller/NullAbstractControllerAction
+ .class
+SHA-256-Digest: TQE5bU03o8KptFvOVBtcNB6H0FuM9IEK58oRF77EJds=
+
+Name: bin/repast/simphony/engine/controller/AbstractControllerAction.cla
+ ss
+SHA-256-Digest: tTc/GB18gCxU7usVwz6mQ7XxK+iKaKx5+XCuY4pCd6A=
+
+Name: bin/repast/simphony/engine/watcher/WatcherPathFilter.class
+SHA-256-Digest: hSOlLgalKjGmZN+UT2fu2a+xRMCGKsGAsoRXRPyjYXo=
+
+Name: lib/poi-ooxml-3.9-20121203.jar
+SHA-256-Digest: cK/PiIruQYxS7zBW3poDXrQWMxKUQ3ADACW9C+l2vYM=
+
+Name: bin/repast/simphony/filter/PropertyEqualsFilter.class
+SHA-256-Digest: t9yUQ4kA/pgi7qs9r5HV0Pp0X9odO1lIbdr024/6sOs=
+
+Name: bin/repast/simphony/context/space/physics/PhysicsSpaceFactoryFinde
+ r.class
+SHA-256-Digest: 06W7Erwlu8vKyor99WAO6Cj06H58HH3xCLRwv/JEO/o=
+
+Name: bin/repast/simphony/space/grid/GridBuilderParameters.class
+SHA-256-Digest: q7u/LmoIZHG/w/M14YsoJc0stZ/5nirxsxpp9ESa1RA=
+
+Name: bin/repast/simphony/util/collections/NaryTree$ChildIterator.class
+SHA-256-Digest: k+u24dgNdoo7dHiW5eA4eQyQo+SJzW4SowtcMBdJW0w=
+
+Name: bin/repast/simphony/context/space/graph/AdjacencyDoubleMatrix.clas
+ s
+SHA-256-Digest: DVAsyHARUtVbUJLYXt1V/CYqBbVHUy2RXB560Cih+9U=
+
+Name: bin/repast/simphony/engine/graph/NaryTreeTraverser.class
+SHA-256-Digest: QDopplsGzUezPVDdFnt7ooFclZqL/FVJoinBppzNzUo=
+
+Name: bin/repast/simphony/context/space/graph/WattsBetaSmallWorldGenerat
+ or.class
+SHA-256-Digest: Ny+nZCYQpu1ZSL3xzNtR28ZPYk/r1Aw6LVs8u5B+U8Q=
+
+Name: bin/repast/simphony/util/RangeCombination.class
+SHA-256-Digest: GoH80mF1UdGVTcg5SrE2HQkuX3jcRtoKOLHBcf3mQhc=
+
+Name: bin/repast/simphony/engine/watcher/query/ASTLinkedTo.class
+SHA-256-Digest: 01NnyF9ULDQgI8TnAoFzYqYpaXCGBPeyE06bnweQIXw=
+
+Name: bin/repast/simphony/engine/controller/ClassFilter$ClassFilter1.cla
+ ss
+SHA-256-Digest: yvblo4i1h3OiTbIvgwuOqRrlqLliuADhkSo97ZyaQLg=
+
+Name: bin/repast/simphony/engine/watcher/Notifier2$SetupTrigger.class
+SHA-256-Digest: RRyOAsAHsHDtDhlYetvp9DAv/DpcttT2ExhW/eOHSxY=
+
+Name: bin/repast/simphony/query/space/grid/GridCellNgh.class
+SHA-256-Digest: 3N43YTkiNY9cwiWtXHlzyhaMrm5v8T6uNXLOeAGQ1no=
+
+Name: bin/repast/simphony/engine/watcher/query/ASTWithinVN.class
+SHA-256-Digest: fBUjEg7p+RW26lW/BlbVeQFEzzSXQl84jItHojOR1qU=
+
+Name: bin/repast/simphony/query/space/grid/GridCell.class
+SHA-256-Digest: ffZuFPPj8tMbfxJXjEQbKC8FmL7L3eOKivXqU9PdCmY=
+
+Name: bin/repast/simphony/space/grid/VNContains.class
+SHA-256-Digest: S9Zw4iTDlF+ExcSUcL9lkOMudzhAZ1BU+2f5JWLoRAU=
+
+Name: bin/repast/simphony/engine/schedule/DynamicTargetAction.class
+SHA-256-Digest: m31N80hFDQq4LjPfIgggIsorEMufA//XQSUNmuMoxO4=
+
+Name: bin/repast/simphony/query/space/grid/VNQuery$VNIterator.class
+SHA-256-Digest: 9ZngNR99Gp5/j1cHANtu/y1n/wyW6RSOpZATowXiK50=
+
+Name: bin/repast/simphony/context/Context.class
+SHA-256-Digest: FyTy6rpCBw+3Uph3AOtSLgeg5S0uXItvN2UcrBdeT1Q=
+
+Name: bin/repast/simphony/engine/schedule/DefaultContextSchedulableDescr
+ iptor.class
+SHA-256-Digest: 0XyQm6XzY94aakSyRoxpxOmCxrF5n8LVZuhRb8+9dAs=
+
+Name: bin/repast/simphony/parameter/ParameterTypeFactory$ByteParameterTy
+ pe.class
+SHA-256-Digest: l6d0SVvxSzt4kseyhqSo8FbC4IHRn70PuieDrEQn+uM=
+
+Name: bin/repast/simphony/engine/schedule/IterableCallBackAction$NoShuff
+ leExecutor.class
+SHA-256-Digest: 0xPk1A8ElQbCZoXb5zbvtsLLymwPdjZbrpUet7QJEbI=
+
+Name: bin/repast/simphony/query/space/grid/GridWithin$IterableCreator3D.
+ class
+SHA-256-Digest: d4jZV1llghGcaOA4oPJUWEYlL0zliLaITtow46yEHXM=
+
+Name: bin/repast/simphony/util/ClassFinder.class
+SHA-256-Digest: dPokF17tvev7M+nyrUiMN1cXtp69jeEF73cLIDNNEU0=
+
+Name: bin/repast/simphony/space/physics/PhysicsScheduleAction.class
+SHA-256-Digest: 5VRQZhaBwSMIR3aL9kzog4nidQ5wA3xeet0IoKxlBrw=
+
+Name: bin/repast/simphony/parameter/EmptyParameters$EmptySchema.class
+SHA-256-Digest: RWWtLPY2eqi4FCuGE9oaLhQdFiHfhus9+UCdxB3maWs=
+
+Name: bin/repast/simphony/context/space/physics/PhysicsSpaceFactory.clas
+ s
+SHA-256-Digest: JKrPQUJsVVADlr8vx2N3xj7fSxTsLi0migWtj1sGgAk=
+
+Name: bin/repast/simphony/engine/schedule/IterableCallBackAction$Shuffle
+ ListExecutor.class
+SHA-256-Digest: 7F9RmcIOEwFI7ORpehhGYTdsqZuy5/MEIO99C1X01B0=
+
+Name: bin/repast/simphony/engine/schedule/IAction.class
+SHA-256-Digest: g1vDquSsmxaHzHRmqf2bI1nR7LV3xCCU4CjD17aIzWo=
+
+Name: bin/repast/simphony/engine/watcher/ArgMatcher$SetWatcheeDataTrigge
+ r.class
+SHA-256-Digest: amdqhv6YBJCofu/+JRQ2k47rt20capQVMiTBFyBnPXY=
+
+Name: bin/repast/simphony/engine/watcher/WatcherTest$3.class
+SHA-256-Digest: OePwGHrEotXVcqqz974hfh6lnx/+IWndXmS0s+nI6KY=
+
+Name: bin/repast/simphony/engine/graph/EngineGraphUtilities.class
+SHA-256-Digest: FRbg3hqzeP4EL4XFDq4qv6q6udvMXPD2tbOp1elI5Xw=
+
+Name: bin/repast/simphony/query/space/projection/WithinVN.class
+SHA-256-Digest: gC4vCC2b9SUUoj7zM01BOxqaTiz6zWVWy9x5pWceq/w=
+
+Name: bin/repast/simphony/engine/watcher/ArgMatcher$AbstractSetDataTrigg
+ er.class
+SHA-256-Digest: yV+UcLQLwgILRCQ6dsF2X92RffPRYd1KfjB4XGpwx8g=
+
+Name: bin/repast/simphony/engine/watcher/InstrumentorTest.class
+SHA-256-Digest: WwvNRhKpvc0n0P2CwLKy5JDinz2vOG1SlK+qNU7oPhc=
+
+Name: bin/repast/simphony/util/HashCodeUtil.class
+SHA-256-Digest: c4Ef8sZb5ibw47sghVCg82WQ+B426zTeCzd9FxkMUMk=
+
+Name: bin/repast/simphony/space/continuous/SimpleCartesianAdder.class
+SHA-256-Digest: 6Y3hXAvKkjNmRfRv/Lgl6OrBMDVXFjbm1I19lF4hRCc=
+
+Name: bin/repast/simphony/valueLayer/BufferedGridValueLayer$Buffer.class
+SHA-256-Digest: OhXksa24p6wl35jqD4NU0wN+nkWlXdTQluxlAXzz8qw=
+
+Name: bin/repast/simphony/visualization/DisplayListener.class
+SHA-256-Digest: mjckmMItO4NFgftDqCLLFJJK0ifsHp+aXWRFm08mbEU=
+
+Name: licenses/hsqldb-license.txt
+SHA-256-Digest: sn+1zbnodKwqh2OZWxrsoQKqc7aMTLVBWHosbJaIHmY=
+
+Name: bin/org/jscience/physics/amount/Amount$2.class
+SHA-256-Digest: b4PNLGyvrh5EPLaV5p2CWYZ8/ZySyC3kJ5FntzOyaB8=
+
+Name: bin/repast/simphony/engine/watcher/WatchContextListener$CacheEntri
+ es.class
+SHA-256-Digest: mbBdmUS466gr/6OJJxeqkbLTpNIoeClc8qCP5CWsFcs=
+
+Name: bin/repast/simphony/context/ContextFactoryFinder.class
+SHA-256-Digest: wZ+qy4LJrWxkiT7ZYDX1gbhBxVSUr/rSGSVLXVDF7EY=
+
+Name: licenses/concurrent-license.pdf
+SHA-256-Digest: tRhxGqTJVpeMeGFqjr0EEFgbtWq76wH9UdaZPxqqVzk=
+
+Name: bin/repast/simphony/xml/XMLSerializer.class
+SHA-256-Digest: 84Yex457cs40mf6U2H5o1OKRXP7XYBy3qsftfaGzaOE=
+
+Name: bin/repast/simphony/parameter/params.vt
+SHA-256-Digest: 9j3h0Z70g/SoLaiC78LXE+t4n9qP+zpMnhfT22H2vFs=
+
+Name: bin/repast/simphony/engine/environment/ControllerAction.class
+SHA-256-Digest: fB+w7abedu8YKN25IRs3DkPK0TbDJVrXxUlUlXA+2pw=
+
+Name: bin/repast/simphony/engine/watcher/AbstractTriggerScheduler.class
+SHA-256-Digest: 2Vm4roI50DEvl2oOfkI4/nDID3/wUF8Rh1csBi8B0wE=
+
+Name: bin/repast/simphony/freezedry/FreezeDryedRegistry.class
+SHA-256-Digest: 1JZNddKSD42jHW0YMwBXOgc+LwnjD1a4oYYhJnuVJPc=
+
+Name: bin/repast/simphony/context/space/graph/NodeCreator.class
+SHA-256-Digest: gOzHMrRhGfVWQmgfYMnQuwzGVXBaQ+7o5anKMTDd5Vk=
+
+Name: bin/repast/simphony/space/SpatialMath.class
+SHA-256-Digest: VFTWrTDQaOpig46zYZxxoRnhjxUCVOUVLwiJttKgHeA=
+
+Name: bin/repast/simphony/util/collections/DelegatedIterator.class
+SHA-256-Digest: xvhlBQM9rWQzMBzuqWxYeqy/4vSkvXFJV++3zJ14EHQ=
+
+Name: bin/repast/simphony/engine/controller/DefaultController$4.class
+SHA-256-Digest: nVZzQ2TElMDgRAR1eBfyfnSxW1WuLrYvpgp44onvmMg=
+
+Name: lib/cglib-nodep-2.2.3.jar
+SHA-256-Digest: kfaBiX4FHrMfmrZnodqWUmIQ7ydG+nK8wgyKeBDvzaE=
+
+Name: lib/xmlbeans-2.3.0.jar
+SHA-256-Digest: xjgINE6lDZdBsmY2KZZVe6yFh83E8/rxO77JUpbTU+M=
+
+Name: bin/repast/simphony/engine/environment/Runner.class
+SHA-256-Digest: vHS7Zbp1CFuk0Qr8KQ4K7bitRUfK6jKAzawmvqEC5e4=
+
+Name: bin/repast/simphony/engine/graph/IterableTraverser$ValueIterator.c
+ lass
+SHA-256-Digest: u0VbSbXCSeON/4+3HfZcBabV2xN4T5x8bAerIgdlG7I=
+
+Name: bin/repast/simphony/freezedry/AbstractDataSource.class
+SHA-256-Digest: D3w3GDbNg5PXWSoQ96EyGyK/ikUT5jkEqsFpJ357a64=
+
+Name: bin/repast/simphony/render/RenderListener.class
+SHA-256-Digest: 5ET7YmDPTr1ywLjPkwlKnWKxhImRDZPIiHG9D2VB8is=
+
+Name: lib/jung-algorithms-2.0.1.jar
+SHA-256-Digest: sdeS/KrF7YGX+rc01gbw9U5JJvTa6a04+0I9I/MXhqs=
+
+Name: bin/repast/simphony/engine/watcher/WatcheeDataFinderTests.class
+SHA-256-Digest: nvtmckpXk8jVN0LgJ48775KhfNTG1aXkHImj2pdHrIE=
+
+Name: bin/repast/simphony/engine/environment/RunEnvironment.class
+SHA-256-Digest: +9TVrC8rtmk1wfhzgcNHmyBI8hCfcibHkShkQiCVGg8=
+
+Name: bin/repast/simphony/context/space/grid/DefaultGridFactory.class
+SHA-256-Digest: NVnghtS4qeSJGsE7vS7Z/FmY0QRHBBQmSD0xPFoqWGs=
+
+Name: bin/repast/simphony/engine/watcher/ArgMatcher$SetWatcheeTrigger.cl
+ ass
+SHA-256-Digest: Oyobg7sg2FVWWz0M1OUoMjJ6i5LmjJVxkK3L2MKZ89Y=
+
+Name: bin/repast/simphony/parameter/BeanParameters$ObjectParameter.class
+SHA-256-Digest: SEOQsqzVq8cCIqjSnaYn22+EeRP5mdKyhMNv8x38ZQA=
+
+Name: bin/repast/simphony/engine/watcher/WatcherTest$1.class
+SHA-256-Digest: MrWcyhwm0LloMB4YUjAXd55viX7SbHY0pFcq/LsekCM=
+
+Name: bin/repast/simphony/space/grid/GridPointTranslatorDecorator.class
+SHA-256-Digest: 3cxoazXH10+Xc7zE45i8pUIZEPP8Qm1PtinFS8Rn3q4=
+
+Name: bin/repast/simphony/space/continuous/PointTranslatorDecorator.clas
+ s
+SHA-256-Digest: dY11vE7o93S4KAq//pt5fDM6gOCC+fQuDBIxxEjuUSc=
+
+Name: bin/repast/simphony/query/PropertyLessThan.class
+SHA-256-Digest: DwwFb0fkdtrZyGZNPO1fJgAksFeg7WfH29ZqyixLquU=
+
+Name: bin/repast/simphony/parameter/ListTokenizer.class
+SHA-256-Digest: XQjvkJfdLYdzmHL6cxLR2N5HNYHI20NiPksZ0mx2X1I=
+
+Name: bin/repast/simphony/parameter/ParameterSetter.class
+SHA-256-Digest: b/lnJdteINn2zDhY18i/zMyJJhJVoJvgzFn0QjPdV8g=
+
+Name: bin/repast/simphony/context/space/graph/ExcelNetworkLoader.class
+SHA-256-Digest: 6GJ2D2LSystpxaoDrF9CSIw6MJlU1LAx2vs7YC2lG9M=
+
+Name: bin/repast/simphony/freezedry/FreezeDryedObject.class
+SHA-256-Digest: 706tTmn3H73pyCrm92OlNoNJubFJB5QbK4jj+cPnqVc=
+
+Name: bin/repast/simphony/freezedry/freezedryers/PrimitiveFreezeDryer$Pr
+ imitiveConverter$1.class
+SHA-256-Digest: z/kvTu9tYKAdMVO6VnAIff7CRBqZDcgDGvjS9TLgTKM=
+
+Name: bin/repast/simphony/context/StructurePK.class
+SHA-256-Digest: INvwkD8EqM9qJlMxh9Sr6FlC6tIHylcDF+uPNp0T/io=
+
+Name: lib/poi-3.9-20121203.jar
+SHA-256-Digest: GwAD84ZLP/ucylDT6FnSX/oOYEyAseaCFEeTHHQPHbc=
+
+Name: bin/repast/simphony/engine/watcher/query/TokenMgrError.class
+SHA-256-Digest: t3O62dVPaY8rWxyqHLayECTUG1g5LLttxODXATjhxTQ=
+
+Name: lib/commons-math3-3.6.1.jar
+SHA-256-Digest: HlbXsFjSi2Wr0la4RY44hbZ0wdWI+kPNfRy7nH7yswg=
+
+Name: bin/repast/simphony/engine/watcher/query/QueryParser.class
+SHA-256-Digest: WPkGKBI/z9ET8QTaAnZDEQKtI6a2JmEmJtk/o8IlHqY=
+
+Name: bin/repast/simphony/engine/environment/ProjectionRegistry.class
+SHA-256-Digest: DEmX6OwFpH+fch+O3Fqv5zZkqjGo/UrowoNSp4xwLZI=
+
+Name: bin/repast/simphony/space/projection/ProjectionPredicate.class
+SHA-256-Digest: r53bY9yg9Zs03CwHRL/uxlRpKUwdB4b4d3jZ0xmmlcw=
+
+Name: bin/repast/simphony/engine/controller/DefaultController$3.class
+SHA-256-Digest: K5V7xCRJceU/PxhbJjPNUaRKEnVqbTLKhZwEo/3BIBo=
+
+Name: bin/repast/simphony/engine/watcher/ArgMatcher.class
+SHA-256-Digest: lrhDwd0MVer+wg2ZPrJP9JkHBCBgA2V5m4Gmxe4xGE8=
+
+Name: licenses/apache-license.txt
+SHA-256-Digest: P4opgIcg+RQANYhqAlGFhyaBgz2isLzA5L7B0jPXuMs=
+
+Name: bin/repast/simphony/query/PropertyNotEquals.class
+SHA-256-Digest: Uju5uiAqTXUeVJmrV3WaRX+lQ4LjdfaYumwl+kCIuRo=
+
+Name: bin/repast/simphony/freezedry/ArrayValueHandler$8.class
+SHA-256-Digest: DqAniWNIl0tCFNNmQY9LIFnc3N9eM3v4Y9LWKycxz1E=
+
+Name: bin/repast/simphony/parameter/Parameters.class
+SHA-256-Digest: 70CcuNfonYuZkihGHs9HhPma4GRxV/HyYSi2WQila68=
+
+Name: bin/repast/simphony/space/projection/DefaultProjection.class
+SHA-256-Digest: r8w8CUyAPN+138o1HIZvC3kdpreTQXfg0URiUeM2Bfs=
+
+Name: bin/repast/simphony/engine/controller/ScheduledMethodControllerAct
+ ion$ScheduleMethodAllAction.class
+SHA-256-Digest: 0nCcP0yj2lyGR07g2BbN6slXzn1toPwLZnCbKRupw94=
+
+Name: bin/repast/simphony/context/ContextIndexedIterable.class
+SHA-256-Digest: ITk7ivt1JluFvxpdldNFEGjGsebSkm1WGvCWSy98wNs=
+
+Name: bin/repast/simphony/engine/watcher/WatchData.class
+SHA-256-Digest: yiWkSZL2FF+JP0xwf4sL4KUP9Oi66KqMsAaWGgwbqEg=
+
+Name: bin/repast/simphony/space/continuous/AbstractContinuousSpace.class
+SHA-256-Digest: wDoNg/9CjVJNe59h0hxM5VLdTsn4jmCIcPzWCXmXg/g=
+
+Name: bin/repast/simphony/engine/watcher/SharedWatchParameters.class
+SHA-256-Digest: Y7zgJoZUTO9istFUYMckQF7g+Luc2k7F4K6zOCnZ7VM=
+
+Name: bin/repast/simphony/engine/schedule/ActionQueue$EmptyAction.class
+SHA-256-Digest: W15ICWlgu3PaIoSiqtfbVFpeitLQMFXUhrEbN28Aejg=
+
+Name: bin/repast/simphony/space/Direction.class
+SHA-256-Digest: /4aonM4pb0gaCpUb929xOpqXeHe0zrNQAG9/brpD3nE=
+
+Name: bin/repast/simphony/engine/environment/DefaultRandomSetter.class
+SHA-256-Digest: n1iHo2YTJHWsoV53nNMCQbq+sopcx/b3V5S5fqJslQU=
+
+Name: bin/repast/simphony/engine/watcher/WatcherPickTests$1.class
+SHA-256-Digest: whNU3BoKMyh77SvatHBP8iTMhmAIjSrIvAriTy6n/aQ=
+
+Name: bin/repast/simphony/util/Scanner.class
+SHA-256-Digest: Bx1jeYN/spsVCJ8p69zsygRc7hEPSK+Eg0A6cpUfR8g=
+
+Name: bin/repast/simphony/engine/environment/GUIRegistry.class
+SHA-256-Digest: cQi1u3vsCcz+5iMisbwF/4asx/vFaeEMkVXyfPEJmo4=
+
+Name: bin/repast/simphony/parameter/BoundParameters.class
+SHA-256-Digest: OG/DLonRhLttlzVXBafk15iYeQG4hqCssjV/Oe7lc2Y=
+
+Name: bin/repast/simphony/query/space/graph/NetworkPredecessor.class
+SHA-256-Digest: hsYceoLha6VSy0DQqpxzLGEgFvMDERSX9w6KFLT52/U=
+
+Name: bin/repast/simphony/parameter/AbstractParameters.class
+SHA-256-Digest: QkSWVXEk97HeluBdJ9kDXUlgpv7cTb5i80wVolBQIeQ=
+
+Name: bin/repast/simphony/space/continuous/StrictBorders.class
+SHA-256-Digest: qptYKEvGMRJ6q0qbn4alAZGYsn+3R9WB+Q9JvdrgWIE=
+
+Name: lib/commons-io-2.5.jar
+SHA-256-Digest: jSGKCCQzPLx9O1FTCiH7pGfejTnlQprQjiDA9FBkCzI=
+
+Name: bin/repast/simphony/freezedry/freezedryers/PrimitiveFreezeDryer$Pr
+ imitiveConverter.class
+SHA-256-Digest: oMkl7UVPxo3lQbW2lffhBDflVtwjbHxPI6K8cWM0NLY=
+
+Name: bin/repast/simphony/freezedry/freezedryers/PrimitiveFreezeDryer.cl
+ ass
+SHA-256-Digest: MzbFa8Ft49DC1OICgut9MxcR4qdFOn80YuLiGKIDqkw=
+
+Name: licenses/crystalproject-license.txt
+SHA-256-Digest: BsXJtBRx1vxf0QNLZmTePJ2SqzBE6IRh/wbnc6h9XSk=
+
+Name: bin/repast/simphony/space/graph/EdgeCreatorFactory.class
+SHA-256-Digest: w0V2Y4QJ4ZRbIADJIbPHSaT4kJ0I1yZuyiliBsiVqyA=
+
+Name: bin/repast/simphony/space/grid/SingleOccupancyCellAccessor.class
+SHA-256-Digest: L+N/SqAX6jY5f5LBgB+cu6sg66qrLGWhs2jIw0b0uJM=
+
+Name: bin/repast/simphony/engine/environment/DefaultScheduleRunner.class
+SHA-256-Digest: UsT6saMWn6XZp6vesF28VgIkLIcI2BZ2pe+zDHpEVPM=
+
+Name: bin/repast/simphony/engine/environment/DefaultScheduleRegistryFact
+ ory.class
+SHA-256-Digest: takKKDh7pyDf1fRrCtM4ED99pRjhJLNvL4U3X+NAhC8=
+
+Name: bin/repast/simphony/parameter/DefaultParameterSchema.class
+SHA-256-Digest: xLr3vHticUBxHKUztQrqEgRcPpwbLReFjF5miGYpr7s=
+
+Name: bin/repast/simphony/engine/watcher/TriggerAction.class
+SHA-256-Digest: 5CTwTvilPobHgh8xWtsryr7mujuzt+EON1ShnQBSkKw=
+
+Name: bin/org/jscience/physics/amount/Amount$1.class
+SHA-256-Digest: TscMcUY6GRaTC25BW9G+fv5KNl0mBEBGPXMUsFQnU8Q=
+
+Name: licenses/lgpl-2.1.txt
+SHA-256-Digest: LcLadHfHjgsBxbnt3JnmIfvI0qdGtnhrP8Nt4/MaPMc=
+
+Name: bin/repast/simphony/engine/graph/GraphParams.class
+SHA-256-Digest: ER9Xnk1nnOnJWkKaArHIrV/Q42jjybaXP+7UiK4Rkfc=
+
+Name: bin/repast/simphony/valueLayer/AbstractGridFunction.class
+SHA-256-Digest: oUluXxaehNvb2EXHx57v8VQRPkt11OAX0Xa7AIiJSog=
+
+Name: bin/repast/simphony/freezedry/ArrayValueHandler$6.class
+SHA-256-Digest: +7QIIusmmuTD3P5MqfbVyfrAuZpXo7IPnA4q18Sz+Is=
+
+Name: bin/javax/measure/Measurable.class
+SHA-256-Digest: LxoGe7yF41YSlQaZ33RWWdYCZGaIuFxrrjqQkR0UXas=
+
+Name: bin/repast/simphony/parameter/IllegalParameterException.class
+SHA-256-Digest: P86yVVBPXNSldb/GJWP85A9F7dEM++HuAtC3WjiHi4U=
+
+Name: bin/repast/simphony/engine/watcher/query/AndBooleanCondition.class
+SHA-256-Digest: fHvYx6KQ/ZMurPb/+iT5JdGOsYeUFdBVfEGvVnKBYJg=
+
+Name: bin/repast/simphony/util/collections/IteratorOverIterables.class
+SHA-256-Digest: kMFoLcCmPd4ZzOAyswTiEfVbo5fCkbacDw2SDet9FEQ=
+
+Name: bin/repast/simphony/context/RepastElement.class
+SHA-256-Digest: ssT01/Z9+hL2EeCVXvrvOPRkZkO+uwPrXOoz9av013g=
+
+Name: bin/repast/simphony/query/space/grid/MooreQuery.class
+SHA-256-Digest: ddyu42dH2amNUZgzX3nEGJz2v/3HOqxio1j8McCDlqY=
+
+Name: bin/repast/simphony/engine/watcher/WatcherOOPTests.class
+SHA-256-Digest: D9gpKu4Zn3cpTkUlFkvHtEcGM3CmH0ZqE7e/V0Fh6G0=
+
+Name: bin/repast/simphony/render/RendererListenerSupport.class
+SHA-256-Digest: onRPK1aWvG4XE+0h8qpmrylP3ctd32eQ2KwWHoRkd54=
+
+Name: bin/repast/simphony/space/continuous/StickyBorders.class
+SHA-256-Digest: Ju6w53nPZO3ZSdR8+yCE7irBL+KKxDhYlSJjsQAv5ew=
+
+Name: bin/repast/simphony/engine/environment/AbstractRunner.class
+SHA-256-Digest: 6eOWLAqveGvrOHK+zCLUN3LREfNX0UIWpHbAAchYlWs=
+
+Name: bin/repast/simphony/parameter/SimpleParameterSetter.class
+SHA-256-Digest: 3AwjgBDA0quk4Z/EprtWNcurx+CzXUTW/iIkNO+cOGQ=
+
+Name: bin/repast/simphony/query/PropertyLessThanEquals.class
+SHA-256-Digest: k1AHUE9HwfV2OMcs44sV802oXjuo2ZeJ9jmUIiVCiFY=
+
+Name: bin/repast/simphony/query/NotQuery.class
+SHA-256-Digest: OTAPCpuzW2d/ERkhQifZD3HEebI4Gz6HuWC4j89A4tI=
+
+Name: bin/repast/simphony/engine/watcher/WatcherTest.class
+SHA-256-Digest: B/Npdy0PD7LCpM035FRRmFS0ZBPcMeCUpG8hUgiEHn8=
+
+Name: bin/repast/simphony/util/collections/CompositeIndexedIterable$Rang
+ e.class
+SHA-256-Digest: Fx3jgyqCn5b0rsbK5YCKRDq760ZAxudiyo+KclAhKoc=
+
+Name: bin/repast/simphony/query/PropertyEqualsPredicate.class
+SHA-256-Digest: oWqJFuDbdPCUvmmEa9ZQ1oN2pB/dfy291byJ2KoXgJc=
+
+Name: plugin_jpf.xml
+SHA-256-Digest: Y6VQwRbBAR5xTSuDhEZEI3pGYyCJbQ2ANRjVTAZeikA=
+
+Name: bin/repast/simphony/context/FormerDefaultContext.class
+SHA-256-Digest: EXJxT2ZCQtD/eSFuwsbgjLhZ9QXUrUGincsL/1t0+Aw=
+
+Name: bin/repast/simphony/parameter/StringConverterFactory$DoubleConvert
+ er.class
+SHA-256-Digest: yxajMdTR9tLuk9+BXrti6TsGl60tSb06PREYdFppTO0=
+
+Name: bin/repast/simphony/util/SimpleFactory.class
+SHA-256-Digest: llIlryBRtrzG1nBx9jdB2PXOeHibnFvTJfwFslx7A9k=
+
+Name: bin/repast/simphony/space/graph/NetworkEvent$EventType.class
+SHA-256-Digest: irxBtBYoHoNVusAxiacs5+XdjqFWu2QOWp0aMlNCHNM=
+
+Name: bin/repast/simphony/engine/watcher/query/QueryParserTreeConstants.
+ class
+SHA-256-Digest: FjRU2W+nXWaYBRz0+WZMKka9RnlexWmENzHUp6JmPTk=
+
+Name: bin/repast/simphony/render/RenderEvent.class
+SHA-256-Digest: sOLX7KMijWHsmCi/AiQJim0iK1M7jNcKI8bgdDCd4WM=
+
+Name: bin/repast/simphony/parameter/Parameter.class
+SHA-256-Digest: dCA2E4iwWtJlrsaUXEJs1dFzMZqUG+FznTRaVewwer0=
+
+Name: bin/repast/simphony/context/space/continuous/ContextSpace.class
+SHA-256-Digest: iyOoB1iXMP9tFccssBJZd3e7MtE6dNa56hu5dHUbWIM=
+
+Name: bin/repast/simphony/space/grid/StickyBorders.class
+SHA-256-Digest: KnbRN4TIM9mUGIcsLerOfGUUFNlMB3vhKmxrKRNF1cA=
+
+Name: bin/repast/simphony/engine/watcher/DefaultTriggerScheduler.class
+SHA-256-Digest: O2rkGTNskQdvPXk0sYpIt5okVaGc5Ms1xYNQVoBvwok=
+
+Name: bin/repast/simphony/util/collections/IterableAdaptor.class
+SHA-256-Digest: L7Y9R6EtN3KJzvxn3bRFajPqto85NNAh5g/J+AmGs2I=
+
+Name: bin/repast/simphony/valueLayer/DenseValueLayerStore.class
+SHA-256-Digest: yMzx5AnO73Ik9yXpRRc9XBvbwm39vjH9JRcpP0ckrcs=
+
+Name: bin/repast/simphony/context/space/graph/DLMatrixReader.class
+SHA-256-Digest: teqD97ShMBzvN7nlbKd55U7CeCIYAuqT8VjsYmZRcaM=
+
+Name: bin/repast/simphony/parameter/StringConverterFactory$ShortConverte
+ r.class
+SHA-256-Digest: 6tlrqQWSX5F5KbUJ0Ol2kkN81kmtu2f75PzxluAVBuI=
+
+Name: bin/repast/simphony/engine/watcher/query/ASTLinkedFrom.class
+SHA-256-Digest: pVoE07ACKTByQUO8i/d05NAigP74KBNphcYfZhmorTk=
+
+Name: bin/repast/simphony/space/graph/Traverser.class
+SHA-256-Digest: wzB71W3DBw262NP+xHD0K6eGANYDoerfr1iXcyL3dM8=
+
+Name: bin/repast/simphony/engine/watcher/query/JJTQueryParserState.class
+SHA-256-Digest: 7z+bYFpNbFm2o6Tu7kXMab+wY4Qd9Ye36NPzIzmgAyA=
+
+Name: bin/repast/simphony/space/grid/AbstractGrid$PointHolder.class
+SHA-256-Digest: 79K4AowvICSQRWsArSpCsvl5rKSWnMWq5H3nh/Rcdow=
+
+Name: bin/repast/simphony/engine/watcher/NotifierTrigger.class
+SHA-256-Digest: 1xhLIa65uj99pS76fAi6Q70cFXByUt8AkdVbeQnVc9I=
+
+Name: bin/repast/simphony/freezedry/ArrayValueHandler$5.class
+SHA-256-Digest: mSIXVnYxK8evSoAAOsEmb/jDghUJCzpIT6tqperrS34=
+
+Name: bin/repast/simphony/parameter/EmptyParameters.class
+SHA-256-Digest: jjjBEYrmdnj67ujkicO1ztxH8XpqVe35+X2ydeCDStw=
+
+Name: bin/repast/simphony/space/projection/ProjectionEvent.class
+SHA-256-Digest: uUdfeQspfb+8Wc1XoiaOSuuYcpG3/Mfx4Olpp50dMlY=
+
+Name: lib/commons-lang3-3.1.jar
+SHA-256-Digest: Ex8FGajkYC5HzwJL/X4INLz1WSpyB/mi/bcR1PWvwWY=
+
+Name: bin/repast/simphony/engine/watcher/query/LinkedFromBooleanExpressi
+ on.class
+SHA-256-Digest: lE8HpDnP98NPsObVBLCr65mozvtc4S07EXVeI00tpHc=
+
+Name: bin/repast/simphony/valueLayer/MinGridFunction.class
+SHA-256-Digest: 6j3lCaos24GPbA1QLgxDhoY94KOnB7qr9y/Wc9XVVvU=
+
+Name: bin/repast/simphony/engine/schedule/AbstractAction$OneTimeReschedu
+ ler.class
+SHA-256-Digest: 1KMgm4/BZ00f2d9665MARZxCnaer1BrkErfqx8vVr00=
+
+Name: bin/repast/simphony/engine/watcher/FieldDescriptor.class
+SHA-256-Digest: 5JC8vBZgRQQukkLDGrIqDHFBnq+7vQv77/dGCnR9b+g=
+
+Name: bin/repast/simphony/engine/watcher/query/SimpleCharStream.class
+SHA-256-Digest: N1dnV1wAQ2i0C7knBp0ocl5JGMdEhLYkWBcJ1RLIBuE=
+
+Name: bin/repast/simphony/space/continuous/PointTranslator.class
+SHA-256-Digest: aMh7ZInZgzIJ5thFHe1LvM3UDdzwUJjY32tNW+gSzo0=
+
+Name: bin/repast/simphony/engine/watcher/query/DefaultBooleanExpression.
+ class
+SHA-256-Digest: 7t9GC7ulS2n14nFHQfCIbcdmE4aDwVLJsbErhwhWMJw=
+
+Name: bin/repast/simphony/engine/graph/IterableTraverser$1.class
+SHA-256-Digest: l2ZXsC/T/tMxZXorucCK1z0mPABc4KMK/46vP4EXd1I=
+
+Name: bin/repast/simphony/engine/watcher/WatcherQueryTests$2.class
+SHA-256-Digest: 6pgfi6gddarngxrge45t3PEj9OKDRXlYO5+WNFxFij0=
+
+Name: bin/repast/simphony/engine/watcher/query/Node.class
+SHA-256-Digest: JwoHVWJnfL4L3SxWce6i7h+dNZ7hOz3jSIrZBnPEFvE=
+
+Name: bin/repast/simphony/query/space/grid/GridWithin$MutablePoint.class
+SHA-256-Digest: McQ3rqXGXzQuLaID5JumerClsdNCGJRsaGhfwzKfL4U=
+
+Name: bin/repast/simphony/query/PropertyEquals.class
+SHA-256-Digest: 4zhETF/S5wCxGnl3+/or4Wo+JjnS0wYrrhBGrPBf+7Y=
+
+Name: bin/repast/simphony/engine/watcher/AnnotatedWatchData.class
+SHA-256-Digest: rqlKym//WUSY2VgnB0V74HxWDEYkdP+NTOix2pJMG1w=
+
+Name: bin/repast/simphony/engine/watcher/WatcherPickTests.class
+SHA-256-Digest: J8T2/ropwMFXte3lD/mK4XbIA7ATIfoc8OyMAqXBBls=
+
+Name: bin/repast/simphony/valueLayer/GridFunction.class
+SHA-256-Digest: 9zvGjS/pT/LwSn2Q265l8TEAcIy89QFBSC5qGRsRbTg=
+
+Name: bin/repast/simphony/context/space/physics/ContextPhysics.class
+SHA-256-Digest: A5YlPaO2R4kZRf6Fo1J0GJOZIto0pYNejWHEhS/lNFg=
+
+Name: bin/repast/simphony/parameter/Schema.class
+SHA-256-Digest: 8qRscWFCkJEmyk9qrZK269Vbcin8HOTB8hJrUMGxom8=
+
+Name: bin/repast/simphony/engine/environment/ScheduleRegistry.class
+SHA-256-Digest: TZfkPOB0zmE20zZnQknAC4ahtAeiqV2q/kayYTNrAnE=
+
+Name: bin/repast/simphony/query/space/continuous/ContinuousWithin$Within
+ Predicate.class
+SHA-256-Digest: N8+nAXfNH627NkpzeLn/LhmSTslMpQsjmYTBNlA58f4=
+
+Name: bin/repast/simphony/space/continuous/DefaultContinuousSpace.class
+SHA-256-Digest: VqLqlE/iZH2mZXUFU5/RhISGfntnWf4vLXCd35EgSpg=
+
+Name: bin/repast/simphony/freezedry/FreezeDryedDataSource.class
+SHA-256-Digest: j11N51KAcsQD683sCp9PCj2ZF7e4GJGrSyjRVWiqxBU=
+
+Name: bin/repast/simphony/space/graph/PajekNetWriter.class
+SHA-256-Digest: BG+B7ciw4oDLKnCLgSDBg1Q58nx8RvTosdb7zA8Eh/k=
+
+Name: bin/repast/simphony/util/collections/OpenLongToDoubleHashMap.class
+SHA-256-Digest: OHrFZrJ4riuUJFWpBIXDeLL/sNwXxBqqBZcmEyy2CIY=
+
+Name: bin/repast/simphony/xml/NetworkConverter.class
+SHA-256-Digest: SJzGgKpw5Tk9eu1R00yL2/LdHht5Vt7Pn2WZ9oLUvRs=
+
+Name: bin/repast/simphony/engine/schedule/IActionParameterPair.class
+SHA-256-Digest: DfnaK4r7uXa8y0NwZuxwfYCwGJCh034fmJDIu3uR3rw=
+
+Name: bin/repast/simphony/parameter/parameters.vt
+SHA-256-Digest: OPe5oc5TFXZsO1rWMBcj3ckVYcevUnuWNna9Sgf5I3I=
+
+Name: bin/repast/simphony/query/space/projection/SpatialPredicate.class
+SHA-256-Digest: 9jNYrVfzNDxZiY51gdPd2SIA8ksKv9b8y9rtQhcP/bw=
+
+Name: bin/repast/simphony/xml/GridValueLayerConverter.class
+SHA-256-Digest: BoZVozfV7+OTElnHWiWIhm27KiwVGq8yKyABd5NiMfc=
+
+Name: bin/repast/simphony/context/space/graph/DefaultNetworkFactory.clas
+ s
+SHA-256-Digest: UJfthKLXfCVkwBQDDp2W/PJpHj8HaZTHeRRnmUBRCTM=
+
+Name: bin/repast/simphony/engine/watcher/query/ASTName.class
+SHA-256-Digest: D1iKCG4xvG0f8GTxW/zqQOiyq6LBwKBh7k+Td7Coogs=
+
+Name: bin/repast/simphony/engine/controller/ScheduledMethodControllerAct
+ ion.class
+SHA-256-Digest: 5zOsfUESRvf+0qKfAWax5ge8/ZFvkEwjLQVXHMmnamo=
+
+Name: bin/repast/simphony/engine/schedule/IterableCallBackAction.class
+SHA-256-Digest: CgDhceTTAEOJLZUCYbpn2dvzuYlTBs0C8rZqFBX/NJE=
+
+Name: bin/repast/simphony/filter/Filter.class
+SHA-256-Digest: PL+9jPHaQ4NXQGxtWtr3Vj8kp22WrjqCKkDsIMi7H7w=
+
+Name: bin/org/jscience/physics/amount/Amount$5.class
+SHA-256-Digest: NT58k5tCh7JWuzAkzfhwQdj7G10FegoegXD/Bdlhrs4=
+
+Name: bin/repast/simphony/engine/watcher/watcher.xml
+SHA-256-Digest: lRsoaC8b+YDyZAk5Ce53KVDF7GMHXYtUDByR6dvj/vg=
+
+Name: bin/repast/simphony/valueLayer/ValueLayerDiffuser.class
+SHA-256-Digest: 4Ox+PsQwhi2YJChSV1r7CjkBbR9hYMgs382gsiQyDM4=
+
+Name: bin/repast/simphony/xml/SpaceConverter.class
+SHA-256-Digest: P7iYNG7N7xtn9+ZxbQL7ls4oJOjJb6r4TRHYkUSy6kU=
+
+Name: bin/repast/simphony/engine/watcher/WatcherQueryTests$1.class
+SHA-256-Digest: uMhaKtE5xWip1X5JlZS8nk1LaN/PdZBTQy6pVLQyLHQ=
+
+Name: bin/repast/simphony/valueLayer/GridCell.class
+SHA-256-Digest: BzK+/kJt/5nSD3SLeg0Fz9xduxo5XPLLTtdZDPatshg=
+
+Name: bin/repast/simphony/engine/environment/RunInfo.class
+SHA-256-Digest: KleVE4lej05PVGiMaeafjsJtKrp2AthBvHoAbzUg1C4=
+
+Name: bin/repast/simphony/parameter/StringConverter.class
+SHA-256-Digest: rqdsgsQg1GC6fU47tQFxkAvih1+JOBpq3nRLhmCflPw=
+
+Name: bin/repast/simphony/space/grid/FastDenseSingleOccuGrid$FastDenseAc
+ cessor.class
+SHA-256-Digest: 17kOoDHVVIvRsW3CK/5wlxYTiksAxut26J04Se407zQ=
+
+Name: bin/repast/simphony/context/space/graph/MatrixNetworkLoader.class
+SHA-256-Digest: AmSuI5XSAGLp8th77vm5nr77/+18ElLRj2PERNkKZdQ=
+
+Name: bin/repast/simphony/valueLayer/SparseValueLayerStore.class
+SHA-256-Digest: t33rVfDbsZq9gOfPncyCYQ0diek+M24yKpdRXZ/8AAA=
+
+Name: lib/collections-generic-4.01.jar
+SHA-256-Digest: zz1lLdQ5s9cMqxLDJXZLHl7dZIrPsiiJ9vIYSIG+wfA=
+
+Name: bin/repast/simphony/context/SpatialContext.class
+SHA-256-Digest: FTi7DxVOWaLw5n/7YMs9eaUGYsehEhnWt03JL1FkIhw=
+
+Name: bin/repast/simphony/engine/environment/RunEnvironmentBuilder.class
+SHA-256-Digest: sQK5sNNo3pmCxMYEwfqzBneICW5XuTHZ0q7M2hN2bBM=
+
+Name: bin/repast/simphony/space/grid/GridAdder.class
+SHA-256-Digest: Td8gntLbl6wEz4rc7UbecJNWgC+pRXyAT1R/jJAzSlQ=
+
+Name: bin/repast/simphony/context/space/graph/Lattice2DGenerator.class
+SHA-256-Digest: RXshTTvg4bZOPdOiLl6fK1pB671CbwQ80i5xvhgYgPc=
+
+Name: bin/repast/simphony/freezedry/freezedryers/AmountFreezeDryer.class
+SHA-256-Digest: etRdfTrq28kE1m2CkwjT6ZuzjiONBJRTGYGbJeDwg+U=
+
+Name: bin/repast/simphony/space/graph/DefaultEdgeCreator.class
+SHA-256-Digest: l1k2LqP+ZvszWrOskzsiXBzG3tfdNeO4yaBxN8cczTE=
+
+Name: bin/repast/simphony/engine/graph/NetworkTraverser$1.class
+SHA-256-Digest: 6Vrlncd67AzpcVSLIiKZX+pvf9EKFFobvqp9CnG2la8=
+
+Name: bin/repast/simphony/engine/schedule/Schedule.class
+SHA-256-Digest: bneme4wDgsyqYuL0hrcKuMtTABGBA/WrmXdtzWS4ww4=
+
+Name: bin/repast/simphony/engine/schedule/IterableCallBackAction$Shuffle
+ IterableExecutor.class
+SHA-256-Digest: wfvqP+USzD1gyLNDqs2jU0UulHrVl3zzgK6zr2OGs/U=
+
+Name: licenses/jung-license.txt
+SHA-256-Digest: BFoxi0StVEBvLY9aZwV6FYzhC7Q3mK4lRzqHmhEFs8E=
+
+Name: bin/repast/simphony/parameter/StringConverterFactory$LongConverter
+ .class
+SHA-256-Digest: ZlUoX+Cl2zReQLFop1WqvCX4a9ErlFTexksMHtOghHQ=
+
+Name: bin/repast/simphony/engine/watcher/query/LinkedBooleanExpression.c
+ lass
+SHA-256-Digest: t738HcFo7eSspXqiP2q5FLm1e3YmE0oXfTgrkbcRntM=
+
+Name: bin/repast/simphony/space/Dimensions.class
+SHA-256-Digest: r7aetLWC45Mdms+JKlh2/vbshZ8O1p0wAZGpIiWIc1k=
+
+Name: bin/repast/simphony/engine/watcher/WatchParameters.class
+SHA-256-Digest: cvogG5Le1YdBK6k7RJe31814VDqu7i0sRFOpKmYjEP8=
+
+Name: bin/repast/simphony/context/space/graph/NetworkFactoryFinder.class
+SHA-256-Digest: q8QBUy40kYpHgDF9wxErioiQF6HaJMfhYLKXwaEIpdo=
+
+Name: bin/repast/simphony/query/space/graph/NetPathWithin.class
+SHA-256-Digest: cnVnHYvj/ahht6yLjV1Bi6L0V0Ivxwz38Oe3gK10yrM=
+
+Name: bin/repast/simphony/space/graph/DirectedJungNetwork.class
+SHA-256-Digest: f5Cm1r+eZJMoqmCrWv9xBK8P00ZD5EXQFVe5hNAWbZs=
+
+Name: bin/repast/simphony/engine/watcher/WatcheeInstrumentor.class
+SHA-256-Digest: rEv+F66b5t4oouEEeFACfPixNXR89r+sFGlDaCEtrpA=
+
+Name: bin/repast/simphony/freezedry/FreezeDryUtils.class
+SHA-256-Digest: 4bjOxCj6UyxLJWk4QpPaxnfs2UdCHy4UbmqsVI06koU=
+
+Name: bin/repast/simphony/space/delaunay/QuadEdge.class
+SHA-256-Digest: uZN7h8yepdaoqbFoiIDbPSZSp66NZIP7dSSEyz2f9ls=
+
+Name: bin/repast/simphony/space/graph/ORANetWriter.class
+SHA-256-Digest: pPcXhIRuBXN8RWDnNXVt6Njq0GOWkG0D7JQPw/ZR0xI=
+
+Name: bin/repast/simphony/query/space/graph/AbstractNetworkQuery.class
+SHA-256-Digest: HCBY4oaB+lXZdyNXB12eP/DgCsKD9zBrlMDl5EHnjFs=
+
+Name: bin/repast/simphony/engine/watcher/query/WithinMooreBooleanExpress
+ ion.class
+SHA-256-Digest: 81ll2shDeU0VL9V2If/DklUOkGPu7aYxUGnE8F5Iu3I=
+
+Name: licenses/geotools-license.txt
+SHA-256-Digest: I0fDdi/AzUyGfsT58FFkC6tlOaLolTU659bozTpoHEI=
+
+Name: bin/repast/simphony/space/graph/RepastEdge.class
+SHA-256-Digest: KHI8aYI/wJ+6Ku0+Eb88Y1qBH0MH4kH3EL5uk+PEOW8=
+
+Name: bin/repast/simphony/parameter/ConstantSetter.class
+SHA-256-Digest: tE/ad09DNTXkRD2LbP+u1zf+stcJq1HaPoxBTbu4HrI=
+
+Name: bin/repast/simphony/xml/AbstractConverter.class
+SHA-256-Digest: d0FdlMC3G0FBDEYeZmx04H5oVJR0GVOVRlkULxTh2hQ=
+
+Name: lib/ooxml-schemas-1.1.jar
+SHA-256-Digest: 0Ke0gxeS4hHJMAWLNP4XZK5IqtENrbbJ/Pia1OZVX/Q=
+
+Name: bin/repast/simphony/space/continuous/MultiOccupancyCoordinateAcces
+ sor.class
+SHA-256-Digest: vPcpiLWrFFsbZ8Z8X+6oCDPpd7LT5oTy2wTJeeU6sSs=
+
+Name: bin/repast/simphony/engine/graph/DefaultGraphScheduleFactory.class
+SHA-256-Digest: +Zuu46rBODgFWFWl43/CMihsjfo0IlA3sL2DI/LQ4tI=
+
+Name: bin/repast/simphony/engine/schedule/NonModelAction.class
+SHA-256-Digest: i1e2VvYEzhv/ujAGx/GcGrw1+xuMtrJqH43j9OHXw10=
+
+Name: bin/repast/simphony/engine/watcher/WatcheeDataFinder.class
+SHA-256-Digest: IeHi8opJK+VJSw9MnvcqJD/30AhcWbMt5VyQD+q6XFQ=
+
+Name: bin/repast/simphony/engine/schedule/DefaultDescriptor.class
+SHA-256-Digest: XUPExdWP/Da05F75keLtdzI9GjDF07xP2XftfVfopNk=
+
+Name: bin/repast/simphony/context/space/graph/RandomDensityGenerator.cla
+ ss
+SHA-256-Digest: XLtSK/cjJ0Zr5bYpBfdmTFMQopifgzR7TYZ7sOd/CJI=
+
+Name: bin/repast/simphony/engine/graph/NetworkTraverser.class
+SHA-256-Digest: KSONqqDcgK1foNyw5R5y4/Lm5c4o0foDoaZoxxzCzWg=
+
+Name: bin/repast/simphony/context/space/graph/NetworkFileFormat.class
+SHA-256-Digest: FZjPe/HMZiLD+YtU3OthEfRHB4WzHhD5kssikSBGZD4=
+
+Name: bin/watcherOOP/test/WatcheeChildC.class
+SHA-256-Digest: mfTzrcbXG8Cw+gBqbZoHy3tp6zf3ZUmWj1moJHiKXyg=
+
+Name: bin/repast/simphony/space/grid/CellAccessor.class
+SHA-256-Digest: tlb0sXU8q2lfFZF2LlazSH3I9scDKzXNillDMkgewjI=
+
+Name: bin/repast/simphony/context/space/graph/ExcelMatrixReader.class
+SHA-256-Digest: lGs/HKSHAtBH2zAP8YhenRxXNtvWfhELTVs6K+CD/3k=
+
+Name: bin/watcherOOP/test/SimpleWatchee.class
+SHA-256-Digest: KP4bX0O5GaKCfGNviAeftwqjMK3vF9N0pIlDW/haaxo=
+
+Name: lib/commons-collections-3.2.2.jar
+SHA-256-Digest: 7urpF5FxRKaKdB1MDf9mqlxcX9hVk/8he87T/Iyng7g=
+
+Name: lib/jbullet.jar
+SHA-256-Digest: 4BTWBGLyL3shbfpzPVKzib1Q27Ymwe0t/3utM6meRYk=
+
+Name: bin/repast/simphony/freezedry/ArrayValueHandler$2.class
+SHA-256-Digest: yMJ/Ic63YKx2qOu6woN83J6eYFuF1XE6FaaEgniAM5g=
+
+Name: bin/repast/simphony/util/collections/UnremoveableIterator.class
+SHA-256-Digest: ZPe0uVYdVga4ECyf1w67ap2RtnK8eR2gRjgL5NJbiJI=
+
+Name: licenses/jscience-license.txt
+SHA-256-Digest: qPi0jmjr56/wKb4xoDrNVzABFbjhMKL2CuNgoJdGsPM=
+
+Name: bin/repast/simphony/engine/graph/DefaultGraphSchedule.class
+SHA-256-Digest: IF8QJSMz1u/3E5pCgynT7o6s0x3W1jUv2JtP5KHlF4s=
+
+Name: bin/repast/simphony/query/AndQuery.class
+SHA-256-Digest: tng9u9IC7ILgNKGomA5g9JQHw6oKthsPKNUemJeUUP4=
+
+Name: bin/repast/simphony/util/collections/NaryTree$NodeComparator.class
+SHA-256-Digest: 8eBIoIRnROSL1kOXzf7J1GJNdsRv2uq68PtB6uMeBj0=
+
+Name: bin/repast/simphony/query/PropertyEquals$Equals.class
+SHA-256-Digest: xpVO0JJkELaJVPpzgPXmkDxAvsK1H7ymb0M/mDb83Q8=
+
+Name: bin/repast/simphony/engine/environment/RunState.class
+SHA-256-Digest: n03FLF//LpKTQaLBJwpgqp8kdR0RGPp4OwMmM9AHpH0=
+
+Name: bin/repast/simphony/engine/watcher/MyMultWatcher.class
+SHA-256-Digest: kP5kH8ljqJmDeY7a//RMgaN81ZbDWw9f+rtZHZ2c6vs=
+
+Name: bin/repast/simphony/valueLayer/IGridValueLayer.class
+SHA-256-Digest: ojt0+jpghPyfCZRccsxZbrPqyEN3kcsKE/ji7ahL0cM=
+
+Name: bin/repast/simphony/context/ContextIndexedIterable$CIIterator.clas
+ s
+SHA-256-Digest: CshwTAoJdvwKZfYVD6EiRpEyI3UhY+EYV6G13QhalJc=
+
+Name: bin/repast/simphony/engine/watcher/ArgMatcher$PlainTrigger.class
+SHA-256-Digest: fe9uRF1J7Uiy3yynitDUk+eqy0byUDfdNT4KBRYArJA=
+
+Name: bin/repast/simphony/freezedry/freezedryers/BinaryFreezeDryer.class
+SHA-256-Digest: R4tx9trhnV9rUVzKXCqtQn0YdY8hhf+9EDgwZGqrzv4=
+
+Name: bin/repast/simphony/freezedry/freezedryers/ClassFreezeDryer.class
+SHA-256-Digest: tYTpEoULo5JW6+r1z0D9NPmhK3zDsyX0R8U2Wsnjrq4=
+
+Name: bin/repast/simphony/space/projection/ProjectionListener.class
+SHA-256-Digest: /pKqSMhgfTsBxqOhyXQEll3FJ5AMTvEiE4S6JQzuqwk=
+
+Name: bin/repast/simphony/engine/watcher/query/ASTStart.class
+SHA-256-Digest: 2xGVnPp05AAOU9toKDhTGuQdo/G8tXYPxQDPKQPc3nE=
+
+Name: bin/repast/simphony/engine/watcher/ExpressionCreatorTest.class
+SHA-256-Digest: vevSyTHddvkmZsq5K7b5o41Oif0bJC9Ae3Sfv/6oThQ=
+
+Name: lib/opencsv-2.3.jar
+SHA-256-Digest: 3DLz+Nvq0cDW5FbSlPX/YNtnQLH3NANNFPCU52GHcI0=
+
+Name: bin/repast/simphony/query/space/projection/LinkedFrom.class
+SHA-256-Digest: JWwGYiYKDa3EoqlXu1GC4RxKkSsYEb8rsz+CeeRBNO4=
+
+Name: bin/watcherOOP/test/OOPWatcher.class
+SHA-256-Digest: 6ya5aRq70jzDMywfpqrq/VdSpwYp2B/LXB64wiv/dh0=
+
+Name: bin/repast/simphony/space/graph/UndirectedJungNetwork.class
+SHA-256-Digest: 1LbeZ5wIGwyMlgPY+tTn0awci5mqxyVoJmRFZPS/sek=
+
+Name: bin/repast/simphony/freezedry/freezedryers/DefaultFreezeDryer.clas
+ s
+SHA-256-Digest: sVCnA/EunCL8OTBv9ycjGlnIbeZsqTiZFbm6U9PEj1c=
+
+Name: bin/repast/simphony/engine/watcher/WatcherQueryTests.class
+SHA-256-Digest: p77qeoM4v0K5vT/TqOTlC931mj/6PbVit2xMajC+WP4=
+
+Name: bin/repast/simphony/xml/ContinuousValueLayerConverter.class
+SHA-256-Digest: YkpWKwpjGcjD88gEP3maTk7kK19t45Qs3QuV6279ppQ=
+
+Name: bin/repast/simphony/util/collections/DelegatedIterable.class
+SHA-256-Digest: Q6Jxw3FD3k/lRiw0Ob9+u6P7hqdT4CxUN34iRyxe9Rw=
+
+Name: bin/repast/simphony/freezedry/ArrayValueHandler$1.class
+SHA-256-Digest: K78VEFZCAluivl8KazXy6YwSj+7H30WL1kvIFVNDfH4=
+
+Name: bin/repast/simphony/engine/watcher/query/IBooleanExpression.class
+SHA-256-Digest: dYlDsOtRPqrXiVh/qMKe40/5fgUDadEBht40+XVQ5Yo=
+
+Name: bin/repast/simphony/parameter/ParameterTypeFactory$DoubleParameter
+ Type.class
+SHA-256-Digest: miyhwhpLRXXcCN2Y4M3CgvFpIvIa+qCnQ32CdDEe0iU=
+

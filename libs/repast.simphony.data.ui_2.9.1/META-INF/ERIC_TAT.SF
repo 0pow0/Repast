@@ -1,0 +1,261 @@
+Signature-Version: 1.0
+Created-By: 11.0.12 (Eclipse Foundation)
+SHA-256-Digest-Manifest: PQHDPtdCU63ZVrf1EYfvDmdy+gDyczIKlb1pKT4lA0Q=
+SHA-256-Digest-Manifest-Main-Attributes: 2kA4YRQHAftPgI/Ks8pAxlHzKFtZFsL
+ 3f61IOrFOs40=
+
+Name: bin/repast/simphony/data2/wizard/DataSetEditorWizard$2.class
+SHA-256-Digest: A2cDZLMuos+BkR4/dXQ02duawmd0uKgQj3h9nH6kJZY=
+
+Name: bin/repast/simphony/data/analysis/PluginOutputStream.class
+SHA-256-Digest: 1TyQw6y1pah/5/+tJ74ze535LYP7iQ5a3/NpS85H2r0=
+
+Name: bin/repast/simphony/data/analysis/BrowseForHomeStep$1.class
+SHA-256-Digest: GzNPjQOnc7I9q5yFisD+ipw6r7ev/IoHa117D0MI1/U=
+
+Name: bin/repast/simphony/data2/wizard/CustomDataSourcePanel$1.class
+SHA-256-Digest: MVCwLa9akUsSv1xP2wf25juxt131WxLqqiHFLe9xfCE=
+
+Name: bin/repast/simphony/data2/wizard/CustomDataSourcePanel.class
+SHA-256-Digest: Jd33W9u+J3+wAZ5l02lmMriKY8q/ncxyXuGEOuwgRWE=
+
+Name: bin/repast/simphony/data2/wizard/AggMethodSourcePanel$2.class
+SHA-256-Digest: qh20AogRB34KHRIwzhBpK71NWDflVH3v0lMQJWY+bQo=
+
+Name: bin/repast/simphony/data2/wizard/ClassNameTCRenderer.class
+SHA-256-Digest: uQNY7Ka1tDWOvKR41gY9lgowwzux8lGbZGOqgeka1OU=
+
+Name: bin/repast/simphony/data2/wizard/FileSinkWizardModel.class
+SHA-256-Digest: zqHkBs6BnHbJGKOTRNpEE1hef/wc2zGRwTRRHBOm538=
+
+Name: bin/repast/simphony/data/analysis/AnalysisPluginWizard.class
+SHA-256-Digest: ZcsmSVU0TL/q6w3IGU4d9anHTZNVSwipRBbiOmX3N0w=
+
+Name: bin/repast/simphony/data2/gui/DataSetMenuItem.class
+SHA-256-Digest: HOIa1/YzcWEAL9MeM9n1Upgb+F5BPcEClsCl1sjvhBk=
+
+Name: bin/repast/simphony/data2/wizard/DataSetScheduleStep.class
+SHA-256-Digest: qfhCMSFCrTHxKYbN1qh400mJmeTefjWhQLRgHBYVsLs=
+
+Name: bin/repast/simphony/data2/wizard/FileSinkPropertiesStep$1.class
+SHA-256-Digest: 2BDLbb4QfvR/x2dUPVPLQAdch9mNr4QCPWEHVQWkiBE=
+
+Name: bin/repast/simphony/data2/wizard/WizardTest$1.class
+SHA-256-Digest: Qxwh15IJMFQj/I2bRxFJgsrTMjtsoPYY5b4gOzIlw9U=
+
+Name: bin/repast/simphony/data2/wizard/FileSinkPropertiesStep.class
+SHA-256-Digest: 3Z4CPC3sI5kR17J6PS4nutXmXJbBeLDyOVe74QJi+SA=
+
+Name: bin/repast/simphony/data2/wizard/CustomDataSource.class
+SHA-256-Digest: B72bqGQto5JOwLP0cAh83e82nHbuYdKfPngaw2WSBeo=
+
+Name: bin/repast/simphony/data2/wizard/DataSetRenderer.class
+SHA-256-Digest: OU+T09bXDIeYXKwh61TAd6vgsLDTjIIF6pLEZ7OIGxk=
+
+Name: bin/repast/simphony/data/analysis/AnalysisPluginRunner.class
+SHA-256-Digest: TxmUpPFE4LHKVqwtigAIT+IR27+QR+0bR2inEflkcSk=
+
+Name: bin/repast/simphony/data2/gui/NetworkChooserStep$1.class
+SHA-256-Digest: 5Io38TeDlUMU59lcF20REvbFCAayTKvgGAcf+jsUM8I=
+
+Name: bin/repast/simphony/data2/wizard/MethodSourcePanel$3.class
+SHA-256-Digest: FhEYeiMWLI9XsVCJRUsfAW6utbpM9bKttx2aTezDd2U=
+
+Name: bin/repast/simphony/data2/wizard/SinkDataStep$1.class
+SHA-256-Digest: V/fOfD2mTeZc4l22R4EQEcjtW7dMfxWoqSNRctiYAr8=
+
+Name: bin/repast/simphony/data2/wizard/DataSetEditorWizard.class
+SHA-256-Digest: UDCgdDbEIVaeLpG9YkVLVD6Ouxk3vrE73WZXES/3U+k=
+
+Name: bin/repast/simphony/data2/wizard/AggregateSourceStep.class
+SHA-256-Digest: zWzlLjUnzkrkKGWyycUYP93JcrmLGe8ypeT39bpnYLM=
+
+Name: bin/repast/simphony/data2/wizard/MethodSourcePanel.class
+SHA-256-Digest: 7ZIa91P7OuiC2ilwhnchhSpN5pAviV1gsiEUxAPeERI=
+
+Name: bin/repast/simphony/data2/wizard/CompletableStep.class
+SHA-256-Digest: JtHBTiKHMpmDoitPjcrj0DXjXQmynV0Vbj7zkKqNWVE=
+
+Name: bin/repast/simphony/data2/wizard/Agent1.class
+SHA-256-Digest: Vo393pBvEJ41M9SgTF3UwoZC/7jHX8+0ZiCun8LDS/g=
+
+Name: bin/repast/simphony/data2/wizard/AggMethodSourcePanel$3.class
+SHA-256-Digest: fZVAuIxX/83xBUyAMbxgGBbyxiEaH9gV+2roKtPMrVI=
+
+Name: licenses/repast-license.txt
+SHA-256-Digest: OiLqoygTE6vasbSFEGEJChgkBjTMACDWztuXCGv4an4=
+
+Name: bin/repast/simphony/data2/wizard/DataSetEditorWizard$1.class
+SHA-256-Digest: 5iI8YxP9edfgTXo3lmo/rEMry38Mdv68MOjAFDzkYew=
+
+Name: bin/repast/simphony/data2/wizard/WizardTest.class
+SHA-256-Digest: mRhkmen2XhkY6+CEVOLCBuSJ5BYhRekftvXzkX+KE4w=
+
+Name: bin/repast/simphony/data2/wizard/ConsoleSinkEditorWizard.class
+SHA-256-Digest: apq0Zw/QHmQJ4aqjI64ciob/I79CayW+B6tgWBpl1Jk=
+
+Name: bin/repast/simphony/data2/wizard/ConsoleSinkWizardModel.class
+SHA-256-Digest: 9eIXcE10K/t4mMLWHSxcDNgEFPuZxKKFuzVrb9AZEck=
+
+Name: bin/repast/simphony/data2/wizard/ConsoleSinkWizardModel$1.class
+SHA-256-Digest: G5UkzW1oJBVdko9ANkGJRrcihv+7rpxTRD0HocAmHf4=
+
+Name: bin/repast/simphony/data2/gui/ConsoleSinkActionEditorCreator.class
+SHA-256-Digest: suKvnu8BfN2sFhkpD2O8U7+V4sXnbB0KSQD39rxwfGw=
+
+Name: bin/repast/simphony/data2/gui/DataSetActionUI.class
+SHA-256-Digest: 0OexIZ2UCr0vqL7pOUJHkFTwWCjp3JxOzk7e7csx794=
+
+Name: bin/repast/simphony/data2/wizard/AggMethodTableModel.class
+SHA-256-Digest: 5u3z1iSC3HumIq9G1s/2h/6FfhJLmSsn6PMhQgMA9/s=
+
+Name: bin/repast/simphony/data2/wizard/FileSinkPropertiesStep$2.class
+SHA-256-Digest: X3T8vly32bCE9HehcYVP55oTXasNkXrr7+SPh6Z/RT4=
+
+Name: bin/repast/simphony/data2/wizard/ClassNameRenderer.class
+SHA-256-Digest: sa1vftuwmhIRsfZ+VFsCsopLpktu4R0dZRr1/VijDLw=
+
+Name: bin/repast/simphony/data2/wizard/SinkDataStep.class
+SHA-256-Digest: VP34bxQiTGMjD4N9aDQzWycSS8urrKOMCkMOdsVP4vw=
+
+Name: bin/repast/simphony/data2/gui/FileSinkMenuItem.class
+SHA-256-Digest: qXj6pquiLuIgLBfs98jMTr70U8pbUgf1/iJ5rNSkExU=
+
+Name: bin/repast/simphony/data/analysis/NetworkAnalysisPluginWizard.clas
+ s
+SHA-256-Digest: OZJNRZa+rY3kkQSog5GhDQCih0xHXtDoBN253T7gHcM=
+
+Name: bin/repast/simphony/data2/wizard/AggMethodSourcePanel$MethodCellEd
+ itor.class
+SHA-256-Digest: 9YtnS2UAa1OgDLRBQfu+MUeZEY4T/meu3bCLFAeBvEM=
+
+Name: bin/repast/simphony/data2/gui/FileChooserStep.class
+SHA-256-Digest: 5sd2eoTRQ+ZiBYH15sTijJFVlFhck0Uw/G29gaFfS9g=
+
+Name: bin/repast/simphony/data2/wizard/SinkDataStep$2.class
+SHA-256-Digest: XWnTO1DeQ+PkjlI+qiMjhD1syNtGpgqJZSHl6t+ZVdY=
+
+Name: plugin_jpf.xml
+SHA-256-Digest: F4vmRaShIHqVKkF/Sgm50oMjZQTZSU1G6H7E9UXgzrA=
+
+Name: bin/repast/simphony/data2/gui/FileChooserStep$1.class
+SHA-256-Digest: ST87rVdiRi1ousm7LxkZpQkjtGiBsPaM2E6Ac5XQExY=
+
+Name: bin/repast/simphony/data2/wizard/MethodSourcePanel$4.class
+SHA-256-Digest: pSYJ+eA0vwhRxDvcAaizNkSZdh6MzJSlLLG7JaLZiVE=
+
+Name: bin/repast/simphony/data2/wizard/ConsoleSinkPropertiesStep$1.class
+SHA-256-Digest: 54czjw3cpxBx0tvuXZN0OyMI7ye5KjKtSjFWph2iMeE=
+
+Name: bin/repast/simphony/data2/wizard/DataSetGeneralStep$2.class
+SHA-256-Digest: RR9sQfDfQ4mcPI8yIaBqzY4R98ISrlk4oU4w+YEANYg=
+
+Name: bin/repast/simphony/data2/gui/ConsoleSinkMenuItem.class
+SHA-256-Digest: KGFAowi+30e4Yj0DIi5m6soAvWTss99iLf3hOzPPEHo=
+
+Name: bin/repast/simphony/data2/gui/DataSetActionEditorCreator.class
+SHA-256-Digest: 1+6Nx3BI1ZtAXCFkzCyAVGbiXh99Kyvj6VLLcCvvMjo=
+
+Name: bin/repast/simphony/data2/wizard/Agent2.class
+SHA-256-Digest: PsgQS2hjE5YFvj7LGut4rmAYupA+1A1nGulmuQ2yqvo=
+
+Name: bin/repast/simphony/data2/wizard/FileSinkEditorWizard.class
+SHA-256-Digest: 4uQa8YQmnsyJACFvhKIwkGXi3Vbkh+fmbFAUD0j+OLE=
+
+Name: bin/repast/simphony/data2/wizard/MethodDataSourceDefinitionRendere
+ r.class
+SHA-256-Digest: d4h3rHrkuZcWN4srj/CYJzgQgqJvAJxDbE/ds7J9l7o=
+
+Name: bin/repast/simphony/data2/wizard/SinkDataStep$3.class
+SHA-256-Digest: yYR+DFou13PdWfbqz4e0pF+prWYziqQXwZMpvOHntOU=
+
+Name: bin/repast/simphony/data2/wizard/SimpleMethodTableModel.class
+SHA-256-Digest: pNRyS8e7MhDQgur4X8I6foFOalU4Ovf137tSkZeSxKM=
+
+Name: bin/repast/simphony/data2/wizard/CustomDataSourcePanel$3.class
+SHA-256-Digest: qF7o7AzwHbxsnpfuF9EP5tIBeLKdcYuKsCr5xHFTfQc=
+
+Name: bin/repast/simphony/data2/wizard/MethodSourcePanel$ClassItem.class
+SHA-256-Digest: DWO6ainH8ApB9XwU3Da774Q3AsZq+Lv+RPDfz7QJiQI=
+
+Name: bin/repast/simphony/data2/gui/FileSinkChooserStep$1.class
+SHA-256-Digest: boTFGnv7wXC/BmP/b0WyNCiJvfjOTantAdweDyDX1YA=
+
+Name: bin/repast/simphony/data2/wizard/DataSetWizardModel.class
+SHA-256-Digest: tADdbQfXGQRBGp4eyZM/cPS6fPWfsgSigMZb/AL1YzM=
+
+Name: bin/repast/simphony/data2/wizard/MethodSourcePanel$1.class
+SHA-256-Digest: yRxug/RKBFHt/lFeEA2tq7TIwR57rDZR194VTdBpgks=
+
+Name: bin/repast/simphony/data2/wizard/AggMethodSourcePanel.class
+SHA-256-Digest: yt3IedGHZy7VGks7J0cy0Nkir3UjbJbkoczK/lmhmOM=
+
+Name: bin/repast/simphony/data2/wizard/WizardUtils.class
+SHA-256-Digest: 9OIY8taNaN3Gt3R2IguFODBQlLzNO9femfd5eKT9uGI=
+
+Name: bin/repast/simphony/data/analysis/BrowseForHomeStep.class
+SHA-256-Digest: geu0hGmc+JyM5YH/4UXjFCSJr0vOKIdzBh4gtDaSk9M=
+
+Name: bin/repast/simphony/data2/gui/FileSinkActionUI.class
+SHA-256-Digest: F/+Pf8/P8fQiJuPYz2GjsixRvwINDwdvZhijH/pTB2c=
+
+Name: bin/repast/simphony/data2/gui/ConsoleSinkActionUI.class
+SHA-256-Digest: V4rqwCz0XSiWGqgVkzXN75AYe0AHqwFWOq9W7ikZYmA=
+
+Name: bin/repast/simphony/data2/wizard/CommonSourcePanel.class
+SHA-256-Digest: 7KlJWs2mlxBTnqNItDcAb34b+KslcmfW+yDP40IuQ4I=
+
+Name: bin/repast/simphony/data2/wizard/CustomDSRenderer.class
+SHA-256-Digest: 46Kp7i05i0QtL+2MJSDAJ+V6erysDBqMC9T0A0XtN3Q=
+
+Name: bin/repast/simphony/data2/wizard/MethodSourcePanel$5.class
+SHA-256-Digest: BYVjJABpzVhhagjSNa0DXQAReXH87kguEU8sp66mVUo=
+
+Name: bin/repast/simphony/data2/wizard/NonAggregateSourceStep.class
+SHA-256-Digest: TJEsPWRkyXC3TOgWXuJD4LI05KmbWiT6O9wVN5uQdqc=
+
+Name: bin/repast/simphony/data2/gui/FileChooserStep$2.class
+SHA-256-Digest: 14wIu2JGQr9EEumYnsDqz5Ukyrpt3HqzLujuddu5Pk8=
+
+Name: bin/repast/simphony/data2/gui/FileSinkChooserStep.class
+SHA-256-Digest: didyr/sGs0M6Luy41Tt8XaRZlilWaCwhTQWBAUpR6FQ=
+
+Name: bin/repast/simphony/data2/wizard/DataSetGeneralStep$1.class
+SHA-256-Digest: DluFpyHY7DO/+jgQY6eDkexEfXGHl5Vk0fet1Xolb7s=
+
+Name: bin/repast/simphony/data2/wizard/DataSetWizardModel$1.class
+SHA-256-Digest: UPr+ni+rIvxKTG4QoOr8Tb2hXA0w5vb2K/x4Vdxtu3c=
+
+Name: bin/repast/simphony/data/analysis/CopyRightStep.class
+SHA-256-Digest: mnx04Oa05SLNDbGfUwKvKs9h24E2Gwqn75ivQWjbK0A=
+
+Name: bin/repast/simphony/data2/wizard/AggMethodSourcePanel$1.class
+SHA-256-Digest: h5SxUZpeBeyL/pPKXj68OnM0xB9Hkxbdc9WY7Vg/lj4=
+
+Name: bin/repast/simphony/data2/wizard/FileSinkWizardModel$1.class
+SHA-256-Digest: B1GX9G5OQzIdN9EVbHJalTd++WY6HSXkVxRGcJCdxU4=
+
+Name: bin/repast/simphony/data2/wizard/DataSetGeneralStep.class
+SHA-256-Digest: B5WxsVO7bbw4hAb+OEXGhch73ZBnKwGj1CDfdNNIQkA=
+
+Name: bin/repast/simphony/data2/wizard/DataSetModel.class
+SHA-256-Digest: y24VRmGGwQcyqzcWh8rQaimROvplDKRkEs9qjWM7qlE=
+
+Name: bin/repast/simphony/data2/wizard/ConsoleSinkPropertiesStep.class
+SHA-256-Digest: lGeEUc21ftq62aAm2xTOk1+RZEXPful0tpX2XoztUts=
+
+Name: bin/repast/simphony/data2/wizard/CustomDataSourcePanel$2.class
+SHA-256-Digest: JEx7L1MkvEN0PAJiFTnNTjB3nXqBflgUV4+8wOo7LjQ=
+
+Name: bin/repast/simphony/data2/gui/FileSinkActionEditorCreator.class
+SHA-256-Digest: TlsrG5WZhHqmAUIGqIGAZJ3iBUIztSHQiFzI2OD0R2c=
+
+Name: bin/repast/simphony/data2/wizard/DataSetEditorWizard$3.class
+SHA-256-Digest: vQ+ZR1TxjJRnz3jNburgdgdg4wWir6WfXyWbPu2F4X8=
+
+Name: bin/repast/simphony/data2/wizard/MethodSourcePanel$2.class
+SHA-256-Digest: FAtY6qCYlZRe6Nd8fEJdipGig7KHvQjcHEUPo6Qa5NQ=
+
+Name: bin/repast/simphony/data2/gui/NetworkChooserStep.class
+SHA-256-Digest: 8HCpwdItfT5vZ0T/jp4EWg0V0VBTDWBdvLmgVJz/Eag=
+

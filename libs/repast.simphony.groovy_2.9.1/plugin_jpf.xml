@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE plugin PUBLIC "-//JPF//Java Plug-in Manifest 0.6" "http://jpf.sourceforge.net/plugin_0_6.dtd">
+<plugin id="repast.simphony.groovy" version="">
+	
+	<attributes>
+         <attribute id="simphony" value="2.9.1"/>
+     </attributes>
+
+	<requires>
+		<import exported="false" match="compatible" optional="false" plugin-id="repast.simphony.core" reverse-lookup="true"/>
+	</requires>
+
+	<runtime>
+		<library id="groovy_bin" path="bin/" type="code">
+			<export prefix="*"/>
+		</library>
+		
+		<library id="groovy-swing" path="./lib/groovy-swing-3.0.8.jar" type="code"/>
+		<library id="groovy-xml" path="./lib/groovy-xml-3.0.8.jar" type="code"/>
+		<library id="groovy-templates" path="./lib/groovy-templates-3.0.8.jar" type="code"/>
+	</runtime>
+</plugin>

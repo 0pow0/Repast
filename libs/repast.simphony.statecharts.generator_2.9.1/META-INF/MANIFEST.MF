@@ -1,0 +1,171 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Repast statecharts generator
+Bundle-SymbolicName: repast.simphony.statecharts.generator; singleton:=t
+ rue
+Bundle-Version: 2.9.1
+Require-Bundle: org.eclipse.jdt.core,org.eclipse.xtend.profiler;resoluti
+ on:=optional,org.apache.commons.logging,org.apache.log4j;resolution:=op
+ tional,com.ibm.icu,org.antlr.runtime,org.eclipse.core.runtime,org.eclip
+ se.emf.mwe.utils,org.eclipse.emf.ecore.xmi,org.eclipse.jface.text,org.e
+ clipse.xpand;visibility:=reexport,org.eclipse.xtend;visibility:=reexpor
+ t,org.eclipse.xtend.typesystem.emf;visibility:=reexport,org.eclipse.xte
+ nd.backend;resolution:=optional,org.eclipse.xtend.middleend.xpand;resol
+ ution:=optional,repast.simphony.statecharts.model,org.eclipse.gmf.runti
+ me.notation,repast.simphony.statecharts,org.eclipse.core.resources,org.
+ junit,repast.simphony.eclipse
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ClassPath: bin/,.
+Export-Package: repast.simphony.statecharts.generator
+Bundle-Vendor: Argonne National Laboratory
+
+Name: repast/simphony/statecharts/generator/DirectoryCleanerTests.class
+SHA-256-Digest: yyqFmNFDBO/7q6+GwYOnhY4w/PhikjoqHtS2J4KhZiU=
+
+Name: my/statechart/GeneratorTest.class
+SHA-256-Digest: ENrOFIU+nR1ChmadtIvUdaDwL3FprOEINyhkLLAxtgY=
+
+Name: repast/simphony/statecharts/generator/CodeExpander.class
+SHA-256-Digest: huUoXulyQgk9H92Am6+ZrBs5IQA5eNGVoKdUop+f4Jo=
+
+Name: bin/repast/simphony/statecharts/generator/CodeGenerator$1.class
+SHA-256-Digest: o7uTxXPvquKw7wAl5gQFfScd7qdc+Dc9lvCYGSDsG3k=
+
+Name: repast/simphony/statecharts/generator/GeneratorUtil$Names.class
+SHA-256-Digest: jqUIii6ekgIIpIB8NXiItt23ecWuc3B6lVAio6QdAng=
+
+Name: repast/simphony/statecharts/generator/CodeGeneratorConstants.class
+SHA-256-Digest: 30HBnUGUgQqh6YaG7O5SbiTZvdiGQFAff5GZ5YQMO+4=
+
+Name: bin/repast/simphony/statecharts/generator/TemplateGenerator$1.clas
+ s
+SHA-256-Digest: disrHqTVCVuTgXZ4cUKJUDGBxJ7+FLQEvuM0ESUFsXw=
+
+Name: src/action_template.xpt
+SHA-256-Digest: sTTVoU8J6IZkCOTsK/bAxVC9flmd3QUzxiMAlEdC9Po=
+
+Name: bin/repast/simphony/statecharts/generator/DirectoryCleanerTests.cl
+ ass
+SHA-256-Digest: yyqFmNFDBO/7q6+GwYOnhY4w/PhikjoqHtS2J4KhZiU=
+
+Name: bin/repast/simphony/statecharts/generator/PathUtils.class
+SHA-256-Digest: +0IsWxJ7O6s94k9Wf+xnrnN9+VWqkYsI5XF89V4O0UU=
+
+Name: generator.xpt
+SHA-256-Digest: PZD3kce/k0S7jyoEqZWlQ80LbYIAFRCD9WYLBVTyv6g=
+
+Name: bin/repast/simphony/statecharts/generator/CodeExpander.class
+SHA-256-Digest: EAlx2tRLWBmBa5SHbCAViqV8KuwwcBIWGXKAi6fXAzc=
+
+Name: bin/generator.xpt
+SHA-256-Digest: PZD3kce/k0S7jyoEqZWlQ80LbYIAFRCD9WYLBVTyv6g=
+
+Name: repast/simphony/statecharts/generator/CodeGenFilter.class
+SHA-256-Digest: YVQdZoWx6ANvmE9qzXA/tpZ2bT6cRx+xNTlUjbL5qlA=
+
+Name: repast/simphony/statecharts/generator/CodeGenerator$1.class
+SHA-256-Digest: o7uTxXPvquKw7wAl5gQFfScd7qdc+Dc9lvCYGSDsG3k=
+
+Name: bin/repast/simphony/statecharts/generator/CodeBeautifier.class
+SHA-256-Digest: npDS3j6e0ukWd93FP2tmFMYhq7DWcpEggVTGz7m8vwk=
+
+Name: bin/repast/simphony/statecharts/generator/StateMachineValidator.cl
+ ass
+SHA-256-Digest: i144vaYLDMNTNF5mJ9zoWs6bEqjBSlvZMxw6mb25Ado=
+
+Name: bin/repast/simphony/statecharts/generator/GeneratorUtil$Transition
+ Block.class
+SHA-256-Digest: UlyxHSP+MWkJU6F24GAUlke3SzGFXQzKxMx0NXNIcP4=
+
+Name: bin/repast/simphony/statecharts/generator/GeneratorUtil.class
+SHA-256-Digest: f+kG4Dx2Ui4nBvilRo56Gs1c4HUDdKh70zke3Pc7+2s=
+
+Name: bin/repast/simphony/statecharts/generator/GeneratorUtil$Names.clas
+ s
+SHA-256-Digest: jqUIii6ekgIIpIB8NXiItt23ecWuc3B6lVAio6QdAng=
+
+Name: repast/simphony/statecharts/generator/TemplateGenerator.class
+SHA-256-Digest: tn+ZPdZfmEQ8tKe6ZfuYCPXPvUdVUHDv7I6IOsKW0Po=
+
+Name: my/statechart/Agent.class
+SHA-256-Digest: l01gyO0aTW3h2oRXWC3WzVur0+9VKpS8jvLLIwBaEAo=
+
+Name: repast/simphony/statecharts/generator/OrphanFilter.class
+SHA-256-Digest: auA/DY0zxpLBya5iKVvoz0rwYpdrArKm83q+GSEc3dQ=
+
+Name: bin/repast/simphony/statecharts/generator/CodeGeneratorConstants.c
+ lass
+SHA-256-Digest: 30HBnUGUgQqh6YaG7O5SbiTZvdiGQFAff5GZ5YQMO+4=
+
+Name: action_template.xpt
+SHA-256-Digest: sTTVoU8J6IZkCOTsK/bAxVC9flmd3QUzxiMAlEdC9Po=
+
+Name: repast/simphony/statecharts/generator/GeneratorUtil.class
+SHA-256-Digest: f+kG4Dx2Ui4nBvilRo56Gs1c4HUDdKh70zke3Pc7+2s=
+
+Name: repast/simphony/statecharts/generator/GeneratorUtil$TransitionBloc
+ k.class
+SHA-256-Digest: UlyxHSP+MWkJU6F24GAUlke3SzGFXQzKxMx0NXNIcP4=
+
+Name: repast/simphony/statecharts/generator/GeneratorUtil$StateBlock.cla
+ ss
+SHA-256-Digest: ZJygMkbz0N3QlQXSnJTXyFJs7b3MydmpXFD5qOfGXEw=
+
+Name: bin/repast/simphony/statecharts/generator/CodeGenerator.class
+SHA-256-Digest: SFIWlRLjatIWPiHcRj44zhkemChAIeCNmJz/M2CLsoM=
+
+Name: bin/repast/simphony/statecharts/generator/TemplateGenerator.class
+SHA-256-Digest: tn+ZPdZfmEQ8tKe6ZfuYCPXPvUdVUHDv7I6IOsKW0Po=
+
+Name: bin/repast/simphony/statecharts/generator/GeneratorRecord.class
+SHA-256-Digest: 5bbKtl+v73CeJKmmdyrYWNxip4if61MTqKmwyPDeFHo=
+
+Name: repast/simphony/statecharts/generator/GeneratorRecord.class
+SHA-256-Digest: 5bbKtl+v73CeJKmmdyrYWNxip4if61MTqKmwyPDeFHo=
+
+Name: bin/repast/simphony/statecharts/generator/CodeGenFilter.class
+SHA-256-Digest: QK5jnOaWdMP8iOgLT6P0frDEGVwacqrTDlyKsxzXBZ4=
+
+Name: generator_util.ext
+SHA-256-Digest: lYFOtDYJIOWmDjh6h5DZBdHLFXB337Y+DDOFQh3+wG4=
+
+Name: src/generator.xpt
+SHA-256-Digest: PZD3kce/k0S7jyoEqZWlQ80LbYIAFRCD9WYLBVTyv6g=
+
+Name: repast/simphony/statecharts/generator/TemplateGenerator$1.class
+SHA-256-Digest: disrHqTVCVuTgXZ4cUKJUDGBxJ7+FLQEvuM0ESUFsXw=
+
+Name: bin/repast/simphony/statecharts/generator/CodeExpanderTests.class
+SHA-256-Digest: aV2BG6iEkdTypmq8vxStN/iXflW8CLMaNWJWxW5x6lE=
+
+Name: repast/simphony/statecharts/generator/CodeExpanderTests.class
+SHA-256-Digest: aV2BG6iEkdTypmq8vxStN/iXflW8CLMaNWJWxW5x6lE=
+
+Name: repast/simphony/statecharts/generator/StateMachineValidator.class
+SHA-256-Digest: i144vaYLDMNTNF5mJ9zoWs6bEqjBSlvZMxw6mb25Ado=
+
+Name: src/generator_util.ext
+SHA-256-Digest: lYFOtDYJIOWmDjh6h5DZBdHLFXB337Y+DDOFQh3+wG4=
+
+Name: bin/action_template.xpt
+SHA-256-Digest: sTTVoU8J6IZkCOTsK/bAxVC9flmd3QUzxiMAlEdC9Po=
+
+Name: repast/simphony/statecharts/generator/PathUtils.class
+SHA-256-Digest: +0IsWxJ7O6s94k9Wf+xnrnN9+VWqkYsI5XF89V4O0UU=
+
+Name: repast/simphony/statecharts/generator/CodeGenerator.class
+SHA-256-Digest: SFIWlRLjatIWPiHcRj44zhkemChAIeCNmJz/M2CLsoM=
+
+Name: bin/repast/simphony/statecharts/generator/OrphanFilter.class
+SHA-256-Digest: zX7fQqFLUjy+6HVxcKIyU2aY0kfaMQE0U5SR5qfsUMU=
+
+Name: repast/simphony/statecharts/generator/CodeBeautifier.class
+SHA-256-Digest: ADFRLvqp4Dbv6aLMc1678rbNiQ58/R4vPPuC+a2wLAQ=
+
+Name: bin/generator_util.ext
+SHA-256-Digest: lYFOtDYJIOWmDjh6h5DZBdHLFXB337Y+DDOFQh3+wG4=
+
+Name: bin/repast/simphony/statecharts/generator/GeneratorUtil$StateBlock
+ .class
+SHA-256-Digest: ZJygMkbz0N3QlQXSnJTXyFJs7b3MydmpXFD5qOfGXEw=
+

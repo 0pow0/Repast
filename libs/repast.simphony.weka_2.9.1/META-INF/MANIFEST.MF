@@ -1,0 +1,32 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Repast weka
+Bundle-SymbolicName: repast.simphony.weka
+Bundle-Version: 2.9.1
+Require-Bundle: repast.simphony.gui,repast.simphony.data,repast.simphony
+ .core,saf.core.ui,repast.simphony.runtime,repast.simphony.plugin.util,r
+ epast.simphony.data.ui
+Bundle-Vendor: Argonne National Laboratory
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+
+Name: licenses/repast-license.txt
+SHA-256-Digest: sgcGxHlhIfJK9mnMFOtvz0jBQxnJYR0r5EDSz4qPlYU=
+
+Name: bin/repast/simphony/weka/RunWekaModel.class
+SHA-256-Digest: oEepM7lYrCHOncVF6++xxUjwhbTNmvvq7GBu231+aAA=
+
+Name: icons/weka.png
+SHA-256-Digest: 0UIj7J3Qr3WoQ3rN5pdOTCPEr0OhGAHoOapq8IWbx7I=
+
+Name: bin/repast/simphony/weka/.Rprofile
+SHA-256-Digest: Mf2JP3rZpsaNm4xSJdX6iR7l8Qy5LCyWNEXTwy5BBWc=
+
+Name: bin/repast/simphony/weka/WekaWizard.class
+SHA-256-Digest: 6zjOM9KnkhKW3r2Nqm/WsAG3YqSJYV++AdFPrciSwoE=
+
+Name: bin/repast/simphony/weka/license.txt
+SHA-256-Digest: 4l7qssqxjx9Kbe5jfKS90Sr3Ohb0KaFYCPRJkMRX6mg=
+
+Name: plugin_jpf.xml
+SHA-256-Digest: kemjFcqlCg+B5U6Oq4FIt56SqBqfewaOcLpWjIOvFA0=
+

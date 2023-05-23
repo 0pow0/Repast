@@ -1,0 +1,108 @@
+Signature-Version: 1.0
+Created-By: 11.0.12 (Eclipse Foundation)
+SHA-256-Digest-Manifest: SVmrBmDLgXqCJTTmG8uv/MZqUmWLbU+XH2H/zxk5Iyg=
+SHA-256-Digest-Manifest-Main-Attributes: Ct/qQ3EHCpgHJQTzoA4fFchPxjXS3oi
+ 6G2l4mHIfoPA=
+
+Name: bin/repast/simphony/runtime/RepastMain.class
+SHA-256-Digest: vqxU/GWSijYQgiW4Mh3riK/P67UUHL1gFW0HaYGjemM=
+
+Name: testlib/junit-3.8.1.jar
+SHA-256-Digest: x4Um+MSkl8dxiKRDPTta4cCQW0FQSCA2U7ZwsZq5SoY=
+
+Name: licenses/log4j-license.txt
+SHA-256-Digest: vCVRpUsnWyCdyx6+1O8Hk2oHq4Zxw3FUllr8QOxoD6k=
+
+Name: lib/jpf.jar
+SHA-256-Digest: VGZIQ6ByaGlps+Qhh+Vkm+RtAAvuuWNYnbZ8cx6r78A=
+
+Name: licenses/xpp3-license.txt
+SHA-256-Digest: Zw9GzLn1fUIOsPGrNdvcB5HMG6dl5gY1uWzsNW0rKho=
+
+Name: bin/repast/simphony/runtime/RepastBatchMain.class
+SHA-256-Digest: WY5AQrS/oVZmVSBr1UBhbE/lERrszG57kxoBJzlEwmE=
+
+Name: licenses/groovy-license.txt
+SHA-256-Digest: 5VisuI3MTF0CIuB3abLs5kj+q29gpNxwPQ3XiWjwC/4=
+
+Name: lib/log4j-1.2-api-2.17.2.jar
+SHA-256-Digest: cjX0DEwPL2+hBdpAR1lT54eJq2UWLJIXHPnjndGRYbM=
+
+Name: bin/repast/simphony/plugin/ExtendablePluginClassLoader.class
+SHA-256-Digest: EsYvibvS8cZhs8J7czgU1JwR3t1HmTSeg407tgr9YS8=
+
+Name: licenses/lgpl-2.1.txt
+SHA-256-Digest: JKHdOoVLTNwOJJJdbfYjeBcTv0BzsEHvpehj2l3VJoc=
+
+Name: bin/repast/simphony/plugin/PluginLifecycleHandler.class
+SHA-256-Digest: bYOUR8DoQXUXzQnYEN9ci+FEw0oKhWZdyrUZW1Hw3BQ=
+
+Name: lib/saf.core.runtime.jar
+SHA-256-Digest: r5MGWKdeH5g+h/Tta5xvDDR66MrY4SSS+I0IC99lRbU=
+
+Name: MessageCenter.log4j.properties
+SHA-256-Digest: nqgYltCcGjJOsOmW4EHRbt+Bd/VXjJVUDkp0DBLzA5w=
+
+Name: licenses/repast-license.txt
+SHA-256-Digest: OiLqoygTE6vasbSFEGEJChgkBjTMACDWztuXCGv4an4=
+
+Name: licenses/xstream-license.txt
+SHA-256-Digest: gcpogUW8N8iAOhxU3EYMQujUO6tlWr/ZSE/UbGvEuEM=
+
+Name: lib/xmlpull-1.1.3.1.jar
+SHA-256-Digest: tDPkgfWJkW4MGVONz6ZdPnZYMmF6e77fr+OFwwp/zvs=
+
+Name: ui.properties
+SHA-256-Digest: Ld0R4nKekH+3v7OuOBVVs1Od8Vt1D6Zdg51kidE9kiI=
+
+Name: testlib/clover.license
+SHA-256-Digest: aDnTXETKgpsVGL370BMFjNPZ0nWkCK/fsQHCnmk1xa4=
+
+Name: testlib/junit-addons-1.4.jar
+SHA-256-Digest: CfcLWtuLt2og6ZLQxAqSJpG8ZKqDKp+XcW7BSw9BRiI=
+
+Name: licenses/apache-license.txt
+SHA-256-Digest: PKCO+A4VSRmeewvsn4jFKbxeOg6wWYzKTxSVKTltaqI=
+
+Name: lib/log4j-api-2.17.2.jar
+SHA-256-Digest: kZrQ/w/htE/XQtHU3pMJUdHVxwDrh1sHiVdUxbUAWhM=
+
+Name: licenses/MPL-license.txt
+SHA-256-Digest: xhY6hQUZpthMAoxKWWxxpfQG/17Y+VFcFNTrggN8umo=
+
+Name: boot.properties
+SHA-256-Digest: c6eV/pmHBgND4IVaCrUyuVkVi4I4BkrWfCjAqWv/v8c=
+
+Name: testlib/cenquatasks.jar
+SHA-256-Digest: ffXmfmWI89zHQEt6mPsTs4pu3qPz7xRWGGAbuivHsmE=
+
+Name: testlib/jmock-1.0.1.jar
+SHA-256-Digest: y9w0B9cXCtJJdXIZQrcbNP644gePk4vIoJQj8FiwtZ8=
+
+Name: lib/xstream-1.4.7.jar
+SHA-256-Digest: +S5dlhAFX/upl1vYmqE1pxeXOxOLrHzow3SSmpfwNYw=
+
+Name: lib/javassist-3.17.1-GA.jar
+SHA-256-Digest: e6esJWTivshcBEyWgdRrH+zjhROrnp/0AOOjLlN5Cdw=
+
+Name: lib/jpf-boot.jar
+SHA-256-Digest: ZqppYGrqSKYQaJ9pVENDdkgwKxuOUu7Tcm1mjU6S32o=
+
+Name: lib/log4j-core-2.17.2.jar
+SHA-256-Digest: UEuGFLslc3tZ9TNi5CSS08O1d1R7hj8Qskk7ZUqvXW4=
+
+Name: testlib/jmock-cglib-1.0.1.jar
+SHA-256-Digest: TDNPSaSuL5MhFg9QoZuZRKftkggBUdBMURWHqNz5mSM=
+
+Name: plugin_jpf.xml
+SHA-256-Digest: cfstKJKRL0O8G4L/G4H8eUm3K9B+VpTQCSBaCh6qC3M=
+
+Name: lib/commons-cli-1.3.1.jar
+SHA-256-Digest: 0YDVjyeImaqrz6SeDuAPENkN7adFLaXLvzuH+wXRwNQ=
+
+Name: lib/commons-logging-1.1.2.jar
+SHA-256-Digest: aw3Xg9xXDVMfswdZhdMR7ZJw17Ha/J90RsviFf3oP+M=
+
+Name: lib/xpp3_min-1.1.4c.jar
+SHA-256-Digest: qKRkAt+wYGpRZLgZxQ8UygtlXAl8D8838B8N0YdwsPw=
+

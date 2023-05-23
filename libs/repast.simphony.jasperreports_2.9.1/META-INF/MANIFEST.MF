@@ -1,0 +1,106 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Repast jasper reports
+Bundle-SymbolicName: repast.simphony.jasperreports
+Bundle-Version: 2.9.1
+Export-Package: net.sf.jasperreports.ant,net.sf.jasperreports.charts,net
+ .sf.jasperreports.charts.base,net.sf.jasperreports.charts.design,net.sf
+ .jasperreports.charts.fill,net.sf.jasperreports.charts.type,net.sf.jasp
+ erreports.charts.util,net.sf.jasperreports.charts.xml,net.sf.jasperrepo
+ rts.compilers,net.sf.jasperreports.components,net.sf.jasperreports.comp
+ onents.barbecue,net.sf.jasperreports.components.barcode4j,net.sf.jasper
+ reports.components.charts,net.sf.jasperreports.components.headertoolbar
+ ,net.sf.jasperreports.components.headertoolbar.actions,net.sf.jasperrep
+ orts.components.headertoolbar.htmlv2,net.sf.jasperreports.components.li
+ st,net.sf.jasperreports.components.map,net.sf.jasperreports.components.
+ map.fill,net.sf.jasperreports.components.map.type,net.sf.jasperreports.
+ components.sort,net.sf.jasperreports.components.sort.actions,net.sf.jas
+ perreports.components.spiderchart,net.sf.jasperreports.components.spide
+ rchart.type,net.sf.jasperreports.components.table,net.sf.jasperreports.
+ components.table.fill,net.sf.jasperreports.components.table.util,net.sf
+ .jasperreports.crosstabs,net.sf.jasperreports.crosstabs.base,net.sf.jas
+ perreports.crosstabs.design,net.sf.jasperreports.crosstabs.fill,net.sf.
+ jasperreports.crosstabs.fill.calculation,net.sf.jasperreports.crosstabs
+ .type,net.sf.jasperreports.crosstabs.xml,net.sf.jasperreports.data,net.
+ sf.jasperreports.data.bean,net.sf.jasperreports.data.cache,net.sf.jaspe
+ rreports.data.csv,net.sf.jasperreports.data.ds,net.sf.jasperreports.dat
+ a.ejbql,net.sf.jasperreports.data.empty,net.sf.jasperreports.data.hiber
+ nate,net.sf.jasperreports.data.hibernate.spring,net.sf.jasperreports.da
+ ta.jdbc,net.sf.jasperreports.data.jndi,net.sf.jasperreports.data.json,n
+ et.sf.jasperreports.data.mondrian,net.sf.jasperreports.data.provider,ne
+ t.sf.jasperreports.data.qe,net.sf.jasperreports.data.xls,net.sf.jasperr
+ eports.data.xlsx,net.sf.jasperreports.data.xml,net.sf.jasperreports.dat
+ a.xmla,net.sf.jasperreports.engine,net.sf.jasperreports.engine.analytic
+ s.data,net.sf.jasperreports.engine.analytics.dataset,net.sf.jasperrepor
+ ts.engine.base,net.sf.jasperreports.engine.component,net.sf.jasperrepor
+ ts.engine.convert,net.sf.jasperreports.engine.data,net.sf.jasperreports
+ .engine.design,net.sf.jasperreports.engine.design.events,net.sf.jasperr
+ eports.engine.export,net.sf.jasperreports.engine.export.data,net.sf.jas
+ perreports.engine.export.draw,net.sf.jasperreports.engine.export.legacy
+ ,net.sf.jasperreports.engine.export.oasis,net.sf.jasperreports.engine.e
+ xport.ooxml,net.sf.jasperreports.engine.export.ooxml.type,net.sf.jasper
+ reports.engine.export.tabulator,net.sf.jasperreports.engine.export.type
+ ,net.sf.jasperreports.engine.export.zip,net.sf.jasperreports.engine.fil
+ l,net.sf.jasperreports.engine.fonts,net.sf.jasperreports.engine.print,n
+ et.sf.jasperreports.engine.query,net.sf.jasperreports.engine.scriptlets
+ ,net.sf.jasperreports.engine.style,net.sf.jasperreports.engine.type,net
+ .sf.jasperreports.engine.util,net.sf.jasperreports.engine.util.xml,net.
+ sf.jasperreports.engine.xml,net.sf.jasperreports.extensions,net.sf.jasp
+ erreports.governors,net.sf.jasperreports.j2ee.servlets,net.sf.jasperrep
+ orts.olap,net.sf.jasperreports.olap.mapping,net.sf.jasperreports.olap.m
+ ondrian,net.sf.jasperreports.olap.result,net.sf.jasperreports.olap.xmla
+ ,net.sf.jasperreports.renderers,net.sf.jasperreports.repo,net.sf.jasper
+ reports.swing,net.sf.jasperreports.types.date,net.sf.jasperreports.util
+ ,net.sf.jasperreports.view,net.sf.jasperreports.view.save,net.sf.jasper
+ reports.web,net.sf.jasperreports.web.actions,net.sf.jasperreports.web.c
+ ommands,net.sf.jasperreports.web.listeners,net.sf.jasperreports.web.ser
+ vlets,net.sf.jasperreports.web.util,repast.simphony.jasperReports
+Require-Bundle: repast.simphony.data,repast.simphony.gui,repast.simphony
+ .core,saf.core.ui
+Bundle-ClassPath: lib/jasperreports-5.1.0.jar,lib/commons-beanutils-1.8.
+ 0.jar,lib/commons-digester-2.1.jar,lib/iText-2.1.7.js2.jar
+Bundle-Vendor: Argonne National Laboratory
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+
+Name: bin/repast/simphony/jasperReports/JROutputType.class
+SHA-256-Digest: Y88JnAHnTe7LA3/vkXp+U4qSnf+SjRglvvGbIr1oQIU=
+
+Name: licenses/commons-LICENSE.txt
+SHA-256-Digest: z8d0m5b2O9McPEK1xHG/dWgUBT6EfBDz6wA0F7xSPTA=
+
+Name: bin/repast/simphony/jasperReports/DefaultDataSourceFinder.class
+SHA-256-Digest: O3kVPnas4+jWjglZgVToEVw1SHc/7kh0ekH0lHpRl1Y=
+
+Name: lib/iText-2.1.7.js2.jar
+SHA-256-Digest: f7RXHtmfwNXFgsO6OmmJIEDNIQvAWhQHBhUDo9Ojc5Y=
+
+Name: licenses/repast-license.txt
+SHA-256-Digest: sgcGxHlhIfJK9mnMFOtvz0jBQxnJYR0r5EDSz4qPlYU=
+
+Name: lib/jasperreports-5.1.0.jar
+SHA-256-Digest: V+I9daaqwn1uVPXUapsCKIosdxS84x/+Pq8c2rWUfEU=
+
+Name: bin/repast/simphony/jasperReports/DataSourceFinder.class
+SHA-256-Digest: kWwDpv8Te4EDaTPWR9e1XtWgSCHzXyYALa4zs+lBiRw=
+
+Name: lib/commons-beanutils-1.8.0.jar
+SHA-256-Digest: E1Q5ObhuO7gzkBnWrMCOywTksJWoK6+YTlBbOvtUdCo=
+
+Name: licenses/iText-2.1.7-LICENSE.txt
+SHA-256-Digest: Mswof2Wb13X6cHlOTt8nSSwWR93c6hjkHEmWjJGljx0=
+
+Name: bin/repast/simphony/jasperReports/JRTools.class
+SHA-256-Digest: AZAUelylhBZvBt2KRPemRm7nlXVN5qyT03WGXiYAvR0=
+
+Name: licenses/jasperreports-LICENSE.txt
+SHA-256-Digest: nM8mz+hF4OuLtYBT5HNm56traXrgEPdlCXjUtxt9H8E=
+
+Name: bin/repast/simphony/jasperReports/JRTools$1.class
+SHA-256-Digest: FgaNiMyeCLaCJEHfWztVfstzq7GFFT+wp9HfGlixgXc=
+
+Name: lib/commons-digester-2.1.jar
+SHA-256-Digest: 4LK5gKhPxlM8XOKR8ZF7MsUH9ivK1kGY//RDaMIZaj0=
+
+Name: plugin_jpf.xml
+SHA-256-Digest: qFSrsfn8jemiRgg6/lNqDzkYScQbYSqGECUqmMRJY8Q=
+

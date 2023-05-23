@@ -1,0 +1,310 @@
+Signature-Version: 1.0
+Created-By: 11.0.12 (Eclipse Foundation)
+SHA-256-Digest-Manifest: u2Qcw1lh/lMD145GeA23XCmXygfOYw5r4CTsnxZJy2s=
+SHA-256-Digest-Manifest-Main-Attributes: KwjBrDF6MOXrYcMOjse1jLyX88oy5hd
+ VR4BpI39QCWA=
+
+Name: bin/repast/simphony/batch/gui/ModelPanel$4.class
+SHA-256-Digest: 1f6SIZDY0vowQv8ppgJc6+7n5+Y4Y9liqNyjWW20+dg=
+
+Name: bin/repast/simphony/batch/gui/ConsolePanel$3.class
+SHA-256-Digest: fGMRr70xQ8Jn/NA37PjS4vb7xHTO6uWMOOz6JQfDndo=
+
+Name: bin/repast/simphony/batch/gui/ParameterInputPanel$NumberInputPanel
+ .class
+SHA-256-Digest: qbfn+HoBqjepOcHs8uCmaDkKjcY6n/vAJvx+W5+olo8=
+
+Name: bin/repast/simphony/batch/gui/ParameterInputPanel$RandomInputPanel
+ .class
+SHA-256-Digest: XOy2PGxb90U320L2c8mtLQdmUDf/pI4cDZIQcdw/D4Y=
+
+Name: bin/repast/simphony/batch/gui/BatchConfigMediator$1.class
+SHA-256-Digest: BsfoSnwgtnxZb0MV+5Fydn1FJcPw12u2SOKoNF4r1s4=
+
+Name: bin/repast/simphony/batch/gui/HostsPanel$ItemRenderer.class
+SHA-256-Digest: nfvwa2m1HXkjfWtA3zxKCY+FCiBBvbRVYHQnOKx5Li8=
+
+Name: bin/repast/simphony/batch/gui/GUIUserInfo$1.class
+SHA-256-Digest: JjVIkiZrMMsO2vvlDQIqra7ByV/C48SxcTo+29hmjrA=
+
+Name: bin/repast/simphony/batch/gui/ParameterInputPanel$AbstractInputPan
+ el.class
+SHA-256-Digest: OBbIWB4Ec0J0cJrrF1QFpSYevt/7uGIQPM6egA2ZrxY=
+
+Name: bin/repast/simphony/batch/gui/BatchParameterParser.class
+SHA-256-Digest: uzgK+lAmaaUPU/oqf717mzUJccUFHiEAno2C2hrntAU=
+
+Name: bin-standalone/repast/simphony/batch/standalone/Version.class
+SHA-256-Digest: hIW6nb9SYtto0IR6XW9+h/itFclYizxTnYVVce90UtE=
+
+Name: bin/repast/simphony/batch/gui/Main.class
+SHA-256-Digest: 4D1ezvVW0fTLEukmFmKq9LhcwjEiFjfSU3gTM8GsDvE=
+
+Name: bin/icons/new_con.gif
+SHA-256-Digest: UNOHD0uBqFfNV0wkgFKWQyYepFQ/MogOS/+Jl7nI5X0=
+
+Name: bin/repast/simphony/batch/gui/BatchParameterParser$PD.class
+SHA-256-Digest: BMeNTCZm5k2JP3cmWUEydpvDXpYiiDnjDR0rn4sLIR4=
+
+Name: bin/repast/simphony/batch/gui/IconLoader.class
+SHA-256-Digest: 3uW7rBhK1PGjCPjOKxT6ueWRlO5jiQk6TAU2PKMGQoU=
+
+Name: bin/icons/newprj_wiz.gif
+SHA-256-Digest: buUMNUYGYC46kQ1OOBQ1zSgkw0wADfYzdUWNvszRYfM=
+
+Name: bin/icons/saveas_edit.gif
+SHA-256-Digest: hJD2iI8Oxwa4LppVPJqXNjiUWC0N2v8VlXlarLKe9e0=
+
+Name: bin/repast/simphony/batch/gui/ModelPanel$1.class
+SHA-256-Digest: Hbep6mrvRiWhU7r2zico2yr/09sYlOSzoGH8mVjicz8=
+
+Name: bin/repast/simphony/batch/gui/BatchRunPanel.class
+SHA-256-Digest: UCg/cD/vObgaQ600JyL3dnN8fdrw0Ka91zWt74+pPGw=
+
+Name: bin/repast/simphony/batch/gui/ModelPanel$7.class
+SHA-256-Digest: aqUdna5FRSiTuw/0neHjxE/TsaMj4qPC2Z/w8rUWGvA=
+
+Name: bin/repast/simphony/batch/gui/ParameterInputPanel.class
+SHA-256-Digest: KCODrW5cdPtY93LgmJiut5Qb9CtK/d8xAfoPrOtM32o=
+
+Name: plugin_jpf.xml
+SHA-256-Digest: tFeP3/qhFCxZmq3BY9fprExUURNdhCA8U66xjFiA6Ho=
+
+Name: bin-standalone/repast/simphony/batch/standalone/BundleData.class
+SHA-256-Digest: y0P3QV5VbrgVdqAp+b9Un0e2CwZpJ2hgRZ8yssMPnwk=
+
+Name: bin/icons/copy_edit_co.gif
+SHA-256-Digest: tgr2mSqZ1Ghji79VndleRW6z8E6Qknp36m9XF1RwDF4=
+
+Name: bin/repast/simphony/batch/gui/ParameterInputPanel$2.class
+SHA-256-Digest: Nb7SOqfIt3R4gd62I7hX/O7ze1CTpIzSFjBT14QlwNo=
+
+Name: bin/icons/lrun_obj.gif
+SHA-256-Digest: JUMPdG7WCsznmq1OanmjKXVLbkAXQbiQIShCXaWRWFY=
+
+Name: bin/repast/simphony/batch/gui/BatchParamPanel$2.class
+SHA-256-Digest: aNnjK09oYKV7Z3dv7ax6HyYdo0VKVAkTFSKOoVH7HKU=
+
+Name: bin/repast/simphony/batch/gui/LongDocument.class
+SHA-256-Digest: GK119t3cPI0SsJiYEqUuQGpXS/QFyngiZXY14uHpBl4=
+
+Name: bin/repast/simphony/batch/gui/ModelPanel$6.class
+SHA-256-Digest: ZRl+oYGOacE7KoagkAJHBE57Lad9y2g2Vew4jdkJXok=
+
+Name: bin/repast/simphony/batch/gui/ParameterInputPanel$ListInputPanel.c
+ lass
+SHA-256-Digest: 7ugJnIf3qeP//dIU8eqULiAT9yhtLZGqtIB1hWTsj98=
+
+Name: bin/repast/simphony/batch/gui/FloatDocument.class
+SHA-256-Digest: zySOazMtw5XvEQzCjx++xzOf+G6A/gz+Avxk0+JpObw=
+
+Name: bin/repast/simphony/batch/gui/ShowBatchDialog.class
+SHA-256-Digest: PI2XMiLrsKAD1SOYOj5GNXbC0kEq5BNyi2OfEo1HDr8=
+
+Name: bin/repast/simphony/batch/gui/HeadlessMain.class
+SHA-256-Digest: 1LW/pskhC8/dJ1VLYZ8qDTcplpIjqUj8e7w3e1dd7VE=
+
+Name: bin/repast/simphony/batch/gui/HostsPanel$5.class
+SHA-256-Digest: qw5keuXQqQZu6AOOjxZHtLvtMgXqxkfqxtpKKLgI+vU=
+
+Name: bin/repast/simphony/batch/gui/MainPanel$5.class
+SHA-256-Digest: UL+esAYsLDf8hhVOB/T0KeaSTqg7f6QDVKyuWteCOsw=
+
+Name: bin/repast/simphony/batch/gui/MainPanel.class
+SHA-256-Digest: +oq6pf8D53i2QY5ySMbl2Oh/z+z7GvqoytIs6VQXjKY=
+
+Name: bin/repast/simphony/batch/gui/BatchParamPanel.class
+SHA-256-Digest: ePhFXh6T+TFJff9UIn96LfVdFgJNK+Cm14ne4qaVbNs=
+
+Name: bin/repast/simphony/batch/gui/BatchParamPanel$3.class
+SHA-256-Digest: t4677G0CCq25N80yxc7G2CQ3j8/D5AY9HypE6aUstu8=
+
+Name: bin/repast/simphony/batch/gui/ConsolePanel$ConsoleOutputStream.cla
+ ss
+SHA-256-Digest: FWELYJtn0M/cZwZ01pBrAVmntf+N3Gg8ZIG9QSVLHxA=
+
+Name: bin/repast/simphony/batch/gui/ParameterInputPanel$1.class
+SHA-256-Digest: lW90p7RVkBESg2sSVbxeKefY/GoikXlPEF2VVYZ9nBo=
+
+Name: bin/repast/simphony/batch/gui/Main$1.class
+SHA-256-Digest: NrcldpApSdTGkb19CAJUqtAZpv5OJ+xzppHHi/VxURc=
+
+Name: bin/repast/simphony/batch/gui/ModelPanel$5.class
+SHA-256-Digest: V6On6u1s0to4ci4WUoPJIkP7wmnuWkRk/6v/qf85OoE=
+
+Name: bin/repast/simphony/batch/gui/BatchConfigMediator.class
+SHA-256-Digest: iQ87AvmcCoo/YMfMNRdPRQbVttCrDB7VoS8fBuhlFnI=
+
+Name: bin/repast/simphony/batch/gui/BatchConfigMediator$2.class
+SHA-256-Digest: u43Zv6tSAqrF1CKuvDMRVwX1D1OMD7GToHMj39zGX/E=
+
+Name: bin/repast/simphony/batch/gui/Host.class
+SHA-256-Digest: /AGth9wbZ25RdmIZfM+K79PN6VXP7qPcY7S1jHuqgcY=
+
+Name: bin/icons/reset.gif
+SHA-256-Digest: 5mGBeCJojN+/imxkT62GgSzWVc/JB4hhfHOYonAgTNo=
+
+Name: lib/log4j-api-2.17.2.jar
+SHA-256-Digest: kZrQ/w/htE/XQtHU3pMJUdHVxwDrh1sHiVdUxbUAWhM=
+
+Name: bin/repast/simphony/batch/gui/Host$Type.class
+SHA-256-Digest: rXT6xKru0r41xzcSL6nvFeoMRzMWUxEbIKwQlc1uqmY=
+
+Name: bin/icons/rem_co.gif
+SHA-256-Digest: z906KVHmMJRXJTWK01u3ATVSeGQxhCz1R1wc5jkzOLs=
+
+Name: bin/repast/simphony/batch/gui/IntegerDocument.class
+SHA-256-Digest: tLnTpkidq6RDEzYO84V5CUUsofFEqj2hpx8ZLABTUtw=
+
+Name: bin/repast/simphony/batch/gui/CommitResult.class
+SHA-256-Digest: gTG2ylq7Mn56v+wiqS1fRDE6hI8yZZs5J4BicYdO2qA=
+
+Name: bin/repast/simphony/batch/gui/ShowBatchDialog$OnClose.class
+SHA-256-Digest: K5Wf/SPXpRPoA4gYmL7tZYFGnSvi9pnpf4DSdoMsnLI=
+
+Name: bin/repast/simphony/batch/gui/MainPanel$6.class
+SHA-256-Digest: gDOwftp1GEX/zoYt7m2AeA0sWhn5GFtWM+rzKgefDSo=
+
+Name: bin/repast/simphony/batch/gui/TextAreaAppender.class
+SHA-256-Digest: 6/zuh5HJwCgGazBTBubvS/RxBYrqI9l3F7MIxCN8gWY=
+
+Name: lib/log4j-core-2.17.2.jar
+SHA-256-Digest: UEuGFLslc3tZ9TNi5CSS08O1d1R7hj8Qskk7ZUqvXW4=
+
+Name: bin/repast/simphony/batch/gui/ParameterInputPanel$BatchInputListen
+ er.class
+SHA-256-Digest: /YoEPMHvqzEVz6L6c18VQl1/BG1OBj+uvib5etUN9+g=
+
+Name: bin/repast/simphony/batch/gui/BatchConfigMediator$AntSessionRunner
+ .class
+SHA-256-Digest: KL1U2TFvl8fZcnzKgIBQoxMfBo3Ac657YsTrrln8caM=
+
+Name: bin/repast/simphony/batch/gui/GUIUserInfo$ShowDialog.class
+SHA-256-Digest: e76sW7fE5Y2CWQboJ3sPciuxIT8FVlKCQ97P087KAws=
+
+Name: bin/repast/simphony/batch/gui/HostsPanel$4.class
+SHA-256-Digest: 6cY0hUSx+Ez8VQuN+lrCoPIyxc4DM5MQ5zzLaD87WHc=
+
+Name: bin/repast/simphony/batch/gui/BatchParamPanel$4.class
+SHA-256-Digest: /oFOg3GQCMbUqx+r+aQuazyDtbHSaPfpzaS3X1qj2kw=
+
+Name: bin/repast/simphony/batch/gui/HostsPanel.class
+SHA-256-Digest: HmJIV4S53afIQX06ISF8TX8RNeaE2oQq2imbPQuX4pk=
+
+Name: bin/repast/simphony/batch/gui/MainPanel$4.class
+SHA-256-Digest: C0tJBz5N8vi7dlQKjlRxc+EO7rbVis+DR5PPoqtqdgw=
+
+Name: icons/restart.png
+SHA-256-Digest: CaQy6kuNHKgbCW8e14okVkYZQT+fiInB4c6onJ8eyp0=
+
+Name: bin-standalone/repast/simphony/batch/standalone/BundleDataReader.c
+ lass
+SHA-256-Digest: jhFUSkg1fdCCpobX8GB+v/+HapXDy3IHqM7geldojSk=
+
+Name: lib/log4j-1.2-api-2.17.2.jar
+SHA-256-Digest: cjX0DEwPL2+hBdpAR1lT54eJq2UWLJIXHPnjndGRYbM=
+
+Name: bin/repast/simphony/batch/gui/MainPanel$7.class
+SHA-256-Digest: kZ/waKBNEa9yaDiXT5ntjFZiSwHoY8kc4HBZhl42ubM=
+
+Name: bin/repast/simphony/batch/gui/ConsolePanel.class
+SHA-256-Digest: xaSddT4VzyyI7vIjAx70GBLt5h5nseTUceO0gmcvbJE=
+
+Name: bin/repast/simphony/batch/gui/ModelPanel$8.class
+SHA-256-Digest: OF7QUKfiZeqaD/lB3mJ7d4bAL/U4RCcwpnkbOjYWZWQ=
+
+Name: bin/repast/simphony/batch/gui/ParameterInputPanel$InputPanel.class
+SHA-256-Digest: tEhcA5Utsi1arlDH9jwRzLK/1J2lNqcQ3DbDKQbKcOQ=
+
+Name: bin/repast/simphony/batch/gui/HostsPanel$3.class
+SHA-256-Digest: wZ7CUQldBmt64B/s9H/lsaWsZKsIT/1BFXAGohCygB4=
+
+Name: bin/repast/simphony/batch/gui/GUIUserInfo.class
+SHA-256-Digest: U0zaMP5KR8QV+WdU+HbjjHr87U39jdqBQXvvs0oAjUk=
+
+Name: bin-standalone/repast/simphony/batch/standalone/StandAloneMain.cla
+ ss
+SHA-256-Digest: juD9o6SW3ZgKJgASSVS+dTHpe6Lj3HNKPDXhWIvHkkY=
+
+Name: bin/repast/simphony/batch/gui/ParameterData.class
+SHA-256-Digest: uBmTsR9cH+IDwCA50YCjnaReW7JGb7NmWGRl+gY1yYs=
+
+Name: bin/repast/simphony/batch/gui/BatchParamPanel$1.class
+SHA-256-Digest: Qb3J3lFsdgLdF8AZSo/tFGi96ZVxh/d1Fvq9vUJWJdk=
+
+Name: bin/repast/simphony/batch/gui/ValidationResult.class
+SHA-256-Digest: SbOmYrgV5QPBKb8fdcRri69yErAVjzHrR0oIxl3O3mg=
+
+Name: bin/icons/save_edit.gif
+SHA-256-Digest: c+T2v9QoCkOULxn8lHVW5qvC+Vq1/FxXiA7RXpZRuok=
+
+Name: bin/repast/simphony/batch/gui/GUIUserInfo$2.class
+SHA-256-Digest: 9md5/lTY4vaepEHj7X0O2yjOWoJ/JxloC6gT7SBwxAM=
+
+Name: bin/icons/prj_obj.gif
+SHA-256-Digest: iDihYPXDDH50VEZfZ9NZmFMTORvVPMPYVHjNu9UqRb0=
+
+Name: bin/repast/simphony/batch/gui/DoubleDocument.class
+SHA-256-Digest: W6985ihq74MhvYqSzyToJH4xWTtoZ3woKyGJAfdlhJg=
+
+Name: bin/repast/simphony/batch/gui/MainPanel$1.class
+SHA-256-Digest: XLtSsH39oFumBMQlX15PWS1LnBoqQlY+FBZlIBoat1c=
+
+Name: bin/repast/simphony/batch/gui/ConsolePanel$2.class
+SHA-256-Digest: LAItxg3NexaWvkBnegx0AgnBL63LiS22ES6nlx2vygw=
+
+Name: lib/jgoodies-binding-2.9.0.jar
+SHA-256-Digest: yfqIYN44BqW7OFeAkR/k+QfqvXWRTDRUKQAEn4IsP3o=
+
+Name: bin/repast/simphony/batch/gui/ConsolePanel$1.class
+SHA-256-Digest: 5eJZ7gPzR0nP141HXBYoGD8yEZY5v3AQ/yDzs4c+ISQ=
+
+Name: bin/repast/simphony/batch/gui/ModelPanel$2.class
+SHA-256-Digest: kpIuK4sZpvd/fHN5cMGRrRBKMLtATXLzHQ6E1dJUSVA=
+
+Name: bin/repast/simphony/batch/gui/BatchRunConfigBean.class
+SHA-256-Digest: 4+eUHxWK474dF+YtCp81BH7oYaX0jBz7kZdZKX4qWHQ=
+
+Name: bin/repast/simphony/batch/gui/HostsPanel$2.class
+SHA-256-Digest: UJNAqqGqLwxJbwf2iLmGwlnMZTL8P8w8LN5Wzar7yAI=
+
+Name: lib/jgoodies-forms-1.7.1.jar
+SHA-256-Digest: r6a9lon7olZ5SfS2WIkE2zXNQVkobp1gVcYKyInmlcQ=
+
+Name: lib/jgoodies-common-1.6.0.jar
+SHA-256-Digest: juDTQmJog1q5qJF9Uj1RCxsYX1ZGjetw+VIagZcl+AQ=
+
+Name: bin/repast/simphony/batch/gui/MainPanel$2.class
+SHA-256-Digest: 4g9VGpgE1gAWDalEhvpKhA0CWgjZkPdkjfkpuOeVRno=
+
+Name: bin-standalone/repast/simphony/batch/standalone/BundleFinder.class
+SHA-256-Digest: fc/53DB22+/vggyNI/DeFFU4A2oX8dAVffRPHxPb9+A=
+
+Name: bin/repast/simphony/batch/gui/ParameterInputPanel$ConstantInputPan
+ el.class
+SHA-256-Digest: /JkCEIiIKhmZ7Q2SyM3YwIL8TU295pTNc16ASeAiZF4=
+
+Name: bin/repast/simphony/batch/gui/ModelPanel$3.class
+SHA-256-Digest: xwmQDXxnDMWViWiIVq7++Gc86OEHqbAPPnO1BWOuPZE=
+
+Name: bin/icons/refresh_tab.gif
+SHA-256-Digest: +Lv52ETg1giqS/IKsbuWXS0A9EchZkl6TUGRp5AP/6A=
+
+Name: bin/repast/simphony/batch/gui/ModelPanel.class
+SHA-256-Digest: +GECVNswGE3DOYzQ7OU25FgIAK8sjONk887jegTOHZM=
+
+Name: bin/repast/simphony/batch/gui/ParameterType.class
+SHA-256-Digest: pz4ZvAqmvB0JDzZj2c7OXjXLndsrG8Aadixu3kBNus8=
+
+Name: bin/repast/simphony/batch/gui/ParameterAttribute.class
+SHA-256-Digest: PirvAY2xL7pmR9bRf3ED6f5VlIJ+BJaut7eeomzHYsw=
+
+Name: bin/repast/simphony/batch/gui/MainPanel$3.class
+SHA-256-Digest: 6Eig7ESAEyuX6rXg4JVSLMO4U+x5l05HJT478i3mfno=
+
+Name: bin/repast/simphony/batch/gui/PatternTableModel.class
+SHA-256-Digest: bvWPLPKU5X4UKJC9oH1w+7nZA+l+YKLmLgCfNCPXRuo=
+
+Name: bin/repast/simphony/batch/gui/HostsPanel$1.class
+SHA-256-Digest: Oh6kaESvY6Yl3UdM6UaSs+TA4SJED3XegTQcqQO99Zk=
+

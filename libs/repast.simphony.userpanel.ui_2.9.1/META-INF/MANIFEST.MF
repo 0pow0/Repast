@@ -1,0 +1,76 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Repast userpanel
+Bundle-SymbolicName: repast.simphony.userpanel.ui
+Bundle-Version: 2.9.1
+Require-Bundle: repast.simphony.gui,saf.core.ui,repast.simphony.plugin.u
+ til,repast.simphony.runtime,repast.simphony.scenario,repast.simphony.co
+ re
+Export-Package: repast.simphony.userpanel.ui
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: Argonne National Laboratory
+
+Name: bin/repast/simphony/userpanel/ui/UserPanelControllerActionIO.class
+SHA-256-Digest: lWEVFLnIK5PIE3sIc9gAal3YVsLncqfP5zrzSJHfbe8=
+
+Name: bin/repast/simphony/userpanel/ui/UserPanelMenuItem.class
+SHA-256-Digest: 49uNsuHRyosP0jgM0gQGDvGXm4svtFem2+dG5apGkPg=
+
+Name: bin/repast/simphony/userpanel/ui/UserPanelStep.class
+SHA-256-Digest: fXrxAnToKZu99OAZ5Gb487Ie+JBHvfpOmoapq1Sibjc=
+
+Name: licenses/repast-license.txt
+SHA-256-Digest: sgcGxHlhIfJK9mnMFOtvz0jBQxnJYR0r5EDSz4qPlYU=
+
+Name: bin/repast/simphony/userpanel/ui/UserPanelWizardModel.class
+SHA-256-Digest: FdPsH6PSwpsGpayyGcfZTVAi7x7d7bk0CRxx7JashB0=
+
+Name: bin/repast/simphony/userpanel/ui/UserPanelEditor.class
+SHA-256-Digest: BjnhvNPoUdo+w1AIp8G0JtOwuR1DAkvb8HAHwXcxN6s=
+
+Name: bin/repast/simphony/userpanel/ui/UserPanelEditorWizard$1.class
+SHA-256-Digest: kwHMa4F5xQQvYN1JCsGYaoSo9rXeaPQwVWGv6B25lrQ=
+
+Name: bin/repast/simphony/userpanel/ui/DefaultUserPanelDescriptorAction.
+ class
+SHA-256-Digest: 3hWhKcMJhSi5V6Dv49Y39oqzH/rED4eGCHq1zeG5a6k=
+
+Name: bin/repast/simphony/userpanel/ui/ImplementingClassesFinder.class
+SHA-256-Digest: YPwhMvpWUB0iveOQQhmX4O2rGnT64q/zQqDK+8EJE78=
+
+Name: bin/repast/simphony/userpanel/ui/UserPanelCompositeControllerActio
+ nCreator.class
+SHA-256-Digest: mBEkj9Ob4E4i66k8Jt2hc8f+9CFEY8me/GJzXjs2M34=
+
+Name: bin/repast/simphony/userpanel/ui/UserPanelEditorWizard.class
+SHA-256-Digest: T4LFZO270me2OD5u5sINp+SPaZg55ZDnqak+diJuLF4=
+
+Name: bin/repast/simphony/userpanel/ui/UserPanelActionEditorCreator.clas
+ s
+SHA-256-Digest: NSVwvqpilJf7mMUJ4ztLAXo8q2W8VhqYAtVVQtttgFI=
+
+Name: bin/repast/simphony/userpanel/ui/UserPanelDescriptor.class
+SHA-256-Digest: bqwAi7x8SYJzJeSzTneIxyl0wbttX8VETpTPKT5aBEQ=
+
+Name: bin/repast/simphony/userpanel/ui/UserPanelControllerActionIO$UserP
+ anelActionLoader.class
+SHA-256-Digest: AEggDUjwHIcWTqBe9kio5/Tavwv5n8NhnVqe/EdDW5s=
+
+Name: bin/repast/simphony/userpanel/ui/UserPanelCreator.class
+SHA-256-Digest: 0vyih3QGdc+tEr+ju1Lzz/OYl19v87DJu0iFKUQcpXc=
+
+Name: bin/repast/simphony/userpanel/ui/UserPanelActionUI.class
+SHA-256-Digest: avhtBoNWlFQaqTKPyOeNQ6BUjlUuZbtGP7sn7YcqVOI=
+
+Name: icons/doNotDelete.txt
+SHA-256-Digest: zAYC7Q/V3pjCfzoPQWI1g6L5gShC0C0RwgiE9gPMO3s=
+
+Name: bin/repast/simphony/userpanel/ui/DefaultUserPanelDescriptor.class
+SHA-256-Digest: hY4TlmqAcPN/HZMfcIZTzRxDlbEz3zHh13C8hX1N9DQ=
+
+Name: bin/repast/simphony/userpanel/ui/UserPanelStep$1.class
+SHA-256-Digest: tJlAlUqVNmE3M7CZVUaip9ROQTola5MUBlGS76IBHjU=
+
+Name: plugin_jpf.xml
+SHA-256-Digest: fKrwP4r47rZ4B5pW7RPj1mEFD8s3mp0G1RRuhQQZLpw=
+

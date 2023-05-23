@@ -1,0 +1,60 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Repast sql
+Bundle-SymbolicName: repast.simphony.sql
+Bundle-Version: 2.9.1
+Require-Bundle: repast.simphony.gui,repast.simphony.data,repast.simphony
+ .core,saf.core.ui,repast.simphony.runtime,repast.simphony.data.ui
+Bundle-Vendor: Argonne National Laboratory
+Export-Package: com.gentlyweb.utils,org.josql,org.josql.events,org.josql
+ .expressions,org.josql.filters,org.josql.functions,org.josql.functions.
+ regexp,org.josql.incubator,org.josql.internal,org.josql.parser,org.josq
+ l.utils,repast.simphony.sql
+Bundle-ClassPath: lib/JoSQL-2.2.jar,lib/gentlyWEB-utils-1.1.jar
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+
+Name: bin/org/josql/contrib/JoSQLSwingTableModel.class
+SHA-256-Digest: 0meLggjtypau/8up915N0CE2CKD8sTWc7usvUaiOqXM=
+
+Name: bin/repast/simphony/sql/RunSQLModel.class
+SHA-256-Digest: ZhhiHodNHwtu2CJKoGUqw65CO11rSOfiFRd8cFKkDBU=
+
+Name: bin/repast/simphony/sql/SQLWindow$2.class
+SHA-256-Digest: 69Vh7wdldPW/y7X8huzr0bM+XJ4VRykyej1niZ7cUqY=
+
+Name: bin/repast/simphony/sql/SQLWindow$3.class
+SHA-256-Digest: 0I9tVL1LxZHOZlKnsQRIG89qIo8CmtOG3tO8XUYDsyo=
+
+Name: licenses/repast-license.txt
+SHA-256-Digest: sgcGxHlhIfJK9mnMFOtvz0jBQxnJYR0r5EDSz4qPlYU=
+
+Name: lib/JoSQL-2.2.jar
+SHA-256-Digest: 8/OetsQQw9AYpHE3N6hoiENwcWmmeJSwMDPVC2VDlXc=
+
+Name: licenses/JoSQL-license.txt
+SHA-256-Digest: Pd+b5cKP4n2tFDpdx27qJSIq0d1ok0oEcGTlbtL6QMU=
+
+Name: bin/repast/simphony/sql/SQLWindow$4.class
+SHA-256-Digest: k7EBPrp9KFE6+DEaJIM8USdURQ8kwrjGuk+CGnSeoM0=
+
+Name: icons/sql.PNG
+SHA-256-Digest: rKBv/gOrMsmaLbJgj9llCbie0Wp1JZ4ujbyIDkDLyUc=
+
+Name: bin/repast/simphony/sql/SQLWindow.class
+SHA-256-Digest: 37QAvsM1VeYs0hAlU13m1xoBvYXsgrFZVHaWiAiztEs=
+
+Name: bin/repast/simphony/sql/SQLWindow$5.class
+SHA-256-Digest: +pZsp0nkaIVGPXZbsicW90CQTsnD9Qv+Xhz+7SUDwH8=
+
+Name: lib/gentlyWEB-utils-1.1.jar
+SHA-256-Digest: A7VnKIuuiGYepeP3/THVNquwk3dyZfttt+scAZn1vwQ=
+
+Name: bin/repast/simphony/sql/SQLWindow$1.class
+SHA-256-Digest: WRh2Yaz9uVjv+Lg7MeFQ2pE1Hs5MnhemTC6s+seH/e4=
+
+Name: bin/repast/simphony/sql/RepastJoSQLFunctionHandler.class
+SHA-256-Digest: WS1hK1TZ4T/yigM0+9ZQ6hHgkSkSTg+oUJDN20cIUMQ=
+
+Name: plugin_jpf.xml
+SHA-256-Digest: ahAb8eWCQUYqr+bzgxWIqJYqFE/q2+aVT63CvKRxgCg=
+

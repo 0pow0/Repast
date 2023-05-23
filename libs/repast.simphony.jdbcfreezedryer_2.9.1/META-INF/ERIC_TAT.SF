@@ -1,0 +1,145 @@
+Signature-Version: 1.0
+Created-By: 11.0.12 (Eclipse Foundation)
+SHA-256-Digest-Manifest: jOQagps5xiQErsQ3mFGD6sc7HjxJKyeNbuUsCzkzi7o=
+SHA-256-Digest-Manifest-Main-Attributes: 0OZR65TxHYpQxHvLq0UKrm1mHU+D2kz
+ 5W7m1ao+rNAo=
+
+Name: bin/repast/simphony/freezedry/wizard/JDBCDSBuilder.class
+SHA-256-Digest: 7uuEqehGwPIyn0fnSSRHD9bMA0LoT4oWbpg6KyldXlQ=
+
+Name: bin/repast/simphony/dataLoader/wizard/JDBCDataStep$1.class
+SHA-256-Digest: L+XkK5C4KV43PpDjHwEuR/r1r14NTMNh4vJA1ZM8E+E=
+
+Name: bin/repast/simphony/dataLoader/wizard/JDBCDataStep$CompleteHandler
+ .class
+SHA-256-Digest: /ab/jYWXP3gqKhtybvRHy84rgQlUnMcrbylSfhDN1EE=
+
+Name: bin/repast/simphony/freezedry/engine/JDBCDataSourceConverter.class
+SHA-256-Digest: xc6rUTL2M2U7ucRg+KDXqKSvRgxWrKemKKDtdNYcjwE=
+
+Name: bin/repast/simphony/dataLoader/engine/JDBCDataLoaderControllerActi
+ onIO$2.class
+SHA-256-Digest: vH/nU70gWJZBbgNF8CZ/cl8SnAxEmth4tnKbclGRmyU=
+
+Name: bin/repast/simphony/freezedry/wizard/JDBCFreezerDataChooserStep.cl
+ ass
+SHA-256-Digest: NhSBWkG1mS6wRh5JjbG9piBAwTyN+pjndmosqYG4LBI=
+
+Name: bin/repast/simphony/freezedry/datasource/JDBCDataSourceTest$Bar.cl
+ ass
+SHA-256-Digest: C4RBwVULeqKCffHZ+LazKSW+DPChh/WHQp8BU6w/8O4=
+
+Name: bin/repast/simphony/freezedry/datasource/JDBCDataSourceTest$Foo.cl
+ ass
+SHA-256-Digest: VaSg8yvYUnzZ7bwvDIR5F3itMw6ma8S06efYj2J1mP4=
+
+Name: bin/repast/simphony/freezedry/datasource/JDBCDataSourceTest.class
+SHA-256-Digest: WxUwjSVSurBmvJ1preXVMf0KvAwrMblTNCTCNskKdXA=
+
+Name: bin/repast/simphony/freezedry/wizard/JDBCFreezerOption$1.class
+SHA-256-Digest: vIWswLBzGMIMWw1b0dQgjK5pv1Mrlopb4IVDT8Z5wac=
+
+Name: bin/repast/simphony/freezedry/datasource/DBConnectionInfo.class
+SHA-256-Digest: w/lP53YHWnWghGjtUpvWX27w62O7tydHAXlEO7QKZgc=
+
+Name: bin/repast/simphony/freezedry/datasource/JDBCConnectDialog$1.class
+SHA-256-Digest: bRmbDb9rhQKFrxwLwkbDFY0Vfu5WbVjRjqF7r2wMlv0=
+
+Name: bin/repast/simphony/freezedry/engine/JDBCFreezerActionIO$1.class
+SHA-256-Digest: IHdTkzfzF2p0P5+NRBiTO1D/HiBqN2vFZrvrsrsFCIk=
+
+Name: bin/repast/simphony/freezedry/datasource/JDBCConnectPanel.class
+SHA-256-Digest: 8SrRm+5em13Z2lTsMktfLMgp1yYVQfZa60SghNYEnp0=
+
+Name: bin/repast/simphony/freezedry/wizard/JDBCFreezerOption.class
+SHA-256-Digest: AnKXBExaVLoP2C7pGLHRSRJtNxpJwzNYNfhBvm27HAc=
+
+Name: bin/repast/simphony/dataLoader/engine/JDBCDataLoaderControllerActi
+ onIO.class
+SHA-256-Digest: VWFZ9v4iIHnDS3MNvb4DL5kCKeT2DH0U29Y5QiMCAyM=
+
+Name: bin/repast/simphony/dataLoader/wizard/JDBCDataLoaderOption.class
+SHA-256-Digest: PGSk7PQEV7re1g1nbswAic8BHqZovlzHMUdD4tAEqMs=
+
+Name: bin/repast/simphony/freezedry/datasource/JDBCDataSourceTest$FooBar
+ .class
+SHA-256-Digest: qfVvndIdjcOtAZMsgW4KBNq6JoLqFCTrcUDUYqBZMmA=
+
+Name: bin/repast/simphony/dataLoader/engine/JDBCDataLoaderControllerActi
+ onIO$1.class
+SHA-256-Digest: YsEVJ/Yx5wpwjq/ePBQUWJiftVNpX0EL/CPe7DZMS1E=
+
+Name: bin/repast/simphony/freezedry/datasource/JDBCConnectDialog$3.class
+SHA-256-Digest: gGHRns1QWdWaqKh1OLMIMDzU07wAfHUcZE2Y1PESGas=
+
+Name: bin/repast/simphony/freezedry/engine/JDBCFreezerActionIO.class
+SHA-256-Digest: 894UROyTevKH/DWVW40IOscSqVxw3hfC1XQTFQ4uSBw=
+
+Name: bin/repast/simphony/freezedry/datasource/JDBCContextBuilder.class
+SHA-256-Digest: cG8nTZy2/EGZgHLQfcsOy8TkrUwiMnbOLyZDh3OezMw=
+
+Name: bin/repast/simphony/dataLoader/engine/JDBCDataLoaderControllerActi
+ on.class
+SHA-256-Digest: 5a+NXTPyoIFVgMk/saZ3hoUPonjlo3/oIGE0mE80OZ4=
+
+Name: licenses/repast-license.txt
+SHA-256-Digest: y/WWD+XMIn28sQPcFo5mhBza8yO0utPboFG9ohz9ecc=
+
+Name: bin/repast/simphony/dataLoader/wizard/JDBCContextActionBuilder.cla
+ ss
+SHA-256-Digest: TMhi7VgN2nytrrYq6T7Tj/s07HRUy3FzRanERYtJ+/0=
+
+Name: bin/repast/simphony/dataLoader/wizard/JDBCDataStep.class
+SHA-256-Digest: tYWfqAssqONBaeXUyQ8ilWQJjzrrlYpk1ItchivnUlk=
+
+Name: bin/repast/simphony/freezedry/datasource/JDBCConnectDialog.class
+SHA-256-Digest: 40RiXHuqiy9wwy4Z+UY4fsp27wF9yIj+0/fz+k2P2V8=
+
+Name: bin/repast/simphony/dataLoader/gui/JDBCDataLoaderActionEditorCreat
+ or$JDBCDataLoaderActionUI.class
+SHA-256-Digest: 3jPghrVG2xgYccEJa4+78Q1ZJ58WVFCnj9v/w7sDfX0=
+
+Name: bin/repast/simphony/freezedry/engine/JDBCFreezerControllerAction.c
+ lass
+SHA-256-Digest: KLglQakJMJkjiSNQRQxPRF9S2iSSsmHvE3R/PYeR9Gk=
+
+Name: bin/repast/simphony/dataLoader/gui/JDBCDataLoaderActionEditorCreat
+ or.class
+SHA-256-Digest: HJxmZ/3rWBWBHhoV/261LJX6a5PW4fk+H7JqdxEh94I=
+
+Name: licenses/apache-license.txt
+SHA-256-Digest: G5wXnCePZwBQVkqtDmLIi92zNJ8z+BxQJ05nB7nHDRk=
+
+Name: bin/repast/simphony/dataLoader/wizard/JDBCDataLoaderDataChooserSte
+ p.class
+SHA-256-Digest: rMLa1Uik74rwrx78sGUZJUgQQB+xV9mGLJ71xE3X/Tk=
+
+Name: lib/commons-dbcp-1.4.jar
+SHA-256-Digest: MJRIvQCHiyzeOm+h5/26T/LNKlsbIT0ihYIyXzB6WHQ=
+
+Name: lib/commons-pool-1.6.jar
+SHA-256-Digest: FhccNpJjIt770JlUwpCVfi3pQh7GwDhgdv9f3u0DRLY=
+
+Name: bin/repast/simphony/freezedry/datasource/DBUtils.class
+SHA-256-Digest: iVybhM2F5Rc/a0ic7viEVioW9NIZA57ZsUCptmRAaBU=
+
+Name: bin/repast/simphony/freezedry/gui/JDBCFreezerActionEditorCreator.c
+ lass
+SHA-256-Digest: sCDWvF+/Rvt4CxI3mdjQWLv/maEfU53up2sU3CcVQ7M=
+
+Name: bin/repast/simphony/freezedry/engine/JDBCFreezerActionIO$2.class
+SHA-256-Digest: yWgIEgsA7MH/h81QCxw9Xgv5tTYO590hV2IwsSKxXHM=
+
+Name: bin/repast/simphony/freezedry/gui/JDBCFreezerActionEditorCreator$J
+ DBCFreezerActionUI.class
+SHA-256-Digest: 4F9yQW0y2cVVxqxnGFheT0UZUf5e1zNTPCWQd0Wgzxg=
+
+Name: bin/repast/simphony/freezedry/datasource/JDBCDataSource.class
+SHA-256-Digest: Ncm9flO5W0p3GaW9S7GYW2IirXmyGPdqsvP/gPbRHEA=
+
+Name: bin/repast/simphony/freezedry/datasource/JDBCConnectDialog$2.class
+SHA-256-Digest: 2cNnRtDG2B+fn66NU1A3tP2X0HcVWwHETmMwJwG0WE8=
+
+Name: plugin_jpf.xml
+SHA-256-Digest: QEMrNsEz9bF/6qvLz7VBz+F8w98kumZ/RPvyeR13rz0=
+

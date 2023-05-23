@@ -1,0 +1,145 @@
+Signature-Version: 1.0
+Created-By: 11.0.12 (Eclipse Foundation)
+SHA-256-Digest-Manifest: /lNBgOQ7Zjxz5Kr8m3eZpQW3ZOhhRMEAaOsL9oagPDE=
+SHA-256-Digest-Manifest-Main-Attributes: 8fBXiu/oB/bthUr3KeDsFqkG9liHvRx
+ uAgj1FwZiYEc=
+
+Name: bin/repast/simphony/statecharts/scmodel/provider/PseudoStateItemPr
+ ovider.class
+SHA-256-Digest: r+JFpUh7JcV8T82wv1b3kg4TxLRBbzqU5kPuz5qjirw=
+
+Name: plugin.xml
+SHA-256-Digest: J01byDiOmAsAL+JniAlfV5l5H7y9Rvf+M5v14M3JG/Q=
+
+Name: bin/repast/simphony/statecharts/scmodel/provider/StateItemProvider
+ .class
+SHA-256-Digest: yNdkLGqI7ye8VY2skRyUfwU3ZPMgC4pjFUKNgaeii+Q=
+
+Name: icons/full/obj16/Choice-16.png
+SHA-256-Digest: V41wEmh9MC/ClO2qh3E0Em+XeNXd2rG7KlqFlvtQajc=
+
+Name: icons/full/ctool16/CreateStateMachine_states_CompositeState.gif
+SHA-256-Digest: Pp3zHzoCORV0qnur5CIy4GVbZzgA/BlCCb33BptQ6Ag=
+
+Name: bin/repast/simphony/statecharts/scmodel/provider/AbstractStateItem
+ Provider.class
+SHA-256-Digest: 68K9/poY+h/qmDPjH8jrbXv4hIyAaK0Wa0ofx8jSyTc=
+
+Name: icons/full/ctool16/CreateCompositeState_children_State.gif
+SHA-256-Digest: nxLha9a4rzX7q0l+yTjr/kuP2XimK/giT/ZH6wkJgJc=
+
+Name: icons/full/ctool16/CreateStateMachine_states_EntryState.gif
+SHA-256-Digest: JQ4201yE1M9VGFJluroH+l1bYQIQGLj/WhVhDt9u6wY=
+
+Name: icons/full/obj16/First-State-16.png
+SHA-256-Digest: BzmIbvh/5PgphLbxEaxYSQN/DWm8aP5cDgMwfkXhYJM=
+
+Name: icons/full/ctool16/CreateCompositeState_children_CompositeState.gi
+ f
+SHA-256-Digest: 8RHrI4xsVvtINCwujLwNp2ANln3MZhScZ45QEBjT+68=
+
+Name: icons/full/ctool16/CreateCompositeState_children_History.gif
+SHA-256-Digest: NclJT5a0KldhibbiQ0T/YZ5AYaF4XalT0XMnh7Z7Crc=
+
+Name: icons/full/obj16/transition-16.png
+SHA-256-Digest: HbQE3lDc20hYK4A1FXPhnRItWZ3O8SBbQwumxS0Wm78=
+
+Name: bin/repast/simphony/statecharts/scmodel/provider/CompositeStateIte
+ mProvider.class
+SHA-256-Digest: Sv2iqAnMxNexwUTYeLRe7imj5Id8z+fOEQp78eSAmd4=
+
+Name: icons/full/ctool16/CreateStateMachine_transitions_Transition.gif
+SHA-256-Digest: nmz7VZjJcU2x+FJsvSao/jsYFeQ2Jm2Mb0iyw7g81fE=
+
+Name: icons/full/obj16/Shallow-History-16.png
+SHA-256-Digest: NPmPgV9HWNRp+KgHlQWauCEewvK54TVf5j601oM4RpE=
+
+Name: bin/repast/simphony/statecharts/scmodel/provider/StatechartEditPlu
+ gin.class
+SHA-256-Digest: S0BINHWE7Xd7k3PsgkaZpMhLHoo2BVVspBgrHs9GuHg=
+
+Name: icons/full/ctool16/CreateCompositeState_children_FinalState.gif
+SHA-256-Digest: HWP+3tukyzKlJczMThQ4lQAgE8skubmhNumSBT9s9MM=
+
+Name: icons/full/ctool16/CreateStateMachine_states_FinalState.gif
+SHA-256-Digest: DNSB/NH79FsCL/UQWYAWvHQl1T8cGQgzTOVzBamhD5E=
+
+Name: icons/full/obj16/Deep-History-16.png
+SHA-256-Digest: g22n1EPoIJLKoQD+V4TvPD9vMyFBOnvBPRC8t8msoq8=
+
+Name: bin/repast/simphony/statecharts/scmodel/provider/StateMachineItemP
+ rovider.class
+SHA-256-Digest: /GsXK3kVKEK43PzSu9ANAFg1t8V/HzUpSxilWnLnVfc=
+
+Name: bin/repast/simphony/statecharts/scmodel/provider/StatechartEditPlu
+ gin$Implementation.class
+SHA-256-Digest: rTszecVeU25+QdaWRv8hIlPKUaGgVgQ47XYmdKVgnT8=
+
+Name: icons/full/ctool16/CreateCompositeState_children_DeepHistory.gif
+SHA-256-Digest: 4V7unaOiJ1w332+0AoqytBeLu0eXVrFvFuMiRTMGcHQ=
+
+Name: icons/full/ctool16/CreateCompositeState_children_ShallowHistory.gi
+ f
+SHA-256-Digest: va2EXMDK8L5gGikGxhdAL7GOuVksUc+hZr0sq2mRuio=
+
+Name: plugin.properties
+SHA-256-Digest: XMYhzjr0Puxab37O4aQz6q9+uE06CkjijvjtbPvnp/Y=
+
+Name: icons/full/ctool16/CreateCompositeState_children_PseudoState.gif
+SHA-256-Digest: 79d0Hq0l1RS/Fhuy47J3j4KDQ/faD/sdorggWL4vKKU=
+
+Name: icons/full/ctool16/CreateCompositeState_children_EntryState.gif
+SHA-256-Digest: +609KJAkL6R6vepQzHlB40yG0iac7oF/MHQzKJudu7Q=
+
+Name: icons/full/ctool16/CreateStateMachine_states_DeepHistory.gif
+SHA-256-Digest: jMW3PT83zWf6esU80p0OgQ92okAnzsuLoyNHfh6UMcs=
+
+Name: icons/full/ctool16/CreateStateMachine_states_ShallowHistory.gif
+SHA-256-Digest: erZPOrmc9IewQKZk62lmWlwlKWkOJDI7c2ly1CyzGQA=
+
+Name: bin/repast/simphony/statecharts/scmodel/provider/HistoryItemProvid
+ er.class
+SHA-256-Digest: Sve+6fpNwKFYgg/dqISofwe64i/AtDw6J99Sap8NB+E=
+
+Name: icons/full/ctool16/CreateStateMachine_states_History.gif
+SHA-256-Digest: M18S4WoX0OiNIa+RSYMZJ7XUJ3OdGn30q0pmJUnfkXw=
+
+Name: icons/full/obj16/Final-State-16.png
+SHA-256-Digest: kTCoh2kdBgl1V2DKxpCSb+6aEoeKrGO1FYmlLmwS55o=
+
+Name: icons/full/ctool16/CreateStateMachine_states_State.gif
+SHA-256-Digest: 58yvQTFmW2ISg3kcNMiskkBMa9zi0vcVMSBnp+bwerY=
+
+Name: icons/full/ctool16/CreateStateMachine_states_PseudoState.gif
+SHA-256-Digest: AVHZKRODovdDXloLLe+DSfYidXu3K8CUgU8WSByCY2Y=
+
+Name: icons/full/ctool16/CreateCompositeState_children_EndState.gif
+SHA-256-Digest: X1yXvfDXxrUImnd3JGQMTSvSKI739wa6j4dHQX0k0KM=
+
+Name: icons/full/obj16/Initial-State-16.png
+SHA-256-Digest: rqT2AO7nnf+8cYQSxEZUemh6mOwVn70EElAY7uxpozg=
+
+Name: bin/repast/simphony/statecharts/scmodel/provider/FinalStateItemPro
+ vider.class
+SHA-256-Digest: sWomfDp4ACfS4aumLmyrSU0f4CqFwgfZNVcWmvZ5LLg=
+
+Name: icons/full/obj16/Composite-State-16.png
+SHA-256-Digest: c/FshI4n5DgwE/fniZvU2rXMQkDzNaijl0HyO470WVs=
+
+Name: icons/full/obj16/StateMachine.gif
+SHA-256-Digest: iSwrq+YCRZwEc2ONubXgj+dNqGfczz42PRPtplizj9k=
+
+Name: bin/repast/simphony/statecharts/scmodel/provider/TransitionItemPro
+ vider.class
+SHA-256-Digest: HmiynvesPeM2xBFdlZjlcawf4vFE7pG7TEFHi8YI4qQ=
+
+Name: bin/repast/simphony/statecharts/scmodel/provider/StatechartItemPro
+ viderAdapterFactory.class
+SHA-256-Digest: ZlZlDVRS/U7Zg8EpS/0Z8qTDENZLwMoQLcLH0q85Wgk=
+
+Name: icons/full/ctool16/CreateStateMachine_states_EndState.gif
+SHA-256-Digest: wSYflXzdBsU03BpSIySpyLK/sDY/AkoUxRGhXaDQT/4=
+
+Name: icons/full/obj16/State-16.png
+SHA-256-Digest: +MmnYIqQWIi/FpoxwpW9K318+aVrxfcLANUfOb9RGlE=
+

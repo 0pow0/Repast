@@ -1,0 +1,51 @@
+Signature-Version: 1.0
+Created-By: 11.0.12 (Eclipse Foundation)
+SHA-256-Digest-Manifest: vMwKd49aXuvgOlXYKxeMxKnjuA5nE7wiJpFKet38XSQ=
+SHA-256-Digest-Manifest-Main-Attributes: Pb1P/zcdGt2orfJj8OKFxHrCDOKRFPZ
+ FpU47Pq3YD8g=
+
+Name: bin/org/josql/contrib/JoSQLSwingTableModel.class
+SHA-256-Digest: emHpj5gZRREoLp3Z75OFj9llkDZ48Dsg90hKdv/ppio=
+
+Name: bin/repast/simphony/sql/RunSQLModel.class
+SHA-256-Digest: hJd2tMoLU5LfTtfgaHhJ4smh3W3Q5raa+EXIHfyI7BA=
+
+Name: bin/repast/simphony/sql/SQLWindow$2.class
+SHA-256-Digest: o18+Q3eJQo5kTxMV9dS1hpiyIfWrNTJ19PmNY7ENTlA=
+
+Name: bin/repast/simphony/sql/SQLWindow$3.class
+SHA-256-Digest: B+cbQOlbBb/ChMQrLb5w6dZilD/AHz7qJ1WmN/tw0oI=
+
+Name: licenses/repast-license.txt
+SHA-256-Digest: OiLqoygTE6vasbSFEGEJChgkBjTMACDWztuXCGv4an4=
+
+Name: lib/JoSQL-2.2.jar
+SHA-256-Digest: 7l0x56fw8C+VRXRp4n4GUnhMbQTg+pfa5DJhiSMrEDo=
+
+Name: licenses/JoSQL-license.txt
+SHA-256-Digest: 9GuSMn90cp3yODp5gFbZRekcjd41YGqCAyByhVOiNVI=
+
+Name: bin/repast/simphony/sql/SQLWindow$4.class
+SHA-256-Digest: Zt7Ka5CBlbRa47z9FtWoDMz6rygJlQTjXvlGrZOO4r8=
+
+Name: icons/sql.PNG
+SHA-256-Digest: PxsgJU/+y0JktIsfI4E7yc26A21iZ029u/sloITSf9k=
+
+Name: bin/repast/simphony/sql/SQLWindow.class
+SHA-256-Digest: eyy+/i29CrkMLliPbrPE3lK7qNrwloFShGH9YA6/Yos=
+
+Name: bin/repast/simphony/sql/SQLWindow$5.class
+SHA-256-Digest: G8klcQtBADWIj0ZQotV2MBdmLvSymSe4sxK5/XKC+co=
+
+Name: lib/gentlyWEB-utils-1.1.jar
+SHA-256-Digest: A05MugurrCbDQ3bRAkZ7Qn2irnnRsLuEwCYoqAhvO0Q=
+
+Name: bin/repast/simphony/sql/SQLWindow$1.class
+SHA-256-Digest: L8xdouYXXGxYSHEz/qqmo+d/dxupKzwlG9ASMScfy6Y=
+
+Name: bin/repast/simphony/sql/RepastJoSQLFunctionHandler.class
+SHA-256-Digest: 4W1jLMGUUQ7XPPVW4IIW1v7WLKv0k5/jlM1aUz+SJ9c=
+
+Name: plugin_jpf.xml
+SHA-256-Digest: m9QEb3kw6291gfNGED+WaW/5/gKaiTSaCou8CqkvEGY=
+

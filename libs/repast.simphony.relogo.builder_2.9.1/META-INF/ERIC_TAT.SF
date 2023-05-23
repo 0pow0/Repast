@@ -1,0 +1,172 @@
+Signature-Version: 1.0
+Created-By: 11.0.12 (Eclipse Foundation)
+SHA-256-Digest-Manifest: Y/vKs6awvMZAGiEOequvyze9pAb1fQKpghmEJDxWXwo=
+SHA-256-Digest-Manifest-Main-Attributes: /JlgRy85glcwfJWMFqyED3uOvHE/Xa0
+ olutlIhwAkT8=
+
+Name: bin/repast/simphony/relogo/ide/handlers/PropertyInfo.class
+SHA-256-Digest: W5tFVo5EPI2KP6aZAtC/ksDJFHhLX25V+PGp/QWRJLc=
+
+Name: bin/repast/simphony/relogo/ide/handlers/TypeSingularPluralInformat
+ ion.class
+SHA-256-Digest: Mv+/1x91acX76725jfXibZ2HOooYTygB2UubHBF/5wo=
+
+Name: plugin.xml
+SHA-256-Digest: q2OrxbTu0JkgQLZJv88RVZxhGqk3cgvV0QBHOcwLMUg=
+
+Name: bin/repast/simphony/relogo/ide/handlers/ContextAndDisplayUtilsGroo
+ vy$_checkToModifyContextFile_closure5.class
+SHA-256-Digest: 02rDPobPWQHU2Hj08jmLMC4kZc3AJHg59XLFD6wLkb4=
+
+Name: bin/repast/simphony/relogo/ide/handlers/ReLogoBuilder$Instrumentat
+ ionInformationDeltaVisitor.class
+SHA-256-Digest: 9cgU74LhOzDn2knpvd7KTPG2mbqnJU2Dg5xWHXffO1Q=
+
+Name: bin/repast/simphony/relogo/ide/handlers/ReLogoBuilder.class
+SHA-256-Digest: Tefa4hT9a43VecMuiVypLG6G+6OPzEVZi2APFFlRdAM=
+
+Name: bin/repast/simphony/relogo/ide/handlers/ContextAndDisplayUtils$Def
+ aultDisplayFinder.class
+SHA-256-Digest: bY5unUwOnl5j9eI3abtMjI9nD5fMDAsurR5pf3QSJKk=
+
+Name: bin/templates/reLogoOTPLclasses.stg
+SHA-256-Digest: fsLiGEUV4rUgS0WOgo2NzBlKn3g3NOZBOItmo8fdTaU=
+
+Name: bin/repast/simphony/relogo/ide/handlers/ContextAndDisplayUtilsGroo
+ vy$_getDisplayFileContents_closure9.class
+SHA-256-Digest: kaj3HADKNy7zPCKbXi4QnWY03dW4vbwbFHG+qFaS4i4=
+
+Name: bin/repast/simphony/relogo/ide/handlers/ContextAndDisplayUtilsGroo
+ vy$_getDisplayFileContents_closure11.class
+SHA-256-Digest: 1A7qXic51QWJyN0zYTNC7ExT7vzqyT5/AsSSeXJpCUI=
+
+Name: bin/repast/simphony/relogo/ide/handlers/ContextAndDisplayUtils$Def
+ DisplayReturner.class
+SHA-256-Digest: dK2ivablhq8u486HOxd31sJ+VqhwNc2CxF2SNzPzqFk=
+
+Name: bin/repast/simphony/relogo/ide/handlers/ContextAndDisplayUtilsGroo
+ vy$_getDisplayFileContents_closure11$_closure15.class
+SHA-256-Digest: CkovTE9idAweXDxY13hPKKS6ueXXUwKKldIaK9wKFHM=
+
+Name: bin/repast/simphony/relogo/ide/handlers/ContextAndDisplayUtilsGroo
+ vy$_checkToModifyContextFile_closure4.class
+SHA-256-Digest: Z+13cYlwWLodl+eGmP/dFHVLjy9kOfE0noFlK6tlmB8=
+
+Name: bin/repast/simphony/relogo/ide/handlers/Instrumenter.class
+SHA-256-Digest: rEusD6Uzi9HTDFZQie5vlwkLnXsvK10rSw1IcfKRI7k=
+
+Name: bin/repast/simphony/relogo/ide/handlers/ReLogoBuilder$FullBuildIns
+ trumentationInformationVisitor$2.class
+SHA-256-Digest: ZRPLPs30E6/uJCzXYSqmU5GibN3aEDC3l1+dsPP9qvg=
+
+Name: bin/repast/simphony/relogo/ide/handlers/ContextAndDisplayUtilsGroo
+ vy$_getDisplayFileContents_closure7.class
+SHA-256-Digest: 9r3J7URGnLI6PPzAaOMrM/vyx6w6Wtf+nD75b26mfGY=
+
+Name: bin/repast/simphony/relogo/ide/handlers/ReLogoBuilder$PreliminaryR
+ eLogoVisitor$1.class
+SHA-256-Digest: 1wvnGazcWdZ01SnzHFfMDXb/AN2MUpX8GWrXpbAxvCs=
+
+Name: bin/repast/simphony/relogo/ide/handlers/ReLogoBuilder$PreliminaryR
+ eLogoVisitor.class
+SHA-256-Digest: Sos4xvfeo0r05E82VhH0Ja6aA4xrwA3SG2Lu3yNF2CM=
+
+Name: bin/repast/simphony/relogo/ide/handlers/ContextAndDisplayUtilsGroo
+ vy$_getDisplayFileContents_closure8$_closure12.class
+SHA-256-Digest: mXNkxLKimedl9iPWZP8njSEvaBFZVIORnp6Pl9OrIUs=
+
+Name: bin/repast/simphony/relogo/ide/handlers/ContextAndDisplayUtilsGroo
+ vy$_getDisplayFileContents_closure8.class
+SHA-256-Digest: HmaP6eYR50PbFxQT6km9R5l2bONVyfvG++HOnjWVyBI=
+
+Name: lib/ST-4.0.7.jar
+SHA-256-Digest: WXtbWS3JtvB4UjxF02GhitkwDMo+7H2h/WETXXwI3Dc=
+
+Name: bin/repast/simphony/relogo/ide/handlers/ContextAndDisplayUtilsGroo
+ vy$_getDisplayFileContents_closure11$_closure15$_closure16.class
+SHA-256-Digest: Aza1KNhuqkWD6kR1iA1rDkdLgUdwY9T97dqktCljxoc=
+
+Name: bin/repast/simphony/relogo/ide/handlers/ITypeUtils.class
+SHA-256-Digest: uX72HwksHMTv7JZtGIa8A2zfFr1BWzxVFOccRYPRW4I=
+
+Name: bin/repast/simphony/relogo/ide/handlers/ReLogoBuilder$ReLogoResour
+ ceResult.class
+SHA-256-Digest: n6+x0OJxkrUNAycFfXPmW7QtLAC439Wg5El83/G8RG8=
+
+Name: bin/repast/simphony/relogo/ide/handlers/ContextAndDisplayUtilsGroo
+ vy$_getDisplayFileContents_closure10$_closure14.class
+SHA-256-Digest: pm/I9GJzm3uXZ6LKAa8d0FpnvrtHJ3EXnE99y+YFyj4=
+
+Name: bin/repast/simphony/relogo/ide/handlers/ContextAndDisplayUtils.cla
+ ss
+SHA-256-Digest: e/o9FNMy+Dv7qJYuiSCcIZaeQqKtsqcgLyUWOUNyuk8=
+
+Name: bin/repast/simphony/relogo/ide/handlers/PatchPropertiesInferencing
+ Tests.class
+SHA-256-Digest: i4Z878C21+8eYdTjq2lSAVsqgeTiwggB084v0HYcC3I=
+
+Name: bin/repast/simphony/relogo/ide/handlers/InstrumentingInformationHo
+ lder.class
+SHA-256-Digest: zvotUGJRV4OdGCPPQuHRG48u4T6RbZxMa97zbgSFz20=
+
+Name: bin/repast/simphony/relogo/ide/handlers/GeneratedByReLogoBuilderFi
+ lter.class
+SHA-256-Digest: QEVclMYoQ8tm+bYJd7AJhZPlZ/q5ydpXReHeUikh8Hg=
+
+Name: bin/repast/simphony/relogo/ide/handlers/ContextAndDisplayUtilsGroo
+ vy$_getDisplayFileContents_closure10.class
+SHA-256-Digest: iNSXnQWlLm0pjn8Pp6InwZ0+zZrYErhTOsALzWvAbeA=
+
+Name: bin/repast/simphony/relogo/ide/handlers/ContextAndDisplayUtilsGroo
+ vy$_checkToModifyContextFile_closure3.class
+SHA-256-Digest: 7aa4HAMBmjsytFhc8SG6WCmsciANROaK14XvslbeXU0=
+
+Name: bin/repast/simphony/relogo/ide/handlers/ContextAndDisplayUtilsGroo
+ vy.class
+SHA-256-Digest: cmOhA8nIjpWmWJo0cNRSt80awmXeZNVhyBbkoim+Wck=
+
+Name: bin/ReLogoBuilderInstrumenting.stg
+SHA-256-Digest: WUkKF1y7ZEV7IKFQZKOVbD4ydwwN+PqorVKpUou0pMI=
+
+Name: bin/repast/simphony/relogo/ide/handlers/InstrumentingInformation.c
+ lass
+SHA-256-Digest: mSZFgskOS8by2l9OFtjWGAIcf9NgWuNS/kynIIlrZ0k=
+
+Name: bin/repast/simphony/relogo/ide/handlers/ContextAndDisplayUtilsGroo
+ vy$_plainPrettyPrint_closure1.class
+SHA-256-Digest: 94MAroBN7Ay9MhwaDbd+PPszUYiDLLwJ8nshmaHR0CQ=
+
+Name: bin/repast/simphony/relogo/ide/handlers/ReLogoBuilder$FullBuildIns
+ trumentationInformationVisitor.class
+SHA-256-Digest: Km7xA/pIfgssGZneDqUqleuMzJ8G5gY4bXhZr7BW1YI=
+
+Name: bin/repast/simphony/relogo/ide/handlers/ContextAndDisplayUtilsGroo
+ vy$_getDisplayFileContents_closure6.class
+SHA-256-Digest: SdxtNMI19m5R7zjg9ElmwhKeAQXMt/FMiTW3eH4rDcs=
+
+Name: bin/repast/simphony/relogo/ide/handlers/PatchTypeFieldNameFieldTyp
+ eInformation.class
+SHA-256-Digest: UCyhpCb4YWFoZxqlrkhlBCURlE/Cf6qHFx66O1yNn5A=
+
+Name: bin/repast/simphony/relogo/ide/handlers/ReLogoBuilder$FullBuildIns
+ trumentationInformationVisitor$1.class
+SHA-256-Digest: CF8KqtmnkbmIrMpOwi7F7KydIWEYmhg8kp3bsyw5U1U=
+
+Name: bin/repast/simphony/relogo/ide/handlers/GeneratedFilesInformationH
+ older.class
+SHA-256-Digest: BYdjrWhMNZ8FYoRlsh7fQlslPkOydDTMX4kS6gpdhD0=
+
+Name: bin/repast/simphony/relogo/ide/handlers/ContextAndDisplayUtilsGroo
+ vy$_prettyPrint_closure2.class
+SHA-256-Digest: O0Ikwvg4A93jUpRlavU1zneDKGQle2xDUqNeEUs7KUY=
+
+Name: bin/repast/simphony/relogo/ide/handlers/ContextAndDisplayUtilsGroo
+ vy$_getDisplayFileContents_closure9$_closure13.class
+SHA-256-Digest: NMGYLKfQ8YA2wOVIvhY6IMg1IjQlGjbgdgnpBMwPiDU=
+
+Name: bin/repast/simphony/relogo/builder/Activator.class
+SHA-256-Digest: CPPlvQc6+XFJlRPVwTP9vhipP4zWcCsD7mqlXFEtRm0=
+
+Name: bin/repast/simphony/relogo/ide/handlers/ReLogoNature.class
+SHA-256-Digest: QpWIi2sy3wUwWi25Jb2gC8zLASqqaMGwZl283TbJwXk=
+

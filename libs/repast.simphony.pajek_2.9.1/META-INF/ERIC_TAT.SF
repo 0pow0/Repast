@@ -1,0 +1,24 @@
+Signature-Version: 1.0
+Created-By: 11.0.12 (Eclipse Foundation)
+SHA-256-Digest-Manifest: yDuXYBt4quLKtfHs9pFp3dszbaxP+fGjncgKSuRJcDQ=
+SHA-256-Digest-Manifest-Main-Attributes: CIGZ3K0XGeYMxt/2U3MxjJ2Q7Yhq1Iz
+ 39MiCE2E4t28=
+
+Name: bin/repast/simphony/pajek/PajekWizard.class
+SHA-256-Digest: HwIYAlpxuX9cuEoENwm1IcRmJuZDuBBo4cBajEeGgq8=
+
+Name: licenses/repast-license.txt
+SHA-256-Digest: OiLqoygTE6vasbSFEGEJChgkBjTMACDWztuXCGv4an4=
+
+Name: bin/repast/simphony/pajek/RunPajekModel.class
+SHA-256-Digest: aiSXQzT2fAwQ58TkBqtRdpw4AgNiN8+N43uftR61v7Q=
+
+Name: bin/repast/simphony/pajek/license.txt
+SHA-256-Digest: W/piJUD8GcAptwcpnhykR0Iit01XFzay523PuyscA1s=
+
+Name: plugin_jpf.xml
+SHA-256-Digest: qykBKnYEbjCSBxlHqxF2Z5odR9SfO+bUnfoHH1UbEjI=
+
+Name: icons/pajek.PNG
+SHA-256-Digest: WNV21WmQ0q/MCTyxJm3vR1e+aY8rq93P6vBuB4LW+8U=
+

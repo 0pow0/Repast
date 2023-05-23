@@ -1,0 +1,105 @@
+Signature-Version: 1.0
+Created-By: 11.0.12 (Eclipse Foundation)
+SHA-256-Digest-Manifest: KVp2o83NKl83xhb/B2hiYCb4n9NwEm2BrQVN5Yzp0rw=
+SHA-256-Digest-Manifest-Main-Attributes: FYRD9CVRS8IonScNA0gQlwOP+YBg0nN
+ mC2OjHErYrfo=
+
+Name: lib/jh.jar
+SHA-256-Digest: ho3nwn8fmskwn6AHg1dKnVRYxlyOFwm9dK9nVEcvWtc=
+
+Name: icons/max_default.png
+SHA-256-Digest: 7ZFqQHr4bi0dyG0yKmP/1vnxpODwNYCITDeFhamg9eM=
+
+Name: licenses/table-layout-license.txt
+SHA-256-Digest: mZQ0b5ARtWJrfZE56Blfq3O3d6s9AJ8P46mMe27Sk8I=
+
+Name: icons/gohome.png
+SHA-256-Digest: 9UTv6iG/K8XYuUh5LcVjYQhjhnxn3f/yiOh7F60I4n4=
+
+Name: licenses/forms-license.txt
+SHA-256-Digest: se41JfdUGm+qO2hSKL1G/qkIG+qMWxcl50SYS79nrvc=
+
+Name: icons/restore_active.png
+SHA-256-Digest: m/GZ7Vp3SiYZG9boyylAoltiCYCfQJ5gW6X2H98L72w=
+
+Name: icons/min_default.gif
+SHA-256-Digest: lPtl1BB0RlBpqkpN6/Eih2IUEgBe/OYYG32RYEmHcBA=
+
+Name: licenses/jh-license.txt
+SHA-256-Digest: NIMW/Wn1AMTjQvu8Q5dWs8KlcDRIyl1qM00THGFVBhU=
+
+Name: lib/osx.jar
+SHA-256-Digest: nHgQLMI6PZEXxKkSGZubsvJ3TzNVzZCKt1eN6qXDKgY=
+
+Name: lib/jgoodies-forms-1.7.1.jar
+SHA-256-Digest: r6a9lon7olZ5SfS2WIkE2zXNQVkobp1gVcYKyInmlcQ=
+
+Name: osx_build.xml
+SHA-256-Digest: 4BXsWTioHHTRrjrPwiAqG1mGHeS1nn+ucAABGUStKbw=
+
+Name: icons/min_active.png
+SHA-256-Digest: RVFFH8NWtSjw12a6rHoncQDBfQLNHklALLK73o4Jd7c=
+
+Name: licenses/lgpl-2.1.txt
+SHA-256-Digest: RZjNtfT0nTXZnmI+dsSUd6DHq8zwCBUAXHV21201qeI=
+
+Name: icons/f.png
+SHA-256-Digest: MIn+CTxl7W3PhJvq/QyBqnMfOkst0aTREJcEIuyxrHc=
+
+Name: lib/TableLayout.jar
+SHA-256-Digest: /qXBBh7AP+WNKPS19aGDvzLBXasU7kdjCPlMeVwdk6A=
+
+Name: icons/max_active.png
+SHA-256-Digest: KruC6m9yXGyjw9S7C9s14ZemDNAZ/3Qz0IvyfP9XTs0=
+
+Name: icons/restore_default.png
+SHA-256-Digest: WHuT2jhaznMBrZX0XMIcJpybO+qAEI0XVk2isOUHZXk=
+
+Name: osx/saf/core/ui/OSXAdapter.java
+SHA-256-Digest: o4ZTSLDTW2upGbK6c4e2GAvzwXeMzzeLzCDSKiHFbuQ=
+
+Name: icons/float_active.png
+SHA-256-Digest: ownX8dj3cn8PyfrLgy+vTi2R1M90uAqTZjJCD1jI2zc=
+
+Name: licenses/repast-license.txt
+SHA-256-Digest: OiLqoygTE6vasbSFEGEJChgkBjTMACDWztuXCGv4an4=
+
+Name: saf.core.v3d.jar
+SHA-256-Digest: c7Oj97w8Rp7+FK5uvmjVWV1KUJTcSEhSKIQx1dtj5Gw=
+
+Name: lib/l2fprod-common-all.jar
+SHA-256-Digest: BWFf1LIMC3GiwbwMtL7q97kAEUnLgV/HQ6yJ5QFNhsI=
+
+Name: icons/FolderIn.png
+SHA-256-Digest: o4zrwsn4Qupvm/eb+86i/Gk/jPFrvhPGh9nZLR4oEtw=
+
+Name: icons/f_active.png
+SHA-256-Digest: fkW743NdjWDHXBuvWFgntCeNEH1sDo5DKhczdcDCn0g=
+
+Name: lib/dockingFrames-1.0.8p3a-saf.jar
+SHA-256-Digest: Jxft3UletkLcxPr6tRpHizuw6Clj2pbGg5nv7EG/qaA=
+
+Name: icons/folder_new.png
+SHA-256-Digest: hLIqOBcX+EccUCNbrMnTQQriz6rqOTXEV88zDuj8tnU=
+
+Name: licenses/apache-license.txt
+SHA-256-Digest: twRaGzIXWnHDuqjqUH98jByf5jLRI3B7MUKOw3IewXc=
+
+Name: saf.core.ui.jar
+SHA-256-Digest: WKVB7lOXmk58BanxU+HWcK6ivL4k8QYKEqIAU6PdF5s=
+
+Name: icons/dock.png
+SHA-256-Digest: HqtUdIcOU8yjMxLwVNGFSERFOmLqyQLLTbwymS52IcY=
+
+Name: icons/float_default.png
+SHA-256-Digest: COFLydf+t2jxU6XppYzoO13m9GuC8DDJ0WaZVi7jkRo=
+
+Name: lib/wizard-0.1.12.jar
+SHA-256-Digest: k75h0AE9/fh6muNWwbmvtD3jK8HjH0zieLwrOFocUJw=
+
+Name: plugin_jpf.xml
+SHA-256-Digest: LAJWWgTod68PYL5/ftLbx6BJrBWYSyVo1X4+W4E41nM=
+
+Name: icons/dock_active.png
+SHA-256-Digest: 7FdRQ9725kC7t6xcVw5N/xFFpGVh5svXKHieT4UGhs0=
+

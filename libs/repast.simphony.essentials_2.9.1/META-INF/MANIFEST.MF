@@ -1,0 +1,61 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Repast essentials
+Bundle-SymbolicName: repast.simphony.essentials
+Bundle-Version: 2.9.1
+Bundle-Localization: plugin
+Require-Bundle: repast.simphony.integration,repast.simphony.sql,repast.s
+ imphony.core,repast.simphony.runtime,org.junit
+Export-Package: repast.simphony.essentials
+Bundle-ClassPath: .
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: Argonne National Laboratory
+
+Name: bin/repast/simphony/essentials/TrigOutDef.xml
+SHA-256-Digest: V7DK2lDBOq8M6Uy/3u7w7e1uOTIR1lc/DBI4XDi7Gqk=
+
+Name: bin/repast/simphony/essentials/SimpleDef.xml
+SHA-256-Digest: MP8koiKeQAmilC2ZOQuGMFOkho+j0s8tl/4X6HSLV24=
+
+Name: licenses/repast-license.txt
+SHA-256-Digest: sgcGxHlhIfJK9mnMFOtvz0jBQxnJYR0r5EDSz4qPlYU=
+
+Name: bin/repast/simphony/essentials/SimpleDataObject.class
+SHA-256-Digest: 8K/P+jpkJHlATw3jeImDmx9SYyDi4l3WyQ3Ce5nTCRE=
+
+Name: bin/repast/simphony/essentials/TrigInDef.xml
+SHA-256-Digest: lOVbtH+gtkgyrl8JQn4BhTQhh6DMMpNz/fPiSMvdDxs=
+
+Name: bin/repast/simphony/essentials/simple_data_read.txt
+SHA-256-Digest: Xynu9ZmsHiLTToqRYnpjtDWAg6N09tccffJZMQfOJYU=
+
+Name: bin/repast/simphony/essentials/RETest$TestObject.class
+SHA-256-Digest: KxBs3L+Rjh+XRLO6ob65X7I1w4v6nsPq1tcH3y/xvvo=
+
+Name: bin/repast/simphony/essentials/DevNull.class
+SHA-256-Digest: suoFop2z40Avs9K7/DO7ptDy/TRO9a4dnf0Y6cELtjI=
+
+Name: bin/repast/simphony/essentials/RepastEssentials.class
+SHA-256-Digest: Fz7GZgs6XT8Coy0slEvMRBXO6aObRymhu4W80g3oXMc=
+
+Name: docs/RepastEssentials.doc
+SHA-256-Digest: PP94FVS1UfxE4MHa8ytIM/yOTiSk5rq+kaFTg2R4CI4=
+
+Name: bin/repast/simphony/essentials/simple_data_write.txt
+SHA-256-Digest: zB/Os/vGMtd+N8vkXXIspPzvTpDHDFTwliFZGTAiCe0=
+
+Name: bin/repast/simphony/essentials/TrigInDef.xml.temp
+SHA-256-Digest: /gFdCU/N2H/jE2A/JbZxazE6YeKIg/hUbtnPCKJyPWI=
+
+Name: bin/repast/simphony/essentials/RETest.class
+SHA-256-Digest: wDkDwbVpMY48kvuy/1ZrefXoU1xPFoUJNPIhZ72Ob3Y=
+
+Name: bin/repast/simphony/essentials/RETest$1.class
+SHA-256-Digest: D8dHQ5c9E3pu2Dmc/OZwDpIbbUZA5xTQv4q5SFOfHMM=
+
+Name: plugin_jpf.xml
+SHA-256-Digest: 3YYhfKs/PaSOgGXErLVc8eVeHWPODh2Qia2NAF8SQ+s=
+
+Name: bin/repast/simphony/essentials/RETest$DataObject.class
+SHA-256-Digest: DNaiqSdm8s7a7PE5N8OnFz6ZUqgknhdD2seExS5iyoc=
+

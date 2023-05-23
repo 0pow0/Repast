@@ -1,0 +1,35 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Repast R
+Bundle-SymbolicName: repast.simphony.R
+Bundle-Version: 2.9.1
+Require-Bundle: repast.simphony.gui,repast.simphony.data,repast.simphony
+ .core,saf.core.ui,repast.simphony.runtime,repast.simphony.plugin.util,r
+ epast.simphony.data.ui
+Bundle-Vendor: Argonne National Laboratory
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+
+Name: bin/repast/simphony/R/RWizard$1.class
+SHA-256-Digest: e9m1GQfq5KL9Sze2FqinngdHsGnO4Isq1KbCxjDXGHI=
+
+Name: licenses/repast-license.txt
+SHA-256-Digest: sgcGxHlhIfJK9mnMFOtvz0jBQxnJYR0r5EDSz4qPlYU=
+
+Name: icons/cakes.png
+SHA-256-Digest: OG/dK9+9P0RdsjUgpeb5UlnccKMUVUwMSzd60ABWKE0=
+
+Name: bin/repast/simphony/R/license.txt
+SHA-256-Digest: QKYH4Ia8I/EOKVO8zNzN+FfSatQLjL3JdN+Wxnj1Gvo=
+
+Name: bin/repast/simphony/R/Rprofile.txt
+SHA-256-Digest: pE7QLvfUdynNRtw3JfX5s9nz8qYTHnb5mzUXaoDOn2M=
+
+Name: plugin_jpf.xml
+SHA-256-Digest: yMpwVNbbYZhk5tW8uMnuF+8sVdPFpvS4HCnBV/80Fbc=
+
+Name: bin/repast/simphony/R/RWizard.class
+SHA-256-Digest: jsPtPeyGmAvKisTkb2xEFItvBOItW7ip7dBtBfcmOVQ=
+
+Name: bin/repast/simphony/R/RunRModel.class
+SHA-256-Digest: HdReZxPQMLOgwfouEaiybE554ftrGtFg6TbH+qsHSt8=
+

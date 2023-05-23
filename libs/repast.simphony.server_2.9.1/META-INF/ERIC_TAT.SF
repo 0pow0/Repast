@@ -1,0 +1,470 @@
+Signature-Version: 1.0
+Created-By: 11.0.12 (Eclipse Foundation)
+SHA-256-Digest-Manifest: TQjiqEOWheywZ7Kx0B9TEQbhh6LZMEA5V7Dw2ooS4Jc=
+SHA-256-Digest-Manifest-Main-Attributes: l1mHwp66g+ikOqv9h35Y6WF8xDqInsh
+ Eoq+bgyyb1+k=
+
+Name: web/static/js/client_openlayers.js
+SHA-256-Digest: 81o0Bn+M7/R7wFW5R7ck3TH68A+Qi/LgxwcCx2XAlyg=
+
+Name: repast/simphony/ws/WSInitializer.class
+SHA-256-Digest: 0emRh6GHsiNI0F2eA5Tt5BjJiYY+NNTAhhwfXN9mZsk=
+
+Name: web/static/styles/images/marker-icon.png
+SHA-256-Digest: Z+xrbBpQ8fhIBQbIFi5gJTZqAwOxZZSnWUgNG+9nvkA=
+
+Name: lib/jetty-security-9.4.17.v20190418.jar
+SHA-256-Digest: ePntJx4F0VqoHImEXKSPjethNeOvfMSzrla8qmwZ6Jg=
+
+Name: repast/simphony/ws/DisplayProperties.class
+SHA-256-Digest: mMxBc/3XRzrkb1Cu1ElONHq5qp+Ung+x8KnEpG2DW5c=
+
+Name: repast/simphony/ws/DisplayServer2D.class
+SHA-256-Digest: rOsYTRO8Dd7v4AH+9pEOG2kJSKfhL1FJSFwdxuJidew=
+
+Name: repast/simphony/ws/RepastWS$MessageHandler.class
+SHA-256-Digest: tzWkRJqd04C9a43+tKXFcJhCB0ZMOwMfzkK/55osf5Q=
+
+Name: bin/repast/simphony/ws/gis/ServerDisplayCreatorGIS.class
+SHA-256-Digest: BCnaIZQe3v/qgPfyu6RcXQV9VaUCYwHgaJsyjUga2y0=
+
+Name: repast/simphony/ws/DisplayServerControllerAction$3.class
+SHA-256-Digest: X7Z83ri30g9a8e6nUD9iYZPh9zHd3nIJ15hvlq/EWCk=
+
+Name: repast/simphony/ws/gis/ServerDisplayCreatorGIS.class
+SHA-256-Digest: akJafH2Pcx4+flInZowBAlAAVCxVvWrPDMFHSTk/26E=
+
+Name: lib/saf.core.v3d.jar
+SHA-256-Digest: EieKVEhaHdPL8npXRRPOfd4g8uxoP5mQKm3VJrAmqAo=
+
+Name: bin/repast/simphony/ws/ServerDisplayCreator.class
+SHA-256-Digest: OPJRSkLuKFzvoOLgwmJNVQElZKb99RymaSpMKo2/gTw=
+
+Name: web/static/js/display_leaflet.js
+SHA-256-Digest: VncpktfHEnGXz31SBh3ourwLLLalA7lAmRlfGZ3ypLU=
+
+Name: web/static/textures/person.png
+SHA-256-Digest: HoyM/PylDG4HXICK1b0wWPDEL4JE5dX2+DAJK3+3oDc=
+
+Name: repast/simphony/ws/StyledLayer.class
+SHA-256-Digest: hvnAXjWZl1bauBBUt2qw8/MagAmMWUS8e/bmeHimiEc=
+
+Name: lib/jetty-client-9.4.17.v20190418.jar
+SHA-256-Digest: zYfGSQCCTRero5XGZfykAovxgZzo6e78K0EcEPa2o38=
+
+Name: lib/jetty-xml-9.4.17.v20190418.jar
+SHA-256-Digest: Bsy4+oOwpI/KBhiN/b6KFw1WxnmbmBSunQgyIBVUAdI=
+
+Name: web/static/js/utils.js
+SHA-256-Digest: oFpuXQ9gDE3UjspyQ+b+IXkyEIpdQcDlc5SK3flmu0I=
+
+Name: web/static/vendor/ol.js
+SHA-256-Digest: WTFTwtcLphJxjkcyt2s1ncCNLqK6T8lpK1283KFWASU=
+
+Name: web/static/js/client_VR.js
+SHA-256-Digest: Y5xNzvwNbfnKW8ZBsbBNto0Wo2CIsgsc2SgDpqULvFU=
+
+Name: lib/slf4j-api-1.7.26.jar
+SHA-256-Digest: ECvkSkc2Pm2ehAZM0y84MSydgSBtqmMWcHl4celyVIY=
+
+Name: web/static/vendor/pouchdb-7.1.1.min.js
+SHA-256-Digest: +iKeEDd5Gyl57/EyhFA6sAYagywCrpD5ExJdqEwteL4=
+
+Name: repast/simphony/ws/ScenarioFileParser$ScenarioElement.class
+SHA-256-Digest: u+rPusjps8qarTRvmvQqlqHDXzZpCsSO1meJw5NgJBw=
+
+Name: repast/simphony/ws/OneRunRunner$1.class
+SHA-256-Digest: G/6tHE7cRB1ZGxrezlYtgRlGaRfGJ+8r6T25ZD85Y9E=
+
+Name: repast/simphony/ws/ScheduleRunner$ScheduleLoopRunnable.class
+SHA-256-Digest: 34DrEhfCa4DIMZvro1faAQ6BorUcmrV5LllFH97VFlo=
+
+Name: lib/jeromq-0.5.1.jar
+SHA-256-Digest: 7x4Zja600q/0c1Pr3EqDYcmIigZai0mZ0A58Vk3WZPQ=
+
+Name: repast/simphony/ws/ModelClasspathBuilder.class
+SHA-256-Digest: shS9ipE4CMS0yyOituJvl98vnW1Onrs3IrTHf4TYP8U=
+
+Name: bin/repast/simphony/ws/DisplayServerControllerAction$1.class
+SHA-256-Digest: EJP6D4N6bMXfq5P+W+x80eM6m2g/KK+BuCUBGP8561Y=
+
+Name: repast/simphony/ws/OneRunRunner$Entry.class
+SHA-256-Digest: 0D+ZN5AGnk3M9CmKisPkvvpMWKqtfihnMx4JdSFwQhY=
+
+Name: web/static/vendor/HelioWebXRPolyfill.js
+SHA-256-Digest: pQ+BcI21cGrera/136nStvsyF0GCK+3ZScfaJD6hjUA=
+
+Name: lib/kotlin-stdlib-jdk7-1.3.31.jar
+SHA-256-Digest: qtRTBAnSHOmYoC0W5Qyhe+JzsAe6F7KYmbeHkUIMXMY=
+
+Name: web/static/js/display_itowns.js
+SHA-256-Digest: GzqldBs1L6AtgA2Cl+Lgnr2qGPYMiKfCHtuxzwkcGAc=
+
+Name: repast/simphony/ws/MessageConstants.class
+SHA-256-Digest: dybuIGg/Nfjb8mehjW5x7LCpZ/kCgGAL5GVNrarAIRs=
+
+Name: lib/annotations-13.0.jar
+SHA-256-Digest: dk9mqtH1gEsaj7S3iwisuWK5O00iQwf2xuG6szF7C4c=
+
+Name: lib/websocket-client-9.4.17.v20190418.jar
+SHA-256-Digest: mQQYYbMBfE0VFVLisRzIYu0715HYIXILJR71x04mogo=
+
+Name: bin/repast/simphony/ws/TickServer.class
+SHA-256-Digest: gaHqbL1borkXICwpburHX1PPIEYMrCXv31u3ppoc8nw=
+
+Name: bin/repast/simphony/ws/gis/ServerStyleGIS.class
+SHA-256-Digest: 3SKlI+RaCigblLjRpFDEEH5OerfRzZSimBuu99O6Exw=
+
+Name: bin/repast/simphony/ws/RepastWS$MessageHandler$1.class
+SHA-256-Digest: sdfw26DHEQYdoUDEn4EcSF14ID1RbQkvwxKtUtiW/Eg=
+
+Name: lib/websocket-servlet-9.4.17.v20190418.jar
+SHA-256-Digest: +/C80V72sdCtJDlbJ8fpr2AXGxTR9DBULMHcpzNTHHk=
+
+Name: repast/simphony/ws/gis/DisplayServerGISStyleRegistrar.class
+SHA-256-Digest: UcXMnLCS6+ZITdmCUcLFph7Kq7znFuf9fSqEpSFQLkE=
+
+Name: bin/repast/simphony/ws/gis/StyledLayerGIS.class
+SHA-256-Digest: BccnDhIIBBkO1LUOyQytQHojPW1RwKN/+RKn16rw7Mc=
+
+Name: lib/kotlin-stdlib-common-1.3.31.jar
+SHA-256-Digest: KOoeuQu2QWXttmXt56n3ne8Y1NLZhHBT5Odf3FpmOUc=
+
+Name: web/static/styles/ol.css
+SHA-256-Digest: 2rWPvodsi8vhlh6ZW7WGRqAVolZmi/mYAoUBSBR4xh4=
+
+Name: web/static/vendor/WebVR.js
+SHA-256-Digest: Oh/IxaiFaBevQBQ8sXvl8y6rcchyN2YgrC69ZAv/T3Y=
+
+Name: bin/repast/simphony/ws/DisplayServer2D.class
+SHA-256-Digest: Iemwks54DfUNfNVVDwpR6vzNWEtNJ5CTzdPFBdW6rvU=
+
+Name: bin/repast/simphony/ws/RepastWS.class
+SHA-256-Digest: ardUhJJl8/r8/fgppHfhE168kci7Y1t6B1I7Vh8BEiY=
+
+Name: web/static/styles/images/marker-icon-2x.png
+SHA-256-Digest: riT/GD5nehdNt7r6P4/d42Bzi0rSKkqvrX3KwobPcOM=
+
+Name: bin/repast/simphony/ws/OutgoingMessageSocket.class
+SHA-256-Digest: TELUGDuiOV0wxVjjDJ97XmhDdecTwvdvidrQCTVx+mw=
+
+Name: web/static/styles/images/layers-2x.png
+SHA-256-Digest: WD9nTvimapZnd6hjYIqMgUKM86b9PPY1LEDEK22LrDQ=
+
+Name: web/static/vendor/three.js
+SHA-256-Digest: nfmtyQ5UBHivXFEMvSyNnRA0UmP+oVkKH6klQfKnsjw=
+
+Name: repast/simphony/ws/DisplayServer.class
+SHA-256-Digest: z/IECfZW6DNNdC4V/3v1Q6nwBWDLq6R5oPZlRQEEVOI=
+
+Name: lib/kotlin-stdlib-1.3.31.jar
+SHA-256-Digest: eNQqwNzbMe6/LI5KLwCMKmvt1FX42UvvM5UNICSP3Xc=
+
+Name: bin/repast/simphony/ws/RunnerSupport.class
+SHA-256-Digest: JL8gVmWzTYIz1gKncxK5t+AzpK/UZd+IItu2PZCNhNQ=
+
+Name: web/static/js/client_leaflet.js
+SHA-256-Digest: xWt4i9fTeEi7p+sORW86YO8xrc0+MQGKZ1RiWny+nng=
+
+Name: repast/simphony/ws/OneRunRunner$ORBController.class
+SHA-256-Digest: VsQK16d33VLu410Ns58I9DgmD208LkSwho7ll5mICBY=
+
+Name: bin/repast/simphony/ws/RepastWS$MessageHandler.class
+SHA-256-Digest: Q/B3eJ+aTWFGwKTUsMH7hbA8qQwQLwceh2/D7q3iTZc=
+
+Name: repast/simphony/ws/gis/ServerStyleGIS.class
+SHA-256-Digest: m3ybSnGToDflHO2qgYEJfRliknfyN0W2tsz4TgHKUCg=
+
+Name: web/static/vendor/itowns.js.map
+SHA-256-Digest: VVM8rGVg+NtX0uXOvrfAVl+8CVhmtIwtCz/XhJ5ck4U=
+
+Name: bin/repast/simphony/ws/OneRunRunner$MessageHandler.class
+SHA-256-Digest: GsVaVY/wJdX33DcQMmCD9/37WpzAzvtOp64N8e7Yupo=
+
+Name: lib/jackson-core-2.9.9.jar
+SHA-256-Digest: MHlUCLCDuulZATYsX07/4M2BoztXzAhMIfmeyCEq6wc=
+
+Name: bin/repast/simphony/ws/DisplayServerControllerAction$3.class
+SHA-256-Digest: P1BiwY6Kgrxfbu7KUmmsT7kYUIgy1LJXwgrQpD8B2ys=
+
+Name: repast/simphony/ws/OneRunRunner$MessageHandler.class
+SHA-256-Digest: IjIg6FgArxZQDq2SWntUImOzAUO5ZUcxkOR7WzWmGJQ=
+
+Name: bin/repast/simphony/ws/gis/DisplayServerGIS$NetworkLayerListener.c
+ lass
+SHA-256-Digest: gLcBmHX17WlSvvGOoxPi0HlR4JCo+hwQJ9RsPEVzrYk=
+
+Name: web/static/styles/main.css
+SHA-256-Digest: qv8GTayEjf5j4I0UzUC+Op/mmuuUy6y6FK9Lew9TYn0=
+
+Name: repast/simphony/ws/OutgoingMessageSocket.class
+SHA-256-Digest: ihQeQ0y0RpjX+oI1k9nouZ5WkMMxEfL1Oupv58R7Y1Q=
+
+Name: lib/jetty-io-9.4.17.v20190418.jar
+SHA-256-Digest: WBMLE/mVx5k9lFEmEmFKYRuU18ozoaTd8Q61/bks75U=
+
+Name: web/index.html
+SHA-256-Digest: wWQGYv2PRr8r7rha1+8dx2uJJW8MaRD6BRTTUGqPlNs=
+
+Name: bin/repast/simphony/ws/MessageConstants.class
+SHA-256-Digest: hG+o2xWfKyvS4a9KzqylwdFbPDRm4JryeGyrgA7RIDY=
+
+Name: bin/repast/simphony/ws/OneRunRunner$Entry.class
+SHA-256-Digest: NB0xavR7hLXDyEy6flrwkM3SgFTBRSwc+dhl2fZ9r7s=
+
+Name: repast/simphony/ws/gis/StyledLayerGIS.class
+SHA-256-Digest: jORZkH+eBGI9IVYOv30lUGdwNeFjvaRZfVg3PQtQBIE=
+
+Name: bin/repast/simphony/ws/OneRunRunner$2.class
+SHA-256-Digest: IMKDpsxd06r/OiBkhT1HCtqv6z5u1t32Gh89WJK4/58=
+
+Name: lib/javax.servlet-api-3.1.0.jar
+SHA-256-Digest: zK0TuIbYRGibDQVM114+sub9lBWVCKPfeY8cOi+ydPI=
+
+Name: web/static/js/client.js
+SHA-256-Digest: NJidBeA7w9f3y27LQvXoD1TNnKEGLi7u3hWJWA2YNsI=
+
+Name: web/index_VR.html
+SHA-256-Digest: CtX9CdhbSYL4ftbk7HzoByxUQVeDMjVAF8E4Z/Bm3RQ=
+
+Name: web/index_openlayers.html
+SHA-256-Digest: EMrl0s8tRNEYey58anwZEGgowqnouRud5elE+4Pmt+I=
+
+Name: bin/repast/simphony/ws/DisplayServerControllerAction.class
+SHA-256-Digest: pAAs0hNFZ928jaRE5ax3ZA7jqCiLNGq0TYUO3ePMaNQ=
+
+Name: bin/repast/simphony/ws/WSInitializer.class
+SHA-256-Digest: Rt4W5ZxF4zRO0YtjzzqPfLBAlNI934P2fzKUE4rD42w=
+
+Name: repast/simphony/ws/gis/DisplayServerGIS.class
+SHA-256-Digest: fO5rLiwClJ704rVl71GXJp79WCjGU0st4j04f/NcgQ4=
+
+Name: bin/repast/simphony/ws/ScheduleRunner$ScheduleLoopRunnable.class
+SHA-256-Digest: S2Pa//M9y3qcxSKkHb04oxwORiVkKOUQWISYtfLbj+8=
+
+Name: bin/repast/simphony/ws/gis/DisplayServerGISStyleRegistrar.class
+SHA-256-Digest: 0geVGf4J+TKjhFXO8Oq2Rz8Uq3ft3ss/0xZQFW/pEmo=
+
+Name: lib/kotlin-stdlib-jdk8-1.3.31.jar
+SHA-256-Digest: w420xaYYWy+MlqCe52jqwhM7+zCiwAwz/hSlb8IYaXM=
+
+Name: web/index_leaflet.html
+SHA-256-Digest: +NNG4qWrk46cXRBWvphqP5b5XVa5UkcHkxl8B/ovfZg=
+
+Name: bin/repast/simphony/ws/DisplayServerControllerAction$2.class
+SHA-256-Digest: rqt8r9KE564GdybuIcsUXkF64xRNIS6AZcMeI0O4CrE=
+
+Name: repast/simphony/ws/RepastWS$MessageHandler$1.class
+SHA-256-Digest: L20Q37rbhqNjRzx1cRIacGG6VFeDV6VAoz0rHPmSFoo=
+
+Name: lib/slf4j-simple-1.7.26.jar
+SHA-256-Digest: tJdO4plO6hlhnd/E64okmWljjByyQqYw8RsMqUilgPc=
+
+Name: repast/simphony/ws/OneRunRunner$2.class
+SHA-256-Digest: g2Dg7mTVQinCY11uR6rcYmkwRdJIoARKeEEoqZsLN5k=
+
+Name: repast/simphony/ws/gis/DisplayServerGIS$NetworkLayerListener.class
+SHA-256-Digest: Bh1FJheAmM44r0UtP4ZL52wzhUvxbQpZWZ/qv1eh23U=
+
+Name: repast/simphony/ws/ChartServerControllerAction.class
+SHA-256-Digest: kBnKiaKjQyzp0lxjAkPNrAgh9TDW9mNPozr3K+Rcmi4=
+
+Name: bin/repast/simphony/ws/ChartServerControllerAction.class
+SHA-256-Digest: 122Yl/kzJZHhS71m+lFFZpe2j4nW/8Rp+MKheOqVkAA=
+
+Name: bin/repast/simphony/ws/ModelClasspathBuilder.class
+SHA-256-Digest: H39dMvT6RBYS1VdlKnQvmVp7OjH2Rum1spetGqWYN4I=
+
+Name: repast/simphony/ws/DisplayServerControllerAction$2.class
+SHA-256-Digest: EAv+beP+hFywmwGOp7YGqF9yHPXcNThGkmRPW6UDOC8=
+
+Name: bin/repast/simphony/ws/gis/ServerNetStyleGIS.class
+SHA-256-Digest: +4eQWJx9rFZMxrsH56H1jlQXQvVQIuFYRE55KRB2L1A=
+
+Name: web/static/js/GuiTools.js
+SHA-256-Digest: oKwPXqj4G7kQbgaxKsTftzx8fbWIdgSYQgugxVhjodA=
+
+Name: repast/simphony/ws/DisplayServerControllerAction$UpdatingRunListen
+ er.class
+SHA-256-Digest: MzOGjpPrYJEes3iB5I2Srzgl5gcDjtDgodyCfi5T0gI=
+
+Name: repast/simphony/ws/ScenarioFileParser.class
+SHA-256-Digest: 1ImhlXNgS3Pw2rUMiaEIZqn71Limk8Qjfs4wfeqe9b8=
+
+Name: web/static/js/parameters.js
+SHA-256-Digest: gjU9P0vb2oTpGRRU8OTV6p7oZyNdvXckbRJZtis4zRE=
+
+Name: bin/repast/simphony/ws/ShapePaths.class
+SHA-256-Digest: RNHsNEZjsZp9GZsofCz+Zg7ye4R+qBWGw+3buixdyiw=
+
+Name: web/static/vendor/stats.min.js
+SHA-256-Digest: h0g0wyOc8JzdNbwrF7Q8dXXTYQkTal9CIR3BfLCBtTo=
+
+Name: bin/repast/simphony/ws/OneRunRunner.class
+SHA-256-Digest: 8x4S+ij2WuUXsIVFTS0k4mJscyJ8HX1j2caGzf0Utg0=
+
+Name: repast/simphony/ws/RepastWS.class
+SHA-256-Digest: gVurx1lwPXawi3qjuRnM8PFO3S7kL+Mp0lBCUPVwPyM=
+
+Name: lib/jetty-webapp-9.4.17.v20190418.jar
+SHA-256-Digest: 1kBe+PYSmGBVd0/p99L55iDkzBEatelrrR7bLYsM0t4=
+
+Name: lib/websocket-server-9.4.17.v20190418.jar
+SHA-256-Digest: uDzxzLxI/417Q3KO2wkzsBPfXYQK0OiRqMAs2K5ILjg=
+
+Name: lib/javalin-3.0.0.jar
+SHA-256-Digest: negMg8QuZpb0nGkzneQu1S2/fPvg/m4+jRbT/+wf6Qc=
+
+Name: web/static/js/probe.js
+SHA-256-Digest: eeddRaybBnU/DeJ9EBKWO2pz9bJym3BI0ozMZ+UIcAM=
+
+Name: lib/jackson-annotations-2.9.9.jar
+SHA-256-Digest: WtnWNUkMP2+/1OCrrKTMkmwS/ggWCHwH+62K8Ag3oIo=
+
+Name: repast/simphony/ws/TickServer.class
+SHA-256-Digest: 0f+qUjlUtCuahtpGvFhZyV06dbSeuIxyWpfV8WxHOfQ=
+
+Name: bin/repast/simphony/ws/DisplayProperties.class
+SHA-256-Digest: S1yHz90Jq8bmV8MwY++Tjnco1tBO45E/ZsrjTgDtjGY=
+
+Name: web/static/styles/images/layers.png
+SHA-256-Digest: X70rVfBp47XX/kGOvRpjro0uP9bTTP+VD1xqV+rFEG0=
+
+Name: repast/simphony/ws/DisplayServerControllerAction$1.class
+SHA-256-Digest: y5mVRy8op+1O/QCiQI8ijJbeYIbxJfEoGOFRuDerlaI=
+
+Name: bin/repast/simphony/ws/RepastWS$1.class
+SHA-256-Digest: EKe5jgutPJEFtRj8AJ71W7jDfHp/yE+atX5P0Gsj+x4=
+
+Name: repast/simphony/ws/DisplayServerControllerAction.class
+SHA-256-Digest: KxX6zhWe2lk9oX5g51Ke+od0RbFEuO2UUqo/J+WKEaM=
+
+Name: repast/simphony/ws/RepastWS$1.class
+SHA-256-Digest: 6EbvKz7ruMCSNNyDIBPbDJicgeE3WNK7uzWU3Qzpw/Q=
+
+Name: web/static/js/chart.js
+SHA-256-Digest: tOfCjlmkFeVr0VKRCGutynkNx52I347KNYxT1bX8y5M=
+
+Name: lib/jetty-server-9.4.17.v20190418.jar
+SHA-256-Digest: em2uYygGejdIs+Howv6h7LR/uqgeNxW3fTbgkb+APXc=
+
+Name: lib/jetty-servlet-9.4.17.v20190418.jar
+SHA-256-Digest: 9n6ZJixmlflLRY9XqT2YoBaXbRtIxeFREhAdeekMqhM=
+
+Name: web/static/vendor/OrbitControls.js
+SHA-256-Digest: HvVCO7fhwQIn9YsknCRmx2JB0rhQ3q9x5nUAkR+0/yA=
+
+Name: repast/simphony/ws/ServerDisplayCreator.class
+SHA-256-Digest: /Cq6VgKVYklqYLd1cgCXLa4sqsZNkubmHENBj2DP4Iw=
+
+Name: bin/repast/simphony/ws/ChartServerControllerAction$1.class
+SHA-256-Digest: fnxs8d2lLM7E9eslq2N7CtvNAVPF/DivLjxT9IHMmZE=
+
+Name: web/static/js/display.js
+SHA-256-Digest: R+q9VJUDBJwkPjqgmxhFP62vyAtVUrjYCwsdfu3ou9k=
+
+Name: web/static/styles/leaflet.css
+SHA-256-Digest: aZ12GBSrPJLUzdCvNdq/uevTdCzCQK3UZaRp1m1lnWU=
+
+Name: repast/simphony/ws/ScheduleRunner.class
+SHA-256-Digest: 9s6h+Bl+NTaM1vkoW4wKpPnCctSceiMQeQw021h+8ss=
+
+Name: bin/repast/simphony/ws/gis/DisplayServerGIS.class
+SHA-256-Digest: ZVB1CiFV8ACLFc2smlHeyT/5BqsKLWrXZcQ8j6A8H+E=
+
+Name: web/static/vendor/leaflet.js
+SHA-256-Digest: WZDw7O54zseLYzXp3UTfYvmCK2Na64A772y34Ad/bps=
+
+Name: repast/simphony/ws/RunnerSupport.class
+SHA-256-Digest: 4/QPOa2rRFooFz+FArF2f5/uYBy7BYYFaYZT2ZJLkGE=
+
+Name: repast/simphony/ws/ShapePaths.class
+SHA-256-Digest: lJefxM81u8txXtZIYibx5bMUR9W6SP3M3tBQ2jLvecw=
+
+Name: bin/repast/simphony/ws/DataServer.class
+SHA-256-Digest: z7boomLy9hAzJUK83romAG+yaY+KGnhi7/+Y+hm1Dpw=
+
+Name: web/static/js/layout.js
+SHA-256-Digest: CIfrXT3FwGvByAySY/olryyYDS9H6QbEEL3BILAXw9Y=
+
+Name: repast/simphony/ws/gis/ServerNetStyleGIS.class
+SHA-256-Digest: XH8Nfhyxu2M8vNDqGnV2iWpeVXuMdUT98THoF5IcOUc=
+
+Name: lib/websocket-common-9.4.17.v20190418.jar
+SHA-256-Digest: EEGO4detJd2xLDOJcpiIiuw8leby3BNwI6P2HgazZ2g=
+
+Name: repast/simphony/ws/DisplayServerControllerAction$DisplayUpdater.cl
+ ass
+SHA-256-Digest: 7cU3ydJPmotWyo2aNOlWyoVFq4mEJsN0NV7FRWJRWqs=
+
+Name: bin/repast/simphony/ws/ScenarioFileParser$ScenarioElement.class
+SHA-256-Digest: iormc+snDwkLte/G9hIdzLwPN41tQnTYjOm0rAID2ZY=
+
+Name: web/static/vendor/itowns.js
+SHA-256-Digest: KS3TwlaSCKYjOtmkflwbM32CCPpPkLZFAUNrY+mjxn0=
+
+Name: repast/simphony/ws/OneRunRunner.class
+SHA-256-Digest: nNWSlaLWRzKqkR558xzd0KB9PJPXE7QWBAXIlI4XKbU=
+
+Name: repast/simphony/ws/gis/StyledNetLayerGIS.class
+SHA-256-Digest: Q1WmcDosIwE4hNbJdX+zThCrh8LtlHaA6u7XzScVfWc=
+
+Name: lib/jetty-util-9.4.17.v20190418.jar
+SHA-256-Digest: DN8yOFuTg12Cs+4hWQjtps9C+B5mz/ZbpZAP2f1Dx9Q=
+
+Name: lib/jetty-http-9.4.17.v20190418.jar
+SHA-256-Digest: smZ64JtYCcbhTwVFJ6RlHrph1mB7eXbxDSUL/dYpug4=
+
+Name: bin/repast/simphony/ws/ScenarioFileParser.class
+SHA-256-Digest: DGTdouQCp6gz3hHHYkQCdsm2/RtDyJPPcCjKZYFUKgg=
+
+Name: lib/websocket-api-9.4.17.v20190418.jar
+SHA-256-Digest: O/c3q6zxEYYZHOx5lDSDf+Wx3iMuSfRCBUVAuoOD5VI=
+
+Name: bin/repast/simphony/ws/OneRunRunner$1.class
+SHA-256-Digest: GNq8Iy+3T/u7LxnatRYLR5L3qOlC4FHDv1I7DuTFJP8=
+
+Name: bin/repast/simphony/ws/StyledLayer.class
+SHA-256-Digest: hpVIMe9RdHw8QjFwePWzKEPNqLcKDpd74WhwDj8XGjU=
+
+Name: web/static/textures/zombie.png
+SHA-256-Digest: WNKr1OgRb/qkHNpD8Mk4Giao9lBoIFm1hKCwUXEZaek=
+
+Name: bin/repast/simphony/ws/DisplayServer.class
+SHA-256-Digest: VlJuJ66+G81vHYLbTBQ5qCpLDXP7EAGkdDLPkLXelcQ=
+
+Name: lib/jackson-databind-2.9.9.jar
+SHA-256-Digest: mEQEyW0EsXJFO3el5r7aGP2ZtdSbdogRjAEO6jqiUO4=
+
+Name: web/static/styles/dashboard.css
+SHA-256-Digest: gX5V0pfouPJ9DqvBmGKxT1z3Ygz0WSqAr8clypakUzU=
+
+Name: bin/repast/simphony/ws/ChartServerControllerAction$2.class
+SHA-256-Digest: fEiNoi8I1GatnbENoT+CD0Rcg1JQAzHIEmxHtcweOQo=
+
+Name: bin/repast/simphony/ws/OneRunRunner$ORBController.class
+SHA-256-Digest: eGknTESGNSJOKu3jW+zkF3vdSBkOE4iaCGLKGGcIXsg=
+
+Name: web/static/vendor/L.TileLayer.PouchDBCached.js
+SHA-256-Digest: uhKTo5kO1ZAiUm3eBS1d9uEpZxjdzwX20LINnrHrNQU=
+
+Name: repast/simphony/ws/DataServer.class
+SHA-256-Digest: 9tcfnYj+tVivxjARbFzeRc0pGoOeawN/N0Tgb07sXwU=
+
+Name: bin/repast/simphony/ws/ScheduleRunner.class
+SHA-256-Digest: qFLUjbcOOE3M3y1fY2kT0JTwZgMNZLZJJW7PHF2PB0w=
+
+Name: bin/repast/simphony/ws/DisplayServerControllerAction$UpdatingRunLi
+ stener.class
+SHA-256-Digest: Fva27oMNU2ZrXGwjBeaaiysuZv5jUHosKxMo5U1nEP8=
+
+Name: bin/repast/simphony/ws/gis/StyledNetLayerGIS.class
+SHA-256-Digest: /VFZcpqJ/UOfLo96JmuVA2PSe7qjn2OJrTBGisGRtYM=
+
+Name: bin/repast/simphony/ws/DisplayServerControllerAction$DisplayUpdate
+ r.class
+SHA-256-Digest: ++kjTbUZwbcejlVaDzo8pRv7FamBqferolgkIxWY1JU=
+
+Name: web/static/styles/images/marker-shadow.png
+SHA-256-Digest: 7Wb4i7RiAEmfjybvw3ZrKC/0fFSmptZ4HZLm9AnQTKg=
+

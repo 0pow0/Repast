@@ -1,0 +1,1167 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Repast Simphony
+Bundle-SymbolicName: repast.simphony.eclipse;singleton:=true
+Bundle-Version: 2.9.1
+Bundle-ClassPath: bin/
+Bundle-Activator: repast.simphony.eclipse.RepastSimphonyPlugin
+Bundle-Vendor: Argonne National Laboratory
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.eclipse.jfac
+ e.text,org.eclipse.core.resources,org.eclipse.ui.editors,org.eclipse.ui
+ .ide,org.eclipse.draw2d,org.eclipse.ui.forms,org.eclipse.jdt.core,org.a
+ pache.ant,org.eclipse.debug.ui,org.eclipse.jdt.ui,org.eclipse.ui.consol
+ e,org.eclipse.jdt.launching,org.eclipse.core.variables,org.eclipse.core
+ .expressions,org.eclipse.gef,repast.simphony.core,repast.simphony.runti
+ me,org.eclipse.wst.xml.ui,org.eclipse.wst.xml.core,org.eclipse.wst.xml.
+ ui.infopop,org.eclipse.wst.common.core,org.eclipse.wst.common.ui,org.ec
+ lipse.wst.sse.ui,org.eclipse.wst.sse.ui.infopop,org.eclipse.wst.sse.cor
+ e,org.junit,org.eclipse.wst.common.uriresolver,com.ibm.icu,org.codehaus
+ .groovy.eclipse.core,org.codehaus.groovy.eclipse.ui,org.codehaus.groovy
+ .eclipse.compilerResolver
+Export-Package: .,repast.simphony.conversion,repast.simphony.eclipse,rep
+ ast.simphony.eclipse.action,repast.simphony.eclipse.ide,repast.simphony
+ .eclipse.util
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Plugin-Class: repast.simphony.eclipse.RepastSimphonyPlugin
+Bundle-ActivationPolicy: lazy
+
+Name: plugin.xml
+SHA-256-Digest: Mf37y7Adp5NAhw8Dz+wQVQTyNR/gyWjm2fajCBGy4Xw=
+
+Name: setupfiles/IzPack/lib/plexus-archiver-2.2.jar
+SHA-256-Digest: kVSl5uH5Whx01CVGcP7I16rNVpIRVxD+fhOBY2xr44w=
+
+Name: setupfiles/repast-licenses/jide-oss-license.txt
+SHA-256-Digest: ACtBz1uy4AxzK1nov+ayNvfUcr8/oroiFSbKxhWI1o8=
+
+Name: setupfiles/IzPack/lib/apache-mime4j-core-0.7.2.jar
+SHA-256-Digest: TXQ0xo+UuBolPBLyjmu7TWI5w2HWCGpG4i5ZS7Q6xmA=
+
+Name: setupfiles/icons/model.bmp
+SHA-256-Digest: WVpDXQLlWUGnw8ghvCaEAlHZzORh9hEHkEsRsrXezXs=
+
+Name: setupfiles/shapes/svg/zombie.svg
+SHA-256-Digest: 5NGJc/VGeL3ttqSb3i0Wt1ZHoI6b3D3AF52JvYxHQQc=
+
+Name: setupfiles/IzPack/lib/plexus-utils-3.0.7.jar
+SHA-256-Digest: ObinRZascVfwO0fkixQUmhgFJ2k1/YgKEseKfH1A3L0=
+
+Name: setupfiles/installer/border5.png
+SHA-256-Digest: iboE4r2vIQcG22UmYUopIyz+tj3QPnPksJTzs2ZMjmo=
+
+Name: setupfiles/IzPack/lib/cdm-4.5.5.jar
+SHA-256-Digest: dOoYPNoPeqBvri88+ow8bGTQE86MuHveSgbeZnbqz9s=
+
+Name: setupfiles/IzPack/lib/jdom-1.0.jar
+SHA-256-Digest: OyO8OXmuwUqVKhKq/EgwENxXV5d18v/KzvUlapDu2gI=
+
+Name: setupfiles/IzPack/lib/jsr-275-0.9.3.jar
+SHA-256-Digest: urf2RWx5eQNisGaaqyDVEdOtmdwi4CC6+1pwjysY144=
+
+Name: setupfiles/repast-licenses/jakarta-commons-collections-license.txt
+SHA-256-Digest: 40jf1RPnjNCAm7MABFBdQNHRKe9IIG38fbDvNkKoac8=
+
+Name: bin/repast/simphony/eclipse/GroovyRepastServerLauncherClasspathCon
+ tainer.class
+SHA-256-Digest: 5LgYm40Ykd8gPPDxHf4Ek0ywmBl5zGobgp792pkrK1Y=
+
+Name: about.ini
+SHA-256-Digest: eTKZOs9tQ3R+Cl7QtxHMkpA5QNDmZTNaak3r8W+1cWY=
+
+Name: setupfiles/repast-licenses/concurrent-license.pdf
+SHA-256-Digest: tRhxGqTJVpeMeGFqjr0EEFgbtWq76wH9UdaZPxqqVzk=
+
+Name: bin/repast/simphony/conversion/ScoreTransformTests.class
+SHA-256-Digest: hpiyEH4uoAATNQqe4Sxvg2iv8Tg7RUKAmx1Y7gQnvdQ=
+
+Name: icons/full/obj16/obj_empty.gif
+SHA-256-Digest: q9GN+y3dxrIofZbYLQoNcZGQkdSwajRxpbk6lk6YEXg=
+
+Name: setupfiles/repast-licenses/msql-connector-license.txt
+SHA-256-Digest: 8Pg3xT49m8l+41okluCavzTrJiN96VrWYA+uDF7UOBA=
+
+Name: bin/repast/simphony/eclipse/GroovyRepastLauncherClasspathContainer
+ .class
+SHA-256-Digest: 3lgkvIHAtg8p09v5CWTASvwnfuhsOqiiRxVDtkWFpVU=
+
+Name: setupfiles/IzPack/lib/commons-logging-api-1.1.jar
+SHA-256-Digest: M6TdR7tHZOTrNpLYY4bReg2YJ/T0uw9wEh76trwDujU=
+
+Name: setupfiles/package.rs/parameters.xml
+SHA-256-Digest: ffEndeDHTa6AbEbhWy8WxqSH4MLyFlRIY7s1cGp9GY8=
+
+Name: bin/scoreTransforms/context.xsd
+SHA-256-Digest: S5bHdjRv+tFQvBctlGRLpOTzVGq56Qzp0eC6A89FNgo=
+
+Name: setupfiles/IzPack/lib/batik-svg-dom-1.6.jar
+SHA-256-Digest: csWIomPDRFWtFNrpknYiDXToWV1P40Hspwj/hLGxgUA=
+
+Name: setupfiles/icons/box.png
+SHA-256-Digest: GMH/I+Bj+VoHQ3fiFwELTBDmw1dOzKyh/j6q1vw3OMY=
+
+Name: icons/full/ctool16/newprj_wiz_empty.gif
+SHA-256-Digest: yaU+QkEMdm/UDRmU5yBlNtRqoO+2SSztGpsZLV9P92c=
+
+Name: setupfiles/IzPack/lib/sis-referencing-0.5.jar
+SHA-256-Digest: vL9K4LzeWKrOvH2Stik+a//Su4UjAwrerf610X4Uym4=
+
+Name: setupfiles/IzPack/lib/aspectjrt-1.8.0.jar
+SHA-256-Digest: lGl44SyEMf29BGYz1elnUynC6gq5LK00AvH+H4R4lQ0=
+
+Name: setupfiles/IzPack/lib/jsr305-1.3.9.jar
+SHA-256-Digest: kFchoO6pCoFTSrt+5u9OouXmRfod7wpc2IQC3xtGye0=
+
+Name: licenses/repast-license.txt
+SHA-256-Digest: sgcGxHlhIfJK9mnMFOtvz0jBQxnJYR0r5EDSz4qPlYU=
+
+Name: setupfiles/installer/installation_components.xml
+SHA-256-Digest: H8WQG7bkRTUpv7XnLoZ3e+mLEW5SBkNBrkx+Uo0C+mc=
+
+Name: bin/repast/simphony/eclipse/ide/NewProjectCreationWizardPageJ.clas
+ s
+SHA-256-Digest: y52mtWLRL6N0M/L9MPLdumSKSYwobQtXaEESLS1VaUA=
+
+Name: setupfiles/repast-licenses/jsp-servlet-api-license.txt
+SHA-256-Digest: LH4ib/lD58n2oanY2toK85a8+FFt20kW01BUVlveoDM=
+
+Name: setupfiles/IzPack/lib/maven-scm-api-1.4.jar
+SHA-256-Digest: hgO0O39s09EXhazZ8tUHq2vczaXL0sMWojl554Iv5k8=
+
+Name: setupfiles/IzPack/lib/tika-parsers-1.9.jar
+SHA-256-Digest: M/doK+uGi+7vzrK+7nDB5JWYGYM86Ut4/jgrlLivfPw=
+
+Name: .settings/org.eclipse.jdt.groovy.core.prefs
+SHA-256-Digest: RS7h3aTzyaHVvVGduVTmf+98jGBf3Y/6qrjUJuZsywY=
+
+Name: bin/repast/simphony/eclipse/StandAloneBatchCPInit.class
+SHA-256-Digest: 1FY37ZrLCIfpwrVRlFouUMBHpx1ZDMQEUY/q2MNoAYk=
+
+Name: setupfiles/docs/index.html
+SHA-256-Digest: J5c0RqEbhRwoJQtCpypEoCIFrsOKljnFcG74L3LI/MU=
+
+Name: bin/repast/simphony/eclipse/RepastProjectClasspathContainer.class
+SHA-256-Digest: JBYhWwhRP6BLj9Ec2pPXYpLCtw7sQo0K5YvwtNbjRLo=
+
+Name: setupfiles/shapes/svg/flag.svg
+SHA-256-Digest: xfWQtG2+fDvOl2ZO0tqZPI8y6DJHTj+p2BGD+y/XtwE=
+
+Name: licenses/license_xstream.txt
+SHA-256-Digest: mMIAWymVE1j9x2lJGIe4vHTB7Vorir2317ftkMyOZyI=
+
+Name: setupfiles/launchers/ReadMe.txt
+SHA-256-Digest: wnHrypWyr1yF8oZZYdZHjZdlU+GJLZY/QbaN8phTHMk=
+
+Name: bin/repast/simphony/eclipse/IRepastPerspectiveConfigurator.class
+SHA-256-Digest: q4Ia6sIwwNABlM5qI92442hhJ41YJnMeDwasnFEK4AI=
+
+Name: setupfiles/IzPack/lib/apache-mime4j-dom-0.7.2.jar
+SHA-256-Digest: fmsG7hZKHCG35HcknqC3Shj93ORHZOV2QIX1jdjDRjM=
+
+Name: setupfiles/shapes/svg/box.svg
+SHA-256-Digest: w5N1KW0cflQKCtfgspeuVAE+6Wwjf8zLWLak+N+psvk=
+
+Name: setupfiles/IzPack/lib/httpmime-4.2.6.jar
+SHA-256-Digest: 0t1IV7BdIFAHPiZZh9imNyb9Qrl5ux91ffpQtsLXi+g=
+
+Name: bin/repast/simphony/conversion/ScenarioXMLConverter.class
+SHA-256-Digest: nRvDSrV1IKUVbroakATHSdyYIfo5T3J9iyxbaMaNlkY=
+
+Name: setupfiles/IzPack/lib/icepdf-viewer-6.2.2.jar
+SHA-256-Digest: jsrVEdB/na5j58gtdMssS71B8o6Zgq+9aKeIYRL6rhg=
+
+Name: icons/full/ctool16/newtask_wiz.gif
+SHA-256-Digest: 4BbYiRrMy7NsOI+OQSWZVnDnRcHRxcgRGuQ8S6Xxo+c=
+
+Name: setupfiles/IzPack/lib/json-simple-1.1.1.jar
+SHA-256-Digest: TmlpaJK4i0HFXUmrL9zCHurZK/VKzFiMAFBZbDt1GZw=
+
+Name: bin/repast/simphony/eclipse/ide/ImportSampleModelsAction.class
+SHA-256-Digest: LU284Kwo1dHfmBtCLid0dTmS7lPN4fX9EqGkkfzm4n8=
+
+Name: setupfiles/repast-licenses/table-layout-license.txt
+SHA-256-Digest: 1OuEhnQ8SwvZTx9q7AbmLC4BFQk5R9Gh9Qa5/BBkyJw=
+
+Name: icons/full/ovr16/project_overlay.gif
+SHA-256-Digest: 1zPzzgsbpIWxxJcoXPK3ebP0YLWCopOJh8ojVGodvB8=
+
+Name: bin/repast/simphony/conversion/ScorePathData.class
+SHA-256-Digest: GGrj57shVKTrx0G9TL9p/ek9BDg/QMVv6xD/NE1LeMg=
+
+Name: setupfiles/IzPack/lib/izpack-panel-5.1.2.jar
+SHA-256-Digest: 91L6SxxQFBIQNO5/eyLUtWVsUtL+z3xLLPWJK0kRE2k=
+
+Name: setupfiles/icons/fish.png
+SHA-256-Digest: dqv6W1iGnla60UdbJkMY0cPlyzZHhRUV+DcU4kHpZjc=
+
+Name: setupfiles/installer/start_model.command
+SHA-256-Digest: Teyv4NuDI1jc1MWKJM7Wt9ZYuBuTGQGOjsqXNrkg4iU=
+
+Name: setupfiles/shapes/svg/star.svg
+SHA-256-Digest: SuHq68ihwCs40cTL8Jr+smLeO+1z7Evm/8ltooXQTko=
+
+Name: setupfiles/IzPack/lib/jmatio-1.0.jar
+SHA-256-Digest: zmHUWyqGafZcv53xpFIEOeWxjHch/l2CNYi7EkQasbU=
+
+Name: licenses/license_apache11.txt
+SHA-256-Digest: PsTVJ+T6QIyCe9ugrAtB4TtMcYZ1L8Lv/OVFhjXqS18=
+
+Name: setupfiles/IzPack/lib/pdfbox-1.8.10.jar
+SHA-256-Digest: cafSOYDKOGcZ0ujc55c1stHKBmobEi/z9hKYJN4smE0=
+
+Name: icons/full/obj16/obj.gif
+SHA-256-Digest: U+oaoEkjsauaHCEw+XFBNh4tz1AJzsryYGmc9Plh4bE=
+
+Name: setupfiles/IzPack/lib/commons-logging-1.1.1.jar
+SHA-256-Digest: zm+RPK0fDbOq1wGG1lxbx//Mmpnj/o4LE3MSgZ98Ni8=
+
+Name: setupfiles/IzPack/lib/commons-cli-1.3.1.jar
+SHA-256-Digest: Oi8FcEGqaogT9bWbaV9ybF6FAUpwPSCNfhaJCY6S2MA=
+
+Name: setupfiles/IzPack/lib/fontbox-1.8.10.jar
+SHA-256-Digest: 0Ohm2lSlHtcySH1AGbgTEC5VR0HuGp7qSh9dEPrcA8Y=
+
+Name: setupfiles/shapes/svg/truck.svg
+SHA-256-Digest: x5Ra+DKNn1iNPhkRp8rvv1tUxrHVp41w5cSAyjSENC4=
+
+Name: setupfiles/repast-licenses/MPL-license.txt
+SHA-256-Digest: fbh1ihADPBjVdJhapaQl+8T/xW2/YYzP9zPkNFHmsGM=
+
+Name: setupfiles/IzPack/lib/jcip-annotations-1.0.jar
+SHA-256-Digest: vlgFOSBgxxR0v2yaZ6CZRxJ00wuD7vhL/E4IiaTx3MA=
+
+Name: schema/repast.simphony.project.config.exsd
+SHA-256-Digest: dkfp41Bw30TDdSk5S1bbt+j9UlWPnUDqsgwKgtJUhEA=
+
+Name: setupfiles/integration/ReadMe.txt
+SHA-256-Digest: dBJUmR7h0YDKxk+tSBuhOb1YKJfOF9v+XfdbwGI86Q8=
+
+Name: setupfiles/shapes/svg/alien.svg
+SHA-256-Digest: O51BT7hC4qj/H8J5JFhJjKievUVFm5S4ZNr21WUSOi8=
+
+Name: setupfiles/IzPack/lib/izpack-installer-5.1.2.jar
+SHA-256-Digest: LtyiYC9EwBhN5kNk3EKJujqOt1Fmjs43rrLT986Xd90=
+
+Name: setupfiles/icons/tree.png
+SHA-256-Digest: eA4w6ytbixYzDRdYVsyEdcALgsogEmrQoD4a6qtqfKI=
+
+Name: setupfiles/icons/turtle.png
+SHA-256-Digest: +nBUGoxu/Dm0UB5SeuuRKH+RfZ1uAhOkGcfsZxjwnXk=
+
+Name: setupfiles/installer/border2.png
+SHA-256-Digest: f2BNRVSbL1AlbI3qGgpDR9q8lCArl0V68HSeqGtBisI=
+
+Name: icons/full/ctool16/newmodel_wiz.gif
+SHA-256-Digest: yesYj8OponQgwoI04OtauTj+yLmb36a4t5KrfuUzVjo=
+
+Name: icons/full/wizban/new_agent_wiz.gif
+SHA-256-Digest: x7siNphzvPx8dE4kkF9sqkK5Y9SrzIn4pKt453/BEus=
+
+Name: setupfiles/IzPack/schema/5.0/izpack-installation-5.0.xsd
+SHA-256-Digest: NugXQ8IWghDQBsmjssbaDttqAizaAttAvJizg69tAIc=
+
+Name: icons/full/ctool16/refresh.gif
+SHA-256-Digest: sLNqvsJqaGUNHhZDwrmhC1XQatOOrb1j21RRzHCyTdw=
+
+Name: setupfiles/IzPack/lib/sis-metadata-0.5.jar
+SHA-256-Digest: V5RdhvF1USHeP48DYcI/xZa+a/QYY0IBSj9PJfZBdgQ=
+
+Name: setupfiles/IzPack/lib/tika-core-1.9.jar
+SHA-256-Digest: 6/imqJA41/OfyoHasRIPP4G7QscOIE9B3EzMSEIq5z4=
+
+Name: setupfiles/shapes/svg/rabbit.svg
+SHA-256-Digest: xnR7xu+h5lVBshrVhL0OUu+bgF5cUmZ1Ietykp7pjGI=
+
+Name: setupfiles/icons/square.png
+SHA-256-Digest: +/1GUmBZvSnaTPAQrg0IKcrDSFZi1ZKhHxhDO6ZkUT0=
+
+Name: setupfiles/IzPack/legal/Metouia-Licence.txt
+SHA-256-Digest: BSmhQk2Batj156+YSldCdl4GBj2DjB18DDaXIAM+WQI=
+
+Name: setupfiles/IzPack/lib/xmpcore-5.1.2.jar
+SHA-256-Digest: CtzWMAOq/wqHuTj2rMwtiQohacdRqbNogSN/hUYocJA=
+
+Name: bin/repast/simphony/eclipse/ide/NewRepastXMLFileWizard$2.class
+SHA-256-Digest: EDlTPVfYl2ZIb0sQmN5BO5C8sfHMed43cHwR47fmtqA=
+
+Name: bin/repast/simphony/conversion/ScenarioConverterAction.class
+SHA-256-Digest: 6LYIJFLEpCOdB4hV+9FwIMRl/THJJBb7rr/QaR2er+g=
+
+Name: setupfiles/IzPack/lib/bcmail-jdk15on-1.52.jar
+SHA-256-Digest: NDVU7mQyZVyrZyoOlbyx7JKevZ/og5/OldWpGq+8Tmw=
+
+Name: setupfiles/IzPack/lib/xz-1.6.jar
+SHA-256-Digest: pZRkPXPMAZKM9spc4QDglOqdc692Cl1PtrdfpnPs7JY=
+
+Name: bin/repast/simphony/eclipse/ide/ImportSampleModelsWizard.class
+SHA-256-Digest: t9HLwk2+0OIar0h+xG0Gsi1TReTel/IgGnopRcNjgRI=
+
+Name: icons/insertcode.png
+SHA-256-Digest: nScRXDU4Ty6AteA1cjjTh6+VRH1g0doqNp8sAiE174Y=
+
+Name: bin/repast/simphony/eclipse/ide/ImportSampleModelsWizardDialog.cla
+ ss
+SHA-256-Digest: xtyt7vbgy5rls0Vc6seNUGMde19c+0T3xmOyHUhrvkg=
+
+Name: setupfiles/repast-licenses/jmatlink-license.txt
+SHA-256-Digest: OoVwcFiZ9Ka0U/tPvyfImct5IlvMZdAs+fhXsP8/j6I=
+
+Name: bin/repast/simphony/eclipse/RSProjectConfigurator.class
+SHA-256-Digest: sDOoTBQRYl6bSy/qoZwGbFmylInTdo8tOuSZ8o3CT7I=
+
+Name: setupfiles/shapes/svg/triangle.svg
+SHA-256-Digest: IVa85jyVn8jEc1KYeskIjUZ32TvKcfvM221CxIPmP4Y=
+
+Name: setupfiles/IzPack/lib/jcommander-1.35.jar
+SHA-256-Digest: AZwS/sHOXALLq7FQ9qyKhtkqDsyciaVJ5VNyg+hjAAw=
+
+Name: setupfiles/IzPack/lib/sis-storage-0.5.jar
+SHA-256-Digest: JGsPqtWlvNjrV1Dyy8A+OFd/ZBJGhW6EEsLlPtA5U3k=
+
+Name: setupfiles/icons/person.png
+SHA-256-Digest: ftHctSQ8IBcfzUhnN6WY3zuujEirIjKRy9jRUrO+z+Q=
+
+Name: setupfiles/IzPack/legal/LiquidLnF-Licence.txt
+SHA-256-Digest: BSmhQk2Batj156+YSldCdl4GBj2DjB18DDaXIAM+WQI=
+
+Name: setupfiles/IzPack/lib/rome-1.0.jar
+SHA-256-Digest: zSz9O04q+euPsJ1qI4Qyjluc8ROLzK9+Mflx5fdnjGw=
+
+Name: setupfiles/IzPack/schema/5.0/izpack-compilation-5.0.xsd
+SHA-256-Digest: 2UBWjPSweLuxLPZgwq5LiJr6jrKkcxfcjXdSAhZjq1k=
+
+Name: setupfiles/repast-licenses/license_apache.txt
+SHA-256-Digest: q4y12PuQ5J5G6dSHzAFChNiVD1FfBpWrOVUNwaXYC1w=
+
+Name: setupfiles/IzPack/schema/5.0/izpack-userinput-5.0.xsd
+SHA-256-Digest: A69ZQwoFxTkI32qd3Lo87Q2eQ+kdjmdYjBevo1l+1w8=
+
+Name: setupfiles/icons/rabbit.png
+SHA-256-Digest: +/Z6qrQlWFfWFsWtvdBwg9pdrADjKUqiajvWR0zz5jw=
+
+Name: setupfiles/IzPack/lib/geoapi-3.0.0.jar
+SHA-256-Digest: leFxIxxy0W7mDKMJRWpypcd0plfFcA9vxvUKe6v0cxo=
+
+Name: setupfiles/icons/truck.png
+SHA-256-Digest: w65S1t7m41ELX+5qxs1Mh9I87HIdlFcgd/h56IPnNtk=
+
+Name: setupfiles/IzPack/lib/izpack-gui-5.1.2.jar
+SHA-256-Digest: u/vHtKFiPJ0FBioc1chDr/ZYpCLvQQTu51/PJXGA63w=
+
+Name: setupfiles/IzPack/lib/liquidlnf.jar
+SHA-256-Digest: zLkr5JZU8YqI+BUnHxtMmzuOJbCeNZXfgGzixqdi5U0=
+
+Name: bin/repast/simphony/eclipse/RSProjectConfigurator$1.class
+SHA-256-Digest: Nwq7ncU16+84S5/dH3HQuu21uyOpetyQvGna/8KtOaQ=
+
+Name: licenses/license_apache.txt
+SHA-256-Digest: q4y12PuQ5J5G6dSHzAFChNiVD1FfBpWrOVUNwaXYC1w=
+
+Name: setupfiles/shapes/svg/square.svg
+SHA-256-Digest: yGBW/K6V8Gto0w/0V0L4fNjXByHnJX1ACaBNIYi0lUI=
+
+Name: setupfiles/icons/ufo.png
+SHA-256-Digest: 9aHM7k5P8/cen0kZGiGOR8mXH6JO+FIzpR9r06ETJns=
+
+Name: setupfiles/IzPack/lib/boilerpipe-1.1.0.jar
+SHA-256-Digest: CIID30MmxNzELOwSU6K0HgPciQSYTq50RUO0jizGOEY=
+
+Name: setupfiles/repast-licenses/binding-license.txt
+SHA-256-Digest: ssKFHud7FCWiDeUrjyBYIq2juKpN/NkP+LXwxNxWPbY=
+
+Name: bin/repast/simphony/eclipse/RepastSimphonyNature.class
+SHA-256-Digest: bRdsUx5KiRzRAWURJn8J2/aXUIvThZ0LIazVSQSUNpc=
+
+Name: setupfiles/IzPack/lib/xmlbeans-2.6.0.jar
+SHA-256-Digest: x3l0NZaIsoI7SPqaM9poVZ1k+EdEQUgNnfT54lQzKpY=
+
+Name: setupfiles/IzPack/lib/commons-io-2.5.jar
+SHA-256-Digest: oQQYNI0jSWhgDMsdmI78u9CHFuHZaTbMwYgOfSJRNHQ=
+
+Name: setupfiles/repast-licenses/common-public-license.txt
+SHA-256-Digest: UTK3MhQaf4O+JNktKMhpQSNRESR5ooNi+y2oknlupKw=
+
+Name: setupfiles/IzPack/lib/commons-vfs2-2.0.jar
+SHA-256-Digest: WvN7xH9rzOlOdAuXkxFf8TXdpU+cz5jgV5OMLJh2X00=
+
+Name: setupfiles/IzPack/lib/sis-utility-0.5.jar
+SHA-256-Digest: C5Eu9+5u6+iyDEsCgqJaN8t0Tt9s2bTooJqJkEiN758=
+
+Name: setupfiles/IzPack/lib/quartz-2.2.0.jar
+SHA-256-Digest: rZ+9ODmbLFxZMbmpFhygfsW6kWsi9Ckr2XkSWcXB8dY=
+
+Name: setupfiles/icons/flower.png
+SHA-256-Digest: xZvQwqzRMpiGWgveTqPQvlPRbmYpmU/6KdnnDFu3YFU=
+
+Name: repast32.png
+SHA-256-Digest: Zh+L8JSf3W1veCcOdGAECkoVJJWsQm3V4cdi78Pporg=
+
+Name: setupfiles/icons/pentagon.png
+SHA-256-Digest: ewvtbKoCvtQjs5h/jNroXxPlQjq6XZvMCs4CB4sKw40=
+
+Name: setupfiles/IzPack/schema/5.0/izpack-types-5.0.xsd
+SHA-256-Digest: lzZI4Z0kejm6w1l0kDWAzY30HXHPyYAM6Ip2YDoTZ9Q=
+
+Name: setupfiles/IzPack/lib/batik-util-1.6.jar
+SHA-256-Digest: ssFejZTfEyNiI2fSRZqIj7MZR9sPiqGGOp+/BeMLX4E=
+
+Name: setupfiles/shapes/svg/smiley.svg
+SHA-256-Digest: hzOFzbjqUZOGNDFAUXbCyJ07i1Pgjsa6BghdvETZ3ec=
+
+Name: setupfiles/IzPack/icons/izpack_uninstall_32.png
+SHA-256-Digest: LpzCiiTXgLH44le8QzrvGGFXHLz+4dTa2iUGENKfGiw=
+
+Name: setupfiles/package.rs/scenario.xml
+SHA-256-Digest: s2IgqrorHoPrRIVVoFhCOJ7uMPf8hpGQinoa4BcklEE=
+
+Name: setupfiles/IzPack/lib/asm-debug-all-4.1.jar
+SHA-256-Digest: wPWC4etYkxWmKTkZcRayRBLF9DhsW3iu57AXpFMjEro=
+
+Name: setupfiles/IzPack/lib/laf-widget-7.3.jar
+SHA-256-Digest: QROMiodxwi11FlegGcwgw0VDQQhXNEU+tXoD8n8YlTg=
+
+Name: setupfiles/IzPack/legal/Ant-Licence.txt
+SHA-256-Digest: qPRIgbOyX3z7KKllOII04IA9NCV1c4TcX9daH7/3lDs=
+
+Name: setupfiles/ModelInitializer.agent
+SHA-256-Digest: 9uv9YaA4iFdU9YRKG/DLAwqOXXqFIRcuhVay1d6XoFE=
+
+Name: setupfiles/repast-licenses/asm-license.txt
+SHA-256-Digest: m3ioRMkQrbHE8mzP3/nAz1hL+OzU6La+3dwqr1UOFGs=
+
+Name: setupfiles/IzPack/lib/poi-ooxml-3.12.jar
+SHA-256-Digest: 2MmBrSK82KmzhQsweaa7grdej7wxHUhVbPP1c2yTRns=
+
+Name: setupfiles/repast-licenses/license_flow4j.txt
+SHA-256-Digest: bIfiDC/m7OIYG684fUAXfoYhUg2HKCXkhRHMWG7n23g=
+
+Name: bin/scoreTransforms/model2.score
+SHA-256-Digest: pSQsvbkZpnnQzjLE4cDnwBVc7tXWGMcjybHpKzI2B2w=
+
+Name: setupfiles/IzPack/lib/batik-xml-1.6.jar
+SHA-256-Digest: F6VKr+JBXLnqMRuE3xc8cY2sus03ixOWlytvgqlzhqQ=
+
+Name: setupfiles/installer/start_model.bat
+SHA-256-Digest: C+TfEP7GlV5HkIb15tIRRfs5H4hJwYRv8aQq0Wc+Ybc=
+
+Name: icons/rspersp2.gif
+SHA-256-Digest: 7fxtjTPANs1HggPscTDQ1Ei8VznFwP3UEL/EvDCVCh8=
+
+Name: setupfiles/installer/border8.png
+SHA-256-Digest: oQvLQdFk7LmNrEhFCwD7+5xn8i2JUGh1Mi1RhxmV6xs=
+
+Name: setupfiles/shapes/svg/ufo.svg
+SHA-256-Digest: PrW8xMnb647s6AV/1d5rE2GfAPx/seTAvLGI2oYfQFY=
+
+Name: setupfiles/shapes/svg/bug.svg
+SHA-256-Digest: v2KMzdFN24HwLwRQIU/wlJ+h+mHGB10sMqW9CqOLX8A=
+
+Name: setupfiles/icons/smiley.png
+SHA-256-Digest: H6o8fof+bzw0atZ28NKW0IsVB5DnyIkMxAzvprBVQTM=
+
+Name: setupfiles/MessageCenter.log4j.properties
+SHA-256-Digest: Is4AdWUV+ukylfHj838sQBFbCyXagMVNXrlGINvODCA=
+
+Name: setupfiles/installer/installation_coordinator.xml
+SHA-256-Digest: dATscUZ8Xx1IEC2fWVoKn1/KdkVaRc7u2e2s23Xy3gk=
+
+Name: bin/data/context_copy.xml
+SHA-256-Digest: pfNEr9tGQb9YWTxja2bcJH+xaY+43yUCEjqJMEiFXMk=
+
+Name: setupfiles/IzPack/lib/commons-lang3-3.5.jar
+SHA-256-Digest: islvxoZRLXd/yoXhRPGWzXz+DArsIxJyKUl9Gjj/ZRw=
+
+Name: icons/full/ctool16/newmodel_wiz_empty.gif
+SHA-256-Digest: OYLPwL795FuqfjgC3v66OMoVVLAplJXvNchtBCjz8nc=
+
+Name: setupfiles/shapes/svg/flower.svg
+SHA-256-Digest: 2AVPCZD4hMPSJH90HLA8BBl5xMANzC8k9alGsIEjDaE=
+
+Name: setupfiles/IzPack/lib/ehcache-core-2.6.2.jar
+SHA-256-Digest: 32HxoXJKpnTZItziGWW5B9+Pd+cwZ5rhq+kmeTkKL9Y=
+
+Name: setupfiles/IzPack/lib/opennlp-tools-1.5.3.jar
+SHA-256-Digest: Wn6uC1Rf9RfIAQRAzMQUTPz4O6rCtnohoa9mjmAi1dI=
+
+Name: setupfiles/IzPack/schema/5.0/izpack-icons-5.0.xsd
+SHA-256-Digest: U/dg2TT3UrIBi+tZyrZGwsCK7gSTr/K2/A90v+m3Blw=
+
+Name: setupfiles/repast-licenses/geotools-license.txt
+SHA-256-Digest: I0fDdi/AzUyGfsT58FFkC6tlOaLolTU659bozTpoHEI=
+
+Name: setupfiles/shapes/svg/neutral.svg
+SHA-256-Digest: vPOdXupRB+3UrLHDW34ZuWDg0fE+PgQ1CqU+uDVU0GY=
+
+Name: setupfiles/IzPack/legal/IzPack-Licence.txt
+SHA-256-Digest: z8d0m5b2O9McPEK1xHG/dWgUBT6EfBDz6wA0F7xSPTA=
+
+Name: setupfiles/IzPack/legal/Kunststoff-Licence.txt
+SHA-256-Digest: BSmhQk2Batj156+YSldCdl4GBj2DjB18DDaXIAM+WQI=
+
+Name: setupfiles/IzPack/lib/izpack-api-5.1.2.jar
+SHA-256-Digest: v2iI/GXCv6xvbEG+4hHs1nzdz9o/Xv28XECI24zGFNE=
+
+Name: setupfiles/model_description.txt
+SHA-256-Digest: 7BP0oCgSwmJI8z4Dwvo4Eb6tXZ9JgBqprAqARkmRaw0=
+
+Name: setupfiles/IzPack/lib/izpack-ant-5.1.2.jar
+SHA-256-Digest: uoKRq0AZLY5R0gIAujkzpvsc4BtOqgYfSu8YrOHUi/0=
+
+Name: setupfiles/repast-licenses/log4j-license.txt
+SHA-256-Digest: fXa481CiiK1Iuqd8vxyxSDVbYk5rBuh+VYPOcj1NXj0=
+
+Name: setupfiles/IzPack/schema/5.0/izpack-conditions-5.0.xsd
+SHA-256-Digest: ZZ0c/SmfISwYBxYtwjAg9J3RrWP7NCTLS5hkqefVqVw=
+
+Name: bin/repast/simphony/eclipse/ide/ModelRunLauncherCreator.class
+SHA-256-Digest: 26DN2Ifk2b3Y8wB1/4aEfWpBIX2GafW6myZk5xadKog=
+
+Name: setupfiles/IzPack/lib/jj2000-5.2.jar
+SHA-256-Digest: 2iqNKHosH3JFYIQRCP20ryVkimNSR0xaJp6OFAgLGRk=
+
+Name: bin/repast/simphony/eclipse/ide/NewRepastXMLFileWizard.class
+SHA-256-Digest: pBbdCefSP84ov7LXp2iLrnfZJLEFzLFGdalSkf4S4Ko=
+
+Name: setupfiles/IzPack/lib/vorbis-java-tika-0.6.jar
+SHA-256-Digest: O7QqAyQfajDhEwjVO9tk3oeFMohicU4HvNQcdu3WMBY=
+
+Name: bin/repast/simphony/eclipse/RepastServerLauncherClasspathContainer
+ .class
+SHA-256-Digest: InfVWccUMK1kuDplAUJYEtaOchGVFbB5KgGEohRlYwE=
+
+Name: bin/repast/simphony/eclipse/ide/UpdateSimphony.class
+SHA-256-Digest: JbwrmvDBqzrvQHMpIqboG5mPbLiq1w3wDRIqXO7c+SA=
+
+Name: setupfiles/shapes/svg/person.svg
+SHA-256-Digest: gPh8kGNUSaaCdEdMqhwZbTTch0bTXrV/8sFuxQunqbc=
+
+Name: setupfiles/IzPack/lib/plexus-io-2.0.4.jar
+SHA-256-Digest: WPKJi3BwnxIW+jr+aeCnzbQa1qOSeyUHpKiZQcnkq3Y=
+
+Name: setupfiles/IzPack/schema/5.0/izpack-configurationactions-5.0.xsd
+SHA-256-Digest: +p9E9K1MIEA0HfLlGZmMBm7+gt8FsgV/IDwn+gaoEsM=
+
+Name: setupfiles/installer/ReadMe.txt
+SHA-256-Digest: /zmid9E80P1d7VnHmBLEiEfpZhCfDEnFbfGwAh5REFE=
+
+Name: bin/repast/simphony/eclipse/IRepastProjectConfigurator.class
+SHA-256-Digest: 4gKRXag3iVBMZKy6I7q+78sM4x1PTg9KebCXiXnoHoA=
+
+Name: setupfiles/IzPack/lib/regexp-1.3.jar
+SHA-256-Digest: J5mHMuzVdFkkZE+JH0Gtr3Nzb+JZoKIIQ5eUUldPA4U=
+
+Name: setupfiles/IzPack/lib/jline-2.12.1.jar
+SHA-256-Digest: wx8dzyzvRvim+K6orlwpXMlpEOj46kxAKRaV1k0ulA8=
+
+Name: setupfiles/IzPack/lib/metadata-extractor-2.8.0.jar
+SHA-256-Digest: ytAmSVy1xb2S9Nr2rSeMsfTbHsdv8F8VMOa7cBxIbtw=
+
+Name: setupfiles/IzPack/lib/juniversalchardet-1.0.3.jar
+SHA-256-Digest: dXv+kGGTuLZR553CbNZ9a1XQdwos37A4FZFQT3edSnY=
+
+Name: setupfiles/icons/zombie.png
+SHA-256-Digest: I1TyjhN7Y8oMKiUvtdnbYMfAQ9KCtr3Albj7Oczi2Sg=
+
+Name: setupfiles/shapes/svg/tree.svg
+SHA-256-Digest: gH1d7YYU5pZWnk50QiWzw+Hlz3uAdAiVAYt4oYhK8ik=
+
+Name: setupfiles/installer/border3.png
+SHA-256-Digest: BO68XOB5TGCx/sZDxQVvCQvnBUB4iRl0eBj8+HkvOWM=
+
+Name: bin/repast/simphony/eclipse/ide/UpdateInstallerFilesHandler.class
+SHA-256-Digest: l603SeKNbos1f/Og2vPdIaUqsjOQdXuzZ0XQsjDPiFU=
+
+Name: icons/sample.gif
+SHA-256-Digest: 6jMftqI7oSaDQ6w4VCjJEtTiJvYpMr0Z1u+lWgsbkjY=
+
+Name: setupfiles/repast-licenses/jscience-license.txt
+SHA-256-Digest: qPi0jmjr56/wKb4xoDrNVzABFbjhMKL2CuNgoJdGsPM=
+
+Name: setupfiles/installer/Unix_shortcuts.xml
+SHA-256-Digest: b54kJW3aALcV6EdFXu5lulPykQoGw71itL+ud/eH+BQ=
+
+Name: bin/repast/simphony/eclipse/ide/NewProjectCreationWizard.class
+SHA-256-Digest: UKZ5w8sWaUQOCgOZkFmHSRDDSswjjqjttaUf0gs+reE=
+
+Name: setupfiles/license.txt
+SHA-256-Digest: Ozsc8/Kh5uENm3wVUQU0aECernBHlKnQRLxeA9LgDp4=
+
+Name: setupfiles/builders/cleanProject.xml
+SHA-256-Digest: QP4Wj4sR/cSwNU43UxBSLpO6Bi5+5c92DxldS05gffY=
+
+Name: bin/scoreTransforms/model.score
+SHA-256-Digest: JyI+RhDgNueZfnPJChjvBBlu/MpJjVwyaEOB0M28NfE=
+
+Name: setupfiles/repast-licenses/license_xstream.txt
+SHA-256-Digest: mMIAWymVE1j9x2lJGIe4vHTB7Vorir2317ftkMyOZyI=
+
+Name: setupfiles/repast-licenses/jh-license.txt
+SHA-256-Digest: PLMILbe6IWx3f7mZHagXFBmgVP+VoPiU7GGgLLkl1Nw=
+
+Name: setupfiles/repast-licenses/saxpath-license.txt
+SHA-256-Digest: 47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+
+Name: schema/repast.simphony.perspective.config.exsd
+SHA-256-Digest: US4Tjuj6sPfF1e4qe/lhyUx1kdAENAr1/ulM0w7gG3s=
+
+Name: setupfiles/IzPack/lib/kunstoff-laf-2.0.2.jar
+SHA-256-Digest: h+tVDtsjTgWTwFBZ0rc4UJa7uwuiDRhlTBMDKzjkVaE=
+
+Name: setupfiles/installer/Readme_for_running_the_model.txt
+SHA-256-Digest: BlLNSatccLAq+mKzaZp3yPxHAbJD/7rp69Fzs+5srZ4=
+
+Name: setupfiles/repast-licenses/xpp3-license.txt
+SHA-256-Digest: mM5szkqPFYkCtq/rwDJkDKNfWXmbH31cVTyW9ydc8Gw=
+
+Name: setupfiles/IzPack/lib/commons-codec-1.9.jar
+SHA-256-Digest: rRnSYBw6vwuUa1w6QRPiJqjB4zBeOVuQATt43ZSnI84=
+
+Name: bin/repast/simphony/eclipse/ide/ScenarioOutlineViewer.class
+SHA-256-Digest: B80RODvQoX0VqaKg+TeQp2kh6slJEaMQnkwyVaYDepI=
+
+Name: setupfiles/IzPack/lib/jdom2-2.0.5.jar
+SHA-256-Digest: Mu0JPznEao2Z+AEkAGlHjqyTs18HNRwAHyzvQzDpe0o=
+
+Name: setupfiles/repast-licenses/license_flow4J-eclipse.txt
+SHA-256-Digest: t4k5lYfERrP4gdXgcF6JC9o/JbOK2Lsg3qw1DzbRMU8=
+
+Name: .settings/org.eclipse.core.resources.prefs
+SHA-256-Digest: wDLf/IWBust46SZk6o4kHA3IF9iWCBc2FZkaIejUpGQ=
+
+Name: setupfiles/repast-licenses/violinstrings-license.txt
+SHA-256-Digest: 2Erd7XKUkzL8NZ7+TPjD969P4OgnlFYVyyzRNEk42X0=
+
+Name: setupfiles/shapes/svg/fish.svg
+SHA-256-Digest: hhS4FsSrc1oO3QU3jXw6pIlubs0FFOFz56QYRKLRf1o=
+
+Name: bin/repast/simphony/eclipse/ide/AddSimphony.class
+SHA-256-Digest: a4NhDh4u26udjBUF2x8Haff7hdQEfnYcuVMfsppr/II=
+
+Name: setupfiles/IzPack/lib/looks-2.2.2.jar
+SHA-256-Digest: CXaoS8jiR/GJqRLhjmtv0yxiKlB0cy81GFTmAxJpdbA=
+
+Name: setupfiles/icons/bug.png
+SHA-256-Digest: 7LWCLSiCAd3rSJj3vZLq3smxLflpsqvqQqo8k0WFwjM=
+
+Name: setupfiles/icons/car.png
+SHA-256-Digest: vnSnjQGhBii8QIy0pfQvtPorb1htVH51ewaPIxDGJU0=
+
+Name: setupfiles/IzPack/lib/jwnl-1.3.3.jar
+SHA-256-Digest: PQ2EI4cXcn7WaqM5kHwkVuCNXdAeGqJD9dkoEVgcWDA=
+
+Name: bin/repast/simphony/eclipse/PerspectiveFactory.class
+SHA-256-Digest: 2K1gZ0WSJXBOmZiRABNftln2imonUap/kI/VpsvkG4U=
+
+Name: icons/full/ctool16/newprj_wiz.gif
+SHA-256-Digest: spFW6JoYuTa1QrgJVXlofrzBeyA7ZgwbHdOHT0azUF0=
+
+Name: setupfiles/IzPack/lib/izpack-compiler-5.1.2.jar
+SHA-256-Digest: 0Mg4bFrry02yM1iwJQ57Ldstn72TWvwpZkR5WQSH5Mw=
+
+Name: setupfiles/IzPack/lib/trident-7.3-swing.jar
+SHA-256-Digest: fwVnnjbm4u+jkXIP6IW6HMek/oLvzvHDlq1QCtnkuIg=
+
+Name: bin/data/context.xml
+SHA-256-Digest: CB0OA34SDRdT6QvEXUHAR7SWc2HRDIgoUSM7UJ2fMGk=
+
+Name: setupfiles/IzPack/lib/bcprov-jdk15on-1.52.jar
+SHA-256-Digest: DcTRgeTTR4k8LdvS5s1dcof8ZRwDZI+mSyNBxzZrF3M=
+
+Name: setupfiles/IzPack/lib/guava-11.0.2.jar
+SHA-256-Digest: 4USg7H9ROcWNTzcpzPtCQPnFdqGqQ3kOQJDgkxYSnuE=
+
+Name: setupfiles/IzPack/lib/isoparser-1.0.2.jar
+SHA-256-Digest: FRZ02DZlu/OSQFMdjIrlBnR4EdR2bLHS05YtKU+deVc=
+
+Name: bin/repast/simphony/eclipse/util/WorkspaceRunnableAdapter.class
+SHA-256-Digest: 5CNGnVhvlA8koH5iiWBTOFzYAfwLBKrpJl79y7jmhfU=
+
+Name: setupfiles/IzPack/lib/maven-scm-provider-svnexe-1.4.jar
+SHA-256-Digest: A1gNjX+MAGG8eEqszblGDD29ijHBlERT+jCpjivX020=
+
+Name: bin/repast/simphony/eclipse/RepastSimphonyPlugin.class
+SHA-256-Digest: acSjp6L9pTUY1Pw6QVd5Aat5L2FPbRmczjYuYe7Qn6g=
+
+Name: setupfiles/IzPack/lib/izpack-native-5.1.2.jar
+SHA-256-Digest: wSgDI4YlJ/jsLjWpeph6xkq1RretH2yIx3714DV32qU=
+
+Name: setupfiles/IzPack/lib/java-libpst-0.8.1.jar
+SHA-256-Digest: o/ezyTT0d7D8PA6t68PSSHK768OsWiKrV15fR26jR1c=
+
+Name: bin/data/scenario.xml
+SHA-256-Digest: eLeQQaB1I4Hg8izOpvLhrmynzp2Korabp7+JQJD54h0=
+
+Name: setupfiles/icons/star.png
+SHA-256-Digest: 7hSd+YoPa7tby2GWshk8I+6g7TdwnUDvDUA9U3/H8tA=
+
+Name: setupfiles/IzPack/lib/ant-1.9.9.jar
+SHA-256-Digest: 2BJUvLLhcMnqFs1BgFDzNA2hc2OAoCQVyN3amgoLihs=
+
+Name: setupfiles/IzPack/lib/tagsoup-1.2.1.jar
+SHA-256-Digest: rJf3tLHY6TN+36DjQET40O/nIj9q2POoXVTMEBjqLgQ=
+
+Name: setupfiles/IzPack/lib/batik-svggen-1.6.jar
+SHA-256-Digest: +LZ6GxWaFtKexQV0Somok7B6XSR6rCdl4VVhv6GM+lo=
+
+Name: setupfiles/installer/border7.png
+SHA-256-Digest: 3QORpLywoCYGrRbIJ0iDjCKeV/FbwuZJccczdErp4g8=
+
+Name: setupfiles/IzPack/lib/poi-3.12.jar
+SHA-256-Digest: rvmlw4lcf6Bdj3L0d9gX08KhHI9HYMPQlRuGp+sH8VE=
+
+Name: setupfiles/IzPack/lib/poi-scratchpad-3.12.jar
+SHA-256-Digest: VtyO3WOXQYjQ6z2D4/pnLzTjjmyLOBmW+b4e1hYqJUQ=
+
+Name: icons/full/ctool16/remove.gif
+SHA-256-Digest: TPf2fvHFLwXleHHKcx7lLH2XTf8o17QljdaRHpAdYbc=
+
+Name: setupfiles/IzPack/lib/picocontainer-2.15.jar
+SHA-256-Digest: t9hd4U5UTWJ7/+IEOKMHFQD7oZEAT4lKlEuSSJ9/Ddw=
+
+Name: setupfiles/IzPack/lib/plexus-container-default-1.0-alpha-9-stable-
+ 1.jar
+SHA-256-Digest: fHWGEoiHgsz+N2gjrufNzH4M2vsJf371ApWgsMOhbt8=
+
+Name: setupfiles/repast-licenses/LICENSE-jgoodies.txt
+SHA-256-Digest: 1sirzDFQpVYG4r75jYx/a/PakgLdRBOqhfNyHljd77E=
+
+Name: setupfiles/icons/circle.png
+SHA-256-Digest: RxM6e3yxfp2lBXs9/fFkOp0ZyG446Qz8EfeLhjTBAKM=
+
+Name: bin/repast/simphony/conversion/ScorePathData$Pair.class
+SHA-256-Digest: 7S2LzghOWGMXV/0eJcHUc3pH56NIIR7OhwkDW6sFWbU=
+
+Name: setupfiles/IzPack/lib/httpservices-4.5.5.jar
+SHA-256-Digest: gzTaetye16e5QaeA9NIgVPihHQOXO+g66DmUANVTAOQ=
+
+Name: setupfiles/IzPack/lib/looks.jar
+SHA-256-Digest: 9QYnf6NoJBKfq554TOnYlLYTklSmab5qMloeC9JX6T0=
+
+Name: setupfiles/repast-licenses/xstream-license.txt
+SHA-256-Digest: 47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+
+Name: setupfiles/IzPack/lib/batik-awt-util-1.6.jar
+SHA-256-Digest: c6Frxvqr0kKLG6uyEJ56TIDXuxM42G9ZXHuNfwUhCAU=
+
+Name: setupfiles/IzPack/lib/protobuf-java-2.5.0.jar
+SHA-256-Digest: 4MHGRXXABWAXJefGoCzr+eEoXoiPdWsqHXP/qNclzHQ=
+
+Name: setupfiles/IzPack/schema/5.0/izpack-processing-5.0.xsd
+SHA-256-Digest: KNZUWvXFoNPmp6sLp9OVhuIzoT6ZpnhijkAvcNDzWFg=
+
+Name: setupfiles/IzPack/lib/jempbox-1.8.10.jar
+SHA-256-Digest: ayRtzIw4wPnyxWCBmPpVx+3/m8dqv3/8qb6B69+RiYE=
+
+Name: setupfiles/IzPack/schema/5.0/izpack-antactions-5.0.xsd
+SHA-256-Digest: kASqfm8w7cmhN4cI4BKbxV6jlgm1cJj28R3D0RiLSpg=
+
+Name: setupfiles/IzPack/lib/c3p0-0.9.1.1.jar
+SHA-256-Digest: o8dyAz1DyF8mNVluJCFJbVWECrveZK1kuNApjKy7pGY=
+
+Name: setupfiles/IzPack/lib/maven-plugin-testing-harness-3.3.0.jar
+SHA-256-Digest: SyUeiovDRWOVJUJ9vlTYs4ZQUGwc0s57gfpH5RRoWtY=
+
+Name: setupfiles/repast-licenses/license_apache11.txt
+SHA-256-Digest: PsTVJ+T6QIyCe9ugrAtB4TtMcYZ1L8Lv/OVFhjXqS18=
+
+Name: setupfiles/IzPack/lib/commons-exec-1.3.jar
+SHA-256-Digest: y0mBLcG/sOpPIPOYvK4aiMZAbiE+Z/dST7ENT4rZNHs=
+
+Name: icons/full/ctool16/newmodel_wiz_old.gif
+SHA-256-Digest: tto7uasKOFaflfcPXMDMv+1LiBTm5S+sWBdcXEZB5W8=
+
+Name: setupfiles/repast-licenses/wizard-license.txt
+SHA-256-Digest: 8Pg3xT49m8l+41okluCavzTrJiN96VrWYA+uDF7UOBA=
+
+Name: setupfiles/IzPack/lib/izpack-core-5.1.2.jar
+SHA-256-Digest: isY40exUj4UcNJzCdghR05wwORvnFTJU/Vke8wDVQ/M=
+
+Name: setupfiles/icons/arrow.png
+SHA-256-Digest: C6EirgutQGz3XNa5ceGXeRgwNDzVC/m1G4IyG9Afsyg=
+
+Name: setupfiles/IzPack/lib/opennlp-maxent-3.0.3.jar
+SHA-256-Digest: bpn6V7HzZFtJkqs8+qiySrygkhzy9XXWP8pDzYTdROY=
+
+Name: bin/scoreTransforms/context.xml
+SHA-256-Digest: Sz/tvrZ6ei/KCZSm8CSDR6KqWTvDmdc8AJescJykfXY=
+
+Name: setupfiles/IzPack/lib/bcpkix-jdk15on-1.54.jar
+SHA-256-Digest: 1hjc+/Aze5EBWyHUs5gXWuljgqgsfh1ujGV/zSNkY8c=
+
+Name: setupfiles/IzPack/lib/udunits-4.5.5.jar
+SHA-256-Digest: +2Qa2QHRUm1T8rE7yGuuxwPFfVjmABz6VMp3NMl/sw0=
+
+Name: bin/RepastSimphonyPluginResources.properties
+SHA-256-Digest: hbM6SfcPrSz2yERJp82Uw4g1ydnPACH3/lylhH2D2QM=
+
+Name: setupfiles/icons/neutral.png
+SHA-256-Digest: YS/35Hr731ORiKE8w+PjRrAtx6aZmkl7PAqAV2w7qZw=
+
+Name: setupfiles/IzPack/lib/metouia.jar
+SHA-256-Digest: Qt+6l5UioK+WHPh1d4nOnCy3pU8pRLkfAU3pxiRZCEo=
+
+Name: bin/repast/simphony/eclipse/ide/NewProjectCreationWizardPageJ$2.cl
+ ass
+SHA-256-Digest: x5+KkLf1EWET5zpSUucWUe++YvINkVYCkmhuFNeGVfk=
+
+Name: icons/full/ctool16/add.gif
+SHA-256-Digest: V+agx8t240vr7eEz2VWVccQ5Rntaj3mJLJ1UjE2JujE=
+
+Name: setupfiles/IzPack/lib/batik-dom-1.6.jar
+SHA-256-Digest: 0/XzSRXOiNqhWf3k8NRQxNdS0s8VmOnWOeR0FRn1sQU=
+
+Name: setupfiles/IzPack/lib/slf4j-api-1.7.7.jar
+SHA-256-Digest: aZgMA4yhsTGSZWFZFhfZwl+r/Hspgor5FZfKhXDPNf4=
+
+Name: setupfiles/IzPack/lib/izpack-util-5.1.2.jar
+SHA-256-Digest: EDJaaDyB5SWnQL+Ke4AEU0PJSS/Uc1UH8/ChfZ8kOLA=
+
+Name: setupfiles/IzPack/schema/5.0/izpack-shortcuts-5.0.xsd
+SHA-256-Digest: dy8bLJF+iWnvTuO/Mr7jxGrb7oCikb3rSM0aB8XuLQg=
+
+Name: setupfiles/docs/ReadMe.txt
+SHA-256-Digest: O/XeEtSg2Jjse6CDzCKq+R0X/Wnqr+YtDiMDsk76kn0=
+
+Name: setupfiles/lib/ReadMe.txt
+SHA-256-Digest: viInNWuv8+w2wNUDbLbwEIPjT7YxtrqI5nmPLG94rdk=
+
+Name: icons/full/wizban/new_project_wiz.gif
+SHA-256-Digest: amlMY0krWa/kXKhpbTKHkbBt5wGjlJ/o2jCjKYl/gvw=
+
+Name: setupfiles/repast-licenses/jung-license.txt
+SHA-256-Digest: BFoxi0StVEBvLY9aZwV6FYzhC7Q3mK4lRzqHmhEFs8E=
+
+Name: bin/repast/simphony/eclipse/ide/ServerLauncherAdder.class
+SHA-256-Digest: lWXvJyoa8Rtxsq7tRmWpej3BHznenB0/vUq8RLRKmTY=
+
+Name: setupfiles/IzPack/lib/commons-compress-1.12.jar
+SHA-256-Digest: LBVC+vNDGFt8q5w9VciuVHHW0JXTiHpK3v298phNwLY=
+
+Name: setupfiles/IzPack/lib/junrar-0.7.jar
+SHA-256-Digest: fHZPoa8xm5j/RSGJqzG7ci6nTtelKxewxigiScEKYfw=
+
+Name: setupfiles/batch/ReadMe.txt
+SHA-256-Digest: WfapO1NxXDUpk4L5lQOkc7UspKNysF9HCXQeZLboGcE=
+
+Name: bin/repast/simphony/eclipse/RepastLauncherClasspathContainer.class
+SHA-256-Digest: Nc2fQ9glO6gvFXwQdVI10E/CBrUECCTFL5MZ2dRxqIA=
+
+Name: setupfiles/IzPack/lib/bcprov-ext-jdk15on-1.54.jar
+SHA-256-Digest: U45hQFVhopMhYJUgvROUjHcku+P4T31uYegRAsWDdSk=
+
+Name: setupfiles/IzPack/lib/maven-scm-provider-svn-commons-1.4.jar
+SHA-256-Digest: 385OXz5Sc98kHxhI6qfBjXPedm8SfUprVycZPEww1A0=
+
+Name: setupfiles/repast-licenses/jmock-license.txt
+SHA-256-Digest: aECvtW5QYaXHvnGWkJgWjIiM/NwXX6tm+DK7UUKeeqA=
+
+Name: setupfiles/IzPack/lib/classworlds-1.1-alpha-2.jar
+SHA-256-Digest: K/TlnzrNEG/qYUWpqI/olWUJ+LnA/dEeuW/udXJp4/M=
+
+Name: setupfiles/IzPack/lib/bzip2-0.9.1.jar
+SHA-256-Digest: hlp6E90z7wOI9nWZOtr0xvlWMrqA1gnULp1C5jQ6rnc=
+
+Name: setupfiles/shapes/svg/plant.svg
+SHA-256-Digest: ue3qYiLpqUlQ6UJNDYjeFEpGX+teW8xuaSpfQvQxEIk=
+
+Name: setupfiles/IzPack/lib/ant-launcher-1.9.9.jar
+SHA-256-Digest: AsvgEM7sSsqwWaz6SKFtx7fEMCAPJWG2t8dbyrSPQEQ=
+
+Name: setupfiles/shapes/svg/frowny.svg
+SHA-256-Digest: 0mzpQLBaTALp4wEJPWXGV91u9hrMhJK4JO+IrdZQG30=
+
+Name: bin/repast/simphony/conversion/ScoreToCM.class
+SHA-256-Digest: knReQZD5E5Ev3kps95+tZW0fCg/4DjEhtQIFs51bf5s=
+
+Name: setupfiles/IzPack/lib/poi-ooxml-schemas-3.12.jar
+SHA-256-Digest: laDh0utwOxi5urwe3T+vQ4j09WTm6NfiJ9FooR3+EhY=
+
+Name: bin/repast/simphony/eclipse/ide/ServerLauncherCreator.class
+SHA-256-Digest: g9QOrtAMV50PjhHPhJAjzxQZn/4rufqLvGhBxoxIaEs=
+
+Name: setupfiles/IzPack/lib/commons-csv-1.0.jar
+SHA-256-Digest: 7zaMn6ADlj2ng5m49aQd3772sgb1BfUikwBXMNh+cpU=
+
+Name: setupfiles/repast-licenses/repast-license.txt
+SHA-256-Digest: sgcGxHlhIfJK9mnMFOtvz0jBQxnJYR0r5EDSz4qPlYU=
+
+Name: setupfiles/installer/splash_screen.png
+SHA-256-Digest: EbjNQdG74m00hS6d807FyhsHLsvGQNj8IKzeO2xDZmQ=
+
+Name: setupfiles/icons/x.png
+SHA-256-Digest: 9RNAzsbN2OPCsMeG4G2q3F2x8MZqcypIIv3g30Zp8sw=
+
+Name: setupfiles/repast-licenses/axion-license.txt
+SHA-256-Digest: M6mPl+bTCTaKuNVYN1zBVHVDBEDnarysnUElCjjz1y8=
+
+Name: setupfiles/shapes/svg/car.svg
+SHA-256-Digest: 6LHtDjQIadb27zpgAOa1+qxZtjjLIfNmHaO0ULYfXqE=
+
+Name: icons/full/cview16/resview.gif
+SHA-256-Digest: xNDjfq8Uit7Hy2ASbTJJy7/7IN9uwqnda4zwTJ2Zr9s=
+
+Name: setupfiles/installer/border4.png
+SHA-256-Digest: RowrOy6hg2MK7SVWwweKIjvhgL4z+25YQ7C/eE3CZ/c=
+
+Name: about.properties
+SHA-256-Digest: LEkA2wA0m1Kc3RISgK2+wGcpIM3LBgUuZ8cQWvWuOYY=
+
+Name: setupfiles/repast-licenses/jaxen-license.txt
+SHA-256-Digest: D35LF673wyqfE5lqq3lmwjdx/K+RAvFiUn44lRjhM7w=
+
+Name: setupfiles/package.rs/context.xml
+SHA-256-Digest: o50N2kN1kWOp52bzq1aV/TjUy69FtgGH+5hwTkooZXY=
+
+Name: setupfiles/shapes/svg/circle.svg
+SHA-256-Digest: 9XEZY4f/gNJNNr0UFW6vv0iWF4v+YTA6m9wZVhvXtBQ=
+
+Name: setupfiles/IzPack/schema/5.0/izpack-langpack-5.0.xsd
+SHA-256-Digest: LgaPUfUlKyNHuQXBg2VWmupASGlXXfd4lRWdeZv1lbw=
+
+Name: bin/repast/simphony/eclipse/StandAloneBatchClasspathContainer.clas
+ s
+SHA-256-Digest: aWzaml/beutFM10H+cy84c5GcAjKzJ+HklaT66xmUgk=
+
+Name: setupfiles/IzPack/lib/jsoup-1.7.2.jar
+SHA-256-Digest: vdLysoHa6CmRX70YAsCSaff1rdWohiQuqg0a42LTKcw=
+
+Name: setupfiles/shapes/svg/arrow.svg
+SHA-256-Digest: Q4khZ5Dxq7eqjKPpiy6269X5+CFuOVVrP2UWJHi6SR4=
+
+Name: setupfiles/IzPack/lib/laf-plugin-7.3.jar
+SHA-256-Digest: v0EAROSZxwsZ7uGa1SeKoO9/01dHg+dAMEAf9V+i/Oo=
+
+Name: bin/repast/simphony/eclipse/ide/InstallerLauncherCreator.class
+SHA-256-Digest: sXbxU+qQfagIenIebLds5A9jWK5KuZ/6GJ2/37s3gkE=
+
+Name: setupfiles/IzPack/lib/jai_imageio-1.1.pom
+SHA-256-Digest: plBdoPegHiZeWSbFbjq2u5UZEcj2EDEpZ6YyZS6oBAw=
+
+Name: setupfiles/installer/shortcuts.xml
+SHA-256-Digest: TZthrCm7OzBLXcYg53f5VgwcdgEdQSLt+bBDpHSdACE=
+
+Name: bin/repast/simphony/eclipse/action/FileSystemSelectionAction.class
+SHA-256-Digest: 8DIn9k21C2lpHEvKTt/yg5wg34xLsiwuHiWNAhIxcJQ=
+
+Name: icons/full/ctool16/newprj_wiz_old.gif
+SHA-256-Digest: ZgfCaDXeb81AyKllKUvWAD4A2WxKLa79pi8kDu7JVRs=
+
+Name: setupfiles/IzPack/lib/icepdf-core-6.2.2.jar
+SHA-256-Digest: whz5vjBF6/7tdXZDyUF6O8ZSNcJ4ZSyIy8rqC96+9U8=
+
+Name: setupfiles/IzPack/lib/substance-7.3.jar
+SHA-256-Digest: ozTBngQDSRdE8C+IKd8nb+sYHd9kh7NUMyBbgJ0fpE0=
+
+Name: setupfiles/IzPack/lib/izpack-event-5.1.2.jar
+SHA-256-Digest: t2JCB0MHUY46CVjNyVzJiznoh5DDYpOig+C7Z5SUotI=
+
+Name: setupfiles/shapes/svg/default.svg
+SHA-256-Digest: QqYxJGs4lzGBKrA8BAxAr/txhCLovQL5cnfiicEbFzY=
+
+Name: licenses/license_flow4j.txt
+SHA-256-Digest: bIfiDC/m7OIYG684fUAXfoYhUg2HKCXkhRHMWG7n23g=
+
+Name: setupfiles/icons/model.png
+SHA-256-Digest: 7XacgOL/p6LyqzWerGgfb/tSu5qgRpOroCyjKM0oAx8=
+
+Name: setupfiles/icons/triangle.png
+SHA-256-Digest: BAypgb74n27AXw+k0u4XvzcE6DzBfslsmvqDmvIbZbc=
+
+Name: bin/repast/simphony/eclipse/ide/ImportSampleModelsWizard2.class
+SHA-256-Digest: E7cem7KoXSssXwe82x8laUQP2VGVaffR4kc+RgYZck0=
+
+Name: setupfiles/icons/default.png
+SHA-256-Digest: RA34dvWhjDAnFIhjKkaH29/RE9/Udviff8F5jaRH/+0=
+
+Name: setupfiles/installer/border6.png
+SHA-256-Digest: JpAKR7tcJNHKfiq4ZCaRYLYAhFfpIozjhlHhSQF0PTM=
+
+Name: bin/repast/simphony/conversion/ScoreToUserPath.class
+SHA-256-Digest: R4OcCtlBJ1jjbXiDKJ+JF5v+j1NJqp5oPfIpWkHMq1Q=
+
+Name: setupfiles/icons/plant.png
+SHA-256-Digest: NX02Wgt3KLa8k3i8/XJDMfybeANUqq/HyZFLQxDDao0=
+
+Name: setupfiles/repast-licenses/groovy-license.txt
+SHA-256-Digest: 5miQ7ASfoOhDsxmYYGydNj1brR+nu5dQpfdz7SAE8Ew=
+
+Name: setupfiles/repast-licenses/lgpl-2.1.txt
+SHA-256-Digest: XfBwBxmJicYi9dQd6NcD577z0OedYuJDMu5zmkUq9io=
+
+Name: setupfiles/icons/house.png
+SHA-256-Digest: A90q/RsPV+DgtTDDWdgCe2Rd8C4erIAiKMSzrK7KbJg=
+
+Name: bin/scoreTransforms/user_path.xsd
+SHA-256-Digest: Slxt49Qnf5xDoeYYsnW8wV5Y9gLHUOkBgXXVfZ6dx5w=
+
+Name: setupfiles/data/ReadMe.txt
+SHA-256-Digest: Q2lVHM2h/KAayDOMEskwmqdM5ol1olEAlF+KQ8G/8HQ=
+
+Name: setupfiles/IzPack/lib/kunststoff.jar
+SHA-256-Digest: v97jAMifo1P/r+VL/QGYyUqEZ6ta8lbrDfxB37VUSvY=
+
+Name: setupfiles/IzPack/lib/jhighlight-1.0.2.jar
+SHA-256-Digest: 20j92wXs4Qg0FY5istJy6z/cuMsd00gvOuv1zHBlyh4=
+
+Name: setupfiles/icons/ReadMe.txt
+SHA-256-Digest: 9ObJ3dYQKLrFeREFwNu1r3WMcsSBH1hNQ9KDnnHnNmA=
+
+Name: setupfiles/repast-licenses/jts-license.txt
+SHA-256-Digest: e0ofM9OG1D9KtDFJ9QCq7W5cYIhCysuXVzAo/olC7UI=
+
+Name: setupfiles/repast-licenses/jmf-license.txt
+SHA-256-Digest: LZ8uGIt2XpQGM3Ryj3d5wVRBMS+CjOoZo96DOvp1ZuM=
+
+Name: icons/full/obj16/resview.gif
+SHA-256-Digest: xNDjfq8Uit7Hy2ASbTJJy7/7IN9uwqnda4zwTJ2Zr9s=
+
+Name: bin/repast/simphony/eclipse/ide/NewProjectCreationWizardPageJ$1.cl
+ ass
+SHA-256-Digest: IBtQFb6sHcMd1v6SKCvjeHp6Zq5bkfY+jkFmRLplqAQ=
+
+Name: setupfiles/repast-licenses/swingx-license.txt
+SHA-256-Digest: LcLadHfHjgsBxbnt3JnmIfvI0qdGtnhrP8Nt4/MaPMc=
+
+Name: setupfiles/IzPack/lib/httpcore-4.2.5.jar
+SHA-256-Digest: 5egtpMxmyNkXu/dD48B1Lv6FInNef8nb3bZbzOqBz+k=
+
+Name: bin/data/repast.simphony.action.display_4.xml
+SHA-256-Digest: CVZNPNHJcF0DPaP5pQEqkWO5z2GS0GrWm5xLfj3dpxs=
+
+Name: setupfiles/icons/alien.png
+SHA-256-Digest: vH4s9QJvx3UO9yblOdUYBOe1W04TMCmMgv+G4Ojypzo=
+
+Name: bin/repast/simphony/eclipse/ide/NewRepastXMLFileWizard$1.class
+SHA-256-Digest: Q7WKJN0giUU7aGw7gmSY76x01IxyfHoLO1432wlSSsc=
+
+Name: setupfiles/IzPack/lib/grib-4.5.5.jar
+SHA-256-Digest: HgSSE19CH1VMRlGpUiXyfyoyMOmTMp9pNIEQ+FIcMtk=
+
+Name: setupfiles/repast-licenses/CPL.txt
+SHA-256-Digest: g3iQcYx1ZDkew7cW2LdgbdJ3scPnkLYTwot7BQxrdi8=
+
+Name: setupfiles/icons/flag.png
+SHA-256-Digest: tP50jRSRMGUVAcXX+32yNUeiI/vysirofCzs2iXA4Ek=
+
+Name: setupfiles/shapes/svg/pentagon.svg
+SHA-256-Digest: v63nZI87aj9WndbAccgq9onP8DvPdZsmaNEU83nibyg=
+
+Name: setupfiles/IzPack/icons/izpack_wiki_32.png
+SHA-256-Digest: rGROEm4If47vh6ZZLZS+1snexvHfy3DCd1+lY64rIeo=
+
+Name: licenses/license_flow4J-eclipse.txt
+SHA-256-Digest: t4k5lYfERrP4gdXgcF6JC9o/JbOK2Lsg3qw1DzbRMU8=
+
+Name: bin/repast/simphony/eclipse/ide/NewProjectCreationWizard$1.class
+SHA-256-Digest: Z71gPOI40nVQdDy2FDv5BReMRqRIutRoqexYLwhx5/U=
+
+Name: setupfiles/installer/create_model_archive.xml
+SHA-256-Digest: MPF0XA2sEcG3jHw+BYTp4UpzRvrFisUSuL3gvTzEDGQ=
+
+Name: setupfiles/IzPack/lib/netcdf4-4.5.5.jar
+SHA-256-Digest: Ex45g9zwAWd74GmnRxeXpKmtLJeD6I21bjJQbPEDljU=
+
+Name: setupfiles/batch/batch_params.xml
+SHA-256-Digest: a/3qFbXR7yIBe1zVPgMMv589UG9KDu1i6JCyzQDBiVY=
+
+Name: setupfiles/repast-licenses/apache-license.txt
+SHA-256-Digest: P4opgIcg+RQANYhqAlGFhyaBgz2isLzA5L7B0jPXuMs=
+
+Name: bin/repast/simphony/eclipse/util/Utilities.class
+SHA-256-Digest: gGZLeYkEYNGqjbtgo+Issnmz8ngsomZQwIkvilB4kWk=
+
+Name: setupfiles/IzPack/lib/izpack-uninstaller-5.1.2.jar
+SHA-256-Digest: wBKAvGHm7gN8Bu4OXbOOvT9g0t5bBVRX+M4kXnXRWRY=
+
+Name: setupfiles/IzPack/lib/sis-netcdf-0.5.jar
+SHA-256-Digest: 63bcVl0tdaQBujpJplH02oB5Oc3o4JvLPsMMVkJUG9w=
+
+Name: bin/data/model.xml
+SHA-256-Digest: 60lO0rnZCTchJY1J5Nf3uXc2fiKmAlCy5VQWJGLcAts=
+
+Name: bin/repast/simphony/conversion/ScoreToContext.xsl
+SHA-256-Digest: GrziSp/1gjoGtjBatttxBOudSS97eWNF9b6/9skOwVc=
+
+Name: bin/repast/simphony/eclipse/util/DirectoryCleaner.class
+SHA-256-Digest: XE91hgsAHqxDrliMPPrYjNPRGVBN1N+SltfuQpR4s20=
+
+Name: setupfiles/installer/border1.png
+SHA-256-Digest: oyjs5uwK0srQlZ26eN3hCZ1zYWQG8Yy2Q6OakUGRByI=
+
+Name: setupfiles/IzPack/schema/5.0/izpack-registry-5.0.xsd
+SHA-256-Digest: 2+Dc78/m49din52AcEdPtO4QX6p3RptRYgwW2RdnHEk=
+
+Name: setupfiles/IzPack/lib/jna-4.1.0.jar
+SHA-256-Digest: GqN+nqa6oO4VLYlQn3WPCEfqxm7BeblVyv4JGeVAqS4=
+
+Name: bin/repast/simphony/eclipse/util/ToDeleteFilter.class
+SHA-256-Digest: bntNAVs4FB2aY5o5Qisfn9Mfsuc3wRtM7q3WL72GjJA=
+
+Name: setupfiles/repast-licenses/mx4j-license.txt
+SHA-256-Digest: eeY1mJcpAglUuOPXMQyaJVmsXov8JmQnoUUYo3oGuLA=
+
+Name: setupfiles/IzPack/lib/vorbis-java-core-0.6.jar
+SHA-256-Digest: l5JEgcsn/A/G5XhNnULqXiGtoa5wPIjrXQu4Ngs7CzA=
+
+Name: setupfiles/ModelInitializer.txt
+SHA-256-Digest: ryti5+9q7tGSGLmSYwcJNcxt4LuNANGj/+RLuARfcpc=
+
+Name: setupfiles/IzPack/legal/Looks-Licence.txt
+SHA-256-Digest: snOY+n4waOI47NlxO9cqPCS60XLfTNFMpNhl9FmIfxM=
+
+Name: setupfiles/icons/frowny.png
+SHA-256-Digest: NcfW1DI+0dxZMI9ethDyaj0ykeF1wErtV12ihmqVH1k=
+
+Name: setupfiles/freezedried_data/ReadMe.txt
+SHA-256-Digest: WAurHtVKdhFVXoTl2HN0bN6W30bI4yhBjSkhOAmGpm8=
+
+Name: setupfiles/repast-licenses/mitre-relogo-import-wizard-license.txt
+SHA-256-Digest: HOL8YGumqMRw3cPjWKCtaAMWW6ep5TsxsWuqq1IHM7U=
+
+Name: bin/repast/simphony/eclipse/ide/RemoveSimphony.class
+SHA-256-Digest: F7NIOCfHQ9EhIBoFkn1SgU/Co7poQyZ0sWq7wVAlfx0=
+
+Name: setupfiles/IzPack/schema/5.0/izpack-bsfactions-5.0.xsd
+SHA-256-Digest: 6vA3v358X+faPlOT/z2SMd0ag1cYdBgUA4q934MpG/g=
+
+Name: setupfiles/repast-licenses/proactive-license.txt
+SHA-256-Digest: nUDQk7tDbHWHyFJrLJIF3Sg251vNYep92+U0ZTtuWAk=
+
+Name: setupfiles/IzPack/lib/httpclient-4.2.6.jar
+SHA-256-Digest: Ni6TJO58aX4hJ54gB3tSc33e8/Gywaer5a00tGUUVVA=
+
+Name: setupfiles/package.rs/user_path.xml
+SHA-256-Digest: Dcvopv3TX+0cLe9ESOEVoBI+OugHWE49ElaVJKnBCGA=
+
+Name: setupfiles/shapes/svg/house.svg
+SHA-256-Digest: uPksw6m43ZT2M6kFcLfPT2gE5J1pr/H3RvvZL37ixOI=
+
+Name: setupfiles/default_frame_layout.xml
+SHA-256-Digest: 5NXEBvMe2ayfg2ErQmFRxmG9SWLdPhVWFA9Xr0ac2YM=
+
+Name: setupfiles/shapes/svg/x.svg
+SHA-256-Digest: S3rR8i3fBLVL5CZmZD+1Yzb8mVebfC4HRg8kZYNtRxU=
+
+Name: setupfiles/IzPack/lib/substance.jar
+SHA-256-Digest: NP8IoC1wUnTKxfvjWGJkn5LtLAa0ol96dsUo6zibRbw=
+
+Name: setupfiles/repast-licenses/piccolo-license.txt
+SHA-256-Digest: kHg+RaQELiTMaTPlzAaZnJIxuCdnPSEGV7RHk4WE71w=
+
+Name: setupfiles/IzPack/lib/izpack-tools-5.1.2.jar
+SHA-256-Digest: Max3WdBGSs34bt2JWLbqAjOKJS6cCcGnc/x4eSr6FBk=
+
+Name: setupfiles/IzPack/lib/joda-time-2.2.jar
+SHA-256-Digest: 5Rg8oTH3GVveWyfkzRje620U+LxcSDsUMUIRMpJyQK8=
+
+Name: setupfiles/repast-licenses/forms-license.txt
+SHA-256-Digest: 8hsAcsJL5ayZ/OXaXP3HpkFefvskEy3VO8pyYxE2ZsA=
+
+Name: setupfiles/repast-licenses/hsqldb-license.txt
+SHA-256-Digest: sn+1zbnodKwqh2OZWxrsoQKqc7aMTLVBWHosbJaIHmY=
+
+Name: bin/repast/simphony/eclipse/ide/Constants.class
+SHA-256-Digest: 3ULNiekDVwYK9Hwd2ov9F+cOq8mNZw9gh5dIbVCjdWY=
+
+Name: setupfiles/shapes/svg/turtle.svg
+SHA-256-Digest: 2cq5+9k4iOndbjz6crpTkeKpkC/90yod5S2jvPtj1G0=
+

@@ -1,0 +1,149 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Repast statecharts visualization
+Bundle-SymbolicName: repast.simphony.statecharts.visualization
+Bundle-Version: 2.9.1
+Bundle-ClassPath: runtime.jar
+Require-Bundle: org.w3c.dom.svg,repast.simphony.statecharts,org.junit,or
+ g.eclipse.emf.ecore.xmi,repast.simphony.gui,saf.core.ui,org.w3c.dom.smi
+ l,org.w3c.css.sac,libs.ext
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: Argonne National Laboratory
+
+Name: bin/repast/simphony/statecharts/runtime/StateChartSVGDisplay$6.cla
+ ss
+SHA-256-Digest: XiwKbqvbokWQ3k71y2UDH5K3cB5nOeidVa05iSrpm3g=
+
+Name: bin/repast/simphony/statecharts/runtime/UICreatorFactory$StateChar
+ tButton.class
+SHA-256-Digest: WRyAiFCWOo32lGPBwjSJWcQA5P6dWIDkf/NK35wvvuw=
+
+Name: bin/repast/simphony/statecharts/runtime/SVGApplication$1.class
+SHA-256-Digest: Eai0i2sWVKPXE5RXaWfvstm7E7qw9dRjlZOzvRYdpJA=
+
+Name: bin/repast/simphony/statecharts/runtime/StateChartSVGDisplay$Custo
+ mJSVGCanvas$CustomCanvasSVGListener$1.class
+SHA-256-Digest: aV/DevhS8U8tiZ64lGeMEpVDEfxB86Na9onS3U1pqEU=
+
+Name: bin/repast/simphony/statecharts/runtime/StateChartSVGDisplayContro
+ ller.class
+SHA-256-Digest: mkdxEYobF4Du0DNoAeH35ca8bJqTJB0imD5l2fSIvq8=
+
+Name: bin/repast/simphony/statecharts/runtime/SVGApplication.class
+SHA-256-Digest: v7xza6qJC5pKa+fRClREKTwCuPPv5/xU99i5ssnZyn0=
+
+Name: bin/repast/simphony/statecharts/runtime/StateChartSVGDisplay$1.cla
+ ss
+SHA-256-Digest: iTzO/oODLZ4jnPFGkvvXWdF1diw/GJazEjfN/FpNMv8=
+
+Name: bin/repast/simphony/statecharts/runtime/StateChartSVGDisplay$Custo
+ mJSVGCanvas$CustomCanvasSVGListener$4.class
+SHA-256-Digest: r5IjnD7odnKBsCCnyezlcam8tzxj3Grz1qMYWK7Oiew=
+
+Name: bin/repast/simphony/statecharts/runtime/StateChartSVGModel.class
+SHA-256-Digest: /MGmN2Wc5GsOqRlCDzGsu7VpBQwm5nA81Sphx8OPI34=
+
+Name: bin/repast/simphony/statecharts/runtime/UICreatorFactory$PPUICreat
+ or.class
+SHA-256-Digest: fPf7IyzOX2OY+p/LYESkKFhUav33bEAJj2eQPcLxY4E=
+
+Name: bin/repast/simphony/statecharts/runtime/StateChartSVGDisplay$3.cla
+ ss
+SHA-256-Digest: Egy4+MqpmByItIGM7opGpIoqsCLhWFBXaG5RAS9c0IA=
+
+Name: bin/repast/simphony/statecharts/runtime/SVGApplication$3.class
+SHA-256-Digest: /rGuoMBOPssAkicjMZx6wbfHsJWYicLN6phrARz5tWY=
+
+Name: bin/repast/simphony/statecharts/runtime/StateChartSVGDisplay.class
+SHA-256-Digest: Ju51YlcUeC9Rh/dkzcNPo6xhYEYPNbJtNFuQg5AnH64=
+
+Name: bin/repast/simphony/statecharts/runtime/SVGApplication$5.class
+SHA-256-Digest: vieSegpshdqgUMoM43bdroSmJNbk7VKb0niywghcbns=
+
+Name: bin/repast/simphony/statecharts/runtime/StateChartSVGDisplay$Custo
+ mJSVGCanvas$CustomCanvasSVGListener$2.class
+SHA-256-Digest: uTsFEeL1NmA2xLVIsDbjv5GgfLZ99a1jj1nrEcaceOE=
+
+Name: bin/repast/simphony/statecharts/runtime/StateChartSVGDisplay$Custo
+ mJSVGCanvas$CustomCanvasSVGListener$5.class
+SHA-256-Digest: NCp4SMZ8DEzQ18InQMshBkBco76A91DcXhl05oWmsiw=
+
+Name: bin/repast/simphony/statecharts/runtime/StateChartSVGDisplay$Custo
+ mJSVGCanvas$CustomCanvasSVGListener.class
+SHA-256-Digest: 9NpDbJoY4RQENcQngP8B7OJUyhN3AAN+BLsQ/+zI+FY=
+
+Name: bin/repast/simphony/statecharts/runtime/StateChartSVGDisplayContro
+ ller$2.class
+SHA-256-Digest: Y4LHKGu2eM0Q4hxNgF5K9HkGoc48CqdPRfTHwTyFWIs=
+
+Name: bin/repast/simphony/statecharts/runtime/StateChartSVGDisplay$7.cla
+ ss
+SHA-256-Digest: lRX6nTiesYULtGoe4t6y4SsN/ol+pYz2Xr5w0FYlFb4=
+
+Name: bin/repast/simphony/statecharts/runtime/StateChartSVGDisplay$Custo
+ mJSVGCanvas$CustomCanvasSVGListener$7.class
+SHA-256-Digest: aBAOr4ePYk9PPNjTu7KTIjUpYTe6gazZOhGBMtd9yEQ=
+
+Name: bin/repast/simphony/statecharts/runtime/UICreatorFactory$WindowReg
+ istry.class
+SHA-256-Digest: kIzDscwQm4aKwY6HqXqWzXeu8iAhwBH+rkXGQFWcoVQ=
+
+Name: bin/repast/simphony/statecharts/runtime/SVGApplication$2.class
+SHA-256-Digest: wKxgp7rE/NBFsHUwjeNsdri4HmbaobmGjlWHpPA/4Vc=
+
+Name: bin/repast/simphony/statecharts/runtime/StateChartSVGDisplay$2.cla
+ ss
+SHA-256-Digest: D84NKHFWPXb6rs1NK0BzArMsqlPf1tczQZSCOyRGGtY=
+
+Name: bin/repast/simphony/statecharts/runtime/StateChartSVGDisplay$5.cla
+ ss
+SHA-256-Digest: 9iTOlM1zhZrpHT0znrlapO3HmKFZARwM25iG+NtjJao=
+
+Name: bin/repast/simphony/statecharts/runtime/UICreatorFactory$PPUICreat
+ or$2.class
+SHA-256-Digest: TSmbcuyEEdbS3XqliUSy8olc3507ntbEktxr6Ohgs64=
+
+Name: bin/repast/simphony/statecharts/runtime/StateChartSVGDisplay$Custo
+ mJSVGCanvas$CustomCanvasSVGListener$7$1.class
+SHA-256-Digest: c4cH1ySz5bmuMmHpoTU1JrQ+dcuT5ZibXgZsZ8LnkeM=
+
+Name: bin/repast/simphony/statecharts/runtime/StateChartSVGDisplay$Custo
+ mJSVGCanvas.class
+SHA-256-Digest: 31PydbSh+y2Vx66A2FzKE2rGSJxZd6SXIfZpPZKCL+s=
+
+Name: bin/repast/simphony/statecharts/runtime/SVGApplication$4.class
+SHA-256-Digest: i4rHgEuSnhNWpR4qEHoRDpwWvOJQmZVpxAK9jLmQU5w=
+
+Name: bin/repast/simphony/statecharts/runtime/UICreatorFactory.class
+SHA-256-Digest: GmgaB8RSWFHXHGnkfkmPcJAJkmU217gPjFPBbwA0N2Q=
+
+Name: bin/repast/simphony/statecharts/runtime/StateChartSVGDisplay$Custo
+ mJSVGCanvas$CustomCanvasSVGListener$3.class
+SHA-256-Digest: t/rYcmUjiyF5PZ7zK1CUu7KGQuOHbWcHvHfYTLpZMn8=
+
+Name: bin/repast/simphony/statecharts/runtime/StatechartCloseListener.cl
+ ass
+SHA-256-Digest: YYhz0mZpcoX6KzQCfnel1y0mD84b9rGTFjVOZemGjJ0=
+
+Name: bin/repast/simphony/statecharts/runtime/StateChartSVGDisplay$4.cla
+ ss
+SHA-256-Digest: g9jCIlcylqxWH+xqH47s7qBSm0V8S8/QelkykT8EKXo=
+
+Name: bin/repast/simphony/statecharts/runtime/StateChartSVGDisplayContro
+ ller$1.class
+SHA-256-Digest: H9hDSkTz1VWz9jqkpzsS09ihbCHGW+VG5AFJ+egFBcg=
+
+Name: bin/repast/simphony/statecharts/runtime/UICreatorFactory$PPUICreat
+ or$1.class
+SHA-256-Digest: dOZSXC1cxXL95aZbSCOzW99tS2os6obuqjx0ae70CTw=
+
+Name: plugin_jpf.xml
+SHA-256-Digest: 8ZA/9Cjz/KG5Us5t8I5JTskh/ycPlNoq/OdiWOEKAG0=
+
+Name: bin/repast/simphony/statecharts/runtime/SVGUtils.class
+SHA-256-Digest: 824Vwg9rAGvnjZr3iE5hnQy3YKO80ARwn3+XbknSkl4=
+
+Name: bin/repast/simphony/statecharts/runtime/StateChartSVGDisplay$Custo
+ mJSVGCanvas$CustomCanvasSVGListener$6.class
+SHA-256-Digest: yPUX2EX2XLK0ZKSEomcUoPqllwlx1nPVk5XwjRUu0nA=
+

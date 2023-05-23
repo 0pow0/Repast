@@ -1,0 +1,155 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Repast statecharts edit
+Bundle-SymbolicName: repast.simphony.statecharts.edit;singleton:=true
+Bundle-Version: 2.9.1
+Bundle-ClassPath: bin/
+Bundle-Activator: repast.simphony.statecharts.scmodel.provider.Statechar
+ tEditPlugin$Implementation
+Bundle-Vendor: Argonne National Laboratory
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Export-Package: repast.simphony.statecharts.scmodel.provider
+Require-Bundle: org.eclipse.core.runtime,repast.simphony.statecharts.mod
+ el;visibility:=reexport,org.eclipse.emf.edit;visibility:=reexport
+Bundle-ActivationPolicy: lazy
+
+Name: bin/repast/simphony/statecharts/scmodel/provider/PseudoStateItemPr
+ ovider.class
+SHA-256-Digest: mH6jZhRGCPG/HM5/uzv7hvUHBTIzzlm6ubmyYU7PJeY=
+
+Name: plugin.xml
+SHA-256-Digest: 1PzusoaMk3bYVdmud8l49axyjvNo2qsxExE2IQpzRYU=
+
+Name: bin/repast/simphony/statecharts/scmodel/provider/StateItemProvider
+ .class
+SHA-256-Digest: UY2G1VCA6p7xrKex9nQLGp4y7N7ue8A0ENi2WiZJ0JQ=
+
+Name: icons/full/obj16/Choice-16.png
+SHA-256-Digest: +kpDkWZ6Tl6tkF05QkjBH97mxIdttdtdSq5Vl58S0PA=
+
+Name: icons/full/ctool16/CreateStateMachine_states_CompositeState.gif
+SHA-256-Digest: 1ZaMCt2bPtRUr43g1szJ7JG7iVdgFKTjqyaKsNVVTy8=
+
+Name: bin/repast/simphony/statecharts/scmodel/provider/AbstractStateItem
+ Provider.class
+SHA-256-Digest: qlixPnz+dWgWtgQJSQriFIb8Xm/mO3YJbkb4u9hyy24=
+
+Name: icons/full/ctool16/CreateCompositeState_children_State.gif
+SHA-256-Digest: M4BUoES0ms66GwJLBpOpvl5c4/IvlRqhkZ8/hpEu5no=
+
+Name: icons/full/ctool16/CreateStateMachine_states_EntryState.gif
+SHA-256-Digest: +hf3Z3TVFNbJA7Cn0Oh2h49uhZMXNdibqXw0PBmFeaY=
+
+Name: icons/full/obj16/First-State-16.png
+SHA-256-Digest: D/sO9bE7V+q1GprwVnwiuesVT5Kz/jeO/wFT1U4b+D0=
+
+Name: icons/full/ctool16/CreateCompositeState_children_CompositeState.gi
+ f
+SHA-256-Digest: 1/NWwkpxdJS8I5RJ3bBo0GY1tuzyVFviZnNuN3Sdnrk=
+
+Name: icons/full/ctool16/CreateCompositeState_children_History.gif
+SHA-256-Digest: DNcJFOD2R5aOEdzYO8SAbrPriUR34HLu8BucCJ1ruCY=
+
+Name: icons/full/obj16/transition-16.png
+SHA-256-Digest: eVuZ/XggRv0eXlvrjG7Gcn4pwcIty3jBR9tZD6VYQG0=
+
+Name: bin/repast/simphony/statecharts/scmodel/provider/CompositeStateIte
+ mProvider.class
+SHA-256-Digest: jTbhNEjzbet3T63L2e+GW4I+TQJGRQIUp2BMle5fuUg=
+
+Name: icons/full/ctool16/CreateStateMachine_transitions_Transition.gif
+SHA-256-Digest: vAMF9P42giuiGyslcGHErYvtz+ZT2m53Wh5SbI2eEck=
+
+Name: icons/full/obj16/Shallow-History-16.png
+SHA-256-Digest: JClz31diA7Jef9xaKmGMxlg5ypgIImPsBnOPdPnTnjw=
+
+Name: bin/repast/simphony/statecharts/scmodel/provider/StatechartEditPlu
+ gin.class
+SHA-256-Digest: shtI5hgyLGVxaZ4S22G0e+pEBSAzsMaGb03VQZgY30Y=
+
+Name: icons/full/ctool16/CreateCompositeState_children_FinalState.gif
+SHA-256-Digest: f/FzL07jhvRtlIRXoysRTK7cFpG+Mu72BOBBfHDn1a4=
+
+Name: icons/full/ctool16/CreateStateMachine_states_FinalState.gif
+SHA-256-Digest: fqOBeaIdQ61x7TaGOefQkC3ENHcar/Zb1pcObuC/DL4=
+
+Name: icons/full/obj16/Deep-History-16.png
+SHA-256-Digest: HNggy4RAYRq5Ol0Ij2jmT35uPp4tXx6tA8gSVsj62JU=
+
+Name: bin/repast/simphony/statecharts/scmodel/provider/StateMachineItemP
+ rovider.class
+SHA-256-Digest: dQVovNJr0DZCKFnWfUELtgZ70Tp1SupBJWaUBKWLd/E=
+
+Name: bin/repast/simphony/statecharts/scmodel/provider/StatechartEditPlu
+ gin$Implementation.class
+SHA-256-Digest: YyYyMd2ou6buY1rIj1QishI3zssryZXtvJgchwguBxI=
+
+Name: icons/full/ctool16/CreateCompositeState_children_DeepHistory.gif
+SHA-256-Digest: sUfKFyDIM/037WDplLjnizo78Qwqp807v0E6MG3VyxE=
+
+Name: icons/full/ctool16/CreateCompositeState_children_ShallowHistory.gi
+ f
+SHA-256-Digest: e9pLRX+8gVkN4EVI6rxfTgTObkZy/Jhw4U1RwfAYI8E=
+
+Name: plugin.properties
+SHA-256-Digest: P5+6g9/Vh0HK6I4U2kGvQqsxa4YVnLbpw47ebbof/W0=
+
+Name: icons/full/ctool16/CreateCompositeState_children_PseudoState.gif
+SHA-256-Digest: fBRkz6usXZqzFtZzRRuz500Uh+hU6J/SgrVxoA9YY74=
+
+Name: icons/full/ctool16/CreateCompositeState_children_EntryState.gif
+SHA-256-Digest: sUfKFyDIM/037WDplLjnizo78Qwqp807v0E6MG3VyxE=
+
+Name: icons/full/ctool16/CreateStateMachine_states_DeepHistory.gif
+SHA-256-Digest: +hf3Z3TVFNbJA7Cn0Oh2h49uhZMXNdibqXw0PBmFeaY=
+
+Name: icons/full/ctool16/CreateStateMachine_states_ShallowHistory.gif
+SHA-256-Digest: ZXrgZuYCdw+mCTQ1prwZhZ4tUJoGxoQ18bk1825AUtw=
+
+Name: bin/repast/simphony/statecharts/scmodel/provider/HistoryItemProvid
+ er.class
+SHA-256-Digest: e7FSa1Xj42K08g9jYxIZGUi8MfUwM5s8kQAcphYop2c=
+
+Name: icons/full/ctool16/CreateStateMachine_states_History.gif
+SHA-256-Digest: +mX3tZYM6+uQ92Q3XV582Gs9s+HL4C1N8XymXdMQg2Q=
+
+Name: icons/full/obj16/Final-State-16.png
+SHA-256-Digest: Kh5yXKG9A/mb5iNi8jCD4xPMDIIRB0MV7Z7+Yw80xNo=
+
+Name: icons/full/ctool16/CreateStateMachine_states_State.gif
+SHA-256-Digest: HWuSlGCaGet74fS0zVDT1O+34OOxn5nQApvgRfbJllM=
+
+Name: icons/full/ctool16/CreateStateMachine_states_PseudoState.gif
+SHA-256-Digest: nE+YNhMKSFK33lsovlk+6IYSQ3WiQlB83qw9sMqlMZ0=
+
+Name: icons/full/ctool16/CreateCompositeState_children_EndState.gif
+SHA-256-Digest: M4BUoES0ms66GwJLBpOpvl5c4/IvlRqhkZ8/hpEu5no=
+
+Name: icons/full/obj16/Initial-State-16.png
+SHA-256-Digest: tsxOAb90t2L4s4Q6GOubFoCJTweqVXK1aqZ5zacyvAk=
+
+Name: bin/repast/simphony/statecharts/scmodel/provider/FinalStateItemPro
+ vider.class
+SHA-256-Digest: eXEnGDOZcv7Z/ii89H9Wdk4ubMo2R8z08kQX62t313Y=
+
+Name: icons/full/obj16/Composite-State-16.png
+SHA-256-Digest: AM3DX6DBaW8t3RbbMgFWvi37KJRzprNOVW9R9SIwq8c=
+
+Name: icons/full/obj16/StateMachine.gif
+SHA-256-Digest: 6tgegMixvQliGb6GvRkCEpLXEOjw8Y22JuxxdxfxpWI=
+
+Name: bin/repast/simphony/statecharts/scmodel/provider/TransitionItemPro
+ vider.class
+SHA-256-Digest: a+MKoHAASaiy42wsvFNCMqfhX13BZe1u+ljUkH1/S0w=
+
+Name: bin/repast/simphony/statecharts/scmodel/provider/StatechartItemPro
+ viderAdapterFactory.class
+SHA-256-Digest: VKVXJRg7U2FK8B1sOF2VoO6N80jjU76iiJyf3ih61xo=
+
+Name: icons/full/ctool16/CreateStateMachine_states_EndState.gif
+SHA-256-Digest: HWuSlGCaGet74fS0zVDT1O+34OOxn5nQApvgRfbJllM=
+
+Name: icons/full/obj16/State-16.png
+SHA-256-Digest: rMomBcxLUWwgdypunmBePP2hturOU/N9elEQse+36ac=
+

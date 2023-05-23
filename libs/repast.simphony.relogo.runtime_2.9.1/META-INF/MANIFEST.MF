@@ -1,0 +1,1113 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Repast relogo runtime
+Bundle-SymbolicName: repast.simphony.relogo.runtime
+Bundle-Version: 2.9.1
+Export-Package: repast.simphony.relogo,repast.simphony.relogo.factories,
+ repast.simphony.relogo.image,repast.simphony.relogo.styles,repast.simph
+ ony.relogo.util
+Require-Bundle: repast.simphony.visualization,repast.simphony.core,libs.
+ bsf,libs.piccolo,repast.simphony.userpanel.ui,repast.simphony.runtime,r
+ epast.simphony.essentials,repast.simphony.gui,repast.simphony.scenario,
+ repast.simphony.integration,saf.core.ui,repast.simphony.data,org.apache
+ .ant,repast.simphony.statecharts,libs.ext,repast.simphony.groovy
+Bundle-ClassPath: lib/asm-3.2.jar,bin/
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: Argonne National Laboratory
+
+Name: bin/repast/simphony/relogo/AgentSet$_withMax_closure3.class
+SHA-256-Digest: 3JmCk+kHYd88BTk1eGhzUpGyHfC/Pe3QXS6TjBWXIBs=
+
+Name: bin/repast/simphony/relogo/ast/DiffusibleASTTransformation$_create
+ PatchVarGetterMethod_closure2$_closure4$_closure5.class
+SHA-256-Digest: dCNC4Xsw9HEub+HpEoFijqbjE+H++gIbDd4ZB7FcCy8=
+
+Name: bin/repast/simphony/relogo/factories/ReLogoWorldFactory.class
+SHA-256-Digest: SE28QAo4F2/iY3XVvSX+rbTjTmzGEhmLQyACRYwoois=
+
+Name: src/repast/simphony/relogo/RLDimensions.java
+SHA-256-Digest: izZOPdBxgAk1Ww9dkIHKJEPFgWdjWb5zQy5EPVbTMX8=
+
+Name: src/repast/simphony/relogo/FileInfo.java
+SHA-256-Digest: bxy5dvZQowdDl1AW2vpnY3FxkmtZKvNTthj6SA9gklU=
+
+Name: src/repast/simphony/relogo/BaseObserver.groovy
+SHA-256-Digest: sbWl3obpreQutG57WWbUl+sQ9az97gqGoMv7xKVK80w=
+
+Name: bin/repast/simphony/relogo/ast/PatchTypeClassInstrumentor$_createT
+ urtleVarSetterMethod_closure2$_closure7$_closure8.class
+SHA-256-Digest: 3n1XQBpPMRp0iXJrs3NGvxUYWynI7iM3XwN9ziBRKjw=
+
+Name: bin/repast/simphony/relogo/ast/ReLogoGlobalASTTransformation$_modi
+ fyDisplayFile_closure17$_closure22.class
+SHA-256-Digest: MGosu8R+voHUZ8C662vqa+/nxohddt1uH6XUqAyh2dw=
+
+Name: bin/repast/simphony/relogo/util/ReLogoReferenceCreator$_createPrim
+ itivesDocument_closure3$_closure5$_closure7$_closure9$_closure11.class
+SHA-256-Digest: TH1r7o1HcExWlbXqRjjNO9mVISLO00Z29UwfnairM6w=
+
+Name: src/repast/simphony/relogo/styles/ReLogoSVGSpatialSource.java
+SHA-256-Digest: OTHJmde99u0AXpepTXLQ0RVWzUD3ePxZnG2xL0jM4nI=
+
+Name: src/repast/simphony/relogo/ast/LinkTypeClassInstrumentor.groovy
+SHA-256-Digest: PAj7ODqYdJpmgKcNnAWVOkn3ufCfZx10CEEu2UVxtOc=
+
+Name: bin/repast/simphony/relogo/ast/LinkTypeClassInstrumentor$_createGl
+ obalVarSetterMethod_closure2$_closure7$_closure10.class
+SHA-256-Digest: N+2DYGqa4HPFcC2b+ji6tO7wH9vYDQKoKjmw2XRfVlk=
+
+Name: bin/repast/simphony/relogo/ast/GoASTTransformation.class
+SHA-256-Digest: M29uQC+fmfyiNxI3yunDzamHEH+iIW7BXQ80rpJ1wPk=
+
+Name: bin/repast/simphony/relogo/factories/RLWorldDimensions.class
+SHA-256-Digest: pBIijA5SzQ1d+Ya/QPyFd4Tt9IbYVKLYkzsZtDjarqc=
+
+Name: bin/repast/simphony/relogo/factories/ReLogoImplementingClassesFind
+ er.class
+SHA-256-Digest: 3xWZUw/FJJ/FfjQZG9+F36Qe2lu1L/82iQTt88Z57TA=
+
+Name: bin/repast/simphony/relogo/factories/ReLogoGlobalsAndPanelComponen
+ tsFactory$_createInput_closure14$_closure30.class
+SHA-256-Digest: 9qUER7QZXJ0BscXDCPccWQfCbPC5uCOth7/DvHIpubE=
+
+Name: bin/repast/simphony/relogo/util/ReLogoSupport.class
+SHA-256-Digest: n+0jcms6hrdbT9SUV8N+aZ8mrGPl3JvlwS/0lYCeGoE=
+
+Name: src/repast/simphony/relogo/ast/GlobalsClassInstrumentor.groovy
+SHA-256-Digest: nyoVZZCZy0Q51BcOt01LNGYrDfSjHmtSoIAzLf3LWzY=
+
+Name: bin/repast/simphony/relogo/ast/GlobalsClassInstrumentor$_createGlo
+ balVarGetterMethod_closure1$_closure3.class
+SHA-256-Digest: 1Woz09/EFP3hM9c5hU4pZGmgCSklmPzGGSTpQR0bdCo=
+
+Name: bin/repast/simphony/relogo/ast/ReLogoGlobalASTTransformation$_visi
+ t_closure8.class
+SHA-256-Digest: gY/Klcun3oaaeiq8Imot0iSomRkKDLqxLgfSq8hwriI=
+
+Name: bin/repast/simphony/relogo/ast/DiffusibleASTTransformation$_create
+ PatchVarSetterMethod_closure3$_closure8$_closure10.class
+SHA-256-Digest: hNHPmlWIEZtb3vqsCyT8A4ugn4NrmmoutI1QTMe2xJA=
+
+Name: bin/repast/simphony/relogo/util/ReLogoReferenceCreator$_createPrim
+ itivesDocument_closure3$_closure5.class
+SHA-256-Digest: srAKMN2u5/P7V5jMDldPGhVEVsj/We1ud1Xm13hcLdA=
+
+Name: src/repast/simphony/relogo/ast/ExtendsLibLink.java
+SHA-256-Digest: BwiBLXYw1FkomrdS598OHWaAAYfSpF60IHOb9jVAM/w=
+
+Name: src/repast/simphony/relogo/styles/TurtleShapeComponent.java
+SHA-256-Digest: vNVdtj8bfcFQX59J9+zVule/S0Ou9qP3fGzxkv/rdmE=
+
+Name: bin/repast/simphony/relogo/ast/ReLogoGlobalASTTransformation$_modi
+ fyDisplayFile_closure16$_closure21.class
+SHA-256-Digest: xbbQljCob4vNzaOhSbklLCbrLbukv7MrZFE5hVE6qLc=
+
+Name: bin/repast/simphony/relogo/util/ReLogoReferenceCreator$_createPrim
+ itivesDocument_closure3$_closure5$_closure7$_closure8.class
+SHA-256-Digest: Yn/06RYb+UVJcTSHvhHdBYg52ofNG3FFez4gsJUPZ2w=
+
+Name: bin/repast/simphony/relogo/ast/ReLogoGlobalASTTransformation$_modi
+ fyDisplayFile_closure13.class
+SHA-256-Digest: aC28lTx/8v77Jm7+ACFohq05TaY2jeEiwetm0T17P0c=
+
+Name: bin/repast/simphony/relogo/factories/ReLogoGlobalsAndPanelComponen
+ tsFactory$_createInput_closure14$_closure29.class
+SHA-256-Digest: 8JMJCUHnAv5GDJPJJo6qpN/hQH6vyfn9CNR3mM8WLfo=
+
+Name: src/repast/simphony/relogo/schedule/Go.groovy
+SHA-256-Digest: 14kgLyQ8K1+5oSBZrnmYFxkhykayL0KpHbtuKFWdyCk=
+
+Name: bin/repast/simphony/relogo/UtilityG$_map_closure2.class
+SHA-256-Digest: BZhr96I5kLePYAvdjebd6o34J3jmEyhjl/ZtO4M0cdA=
+
+Name: bin/repast/simphony/relogo/schedule/Go.class
+SHA-256-Digest: gE9+1V0gh3fFmI5neJdOAtCSg6nwTz6/u7YFE9vRQtQ=
+
+Name: bin/repast/simphony/relogo/ast/PatchTypeClassInstrumentor$_createT
+ urtleVarSetterMethod_closure2$_closure7.class
+SHA-256-Digest: ytpr5vn84E31xqmygwiYcknO2/RGolgraA+gP8ANkZ0=
+
+Name: src/repast/simphony/relogo/DiffuseBody.java
+SHA-256-Digest: fha/8yvTrVQTHBUNrP1RHFOTcs0lqOkElWlZp59tgjE=
+
+Name: bin/repast/simphony/relogo/Utility$6.class
+SHA-256-Digest: mqYoTcMr+rBdEWYZUZnKHTTt/ZZX7XXsLxam6EfF/xc=
+
+Name: bin/repast/simphony/relogo/factories/ReLogoEdgeCreator.class
+SHA-256-Digest: upzNxfbdz+QS/G9q9XfP0WXIZgGS4Q5g4YWaUAuwNOo=
+
+Name: bin/repast/simphony/relogo/styles/PPathBuilder.class
+SHA-256-Digest: AXN+bHHovfj2EjOz2XlNBxThJYT9F9xgADOmzhHgsdE=
+
+Name: bin/repast/simphony/relogo/BaseTurtle$_downhill4_closure2.class
+SHA-256-Digest: LJMcABZkVbTWOLNdndeG/tfvVt056rrMKD6hfSHTuN8=
+
+Name: src/repast/simphony/relogo/Plural.groovy
+SHA-256-Digest: 9ex+Njabk9pzzd183XMBfWsr5nXveZgX1jcNP5U3gOc=
+
+Name: bin/repast/simphony/relogo/FileInfo.class
+SHA-256-Digest: RZD7LFZ2BFFB62/5A+jlfMizgcUFuhfpvfQpJD7Tb2M=
+
+Name: bin/repast/simphony/relogo/ast/LinkTypeClassInstrumentor$_createGl
+ obalVarSetterMethod_closure2$_closure7$_closure9.class
+SHA-256-Digest: rAPSjc3imNc4SgIgfd3P4Rsz4/refhyn+fD38G+xX/A=
+
+Name: bin/repast/simphony/relogo/UtilityG.class
+SHA-256-Digest: I4kx2rdwuTXApD4Le/5TJBwGq5tdlglsL9NBkW2lM2g=
+
+Name: bin/repast/simphony/relogo/util/ReLogoReferenceCreator$_createPrim
+ itivesDocument_closure3$_closure4.class
+SHA-256-Digest: XxgSUjpQeiN0KQprIKKO+2Dhs8gQfUCIuWeRreb/SZk=
+
+Name: bin/repast/simphony/relogo/ast/ReLogoGlobalASTTransformation$_visi
+ t_closure9.class
+SHA-256-Digest: 2w6pfPSbhP7S3X8dUGIbpoU+jQe/0tY6V4N9EgKlEro=
+
+Name: bin/repast/simphony/relogo/UtilityG$_dressClosure_closure11.class
+SHA-256-Digest: Yvmq+4Zrar/en7GFzzgxMP8d3WdAyHqG+durqHf2qQo=
+
+Name: bin/repast/simphony/relogo/styles/ReLogoImageSpatialSource.class
+SHA-256-Digest: sta+CRwfgslXgXytWakb0lq4wboq+ui72r3lUrJZbZ8=
+
+Name: bin/repast/simphony/relogo/util/SheetInfo.class
+SHA-256-Digest: kxWRgPmP2hFIN8XIpdiSiPgmNougWAn83pFTLPY6mNI=
+
+Name: bin/repast/simphony/relogo/factories/ReLogoGlobalsAndPanelComponen
+ tsFactory$_createInput_closure14.class
+SHA-256-Digest: Tds4ynZUT4Bl8+g2m3I8QVGEmwahqh19GKvOa+8SzQY=
+
+Name: bin/repast/simphony/relogo/AbstractTurtle.class
+SHA-256-Digest: FI+4abuXvWZ3O31MrjNlKekh6qmZ5rxSw8mzOThfiiI=
+
+Name: bin/repast/simphony/relogo/UtilityG$_dressClosure_closure11$_closu
+ re12.class
+SHA-256-Digest: GPiCDY8QUJFGbkex24UX8cAyECSsiteB/jp78Tm4hz8=
+
+Name: bin/repast/simphony/relogo/ast/DiffusibleASTTransformation$_create
+ PatchVarSetterMethod_closure3$_closure8.class
+SHA-256-Digest: FP5Qq/UezZNZx0V2KrqGWbpJUqdZhcnp8BtYkpUylto=
+
+Name: bin/repast/simphony/relogo/ast/ReLogoGlobalASTTransformation$_modi
+ fyDisplayFile_closure14.class
+SHA-256-Digest: NmCdC5gYWD2utGbJsmDshgqu3SKOllyZ61zvvRZ6Vws=
+
+Name: bin/repast/simphony/relogo/TrackingEdgeCreator.class
+SHA-256-Digest: AUIJ+CsLGM/v7foV6TNQDgDbI8QDd61o40XbWzynkwA=
+
+Name: bin/repast/simphony/relogo/factories/ReLogoGlobalsAndPanelComponen
+ tsFactory$_multiplier_closure10.class
+SHA-256-Digest: CL/xKaveCCbauxvDMZFcrQ9c1/Ch2atZ3sBtK6NbWx4=
+
+Name: src/repast/simphony/relogo/Turtle.java
+SHA-256-Digest: uBa1W4ADJO03JQ3UvHL9gNSX6N4wertSZTzSkBwc0zc=
+
+Name: bin/repast/simphony/relogo/RLDimensions.class
+SHA-256-Digest: lIE6CHf1ITYdbqLRpFGg5ph+GCgV1fuB/6fbpwRozas=
+
+Name: src/repast/simphony/relogo/Observer.java
+SHA-256-Digest: yR0jghXmWDOa9ff2QZwU/YX2e0B0ZY2bYkcClf8qkrk=
+
+Name: bin/repast/simphony/relogo/Utility$5.class
+SHA-256-Digest: zfl6nMTS12pkDBm+3+8O1Fo6rlFgqQZ85oLWoWj9NYA=
+
+Name: bin/repast/simphony/relogo/styles/StyleUtility$_getImageFileNamesA
+ ndPaths_closure2.class
+SHA-256-Digest: rzBa+XHVAv+rd6vJpm1QfgJJ8TjT0YKZ6mDmalJxDD8=
+
+Name: bin/repast/simphony/relogo/util/ReLogoReferenceCreator$_createPrim
+ itivesDocument_closure3$_closure5$_closure7$_closure9.class
+SHA-256-Digest: N6ZDxZsahdKe8J+XJJLWGKevxRcvJJvpvAQ10rEP5QQ=
+
+Name: bin/repast/simphony/relogo/ast/LinkTypeClassInstrumentor$_createGl
+ obalVarGetterMethod_closure1$_closure3$_closure4.class
+SHA-256-Digest: 30jNJGyGX/k+FBGX0nNmMP/Hc/LTqlXFKDTJMuDqyRo=
+
+Name: src/repast/simphony/relogo/factories/RLWorldDimensions.java
+SHA-256-Digest: sJ5FKVzmAccuXvrRhK6WmzKQP8WQRlUKeo9NaPK4b7A=
+
+Name: bin/repast/simphony/relogo/AbstractAgentSet.class
+SHA-256-Digest: h9uf7L/WgrQ0wP7/QfdG8MME9EU5VL8af2dplDNTPi4=
+
+Name: bin/repast/simphony/relogo/ReLogoInitializer.class
+SHA-256-Digest: EyILnAsAgwvRf1pnsIhe4TkXN5cYNgTbqoR9CiEo7cM=
+
+Name: bin/repast/simphony/relogo/ast/PatchTypeClassInstrumentor$_createT
+ urtleVarSetterMethod_closure2$_closure7$_closure9.class
+SHA-256-Digest: IMEFGgMrG35+h3evCvtFkxiHnvIIGy0QbF9sKqczoos=
+
+Name: bin/repast/simphony/relogo/factories/ReLogoGlobalsAndPanelComponen
+ tsFactory$_createSwitch_closure12$_closure25.class
+SHA-256-Digest: PQSZB/UTon5sS6WNHaID9qhpZDU/e11L9oCaVV9eIis=
+
+Name: bin/repast/simphony/relogo/ast/ReLogoGlobalASTTransformation$_visi
+ t_closure3.class
+SHA-256-Digest: mp7jib0paOnQVd/YthbbZdrme+uWGlUrFeUjLP0YuAc=
+
+Name: bin/repast/simphony/relogo/factories/ReLogoGlobalsAndPanelComponen
+ tsFactory$_createButton_closure1$_closure16.class
+SHA-256-Digest: AwlWTF0LCtcl+X8mONdar6ytaZr1ezq1aLIf7khLmUU=
+
+Name: bin/repast/simphony/relogo/ast/GlobalsClassInstrumentor$_createGlo
+ balVarGetterMethod_closure1$_closure3$_closure6.class
+SHA-256-Digest: OwqcFpQjXOI6Ug1FWoagG4E/yUNyvqdqAYteeQ5EKPk=
+
+Name: bin/repast/simphony/relogo/schedule/Setup.class
+SHA-256-Digest: pUxv/zq9yKkbY6r3iNTnDLh+d08mRBN9MYvhzTXjZLI=
+
+Name: bin/repast/simphony/relogo/BaseLink.class
+SHA-256-Digest: Wnr/anR2LyfyTC5oFIgMmfmSi7RsKyT2jQY89pbKMRI=
+
+Name: bin/repast/simphony/relogo/styles/BoundingPPath.class
+SHA-256-Digest: i75bwVQk8pOCN8oxR8U5i5ByLhCS/LXdUg3saTxo1WE=
+
+Name: bin/repast/simphony/relogo/ast/ReLogoGlobalASTTransformation.class
+SHA-256-Digest: wtjZ5AlXQbobDFH7YxwO2hF4uLYRx39zVOXrHzhahq0=
+
+Name: src/repast/simphony/relogo/ast/ExtendsLibObserver.java
+SHA-256-Digest: WlFnmGMv1Ffhtv2+vr19NifmVIqrXYZ9uVOpsBkrR9c=
+
+Name: bin/repast/simphony/relogo/RLColor.class
+SHA-256-Digest: B7oM27OCx/FyqRFgAgK5B+40bsuhuGGCOBrP3vn+1Ms=
+
+Name: src/repast/simphony/relogo/util/PrimitiveCategory.groovy
+SHA-256-Digest: 5hlVJpWuX3e/mGHb2wKuEYPpLcS6tqS0wBEDzvcEKpY=
+
+Name: src/repast/simphony/relogo/factories/RegularButtonIcon.java
+SHA-256-Digest: EPY/SnWX+z/gPFyGR0zCGMMH0Y50B1x4BQnRePhw/jw=
+
+Name: bin/repast/simphony/relogo/ast/ReLogoGlobalASTTransformation$DefDi
+ splayReturner.class
+SHA-256-Digest: DZ4tdi9PL3tLZepVyEIhuOiI1h2gXjyIBWVOwGTly7U=
+
+Name: src/repast/simphony/relogo/WayPoint.java
+SHA-256-Digest: idILIacAZlS2gXRtOpbsFAH/I7TgiI18hTh+WQKHe1s=
+
+Name: src/repast/simphony/relogo/ast/ExtendsLibTurtle.java
+SHA-256-Digest: TfKPblcQ45ZXFBPqaJNxOuD/dSCyhGmG5bZBpfTlv28=
+
+Name: bin/repast/simphony/relogo/ast/MethodFromStringCreator$_compile_cl
+ osure2.class
+SHA-256-Digest: KSnhcq28Li1xmB0KntC1GZCE+Myh4+jnK7z29g2xDt4=
+
+Name: bin/repast/simphony/relogo/ast/GlobalsClassInstrumentor$_createGlo
+ balVarSetterMethod_closure2.class
+SHA-256-Digest: tBxUpkn/06P8YU/Og+MoVI0bt/AzzHANTOYfzyt5FZM=
+
+Name: bin/repast/simphony/relogo/factories/TurtleFactory.class
+SHA-256-Digest: R5316kO/CZortGU5k38i3yUQ/8pyB25zCF8EnoUgZEo=
+
+Name: bin/repast/simphony/relogo/ast/LinkTypeClassInstrumentor$_createGl
+ obalVarSetterMethod_closure2$_closure7$_closure8.class
+SHA-256-Digest: KEbaRkvumqTAclyIPbRLaCU4W1qoUj/siQex9TC9FEk=
+
+Name: bin/repast/simphony/relogo/styles/ReLogoSVGSpatialSource.class
+SHA-256-Digest: fKHZlwLSerIV4HB3KQ9cVxg+hQGDC70UaYY06qzIIZA=
+
+Name: bin/repast/simphony/relogo/ast/GlobalsClassInstrumentor.class
+SHA-256-Digest: C+IgjXaXKDrk9Yju+eYts7/mdbIiSJ7u7YmcVHMsAaU=
+
+Name: src/repast/simphony/relogo/Link.java
+SHA-256-Digest: ED+vOtu3BMJE/2VYpt29yFs9cv6u76lugoY17T4giy8=
+
+Name: src/repast/simphony/relogo/AbstractAgentSet.java
+SHA-256-Digest: P6QmjWlJvssmmRG+l9QMyZXLrRgzfaVe69Y7IPjb2bo=
+
+Name: src/repast/simphony/relogo/ast/DiffusibleASTTransformation.groovy
+SHA-256-Digest: Airstnjyw1Kc8DnztkLuY4TniPUl51ylwDugPPdwI8s=
+
+Name: src/repast/simphony/relogo/factories/ReLogoEdgeCreator.java
+SHA-256-Digest: zUyZEtmFnksCBOoweYePA4TrxrEpVkKnpGHdloAQCbQ=
+
+Name: bin/repast/simphony/relogo/BaseObserver$_createTurtlesFromCSV_clos
+ ure1.class
+SHA-256-Digest: g5y9aRnUJvQoLAi93haBUV3XW+bv9OYmEZKuv+ILU4c=
+
+Name: bin/repast/simphony/relogo/ast/ReLogoGlobalASTTransformation$_visi
+ t_closure4.class
+SHA-256-Digest: NJRSo4GZ/rA6MucQrVVq7SHHacTGYN6cujbJhodXVxg=
+
+Name: src/repast/simphony/relogo/factories/AbstractReLogoPanelCreator.gr
+ oovy
+SHA-256-Digest: fA34d0AIHEGvbdD6e3PGQ8mx79LyMe+Y7N+ksCzA6DE=
+
+Name: bin/repast/simphony/relogo/ast/PatchTypeClassInstrumentor$_createT
+ urtleVarGetterMethod_closure1.class
+SHA-256-Digest: u1iTVbGMEev5Bl1RPnE8dj324sTCeULFLmy2JpJVreU=
+
+Name: src/repast/simphony/relogo/factories/StopEnabledCallBackAction.jav
+ a
+SHA-256-Digest: CzZHJuhYrEnAgzjJqbuXDioIaJPAYgumXLJyFol7X7o=
+
+Name: bin/repast/simphony/relogo/Utility$4.class
+SHA-256-Digest: bGTEciMw2b9c7+vHlGZm/TvMu5TbDWpLJXJHakxVx88=
+
+Name: bin/repast/simphony/relogo/JavaUtility.class
+SHA-256-Digest: gPTjWh19WMVKeOviHRTEEed5GjzoA9aH8TTJ+797wH4=
+
+Name: bin/repast/simphony/relogo/ast/GlobalsClassInstrumentor$_createGlo
+ balVarGetterMethod_closure1$_closure3$_closure5.class
+SHA-256-Digest: pyCpYiOoM3b1Yki60aZqLhUI8Z8njKM2RzcNCmHQGbE=
+
+Name: bin/repast/simphony/relogo/UtilityG$_runString_closure8.class
+SHA-256-Digest: sOotujJgv8IVmd5nTzwWpgIRt4ydqs76zCGFe3/IDTA=
+
+Name: src/repast/simphony/relogo/styles/ReLogoImageSpatialSource.java
+SHA-256-Digest: +HXvh46FuaZY7uWVDTkWY4cWUy0OTrbcWeSoYrzbvvc=
+
+Name: bin/repast/simphony/relogo/factories/AbstractReLogoGlobalsAndPanel
+ Factory.class
+SHA-256-Digest: CCjqFvyJAWymU7GxgO/sCRW3okK/M8Lt+55cYMubFXQ=
+
+Name: bin/repast/simphony/relogo/factories/ReLogoGlobalsAndPanelComponen
+ tsFactory$_createTickDisplay_closure15.class
+SHA-256-Digest: QnyIEdWJTDEVGwMoFnJQlQF+OdCWlaalTDYhdIUctQg=
+
+Name: bin/repast/simphony/relogo/Turtle.class
+SHA-256-Digest: Kz9JUnDcmlyWoTAuUHF2YraYlPMufOj3dkc1xj19G5Y=
+
+Name: bin/repast/simphony/relogo/ast/ReLogoGlobalASTTransformation$_pret
+ tyPrint_closure1.class
+SHA-256-Digest: mYpQkJnOm6pm59XXY/LnV9Tau8umuYI7zwL1wp+V7Is=
+
+Name: src/repast/simphony/relogo/AbstractTurtle.java
+SHA-256-Digest: uW2UYKJ+UrQ31HYGbBKdwjt3N2i0NGYNCdZhe9MJuI0=
+
+Name: bin/repast/simphony/relogo/util/ReLogoReferenceCreator$_createPrim
+ itivesDocument_closure3.class
+SHA-256-Digest: edVUg/rsdP2F8oBss+4dsrkD3dIMK8AROjnIgyBDAzw=
+
+Name: bin/repast/simphony/relogo/factories/PatchFactory.class
+SHA-256-Digest: VFr1yUZ1hbnw+ePfZCQWRTAcr3e4+CBUieqe3sC5vk8=
+
+Name: bin/dsld/relogoDSLD.dsld
+SHA-256-Digest: LHgVD1TmKLd7OPGATDp2a+AMvn1HrcQhFrqASQSh+Ug=
+
+Name: bin/repast/simphony/relogo/factories/ReLogoGlobalsAndPanelComponen
+ tsFactory$_createSlider_closure11$_closure21$_closure24.class
+SHA-256-Digest: 13uCIUnLW03hW0ik1NyUam39IpISVrhRLxOIrA7DpVY=
+
+Name: bin/repast/simphony/relogo/factories/LinkFactory.class
+SHA-256-Digest: tEAWKa0wqHbEJcUNLktq1w0CNNYo+i8cOiQckCjt0LI=
+
+Name: bin/repast/simphony/relogo/DiffuseBody.class
+SHA-256-Digest: klaaaV0AfBpb8gusvxojWoxwjcBHNtYhjKCFHrBDUlU=
+
+Name: bin/repast/simphony/relogo/Plural.class
+SHA-256-Digest: IKFeOKowctjAQyKIrwKLa2QFSuHNrPyM6wzyXutwOrg=
+
+Name: bin/repast/simphony/relogo/ast/TurtleTypeClassInstrumentor.class
+SHA-256-Digest: BThlaMYjadWaWtMhwRYh+AJlSMYxMiv/nmLv5SweXgw=
+
+Name: bin/repast/simphony/relogo/BaseTurtle$_downhill_closure1.class
+SHA-256-Digest: VFmM42bdXniQaNcqWqWklDOeNnMyl06b1rA3/Y6CSa4=
+
+Name: bin/repast/simphony/relogo/ast/ReLogoGlobalASTTransformation$_getC
+ andidateDisplayFiles_closure18.class
+SHA-256-Digest: LqA22ANyDILojhu/cKGeYP/uS6SQOmEyHaglSRgSWwU=
+
+Name: bin/repast/simphony/relogo/ast/ReLogoGlobalASTTransformation$_visi
+ t_closure7.class
+SHA-256-Digest: t/x2uVsYCyiTx9wwF8zxFMkDBnG4//rT1U+8hEm46s4=
+
+Name: src/repast/simphony/relogo/styles/PPathBuilder.java
+SHA-256-Digest: 2IC29AZTFYMXaOgYn3JZq03ggz1+6cOqNRqz7AwLcrg=
+
+Name: src/repast/simphony/relogo/ast/TurtleTypeClassInstrumentor.groovy
+SHA-256-Digest: Ax0E5ax/FRzJI3srQ/uNkcZWJ80OV/2oi3dinjQtYMc=
+
+Name: bin/repast/simphony/relogo/ast/ExtendsLibPatch.class
+SHA-256-Digest: HXIUE4lL6zrnO9edfIVp3iPdMNqwxmRBsyjRlTy9Vk4=
+
+Name: bin/repast/simphony/relogo/AgentSet$_withMax_closure4.class
+SHA-256-Digest: A+sIFKxIlGDXtk05zNEVX1JacGi1hHeBYelnhqkEDZs=
+
+Name: bin/repast/simphony/relogo/ast/MethodFromStringCreator.class
+SHA-256-Digest: dMCp2bpWCiU4skCJRdXa37OSNtMA/CFyDzXv+hNIBP4=
+
+Name: bin/repast/simphony/relogo/ast/ReLogoGlobalASTTransformation$_modi
+ fyDisplayFile_closure17.class
+SHA-256-Digest: eY1q8pvxjkXz4btSgIQtdq3kHFMu5srDDCmDltio7os=
+
+Name: bin/repast/simphony/relogo/ast/SetupASTTransformation.class
+SHA-256-Digest: VkWi7aG3ph1ot8Qzh7EkaKF8B7Ut4txs3SvUJ+7heoo=
+
+Name: bin/repast/simphony/relogo/BasePatch.class
+SHA-256-Digest: EfZLw0jZ3+J6BoeGkgmPrDogasG5jvMlQ1hD6TSqV3g=
+
+Name: bin/repast/simphony/relogo/styles/StyleUtility$_getSVGFileNamesAnd
+ Paths_closure1.class
+SHA-256-Digest: RitlmJ2oSKOJvGZUvVaKasfCRjINMkbwSkCuszGc65o=
+
+Name: src/repast/simphony/relogo/ast/AstUtil.groovy
+SHA-256-Digest: lTOZIU2gP3zL9A24VrpmMrtfOEElroOLn8F/ISR6KAU=
+
+Name: bin/repast/simphony/relogo/factories/ReLogoGlobalsAndPanelComponen
+ tsFactory$_createChooser_closure13$_closure27.class
+SHA-256-Digest: xkWIarEblreG3A0eDL2kuxe/ZLGiWdCUVNnPLx/zp0Y=
+
+Name: bin/repast/simphony/relogo/ast/PatchTypeClassInstrumentor$_createT
+ urtleVarSetterMethod_closure2$_closure7$_closure10.class
+SHA-256-Digest: XnBG4idfWFoVXO3YE35uHY1h8meY5eO8wXrFpL0ECJ4=
+
+Name: bin/repast/simphony/relogo/OutOfContextSubject.class
+SHA-256-Digest: Qccb7FMcjw+vdEKg/63Rql2i/Pepi4trunhe9ELP68U=
+
+Name: bin/repast/simphony/relogo/util/ReLogoReferenceCreator$_transformM
+ ethodString_closure1.class
+SHA-256-Digest: RmN269JE/YFGG0dZRKqce/nvZAjhaIFuOh37KGu40mE=
+
+Name: bin/repast/simphony/relogo/AgentSet$_with_closure5.class
+SHA-256-Digest: Fn2K5S6SPWLIT0BtXGdRihPCRe/0CgCciogNXruKVEg=
+
+Name: bin/repast/simphony/relogo/ast/LinkTypeClassInstrumentor.class
+SHA-256-Digest: wWMli4aOCn7/+Xj7BRAI33Dm+Z+IsMsIRnVLLrC9Wk8=
+
+Name: bin/repast/simphony/relogo/ast/DiffusibleASTTransformation$_create
+ PatchVarGetterMethod_closure2.class
+SHA-256-Digest: 7cFHbrw5LxmessGoGyqZL885VWB7GXWJRqmWD5OrhrU=
+
+Name: bin/repast/simphony/relogo/UtilityG$_foreach_closure1.class
+SHA-256-Digest: R1k07ls2FvkEzqKcD6HUkG/wxdRtAamVOeKIbca5b5A=
+
+Name: bin/repast/simphony/relogo/ast/ReLogoGlobalASTTransformation$_visi
+ t_closure6.class
+SHA-256-Digest: zbZQiOQZuwu5v6RdtzIALmPrE88NH+y2nylKMZPA7xM=
+
+Name: bin/repast/simphony/relogo/factories/ReLogoGlobalsAndPanelComponen
+ tsFactory$_createInput_closure14$_closure30$_closure31.class
+SHA-256-Digest: Fs3xk0VghThBiZfhi5SdmYtPcVwG08FXk5ilh5tZKnU=
+
+Name: src/repast/simphony/relogo/styles/NLImageSpatialSource.java
+SHA-256-Digest: 5DtwaGRVixKTwWh7IckgTbSwUTmkkrzUe8ChKT62kc0=
+
+Name: bin/repast/simphony/relogo/AgentSet.class
+SHA-256-Digest: 6wDTPOmWsEGkYn7R4CNrNdb/m8olwVpUu/VsCixwBHo=
+
+Name: bin/repast/simphony/relogo/ast/ReLogoGlobalASTTransformation$_modi
+ fyDisplayFile_closure15$_closure20.class
+SHA-256-Digest: wBgV4ra7U0GY50+4UoPaGVoa0kF4+HQOBXAJ2j+p93E=
+
+Name: src/repast/simphony/relogo/ast/Diffusible.groovy
+SHA-256-Digest: sqrHb7jcXJ3Jg77mGvTITXtlnt2jkHITClT0G/Ccb/4=
+
+Name: bin/repast/simphony/relogo/Utility$2.class
+SHA-256-Digest: nuQHVxttc0t+JvKKFPhu1LnUG+vwxfF69iM2TtjPjxE=
+
+Name: bin/repast/simphony/relogo/ast/LinkTypeClassInstrumentor$_createGl
+ obalVarGetterMethod_closure1$_closure3.class
+SHA-256-Digest: rYaeIOW6/MKwc9owUt8WVcoesmzv5gWtm1+bqDEthyw=
+
+Name: src/repast/simphony/relogo/ast/GoASTTransformation.groovy
+SHA-256-Digest: 6h0/jGuU8TnS5YFwe5q6wehNShnVMbLVimvU1C4dGhI=
+
+Name: bin/repast/simphony/relogo/ast/DiffusibleASTTransformation$_create
+ PatchVarGetterMethod_closure2$_closure4.class
+SHA-256-Digest: YupnsK8Lk8etApysliWnmKQALGADJR9LdwJsm31b9o4=
+
+Name: src/repast/simphony/relogo/AgentSet.groovy
+SHA-256-Digest: nBSCPQnrE4qJapUum8fdk0Rnpp0SXO3UO++RMboHCPQ=
+
+Name: src/repast/simphony/relogo/image/NLImagePrimitive.java
+SHA-256-Digest: Ldloako9j4WBsikjRMJ0oXUSBix7UWL7WPZmogwmt2w=
+
+Name: src/repast/simphony/relogo/RLColor.java
+SHA-256-Digest: 98A+Tz/itrZZqZGbG+MHnJ7IWLgcbXuvvH/iZhKdatY=
+
+Name: bin/repast/simphony/relogo/WayPoint.class
+SHA-256-Digest: SOWZZ2lCgjb4mK+nIhvd1QmbrCwXaiKJ+Us9ZvhM04c=
+
+Name: bin/repast/simphony/relogo/ast/ReLogoGlobalASTTransformation$_visi
+ t_closure5.class
+SHA-256-Digest: WqFptSFQoZScipw1QlQxWdpvxr8xTsMMi/UM79mAAmk=
+
+Name: bin/repast/simphony/relogo/styles/TurtleShapeComponent.class
+SHA-256-Digest: n+wNjQ5UDdcwJ3+S8YeAB2GJHJfurI5PWXdcTeKy3OA=
+
+Name: src/repast/simphony/relogo/DiffusiblePatchVariable.groovy
+SHA-256-Digest: p6jh6y671qsiptoaSvCb/Z0t1HByZ3UR1T3u/IwuA80=
+
+Name: src/repast/simphony/relogo/factories/LinkFactory.java
+SHA-256-Digest: /n4oedmtFQ3C9au/0H2QtJlwOMxwez4YppNXSyEr39o=
+
+Name: bin/repast/simphony/relogo/ast/DiffusibleASTTransformation$_create
+ PatchVarSetterMethod_closure3$_closure8$_closure11.class
+SHA-256-Digest: 2T0Ww0WRd9U7f502Na7MLGLOhWDR/DDwf85koT9qqxo=
+
+Name: src/repast/simphony/relogo/util/ReLogoReferenceCreator.groovy
+SHA-256-Digest: e8Ku8lseB+QaqCPKKJ7w5qNv1W+t1BmtQXLCvkASNLY=
+
+Name: bin/repast/simphony/relogo/Utility$1.class
+SHA-256-Digest: XIuTf0jt8/p3ddX5WDzOTxgyF2El6+vVK+QtYODrW6Q=
+
+Name: bin/repast/simphony/relogo/factories/ReLogoGlobalsAndPanelComponen
+ tsFactory$_createChooser_closure13$_closure26.class
+SHA-256-Digest: b6sPiCx6pBYkJ8MyH80oig/AoiP/bD7ovjBjij9vP9s=
+
+Name: src/repast/simphony/relogo/styles/BoundingPPath.java
+SHA-256-Digest: WncRFQZK8/r+3LwRJuw7y0c7lQmBfQ+e/JJ4UH93fF8=
+
+Name: bin/repast/simphony/relogo/AgentSet$_withMin_closure1.class
+SHA-256-Digest: NrU0tnsw5TvDIoCDIQZr8YINme86Qfcel0a/NxxK+kM=
+
+Name: bin/repast/simphony/relogo/factories/ReLogoGlobalsAndPanelComponen
+ tsFactory.class
+SHA-256-Digest: tyBNoCwYYw1DKiuhH+i/GzLyyMCGIvh7oViw8ZDw8R8=
+
+Name: bin/repast/simphony/relogo/factories/RegularButtonIcon.class
+SHA-256-Digest: MX3HXHHtweYnWlIZtE/2VuNHEg3I4l4s9lfq6nxOSX0=
+
+Name: bin/repast/simphony/relogo/styles/StyleUtility.class
+SHA-256-Digest: D4uhXdPb6I1iLttGJ3sQFoN+AT4WDLtR+vJo78t7sS8=
+
+Name: src/repast/simphony/relogo/factories/ReLogoGlobalsAndPanelComponen
+ tsFactory.groovy
+SHA-256-Digest: tIbRykE5aM/YStEXfNjhZXbK0Dw1iq+MmrTbQ7n3MG4=
+
+Name: bin/repast/simphony/relogo/ReLogoModel.class
+SHA-256-Digest: NwA80Bxr3dYSY6m6BfJQAjk6rN50DC+ivW78MY91N8w=
+
+Name: src/repast/simphony/relogo/BasePatch.groovy
+SHA-256-Digest: cOvNNDbgokcpMsSFSRTCZqFJFWIL0DITK9V9cU3yhuM=
+
+Name: src/repast/simphony/relogo/ast/SetupASTTransformation.groovy
+SHA-256-Digest: pim6jvEd6uv896FR+KY9wBZxYPm4iku2J9CIf38R0Zs=
+
+Name: bin/repast/simphony/relogo/BaseTurtle$_uphill_closure3.class
+SHA-256-Digest: hrYDQ6qaBT/3FyNcKFvf1uY7fHkeaCTwdPbnt6u/Lsc=
+
+Name: src/repast/simphony/relogo/factories/ReLogoWorldFactory.java
+SHA-256-Digest: ZGOSgKY197QvWHtkFyqcnOpa0ZGO1SaNVnfhal+2kTg=
+
+Name: bin/repast/simphony/relogo/ast/ReLogoGlobalASTTransformation$_modi
+ fyDisplayFile_closure16.class
+SHA-256-Digest: BSOZTAC3qTzGaqc8OCwEtRz9eh58DcSMU189R0HG9FE=
+
+Name: src/repast/simphony/relogo/AbstractObserver.java
+SHA-256-Digest: 718adbnlJZZl7rAJMKzrCxOp89kGqcLA7ZW383kquh8=
+
+Name: bin/repast/simphony/relogo/factories/ReLogoGlobalsAndPanelComponen
+ tsFactory$_createMonitor_closure6.class
+SHA-256-Digest: dnGUdfAJ2bo5gIKsxdNqdv5mJrknL7Xf3YYXOmV9OP8=
+
+Name: src/repast/simphony/relogo/OutOfContextSubject.java
+SHA-256-Digest: cfrzePkYxpQDg/CEc2Z7GvYCNvJxPrL73YSbXmeVCRQ=
+
+Name: bin/repast/simphony/relogo/UtilityG$_getObjectPropertiesAndMethods
+ _closure5.class
+SHA-256-Digest: yIIRd2LyX9/RniBwu3E/E6qIBXfHo37KSrlArYK6g5Y=
+
+Name: bin/repast/simphony/relogo/ast/PatchTypeClassInstrumentor$_createT
+ urtleVarGetterMethod_closure1$_closure3.class
+SHA-256-Digest: ijLQhzNpouYFrx3xAnGJ2gkxR582GWYLwPCapDZpGEM=
+
+Name: src/repast/simphony/relogo/JavaUtility.java
+SHA-256-Digest: sn5hkqFCD/MJdbproRvQWyzZ0NeyKFPfaVg3TefkODA=
+
+Name: bin/repast/simphony/relogo/ast/ReLogoGlobalASTTransformation$_modi
+ fyDisplayFile_closure14$_closure19.class
+SHA-256-Digest: G4hHhSAIFwRdncTj03oD3k61k76zt9KEt5xgBSAm8ac=
+
+Name: bin/repast/simphony/relogo/Utility$3.class
+SHA-256-Digest: Yv86mnezwrOm1uWFtFw059BliKgrBX4YoOXzK4lnfTo=
+
+Name: bin/repast/simphony/relogo/UtilityG$_getClassFieldsAndMethods_clos
+ ure7.class
+SHA-256-Digest: fyELJEsMjbYnuoTqQVOWyuVLlC3uY+TFc1yuHHt2d+Q=
+
+Name: bin/repast/simphony/relogo/ast/PatchTypeClassInstrumentor$_createT
+ urtleVarGetterMethod_closure1$_closure3$_closure6.class
+SHA-256-Digest: ItA8p5G9lkbJqJKAXNXOO4fAYvDZ2A2bhldW05ZuWqc=
+
+Name: src/repast/simphony/relogo/TrackingEdge.java
+SHA-256-Digest: NcRXjzqvDYI6AN25yF8G6xBgXbpf2eC4xotwY1qpjO8=
+
+Name: src/repast/simphony/relogo/styles/StyleUtility.groovy
+SHA-256-Digest: lyzpRPNxLCopyc4cQ925xAtlVXaT/7kM9wXQwjzS1/Q=
+
+Name: bin/repast/simphony/relogo/AbstractPatch.class
+SHA-256-Digest: YhcbS+Y7g3zSZW6s7GUQRxA41Og+jkQNPkSnuTnpU54=
+
+Name: src/repast/simphony/relogo/TrackingEdgeCreator.java
+SHA-256-Digest: w5gf19pxc8wcTAuW6qbpQyl90959YRNukvXDpncLkbI=
+
+Name: bin/repast/simphony/relogo/ast/ReLogoGlobalASTTransformation$_chec
+ kToModifyContextFile_closure12.class
+SHA-256-Digest: jiVCqoUfoDVz25lQUsgabaAtnO1d5XXANXzDxLYmQN8=
+
+Name: src/repast/simphony/relogo/ast/ReLogoGlobalASTTransformation.groov
+ y
+SHA-256-Digest: 9UtEsVGpZ5WIpj/3durIdP47kEjVzSFcnRBOrCuwemc=
+
+Name: bin/repast/simphony/relogo/ast/LinkTypeClassInstrumentor$_createGl
+ obalVarGetterMethod_closure1$_closure3$_closure6.class
+SHA-256-Digest: GixqpnOdF4XTgZysfTpzQGiStIliKaFzFNqhIEwyoz4=
+
+Name: bin/repast/simphony/relogo/AbstractObserver$1.class
+SHA-256-Digest: Wk+gVpoG78CO+BbElwxzrnHMXBUx5Btb+ImydnEOdic=
+
+Name: bin/repast/simphony/relogo/builder/ReLogoBuilderGeneratedFor.class
+SHA-256-Digest: 7Ok8TpI7eeED/4kOYf2BTIaHSkzZx9Tbw4ZUhFyV4AQ=
+
+Name: bin/repast/simphony/relogo/Stop.class
+SHA-256-Digest: 1wF/rMlH1JPBI+l1D83esacxKs5T8ajr0ORDUJ/92nc=
+
+Name: bin/repast/simphony/relogo/factories/ReLogoGlobalsAndPanelComponen
+ tsFactory$_createButton_closure2.class
+SHA-256-Digest: neZiakZYLG6oBBCsCdiMsPdo943VWFEGPlmZTE9aw+8=
+
+Name: bin/repast/simphony/relogo/styles/NLImageSpatialSource.class
+SHA-256-Digest: 5RoI9CvtxqrpUr6o9uARaetDxSQyx1PitAdUTuN5Fl8=
+
+Name: bin/repast/simphony/relogo/image/NLImagePrimitive.class
+SHA-256-Digest: 0oUQkgOOiCxEOsZ4BWNxi6Df/h5pvh8wDBcLVoGUL9g=
+
+Name: bin/repast/simphony/relogo/ast/GlobalsClassInstrumentor$_createGlo
+ balVarGetterMethod_closure1$_closure3$_closure4.class
+SHA-256-Digest: +1scz2Z7U2LJ9aW4yE8DGyAhxoV31qvVXzA/QUj6I2o=
+
+Name: src/repast/simphony/relogo/AbstractLink.java
+SHA-256-Digest: +KuLMqKASYMOQ+wmpn2R4QS0Zc8LrJzmLWRcyDlDWTs=
+
+Name: src/repast/simphony/relogo/builder/ReLogoBuilderGeneratedFor.java
+SHA-256-Digest: yqghjp/3pn/tqMYH/BS5QZJ9HWLM/S/WrbE/Oq7vaUk=
+
+Name: bin/repast/simphony/relogo/util/ReLogoReferenceCreator$_createPrim
+ itivesDocument_closure3$_closure5$_closure6.class
+SHA-256-Digest: J6eM6q4CwIynxa2LK2xjdx6z5Zl947fpRhlj++/vy20=
+
+Name: plugin_jpf.xml
+SHA-256-Digest: 8w1LkYPBKUy3iuzpYKATVIGuptZ4Pqs67/b/mynzGJk=
+
+Name: src/repast/simphony/relogo/factories/PatchFactory.java
+SHA-256-Digest: jjaLGvkqmLH8SER6sHV/XKOMS+r4Gq3rfL03xuGgaL0=
+
+Name: bin/repast/simphony/relogo/ast/PatchTypeClassInstrumentor.class
+SHA-256-Digest: 20ARcYXlFVIkENr0ScX3uCi4kBpAa14Z9tWJ19+ml0g=
+
+Name: bin/repast/simphony/relogo/BaseObserver$_createTurtlesFromExcelWit
+ hSheet_closure2.class
+SHA-256-Digest: 7N/AEXrwNA3XLtPj7r0GENkitmqWI8L07OGUgJKhCgU=
+
+Name: bin/repast/simphony/relogo/UtilityG$_modes_closure3.class
+SHA-256-Digest: ystuD5Cmxw9pq6foFdfLzk9gf37NjmuhjapqtTebWoc=
+
+Name: bin/repast/simphony/relogo/ast/MethodFromStringCreator$_compile_cl
+ osure2$_closure3.class
+SHA-256-Digest: ur2fevfCGF0rGcv8NcJ0znD3Avi6QbZK2D6xL+YeFno=
+
+Name: bin/repast/simphony/relogo/util/PrimitiveCategory.class
+SHA-256-Digest: lOoGaZHT+SBcAyeAJte8BQoxtb7jRHSDjA3nq0ZS9Y8=
+
+Name: src/repast/simphony/relogo/factories/ReLogoImplementingClassesFind
+ er.java
+SHA-256-Digest: O3lXRzdUh9Ew3oBrBUSqnGg/BEmlI8lV4vEZa/hNJa4=
+
+Name: bin/repast/simphony/relogo/factories/ToggleButtonIcon.class
+SHA-256-Digest: 9IfgudhxvZ6awJ4H2p42S+P67jJbUCTEld+QbEMCF2Y=
+
+Name: bin/repast/simphony/relogo/ast/GlobalsClassInstrumentor$_createGlo
+ balVarSetterMethod_closure2$_closure7$_closure8.class
+SHA-256-Digest: ORXaqyOcec8Pjc52pDZeaZml3ZXs/GWoWnOIx37s5oI=
+
+Name: bin/repast/simphony/relogo/factories/ObserverFactory.class
+SHA-256-Digest: z0vpjFKGIjrkYWSwfm5BTFU6ZCcB0H6I3WYeDg3jvRI=
+
+Name: bin/repast/simphony/relogo/ast/LinkTypeClassInstrumentor$_createGl
+ obalVarGetterMethod_closure1$_closure3$_closure5.class
+SHA-256-Digest: KCZ67xwDdFk19RE1yNdielErkYOHx127TLFA9+KGg9U=
+
+Name: src/repast/simphony/relogo/Undirected.groovy
+SHA-256-Digest: W8w/64/jCdIqdvD/3g2GUo8s2R736/1byE8QkhAT0tc=
+
+Name: src/repast/simphony/relogo/factories/ToggleButtonIcon.java
+SHA-256-Digest: MOFmbf4DEBYLhoL8lv71AD8R7G9tdFrQvmSWQmMv0T8=
+
+Name: bin/repast/simphony/relogo/factories/ReLogoGlobalsAndPanelComponen
+ tsFactory$_createSlider_closure11$_closure20.class
+SHA-256-Digest: JQSuayY8Ldb12bAF+zuISFftmbUfwEKxoyRItvi/2d4=
+
+Name: bin/repast/simphony/relogo/factories/ReLogoGlobalsAndPanelComponen
+ tsFactory$_createSlider_closure11$_closure21$_closure23.class
+SHA-256-Digest: u6O5j1UDX6l6sEAqugtH4xzTHFn9s2HjObUgDaPH0gc=
+
+Name: src/repast/simphony/relogo/BaseLink.groovy
+SHA-256-Digest: pq8k5rXJ8Cl147YUrBHGyRFNu/xG+sAM2IUiZM2ExoU=
+
+Name: bin/repast/simphony/relogo/ast/ExtendsLibTurtle.class
+SHA-256-Digest: ulBCq4y5aeRU8I8p4mbTMiRu9iR2ukDYXDN3iRWWwR4=
+
+Name: bin/repast/simphony/relogo/ast/DiffusibleASTTransformation$_create
+ PatchVarGetterMethod_closure2$_closure4$_closure7.class
+SHA-256-Digest: ppQW9fxSqMyyDJuVDmA35F3IFdakIqIaPTXUSSsDRnA=
+
+Name: bin/repast/simphony/relogo/BaseTurtle$_uphill4_closure4.class
+SHA-256-Digest: 0M5s1WSoomwLe8BJWdY4QsnRf9nB9qG56wymYCAgdYM=
+
+Name: bin/repast/simphony/relogo/UtilityG$_fileOpen_closure9.class
+SHA-256-Digest: 6+UOYi2OUutal8/2x/RDvGp7oaE6R2IgRhG0U9Csh0c=
+
+Name: bin/repast/simphony/relogo/AgentSet$_withMin_closure2.class
+SHA-256-Digest: ITjwLMVS+kkx/cQEqF4PojhEX/66faGVqsn9vSJ2F18=
+
+Name: bin/repast/simphony/relogo/factories/ReLogoGlobalsAndPanelComponen
+ tsFactory$_createToggleButton_closure8$_closure19.class
+SHA-256-Digest: uwyIykSE35r4qbJsmhrX11Go27Vaoqqv7BXEV0DXC14=
+
+Name: src/repast/simphony/relogo/styles/TurtleShape.java
+SHA-256-Digest: TNgr7xBOALEdqCGIibPC6y7nSCy/xkDagmQkoGiyIIs=
+
+Name: src/repast/simphony/relogo/Utility.java
+SHA-256-Digest: AohHoRrfNH7se4faoYUc+1ES/IZA3ERCtHmFafg+BeQ=
+
+Name: bin/repast/simphony/relogo/ast/LinkTypeClassInstrumentor$_createGl
+ obalVarGetterMethod_closure1.class
+SHA-256-Digest: P+SV3ckPeCuY9mOIxqiKzlYN3wVVHlzaLrfTjazJvyQ=
+
+Name: bin/repast/simphony/relogo/factories/ReLogoGlobalsAndPanelComponen
+ tsFactory$_createSlider_closure11$_closure21.class
+SHA-256-Digest: AD8MxwekNpHiS533rOpYzC7kJT//ZdCBYXXg1c6KklA=
+
+Name: bin/repast/simphony/relogo/TrackingEdge.class
+SHA-256-Digest: bHBlv9oC31+L4s8RUlfHVIypelys1vJCCoh8LPkA6QE=
+
+Name: bin/repast/simphony/relogo/ast/DiffusibleASTTransformation$_visit_
+ closure1.class
+SHA-256-Digest: gSAFfHy0OVbMH78L6PHIAuywFHI6i8F3z1NifMRpTRM=
+
+Name: src/repast/simphony/relogo/ReLogoInitializer.java
+SHA-256-Digest: X1rkA3zzMT7WBWv/hGSBtkGR8sWjzKtKN25swBXo6AQ=
+
+Name: bin/repast/simphony/relogo/UtilityG$_modes_closure4.class
+SHA-256-Digest: DT5d0SmFWuoW/32H0wH27VNF4v3klr3wLKEJuxwxuv0=
+
+Name: bin/repast/simphony/relogo/AbstractObserver.class
+SHA-256-Digest: TzIMueDO+bgGWQB8Ed7w5cK8vrp0R4pItbiHXppCMYY=
+
+Name: src/repast/simphony/relogo/factories/ObserverFactory.java
+SHA-256-Digest: /zk1zeezFON3ejbsRzFm1zetPfTPfSRyOTw70iEt9l8=
+
+Name: bin/repast/simphony/relogo/ast/GlobalsClassInstrumentor$_createGlo
+ balVarSetterMethod_closure2$_closure7$_closure9.class
+SHA-256-Digest: u955vvdnRZty8LxNXV7Lx0WF9av7jkwlbtahiwJ/4Q4=
+
+Name: bin/repast/simphony/relogo/ast/GlobalsClassInstrumentor$_createGlo
+ balVarGetterMethod_closure1.class
+SHA-256-Digest: TlzTBCVCrL2hPEMn2cmgdkgllhDU3wQUe41mvB6GiFs=
+
+Name: bin/repast/simphony/relogo/factories/ReLogoGlobalsAndPanelComponen
+ tsFactory$_createStateChangeButton_closure4.class
+SHA-256-Digest: wNhJl1cuRRwovQ4b8men6LfUxaUGJKWyVkwV/x8Bxz4=
+
+Name: bin/repast/simphony/relogo/Utility.class
+SHA-256-Digest: k9/W9gfhhOuPUDByfL/C2k32N1aMmBkLUu+N34lYvhQ=
+
+Name: bin/repast/simphony/relogo/factories/ReLogoGlobalsAndPanelComponen
+ tsFactory$_createMonitor_closure7.class
+SHA-256-Digest: w5M5y3PUWVI7MiVmfSbYpNRzyHwKPiA/HHL84Uxgpbc=
+
+Name: bin/repast/simphony/relogo/ast/ReLogoGlobalASTTransformation$_modi
+ fyDisplayFile_closure15.class
+SHA-256-Digest: uM5Ou6PNy1bn2oQ0NQSs30MBROK2UbAuR+EKsq/pvG4=
+
+Name: bin/repast/simphony/relogo/ast/PatchTypeClassInstrumentor$_createT
+ urtleVarGetterMethod_closure1$_closure3$_closure5.class
+SHA-256-Digest: N8GxF63i9sLY/rtWGB/tAnS+pslFjtua8Ngcp19NvLE=
+
+Name: bin/repast/simphony/relogo/factories/AbstractReLogoPanelCreator$_c
+ reatePanel_closure1.class
+SHA-256-Digest: 19yuG5IAoxxYBlIDYOhT+FuGXADnSVvv4JOY1bluqnk=
+
+Name: src/repast/simphony/relogo/UtilityG.groovy
+SHA-256-Digest: P4E+jtGTNQNF6xBVEl42zxCoPKlsjlpg+bC10dgDxxw=
+
+Name: bin/repast/simphony/relogo/UtilityG$_getClassFieldsAndMethods_clos
+ ure6.class
+SHA-256-Digest: 4S4d3wi4/Z8vgSJZV8jpm7oFo83lzaItXS4VMnL8TrA=
+
+Name: src/repast/simphony/relogo/ast/MethodFromStringCreator.groovy
+SHA-256-Digest: QxE/Am8EV0ul9zYyil5CXjoa13X2MYz9kHS8ONI40JE=
+
+Name: bin/repast/simphony/relogo/Link.class
+SHA-256-Digest: rgLyitIjCfL9OeWGC9zVkxnxHYxFuQywLuQ/ECbRehc=
+
+Name: bin/repast/simphony/relogo/Observer.class
+SHA-256-Digest: ColOs0720McrYzitap6A22nOmKYUPbOj0VNHm+p/pOA=
+
+Name: bin/repast/simphony/relogo/ast/Diffusible.class
+SHA-256-Digest: jir0bxpvs9rYefqASnosZ6ayNooslAEa6KU1vS0boJk=
+
+Name: src/repast/simphony/relogo/Stop.java
+SHA-256-Digest: av3OHlIjcfYAO4lFXOv0sZLhrwWH3sOFXtKfkFEnbqk=
+
+Name: bin/repast/simphony/relogo/ast/LinkTypeClassInstrumentor$_createGl
+ obalVarSetterMethod_closure2.class
+SHA-256-Digest: NGOf0yvr5c3BJz4yCE9h2DiQPBSpOqLwaDovHCG4CF0=
+
+Name: src/repast/simphony/relogo/schedule/Setup.groovy
+SHA-256-Digest: lf1qR0aWOdCx/C/Taq+2GGm8danGZpaxsIGM6ynOqS8=
+
+Name: bin/repast/simphony/relogo/builder/GeneratedByReLogoBuilder.class
+SHA-256-Digest: 5e41dhoFPefXpInVjwykWFnqBFXS/cz6cEcqJ9xmbrE=
+
+Name: src/repast/simphony/relogo/ReLogoAgent.java
+SHA-256-Digest: T83kcBRAqpq7chukPuzMzq0cwe8PCtdKGTWcDIIRrRo=
+
+Name: src/repast/simphony/relogo/util/ReLogoSupport.java
+SHA-256-Digest: PZZMy39A7yf+ygjb56RxiPQvlE13l2cQxOlb9igmMo4=
+
+Name: bin/repast/simphony/relogo/ast/ReLogoGlobalASTTransformation$_modi
+ fyDisplayFile_closure17$_closure22$_closure23.class
+SHA-256-Digest: NjQOIuZtaGuiPQMJ1r/WVFfxYItx/RtDO2b6imG53fk=
+
+Name: bin/repast/simphony/relogo/image/NLImage.class
+SHA-256-Digest: lG687tDC76RPCHMa9sdS1WLGyMlROECHYHdrEve2O3o=
+
+Name: src/repast/simphony/relogo/BaseTurtle.groovy
+SHA-256-Digest: rSeIRXQwBIaQ3K+HYyRlH4Z3FPQ28UON2HDXw8JTQ7I=
+
+Name: src/repast/simphony/relogo/util/SheetInfo.java
+SHA-256-Digest: K3shLjHFsZUbUG+JAyiaXJrcEHP7bB+DDSOcX0sw0Fk=
+
+Name: bin/repast/simphony/relogo/ast/PatchTypeClassInstrumentor$_createT
+ urtleVarGetterMethod_closure1$_closure3$_closure4.class
+SHA-256-Digest: Zc8TQC+Nk8p8FuUlwsKZwxCF7gYvAz/ljJAUMF62aEQ=
+
+Name: bin/repast/simphony/relogo/factories/ReLogoGlobalsAndPanelComponen
+ tsFactory$_createButton_closure1.class
+SHA-256-Digest: fx+XScwjvFVDb1Q/3t/CBQN/1d175q7RyJrH4/Vee2c=
+
+Name: bin/repast/simphony/relogo/factories/ReLogoGlobalsAndPanelComponen
+ tsFactory$_createMonitor_closure7$_closure18.class
+SHA-256-Digest: 0rgizng2rLhSVKjt7Rh5VJIRxh2Ctwb6bgUU56faMV8=
+
+Name: bin/repast/simphony/relogo/BaseTurtle.class
+SHA-256-Digest: JTc6UyOBmlwgu5/PYqeCadeUDi+DlJrsQtM5u6vtBx4=
+
+Name: bin/repast/simphony/relogo/Utility$7.class
+SHA-256-Digest: Ozm/3tOeQ43bVeoZ4hj2c5dL0p85M0MGZHSKq0Qreh0=
+
+Name: src/repast/simphony/relogo/Directed.groovy
+SHA-256-Digest: tb9SwWWEpqRKm0PuuRZOYGrBR3h7SyMaSKKifU2z/Bg=
+
+Name: bin/repast/simphony/relogo/AbstractLink.class
+SHA-256-Digest: 2LyVbjPHK+t81hpyToYfcc04Wjc2SL2TgFuWiCEdlhc=
+
+Name: bin/repast/simphony/relogo/ast/AstUtil.class
+SHA-256-Digest: mhU1Z6yedmYYsor/YIkCJ6cXgqAhsXQrLscBJTW7x5Y=
+
+Name: src/repast/simphony/relogo/Diffuse4Body.java
+SHA-256-Digest: 7ZZUzbWKLUHnjl1fu0pg76eUGl/GVmti4jBAgdk29MI=
+
+Name: bin/repast/simphony/relogo/BaseObserver$_getPublicFieldsAndPropert
+ ies_closure3.class
+SHA-256-Digest: alxLE7Y32oAQjhZ6NqzvvflUHL21hYQuagLCJkY1Ee4=
+
+Name: bin/repast/simphony/relogo/util/ReLogoReferenceCreator$_getTypeNam
+ e_closure2.class
+SHA-256-Digest: pgYF5VVD7MfDjczLfa49DSqxDRwkBQw89XXvYx9/thw=
+
+Name: bin/repast/simphony/relogo/util/ReLogoReferenceCreator$_createPrim
+ itivesDocument_closure3$_closure5$_closure7.class
+SHA-256-Digest: o8lnrHt5K5opCZ4Ika5Q/vaDb+LRYI+5sfsiiW2k5Lw=
+
+Name: src/repast/simphony/relogo/AbstractPatch.java
+SHA-256-Digest: 1w7VR9jWbm0a+nCtOTG590btAN+Dja3ozK5PYKXyH0g=
+
+Name: bin/repast/simphony/relogo/factories/ReLogoGlobalsAndPanelComponen
+ tsFactory$_createSlider_closure11$_closure20$_closure22.class
+SHA-256-Digest: brUM0b2+C9VdpDWcr8lm4e+6X8+JUrYE1hRT/gTGcoo=
+
+Name: src/repast/simphony/relogo/image/NLImage.java
+SHA-256-Digest: k3oCJpD6XjFB3itpBRgEEMZ3y4HaZ3HeO9+xMNPqiuY=
+
+Name: bin/repast/simphony/relogo/factories/StopEnabledCallBackAction.cla
+ ss
+SHA-256-Digest: /5LfmwIytpX2NQ2G2ooo636VVa4By+13REGl7dZ0aDU=
+
+Name: src/repast/simphony/relogo/factories/AbstractReLogoGlobalsAndPanel
+ Factory.groovy
+SHA-256-Digest: DLVfDnaUNl0wrW59455bTcRIP8LLUsyOPommML4jdKc=
+
+Name: bin/repast/simphony/relogo/factories/RLWorldDimensions$WorldType.c
+ lass
+SHA-256-Digest: Qc7OwwWFJbrvuWcsnnYpJ4xhL4Ms2w6Nb3K6GkRd6H8=
+
+Name: bin/repast/simphony/relogo/factories/ReLogoGlobalsAndPanelComponen
+ tsFactory$_createToggleButton_closure8.class
+SHA-256-Digest: d9z9NzLBBViF6qvu1Z8/DPtUliE3jlHrbFYvZY4StOk=
+
+Name: bin/repast/simphony/relogo/ast/ReLogoGlobalASTTransformation$_plai
+ nPrettyPrint_closure2.class
+SHA-256-Digest: haBNr/MkyxkX5p5bjg6xMl5/vgF6MpT8R0dVyOY0BiM=
+
+Name: bin/repast/simphony/relogo/factories/ReLogoGlobalsAndPanelComponen
+ tsFactory$_createStateChangeButton_closure3.class
+SHA-256-Digest: ycz1bOhw1FmsisJ+02S8aOzIT1VZ0WAgK4kGOMBYRfo=
+
+Name: bin/repast/simphony/relogo/Patch.class
+SHA-256-Digest: T/LrZyYAni0z7cqk7sfyiCiVAwO001zruzHHD5J6p7Y=
+
+Name: bin/repast/simphony/relogo/ast/DiffusibleASTTransformation.class
+SHA-256-Digest: Y0otD1Hth3thg/teXJgyB7iHdFv1699yCgHnkUtVpI0=
+
+Name: bin/repast/simphony/relogo/ast/DiffusibleASTTransformation$_create
+ PatchVarSetterMethod_closure3$_closure8$_closure9.class
+SHA-256-Digest: RuYH4iMdxWLA6KlC+3phcsXZmGDcy+r3vQayOFK3nd0=
+
+Name: src/repast/simphony/relogo/builder/GeneratedByReLogoBuilder.java
+SHA-256-Digest: sQS+Zca6d2KJMT4v9VN2ujjmHnZmAfaXv+SiUBHE1HU=
+
+Name: bin/repast/simphony/relogo/ast/GlobalsClassInstrumentor$_createGlo
+ balVarSetterMethod_closure2$_closure7$_closure10.class
+SHA-256-Digest: MKxpwlNsCeen9ucpFgYFAS6WKvmdElJM7mEh5B/VpB0=
+
+Name: bin/repast/simphony/relogo/factories/ReLogoGlobalsAndPanelComponen
+ tsFactory$_createMonitor_closure5.class
+SHA-256-Digest: Qu0CCtaeZlWAEIosC1u+F2lBYZy5jsFTz9Di3otkpJ0=
+
+Name: bin/repast/simphony/relogo/ast/DiffusibleASTTransformation$_create
+ PatchVarGetterMethod_closure2$_closure4$_closure6.class
+SHA-256-Digest: M047FEpndqqaAHlKRp3oXkCJP3oZjJofUCfEQuprO5I=
+
+Name: src/repast/simphony/relogo/Patch.java
+SHA-256-Digest: zHMARqw2pGRWd5tW+7sZQmyz4bNDF8C1oFyQrELLpsU=
+
+Name: bin/repast/simphony/relogo/ReLogoAgent.class
+SHA-256-Digest: v8fiOvTTanrV+agNn73v/qAjVzsIyFlR3i7FHWvsWDY=
+
+Name: bin/repast/simphony/relogo/styles/TurtleShape.class
+SHA-256-Digest: 1+BRlnjzfTh75a5UnAYhlwgjc+4sMNnOpkT94CC9q+I=
+
+Name: bin/repast/simphony/relogo/factories/ReLogoGlobalsAndPanelComponen
+ tsFactory$_createToggleButton_closure9.class
+SHA-256-Digest: 2s9Lh0eMwSPsmVHSFmtiwsKIO08Ym6NiwRRfS2yfCb4=
+
+Name: bin/repast/simphony/relogo/DiffusiblePatchVariable.class
+SHA-256-Digest: SgrkcyQlvLstGfSh0//lVRpPSB+Qb6yfxK/F5I04fj8=
+
+Name: bin/repast/simphony/relogo/factories/AbstractReLogoPanelCreator.cl
+ ass
+SHA-256-Digest: CX7O3mFQkeBfuRo19J9wGC8Th9uJsIDy+9kPQ66i8EI=
+
+Name: bin/repast/simphony/relogo/ast/MethodFromStringCreator$_createMeth
+ odFromString_closure1.class
+SHA-256-Digest: Bo7wPDF+zg8wg+P1/LKp70NoMYeB8WySDV/6Bn6QJGQ=
+
+Name: bin/repast/simphony/relogo/util/ReLogoReferenceCreator.class
+SHA-256-Digest: fXnAOzqdJT3vNBXFZK/hIn4jxLD1UKhN+sb7wi4uPR0=
+
+Name: src/repast/simphony/relogo/ast/PatchTypeClassInstrumentor.groovy
+SHA-256-Digest: iwrUS++ZoJxrhLOZ4j6GgnMWTP03asCtg79uuTKaLkY=
+
+Name: src/repast/simphony/relogo/styles/ReLogoSpatialSource.java
+SHA-256-Digest: RYVHqLeFsAVsab0lXBDX3vxmIerf2qV+QvUljNfX8nw=
+
+Name: bin/repast/simphony/relogo/ast/ReLogoGlobalASTTransformation$_chec
+ kToModifyContextFile_closure11.class
+SHA-256-Digest: hZcYQhtsYN2zuyeKgmOC2DASTxXIROrw9ANQ4eIMZyc=
+
+Name: bin/repast/simphony/relogo/OutOfContextSubscriber.class
+SHA-256-Digest: UkVz4W96irldH0Vqt4RXGz0XaNZF3MQozY5bl54f9eI=
+
+Name: bin/repast/simphony/relogo/BaseObserver.class
+SHA-256-Digest: NM8zZiYEm06bxrUoulZCfvHUUSVHlk3DlnEvwiCtT9E=
+
+Name: bin/repast/simphony/relogo/factories/ReLogoGlobalsAndPanelComponen
+ tsFactory$_createSwitch_closure12.class
+SHA-256-Digest: 6vUlKxBFxIHmLz8be+gLJw2t4WQNxaWStZeMHoYfBA0=
+
+Name: lib/asm-3.2.jar
+SHA-256-Digest: KvuyOJYdb2UaoAFopdchQ8TkmLEGv6aP8ymrK39oUdg=
+
+Name: src/repast/simphony/relogo/factories/TurtleFactory.java
+SHA-256-Digest: u76LSZoUYad3Gm+pwt4Mp5TksuWMXxZQhm4uKRsY7os=
+
+Name: bin/repast/simphony/relogo/UtilityG$_fileDelete_closure10.class
+SHA-256-Digest: L5blB4eFKbNwp1CbmRppblja2BadeNJmY6CVO0nm0Hk=
+
+Name: bin/repast/simphony/relogo/ReLogoInitializer$1.class
+SHA-256-Digest: B/kXcX/H7EzTTYkJY8j2wkDAs+O3d4aLdktJjtHxXoo=
+
+Name: src/repast/simphony/relogo/OutOfContextSubscriber.java
+SHA-256-Digest: zTGrMcuYWzYIQxE5b2GdbaAu3jQdyseJe9Ru9cTCbo0=
+
+Name: bin/repast/simphony/relogo/styles/ReLogoSpatialSource.class
+SHA-256-Digest: 1w52/8n2nW2l8cPiKq5ZwsKEDCUAvXfp/6DW333BzLY=
+
+Name: bin/repast/simphony/relogo/factories/ReLogoGlobalsAndPanelComponen
+ tsFactory$_createChooser_closure13.class
+SHA-256-Digest: F1/6YH/jteNrWrnCxRO1F/Fk0vg5NcE97fEdUX/syjI=
+
+Name: src/dsld/relogoDSLD.dsld
+SHA-256-Digest: LHgVD1TmKLd7OPGATDp2a+AMvn1HrcQhFrqASQSh+Ug=
+
+Name: bin/repast/simphony/relogo/ast/ExtendsLibLink.class
+SHA-256-Digest: wkRuVWCC4ssHRU07Pz1cGdKK37g1Neuuw+T9fTJ5Kn4=
+
+Name: bin/repast/simphony/relogo/factories/BindableBoolean.class
+SHA-256-Digest: yDmMTvLbdYyHQOlV3kplk1pXd9yn76mWNfmOHO8AXck=
+
+Name: bin/repast/simphony/relogo/util/ReLogoReferenceCreator$_createPrim
+ itivesDocument_closure3$_closure5$_closure7$_closure8$_closure10.class
+SHA-256-Digest: y50k6B1cXaOvIj2k7j+0QgV8p4LDij/u/gGpwV6s/Ac=
+
+Name: dsldFolder/ReLogoDSLD.jar
+SHA-256-Digest: TXi2x+2Pf/+TxAn2T9MoVGoM2Wbn2A4ai+QbvjZlrN8=
+
+Name: bin/repast/simphony/relogo/ast/GlobalsClassInstrumentor$_createGlo
+ balVarSetterMethod_closure2$_closure7.class
+SHA-256-Digest: HOXCvOsx03RKytfHJgfEiIpsmiUsMQN3nQK/MDNdZhY=
+
+Name: bin/repast/simphony/relogo/Diffuse4Body.class
+SHA-256-Digest: ouMUzidoLVGYBtMBS8LHIj2GoXXGPNtweQlgwnJoXX0=
+
+Name: bin/repast/simphony/relogo/ast/LinkTypeClassInstrumentor$_createGl
+ obalVarSetterMethod_closure2$_closure7.class
+SHA-256-Digest: APBX6aPk7hfsVyeyHgDYYAgFsT7cT51oEUxNBudiDwg=
+
+Name: bin/repast/simphony/relogo/ast/DiffusibleASTTransformation$_create
+ PatchVarSetterMethod_closure3.class
+SHA-256-Digest: XH4w4ZwxWmIp+6wyAVCwcqiMg4+0JYiuVK8B9+E9cBo=
+
+Name: src/repast/simphony/relogo/ast/ExtendsLibPatch.java
+SHA-256-Digest: +0uD1d/iiiwMd9AIWnP4fK1VEoVxXqwy5v678yLDXkU=
+
+Name: bin/repast/simphony/relogo/ast/ReLogoGlobalASTTransformation$_chec
+ kToModifyContextFile_closure10.class
+SHA-256-Digest: iNHXBTDaUfTcLZ+qm7TrqJAfXbHIqCPdwhfsawEoPpg=
+
+Name: bin/repast/simphony/relogo/Directed.class
+SHA-256-Digest: vYnFB5Rmwt7WYhL1zkf9fLQfjgcP6m90nCEDTh3iI30=
+
+Name: bin/repast/simphony/relogo/factories/AbstractReLogoPanelCreator$_c
+ reatePanel_closure1$_closure2.class
+SHA-256-Digest: nYo1l9uQFsfUIwHyKk8O1N6ChNCRKLxxAf/BChKSPVM=
+
+Name: src/repast/simphony/relogo/factories/BindableBoolean.groovy
+SHA-256-Digest: UlXx9XdeJvD6MTgTFznfgSnLd6eXT17ZH4qlcKhLAa8=
+
+Name: bin/repast/simphony/relogo/ast/PatchTypeClassInstrumentor$_createT
+ urtleVarSetterMethod_closure2.class
+SHA-256-Digest: +5UPVHRRCfO108MzFW00xw7WY/pHJSD967DiNdU9XU0=
+
+Name: bin/repast/simphony/relogo/factories/ReLogoGlobalsAndPanelComponen
+ tsFactory$_createMonitor_closure7$_closure17.class
+SHA-256-Digest: EP1yqH10zsnmzgrmUWeK/hC8ZTGqCXQWh61MNL9Y0iQ=
+
+Name: bin/repast/simphony/relogo/factories/ReLogoGlobalsAndPanelComponen
+ tsFactory$_createSlider_closure11.class
+SHA-256-Digest: kAazezA1QCRJmeqjxmRvGaKDW2r2bFCwqepiQUGgrbU=
+
+Name: bin/repast/simphony/relogo/factories/ReLogoGlobalsAndPanelComponen
+ tsFactory$_createChooser_closure13$_closure27$_closure28.class
+SHA-256-Digest: rHL/X2IjFQ6LVgZUSdbJuQREdSF8JOGVuJ0Chd20CAA=
+
+Name: bin/repast/simphony/relogo/Undirected.class
+SHA-256-Digest: 3ek0yG2+VKB24SN2/PWA8wGrvnlVngIpBCx8LCrKFe0=
+
+Name: bin/repast/simphony/relogo/ast/ExtendsLibObserver.class
+SHA-256-Digest: vmCwmQO910Dsf4r0hvci7vO5fEPu0GaNQ7eKyD66uVA=
+
+Name: src/repast/simphony/relogo/ReLogoModel.java
+SHA-256-Digest: P9YG6pxY46czHfmz9n1oMjRy3f7j43rOD5u0qjLz0Pk=
+

@@ -1,0 +1,145 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Repast freezedry
+Bundle-SymbolicName: repast.simphony.freezedry
+Bundle-Version: 2.9.1
+Export-Package: repast.simphony.freezedry.engine,repast.simphony.freezed
+ ry.gui,repast.simphony.freezedry.wizard
+Require-Bundle: repast.simphony.plugin.util,repast.simphony.scenario,rep
+ ast.simphony.gui,repast.simphony.core,saf.core.ui,repast.simphony.runti
+ me
+Bundle-Vendor: Argonne National Laboratory
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+
+Name: bin/repast/simphony/freezedry/gui/DFDirectoryChooserStep$2.class
+SHA-256-Digest: fHn4t9r9NzMA1R8BVJAif8jJm//d9HPnwML3orI98L0=
+
+Name: bin/repast/simphony/freezedry/wizard/DataSourceBuilder.class
+SHA-256-Digest: 3C7Wyxq4fn5oOXNxguDJ8zl+DCmavAhRYjexI1j8eao=
+
+Name: bin/repast/simphony/freezedry/wizard/XMLFileChooserStep$4.class
+SHA-256-Digest: LooGznPLTNqch+taAPVEA13q+qpo9QvQecQgDjUxUTg=
+
+Name: bin/repast/simphony/freezedry/wizard/FreezeDryButtonModel.class
+SHA-256-Digest: QFCqu99EwfTRn9gtgEK5DL8avQct6WUaRj0AtbQVRuE=
+
+Name: bin/repast/simphony/freezedry/wizard/FreezeDryScheduleStep.class
+SHA-256-Digest: PDJwnVi9ISiy0v9E38wIySXkaG0RrL5MCCN5KVs/WmI=
+
+Name: bin/repast/simphony/freezedry/wizard/FreezeDryWizardModel.class
+SHA-256-Digest: ix6wQ87nPPc/8PdKnZcFBhG0ohov25CrpMLmRkf3lRc=
+
+Name: bin/repast/simphony/freezedry/wizard/FreezeDryWizardOption.class
+SHA-256-Digest: u0QrcfatpjPHUUuoG10a8lvqoaDdrYjL3V0S3J5Gc9o=
+
+Name: bin/repast/simphony/freezedry/wizard/XMLFileChooserStep.class
+SHA-256-Digest: rC1WpfTFckJkdWLJhWbRXMXA4nb7Xphe3KLbxagViYU=
+
+Name: bin/repast/simphony/freezedry/wizard/XMLFileChooserStep$1.class
+SHA-256-Digest: yoVQ2Jx2vgCuOXZ6f+WG68jvZTR6jTe1jdnMJfTrgd0=
+
+Name: bin/repast/simphony/freezedry/wizard/DFDataSourceBuilder.class
+SHA-256-Digest: mkyvZM7WyvNYcJEgSc2EOWM2WgaBFrgV6C/3SEPKNFQ=
+
+Name: bin/repast/simphony/freezedry/wizard/FreezerControllerAction.class
+SHA-256-Digest: p6oCz1G6keS4MrzUcQ+JvLXo+VTwO3PErCFghDYy+Po=
+
+Name: bin/repast/simphony/freezedry/wizard/ControllerActionBuilder.class
+SHA-256-Digest: r9pUcqL11hBUHaDRKXaOGRwtPctOlAzqYBR1qAtzjgM=
+
+Name: bin/repast/simphony/freezedry/wizard/XMLFileOption.class
+SHA-256-Digest: cGjCmrpORR2dEH6xM1ONA2/CLHgm5yrhs4L1NH8lQYY=
+
+Name: bin/repast/simphony/freezedry/wizard/ChooseContextStep.class
+SHA-256-Digest: 1K4JJj5tMMMR+StVSLnac0k4APXTH810OXENrExJRBg=
+
+Name: bin/repast/simphony/freezedry/gui/DFDirectoryChooserStep$4.class
+SHA-256-Digest: 4TyyE+YruqRgJ+4l8DDDozTN9kw2BskcdiyQsZReTdU=
+
+Name: bin/repast/simphony/freezedry/wizard/XMLFileChooserStep$2.class
+SHA-256-Digest: x4e8acPa/HgPiRgQzrFWJPzh1SA/8vQ/QJKWHlbdhj4=
+
+Name: icons/db.png
+SHA-256-Digest: A4UTnHsbh9yDLCZD/L6woEzpzVdbopy/RaFskU0dunE=
+
+Name: bin/repast/simphony/freezedry/wizard/FreezeDryButtonModel$1.class
+SHA-256-Digest: OpVXZben1qT7PHCr6j1QCPSGR0RBrpoJW6XYLR2lJ7o=
+
+Name: bin/repast/simphony/freezedry/gui/DFDirectoryChooserStep$1.class
+SHA-256-Digest: IgnU2kYp3hCwamx0SLuH7fApZsVCJL1B+kbCNsZBq7g=
+
+Name: bin/repast/simphony/freezedry/wizard/DelimitedFileOption.class
+SHA-256-Digest: i4zpV9ZXo+1BAYIJJ+Hjt8kqzODQumdfsk5ywyV3q+A=
+
+Name: bin/repast/simphony/freezedry/gui/ClassRetrievable.class
+SHA-256-Digest: 6vN+oqwUTaeyuJCtg+iQasr0jUyj9cft7Bx+vstH43Q=
+
+Name: bin/repast/simphony/freezedry/gui/FreezerEditor.class
+SHA-256-Digest: xnU/CRGm+tnlIMxLHRZa/zCkl0x5IQjjYo1l8HjQmwg=
+
+Name: bin/repast/simphony/freezedry/gui/DFDirectoryChooserStep.class
+SHA-256-Digest: 97CDQzEJR0c+rw71L3RXkH4CTeILdmBCA4YUSILlm9I=
+
+Name: licenses/repast-license.txt
+SHA-256-Digest: sgcGxHlhIfJK9mnMFOtvz0jBQxnJYR0r5EDSz4qPlYU=
+
+Name: bin/repast/simphony/freezedry/wizard/FreezeDryScheduleStep$1.class
+SHA-256-Digest: i+K8FhlIdeKWppiCrsVd/w8gvuetGWScCHvy3kKV5Q4=
+
+Name: licenses/LICENSE-jgoodies.txt
+SHA-256-Digest: 1sirzDFQpVYG4r75jYx/a/PakgLdRBOqhfNyHljd77E=
+
+Name: bin/repast/simphony/freezedry/engine/DelimitedFileFreezerActionIO.
+ class
+SHA-256-Digest: HXhnzelaz5NKjgLuf6AS74vag3nxKRcEo+GovQNzejU=
+
+Name: bin/repast/simphony/freezedry/gui/DFDirectoryChooserStep$3.class
+SHA-256-Digest: YNn0gQ+Ell49ucgxRhId4MgIMwy6hpU5DbZ9cEMPW5o=
+
+Name: bin/repast/simphony/freezedry/gui/FreezerMenuItem.class
+SHA-256-Digest: UDLYVTvUMfB5MIs2w/AexuwTNugpJf2JaT6J9bmNf2Y=
+
+Name: bin/repast/simphony/freezedry/wizard/DFFreezerControllerAction.cla
+ ss
+SHA-256-Digest: 6W1EjlH63grurSWkE86LFsNVkeTciJX7Nn3g+o6ubVI=
+
+Name: bin/repast/simphony/freezedry/wizard/DFFreezerDirectoryChooserStep
+ .class
+SHA-256-Digest: c8AtsLBnAPVsWlXCduev/LYIX22IhvWMFAVOan/gI4U=
+
+Name: bin/repast/simphony/freezedry/wizard/ChooseContextStep$1.class
+SHA-256-Digest: ziACAsiYbLtmoSyH9nAa1nHEOjclmWbYUGs4gAtFnKE=
+
+Name: bin/repast/simphony/freezedry/wizard/FreezeDryWizardPluginUtil$1.c
+ lass
+SHA-256-Digest: lfppPJoO7i2PGt5eXGe7GF7JXf+BWjE37lSKgHigJZM=
+
+Name: bin/repast/simphony/freezedry/wizard/DelimitedFileOption$1.class
+SHA-256-Digest: Czz1fAg8snoCHNEnnj8INOSZH6oKe1wve6Ug86IM6nY=
+
+Name: bin/repast/simphony/freezedry/gui/FreezerActionUI.class
+SHA-256-Digest: QiwlsFbIdlz9MOLeyObw3iR/wxxIH0TVCuRHhln6oXQ=
+
+Name: bin/repast/simphony/freezedry/gui/DFFreezerActionEditorCreator.cla
+ ss
+SHA-256-Digest: ZdkKB+rnpxsPJf8HxASMeLCap8d9SPB822dA/lcvv8M=
+
+Name: icons/snowflake.png
+SHA-256-Digest: CX/wVj3BT744oVyM4ljXjQUXuIApql6alKdp2ZbYgcM=
+
+Name: plugin_jpf.xml
+SHA-256-Digest: 2Lery/iQ5rpmdCDW8gfxDllquUIhROlA9Ib1VNwI51M=
+
+Name: bin/repast/simphony/freezedry/wizard/FreezeDryWizardPluginUtil.cla
+ ss
+SHA-256-Digest: 2u3lp2cIbU4kzq9yMBt3c+xgWT1KzkFFFwS/CbqqThY=
+
+Name: bin/repast/simphony/freezedry/gui/DFFreezerActionUI.class
+SHA-256-Digest: kjv8kMB1OFQ60MX8WbM0LsnmdVUVJxmkHlMdCvjHCmw=
+
+Name: bin/repast/simphony/freezedry/gui/DFDirectoryChooserStep$5.class
+SHA-256-Digest: CJfu+voZfc4hh4L9XzUCBESUNgawrtjXcx7eI8R8cPI=
+
+Name: bin/repast/simphony/freezedry/wizard/XMLFileChooserStep$3.class
+SHA-256-Digest: HXp/brd3RR/qAaVzN+q6KiMrKlLLvrdh3+kX8mlm/Bg=
+

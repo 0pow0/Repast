@@ -1,0 +1,27 @@
+Signature-Version: 1.0
+Created-By: 11.0.12 (Eclipse Foundation)
+SHA-256-Digest-Manifest: mDZymgni7T5T54Fr21jDn4Jgsn8KqQY90jwt1D25p3I=
+SHA-256-Digest-Manifest-Main-Attributes: lqwWYiem48Ve1cKu4LjGaemGaoEZpIr
+ Nm6hqa0PigGQ=
+
+Name: licenses/repast-license.txt
+SHA-256-Digest: OiLqoygTE6vasbSFEGEJChgkBjTMACDWztuXCGv4an4=
+
+Name: bin/repast/simphony/weka/RunWekaModel.class
+SHA-256-Digest: F0lAOvW2X1tBRJZvfSGkwnMTRc1dD8piuB1V9wd4mYw=
+
+Name: icons/weka.png
+SHA-256-Digest: n1uvE0AD1RELtdvhxKPF3pUYjLYnQonVB7zlArel+4Y=
+
+Name: bin/repast/simphony/weka/.Rprofile
+SHA-256-Digest: csJZJeEe/kcTckatQfEBkWmc5t5k5VgUbVFpp+oUpzs=
+
+Name: bin/repast/simphony/weka/WekaWizard.class
+SHA-256-Digest: JvXYvUDcf9mINxlPh7J/QTKPF2KtvbWwcBBdZ63Ew7o=
+
+Name: bin/repast/simphony/weka/license.txt
+SHA-256-Digest: q00PVSwpao+07dinyzmCm6ekcHfjECFAhELBUCgER+U=
+
+Name: plugin_jpf.xml
+SHA-256-Digest: iMX2qvRVPr42iQpm05DOemMMNzdZNw658kC7dQ6a6SY=
+

@@ -1,0 +1,710 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Repast gis
+Bundle-SymbolicName: repast.simphony.gis
+Bundle-Version: 2.9.1
+Require-Bundle: libs.ext,repast.simphony.runtime,repast.simphony.core,re
+ past.simphony.scenario,repast.simphony.dataLoader
+Export-Package: com.vividsolutions.jts,com.vividsolutions.jts.algorithm,
+ com.vividsolutions.jts.algorithm.distance,com.vividsolutions.jts.algori
+ thm.locate,com.vividsolutions.jts.algorithm.match,com.vividsolutions.jt
+ s.awt,com.vividsolutions.jts.densify,com.vividsolutions.jts.dissolve,co
+ m.vividsolutions.jts.edgegraph,com.vividsolutions.jts.geom,com.vividsol
+ utions.jts.geom.impl,com.vividsolutions.jts.geom.prep,com.vividsolution
+ s.jts.geom.util,com.vividsolutions.jts.geomgraph,com.vividsolutions.jts
+ .geomgraph.index,com.vividsolutions.jts.index,com.vividsolutions.jts.in
+ dex.bintree,com.vividsolutions.jts.index.chain,com.vividsolutions.jts.i
+ ndex.intervalrtree,com.vividsolutions.jts.index.kdtree,com.vividsolutio
+ ns.jts.index.quadtree,com.vividsolutions.jts.index.strtree,com.vividsol
+ utions.jts.index.sweepline,com.vividsolutions.jts.io,com.vividsolutions
+ .jts.io.gml2,com.vividsolutions.jts.linearref,com.vividsolutions.jts.ma
+ th,com.vividsolutions.jts.noding,com.vividsolutions.jts.noding.snaproun
+ d,com.vividsolutions.jts.operation,com.vividsolutions.jts.operation.buf
+ fer,com.vividsolutions.jts.operation.buffer.validate,com.vividsolutions
+ .jts.operation.distance,com.vividsolutions.jts.operation.distance3d,com
+ .vividsolutions.jts.operation.linemerge,com.vividsolutions.jts.operatio
+ n.overlay,com.vividsolutions.jts.operation.overlay.snap,com.vividsoluti
+ ons.jts.operation.overlay.validate,com.vividsolutions.jts.operation.pol
+ ygonize,com.vividsolutions.jts.operation.predicate,com.vividsolutions.j
+ ts.operation.relate,com.vividsolutions.jts.operation.union,com.vividsol
+ utions.jts.operation.valid,com.vividsolutions.jts.planargraph,com.vivid
+ solutions.jts.planargraph.algorithm,com.vividsolutions.jts.precision,co
+ m.vividsolutions.jts.shape,com.vividsolutions.jts.shape.fractal,com.viv
+ idsolutions.jts.shape.random,com.vividsolutions.jts.simplify,com.vivids
+ olutions.jts.triangulate,com.vividsolutions.jts.triangulate.quadedge,co
+ m.vividsolutions.jts.util,com.vividsolutions.jtsexample.geom,com.vivids
+ olutions.jtsexample.geom.prep,com.vividsolutions.jtsexample.io.gml2,com
+ .vividsolutions.jtsexample.linearref,com.vividsolutions.jtsexample.oper
+ ation.distance,com.vividsolutions.jtsexample.operation.linemerge,com.vi
+ vidsolutions.jtsexample.operation.polygonize,com.vividsolutions.jtsexam
+ ple.precision,com.vividsolutions.jtsexample.technique,it.geosolutions.i
+ mageio.core,it.geosolutions.imageio.imageioimpl,it.geosolutions.imageio
+ .maskband,it.geosolutions.imageio.ndplugin,it.geosolutions.imageio.pam,
+ it.geosolutions.imageio.plugins.arcgrid,it.geosolutions.imageio.plugins
+ .arcgrid.raster,it.geosolutions.imageio.plugins.arcgrid.spi,it.geosolut
+ ions.imageio.plugins.tiff,it.geosolutions.imageio.stream,it.geosolution
+ s.imageio.stream.eraf,it.geosolutions.imageio.stream.input,it.geosoluti
+ ons.imageio.stream.input.compressed,it.geosolutions.imageio.stream.inpu
+ t.spi,it.geosolutions.imageio.stream.output,it.geosolutions.imageio.str
+ eam.output.spi,it.geosolutions.imageio.utilities,it.geosolutions.imagei
+ oimpl.plugins.tiff,it.geosolutions.io,it.geosolutions.io.input,it.geoso
+ lutions.io.input.adapter,it.geosolutions.io.output,it.geosolutions.io.o
+ utput.adapter,it.geosolutions.jaiext,it.geosolutions.jaiext.algebra,it.
+ geosolutions.jaiext.algebra.constant,it.geosolutions.jaiext.bandcombine
+ ,it.geosolutions.jaiext.bandmerge,it.geosolutions.jaiext.bandselect,it.
+ geosolutions.jaiext.binarize,it.geosolutions.jaiext.border,it.geosoluti
+ ons.jaiext.buffer,it.geosolutions.jaiext.classifier,it.geosolutions.jai
+ ext.colorconvert,it.geosolutions.jaiext.colorindexer,it.geosolutions.ja
+ iext.crop,it.geosolutions.jaiext.errordiffusion,it.geosolutions.jaiext.
+ format,it.geosolutions.jaiext.imagefunction,it.geosolutions.jaiext.inte
+ rpolators,it.geosolutions.jaiext.iterators,it.geosolutions.jaiext.itera
+ tors.nl,it.geosolutions.jaiext.jts,it.geosolutions.jaiext.lookup,it.geo
+ solutions.jaiext.mosaic,it.geosolutions.jaiext.nullop,it.geosolutions.j
+ aiext.orderdither,it.geosolutions.jaiext.piecewise,it.geosolutions.jaie
+ xt.range,it.geosolutions.jaiext.rescale,it.geosolutions.jaiext.rlookup,
+ it.geosolutions.jaiext.scale,it.geosolutions.jaiext.stats,it.geosolutio
+ ns.jaiext.translate,it.geosolutions.jaiext.utilities,it.geosolutions.ja
+ iext.utilities.shape,it.geosolutions.jaiext.vectorbin,it.geosolutions.j
+ aiext.warp,it.geosolutions.jaiext.zonal,it.geosolutions.rendered.viewer
+ ,net.sf.geographiclib,org.ejml,org.ejml.alg.block,org.ejml.alg.block.de
+ composition.bidiagonal,org.ejml.alg.block.decomposition.chol,org.ejml.a
+ lg.block.decomposition.hessenberg,org.ejml.alg.block.decomposition.qr,o
+ rg.ejml.alg.block.linsol.chol,org.ejml.alg.block.linsol.qr,org.ejml.alg
+ .dense.decomposition,org.ejml.alg.dense.decomposition.bidiagonal,org.ej
+ ml.alg.dense.decomposition.chol,org.ejml.alg.dense.decomposition.eig,or
+ g.ejml.alg.dense.decomposition.eig.symm,org.ejml.alg.dense.decompositio
+ n.eig.watched,org.ejml.alg.dense.decomposition.hessenberg,org.ejml.alg.
+ dense.decomposition.lu,org.ejml.alg.dense.decomposition.qr,org.ejml.alg
+ .dense.decomposition.svd,org.ejml.alg.dense.decomposition.svd.implicitq
+ r,org.ejml.alg.dense.linsol,org.ejml.alg.dense.linsol.chol,org.ejml.alg
+ .dense.linsol.lu,org.ejml.alg.dense.linsol.qr,org.ejml.alg.dense.linsol
+ .svd,org.ejml.alg.dense.misc,org.ejml.alg.dense.mult,org.ejml.alg.fixed
+ ,org.ejml.alg.generic,org.ejml.data,org.ejml.dense.block,org.ejml.dense
+ .block.decomposition.bidiagonal,org.ejml.dense.block.decomposition.chol
+ ,org.ejml.dense.block.decomposition.hessenberg,org.ejml.dense.block.dec
+ omposition.qr,org.ejml.dense.block.linsol.chol,org.ejml.dense.block.lin
+ sol.qr,org.ejml.dense.fixed,org.ejml.dense.row,org.ejml.dense.row.decom
+ position,org.ejml.dense.row.decomposition.bidiagonal,org.ejml.dense.row
+ .decomposition.chol,org.ejml.dense.row.decomposition.eig,org.ejml.dense
+ .row.decomposition.eig.symm,org.ejml.dense.row.decomposition.eig.watche
+ d,org.ejml.dense.row.decomposition.hessenberg,org.ejml.dense.row.decomp
+ osition.lu,org.ejml.dense.row.decomposition.qr,org.ejml.dense.row.decom
+ position.svd,org.ejml.dense.row.decomposition.svd.implicitqr,org.ejml.d
+ ense.row.factory,org.ejml.dense.row.linsol,org.ejml.dense.row.linsol.ch
+ ol,org.ejml.dense.row.linsol.lu,org.ejml.dense.row.linsol.qr,org.ejml.d
+ ense.row.linsol.svd,org.ejml.dense.row.misc,org.ejml.dense.row.mult,org
+ .ejml.factory,org.ejml.generic,org.ejml.interfaces,org.ejml.interfaces.
+ decomposition,org.ejml.interfaces.linsol,org.ejml.ops,org.ejml.simple,o
+ rg.geotools,org.geotools.arcsde,org.geotools.arcsde.data,org.geotools.a
+ rcsde.data.view,org.geotools.arcsde.filter,org.geotools.arcsde.raster.g
+ ce,org.geotools.arcsde.raster.info,org.geotools.arcsde.raster.io,org.ge
+ otools.arcsde.raster.jai,org.geotools.arcsde.util,org.geotools.brewer.c
+ olor,org.geotools.console,org.geotools.coverage,org.geotools.coverage.g
+ rid,org.geotools.coverage.grid.io,org.geotools.coverage.grid.io.footpri
+ nt,org.geotools.coverage.grid.io.imageio,org.geotools.coverage.grid.io.
+ imageio.geotiff,org.geotools.coverage.grid.io.imageio.geotiff.codes,org
+ .geotools.coverage.io,org.geotools.coverage.io.catalog,org.geotools.cov
+ erage.io.impl,org.geotools.coverage.io.metadata,org.geotools.coverage.i
+ o.range,org.geotools.coverage.io.range.impl,org.geotools.coverage.io.ut
+ il,org.geotools.coverage.processing,org.geotools.coverage.processing.op
+ eration,org.geotools.data,org.geotools.data.collection,org.geotools.dat
+ a.crs,org.geotools.data.directory,org.geotools.data.memory,org.geotools
+ .data.ows,org.geotools.data.shapefile,org.geotools.data.shapefile.dbf,o
+ rg.geotools.data.shapefile.fid,org.geotools.data.shapefile.files,org.ge
+ otools.data.shapefile.index,org.geotools.data.shapefile.index.quadtree,
+ org.geotools.data.shapefile.index.quadtree.fs,org.geotools.data.shapefi
+ le.shp,org.geotools.data.shapefile.shp.xml,org.geotools.data.simple,org
+ .geotools.data.sort,org.geotools.data.store,org.geotools.data.view,org.
+ geotools.decorate,org.geotools.factory,org.geotools.feature,org.geotool
+ s.feature.collection,org.geotools.feature.simple,org.geotools.feature.t
+ ype,org.geotools.feature.visitor,org.geotools.filter,org.geotools.filte
+ r.capability,org.geotools.filter.expression,org.geotools.filter.functio
+ n,org.geotools.filter.function.color,org.geotools.filter.function.math,
+ org.geotools.filter.function.string,org.geotools.filter.identity,org.ge
+ otools.filter.spatial,org.geotools.filter.temporal,org.geotools.filter.
+ text.commons,org.geotools.filter.text.cql2,org.geotools.filter.text.ecq
+ l,org.geotools.filter.text.generated.parsers,org.geotools.filter.visito
+ r,org.geotools.gce.arcgrid,org.geotools.gce.geotiff,org.geotools.gce.im
+ age,org.geotools.geometry,org.geotools.geometry.coordinatesequence,org.
+ geotools.geometry.jts,org.geotools.geometry.jts.coordinatesequence,org.
+ geotools.geometry.text,org.geotools.gml,org.geotools.gml.producer,org.g
+ eotools.image,org.geotools.image.crop,org.geotools.image.io,org.geotool
+ s.image.jai,org.geotools.image.palette,org.geotools.image.test,org.geot
+ ools.imageio,org.geotools.io,org.geotools.legend,org.geotools.map,org.g
+ eotools.map.direct,org.geotools.map.event,org.geotools.math,org.geotool
+ s.measure,org.geotools.metadata,org.geotools.metadata.iso,org.geotools.
+ metadata.iso.citation,org.geotools.metadata.iso.constraint,org.geotools
+ .metadata.iso.content,org.geotools.metadata.iso.distribution,org.geotoo
+ ls.metadata.iso.extent,org.geotools.metadata.iso.identification,org.geo
+ tools.metadata.iso.lineage,org.geotools.metadata.iso.maintenance,org.ge
+ otools.metadata.iso.quality,org.geotools.metadata.iso.spatial,org.geoto
+ ols.metadata.sql,org.geotools.nature,org.geotools.ows,org.geotools.para
+ meter,org.geotools.referencing,org.geotools.referencing.crs,org.geotool
+ s.referencing.cs,org.geotools.referencing.datum,org.geotools.referencin
+ g.factory,org.geotools.referencing.factory.epsg,org.geotools.referencin
+ g.factory.gridshift,org.geotools.referencing.factory.wms,org.geotools.r
+ eferencing.operation,org.geotools.referencing.operation.builder,org.geo
+ tools.referencing.operation.matrix,org.geotools.referencing.operation.p
+ rojection,org.geotools.referencing.operation.transform,org.geotools.ref
+ erencing.piecewise,org.geotools.referencing.wkt,org.geotools.renderer,o
+ rg.geotools.renderer.crs,org.geotools.renderer.i18n,org.geotools.render
+ er.label,org.geotools.renderer.lite,org.geotools.renderer.lite.gridcove
+ rage2d,org.geotools.renderer.style,org.geotools.renderer.style.shape,or
+ g.geotools.resources,org.geotools.resources.coverage,org.geotools.resou
+ rces.geometry,org.geotools.resources.i18n,org.geotools.resources.image,
+ org.geotools.styling,org.geotools.styling.builder,org.geotools.styling.
+ visitor,org.geotools.temporal,org.geotools.temporal.object,org.geotools
+ .temporal.reference,org.geotools.text,org.geotools.util,org.geotools.ut
+ il.logging,org.geotools.xml,org.geotools.xml.transform,org.jaitools,org
+ .jaitools.imageutils,org.jaitools.imageutils.iterator,org.jaitools.imag
+ eutils.shape,org.jaitools.jts,org.jaitools.lookup,org.jaitools.media.ja
+ i.contour,org.jaitools.media.jai.kernel,org.jaitools.media.jai.rangeloo
+ kup,org.jaitools.media.jai.vectorbinarize,org.jaitools.media.jai.vector
+ ize,org.jaitools.media.jai.zonalstats,org.jaitools.numeric,org.jaitools
+ .swing,org.jaitools.tilecache,org.jaitools.tiledimage,org.jdom,org.jdom
+ .adapters,org.jdom.filter,org.jdom.input,org.jdom.output,org.jdom.trans
+ form,org.jdom.xpath,org.jdom2,org.jdom2.adapters,org.jdom2.filter,org.j
+ dom2.input,org.jdom2.input.sax,org.jdom2.input.stax,org.jdom2.internal,
+ org.jdom2.located,org.jdom2.output,org.jdom2.output.support,org.jdom2.t
+ ransform,org.jdom2.util,org.jdom2.xpath,org.jdom2.xpath.jaxen,org.jdom2
+ .xpath.util,org.opengis.annotation,org.opengis.coverage,org.opengis.cov
+ erage.grid,org.opengis.coverage.processing,org.opengis.feature,org.open
+ gis.feature.simple,org.opengis.feature.type,org.opengis.filter,org.open
+ gis.filter.capability,org.opengis.filter.expression,org.opengis.filter.
+ identity,org.opengis.filter.sort,org.opengis.filter.spatial,org.opengis
+ .filter.temporal,org.opengis.geometry,org.opengis.geometry.aggregate,or
+ g.opengis.geometry.complex,org.opengis.geometry.coordinate,org.opengis.
+ geometry.primitive,org.opengis.metadata,org.opengis.metadata.citation,o
+ rg.opengis.metadata.constraint,org.opengis.metadata.content,org.opengis
+ .metadata.distribution,org.opengis.metadata.extent,org.opengis.metadata
+ .identification,org.opengis.metadata.lineage,org.opengis.metadata.maint
+ enance,org.opengis.metadata.quality,org.opengis.metadata.spatial,org.op
+ engis.parameter,org.opengis.referencing,org.opengis.referencing.crs,org
+ .opengis.referencing.cs,org.opengis.referencing.datum,org.opengis.refer
+ encing.operation,org.opengis.style,org.opengis.temporal,org.opengis.uti
+ l,repast.simphony.context.space.gis,repast.simphony.gis.dataLoader,repa
+ st.simphony.gis.engine,repast.simphony.gis.freezedry,repast.simphony.gi
+ s.io,repast.simphony.gis.util,repast.simphony.gis.xml,repast.simphony.q
+ uery.space.gis,repast.simphony.space.gis,repast.simphony.space.gis.valu
+ elayer
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ClassPath: bin/,lib/GeographicLib-Java-1.44.jar,lib/gt-api-19.1.j
+ ar,lib/gt-arcgrid-19.1.jar,lib/gt-brewer-19.1.jar,lib/gt-coverage-19.1.
+ jar,lib/gt-cql-19.1.jar,lib/gt-data-19.1.jar,lib/gt-epsg-hsql-19.1.jar,
+ lib/gt-geotiff-19.1.jar,lib/gt-image-19.1.jar,lib/gt-main-19.1.jar,lib/
+ gt-metadata-19.1.jar,lib/gt-opengis-19.1.jar,lib/gt-referencing-19.1.ja
+ r,lib/gt-shapefile-19.1.jar,lib/imageio-ext-arcgrid-1.1.20.jar,lib/imag
+ eio-ext-geocore-1.1.20.jar,lib/imageio-ext-streams-1.1.20.jar,lib/image
+ io-ext-tiff-1.1.20.jar,lib/imageio-ext-utilities-1.1.20.jar,lib/jdom2-2
+ .0.6.jar,lib/jt-algebra-1.0.22.jar,lib/jt-bandcombine-1.0.22.jar,lib/jt
+ -bandmerge-1.0.22.jar,lib/jt-bandselect-1.0.22.jar,lib/jt-binarize-1.0.
+ 22.jar,lib/jt-border-1.0.22.jar,lib/jt-buffer-1.0.22.jar,lib/jt-classif
+ ier-1.0.22.jar,lib/jt-colorconvert-1.0.22.jar,lib/jt-colorindexer-1.0.2
+ 2.jar,lib/jt-contour-1.4.0.jar,lib/jt-crop-1.0.22.jar,lib/jt-errordiffu
+ sion-1.0.22.jar,lib/jt-format-1.0.22.jar,lib/jt-imagefunction-1.0.22.ja
+ r,lib/jt-iterators-1.0.22.jar,lib/jt-lookup-1.0.22.jar,lib/jt-mosaic-1.
+ 0.22.jar,lib/jt-nullop-1.0.22.jar,lib/jt-orderdither-1.0.22.jar,lib/jt-
+ piecewise-1.0.22.jar,lib/jt-rangelookup-1.4.0.jar,lib/jt-rescale-1.0.22
+ .jar,lib/jt-rlookup-1.0.22.jar,lib/jt-scale-1.0.22.jar,lib/jt-stats-1.0
+ .22.jar,lib/jt-translate-1.0.22.jar,lib/jt-utilities-1.0.22.jar,lib/jt-
+ utils-1.4.0.jar,lib/jt-vectorbin-1.0.22.jar,lib/jt-vectorbinarize-1.4.0
+ .jar,lib/jt-vectorize-1.4.0.jar,lib/jt-warp-1.0.22.jar,lib/jt-zonal-1.0
+ .22.jar,lib/jt-zonalstats-1.4.0.jar,lib/jts-core-1.14.0.jar,lib/ejml-co
+ re-0.34.jar,lib/ejml-ddense-0.34.jar
+Bundle-Vendor: Argonne National Laboratory
+
+Name: bin/data/RGBTestPattern.tif
+SHA-256-Digest: P91OFf/YZYilduBOhgSHgTCsGLa+Uec8aF0qFSVk3zA=
+
+Name: bin/repast/simphony/space/gis/Car.class
+SHA-256-Digest: TdgaeN1NL26RtA/qfWVTSpjLUCk6O72CZDcDiXOdINU=
+
+Name: licenses/JAI-EXT-license.txt
+SHA-256-Digest: WNHhf/5RCaeuKWyq/K39vmp9F28LxKsB4SpomwSZ2L0=
+
+Name: lib/gt-image-19.1.jar
+SHA-256-Digest: BOtzxxmT95VUqKmK+TXBDhEGhd72Z/CVlOux6DWrCXg=
+
+Name: lib/gt-referencing-19.1.jar
+SHA-256-Digest: 9JnmBrucagdfJapWTwl+0YtXbvjVbCAEgOD8QUIGPdQ=
+
+Name: lib/jt-lookup-1.0.22.jar
+SHA-256-Digest: GMfR47ohP3AoqPxmZiJvbkbHBuSFerjeoYOX36bt5/o=
+
+Name: lib/imageio-ext-geocore-1.1.20.jar
+SHA-256-Digest: a/7xVjVhC2CEZ9eeokch5D/oB4clZYyNW7q4Qi0uLdM=
+
+Name: bin/repast/simphony/space/gis/ShapefileWriter.class
+SHA-256-Digest: Z2epu0K5Xw/nxbSZgpqPSIsNe+nE9WLJQiehfJlBQIE=
+
+Name: lib/jt-errordiffusion-1.0.22.jar
+SHA-256-Digest: NmeeEQ5tznyNmhtdO3ck2tzJJZN8b1qq8c6q0tZcabQ=
+
+Name: lib/jt-border-1.0.22.jar
+SHA-256-Digest: t5By7wlvqrGVqNgW13yNklnkbxy/eZPdK0G+Iof9LXc=
+
+Name: bin/repast/simphony/space/gis/Shed.class
+SHA-256-Digest: mAQsyPMQsL6ba82wy8gM2gJCF/14+8oGZaHyPR+Gr/E=
+
+Name: bin/repast/simphony/space/gis/DefaultGeography.class
+SHA-256-Digest: HTSzvYFh9NvX3HW1FzlPgH/PK2UMz0EXoWjHFCgPw3Q=
+
+Name: lib/jt-iterators-1.0.22.jar
+SHA-256-Digest: LtDTaFe6FyW9Y9ktWoSppL3/LrVK5ouysykC0OyhUaM=
+
+Name: bin/repast/simphony/gis/dataLoader/context.xml
+SHA-256-Digest: r5qjrAfquJM/AZivyfE7j/DBBEBno4TdBfkT/ajH4E0=
+
+Name: bin/repast/simphony/gis/engine/GISCompositeControllerActionCreator
+ .class
+SHA-256-Digest: ZoJ2zT7TGRvnL2LlufwUYpEY15eSIi9sq0sOUPHAJVM=
+
+Name: bin/repast/simphony/query/space/gis/IntersectsQuery$NoSourceInters
+ ectsPredicate.class
+SHA-256-Digest: c0nA1inzXelgOu2Vbp9zEHDEwUAJgSeqgd5LgWF3BIQ=
+
+Name: bin/repast/simphony/space/gis/GISConstants.class
+SHA-256-Digest: YQsvIp5MT/ku84nsKwYVlxfXbsoUH2C7LcXCiGCzRl4=
+
+Name: bin/repast/simphony/space/gis/FeatureAgentFactoryFinder.class
+SHA-256-Digest: zaG6o6ycdyNNoQvxeIs4ZGol3jsyeXeB7THv1wpBP10=
+
+Name: lib/jt-utilities-1.0.22.jar
+SHA-256-Digest: njsFpKjHY5spb4AcPjPjjPJvkKhFq+Ua5epzEUT5ccY=
+
+Name: lib/jt-nullop-1.0.22.jar
+SHA-256-Digest: ZQBzEHoDDJIcLTnhWqeSJ+r/ZPmgigVEjp01xwo0LMU=
+
+Name: bin/repast/simphony/query/space/gis/WithinQuery.class
+SHA-256-Digest: C+3YKtJIvmZrcDy9e5wrNgU5GO6q5GmjkT7kfrdd3qs=
+
+Name: bin/data/generated/Coverage_Float.gif
+SHA-256-Digest: dFIgs1ZNiBpsNPhsFbJKEwPQDMJaoRKZkMGoswop4Yk=
+
+Name: bin/repast/simphony/space/gis/WritableGridCoverage2D$PendingValue.
+ class
+SHA-256-Digest: lwgvMhfILpZ7PwxdFTPGSU+od9Kecn9faVW3wiFt2is=
+
+Name: lib/jt-algebra-1.0.22.jar
+SHA-256-Digest: 8M1XfAd/ZAQOIZFDiEpV2LR8kVEIzHvl2L3C75EFUK8=
+
+Name: bin/repast/simphony/gis/dataLoader/AutoBuilderTest.class
+SHA-256-Digest: 2Yo9aNpMJwiiBE4jXf2XzGmMzf8WoU3+ZM1cpXvmAz4=
+
+Name: bin/repast/simphony/gis/engine/GeographyProjectionController.class
+SHA-256-Digest: LVoLyAuAbzuORp/hqQ3M/44C3AC1VORznhLpHSdpdUU=
+
+Name: bin/repast/simphony/context/space/gis/DefaultGeographyFactory.clas
+ s
+SHA-256-Digest: SryWQ+H6pEphFzA8tFghw4ztT5h4U6AktxjvSf3iqCY=
+
+Name: licenses/repast-license.txt
+SHA-256-Digest: sgcGxHlhIfJK9mnMFOtvz0jBQxnJYR0r5EDSz4qPlYU=
+
+Name: bin/data/generated/sample_gray.tif
+SHA-256-Digest: s/QHooGPXYU4Co5FocUDqRC/2TXmh+NH1K3yOHYFFRo=
+
+Name: bin/repast/simphony/space/gis/ShapefileFeatureAgentFactory.class
+SHA-256-Digest: lJMhhUfAVCFeTizP9ukRGvbmM4SxLvhte9O7Au2Dbao=
+
+Name: bin/repast/simphony/context/space/gis/GeographyFactoryFinder.class
+SHA-256-Digest: qWKqW5rKmrR9RPSV9ni6wbBaU2far7HNojTcJKSdt5o=
+
+Name: lib/jt-zonal-1.0.22.jar
+SHA-256-Digest: x2A0o/TO4IORCzBLbAcbHfhduuvckixC+q5KHAYcTPc=
+
+Name: lib/gt-data-19.1.jar
+SHA-256-Digest: fN5Wmt1TFx2p80pHyc0/iUh05ZoXRI12L3MgdDxStEw=
+
+Name: bin/repast/simphony/gis/io/WriterTest.class
+SHA-256-Digest: IFOCH1jLnhkrns0D4idoTeAW9GwLibDC5bz1Ebe7siY=
+
+Name: lib/jt-bandmerge-1.0.22.jar
+SHA-256-Digest: xtvsh1KrwVws4Yq9RSZFdcH99ohzVjAYg0o6MxoqUxI=
+
+Name: bin/repast/simphony/space/gis/FeatureAgentFactory$ObjectClassAttri
+ buteData.class
+SHA-256-Digest: MOr7EhgN1gpLh2i6PnEJsVbBAAhdfeCYKbgz1cShbgk=
+
+Name: bin/repast/simphony/space/gis/Layer.class
+SHA-256-Digest: jlKM6kzpgEONqDAmpr4yelNcdTeECEUmx2dWY6JN6pI=
+
+Name: lib/gt-brewer-19.1.jar
+SHA-256-Digest: r9sVspLCoyI1DRMyprmXoyJDxZxf1GmG08c5hsuDl5s=
+
+Name: bin/data/RGBTestPattern.prj
+SHA-256-Digest: qqvbt0BblTifWXOwPC4UJ1OiJRDEDeeK7voqtLVh5pg=
+
+Name: bin/repast/simphony/gis/util/GeometryUtil$1.class
+SHA-256-Digest: ToPZVTvNums86w1Ff/EUSEbbiQuis/6VTNAyFfcLyEU=
+
+Name: bin/repast/simphony/gis/engine/JAIInitializer.class
+SHA-256-Digest: yu7m7yVAcQ6GBmEV4KrSCtknr5bCeMaelkvfqzDDvAs=
+
+Name: lib/jt-vectorbin-1.0.22.jar
+SHA-256-Digest: snqMH7Yiza2VKYf4XcRGovO/Lt0e0YlHI17DbZH6aYc=
+
+Name: bin/repast/simphony/query/space/gis/ContainsQuery$NoSourceContains
+ Predicate.class
+SHA-256-Digest: vGewoDQ+XLhkuZ5GAesKBR5lZohthUZlVoIqqqvijJ4=
+
+Name: bin/repast/simphony/space/gis/DefaultGeography$WithinItemVisitor.c
+ lass
+SHA-256-Digest: ZEKmiz+t9uVU2oYKSg0NKkr4Ffna5tGBuzkntjwACf0=
+
+Name: plugin_jpf.xml
+SHA-256-Digest: IZsoEZkFmGg3BeQCNvem97jCDTwbVBOh9LoZeXLFi9E=
+
+Name: bin/repast/simphony/gis/dataLoader/ShapefileAgentBuilder.class
+SHA-256-Digest: srqtbO30/IaA2IOl4EwZ6UzTSCyVd+yqnge3YXBEdIg=
+
+Name: lib/gt-opengis-19.1.jar
+SHA-256-Digest: MVMnEI3CtLWFJhBA/i+QIF0D+rwrGAsl7F0+fWPRKh4=
+
+Name: lib/gt-api-19.1.jar
+SHA-256-Digest: KEbeBtpUBP/OcdgDVTQW0/B8DIhnJW+4+cltA0J+Cv4=
+
+Name: bin/data/generated/Coverage_Short.gif
+SHA-256-Digest: XbMhpjMB/EuCOS6pXdtKzr5Prrb1hmG4+9y5VmLY3eY=
+
+Name: bin/repast/simphony/space/gis/DefaultGeography$TypePredicate.class
+SHA-256-Digest: /ggx58uz2/tS/L2jnfg2pX0bdye4WCJEWzromRdt05I=
+
+Name: bin/data/SP27GTIF.TIF
+SHA-256-Digest: 2X/fepWeta/gPZduBhwVU1a03vUk1+CWAOPuM74lIIQ=
+
+Name: lib/jt-orderdither-1.0.22.jar
+SHA-256-Digest: 3zWxT3eRUD7Dy0x99CIcnrrpLZuWaa+JJeONmLmTmd4=
+
+Name: lib/jt-binarize-1.0.22.jar
+SHA-256-Digest: EAPTBhXwI6B3EYMa9mzxEZ2HHZWAYTdjWyyyKz5LgRg=
+
+Name: lib/gt-epsg-hsql-19.1.jar
+SHA-256-Digest: vySn90O7udwaYL4mwwuKJYgQ2+XuafnHGkzQnmlj04E=
+
+Name: bin/repast/simphony/gis/xml/GeographyConverter.class
+SHA-256-Digest: r7zwBq4B7kEbnfqf8+hbCs5au5Vyh2SbIv5UFvzzeuA=
+
+Name: bin/repast/simphony/gis/xml/GeographyToXmlTests.class
+SHA-256-Digest: sdhwVdoY8sPlpT7Uj5+qTIJTQWrr9U+OPeE6dh1VaPo=
+
+Name: lib/gt-geotiff-19.1.jar
+SHA-256-Digest: YrBN0ywUFuV8mZ8oCX0cZAErwL6P6SxVFLhv+xyCJ7U=
+
+Name: lib/jts-core-1.14.0.jar
+SHA-256-Digest: JmfIC97w6Hn4x49lmubSTo0KkAbynGpOgkNFxnehsdE=
+
+Name: bin/repast/simphony/gis/freezedry/GeometryFreezeDryer.class
+SHA-256-Digest: BXr+b55qePhcIEaqgLitWdAN5i1Ma2RT/5CMzzT62AA=
+
+Name: bin/data/RGBTestPattern.tfw
+SHA-256-Digest: QCENcY9Pvy4gy1kgwYrh6P0ThyX8gOerkHuyFpJ4OmA=
+
+Name: bin/repast/simphony/gis/util/GeometryUtil$GeometryType.class
+SHA-256-Digest: K6xnoMgHm3x7w30LOCTe3jd9f2+N+BMeGMPRJ9dPT5A=
+
+Name: lib/jt-colorindexer-1.0.22.jar
+SHA-256-Digest: KahZfj2JlkOyAg0rldZL/hRKFdLC/9OO8hxNUxDND/I=
+
+Name: bin/data/generated/Coverage_Double.gif
+SHA-256-Digest: dFIgs1ZNiBpsNPhsFbJKEwPQDMJaoRKZkMGoswop4Yk=
+
+Name: lib/jt-imagefunction-1.0.22.jar
+SHA-256-Digest: mtI/qVlVvYbR6TmSqZHuKy60z1EnHioEE0ROdu5fTRQ=
+
+Name: bin/data/craterlake-imagery-30m.tif
+SHA-256-Digest: w7XwGCDIZkMWDG/e46gTiuygsM0W/2BCBAK58EGFXe4=
+
+Name: bin/repast/simphony/space/gis/valuelayer/GridCoverageReaderTests.c
+ lass
+SHA-256-Digest: 4IxPeSafkAUcKt64yfrPc16A7C2V+a8COaur2/Alnx8=
+
+Name: bin/repast/simphony/space/gis/RandomGISAdder.class
+SHA-256-Digest: pxtxqZsOEei81qxyaERgEjUDpBNr/tNV6rTY+7W2cWE=
+
+Name: bin/data/README.TXT
+SHA-256-Digest: FOYzD/ykOAto7Fdah5NQtU5KJImLZ1UsH/wn+bCYRko=
+
+Name: lib/gt-coverage-19.1.jar
+SHA-256-Digest: XAU4Qi4JSnNQ5KCR7U1b9wjWOZYqipuyxF+jiUZKC4Y=
+
+Name: bin/repast/simphony/gis/io/LoaderTest$TestAgent.class
+SHA-256-Digest: e5zRAuYxXONJXpHVSXdwl+qUQ2jRBYxURN2wKt0uG84=
+
+Name: bin/repast/simphony/gis/io/WriterTest$GisAgent.class
+SHA-256-Digest: ZvMcLbC+kxtN2g4E3xrD6GkkqK0sEpdBOKYiSbcqcGw=
+
+Name: bin/repast/simphony/space/gis/UTMFinder.class
+SHA-256-Digest: 3J85nUivbAsfzLZ0XlfxPJqs8LB0kyp9KmhKNr1No4Q=
+
+Name: bin/repast/simphony/space/gis/DefaultGeography$GeomData.class
+SHA-256-Digest: MragN98n4ybWkXkm58UaxrM93M1nrGu2UxgLnyPo7zg=
+
+Name: bin/repast/simphony/space/gis/GeographyParameters.class
+SHA-256-Digest: zbiKa5A2zFUS8HCsq8UbwaqldErHSuy/x3zSg5nPgp4=
+
+Name: bin/repast/simphony/space/gis/FeatureAgent.class
+SHA-256-Digest: ERY0q751qmMDyes7bMvs+bxPefLdb3T/QtkEoELoJS4=
+
+Name: bin/repast/simphony/gis/dataLoader/GeographyProjectionBuilder$Geog
+ raphyBuilder.class
+SHA-256-Digest: BPAtrklF83VJ1bqtTB0kwft39ayQIB5aAHIm1oQN+EI=
+
+Name: bin/repast/simphony/space/gis/GISAdder.class
+SHA-256-Digest: sMgkX+GRHimN0XYR5TooUz5V70G6uX1KNL9yjqvI2cQ=
+
+Name: bin/repast/simphony/query/space/gis/ContainsQuery.class
+SHA-256-Digest: FgJwwbzqsFqguanwQ7FwP10DnSX4VzRIonW/jMJzbVE=
+
+Name: bin/data/RGBTestPattern.pgw
+SHA-256-Digest: QCENcY9Pvy4gy1kgwYrh6P0ThyX8gOerkHuyFpJ4OmA=
+
+Name: bin/repast/simphony/context/space/gis/GeographyFactory.class
+SHA-256-Digest: gfXuI34LJvekQhdoPMwCndGA+QaN5uPu8V5I7hlwZzs=
+
+Name: lib/jt-crop-1.0.22.jar
+SHA-256-Digest: ohDNhzcclGHjNyn3avyVi1/zrpcr81nd3wkO03pZXQ0=
+
+Name: bin/data/spearfish.asc.gz
+SHA-256-Digest: qFEtlfB8Yk53/k68jF+rS7JhTWULoPqtvp67LkM5Rw4=
+
+Name: licenses/COLORBREWER_license.txt
+SHA-256-Digest: PfzS/z8dLV42KOChueuIbP1kshiHRZeuEI0NDx1gJu8=
+
+Name: lib/jt-warp-1.0.22.jar
+SHA-256-Digest: K+lzANvIfK88ITgfn6V7NxGNVoX11B0GDoM7NyPa9Ik=
+
+Name: lib/gt-shapefile-19.1.jar
+SHA-256-Digest: 8ZKfKO0JdVXmCIsnZKLcdJHOjZafKi4l5NFQh8LLy/I=
+
+Name: lib/jt-bandselect-1.0.22.jar
+SHA-256-Digest: r1mAz6MuepLWpzciYhCsWpxMZ0wp868rAD3+RIb7uwE=
+
+Name: lib/jt-classifier-1.0.22.jar
+SHA-256-Digest: fjxfcFMK62fmzOvI8VDJb+mFzC1aGBOQqbSUfjJE88E=
+
+Name: lib/jt-translate-1.0.22.jar
+SHA-256-Digest: KGPYKiVZ/ywIdC3SsbRzf98liS56Od1HcNyaZzIZW7c=
+
+Name: lib/jt-utils-1.4.0.jar
+SHA-256-Digest: 3eAcKIoZDJI8Yf5w8eq5vTEjpiX0GzgAlaK8zfE+6xw=
+
+Name: bin/repast/simphony/space/gis/WritableGridCoverage2D.class
+SHA-256-Digest: ABVzHx757g+sOb2pkJeHmrN4B/emX260hJtQXr5M37Q=
+
+Name: lib/jt-format-1.0.22.jar
+SHA-256-Digest: cbMkNR+mhhtOQV/RKwCD1klmFMlIxsQsTJOkLBEL+vo=
+
+Name: bin/repast/simphony/space/gis/FeatureAgentFactory.class
+SHA-256-Digest: OGzZU9YBOYnXImlwV0u8oV5oqKj+312e3MFsAXEpy7A=
+
+Name: lib/imageio-ext-utilities-1.1.20.jar
+SHA-256-Digest: CEaAty/EJ1eiL+ZiU4u2UzQ8UDNoLmhnIgrybSFjpfg=
+
+Name: lib/jt-buffer-1.0.22.jar
+SHA-256-Digest: s0zM1jP1Z1saWpO3eEZe9wj4c6u2WuwmbR0bB8W/Ln8=
+
+Name: bin/repast/simphony/space/gis/ShapefileLoader.class
+SHA-256-Digest: D32W0WG469od7TXKlSP+qoK7j3pQFTJ73bZpoeCzAkk=
+
+Name: bin/repast/simphony/gis/io/LoaderTest.class
+SHA-256-Digest: 7GmVIwNxgbU7IWDWFsKaa72cwM+UwL+rTeR0BL0dMZg=
+
+Name: lib/jt-stats-1.0.22.jar
+SHA-256-Digest: jzjiTdAhhfPFJVrbWyjE58lq+8GWC+d2cp1tvuacx2Y=
+
+Name: bin/data/generated/sample_gray.png
+SHA-256-Digest: 6ChEXQ+9+MCO/uNI7LWdM5L5Xsa5xpG8hV6WvjyAskU=
+
+Name: bin/repast/simphony/gis/engine/GeographyProjectionRegistryData.cla
+ ss
+SHA-256-Digest: GrJMwsntVY3pwRHEzSpTfLNNo78WmzX+42KwD5+Zj7g=
+
+Name: bin/repast/simphony/query/space/gis/GeographyWithin.class
+SHA-256-Digest: hn5HXFf8nxSAzlpZcVAoX4jBCGFGaN7NhsnLtJdHpfk=
+
+Name: lib/jt-zonalstats-1.4.0.jar
+SHA-256-Digest: mcNb0o4QFqV/k7rzz8W/5NAwstCS+FfhxMWmjCuqJq0=
+
+Name: bin/repast/simphony/space/gis/valuelayer/RepastCoverageFactoryTest
+ s.class
+SHA-256-Digest: KKnHLaQFzZOyLY44vdkS4cP9HyMKG/XdgCOyqW5tltw=
+
+Name: bin/repast/simphony/gis/util/DataUtilities.class
+SHA-256-Digest: LA5MdChA9JApjxoUJ9cOQ5+1IVtET66PnrQAH9G1CKM=
+
+Name: bin/repast/simphony/query/space/gis/AbstractGeometryQuery.class
+SHA-256-Digest: jC4YLeemmjqIkQ1PrVScScacHVgj3QyEST8FF3yziB0=
+
+Name: lib/ejml-ddense-0.34.jar
+SHA-256-Digest: rx6S3UjPwvYdB/QRTu2DgF+2Sjl5Q3hQOK6FvmidwCk=
+
+Name: lib/jt-contour-1.4.0.jar
+SHA-256-Digest: jeoIVZEbJBM3pWdXKJWeLARcF1cbISpSNCvZT259X6g=
+
+Name: bin/repast/simphony/space/gis/RepastCoverageFactory.class
+SHA-256-Digest: cB63AAVwhAFc69Atqr21e7+onwyscM21sm7BD01JVAE=
+
+Name: bin/repast/simphony/space/gis/SimpleAdder.class
+SHA-256-Digest: DhmPu3gEpImaLBmHBM7kObrotuFpP3XhJMsR++/7nJE=
+
+Name: lib/jt-colorconvert-1.0.22.jar
+SHA-256-Digest: 7Yfsi4CLsc/q1AhC3Q42X8OBL1FmRH961XHWZA9EGac=
+
+Name: lib/jt-vectorize-1.4.0.jar
+SHA-256-Digest: arfJub6A2PexKRXTvGP7GxL1fVDeQoLRNZO+M9/vJXg=
+
+Name: bin/repast/simphony/gis/util/GeometryUtil.class
+SHA-256-Digest: ksZmLM4j/I53FtkTz6/7sOkSGbgO3noTreG7k4jVO2k=
+
+Name: lib/jt-scale-1.0.22.jar
+SHA-256-Digest: kbnhGVVdyVy7Ze/XHKz1aq1B8Y18REGGHP1yDxRsaBM=
+
+Name: bin/data/generated/temperatureIndexed.gif
+SHA-256-Digest: FkjL8vofGD8ESQJUSkur9BN9NHu+7dg43UkD53pN5+E=
+
+Name: lib/jt-rlookup-1.0.22.jar
+SHA-256-Digest: Lcz1YVaXqEJj9Dge5kMiLJbWPIZFWU5El10Z1HOQ52A=
+
+Name: lib/imageio-ext-streams-1.1.20.jar
+SHA-256-Digest: Zp4aeT1tYKwurkH2Ehp63MxC4VDnw2zoCHKKHv3gSAE=
+
+Name: bin/repast/simphony/query/space/gis/WithinQuery$NoSourceWithinPred
+ icate.class
+SHA-256-Digest: vlqF3CCmHf7o54+Dlp4aiBX88kg64/LErrrLzSKK/xo=
+
+Name: bin/data/ArcGrid.asc
+SHA-256-Digest: c3Ap/eTlU3IpHT3TEwRJbCf3buDPi51Mc3/5NM5uUTY=
+
+Name: bin/repast/simphony/query/space/gis/IntersectsQuery.class
+SHA-256-Digest: uXNKO+hKcOKNICZk2Brznq+I3gP0DNJR6NvK52MtQDc=
+
+Name: lib/ejml-core-0.34.jar
+SHA-256-Digest: YeVYZo2ks8LX4VWl/3XA0xflW5X+sjAhDnP5RZ/l/z4=
+
+Name: bin/data/RGBTestPattern.png
+SHA-256-Digest: 6QwDxOFND52U5ccPDXCl9SM9G1azjRLMIJcvIr60P+0=
+
+Name: bin/repast/simphony/gis/dataLoader/GeographyProjectionBuilder.clas
+ s
+SHA-256-Digest: ZZkaefTDd2VuJ+ic6VCW3sxQFF6ZUkLNSN3+xn8r0n8=
+
+Name: lib/imageio-ext-arcgrid-1.1.20.jar
+SHA-256-Digest: oXO1IJZx/h+hRfw22/HD5VGj8jtEsVq0urC+3w9mpu8=
+
+Name: bin/repast/simphony/query/space/gis/IntersectsQuery$IntersectsPred
+ icate.class
+SHA-256-Digest: RlbsvEJAncBoWpkRR7Dm4ktVHapJakTLR9xSoq5eUcI=
+
+Name: lib/jt-mosaic-1.0.22.jar
+SHA-256-Digest: O71TQ95Q5DivyqUnvZh4wkbfcieu7VzsJO5yZ+oyjGk=
+
+Name: licenses/LGPL
+SHA-256-Digest: tnMpPSHoh+qpuXFpazPw+RQYOZAMZcg+Vgr6Rp0pG6Y=
+
+Name: lib/gt-cql-19.1.jar
+SHA-256-Digest: MOS7zYyqQ7ONezQdD/QVcfMt1wnUvr8I8A7Vq+QE8o4=
+
+Name: lib/jt-vectorbinarize-1.4.0.jar
+SHA-256-Digest: TnsMBVo6dDjkBFfzA/1+YU8nyLM1aBz3Pf3MnNgq0Os=
+
+Name: bin/repast/simphony/space/gis/House.class
+SHA-256-Digest: riE1Bwb24KR5d662T2GP57b8afXiXOLnVAkbhmTRIhE=
+
+Name: bin/repast/simphony/gis/freezedry/GeographyProjectionDryer.class
+SHA-256-Digest: QA4+nkopdesRc1z1jfwOgTJ0QHKb00t+nFPs54oZ8rI=
+
+Name: lib/gt-arcgrid-19.1.jar
+SHA-256-Digest: lUHIFZ8WB1dWbekueERHJbjPVx7JC1RF+/qYFeunSgI=
+
+Name: bin/data/RGBTestPattern.jgw
+SHA-256-Digest: QCENcY9Pvy4gy1kgwYrh6P0ThyX8gOerkHuyFpJ4OmA=
+
+Name: lib/jt-rescale-1.0.22.jar
+SHA-256-Digest: uejEOzdnHATMBOOwOFUprw5GpROnsuEYv0Xz39l8mzE=
+
+Name: bin/repast/simphony/space/gis/DefaultFeatureAgentFactory.class
+SHA-256-Digest: pqObBO2pLEhR7zmU9opuu4FKBFu/RTTxFRDQjFuWW/A=
+
+Name: bin/repast/simphony/context/space/gis/ContextGeography.class
+SHA-256-Digest: pfPcDv2/I8wSO2Cf1TDZw9+lnowKxxLxKgBGMPG86Q0=
+
+Name: lib/gt-metadata-19.1.jar
+SHA-256-Digest: g4NoOEoAfa7VlJGXo80UmVeBR8ncgSTR9J6+GCn/Q5k=
+
+Name: bin/repast/simphony/space/gis/RasterLayer.class
+SHA-256-Digest: vZfATsU3GqNYh20cVcS3B0CCPeRujawnSnJBASyayMI=
+
+Name: lib/GeographicLib-Java-1.44.jar
+SHA-256-Digest: qwucP+JGR2fQnXDG3+M5nYSlWl2PpLuiO8s0U8V+0/U=
+
+Name: bin/repast/simphony/query/space/gis/TouchesQuery$TouchesPredicate.
+ class
+SHA-256-Digest: cU3ZItyGRgozzl/cUzp/iU5beHvc+w0TvN1aXXS95Mk=
+
+Name: bin/data/generated/Coverage_Byte.gif
+SHA-256-Digest: USps9Hnfc/985CVfHRaku0Zn3IHtXT4E19ySJ86fWaw=
+
+Name: lib/jt-rangelookup-1.4.0.jar
+SHA-256-Digest: 0Z5+GdmepJ/uQ2CBasTSAfg55zqUSznZTW4X1dn1KxQ=
+
+Name: bin/repast/simphony/space/gis/GISNetworkListener.class
+SHA-256-Digest: ENi47noEygqW/2Z7AatKedYSrDjHPQvYYHdeiFPrvEs=
+
+Name: bin/data/UTM2GTIF.TIF
+SHA-256-Digest: WeVZwx4vsVYj4j4rRstH8o7WiTFuceB+x9giIz9g6gQ=
+
+Name: bin/repast/simphony/space/gis/Geography.class
+SHA-256-Digest: MDDnCgvG0ioKaFsKwDZun5US5LAjnWVTuz8p0ywjccw=
+
+Name: lib/jt-piecewise-1.0.22.jar
+SHA-256-Digest: kPtlvnwLoBgVziCVuTrkR82mrE6QP2AYVBz1DVoeIFs=
+
+Name: bin/repast/simphony/space/gis/Road.class
+SHA-256-Digest: JK69MMlPSuLzyckuTvaEWBhdDpipBH45qXJxA3dzWbQ=
+
+Name: bin/repast/simphony/query/space/gis/ContainsQuery$ContainsPredicat
+ e.class
+SHA-256-Digest: sanfsHlyNrD4FhFgSGW730+2OM91ToStXlyM98v0swU=
+
+Name: bin/data/RGBTestPattern.jpg
+SHA-256-Digest: 2f0PWmNtOsOgFn2veZUJrhONjxYEuQnNRx128rnM+AE=
+
+Name: licenses/geotools_license.txt
+SHA-256-Digest: OKvnKTSrs7YzLFnOiXU7jJwtMlwLxwB065Os1dZDZqc=
+
+Name: bin/repast/simphony/query/space/gis/WithinQuery$WithinPredicate.cl
+ ass
+SHA-256-Digest: PqaJYWMqKU60Z4+eRhXhizV6hWPWr5v74OVTUspfPXY=
+
+Name: bin/repast/simphony/space/gis/FeatureAgent$ObjectFeatureAgentAttri
+ bute.class
+SHA-256-Digest: +RTT5TFWJ3w3ygK0HVQmqI28QzEMZvw/bGhOeIqViME=
+
+Name: lib/imageio-ext-tiff-1.1.20.jar
+SHA-256-Digest: gd+YbLnOwS/DTS+qyK0mhiCLIwYb/fOD/atTi6TqVCY=
+
+Name: bin/repast/simphony/space/gis/GeographyTest.class
+SHA-256-Digest: mvuvwVnmH6OUxtEwiRvZdxqAwmhTVWowuSz6xVmxhAY=
+
+Name: bin/repast/simphony/space/gis/valuelayer/GridCoverageTests.class
+SHA-256-Digest: NME4Kdl5jloyPSO7hyct041UCCC23kPDAUUvPAcH6Ks=
+
+Name: lib/jdom2-2.0.6.jar
+SHA-256-Digest: E0XxG6YG0VYD1nQFUajCGUfAIVZAdw7GcnH+eL6pfPU=
+
+Name: lib/jt-bandcombine-1.0.22.jar
+SHA-256-Digest: hdDEFHWj5EKwDS2Eh0u+ugvlkrqF0XxfrlqLm2VF5WQ=
+
+Name: bin/repast/simphony/space/gis/FeatureAttributeAdapter.class
+SHA-256-Digest: Pa/zVMNcNv1DhARYbqWeMqrBmTB4HouRVvc2GfqvXvM=
+
+Name: lib/gt-main-19.1.jar
+SHA-256-Digest: Ve63G7K9R7Jechv+XtU+eNB1mD4i4tOXuW4fy4oUADs=
+
+Name: bin/repast/simphony/query/space/gis/TouchesQuery.class
+SHA-256-Digest: MVbDitUGESWL5MERwYtJyks1HL5W3rtOPATTcXgTAng=
+
+Name: bin/repast/simphony/space/gis/GeographyTest$PListener.class
+SHA-256-Digest: QWCGHBBNJfgESnkRtukG90txyF14Kzcal+REw92KRKk=
+

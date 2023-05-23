@@ -1,0 +1,129 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Saf core ui
+Bundle-SymbolicName: saf.core.ui
+Bundle-Version: 2.9.1
+Export-Package: bibliothek.extension.gui.dock,bibliothek.extension.gui.d
+ ock.preference,com.jgoodies.forms.builder,com.jgoodies.forms.debug,com.
+ jgoodies.forms.factories,com.jgoodies.forms.layout,com.jgoodies.forms.u
+ til,com.l2fprod.common,com.l2fprod.common.beans,com.l2fprod.common.bean
+ s.editor,com.l2fprod.common.demo,com.l2fprod.common.model,com.l2fprod.c
+ ommon.propertysheet,com.l2fprod.common.springrcp,com.l2fprod.common.swi
+ ng,com.l2fprod.common.swing.border,com.l2fprod.common.swing.icons,com.l
+ 2fprod.common.swing.plaf,com.l2fprod.common.swing.plaf.aqua,com.l2fprod
+ .common.swing.plaf.basic,com.l2fprod.common.swing.plaf.blue,com.l2fprod
+ .common.swing.plaf.metal,com.l2fprod.common.swing.plaf.misc,com.l2fprod
+ .common.swing.plaf.motif,com.l2fprod.common.swing.plaf.windows,com.l2fp
+ rod.common.swing.renderer,com.l2fprod.common.swing.tips,com.l2fprod.com
+ mon.swing.tree,com.l2fprod.common.util,com.l2fprod.common.util.converte
+ r,info.clearthought.layout,org.pietschy.wizard,org.pietschy.wizard.mode
+ ls,org.pietschy.wizard.pane,saf.core.ui,saf.core.ui.actions,saf.core.ui
+ .dock,saf.core.ui.event,saf.core.ui.help,saf.core.ui.msg,saf.core.ui.os
+ x,saf.core.ui.util,saf.v3d,saf.v3d.event,saf.v3d.grid,saf.v3d.math,saf.
+ v3d.picking,saf.v3d.render,saf.v3d.scene,saf.v3d.util
+Bundle-ClassPath: saf.core.ui.jar,saf.core.v3d.jar,lib/dockingFrames-1.0
+ .8p3a-saf.jar,lib/jgoodies-forms-1.7.1.jar,lib/jh.jar,lib/l2fprod-commo
+ n-all.jar,lib/osx.jar,lib/TableLayout.jar,lib/wizard-0.1.12.jar
+Require-Bundle: libs.ext
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: Argonne National Laboratory
+
+Name: lib/jh.jar
+SHA-256-Digest: BpXUL6RL29lQykuF2gj0qDcQV/1BrsLLgby5LYrLy3E=
+
+Name: icons/max_default.png
+SHA-256-Digest: Bwy8Jfp9W0voDo8sBsgQekuF/8SCv/ioNgLT4Gttxik=
+
+Name: licenses/table-layout-license.txt
+SHA-256-Digest: 1OuEhnQ8SwvZTx9q7AbmLC4BFQk5R9Gh9Qa5/BBkyJw=
+
+Name: icons/gohome.png
+SHA-256-Digest: owrdYULLmkx7fKcivWG7bm62HuS8ZMFjG1Gucbj9t+4=
+
+Name: licenses/forms-license.txt
+SHA-256-Digest: 8hsAcsJL5ayZ/OXaXP3HpkFefvskEy3VO8pyYxE2ZsA=
+
+Name: icons/restore_active.png
+SHA-256-Digest: 9UdBeWaKo9hzP+sfrgdkhZKLK7Q4MdR3wCHk3w1Dokw=
+
+Name: icons/min_default.gif
+SHA-256-Digest: CUwMkCLti12OBcPOPegy41MpSmGVwNhLmIKHgjMkzqU=
+
+Name: licenses/jh-license.txt
+SHA-256-Digest: PLMILbe6IWx3f7mZHagXFBmgVP+VoPiU7GGgLLkl1Nw=
+
+Name: lib/osx.jar
+SHA-256-Digest: 8PCTbtWdfBtZKpH0m1J2nTApr9/qWVOAR5SWIjk6XNs=
+
+Name: lib/jgoodies-forms-1.7.1.jar
+SHA-256-Digest: G/q5hDhsa5ThiWLaVbIF151hp5/aJjy17LZxTtzZ2i4=
+
+Name: osx_build.xml
+SHA-256-Digest: zJ29H8LxMusqHco6aa5yS/aht0jBNJXhUyz8X/lm9cM=
+
+Name: icons/min_active.png
+SHA-256-Digest: 5lOlecOb2bo1MCe8/aCa4ziuriuAjcgfuTGpCpUHPLQ=
+
+Name: licenses/lgpl-2.1.txt
+SHA-256-Digest: jDNWRxt2jYX+oUW2v0CFJ+WldfIsf55n9iaqkFAorzw=
+
+Name: icons/f.png
+SHA-256-Digest: qYi4mqKGBVWy7Kar6O1zFA5fDBXyxC6Rvj5JHNRp1Ew=
+
+Name: lib/TableLayout.jar
+SHA-256-Digest: CHCCQOxOBt3ZJzR6+SaiYfdbd/NK4rvgaZZT9TsAFCM=
+
+Name: icons/max_active.png
+SHA-256-Digest: /15PjpLVcq2EtQ6xa0+2C1m1pP7vssmBTFv6h59jgEE=
+
+Name: icons/restore_default.png
+SHA-256-Digest: U9nbnjuqlpZQZlmu3SRmHfN5WE3I5eNq3NzSjC9sJvk=
+
+Name: osx/saf/core/ui/OSXAdapter.java
+SHA-256-Digest: o7r2yCDFIAKNTXrFlzAFuDq8CRlKkevDFDi19psifLs=
+
+Name: icons/float_active.png
+SHA-256-Digest: X78kJ9GTa5pD4lFzMoQX9vy8mq2mLzN5zw+DJ0Qx9oA=
+
+Name: licenses/repast-license.txt
+SHA-256-Digest: sgcGxHlhIfJK9mnMFOtvz0jBQxnJYR0r5EDSz4qPlYU=
+
+Name: saf.core.v3d.jar
+SHA-256-Digest: 4lL66Fn0SDjPnySu0Cn8ZLgDNXZtd3KKWZJdw/m+SGs=
+
+Name: lib/l2fprod-common-all.jar
+SHA-256-Digest: 7Xq5y7lwfy2iKGPWRyouOhQX2Ug/p1tGBP49lMA6jV0=
+
+Name: icons/FolderIn.png
+SHA-256-Digest: TefZ8mT/l2j0selzL2qrf0JQctr3WDIiMDufeth5Ndg=
+
+Name: icons/f_active.png
+SHA-256-Digest: y84XQ6Q2mLqEXQlhYUEcwUQ4Ogio0d+8gqZLZSERY7I=
+
+Name: lib/dockingFrames-1.0.8p3a-saf.jar
+SHA-256-Digest: f+F8/ZTNcO9ofrED6kMe8ptSxUMLBfBFx98fvWvQrPM=
+
+Name: icons/folder_new.png
+SHA-256-Digest: /i3iIFs1+CFhDDkxiNVjwXHXqzw9tPfzyid208d4MsU=
+
+Name: licenses/apache-license.txt
+SHA-256-Digest: aOP7fd91LcDpadZGMeKQAGnw8IUO9AucxKJg2rt78rs=
+
+Name: saf.core.ui.jar
+SHA-256-Digest: NUvJmemxNMlPIVNGIJgMst6uol5NRqq6Ml7u1fiaJ70=
+
+Name: icons/dock.png
+SHA-256-Digest: eeGKNTMAES4rrFmKU7TqK/3Z6Le4mJg9OrVVvOSwr4M=
+
+Name: icons/float_default.png
+SHA-256-Digest: yIlhRr9H4uH8CgM78fPNcR9+KAgXf9cQuxc840umCH4=
+
+Name: lib/wizard-0.1.12.jar
+SHA-256-Digest: mw56YkdJxRAkPh8qMxeZzmHkOJItx7hyk9cKoJrF6i4=
+
+Name: plugin_jpf.xml
+SHA-256-Digest: zjlGt1OQShOs8dSXLi23xRnfFd55yP3J/DoAm8Isjrc=
+
+Name: icons/dock_active.png
+SHA-256-Digest: tj442QrdSDhYtKxAwBWXWzigHmjvtFCLeM4Lv/6fIKU=
+

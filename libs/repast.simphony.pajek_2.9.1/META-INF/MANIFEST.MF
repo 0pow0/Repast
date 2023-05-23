@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Repast pajek
+Bundle-SymbolicName: repast.simphony.pajek
+Bundle-Version: 2.9.1
+Require-Bundle: repast.simphony.gui,repast.simphony.data,repast.simphony
+ .core,saf.core.ui,repast.simphony.runtime,repast.simphony.data.ui
+Bundle-Vendor: Argonne National Laboratory
+Export-Package: repast.simphony.pajek
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+
+Name: bin/repast/simphony/pajek/PajekWizard.class
+SHA-256-Digest: fuCO+awRlNLhvAUu597f1RysfrRzt/ekSolmwJVblSE=
+
+Name: licenses/repast-license.txt
+SHA-256-Digest: sgcGxHlhIfJK9mnMFOtvz0jBQxnJYR0r5EDSz4qPlYU=
+
+Name: bin/repast/simphony/pajek/RunPajekModel.class
+SHA-256-Digest: FbBinqjZ9vWkA5VJC8apIG5QGDM4dQ7fumVPHCnLiBk=
+
+Name: bin/repast/simphony/pajek/license.txt
+SHA-256-Digest: a41p73Bd4QR0627KqhKTaMIHB99dyM4lEM61ihMeLtc=
+
+Name: plugin_jpf.xml
+SHA-256-Digest: DABwmlWtMnAd6UTp98l0T285EFSMuqHrEEerRMJHsFw=
+
+Name: icons/pajek.PNG
+SHA-256-Digest: E/cQRaiFVyFIP5aQVIdTTxWOcXWNVHXFcp4HCGV6r1Q=
+

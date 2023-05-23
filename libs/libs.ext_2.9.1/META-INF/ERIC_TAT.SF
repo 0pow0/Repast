@@ -1,0 +1,138 @@
+Signature-Version: 1.0
+Created-By: 11.0.12 (Eclipse Foundation)
+SHA-256-Digest-Manifest: 70ymDg2i62npjwIUVnOiLOTNcr6OCiQ2n7i+ILaTMg8=
+SHA-256-Digest-Manifest-Main-Attributes: 5IlCfInPyMxjPf1hBstSaD9Bh/kmZLF
+ aAfUYXGZNUJQ=
+
+Name: lib/gluegen-rt-natives-linux-amd64.jar
+SHA-256-Digest: 2YBSFNteuytVk5mFqgWdT7D+vpvstAmCeINJF3gMXJU=
+
+Name: lib/batik-script-1.8.jar
+SHA-256-Digest: IUIT3+iZSzrTkoA4WmLooPZcgH9j/InZ2h4/9kIfWs8=
+
+Name: lib/batik-codec-1.8.jar
+SHA-256-Digest: 22g2Y6ugteaVvTBfm2e/KDjkzNI6dLFiF+e7jKurfwA=
+
+Name: lib/jogl-all-natives-windows-i586.jar
+SHA-256-Digest: bKWgop3hDL97YZKSBmJHxl8ICApFqDL2YfrcxrxlbUY=
+
+Name: lib/batik-dom-1.8.jar
+SHA-256-Digest: Kac0s29mksvSn+t8kjfMNZh2Krj8BToW1Hc/VZnlcRk=
+
+Name: lib/gluegen-rt.jar
+SHA-256-Digest: WoY05quyUmwJu3wHF2dnzD+0kwsJVc/FtokGFbEaulg=
+
+Name: lib/jogl.README.txt
+SHA-256-Digest: YPtJu20eEngzEDP0fwAifHmXTRzhpHTL1VWvbL1CAe4=
+
+Name: lib/batik-ext-1.8.jar
+SHA-256-Digest: lBT1w2uJ8v8Fp3LpITYpzxm2gwO2vHHve8Kr1bNvtmw=
+
+Name: lib/j3dcore.jar
+SHA-256-Digest: dw4GJElQXI6PJkYZ2NPu80b5gtZzDOQH8TPsgUzmQ6s=
+
+Name: lib/batik-xml-1.8.jar
+SHA-256-Digest: RJOao/rVqYE3zVoGdXA+qjkb5MR+e+cSNCxbIY815Vk=
+
+Name: lib/gluegen-rt-natives-macosx-universal.jar
+SHA-256-Digest: 0dBfOJOT7zlNS+BS5ApHxVjmcCfbRWAJ7K6NnObNlF0=
+
+Name: lib/jogl-all-natives-linux-amd64.jar
+SHA-256-Digest: Wgsv8H3nrH0FF4uXmidFHNu3xMC3KyseipLLA2B5tG8=
+
+Name: lib/jai_imageio.jar
+SHA-256-Digest: ygRm7LDDqZYP/aU9NVF+9o+BRg7Jfe+oe/bZ0IueC+c=
+
+Name: lib/batik-swing-1.8.jar
+SHA-256-Digest: I0mVZNIYWjqflsCrEWkutPT6T121wGDryBgE1erxDTw=
+
+Name: lib/xmlgraphics-commons-2.0.jar
+SHA-256-Digest: oafXJ+qWD3uiHQMBygtJtDobnn2x2rQ1E6ypKu03b3A=
+
+Name: lib/gluegen-rt-natives-linux-i586.jar
+SHA-256-Digest: Qfri1pe7mPgC7QjilUIQde/xCzbQdsD6OCmQkEAN9BU=
+
+Name: lib/gluegen-rt-natives-windows-amd64.jar
+SHA-256-Digest: Fb1JvDkNZHaKR3QQO/SRjpKr/9VLzxwhZdCpyloStjw=
+
+Name: lib/clibwrapper_jiio.jar
+SHA-256-Digest: BjFv8qu3U5cinGyQazA9GQF3mJODdlMQM5mff0P/jN8=
+
+Name: lib/batik-anim-1.8.jar
+SHA-256-Digest: 61uiN6JXh7QFh6XoVE9mTviNuU14ApbLvJmhDdqGCTs=
+
+Name: lib/mlibwrapper_jai.jar
+SHA-256-Digest: NH9x92RfuiBijWmwhVuyy/2EFiHmrqb5n+GlSPq3Ak0=
+
+Name: lib/version.txt
+SHA-256-Digest: 2IK8Brv5A0b4gCIBH4MVDjvqy8kKaq8DE2wULhUpjIs=
+
+Name: lib/batik-extension-1.8.jar
+SHA-256-Digest: iwYzYsGQI1ihJsh9i098ARqgg2zkYj3E46nV6BNSb1w=
+
+Name: lib/batik-svggen-1.8.jar
+SHA-256-Digest: J6aer+2GXit2p5WOTSSDP+FMt2aluJv8Kh7kMO24Et0=
+
+Name: lib/batik-gvt-1.8.jar
+SHA-256-Digest: dcHaCl/dSxyXHtzMyFNW8SPiLklBz6699ewWarfSmeo=
+
+Name: lib/batik-css-1.8.jar
+SHA-256-Digest: EujomOyFiDQvQAuqxh+iBemPGMtQ6ZvFnVZM9eGzGmw=
+
+Name: lib/batik-bridge-1.8.jar
+SHA-256-Digest: S5ObvxS9l1mKBayHQHd/QEu1CTuY+RRk5WVbjSMaF54=
+
+Name: lib/jai_core.jar
+SHA-256-Digest: EeDQ1u2XPF7ZtevNzXKC/t1DocHZDQgpUrq8i4zy4s4=
+
+Name: lib/jogl-all-natives-macosx-universal.jar
+SHA-256-Digest: kkNHiBBJhzQmCsC+SXKDFgcsOR+6ulnyrrDEaVoqwpQ=
+
+Name: lib/batik-svg-dom-1.8.jar
+SHA-256-Digest: VpYw8skUQyRsiHWsa0GJT9C0NooZ870d8FeqxmwzN08=
+
+Name: lib/batik-transcoder-1.8.jar
+SHA-256-Digest: Y42cUHe/eKYpDexDl2OiMNImjx0vTwCDHacxVuivym4=
+
+Name: lib/batik-util-1.8.jar
+SHA-256-Digest: bJ1zRRjZ0CcwLQc1YBgXCIxhOI8Ju6vfTSPwq0zwmVs=
+
+Name: lib/batik-gui-util-1.8.jar
+SHA-256-Digest: s2W76PoQY9Z7g2ImYKXRVTfQRKdoQy+EL9y6517ds9E=
+
+Name: lib/j3dutils.jar
+SHA-256-Digest: CAt6kkI4N1ZpuQLusceSPhM8KyouiQPrvproACPu/uA=
+
+Name: lib/jai_codec.jar
+SHA-256-Digest: 9C5qq76w3eV0WvrX7pORj7N2YIGtzHbdFHkdXKK8dMw=
+
+Name: lib/jogl-all.jar
+SHA-256-Digest: V8lY9cLEowLxX+iepDpTh4f3gJOQMBqeZ/dmgS9yUIo=
+
+Name: lib/xml-apis-1.3.04.jar
+SHA-256-Digest: uswTknHzFG/MglZ4mIIeTRQ6tfm2nHVm0KfLNw4g9m4=
+
+Name: lib/xml-apis-ext-1.3.04.jar
+SHA-256-Digest: 8DYoxOE8XmFY+e3ni5wQF5W9bbdn3SYDRys3HG85a6U=
+
+Name: lib/gluegen-rt-natives-windows-i586.jar
+SHA-256-Digest: u0BgigC6Ff+n3LdeaG6KTiwMfwFyxpHsBUEUUE+VPps=
+
+Name: lib/vecmath.jar
+SHA-256-Digest: NOTPko5FJMg2n4ldqWX0GkBJ8jtIRH/kTPgupyBQ8MU=
+
+Name: lib/batik-parser-1.8.jar
+SHA-256-Digest: CsUQNsGcZqeEsDVZx0/S2zWV9vsh4lTQwfgmFufNCPg=
+
+Name: plugin_jpf.xml
+SHA-256-Digest: uv4PdJ1XuEXnzV6dDKh/3IaD6wDU6cAkf8JjXGnsf80=
+
+Name: lib/batik-awt-util-1.8.jar
+SHA-256-Digest: C8/OaAVNzLeS+ICaZRekegCWmaABCDurbaMjnmq7454=
+
+Name: lib/jogl-all-natives-linux-i586.jar
+SHA-256-Digest: zEjRtH+fMd9lVfA+YuLoRzu9PRSeWbt8dNPwiHt0des=
+
+Name: lib/jogl-all-natives-windows-amd64.jar
+SHA-256-Digest: ledCpBX8X2IRaJhXwLlImwlEetX7zUxVZbCVFjtP8l0=
+

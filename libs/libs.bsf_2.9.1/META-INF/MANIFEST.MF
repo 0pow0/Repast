@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Repast libs bsf
+Bundle-SymbolicName: libs.bsf
+Bundle-Version: 2.9.1
+Bundle-ClassPath: lib/bsf.jar,lib/bsh-2.0b4.jar
+Export-Package: bsh,bsh.classpath,bsh.collection,bsh.commands,bsh.org.ob
+ jectweb.asm,bsh.reflect,bsh.servlet,bsh.util,bsh.util.lib,org.apache.bs
+ f,org.apache.bsf.dbline,org.apache.bsf.debug,org.apache.bsf.debug.clien
+ tImpl,org.apache.bsf.debug.jsdi,org.apache.bsf.debug.meta,org.apache.bs
+ f.debug.serverImpl,org.apache.bsf.debug.util,org.apache.bsf.engines.jac
+ l,org.apache.bsf.engines.javascript,org.apache.bsf.engines.jython,org.a
+ pache.bsf.engines.netrexx,org.apache.bsf.engines.xslt,org.apache.bsf.ut
+ il,org.apache.bsf.util.cf,org.apache.bsf.util.event,org.apache.bsf.util
+ .event.adapters,org.apache.bsf.util.event.generator,org.apache.bsf.util
+ .type,org.apache.taglibs.bsf
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: Argonne National Laboratory
+
+Name: lib/bsf.jar
+SHA-256-Digest: u07ae/4JWNzuhOkI0VlWp92t0RzriLOeoXZK/CWAUzk=
+
+Name: licenses/lgpl-2.1.txt
+SHA-256-Digest: XfBwBxmJicYi9dQd6NcD577z0OedYuJDMu5zmkUq9io=
+
+Name: lib/bsh-2.0b4.jar
+SHA-256-Digest: kTlcB4hYOajGmG1bfFd82brPAb8SnIkUHzXo6oWEJ7Y=
+
+Name: plugin_jpf.xml
+SHA-256-Digest: lQ6fpb5VF2/D3k3QZfH5j2oK1illz/c7b+PVy291SAg=
+

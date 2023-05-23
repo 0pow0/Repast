@@ -1,0 +1,98 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Repast jung
+Bundle-SymbolicName: repast.simphony.jung
+Bundle-Version: 2.9.1
+Require-Bundle: repast.simphony.gui,repast.simphony.data,repast.simphony
+ .core,saf.core.ui,repast.simphony.runtime,repast.simphony.data.ui
+Bundle-Vendor: Argonne National Laboratory
+Export-Package: repast.simphony.jung
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+
+Name: bin/repast/simphony/jung/tablemodels/AverageWeightedDistanceTableM
+ odel$1.class
+SHA-256-Digest: udxi/6QJ5qxEEMO+e9k3gSYPFMHx4Q7V5C6QS8DkLXk=
+
+Name: bin/repast/simphony/jung/tablemodels/AverageWeightedDistanceTableM
+ odel.class
+SHA-256-Digest: 0RjX7TzhQLWP9sBSwAoP1Hx4EzW/xBruiJCSbV8gj5M=
+
+Name: bin/repast/simphony/jung/tablemodels/ClusteringCoefficientTableMod
+ el.class
+SHA-256-Digest: kWCBHRSu0TSDYTrLrIW0uZObax5rtUynSkMxun5veNU=
+
+Name: bin/repast/simphony/jung/JungWindow$3.class
+SHA-256-Digest: nhG9eWXLA3+iYzmlknSzvDdOYNBjR4ywp219b7CDVMo=
+
+Name: bin/repast/simphony/jung/statistics/RepastJungDiscreteDistribution
+ .class
+SHA-256-Digest: U+Ra2A9oHBmTz1v8CQiTG+ngPhtif26PJ1FXvciT05w=
+
+Name: bin/repast/simphony/jung/tablemodels/NodeDegreeTableModel.class
+SHA-256-Digest: SGaPJ0zbq9i/kGNaw7n+v3HzKq2PIky/r50Yau8DL7k=
+
+Name: bin/repast/simphony/jung/JungWindow$4.class
+SHA-256-Digest: OySYSYB+aUQEk3x3dPQdlwuXnu7qBygipeXAUMb/6YM=
+
+Name: bin/repast/simphony/jung/tablemodels/NodeDegreeTableModel$Type.cla
+ ss
+SHA-256-Digest: UZVjgrFgDz3F0Br8shSzoISHzfjkeYMT/etN0VH5pyM=
+
+Name: bin/repast/simphony/jung/tablemodels/DefaultTableModel.class
+SHA-256-Digest: 8tfjMeSUHHcgV0TYrDdjM7Kuv+8S0SpWrpgyoOT/Fmc=
+
+Name: bin/repast/simphony/jung/JungWindow$1.class
+SHA-256-Digest: 4ltGpgerPQkAeF0wtFAjlI8DnxC8/R8c4zUBlyZHydg=
+
+Name: bin/repast/simphony/jung/statistics/RepastJungDegreeDistributions.
+ class
+SHA-256-Digest: 9kVescwE0FwrNZ3a+PkKxj37Ufoh3+UB0gxnahgT07U=
+
+Name: bin/repast/simphony/jung/tablemodels/NullTableModel.class
+SHA-256-Digest: Ftzk9KeVO0pybQSXl4JC9/Rx930gruVetJ2uSq5EICY=
+
+Name: icons/jung.PNG
+SHA-256-Digest: Xgo5848CZOThvNWVnuJjw5p+UwrfP0p2V7FOxcpvBlw=
+
+Name: bin/repast/simphony/jung/JungWindow$2.class
+SHA-256-Digest: 2VppubA7E8T0zrns0Ztc8O8w1fZKSceY0ltgrvl0VMg=
+
+Name: licenses/repast-license.txt
+SHA-256-Digest: sgcGxHlhIfJK9mnMFOtvz0jBQxnJYR0r5EDSz4qPlYU=
+
+Name: bin/repast/simphony/jung/tablemodels/RankingTableModel.class
+SHA-256-Digest: Z/Zta1V+S/R12XI8bk5tNpiBabGq/YubAhP0noI6vug=
+
+Name: bin/repast/simphony/jung/tablemodels/DijkstraDistanceTableModel.cl
+ ass
+SHA-256-Digest: AOaIEztlqTHSKNXxstqMsra+MHb7FJbvebk9+gyullk=
+
+Name: bin/repast/simphony/jung/JungWindow.class
+SHA-256-Digest: bx08Epk4azlU9/1sOZb7aLwbGTqu9lwgZmBeqsdB0to=
+
+Name: bin/repast/simphony/jung/tablemodels/WeightedConnectivityMatrixTab
+ leModel.class
+SHA-256-Digest: 6lCeXgIOgZkNxObDzE86+27yIrCFtr4cZoq7wfLCTV0=
+
+Name: bin/repast/simphony/jung/tablemodels/ConnectivityMatrixTableModel.
+ class
+SHA-256-Digest: wy692jFLXH3l12MH2PjEvRy+NRz9XMRJlVH1f8hy+hw=
+
+Name: bin/repast/simphony/jung/tablemodels/AverageUnweightedDistanceTabl
+ eModel.class
+SHA-256-Digest: VtdVlbqt2mDRsMVGuB75vasquFE2m0fZTICK5I0nuHg=
+
+Name: plugin_jpf.xml
+SHA-256-Digest: f46MCbj6OvOyUn8qq6FwBScUlXAbXuTTLwaraiRHKpA=
+
+Name: bin/repast/simphony/jung/RunJungModel.class
+SHA-256-Digest: qKYPh0lRJDRIBBWvtyfdkbnHJ0ReRdNiy2P4g4Ef6i8=
+
+Name: bin/repast/simphony/jung/statistics/RepastJungGraphStatistics.clas
+ s
+SHA-256-Digest: rKdiT/c52IWpGHlPzfcUizwQKzdioepVVbmDbwdr8S4=
+
+Name: bin/repast/simphony/jung/tablemodels/NodeDegreeDiagonalMatrixTable
+ Model.class
+SHA-256-Digest: 6kVccaPU+JW6wL+WqNX5FKl4lx04TX3W5N8km58lu+U=
+

@@ -1,0 +1,551 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Repast batch
+Bundle-SymbolicName: repast.simphony.batch;singleton:=true
+Bundle-Version: 2.9.1
+Require-Bundle: libs.bsf,repast.simphony.dataLoader,repast.simphony.data
+ ,repast.simphony.core,repast.simphony.runtime,repast.simphony.scenario,
+ repast.simphony.eclipse,org.eclipse.ui,org.eclipse.wst.xml.core,repast.
+ simphony.gis
+Export-Package: repast.simphony.batch,repast.simphony.parameter,repast.s
+ imphony.parameter.bsf,repast.simphony.parameter.groovy,repast.simphony.
+ parameter.optimizer,repast.simphony.parameter.xml
+Bundle-Vendor: Argonne National Laboratory
+Bundle-ClassPath: lib/batch_groovy.jar,bin/
+Eclipse-LazyStart: true
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+
+Name: bin/repast/simphony/batch/BatchScheduleRunner$ScheduleLoopRunnable
+ .class
+SHA-256-Digest: jJ1zgDfAAy2Gc4HsP2dNiETsJrQrn4JWHGZn1ydQwb0=
+
+Name: bin/repast/simphony/parameter/SweeperProducer.class
+SHA-256-Digest: VzROt/UqxpKphKvLedfZAbotp0c7KtxtxJO57U5egm0=
+
+Name: plugin.xml
+SHA-256-Digest: +EevjHJNYv2r6aaUciMG4mkKVT/ks5Xau/xBDJ2dQ34=
+
+Name: bin/repast/simphony/batch/BatchTestContextCreator2.class
+SHA-256-Digest: RBfvB+CBubc63k5gKuBd81ICAs9R+nL0FcM0e8gVLeU=
+
+Name: bin/repast/simphony/parameter/OptimizedParameterTest$6.class
+SHA-256-Digest: x+9Afgom+2wghTMrbYC+Wpz30NAkIbi5U6Y0i7gvDq0=
+
+Name: bin/repast/simphony/parameter/ParameterSweeper.class
+SHA-256-Digest: SNEExyHO9XX/QeQZUbwwoSAftem8h5rPRFR6FV+cn6I=
+
+Name: bin/repast/simphony/batch/TestRunResultProducer.class
+SHA-256-Digest: gnsuvOwaeVMiWaTuGa8/bu+NfuUAHY1EU2WsOdtzx94=
+
+Name: bin/repast/simphony/parameter/optimizer/OptimizedParameterSweeper$
+ DefaultAdvanceChooser.class
+SHA-256-Digest: mZZEXzfGTz2BEKQeplYhhVp7welJ/V/OGaW3/UBM0Zk=
+
+Name: bin/repast/simphony/parameter/xml/XMLSweeperProducer.class
+SHA-256-Digest: imzWlnfyAXMyYoTiaDa1/ajRAH3Q8xxZbH3cSNs53Wg=
+
+Name: bin/repast/simphony/parameter/groovy/ParameterBuilderTest$_testNum
+ ber_closure7$_closure16.class
+SHA-256-Digest: 6lFxv8YX/0DIb0oJgaiZLc2vGq7CeG/9MB/OsVBBdGE=
+
+Name: bin/repast/simphony/parameter/optimizer/AdvancementChooser.class
+SHA-256-Digest: O5sfYoC4dw8CJs+B7hcYUU5tEe4DnCmcBLjclYAyyuA=
+
+Name: bin/repast/simphony/parameter/optimizer/OptimizedParameterSweeper$
+ 4.class
+SHA-256-Digest: fIH9AmXKUWPqyEPbKuQxEHXdLi3Xa+hqRNYwhT9cy+k=
+
+Name: bin/repast/simphony/batch/BatchRunner.class
+SHA-256-Digest: OVeoGaef/hEPjFX4JB67PCfN8W0sOwOu/bUjn9k6Cpg=
+
+Name: bin/repast/simphony/parameter/ParameterSweeperBuilder.class
+SHA-256-Digest: xihWGGZv3RnyZUU0EqzQFxedFFGOpuvpwcE86AkMUHo=
+
+Name: bin/repast/simphony/parameter/RunResultProducer.class
+SHA-256-Digest: K6izgQMpiKkfYoVdCt9yaDpKcf8XdjycI/yG/XfT9QA=
+
+Name: bin/repast/simphony/parameter/xml/OptimizedXMLSweeperProducer.clas
+ s
+SHA-256-Digest: 01ztIVX8jPueg2DLYT5Hg/qsOjQJ6Zu17VDfqsgKoJQ=
+
+Name: bin/repast/simphony/batch/BatchScenario$ActionData.class
+SHA-256-Digest: iNgww0PB2Z2avlzmQhqQ3R9Wjm9BxRCO6H4TLFcqwg0=
+
+Name: bin/repast/simphony/parameter/xml/ConstantNumberSetterCreator.clas
+ s
+SHA-256-Digest: bnI116qSrCRs00st7cQQ4TttHGu2L3bURsIjGg2FxE0=
+
+Name: bin/repast/simphony/parameter/xml/ObjectListSetterCreator.class
+SHA-256-Digest: zoHt4uZdv4llGdkuxTcpREWW7sQEXGfPsabxG3/ZbM8=
+
+Name: bin/repast/simphony/batch/TestModelInitializer.class
+SHA-256-Digest: vhQS9/m+xCZhK4rst/LxEvqG2rzD6U/HP9P56iZ+pXM=
+
+Name: bin/repast/simphony/parameter/groovy/ParameterBuilderTest$_testLis
+ t_closure8.class
+SHA-256-Digest: 2jfDdqFVfaIHz3avppccOY2XhFozwEEDyzmyM0gCmtg=
+
+Name: bin/repast/simphony/parameter/groovy/ParameterBuilderTest$_testExp
+ ectedOutputChain_closure11$_closure19$_closure20$_closure21.class
+SHA-256-Digest: ELFL0EjGG+gIh9lOrSOTXr2QAysegzBDvT6EBqpAKxA=
+
+Name: bin/repast/simphony/parameter/groovy/ParameterBuilder.class
+SHA-256-Digest: t22ypl0kdoUywGjPtiCLjgPxoOHD4nRWZdAn6ePnjc4=
+
+Name: bin/repast/simphony/parameter/ParameterTreeSweeper.class
+SHA-256-Digest: s2uA423OR3RwSmCb706VeZNALu+eZreydRflgdX3MXY=
+
+Name: bin/repast/simphony/parameter/groovy/ParameterBuilderTest$_testBad
+ Format_closure4$_closure15.class
+SHA-256-Digest: QYdRlBSVhQ0F/+5pyHNu7kSBrhXQC6pALg4SQ37v82w=
+
+Name: .project
+SHA-256-Digest: apGeFu6jJMCCploT8r4fFj3nmUEsHmOR8jkdI9Lk+xo=
+
+Name: bin/repast/simphony/parameter/bsf/params.bsh
+SHA-256-Digest: jKm3tytFkS36wo1au05zUyhDxPKOpfkLmKt7IdQcWd0=
+
+Name: bin/repast/simphony/parameter/groovy/ParameterBuilderTest$_testExp
+ ectedOutputChain_closure11$_closure19$_closure20.class
+SHA-256-Digest: 0ITxJ0aP1s7Ew7yTC9NsQ0x24WIaRT6yzfYE5CHasxU=
+
+Name: bin/repast/simphony/parameter/groovy/ParameterBuilder$_closure3.cl
+ ass
+SHA-256-Digest: PNROo0yiWAIXL13kVbCyO0joP2VM3Voy2FZOz4JAnWg=
+
+Name: bin/repast/simphony/parameter/optimizer/CoolingSchedule.class
+SHA-256-Digest: k+pMhvogisgeFrk0/4/tSE/KOulEoq4QT5ws2IkQrMw=
+
+Name: bin/test_scenario.rs/repast.dataLoader.engine.ClassNameDataLoaderA
+ ction_0.xml
+SHA-256-Digest: n+TJru3+VCp/DpVn2bXqNtARH+cEpWVwinfVb/HpzSM=
+
+Name: bin/repast/simphony/batch/BatchTestScenarioCreator4.class
+SHA-256-Digest: FLhO3fJcj48Y9JNo1ob34JMt/R/ZH+MXR1PEZPY4vdg=
+
+Name: bin/repast/simphony/parameter/OptimizedParameterTest.class
+SHA-256-Digest: 5PLhFq9iD0x2iWHNtoE8HsxbOplchecNEDVaAv8jrJ0=
+
+Name: bin/repast/simphony/parameter/groovy/CustomParameterSetter.class
+SHA-256-Digest: 8ikipS6h4p1RtN2TOXMS5akNjYM7sbzAsvBqbzl50UU=
+
+Name: bin/repast/simphony/parameter/xml/ParameterSetterCreator.class
+SHA-256-Digest: fovwvTDM+pQ+uOu69Chu5ggHT1t/EjOWJDUTyvOneAI=
+
+Name: bin/repast/simphony/batch/BatchTestAgent4.class
+SHA-256-Digest: 2ZLv+qwjBiOezCwmuAenQiRUtGU/qfRt+b94hcuT39o=
+
+Name: bin/repast/simphony/parameter/groovy/ParameterBuilderTest$_testBad
+ Format_closure4.class
+SHA-256-Digest: td8E432kYOwFyYqbp8YhGhKuLCQLUoKa/OGPRISP8Xk=
+
+Name: bin/repast/simphony/parameter/groovy/ParameterBuilderTest$_helperT
+ estSweep_closure10.class
+SHA-256-Digest: lFvMWOQebkHnwq4QTMyj1oZa2yjuzvJvfbcoEzjFJ/A=
+
+Name: bin/repast/simphony/parameter/groovy/ParameterBuilderTest$_testBad
+ Format_closure1.class
+SHA-256-Digest: nFrSNyuWYv79OAR5dS+3kIMJcz0afYIXwFdW0r9DFGw=
+
+Name: bin/repast/simphony/parameter/OptimizedParameterTest$3.class
+SHA-256-Digest: eWdiPO2No2kcr5kQ06yQMxOk1fuu4XEObxV4T21HXKg=
+
+Name: plugin_jpf.xml
+SHA-256-Digest: Qr0FlsmjulKYiORBiANRyuECF1QGVr8ubArSklNOEAI=
+
+Name: bin/repast/simphony/batch/BatchScenario.class
+SHA-256-Digest: lvQkYiR4efQ0hr3if8w72PimBrLaS+szvZuRIUl45ek=
+
+Name: bin/repast/simphony/parameter/groovy/GroovyRunnerTest.class
+SHA-256-Digest: bjYa8Oy3Ml+yDyS/I7gRybJ+ozbVuxERt1HJOAeUM/M=
+
+Name: bin/repast/simphony/parameter/groovy/ParameterBuilderTest$_testExp
+ ectedOutputChain_closure11.class
+SHA-256-Digest: 3lP4mOS9Nir9fsTX6Gu0W0NUuEMbwjWWMiauBHoDbdM=
+
+Name: bin/repast/simphony/batch/BatchTestScenarioCreator2.class
+SHA-256-Digest: Qs9Sbc8jw0Jmc2cCZDMzuOKVr+YzPYIjJ9IeA28DESE=
+
+Name: bin/test_scenario.rs/user_path.xml
+SHA-256-Digest: 8HBHKUvykm52nfMwvpzzqrbj+vIjiXSsS7Pj3gHgkms=
+
+Name: bin/repast/simphony/parameter/groovy/ParameterBuilderTest$_testExp
+ ectedOutputRuns_closure12$_closure22$_closure23.class
+SHA-256-Digest: GehrtPn0A2F7H2OedoskcrOrHoQtWa7OhIEsZltS3vU=
+
+Name: bin/repast/simphony/parameter/ListInitializerTest.class
+SHA-256-Digest: 8jDlMGgv5RidvFkRdxpAwPk49hwJAEpIeC+EEAH/amE=
+
+Name: bin/repast/simphony/parameter/optimizer/DefaultExponentialCoolingS
+ chedule.class
+SHA-256-Digest: gykBPJ2z9ZX/Xr9txid3oWeUHreqLYZZ20g4JFAl1XU=
+
+Name: bin/repast/simphony/parameter/FloatSteppedSetter.class
+SHA-256-Digest: 6o5vzTV2tea5c1TmK/+DfB1lDa1ZzyO5He2lOevEff8=
+
+Name: bin/repast/simphony/parameter/groovy/GroovyRunner$1.class
+SHA-256-Digest: aiOtOcY8MRmwsRSCJ0x2+7JIOwxk8hGGfF6ViQYiLSQ=
+
+Name: bin/repast/simphony/parameter/RunParameterSetter.class
+SHA-256-Digest: gjR+DmudKyxMlxqNv+42fNBJSMmHJ4rWHPu5rZvfO6o=
+
+Name: bin/repast/simphony/parameter/optimizer/OptimizedParameterSweeper.
+ class
+SHA-256-Digest: ianep0QByIRJVaVBhYQoX5PSpHXde5PyLuAuFwQXGK0=
+
+Name: bin/repast/simphony/parameter/OptimizedParameterTest$1.class
+SHA-256-Digest: BEVPMqL/RwtQFsWlDw3UcQwrce0JiS93c7OZhkzN2G0=
+
+Name: bin/repast/simphony/parameter/groovy/ParameterBuilder$_closure5.cl
+ ass
+SHA-256-Digest: AjvjDXlcHub6IkV3hyX+mLpTAq8J4/SDG83Ga1C0ZWE=
+
+Name: models/test_batch_params2.xml
+SHA-256-Digest: 3EGlxDKdZS+Xl/CPaF0yra5d+9rxpaX3CJlhuQSmNBs=
+
+Name: bin/repast/simphony/parameter/xml/ListSetterCreator.class
+SHA-256-Digest: CfZ2dD3PqF6Xew+7jPfNbYaG2xQyXUyMh4kvG0SaCDU=
+
+Name: bin/repast/simphony/parameter/ParameterTreeSweeper$3.class
+SHA-256-Digest: +BpN2CD7x7V6+3Z6goVpX8OYWQm2xz6ywDjNJuNu854=
+
+Name: bin/repast/simphony/parameter/groovy/ParameterBuilder$_createNumbe
+ r_closure7.class
+SHA-256-Digest: Xtst0fkxmpEWwpT9fanRUMq3lqYSUAw/H/2d37gc4j8=
+
+Name: bin/repast/simphony/parameter/xml/NumberSetterCreator.class
+SHA-256-Digest: 9RUGfEVo1ZigGgh94v1dVpcYYj6LKzlLNQDhyIGR7Co=
+
+Name: bin/repast/simphony/batch/BatchMain.class
+SHA-256-Digest: 75ARMlTl373q25VznZUDQxq2iOLUD/KmN83fywlNsTw=
+
+Name: bin/repast/simphony/batch/eclipse/NewBatchParamsFileWizard.class
+SHA-256-Digest: /GYXAYVl/wy5AwR6wOezfcQ/JoVX7mTlbyOwFr3PMIg=
+
+Name: bin/repast/simphony/batch/BatchTestAgent3.class
+SHA-256-Digest: MwnvPNyZaUla6U+yEx8IOckL+odVt5K7oc6HWMGy1t0=
+
+Name: lib/batch_groovy.jar
+SHA-256-Digest: iwHEOA4lN2ygL2KoMzgBYv9sprwNMqWYanzpnSxz5qk=
+
+Name: bin/repast/simphony/parameter/groovy/ParameterBuilderTest$_testBad
+ Format_closure5.class
+SHA-256-Digest: kwq8iAeY4dnNVap/5UoWggMEPx77KLJAWlY/YLCjRfE=
+
+Name: bin/repast/simphony/parameter/xml/ConstantObjectSetterCreator.clas
+ s
+SHA-256-Digest: WBPg9V3rOJ+jOOy1ezK7m0OVXhz9J0jdqUvLCFPa9F4=
+
+Name: bin/repast/simphony/parameter/groovy/ParameterBuilderTest$_testTre
+ e_closure9.class
+SHA-256-Digest: QFZzG9+bOPVoKXIsjLCTQUhRr4+/Dq2dgskIzQtfHMk=
+
+Name: bin/repast/simphony/parameter/xml/params_2.xml
+SHA-256-Digest: iWd0ke3QWAqYq6zqBQL3el+axsfan9UUc2xAFaeEN1U=
+
+Name: bin/repast/simphony/parameter/xml/ConstantStringSetterCreator.clas
+ s
+SHA-256-Digest: eTKWXa1aNUu+DH4iTdSMDKsXgZuGWO/bm0639AKFqVI=
+
+Name: bin/repast/simphony/batch/BatchTestAgent2.class
+SHA-256-Digest: BuzSxkEuJxqlyzQ7HJ5PwP42UY5Kzp0n6eu+BJGYlQY=
+
+Name: bin/test_scenario.rs/context.xml
+SHA-256-Digest: q5n1EWiEhioyhMbRfeibZxXh2rrHSatVwpV1hvC4w3I=
+
+Name: bin/repast/simphony/parameter/xml/AbstractNumberSetterCreator.clas
+ s
+SHA-256-Digest: SEnSoT0gcs7gkd4jPeZyATcFl22slcEVoZIgbbKqI8A=
+
+Name: bin/repast/simphony/parameter/ParameterSweeperBuilderTest.class
+SHA-256-Digest: 0r4lfqsMR0O2KryYtgP2/Zo/Sa9QM6cjCohZUUvxuVM=
+
+Name: bin/repast/simphony/batch/BatchTestScenarioCreator3.class
+SHA-256-Digest: F0NzwR2rcHP6IM2QjoWzQqvw1cYFdRySclguI33IGIo=
+
+Name: bin/repast/simphony/parameter/ParameterTreeSweeperTest.class
+SHA-256-Digest: YAtfjpEBptr0MpEahAYYR4jojK6nuSC0ZeNsevGIH4A=
+
+Name: bin/repast/simphony/parameter/xml/SetterConstants.class
+SHA-256-Digest: HSOS7bhrJJYqSn+qZmhzmOUIjfTrntvbWxy023wGD2E=
+
+Name: bin/repast/simphony/parameter/optimizer/AdvanceType.class
+SHA-256-Digest: 1wa/Vik2qujJegYGgOvccXYUAefhf8BQaimKfsTXuNE=
+
+Name: bin/repast/simphony/parameter/groovy/SinSetter.class
+SHA-256-Digest: Rv/kD9s17nfTxi57ne1oyIAPLJfjjThy72HFf+4sSeY=
+
+Name: bin/repast/simphony/parameter/optimizer/AnnealingAdvancementChoose
+ r.class
+SHA-256-Digest: dt1CjQrT/ACJKj1yXmtJ6E3Ew50Uxtc9BCjvVDzysIM=
+
+Name: icons/txt.png
+SHA-256-Digest: D76SsUD/2Dutpt4atpDqxyyO7Zvi2asgXNvQx6d17e0=
+
+Name: bin/repast/simphony/batch/BatchScenarioLoader.class
+SHA-256-Digest: ZxQoGvJ0I2shLfq96l4YVxuWG3hIxNkw0HEqtSRW3Ow=
+
+Name: bin/test_scenario.rs/scenario.xml
+SHA-256-Digest: bKomi6z7Y4YIJ2Az3saSSPbNABhUjPrziuALv7HXiw4=
+
+Name: bin/repast/simphony/parameter/groovy/ParameterBuilderTest$_testCus
+ tom_closure13.class
+SHA-256-Digest: /r+op/DMymVuxXuSDKnWsLsUbMmHL98nFGzAx0m/lBs=
+
+Name: bin/repast/simphony/batch/TestModelInitializer$1$1.class
+SHA-256-Digest: boWJhutO9GqUAOo1vHouBB67EyfSbXadWK1XG9HOxe8=
+
+Name: bin/repast/simphony/batch/test_opt_batch_params.bsh
+SHA-256-Digest: n7oN7QE0aIMqvOYLkKS67kdwf3jIc6+6+dM1U5uqGGY=
+
+Name: bin/repast/simphony/parameter/IntSteppedTest.class
+SHA-256-Digest: sL7MpReR7Lv4VffDAY+P/ATCcZ8XSH6IGXU4A96olmE=
+
+Name: .classpath
+SHA-256-Digest: wC5n6HA+yvGpAYb2I+TgtTn18mF92NQMSEpwZzH9MW4=
+
+Name: bin/repast/simphony/parameter/ParameterTreeSweeper$2.class
+SHA-256-Digest: USW7ryeJmYH/LOy5piAw6Znqx0QLge810xvn6Y3oFlY=
+
+Name: bin/repast/simphony/parameter/IntSteppedSetter.class
+SHA-256-Digest: PWEmLujKaGoFyuK5rJQTp8InA9Czeh/fKmd3l3U4bqg=
+
+Name: bin/repast/simphony/batch/BatchInit.class
+SHA-256-Digest: CtHJ21l2jKDunCJAI0lwq454K5c10R46GI3FoJ/xaEw=
+
+Name: bin/repast/simphony/batch/BatchTestContextCreator.class
+SHA-256-Digest: 5CfF3Ba5O1bms6zhWHGgrFI8w68HHzhgXIzGN3K8OZY=
+
+Name: bin/repast/simphony/parameter/groovy/ParameterBuilderTest$_testBad
+ Format_closure3.class
+SHA-256-Digest: WUIGtL15UymZRAmMgbE47TtPszqTeXWO9+GtH7kwRAM=
+
+Name: bin/repast/simphony/parameter/groovy/ParameterBuilderTest$_testBad
+ Format_closure2$_closure14.class
+SHA-256-Digest: RB1xtGlCeASEnM2kv3/wdUW/ZKAxHsBuVmUk+kybzs8=
+
+Name: bin/repast/simphony/parameter/DoubleSteppedSetter.class
+SHA-256-Digest: glqshxj0n5fv9BrKEyvND5dOn7TdsKzKbqnGKx5LHrs=
+
+Name: bin/repast/simphony/parameter/groovy/ParameterBuilder$_closure4.cl
+ ass
+SHA-256-Digest: zqYxRhvs++V195T+7cGtvlJ52fzZGK/hZzIwXou6mCM=
+
+Name: bin/repast/simphony/parameter/optimizer/OptimizableParameterSetter
+ .class
+SHA-256-Digest: UH25kTBX9zLUscJQ0AFbQB6l6b1eGBvdiZwwyshOmx0=
+
+Name: bin/repast/simphony/parameter/xml/AbstractParameterSetterCreator$M
+ apValueGetter.class
+SHA-256-Digest: gxAnLCt5B2dMcbUh2WDoTExrA2V4+1WIrmnQJnkgVvs=
+
+Name: bin/repast/simphony/batch/BatchScenarioCreator.class
+SHA-256-Digest: psMjxFHfpo3N4FtBzGy/15pUBvXmNAlWVUOBvai+FDI=
+
+Name: bin/repast/simphony/parameter/OptimizedParameterTest$2.class
+SHA-256-Digest: 3IChZ3MGhk8TwJRezkIuDngYeyHEYXRUblxCPsmbJ8s=
+
+Name: bin/repast/simphony/parameter/groovy/ParameterBuilderTest$_testTre
+ e_closure9$_closure17.class
+SHA-256-Digest: 3/rqxsGKcXXRnR1hM1w9G+V9kVlrTOcTVEy96r4VPd4=
+
+Name: bin/repast/simphony/batch/BatchClassLoader.class
+SHA-256-Digest: DlO8GS6UnHa5kSdRt+oaXKy6e9ZMZvhEx5ctr9CI4uM=
+
+Name: bin/repast/simphony/parameter/groovy/ParameterBuilder$_createList_
+ closure6.class
+SHA-256-Digest: Sw8uSoWCYcKfi49zOaa9Q0f87hB/WIrXd1iuoEXYLb4=
+
+Name: bin/repast/simphony/batch/test_opt_batch_params.xml
+SHA-256-Digest: vNz8cTjgVcElhWhT8u9rVxnqVbbNWM896a5cQybSJ/s=
+
+Name: bin/repast/simphony/batch/BatchScheduleRunner.class
+SHA-256-Digest: wGFJYHxDfzE4JQ+y4WW9cHaajvlFVqfU9k7LwiBNiKw=
+
+Name: bin/repast/simphony/batch/BatchTestScenarioCreator.class
+SHA-256-Digest: Tw4iaxCuz4lUZBGNK/Ou3HejZb74fDdcrMWZvTVsHNU=
+
+Name: bin/repast/simphony/batch/InteractivBatchRunner.class
+SHA-256-Digest: 6ZHjIf5Ak206jdDDYIRTRH+mhqKJN0lbmU342KxHx70=
+
+Name: bin/repast/simphony/parameter/xml/ConstantBooleanSetterCreator.cla
+ ss
+SHA-256-Digest: 2ZiXInukaaDbqdsFUKoYOpu99SYNUv4R+gcfgZjNysE=
+
+Name: bin/repast/simphony/parameter/LongSteppedSetter.class
+SHA-256-Digest: 774Y66DbijkqS98uW+OdWjvb8UbtGscd5Qnld1Pfryg=
+
+Name: bin/repast/simphony/parameter/groovy/ParameterBuilderTest$_testExp
+ ectedOutputRuns_closure12.class
+SHA-256-Digest: mTXp8qvEvwmAuKDMYN4jbRRe99W5Q4NKo8CBFRYJA1o=
+
+Name: bin/repast/simphony/parameter/groovy/ParameterBuilderTest$_testTre
+ e_closure9$_closure17$_closure18.class
+SHA-256-Digest: kgOJ/DcMIYdCYaDGgf9nYH9vYTcjaa0MC8PipbEIsgc=
+
+Name: bin/repast/simphony/parameter/xml/params.xml
+SHA-256-Digest: YBMXtUAYDKP7u3dQ4XvPgmpqqXxaJ57nzWJ/1r5aOPk=
+
+Name: bin/repast/simphony/parameter/xml/AbstractXMLSweeperProducer.class
+SHA-256-Digest: gQ25Dten+r5tBnX9949XyNw5FMppZYVv0wtqowIN3RY=
+
+Name: bin/repast/simphony/parameter/xml/AbstractParameterSetterCreator.c
+ lass
+SHA-256-Digest: Tuk6ovBsem2qvRBKleWo3emuKXLMHUbqLWdmFSQGPgE=
+
+Name: bin/repast/simphony/batch/BatchTestAgent.class
+SHA-256-Digest: t2U8rENzTzNYQvllY/NZWtBKCffKls6HmWge1wNDZXU=
+
+Name: bin/repast/simphony/parameter/DoubleSteppedTest.class
+SHA-256-Digest: HEAB6d397jTxuIVcxez1WNMoayVG1j7vuvZ1cM1xfrQ=
+
+Name: bin/repast/simphony/parameter/xml/AbstractNumberSetterCreator$Type
+ .class
+SHA-256-Digest: TocFO6WGjeYmB5sSyfKmabKrrIAy24/RRVT6zDgRmFI=
+
+Name: bin/repast/simphony/batch/TestModelInitializer$1.class
+SHA-256-Digest: L1/HqHmxJk+UT/QsUeBmh4IsbLzfC/DY3JC9OHNr2JQ=
+
+Name: bin/repast/simphony/parameter/ByteSteppedSetter.class
+SHA-256-Digest: 8SVrUCp+XeHVbShVB8OdwQqs0enRy4GsdbrWVBWx5lA=
+
+Name: bin/repast/simphony/parameter/groovy/ParameterBuilderTest$_testExp
+ ectedOutputChain_closure11$_closure19.class
+SHA-256-Digest: +J5pa1pep2fKu0D5FMtv1U6EKyebQjwzUgWCweKBfvw=
+
+Name: bin/test_scenario.rs/model.xml
+SHA-256-Digest: 53ZFoEuces7f0OxqMULsaDAwC+q2/0I7mYqWw4+aQq8=
+
+Name: bin/repast/simphony/batch/test_opt.properties
+SHA-256-Digest: aShWPUTHGwA5osVa3MAZy7grOxBaDWaWytApSyJb3uk=
+
+Name: bin/repast/simphony/parameter/xml/AbstractParameterSetterCreator$V
+ alueGetter.class
+SHA-256-Digest: d+d1nSb24rn9MSwhI2VUQJuCHa87lUWrVEeLp2XvXE8=
+
+Name: bin/repast/simphony/parameter/optimizer/OptimizedParameterSweeper$
+ 3.class
+SHA-256-Digest: wJxJi4rQGmrmikfLuYnTAqkOgx3V55DOdOTxBmvlOoI=
+
+Name: bin/test_scenario.rs/model.score
+SHA-256-Digest: QqsB5Ao/ytT6RNZSu2jx29j45Vuzcv3becVWm1BMuBc=
+
+Name: bin/repast/simphony/parameter/ListParameterSetter.class
+SHA-256-Digest: o9Io76j39kMv+L/4vdDOvOp8GnUoDMpn3aKucuyaebQ=
+
+Name: bin/repast/simphony/parameter/bsf/BSFTest.class
+SHA-256-Digest: K+3f4PRUGg/vRWyMOzD/Pwa+9G7snO2b2d39hLhJvNQ=
+
+Name: bin/repast/simphony/parameter/groovy/ParameterBuilderTest$_testNum
+ ber_closure7.class
+SHA-256-Digest: izc5yUPDqV28ZCwL49i9M5mjT2wcIrg6AwSAV1DthZ0=
+
+Name: bin/repast/simphony/parameter/groovy/ParameterBuilderTest.class
+SHA-256-Digest: tdRDa74yB8CYISQUazAST+ThrtO63B4e691202Q1iOE=
+
+Name: bin/repast/simphony/parameter/optimizer/OptimizedParameterSweeper$
+ 2.class
+SHA-256-Digest: d5dhGMLYay1psI2ipaOY6EEyFQ1h7taRbSKXNNdvxu4=
+
+Name: bin/repast/simphony/parameter/OptimizedParameterTest$4.class
+SHA-256-Digest: eq6fE4A62CcDHsmcrqp8HnVWxBACoVlBTDC4xYMWXHs=
+
+Name: bin/repast/simphony/batch/TestModelInitializer$2.class
+SHA-256-Digest: eRVFKAcEXZJwy+fTPCqbXqMO2kN68aVTUg2cvOOekus=
+
+Name: bin/repast/simphony/parameter/optimizer/HillClimber.class
+SHA-256-Digest: ZjXYzWtxQ6Jgn21htzrN8iVC51pe0u4kyDSiupGXpgY=
+
+Name: bin/repast/simphony/parameter/bsf/ScriptRunner.class
+SHA-256-Digest: bFrpkHTdp9JaGJpufJ7DMlny4ZC7Uh7UpWQ65ASUMKc=
+
+Name: bin/repast/simphony/batch/TestModelInitializer$2$1.class
+SHA-256-Digest: /yCQYQYKnYJHzUl7fKRZQtw+YJb6tg1OX0INGnNBx9E=
+
+Name: bin/repast/simphony/batch/test_batch_params2.xml
+SHA-256-Digest: zzegfccc87dSTlbP0vAOnG1tsALML7cNeX4OUMFhoSE=
+
+Name: bin/repast/simphony/batch/test_batch_params.xml
+SHA-256-Digest: kVrQLwsuh0QBokXlyDks57vZ5YfPCCCRKOzoOpzkkLo=
+
+Name: bin/repast/simphony/parameter/groovy/ParameterBuilderTest$_testBad
+ Format_closure2.class
+SHA-256-Digest: k2/kbYFh94pI29RfYOMM7SIWNw60yZ08/u+dpuOIC8U=
+
+Name: bin/repast/simphony/parameter/groovy/ParameterBuilderTest$_testCon
+ stant_closure6.class
+SHA-256-Digest: ff/JM38Vl0o5/ClJaB939gCSl09UP4Dnv2uMQJZ97GE=
+
+Name: bin/repast/simphony/parameter/groovy/ParameterBuilderTest$_testExp
+ ectedOutputRuns_closure12$_closure22.class
+SHA-256-Digest: EHUg8CDWI9eQpbKNCiISpmIdqN7tXtGzI95W4mDa5rk=
+
+Name: bin/repast/simphony/batch/BatchTestContextCreator4.class
+SHA-256-Digest: z3xH+iIuEruiCl6OYIoUx29bmZE/IW3GXhd8EZExP1c=
+
+Name: bin/repast/simphony/parameter/groovy/ParameterBuilder$_closure2.cl
+ ass
+SHA-256-Digest: EjepxvRt3JbMmpIUVuP3Rf3aGcfY96DxbHBYPlTRV0E=
+
+Name: bin/repast/simphony/parameter/ParameterTreeSweeper$DummyParamSette
+ r.class
+SHA-256-Digest: c7dEp4w/t7CBV8M+KTjDCjHuYVIO4PMyVRuxqXDBiEg=
+
+Name: bin/repast/simphony/parameter/OptimizedParameterTest$5.class
+SHA-256-Digest: Ef82IHj7OOgnKq4E1S+t31E47MCHi0w+roSBtJMbxFw=
+
+Name: bin/repast/simphony/parameter/optimizer/OptPropertiesParser.class
+SHA-256-Digest: /Y3CELF/SB0TKfIXQIkMeUUkjhSWKLsF7SUoDoz7jGg=
+
+Name: bin/repast/simphony/parameter/ParameterTreeSweeper$1.class
+SHA-256-Digest: 3XKBKeToC1JlwDx525PDumawZwdBPSjZUZ/3Vprtl6c=
+
+Name: bin/repast/simphony/batch/InteractivBatchRunner$ScheduleLoopRunnab
+ le.class
+SHA-256-Digest: uQ0mY85f5heQFioAEk49amtuEdzxVZ4NDGy7GaPQbjo=
+
+Name: bin/repast/simphony/parameter/groovy/ParameterBuilder$_closure1.cl
+ ass
+SHA-256-Digest: 8G2ikheeApDPZdAUwkz1JgnFEymt373c+PpuEBeIPXs=
+
+Name: bin/repast/simphony/parameter/optimizer/OptimizedParameterSweeper$
+ 1.class
+SHA-256-Digest: egevrbypi47DZkCARJQdKfYfdHzNfRUsLUvjKb9o7Eo=
+
+Name: bin/repast/simphony/parameter/xml/XMLTester.class
+SHA-256-Digest: t2HHNHB+JiB8bY0lrF/Sfxkz2VjeqBKsVawsxc/AdCo=
+
+Name: bin/repast/simphony/parameter/xml/ParameterSweepParser.class
+SHA-256-Digest: YHNF+D67lnMzSkCtN+bY9p3kao7o9Ix4xMz90idTZJU=
+
+Name: bin/repast/simphony/batch/test_batch_params2.bsh
+SHA-256-Digest: Np43071inI1NRmW5e8QkUMVXUYrbxfUUs/POh9d1Dlc=
+
+Name: bin/repast/simphony/parameter/ShortSteppedSetter.class
+SHA-256-Digest: WYR/HSnvKkS/dbedSSMsH8zjhzhR0HVLB6PEtuuXv8k=
+
+Name: bin/repast/simphony/batch/test_opt_bsh.properties
+SHA-256-Digest: JLKuAPP1R760Csv7+MfBH3yfhLukAEmqEPVCopxKIbk=
+
+Name: bin/repast/simphony/parameter/AbstractSweepParameterSetter.class
+SHA-256-Digest: KxkZRIlqW92LInGS0M54KkT4GFAYi+0NIdudzfntR1E=
+
+Name: models/batch_params.xsd
+SHA-256-Digest: pgyJ6oj9kseweLJ98URscAr+6r8UHnhvegxbAWk2tbs=
+
+Name: bin/repast/simphony/parameter/xml/AbstractParameterSetterCreator$A
+ ttributesValueGetter.class
+SHA-256-Digest: jE2p778s0i4mqsvOXksUpfPJKanUQFi90K1FB6J0YMs=
+
+Name: bin/repast/simphony/batch/BatchTestContextCreator3.class
+SHA-256-Digest: /mwvEd9muTQvCxowDqy7VsvVjeFSR+mEOY7a2voezRA=
+
+Name: bin/repast/simphony/batch/BatchTest.class
+SHA-256-Digest: kzCpSv9qL5RqVzwdkMPzDeH7OXcPaTx9rtdsZB+nfoY=
+
+Name: bin/repast/simphony/parameter/groovy/GroovyRunner.class
+SHA-256-Digest: sBXs4HiG3xIfpVSHRqVffZuYfrqHewkchwv+/3uV15w=
+
+Name: text/description.txt
+SHA-256-Digest: d5mhgyKhJqNawgMMB+IyQnSIOzBkKflSCbEIscI2x9M=
+

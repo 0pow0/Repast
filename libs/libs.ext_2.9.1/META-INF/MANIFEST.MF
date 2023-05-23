@@ -1,0 +1,252 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Repast libs ext
+Bundle-SymbolicName: libs.ext
+Bundle-Version: 2.9.1
+Bundle-ClassPath: lib/clibwrapper_jiio.jar,lib/gluegen-rt.jar,lib/jai_co
+ dec.jar,lib/jai_core.jar,lib/jai_imageio.jar,lib/mlibwrapper_jai.jar,li
+ b/batik-anim-1.8.jar,lib/batik-awt-util-1.8.jar,lib/batik-bridge-1.8.ja
+ r,lib/batik-codec-1.8.jar,lib/batik-css-1.8.jar,lib/batik-dom-1.8.jar,l
+ ib/batik-ext-1.8.jar,lib/batik-extension-1.8.jar,lib/batik-gui-util-1.8
+ .jar,lib/batik-gvt-1.8.jar,lib/batik-parser-1.8.jar,lib/batik-script-1.
+ 8.jar,lib/batik-svg-dom-1.8.jar,lib/batik-svggen-1.8.jar,lib/batik-swin
+ g-1.8.jar,lib/batik-transcoder-1.8.jar,lib/batik-util-1.8.jar,lib/batik
+ -xml-1.8.jar,lib/xml-apis-1.3.04.jar,lib/xmlgraphics-commons-2.0.jar,li
+ b/xml-apis-ext-1.3.04.jar,lib/jogl-all.jar,lib/j3dcore.jar,lib/j3dutils
+ .jar,lib/vecmath.jar
+Export-Package: com.jogamp.common,com.jogamp.common.jvm,com.jogamp.commo
+ n.net,com.jogamp.common.net.asset,com.jogamp.common.nio,com.jogamp.comm
+ on.os,com.jogamp.common.type,com.jogamp.common.util,com.jogamp.common.u
+ til.awt,com.jogamp.common.util.cache,com.jogamp.common.util.locks,com.j
+ ogamp.gluegen.runtime,com.jogamp.gluegen.runtime.opengl,com.jogamp.grap
+ h.curve,com.jogamp.graph.curve.opengl,com.jogamp.graph.curve.tess,com.j
+ ogamp.graph.font,com.jogamp.graph.geom,com.jogamp.nativewindow,com.joga
+ mp.nativewindow.awt,com.jogamp.nativewindow.egl,com.jogamp.nativewindow
+ .ios,com.jogamp.nativewindow.javafx,com.jogamp.nativewindow.macosx,com.
+ jogamp.nativewindow.swt,com.jogamp.nativewindow.util,com.jogamp.nativew
+ indow.windows,com.jogamp.nativewindow.x11,com.jogamp.newt,com.jogamp.ne
+ wt.awt,com.jogamp.newt.awt.applet,com.jogamp.newt.event,com.jogamp.newt
+ .event.awt,com.jogamp.newt.javafx,com.jogamp.newt.opengl,com.jogamp.new
+ t.opengl.util,com.jogamp.newt.opengl.util.stereo,com.jogamp.newt.swt,co
+ m.jogamp.newt.util,com.jogamp.newt.util.applet,com.jogamp.opengl,com.jo
+ gamp.opengl.awt,com.jogamp.opengl.egl,com.jogamp.opengl.fixedfunc,com.j
+ ogamp.opengl.glu,com.jogamp.opengl.glu.gl2,com.jogamp.opengl.glu.gl2es1
+ ,com.jogamp.opengl.math,com.jogamp.opengl.math.geom,com.jogamp.opengl.s
+ wt,com.jogamp.opengl.util,com.jogamp.opengl.util.av,com.jogamp.opengl.u
+ til.awt,com.jogamp.opengl.util.gl2,com.jogamp.opengl.util.glsl,com.joga
+ mp.opengl.util.glsl.fixedfunc,com.jogamp.opengl.util.glsl.sdk,com.jogam
+ p.opengl.util.packrect,com.jogamp.opengl.util.stereo,com.jogamp.opengl.
+ util.stereo.generic,com.jogamp.opengl.util.texture,com.jogamp.opengl.ut
+ il.texture.awt,com.jogamp.opengl.util.texture.spi,com.jogamp.opengl.uti
+ l.texture.spi.awt,com.sun.media.imageio.plugins.bmp,com.sun.media.image
+ io.plugins.jpeg2000,com.sun.media.imageio.plugins.pnm,com.sun.media.ima
+ geio.plugins.tiff,com.sun.media.imageio.stream,com.sun.media.imageioimp
+ l.common,com.sun.media.imageioimpl.plugins.bmp,com.sun.media.imageioimp
+ l.plugins.clib,com.sun.media.imageioimpl.plugins.gif,com.sun.media.imag
+ eioimpl.plugins.jpeg,com.sun.media.imageioimpl.plugins.jpeg2000,com.sun
+ .media.imageioimpl.plugins.png,com.sun.media.imageioimpl.plugins.pnm,co
+ m.sun.media.imageioimpl.plugins.raw,com.sun.media.imageioimpl.plugins.t
+ iff,com.sun.media.imageioimpl.plugins.wbmp,com.sun.media.imageioimpl.st
+ ream,com.sun.media.jai.codec,com.sun.media.jai.codecimpl,com.sun.media.
+ jai.codecimpl.fpx,com.sun.media.jai.codecimpl.util,com.sun.media.jai.im
+ ageioimpl,com.sun.media.jai.iterator,com.sun.media.jai.mlib,com.sun.med
+ ia.jai.operator,com.sun.media.jai.opimage,com.sun.media.jai.remote,com.
+ sun.media.jai.rmi,com.sun.media.jai.tilecodec,com.sun.media.jai.util,co
+ m.sun.media.jai.widget,com.sun.medialib.codec.g3fax,com.sun.medialib.co
+ dec.g4fax,com.sun.medialib.codec.jiio,com.sun.medialib.codec.jp2k,com.s
+ un.medialib.codec.jpeg,com.sun.medialib.codec.png,com.sun.medialib.mlib
+ ,javax.media.jai,javax.media.jai.iterator,javax.media.jai.operator,java
+ x.media.jai.registry,javax.media.jai.remote,javax.media.jai.tilecodec,j
+ avax.media.jai.util,javax.media.jai.widget,jj2000.j2k,jj2000.j2k.codest
+ ream,jj2000.j2k.codestream.reader,jj2000.j2k.codestream.writer,jj2000.j
+ 2k.decoder,jj2000.j2k.entropy,jj2000.j2k.entropy.decoder,jj2000.j2k.ent
+ ropy.encoder,jj2000.j2k.fileformat,jj2000.j2k.fileformat.reader,jj2000.
+ j2k.fileformat.writer,jj2000.j2k.image,jj2000.j2k.image.forwcomptransf,
+ jj2000.j2k.image.input,jj2000.j2k.image.invcomptransf,jj2000.j2k.io,jj2
+ 000.j2k.quantization,jj2000.j2k.quantization.dequantizer,jj2000.j2k.qua
+ ntization.quantizer,jj2000.j2k.roi,jj2000.j2k.roi.encoder,jj2000.j2k.ut
+ il,jj2000.j2k.wavelet,jj2000.j2k.wavelet.analysis,jj2000.j2k.wavelet.sy
+ nthesis,jogamp.common,jogamp.common.jvm,jogamp.common.os,jogamp.common.
+ os.elf,jogamp.common.util,jogamp.common.util.locks,jogamp.graph.curve.o
+ pengl,jogamp.graph.curve.opengl.shader,jogamp.graph.curve.tess,jogamp.g
+ raph.font,jogamp.graph.font.typecast,jogamp.graph.font.typecast.ot,joga
+ mp.graph.font.typecast.ot.mac,jogamp.graph.font.typecast.ot.table,jogam
+ p.graph.font.typecast.t2,jogamp.graph.font.typecast.tt.engine,jogamp.gr
+ aph.geom.plane,jogamp.nativewindow,jogamp.nativewindow.awt,jogamp.nativ
+ ewindow.drm,jogamp.nativewindow.ios,jogamp.nativewindow.jawt,jogamp.nat
+ ivewindow.jawt.macosx,jogamp.nativewindow.jawt.windows,jogamp.nativewin
+ dow.jawt.x11,jogamp.nativewindow.macosx,jogamp.nativewindow.windows,jog
+ amp.nativewindow.x11,jogamp.nativewindow.x11.awt,jogamp.newt,jogamp.new
+ t.awt,jogamp.newt.awt.event,jogamp.newt.driver,jogamp.newt.driver.awt,j
+ ogamp.newt.driver.bcm.vc.iv,jogamp.newt.driver.egl.gbm,jogamp.newt.driv
+ er.ios,jogamp.newt.driver.linux,jogamp.newt.driver.macosx,jogamp.newt.d
+ river.opengl,jogamp.newt.driver.windows,jogamp.newt.driver.x11,jogamp.n
+ ewt.event,jogamp.newt.javafx,jogamp.newt.swt,jogamp.newt.swt.event,joga
+ mp.opengl,jogamp.opengl.awt,jogamp.opengl.egl,jogamp.opengl.es1,jogamp.
+ opengl.es3,jogamp.opengl.gl2,jogamp.opengl.gl4,jogamp.opengl.glu,jogamp
+ .opengl.glu.error,jogamp.opengl.glu.gl2.nurbs,jogamp.opengl.glu.mipmap,
+ jogamp.opengl.glu.nurbs,jogamp.opengl.glu.registry,jogamp.opengl.glu.te
+ ssellator,jogamp.opengl.ios.eagl,jogamp.opengl.macosx.cgl,jogamp.opengl
+ .macosx.cgl.awt,jogamp.opengl.openal.av,jogamp.opengl.util,jogamp.openg
+ l.util.av,jogamp.opengl.util.av.impl,jogamp.opengl.util.glsl,jogamp.ope
+ ngl.util.glsl.fixedfunc,jogamp.opengl.util.jpeg,jogamp.opengl.util.pngj
+ ,jogamp.opengl.util.pngj.chunks,jogamp.opengl.util.stereo,jogamp.opengl
+ .windows.wgl,jogamp.opengl.windows.wgl.awt,jogamp.opengl.x11.glx,org.jo
+ gamp.java3d,org.jogamp.java3d.audioengines,org.jogamp.java3d.audioengin
+ es.javasound,org.jogamp.java3d.exp.swing,org.jogamp.java3d.exp.swing.im
+ pl,org.jogamp.java3d.internal,org.jogamp.java3d.loaders,org.jogamp.java
+ 3d.loaders.lw3d,org.jogamp.java3d.loaders.objectfile,org.jogamp.java3d.
+ utils.applet,org.jogamp.java3d.utils.audio,org.jogamp.java3d.utils.beha
+ viors.interpolators,org.jogamp.java3d.utils.behaviors.keyboard,org.joga
+ mp.java3d.utils.behaviors.mouse,org.jogamp.java3d.utils.behaviors.picki
+ ng,org.jogamp.java3d.utils.behaviors.sensor,org.jogamp.java3d.utils.beh
+ aviors.vp,org.jogamp.java3d.utils.compression,org.jogamp.java3d.utils.g
+ eometry,org.jogamp.java3d.utils.geometry.compression,org.jogamp.java3d.
+ utils.image,org.jogamp.java3d.utils.pickfast,org.jogamp.java3d.utils.pi
+ ckfast.behaviors,org.jogamp.java3d.utils.picking,org.jogamp.java3d.util
+ s.picking.behaviors,org.jogamp.java3d.utils.scenegraph.io,org.jogamp.ja
+ va3d.utils.scenegraph.io.retained,org.jogamp.java3d.utils.scenegraph.io
+ .state.org.jogamp.java3d,org.jogamp.java3d.utils.scenegraph.io.state.or
+ g.jogamp.java3d.utils.behaviors.interpolators,org.jogamp.java3d.utils.s
+ cenegraph.io.state.org.jogamp.java3d.utils.behaviors.mouse,org.jogamp.j
+ ava3d.utils.scenegraph.io.state.org.jogamp.java3d.utils.geometry,org.jo
+ gamp.java3d.utils.scenegraph.io.state.org.jogamp.java3d.utils.image,org
+ .jogamp.java3d.utils.scenegraph.io.state.org.jogamp.java3d.utils.univer
+ se,org.jogamp.java3d.utils.scenegraph.transparency,org.jogamp.java3d.ut
+ ils.shader,org.jogamp.java3d.utils.timer,org.jogamp.java3d.utils.univer
+ se,org.jogamp.vecmath,org.w3c.css.sac,org.w3c.css.sac.helpers
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: Argonne National Laboratory
+
+Name: lib/gluegen-rt-natives-linux-amd64.jar
+SHA-256-Digest: D9jUfCSL3oTPPBtObtE0/jGHqV9CHtv1T1oUOlb3wvg=
+
+Name: lib/batik-script-1.8.jar
+SHA-256-Digest: wdgQQG4K5yByBIxfPvI8jXDJ14ZWyzDXvODeXiyB/24=
+
+Name: lib/batik-codec-1.8.jar
+SHA-256-Digest: TnTJrKi3fyGZTXE0LUwx8yyyS9BfhzqhANxhlIYIzyQ=
+
+Name: lib/jogl-all-natives-windows-i586.jar
+SHA-256-Digest: rpreT4Imy5izAKiytV63+ah8v3wa8b+lnFW5eYNDxxc=
+
+Name: lib/batik-dom-1.8.jar
+SHA-256-Digest: rPTd19U3/Nh78ssd7o7KBwtTw8xbWAS9YREniMIaM8o=
+
+Name: lib/gluegen-rt.jar
+SHA-256-Digest: TUQMP3j5N7edvg9u4tnuBgTjZttaFLCeun2iJNpt/6E=
+
+Name: lib/jogl.README.txt
+SHA-256-Digest: F0mE6rO4lw5SoJZyQ+E80vOtgCvMvAelQBBNXxYjPdA=
+
+Name: lib/batik-ext-1.8.jar
+SHA-256-Digest: ViFSv6qS7DKOp4pDvLxYGiR7NNUc9LxEH7zOZ1e7Bis=
+
+Name: lib/j3dcore.jar
+SHA-256-Digest: ir71QvPkMxTExlosNb/IPtWBZdE6zMgX6AWKpdMmmNM=
+
+Name: lib/batik-xml-1.8.jar
+SHA-256-Digest: CS2p2fPzvBdDCN6hKZCgMQxQAubBomvOjMP/0bqT+cM=
+
+Name: lib/gluegen-rt-natives-macosx-universal.jar
+SHA-256-Digest: NbpMS6Mo/5lGc7rSOwjW7yHJat3oRwyuJIQZ5YV2lto=
+
+Name: lib/jogl-all-natives-linux-amd64.jar
+SHA-256-Digest: GgLQ+jRc1q941LQr+wT37yeR+3ivGWnLK6aZblRIPFw=
+
+Name: lib/jai_imageio.jar
+SHA-256-Digest: YAdo6r1j+S5LpQPZVvVAx9M4Lk4kJQWOYIebkoIjLkA=
+
+Name: lib/batik-swing-1.8.jar
+SHA-256-Digest: e4bS7RLeHaWbG0foLzeOQBsSTPqvTBQiEf90odd+BYs=
+
+Name: lib/xmlgraphics-commons-2.0.jar
+SHA-256-Digest: GpzGgpdojN9DKrhkr34cCYDi7nI54TVsc0v+OROTsVc=
+
+Name: lib/gluegen-rt-natives-linux-i586.jar
+SHA-256-Digest: l7mfLIXVNqJowyUDt6+j1vDEYZYcG79nxPqCfhw1V6g=
+
+Name: lib/gluegen-rt-natives-windows-amd64.jar
+SHA-256-Digest: FfQRHj/eYFejr07/+RBR6roUL8lxDABgISJhTZAmuKs=
+
+Name: lib/clibwrapper_jiio.jar
+SHA-256-Digest: wz1YT/6+BNLD5I7yAUbFAB5KQQUMZq1T2704H/W/0Fo=
+
+Name: lib/batik-anim-1.8.jar
+SHA-256-Digest: u6EToipoHPezcOqA+Ylz4mQyiUwKxHH2bvP8bGZMQiM=
+
+Name: lib/mlibwrapper_jai.jar
+SHA-256-Digest: SnPfczBmXJzbvyrZME1X68E59puSAKaBWTa/bKiUu+M=
+
+Name: lib/version.txt
+SHA-256-Digest: Z2giBbupoyJPrmUUYDMAleDRQdlECEnaAppge/2l3l0=
+
+Name: lib/batik-extension-1.8.jar
+SHA-256-Digest: Jt/5JBPpIfDCdzYnmakmtxJjI8mJc+IeRCu98vXj7xs=
+
+Name: lib/batik-svggen-1.8.jar
+SHA-256-Digest: FAsUUa5mKc4to3F35sHt6hJqEaxju3d/g3SnHJkEO/M=
+
+Name: lib/batik-gvt-1.8.jar
+SHA-256-Digest: 3Hkm+kZK8i0Zg9TxilekrnmjpDJXosDk005+Q2hlbHg=
+
+Name: lib/batik-css-1.8.jar
+SHA-256-Digest: C13ybFfzuk9dMhiMRoPYvmygGbkoQi7sWtTvZMf7QcE=
+
+Name: lib/batik-bridge-1.8.jar
+SHA-256-Digest: 3uN4dktlfjdjbBr5vKUrz7jnbXrw0esJYOXxVbqe2t0=
+
+Name: lib/jai_core.jar
+SHA-256-Digest: yo4Ztgn+wABGYxjaToPaPclkL6UdbRAka30xQP1f5y8=
+
+Name: lib/jogl-all-natives-macosx-universal.jar
+SHA-256-Digest: 0nhKov5V2g8OibnFHmy3jiA6xYCN/r0kTG2iqz8OJ0U=
+
+Name: lib/batik-svg-dom-1.8.jar
+SHA-256-Digest: 016jdldWu9fqVMxdCddbpzlXulhiXqNA60yAyEnZN5M=
+
+Name: lib/batik-transcoder-1.8.jar
+SHA-256-Digest: cfXVoCY6ezeUP78UaWI19tIs5uDdXIAjS980dGJkpvo=
+
+Name: lib/batik-util-1.8.jar
+SHA-256-Digest: yOpwcKHxisJHWhNj8pHi63hXhy+VAfptgzfFwuspJ20=
+
+Name: lib/batik-gui-util-1.8.jar
+SHA-256-Digest: d99Cxo68arnD6fikW1icfnbsDj2Dq51XJnkcDyAuChs=
+
+Name: lib/j3dutils.jar
+SHA-256-Digest: oYM8m+trLL4XzmIi34VlX6DtPEukb8lEvN0h8F4L+7s=
+
+Name: lib/jai_codec.jar
+SHA-256-Digest: LGrx6oFUI6CZR4F8GrLp5B5V4uS1HnpnlplaDkISRyY=
+
+Name: lib/jogl-all.jar
+SHA-256-Digest: ba+85Byas/hzm49uXeveND0rTqHdnzJctmwTZrYMtnE=
+
+Name: lib/xml-apis-1.3.04.jar
+SHA-256-Digest: 1ASqiB65xfek+1RuhOoRUGzUF6crWXLojv8X9D+fimQ=
+
+Name: lib/xml-apis-ext-1.3.04.jar
+SHA-256-Digest: 0LSIfcNNV95JB0pYr/rUOaAT0Lr/oagDT47ypeoZFkY=
+
+Name: lib/gluegen-rt-natives-windows-i586.jar
+SHA-256-Digest: 3RQwhwzQXi5gBr93EdYnXXa2XuclltsqOP2zvcaMuRg=
+
+Name: lib/vecmath.jar
+SHA-256-Digest: Cu2RCsbf55VHfH8eZ63V75gMAEVBihUVhZVfZzclkQk=
+
+Name: lib/batik-parser-1.8.jar
+SHA-256-Digest: 60ullVu48TUskfpGY4DrYXG8ZENfjqxyYVgltKy6sgc=
+
+Name: plugin_jpf.xml
+SHA-256-Digest: q8d+2cqdohW5/g7YC+t5tSheL1e7bZEkwcVWyW33LMw=
+
+Name: lib/batik-awt-util-1.8.jar
+SHA-256-Digest: vSZzoKqXjE3u9JhudhxIgG+izyQV3oY6Qk+Gp8AAkak=
+
+Name: lib/jogl-all-natives-linux-i586.jar
+SHA-256-Digest: AOsRq5xekpnZoM0hK5MBc1bFVdoJFCcW/8OCxNhBih8=
+
+Name: lib/jogl-all-natives-windows-amd64.jar
+SHA-256-Digest: bGcvGNbwo+wqKuuF0UUhcfCgMR2UCKPY4xER/0NBKZE=
+

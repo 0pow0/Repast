@@ -1,0 +1,213 @@
+Signature-Version: 1.0
+Created-By: 11.0.12 (Eclipse Foundation)
+SHA-256-Digest-Manifest: 8NStyo91wBxH4a25O578cCRne8ayxnJQuaLoMzsD0vg=
+SHA-256-Digest-Manifest-Main-Attributes: 5WqPJub84olsbTejVGnUnQFb0p4pSCv
+ TxTPaLULZ94A=
+
+Name: bin/repast/simphony/dataLoader/engine/AutoBuilderTest.class
+SHA-256-Digest: ft6TeIh9mPnam47l1eGlwcV1JhOU7S8m91qgsysmpqo=
+
+Name: bin/repast/simphony/dataLoader/DataLoaderScenarioCreatorExtension.
+ class
+SHA-256-Digest: VkY8G2nkt0i1yfCyKkpH+S8ASTs2z39BqTNxQp1SQCM=
+
+Name: bin/repast/simphony/dataLoader/engine/AutoBuilderConstants.class
+SHA-256-Digest: JnsHryjeeXYp5G3N5UXKPPrZ9N0ZpA1FaczKvwpN/D4=
+
+Name: bin/repast/simphony/dataLoader/engine/SpaceProjectionBuilder.class
+SHA-256-Digest: aL0qQn0s5EsqauQp5KLZwiq5DMQnuCrSYgOqmzqoIP4=
+
+Name: bin/repast/simphony/dataLoader/engine/CNDataLoaderActionLoader.cla
+ ss
+SHA-256-Digest: AB55dfbZn2qWjg32ip+Zs+YkTYef+nT21iN41B0fw1E=
+
+Name: bin/repast/simphony/dataLoader/engine/ContextXMLDataLoaderControll
+ erActionIO$1.class
+SHA-256-Digest: F4dBmM6nFB5tfP5rqn9BO0xzUpJPrHZqyl8fvS8ynAU=
+
+Name: bin/repast/simphony/dataLoader/engine/CNDataLoaderControllerAction
+ IO.class
+SHA-256-Digest: FucBa7Kzi33JkuQ0+DTMzvVn/ef7q0WYcr54gAXjqeA=
+
+Name: bin/repast/simphony/dataLoader/engine/MIContextXMLBuilder.class
+SHA-256-Digest: NwAa6SF63MdHy5jf0VcLDEvJgi4WFilf66ZsYAXNneM=
+
+Name: bin/repast/simphony/dataLoader/engine/ClassNameContextBuilder.clas
+ s
+SHA-256-Digest: PHT8WhEgdMdF50GHd+LwDdpdUgErVRCM1OjvEYrk7jA=
+
+Name: licenses/repast-license.txt
+SHA-256-Digest: OiLqoygTE6vasbSFEGEJChgkBjTMACDWztuXCGv4an4=
+
+Name: bin/repast/simphony/dataLoader/engine/DataLoaderProjectionRegistry
+ Data.class
+SHA-256-Digest: zUOEOD6697tvKj0hv9BBKghzam/gp2X/tHlzdUntmDw=
+
+Name: bin/data/another.qix
+SHA-256-Digest: lXml4BJtr36XyHSvGOcLZkoqr4Q0vvmG6z8lKhdC1ek=
+
+Name: bin/repast/simphony/dataLoader/engine/DFDataLoaderActionLoader.cla
+ ss
+SHA-256-Digest: Rwv10zvprcLd0VT1MmjylDPN1u3ou5x4F23tkGLIDyg=
+
+Name: bin/repast/simphony/dataLoader/engine/ClassNameDataLoaderAction.cl
+ ass
+SHA-256-Digest: 5CJ6o/qZiSyOtvheltRl/hrMZ1ATWnezrLsdM35+wIA=
+
+Name: bin/repast/simphony/dataLoader/engine/ContextBuilderFactory$AgentC
+ ontextBuilder.class
+SHA-256-Digest: VxdWAkcsr0rLTvQYoCe/cl5Fj2mLlk3QqV9M9ddOuGE=
+
+Name: bin/repast/simphony/dataLoader/engine/SpaceProjectionBuilder$CSBui
+ lder.class
+SHA-256-Digest: uO8zHV2HWVTyYTaFrFizROREifWU08AqEpmwP4pK6KM=
+
+Name: bin/repast/simphony/dataLoader/engine/ContextXMLDataLoaderControll
+ erActionIO.class
+SHA-256-Digest: 6Rx0w3akb7YChlGZJVBaygJ6x+uG8/9xMDgiUySfPqA=
+
+Name: bin/repast/simphony/dataLoader/engine/XMLDataLoaderActionLoader.cl
+ ass
+SHA-256-Digest: jbdQW4x+iJAd9uxms8/92EfzXnHOKGnR6YX1pb8cULc=
+
+Name: plugin_jpf.xml
+SHA-256-Digest: iJWPm5ZE+xdKUTJTNtYAU6sC+usqnrQBF1IMp1yVJFM=
+
+Name: bin/repast/simphony/dataLoader/engine/ContextXMLDataLoaderControll
+ erActionIO$ScoreActionLoader.class
+SHA-256-Digest: I10mG2ks73UJYmGzcu0bWMakSdRwL6DKpwaR16JCX50=
+
+Name: bin/repast/simphony/dataLoader/engine/DFDataLoaderActionSaver.clas
+ s
+SHA-256-Digest: 0o50kR6fr20OwLdl0PEiGxDUQ87/guJwYEzs+1S6oWc=
+
+Name: bin/repast/simphony/dataLoader/engine/DFDataLoaderControllerAction
+ .class
+SHA-256-Digest: xP2e7kFl2w+X3zQ0ulZh+iRGBj0jlkoDnoxauud/keY=
+
+Name: bin/repast/simphony/dataLoader/engine/ContextXMLDataLoaderAction.c
+ lass
+SHA-256-Digest: +ViGH0Wx9OEgPyVpdmqB9SVztWrQHSpnQGt5pqmfFSw=
+
+Name: bin/data/another.shx
+SHA-256-Digest: Hd6amWfmAQGuHFkEy5kJw41KXM4UJiAncrC47cU6R0Q=
+
+Name: bin/repast/simphony/dataLoader/engine/MIContextXMLDataLoaderContro
+ llerActionIO$1.class
+SHA-256-Digest: Tqv8goDVGdNHU6CXrquwN14t9D4ZUkNI+03ExPBLX4E=
+
+Name: bin/repast/simphony/dataLoader/engine/DataLoaderControllerAction.c
+ lass
+SHA-256-Digest: IRtMae4aNuuvSexXSWJQ8cj8d/zzvwZRmfcNKnF0zB4=
+
+Name: bin/repast/simphony/dataLoader/engine/context.xml
+SHA-256-Digest: scFUn1sLJVDXjcMl4duuMwiR79NJdawMOh4CsFVCOZw=
+
+Name: bin/data/another.shp
+SHA-256-Digest: vzb1u0h5N1uHIiOylWjBXc+GI9epmzLJC1/ho9TrWIc=
+
+Name: bin/repast/simphony/dataLoader/ContextCreator.class
+SHA-256-Digest: ZCrph5uFYcGvmnWoV27/avbnHxU74/g8AbRgKuE7xIU=
+
+Name: bin/repast/simphony/dataLoader/ContextBuilder.class
+SHA-256-Digest: TWDivh++Ux3Hv+HYlFgDL1y0WK2Y5hfi3aQ7M0oLVug=
+
+Name: bin/repast/simphony/dataLoader/engine/DFDataLoaderControllerAction
+ IO.class
+SHA-256-Digest: M3NFt2vDQZ1+Dcqmx6G3UK0yC0XXjymIgKolA9q9RMY=
+
+Name: bin/repast/simphony/dataLoader/engine/XMLDataLoaderAction.class
+SHA-256-Digest: puUKQ7DEoKrP8F7t6khDlWfapVs6TCzfVCA3/nc4BkI=
+
+Name: bin/repast/simphony/dataLoader/engine/DelimitedFileContextBuilder.
+ class
+SHA-256-Digest: SYQ9quwP4FgJFlk1jfZhMH27Izqvo5Vca5VAPw8c7oE=
+
+Name: bin/repast/simphony/dataLoader/engine/NetworkProjectionBuilder$Net
+ workBuilder.class
+SHA-256-Digest: C0eBY/FcoaZbGNYsMQ4rsyBRxN63A9ZXpXEGz//3n50=
+
+Name: bin/repast/simphony/dataLoader/engine/NetworkProjectionBuilder.cla
+ ss
+SHA-256-Digest: oas6nkkbMpbPrFPlX7sYHH9S4chkl+fKwZY24AbEjYU=
+
+Name: bin/data/another.dbf
+SHA-256-Digest: ewHKAKOpZyKTIHXq1I/62EYW/5Ccs9yjMR/6rXRIY58=
+
+Name: bin/data/another.prj
+SHA-256-Digest: 3QBnvTAR04fD59KbsRcsqjaLjD7Q0QxJKQWg8hkHuxs=
+
+Name: bin/repast/simphony/dataLoader/engine/XMLContextBuilder.class
+SHA-256-Digest: Etc62XCe42aq86sBGqkDgenhK66Xw7t+0katEueNlZg=
+
+Name: bin/repast/simphony/dataLoader/util/DataLoaderUtilities.class
+SHA-256-Digest: JqO5GEtLiNxgQYdnnycpu6MukwKXT5LP3eSMnOuOjqM=
+
+Name: bin/repast/simphony/dataLoader/SubContextCreator.class
+SHA-256-Digest: xcu0GfrjZmfcU+yEa/C9JBVOap91oDZHsx7CB28dE38=
+
+Name: bin/repast/simphony/dataLoader/engine/MIContextXMLDataLoaderAction
+ .class
+SHA-256-Digest: E8v0nTSYqkHuivjDFPYAwgM8Flxl5Tkrj51JCnqesZw=
+
+Name: bin/repast/simphony/dataLoader/engine/ProjectionBuilderFactory.cla
+ ss
+SHA-256-Digest: y45cgdWOkEbFGFJxdX3bN16H2g16ofrw/DBpVe8Yaco=
+
+Name: bin/repast/simphony/dataLoader/engine/MIContextXMLDataLoaderContro
+ llerActionIO.class
+SHA-256-Digest: wr9vJQtS1GAksBv3crXTsIhVm3WAvWtdvGQOlhpZ/6U=
+
+Name: bin/repast/simphony/dataLoader/engine/MIContextXMLDataLoaderContro
+ llerActionIO$ScoreActionLoader.class
+SHA-256-Digest: +IVvKdUgc85kU0aKVptpsqlN/tOhhZkhYj6zitZzmVg=
+
+Name: bin/repast/simphony/dataLoader/engine/ContextXMLBuilder.class
+SHA-256-Digest: USrBbEnl++zPE4FpdX3BWH3OD2n9SvlexZeTShuPJfA=
+
+Name: bin/repast/simphony/dataLoader/engine/CNDataLoaderActionSaver.clas
+ s
+SHA-256-Digest: F0NfH0mDYAMhss1TRr4WCM+R5nrpBSVgJcl33Ci/3zY=
+
+Name: bin/repast/simphony/dataLoader/DataLoaderScenarioCreatorExtension$
+ DLScenarioEntry.class
+SHA-256-Digest: KEYuLwC0lMCBzjrs340tts3GJD5hT0Kbj+UEVOpzUZk=
+
+Name: bin/repast/simphony/dataLoader/DLStrategyTest.class
+SHA-256-Digest: 5cYVc1qxEJ23tOE81B60pGqxPiFnwLUzzzVmdNkmwzA=
+
+Name: bin/repast/simphony/dataLoader/engine/XMLDataLoaderActionSaver.cla
+ ss
+SHA-256-Digest: 7jQgVlj3bkr3fK1CeUARltgVWUuq0CYNLrxjymHDTPQ=
+
+Name: bin/repast/simphony/dataLoader/engine/GridProjectionBuilder$GridBu
+ ilder.class
+SHA-256-Digest: cZnBxxCRMKz1d4F4SH3Gv/Ku/Vkk+DA1A8gSQ7PoRsw=
+
+Name: bin/repast/simphony/dataLoader/engine/GridProjectionBuilder.class
+SHA-256-Digest: 1QsPkdVid6nDNA7+MM9IHOrIpGtKsfyM+cSpU82dLRk=
+
+Name: bin/data/another.fix
+SHA-256-Digest: Pz3sr/iOgXH/gD3rRE8mnVSviKrkKWTDplwwJUk3vhY=
+
+Name: bin/repast/simphony/dataLoader/engine/TestAgent.class
+SHA-256-Digest: jT5Cdd8WsKEz3lmgfFt0RRGJ+Kvn4kHiuLMmxBZHDqY=
+
+Name: bin/repast/simphony/dataLoader/engine/FreezeDryedContextBuilder.cl
+ ass
+SHA-256-Digest: P5WLbb26ttXBbzRltjFVa4of8LzP5n3emw7IrOn7cX8=
+
+Name: bin/repast/simphony/dataLoader/engine/DataLoaderCompositeActionCre
+ ator.class
+SHA-256-Digest: Wp7bTjqJ75UM3ZTtrRNx8cowmLfF+fUDUSuFKpp6SHU=
+
+Name: icons/doNotDelete.txt
+SHA-256-Digest: cCBfFtBgI/QdMUOkg3QKAhlXCaKjzS18mSE8rMxPQzM=
+
+Name: bin/repast/simphony/dataLoader/engine/ContextBuilderFactory.class
+SHA-256-Digest: MXvR8nR1a+I1iVls6VxSt/d2uIotRKBwYKfK/7SqgIE=
+
+Name: bin/repast/simphony/dataLoader/engine/XMLDataLoaderControllerActio
+ nIO.class
+SHA-256-Digest: JP4W6R/lUy1yeqYaEquvW5YruTZSm45fXLYdqL8ttD0=
+

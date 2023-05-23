@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Repast spreadsheet
+Bundle-SymbolicName: repast.simphony.spreadsheet
+Bundle-Version: 2.9.1
+Require-Bundle: repast.simphony.gui,repast.simphony.data,repast.simphony
+ .core,saf.core.ui,repast.simphony.runtime,repast.simphony.plugin.util,r
+ epast.simphony.data.ui
+Bundle-Vendor: Argonne National Laboratory
+Export-Package: repast.simphony.spreadsheet
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+
+Name: licenses/repast-license.txt
+SHA-256-Digest: sgcGxHlhIfJK9mnMFOtvz0jBQxnJYR0r5EDSz4qPlYU=
+
+Name: bin/repast/simphony/spreadsheet/license.txt
+SHA-256-Digest: 47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+
+Name: bin/repast/simphony/spreadsheet/SpreadSheetWizard.class
+SHA-256-Digest: mdEw3oM/vOhaDfdLMCuRGmaHZ69WB86Zrc/PUREgRCQ=
+
+Name: plugin_jpf.xml
+SHA-256-Digest: PZzR+7GNC/92SFj/8CtoA9IItQFnUfuIJZXA3IVx0Kk=
+
+Name: bin/repast/simphony/spreadsheet/RunSpreadsheetModel.class
+SHA-256-Digest: RGbq6za4mDNVg0B19ztXEZnin4Fk0RPHB/s1cAq9qfA=
+
+Name: icons/journal.png
+SHA-256-Digest: Z1hw8CPRrAXroqWBf695kPmPEbrW4oLs9nKbxSEyB10=
+

@@ -1,0 +1,48 @@
+Signature-Version: 1.0
+Created-By: 11.0.12 (Eclipse Foundation)
+SHA-256-Digest-Manifest: 4TTzfSzEbEHRJHD99v6T1VMhGGKvuTCxD73cRDZOk3w=
+SHA-256-Digest-Manifest-Main-Attributes: lszWZunkwVz8N3INv/wMs5/Jd1AsDwh
+ 5HsCe7mF0BeE=
+
+Name: bin/repast/simphony/jasperReports/JROutputType.class
+SHA-256-Digest: CEQ5lpwpTxAlDM/pHT8u5Zo2aaTsBUh7Lv6jLRc4ONM=
+
+Name: licenses/commons-LICENSE.txt
+SHA-256-Digest: MvazmrYzYi6SrBs26+mwmkwa9vO0sD/RDG7LZ+tZMhU=
+
+Name: bin/repast/simphony/jasperReports/DefaultDataSourceFinder.class
+SHA-256-Digest: l5G8P3DDMvEWT5440jdrkhkbrxqsZJJI/1tgpHrU4Kk=
+
+Name: lib/iText-2.1.7.js2.jar
+SHA-256-Digest: EqIXVflxiprWgVyApvvKzjibkOTWD8puuxZSadMixRk=
+
+Name: licenses/repast-license.txt
+SHA-256-Digest: OiLqoygTE6vasbSFEGEJChgkBjTMACDWztuXCGv4an4=
+
+Name: lib/jasperreports-5.1.0.jar
+SHA-256-Digest: KITW8dEdRbOjQ+pda5NCyqDT5uOc6EpTIyqP0jOmqWs=
+
+Name: bin/repast/simphony/jasperReports/DataSourceFinder.class
+SHA-256-Digest: fh2kUEURILmC6w1MAUBKqiSdDTRNYex3tM3ImRfonIU=
+
+Name: lib/commons-beanutils-1.8.0.jar
+SHA-256-Digest: WPfqz0vlcRw3dHl1PHNM68gtw88ABRIrfukT6JgIqoE=
+
+Name: licenses/iText-2.1.7-LICENSE.txt
+SHA-256-Digest: uz0qsEbDb/C0+2J+POUXtlWVgl2oPDzutttJJGO+rpk=
+
+Name: bin/repast/simphony/jasperReports/JRTools.class
+SHA-256-Digest: Z2xC1oLBw7dDkE65FTRyAQTyITlw1Acv9drf3dHPeAc=
+
+Name: licenses/jasperreports-LICENSE.txt
+SHA-256-Digest: fgmXF5FUCdBweyfeOrP5JyZHvIlYxSwPZdEBO7bWszY=
+
+Name: bin/repast/simphony/jasperReports/JRTools$1.class
+SHA-256-Digest: xOezx67Rv/HfbYrudfI3PwBcy14aWnYqEu4gQxZjRpE=
+
+Name: lib/commons-digester-2.1.jar
+SHA-256-Digest: I1DoRTpWb7zuckEHHwjrQc0yJa1zH51uUUpBWbOLLI0=
+
+Name: plugin_jpf.xml
+SHA-256-Digest: 3PNEc7Utjw/9i3lKrEY8H+jmYth/1P9ydnQbTkJd2WM=
+

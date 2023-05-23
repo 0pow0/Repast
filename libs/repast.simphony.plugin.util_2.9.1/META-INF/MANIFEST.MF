@@ -1,0 +1,117 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Repast plugin ui
+Bundle-SymbolicName: repast.simphony.plugin.util
+Bundle-Version: 2.9.1
+Bundle-ClassPath: .
+Export-Package: org.jdesktop.swingx.autocomplete,repast.simphony.util.wi
+ zard
+Require-Bundle: repast.simphony.runtime,repast.simphony.scenario,saf.cor
+ e.ui,repast.simphony.core
+Bundle-Vendor: Argonne National Laboratory
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: repast.simphony.ui.plugin.editor
+
+Name: bin/repast/simphony/util/wizard/ChooseOptionStep$2.class
+SHA-256-Digest: yzA7/zyv4rHIr9NvOE47OWmKR/NNpd5ke5j53ILZ+24=
+
+Name: bin/org/jdesktop/swingx/autocomplete/AutoCompleteDecorator$4.class
+SHA-256-Digest: rNVZlMbKWRchLc+Y0OV5KgYaQksCfbMZtgtm1O5rL9s=
+
+Name: bin/repast/simphony/util/wizard/WizardModelFactory.class
+SHA-256-Digest: uYq0oHYBbcRFxHWVeXmxrRpV2cHsA54jolO7CNfBlfg=
+
+Name: bin/org/jdesktop/swingx/autocomplete/AutoCompleteDecorator$2.class
+SHA-256-Digest: uC2po02sNHMyG8oDbLC5UAmVdLdAMDr0sO6iWo1lkIM=
+
+Name: bin/repast/simphony/util/wizard/CompleteHandlerWizardStep$2.class
+SHA-256-Digest: RxCXSSLvFDEUK3UppR9DTJdmIJec3iFHL138ASTyPCg=
+
+Name: bin/repast/simphony/util/wizard/WizardOption.class
+SHA-256-Digest: y/wLH7Z++tfUfNv2t2yU6tyyYItOyPQuu8WDAHqGaJ8=
+
+Name: bin/repast/simphony/util/wizard/DynamicWizard.class
+SHA-256-Digest: vQXStbSLIbGLbwb+1ocl19eNB6X7NpoaVNScwNk3yio=
+
+Name: bin/org/jdesktop/swingx/autocomplete/ListAdaptor.class
+SHA-256-Digest: Hp/Z3WE7Hu5nJIk9eJN29cqHzlBgTBo6Fhggqq84/4I=
+
+Name: bin/repast/simphony/util/wizard/DefaultFinishStep.class
+SHA-256-Digest: VRoPa19B2jQ/gnq/wjPc4ewZYJuB3qKE5ARWAOe2Q9M=
+
+Name: bin/repast/simphony/util/wizard/AbstractWizardOption.class
+SHA-256-Digest: YEgZLBActMXmEFmcnzVoaXVtUc9QI/7KguT07jOYg8E=
+
+Name: bin/repast/simphony/util/wizard/WizardPluginUtil.class
+SHA-256-Digest: rZGSBYtg7HYyODXR9/jCT4KJKiVtr4W9Cm9qdy47OrA=
+
+Name: bin/org/jdesktop/swingx/autocomplete/AutoCompleteDecorator.class
+SHA-256-Digest: mLqS6czrRYUO4HOQDySgKIyv93LR8cuTGK/KbXfk4XM=
+
+Name: licenses/wizard-license.txt
+SHA-256-Digest: 8Pg3xT49m8l+41okluCavzTrJiN96VrWYA+uDF7UOBA=
+
+Name: bin/repast/simphony/util/wizard/CompleteHandlerWizardStep.class
+SHA-256-Digest: SbXAOqv3tqKj+fRvaFkgFjdzDvqHXVvoOJAtqqCRJUw=
+
+Name: bin/org/jdesktop/swingx/autocomplete/ComboBoxCellEditor.class
+SHA-256-Digest: dXS4rPwivuPzHjfMDGerH+LdUszU7Vz1sJF36Gl/HhM=
+
+Name: licenses/repast-license.txt
+SHA-256-Digest: sgcGxHlhIfJK9mnMFOtvz0jBQxnJYR0r5EDSz4qPlYU=
+
+Name: bin/org/jdesktop/swingx/autocomplete/ComboBoxAdaptor.class
+SHA-256-Digest: 1PhLutRICzzaNcMndV4V/xuoczBHcZLFZnsffH7NaDY=
+
+Name: bin/org/jdesktop/swingx/autocomplete/AutoCompleteDecorator$NonStri
+ ctBackspaceAction.class
+SHA-256-Digest: UjChvcaQ/ZhrEsa3ACrqRP4gx0xr5NZPeeZ1DJIzNTA=
+
+Name: bin/repast/simphony/util/wizard/ChooseOptionStep$3.class
+SHA-256-Digest: cYq51H27ofTCV4JaONOuQJKNjnnlUh75wZPKAkTuBKg=
+
+Name: bin/org/jdesktop/swingx/autocomplete/ComboBoxCellEditor$Handler.cl
+ ass
+SHA-256-Digest: lVIafVhEj/XanrV+BZaSDPUMjX7NjxdS4UmFs1urf5A=
+
+Name: bin/repast/simphony/util/wizard/ChooseOptionStep.class
+SHA-256-Digest: 4ghaa5+NPwPpT6sRkeoApt0oT+TA9XOJRFuCUmfgzHM=
+
+Name: bin/repast/simphony/util/wizard/ChooseOptionStep$1.class
+SHA-256-Digest: L5+G7Yc1X1oovQmcX1EehNMexa941fdbRaxwfYmIy90=
+
+Name: bin/org/jdesktop/swingx/autocomplete/AutoCompleteDecorator$1.class
+SHA-256-Digest: xAfnKZSg6QmZj9hJmvI0k09fscTqRJyHc2p28CJtfq4=
+
+Name: bin/repast/simphony/util/wizard/CompleteHandlerWizardStep$1.class
+SHA-256-Digest: KgBPRj0tKnUk/ORXXsi/DOUG/qkKMLl6Yy1YIx9w+j0=
+
+Name: bin/repast/simphony/util/wizard/DynamicWizardModel.class
+SHA-256-Digest: /UO35ZV4bBj+n0o+4fyT3GHyLtG7qDC9bUjqoXVL4Jo=
+
+Name: bin/repast/simphony/util/wizard/ModelAwarePanelStep.class
+SHA-256-Digest: RLua0rZsPhhPXKkJ+Bxf6LBuIQPSiTuNZ0Lg4fUKvek=
+
+Name: bin/org/jdesktop/swingx/autocomplete/AbstractAutoCompleteAdaptor.c
+ lass
+SHA-256-Digest: Spt2V4rYabMB992/PSQABLZvgnR19Q1GdFIgNFFA5xA=
+
+Name: bin/repast/simphony/util/wizard/DynamicWizardModelFactory.class
+SHA-256-Digest: IQIoA2+Csw0NwAj/h0q3X026zrCH3hfp5o2o3jFPzoU=
+
+Name: plugin_jpf.xml
+SHA-256-Digest: a20/2uJ+VKwaIDxkJ3W8Rw0MypacqAHjpx5+D8u0gAI=
+
+Name: bin/org/jdesktop/swingx/autocomplete/AutoCompleteDecorator$3.class
+SHA-256-Digest: 8cL+G6SWnT97+abZmfmS6k+r1bvPcVWewKu7YSwEcx4=
+
+Name: bin/org/jdesktop/swingx/autocomplete/package.html
+SHA-256-Digest: PQ+lWk0fynKdPTWAt7dVkvDc1SMUz5xEqOGBDgw1U1I=
+
+Name: bin/repast/simphony/util/wizard/DynamicWizard$SelectedCondition.cl
+ ass
+SHA-256-Digest: N/xBkbPd5bm5t6Z2z6eLei6vemMeOAmK9L5cYTs4OMI=
+
+Name: bin/org/jdesktop/swingx/autocomplete/AutoCompleteDocument.class
+SHA-256-Digest: 8QNP2L36MXsrCo8axQeQfy/zUElATYusvSqEI3210p0=
+

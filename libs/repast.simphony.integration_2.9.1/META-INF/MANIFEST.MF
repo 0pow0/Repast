@@ -1,0 +1,395 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Repast integration
+Bundle-SymbolicName: repast.simphony.integration;singleton:=true
+Bundle-Version: 2.9.1
+Bundle-ClassPath: bin/,lib/cglib-nodep-2.1_3.jar,lib/commons-exec-1.1.ja
+ r,lib/jaxen-1.1.6.jar,lib/commons-jxpath-1.3.jar,lib/jdom-1.1.3.jar
+Bundle-Vendor: Argonne National Laboratory
+Export-Package: repast.simphony.integration
+Require-Bundle: org.eclipse.core.runtime,repast.simphony.core;resolution
+ :=optional,repast.simphony.runtime;resolution:=optional,repast.simphony
+ .eclipse,org.eclipse.ui,org.eclipse.wst.xml.core
+Eclipse-LazyStart: true
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+
+Name: plugin.xml
+SHA-256-Digest: hMnX9sz4R6HQHUx4L2GL2LCtxW4fOlcfEntWd6Du8us=
+
+Name: bin/repast/simphony/integration/ArrayDataTypeHandler$IntHandler.cl
+ ass
+SHA-256-Digest: UZAwP82mHzrqJcPOVVTermbHdqj8NojyrRHAVoeLvhM=
+
+Name: bin/repast/simphony/integration/DataFileElementWriter$1.class
+SHA-256-Digest: o6Rl2g9uxO0x2/4Y3xOpstms71zxVN9wuK8NuSO3eyc=
+
+Name: bin/repast/simphony/integration/DataFileUtilsTest.class
+SHA-256-Digest: YUODH3bqIA/odJyRPrwHILVKqt07G3WXerL2XH1ogno=
+
+Name: bin/repast/simphony/integration/JDOMQueryerTest.class
+SHA-256-Digest: QU5xxB8q1avDve5iJ9iO27Gu9LPP7V6bzuSQBDoyhTM=
+
+Name: bin/repast/simphony/integration/DOMTraverser.class
+SHA-256-Digest: Mtk/jMPg6LxBwJw9cOfEa9nsTdAudZ64jPmSQH4TMsU=
+
+Name: bin/repast/simphony/integration/EscapeConverter$1.class
+SHA-256-Digest: 1ekdtb9iMYo9GTJ9yD4dWUptYFxuD7hF0y60yQfMrQ4=
+
+Name: bin/repast/simphony/integration/ArrayDataTypeHandler.class
+SHA-256-Digest: T0vry/gmsffsX9Jb0Zs3jdU8YqC8MDl99Ro2klFHNrY=
+
+Name: bin/repast/simphony/integration/BeanQueryerTest.class
+SHA-256-Digest: W3STKrIVXOkrPgMLv+Z/nLwixw4wPsNfboKYMA5RiPY=
+
+Name: bin/repast/simphony/integration/DataFileElements$FILE_DEF_ATTRS.cl
+ ass
+SHA-256-Digest: cqiOfMRHumUJOfP2OZ0powIBz5Mipgj2xc7TNBwp6AM=
+
+Name: bin/repast/simphony/integration/LegacyExecutor.class
+SHA-256-Digest: K7qvl4ObJiBX9FwwpKqm0lEJR1ILbcbQ9KsGb8XtnYE=
+
+Name: bin/repast/simphony/integration/eclipse/NewDataDescriptorFileWizar
+ d.class
+SHA-256-Digest: L4b9ZhVlTNrR7V7MlNkljqYVhNRoRsEXvC0OFS+VLBk=
+
+Name: bin/repast/simphony/integration/DataFileElementReader.class
+SHA-256-Digest: iTv4pvdt+fgFJhpIAp+NLscNRg/fmrYS5Gri+AJNtX8=
+
+Name: lib/commons-jxpath-1.3.jar
+SHA-256-Digest: /LwK2RfZ1qc8bfIfrDIuANIT7xnNlIFaAHxAeoo/9Ek=
+
+Name: bin/repast/simphony/integration/EscapeConverter$4.class
+SHA-256-Digest: x7Cl5ejQGWrl1bJaYJ/WIpWH545hN6awoVfva1QYswQ=
+
+Name: bin/repast/simphony/integration/NewLinePatternConverter$4.class
+SHA-256-Digest: 3HobaJSyP8yjR8ScA9Rqxg0JHhMDrPiBwaMDSwWIel4=
+
+Name: bin/repast/simphony/integration/ObjectHolderTest.class
+SHA-256-Digest: ESyS0gQZaG+7itpR5/UVti7g67oEphp52OfHstjlRIQ=
+
+Name: licenses/repast-license.txt
+SHA-256-Digest: sgcGxHlhIfJK9mnMFOtvz0jBQxnJYR0r5EDSz4qPlYU=
+
+Name: bin/repast/simphony/integration/DataTypeHandler$1.class
+SHA-256-Digest: FiuM63y9Vy7zLEbqkT7CFt/CvKZG73vjbu/13YymAx8=
+
+Name: bin/repast/simphony/integration/EscapeConverter.class
+SHA-256-Digest: j0xD4HPrs6HuVxSzL/h1hBiRf/pY05CPmgdm3K12LQ4=
+
+Name: bin/repast/simphony/integration/NewLinePatternConverter$2.class
+SHA-256-Digest: FHaVsUYyANRc4EjL3YORsAd/rRchdfdYPHA3fQQ5BDM=
+
+Name: bin/repast/simphony/integration/FormatterTester.class
+SHA-256-Digest: iQbnIqK9xTOCNMGQVKf1lfUN5a2e7VidwD18cdHJutE=
+
+Name: bin/repast/simphony/integration/ScannerTest.class
+SHA-256-Digest: vi9dcCBOsGfDV/CXon+JVY8wMKiXQkmMrvPBnXoaOcs=
+
+Name: bin/repast/simphony/integration/FileDefTest.class
+SHA-256-Digest: D0G+QT2MiYbMS+Ne+UGCk8bUzGG/bCoEPGx/+48QEoY=
+
+Name: bin/repast/simphony/integration/CustomExecute$1.class
+SHA-256-Digest: oYjwPeJDFMWiCXiljfhb5ACGCvgSXBTiOFhtb2AsmEg=
+
+Name: bin/repast/simphony/integration/Writer.class
+SHA-256-Digest: HpkqAasx0pBjjD+F2HT0HmSJj4mFphusgrBQb6Z5MW8=
+
+Name: bin/repast/simphony/integration/JDOMTreeModel.class
+SHA-256-Digest: hb2U2u6EIKqTls6pfQ8zX+SkztgBPA7AY67Hcq3fn5U=
+
+Name: bin/repast/simphony/integration/DataFileElementWriter$4.class
+SHA-256-Digest: zeWKkP/byUb7OMKcafE/hzTHfvgfdlUvOq/NmWMD/g8=
+
+Name: bin/repast/simphony/integration/DataFileElementWriter.class
+SHA-256-Digest: KSF845ypRhO13xFrVBfqZIB1ACiU4x90EwNGxAzWbRU=
+
+Name: bin/repast/simphony/integration/ObjectHolder.class
+SHA-256-Digest: +1MpyoyjW8zKNZJIKlPec4WQeRhNpapZLzF3iArfJ/8=
+
+Name: bin/repast/simphony/integration/OutputBuilder.class
+SHA-256-Digest: qwOwM36dE3h3PT9tNLHA0c3Lg4gkwM385qqYrT8EIIM=
+
+Name: bin/repast/simphony/integration/DataFileElements$DATA_ATTRS.class
+SHA-256-Digest: PggupRbqdTvfheDItmccUKmcncssCA3CT/G8DNy94u0=
+
+Name: bin/repast/simphony/integration/DataFileElementReader$1.class
+SHA-256-Digest: ZDWdwEdxKqHq5+qtcCRYmKb3snaL8+eN/YrXBytqAzU=
+
+Name: bin/repast/simphony/integration/DataFileElements$TABLE_ATTRS.class
+SHA-256-Digest: cliKY6xpKVhrN2cJeX4F/QVXq1Sy7ydrlyCTinldtN8=
+
+Name: bin/repast/simphony/integration/NewLinePatternConverter.class
+SHA-256-Digest: fLjcvKD4ZpkHWPogHtEBy3dVSs7D3GtL4f9TWuswGbc=
+
+Name: licenses/jaxen-license.txt
+SHA-256-Digest: D35LF673wyqfE5lqq3lmwjdx/K+RAvFiUn44lRjhM7w=
+
+Name: plugin_jpf.xml
+SHA-256-Digest: Z8+LxfUWaqDy34ywjSCkgklsl0IiFHHtoDZmDuGlwZQ=
+
+Name: bin/repast/simphony/integration/BeanXPathTest$SubChild.class
+SHA-256-Digest: Jysu0tkkjW7sYX+lXqH8h99tUfhKPPQ6s3ciBkTkoLo=
+
+Name: bin/repast/simphony/integration/ArrayDataTypeHandler$3.class
+SHA-256-Digest: VwuEoggp2u/7PXdyctqqCpex8a4C+OXN1+ZonlijT8M=
+
+Name: bin/repast/simphony/integration/EscapeConverter$3.class
+SHA-256-Digest: oEufkb/qKQQ887sH/JLsYBP7QPVPwCEc58Fh7S/1J1s=
+
+Name: bin/repast/simphony/integration/Queryable.class
+SHA-256-Digest: u6z/x1SReg3kOUn0cEIyM4bPCvPDDqeXw9jGLwbBQ9w=
+
+Name: bin/repast/simphony/integration/RandomAccessWriterTest.class
+SHA-256-Digest: YpcWhaMPyL48OXCsGlbMx10Y1tfVyK1Ydwh+uv1PoaY=
+
+Name: bin/repast/simphony/integration/DataFileElementWriter$3.class
+SHA-256-Digest: hfcY/fbs/4N4itu2ZaLEKjrlnUBJbz6aRFgKTz8hFVs=
+
+Name: bin/repast/simphony/integration/ObjectHolder$StorageType.class
+SHA-256-Digest: HjkfyM8m7Mpul6R+nfAVXk35YmgV27owdOcwKyLmW2Q=
+
+Name: bin/repast/simphony/integration/ExternalModelRunner.class
+SHA-256-Digest: yoHLnrJSfz5OskxRbLISgu8l5G9feuv8k00q1wvHGcA=
+
+Name: bin/repast/simphony/integration/NewLinePatternConverter$1.class
+SHA-256-Digest: fqwkIYyWLn064qfDn6jAI7dVTrEtEmRDzUOHXn/5MHw=
+
+Name: bin/repast/simphony/integration/JXPathUtilsTest.class
+SHA-256-Digest: 9BL2nauIgXZNV1q6Ti32Ve++Ih2qciFCMrrpPkf81bo=
+
+Name: bin/repast/simphony/integration/RegexTester.class
+SHA-256-Digest: kcqc1sHasIeaGqBtj26wYfUUbjMD5EOz+E8k74zr1c0=
+
+Name: bin/testFiles/asciiDemoData.txt
+SHA-256-Digest: fVLVjm3/z109oAen02n/CAgrKLYLQ2YwpQ25xjBWp50=
+
+Name: bin/testFiles/testData.txt-def.xml
+SHA-256-Digest: kBDmo17/RoTJHdwxEnDmKnNM00K6Ku8oZ49LB6kCQo0=
+
+Name: bin/repast/simphony/integration/DataFileElements.class
+SHA-256-Digest: O4SDfxjbm5BGtqMB3Hi/IzMI+NigkBiLbkeel+uII28=
+
+Name: bin/repast/simphony/integration/DataFileReader.class
+SHA-256-Digest: 2HPOCQR3ahn05uLdw4anwuRntKTcBvGp5H2hnH1jq10=
+
+Name: lib/jdom-1.1.3.jar
+SHA-256-Digest: Ar1hpyXor5sBdrQ78pgW0MdIuKuVE4W9EnvjdIkyWgo=
+
+Name: bin/repast/simphony/integration/JDOMXPathUtilsTest.class
+SHA-256-Digest: FRHBJjyzQOieBUw9SrPmZq70lEsZtYF7LP2FxGX8eHs=
+
+Name: bin/repast/simphony/integration/FileDef.class
+SHA-256-Digest: itfLbIpPheKzIZ8ME3vVHPfz555h2m9zfkUFvfpwLVI=
+
+Name: bin/repast/simphony/integration/JDOMBuilderTest.class
+SHA-256-Digest: hGJC9c+TIEWoMIYaAw3TYvDC2e5JP04TS8BrJa+ZEpI=
+
+Name: bin/testFiles/dataOut-def.xml
+SHA-256-Digest: zBA7oDtYnaIQ15OJIHLhZ/dxjSS6YvLMsRW+IOcb/WQ=
+
+Name: bin/repast/simphony/integration/DataFileElementWriter$2.class
+SHA-256-Digest: DlZ4Inwvx5DGMhowM3DdNtzhu4JpijJVAIFW42gKOoQ=
+
+Name: bin/repast/simphony/integration/datadescriptor.xsd
+SHA-256-Digest: /mRN2B5ooIno3q4WtU47uV8Mgn4pyGsHfpU8im6B/wM=
+
+Name: bin/repast/simphony/integration/JXPathUtils.class
+SHA-256-Digest: +2+xjAUU2F7gyq34ZIBV+Rgtcq5CS6ih4w0nq3LvpG8=
+
+Name: bin/repast/simphony/integration/BeanXPathTest.class
+SHA-256-Digest: plKynqHoQIIvrUE4XGCLT1CxjJiDb4mYlu1luhtkxwE=
+
+Name: bin/repast/simphony/integration/Reader.class
+SHA-256-Digest: hRayYVrIPJk9zgsbOadVbj2Epf/mTpN0h8MA6473nIA=
+
+Name: bin/repast/simphony/integration/DataFileElementReader$6.class
+SHA-256-Digest: 8FFap8wmVAdIPahKVraRdmLVssiRrGbcpl3te6pOE8k=
+
+Name: bin/repast/simphony/integration/DataFileElements$RECORD_ATTRS.clas
+ s
+SHA-256-Digest: SycwyOXNCc9vFpIPjoWRstvPouLKyrW8fFrix4l2qT8=
+
+Name: bin/repast/simphony/integration/DataTypeHandler$3.class
+SHA-256-Digest: FJ9T/rvfwCGviJQqB4ZQad/lkf2L3MXXwo5ZwaxI6cQ=
+
+Name: bin/repast/simphony/integration/XPathTester.class
+SHA-256-Digest: V4jssPyB0qeWQLiUO+UfKNU5lcRlvjuGP+zOdljLaYI=
+
+Name: icons/txt.png
+SHA-256-Digest: D76SsUD/2Dutpt4atpDqxyyO7Zvi2asgXNvQx6d17e0=
+
+Name: bin/repast/simphony/integration/BeanQueryerTest$QueriedClass.class
+SHA-256-Digest: 9CeFtUhkWiQKTxKq9dVRE37pHZzTua3BQxDo0biku14=
+
+Name: bin/repast/simphony/integration/DataFileReaderTester.class
+SHA-256-Digest: /nzYhU32LJ1oNVc3VK8x0ef8dVzTU082qNy3pMEd85I=
+
+Name: bin/repast/simphony/integration/JDOMXPathUtils.class
+SHA-256-Digest: NbJFP5p/qn/1KAkuVZr9xarXDDm0Zz2G9DKCRkEGtaQ=
+
+Name: bin/repast/simphony/integration/DataFileElementReader$2.class
+SHA-256-Digest: 0Xrf812F+1Y6dvnKtVQb3zM8TyawJ/cr8DyPQd+j7X8=
+
+Name: bin/repast/simphony/integration/MessageCenterHandlerTest.class
+SHA-256-Digest: kX3zPz0wVQw69rNBG+TaRflORyULu62iRlwgw8dq51U=
+
+Name: bin/repast/simphony/integration/JDOMQueryer.class
+SHA-256-Digest: l+WNCsTcdPEznvi4kQuveL8pjHuhYLnF0mJug3iKARc=
+
+Name: bin/repast/simphony/integration/DataTypeHandler$2.class
+SHA-256-Digest: g2FBlnD9xxOiEjvMvo4xx3P8QB+vuiJ0ER4hRyMfCVg=
+
+Name: bin/testFiles/testData.txt
+SHA-256-Digest: 70V/6AHFN3dlX1A3wttmPnjs+TfSNc4/CJMcIlvpars=
+
+Name: bin/repast/simphony/integration/DataFileElementReader$5.class
+SHA-256-Digest: MsxWA2WEKD6MeJEvCq65qMJhRsBh0Hc9sd1/LaQOS1o=
+
+Name: bin/repast/simphony/integration/JXPathUtilsTest$Top.class
+SHA-256-Digest: lxLsatkQ8PwDPCNxE1qeTY0tephsqJbjf58aM37pnyU=
+
+Name: bin/repast/simphony/integration/DataFileElements$BRANCH_ATTRS.clas
+ s
+SHA-256-Digest: i1+s43YRZLlHPKsIM7dd8G16OjvC/Ck1ATkOTbLWCwQ=
+
+Name: bin/repast/simphony/integration/DataFileElementsTest.class
+SHA-256-Digest: U8QcXOiIRgQFgx18NrfX4yNLrYW5tsh8+uLY41rPLXA=
+
+Name: bin/repast/simphony/integration/DefaultDataFile.class
+SHA-256-Digest: ymrhFh6I1FWCSPZ3A0CMZesJRysKtbtY62PVRo1kiMI=
+
+Name: bin/repast/simphony/integration/DemoData.class
+SHA-256-Digest: JzeSX4+CIxuvFK+/rBlpXIBZVWBAcok/OSJ0iCW8ais=
+
+Name: bin/repast/simphony/integration/DataFileElementWriter$5.class
+SHA-256-Digest: 2ycQazbDiMEZvHHjSQa4ladpUD+9WE3pPsKSpX8cH+4=
+
+Name: bin/repast/simphony/integration/ArrayDataTypeHandler$ArrayHandler.
+ class
+SHA-256-Digest: D9ElZ7X40+te7eMb6Ut99OZoJnZIznSfmWleQLDvsIo=
+
+Name: bin/repast/simphony/integration/JDOMBuilder.class
+SHA-256-Digest: 0+SxjOFPzc9CqFurKwgfQM/I5DvxDxYw3WLIli3Vilg=
+
+Name: bin/testFiles/asciiDemoData.txt-def.xml
+SHA-256-Digest: qn71PdLgONCYE7CJQKHVVVN0UNS7Vb0NgP5+Ncllies=
+
+Name: bin/repast/simphony/integration/EscapeConverter$2.class
+SHA-256-Digest: /TOZ1f1HfrqRVxVEqfQEPXt0WWL31I9HHIEtYF8q39w=
+
+Name: bin/repast/simphony/integration/DataFileUtils.class
+SHA-256-Digest: ZCDJ/qdxDEXoE/8OVW6bplbYZ9O7QilTdHUhRiDpogs=
+
+Name: bin/repast/simphony/integration/DataFile.class
+SHA-256-Digest: KGgnmNGSRbPFlsfgqahgHEg/ksevIGj8CqRWR9amvYQ=
+
+Name: lib/commons-exec-1.1.jar
+SHA-256-Digest: 6WlALBQ/Unln/f7CnOdWp14p6g8xBL+ZqzQG2sA6Z2c=
+
+Name: bin/repast/simphony/integration/DataFileElements$ARRAY_ATTRS.class
+SHA-256-Digest: qw0KzRPab6usebUWVQk1r946fm/M51qbu2R7FyCyngo=
+
+Name: bin/repast/simphony/integration/MessageCenterHandler.class
+SHA-256-Digest: qwCZuX9KTxJmZR8xakfWNmAFszB3unA3lZe89jGMSbk=
+
+Name: bin/repast/simphony/integration/ExternalProgramRunner.class
+SHA-256-Digest: PA0JctJDUyPZ7nDIN2rmmFreICavT2SYm7CI+GTLtSQ=
+
+Name: bin/repast/simphony/integration/DefaultExtProgRunner.class
+SHA-256-Digest: xKTzMVkD2/F5c1LomrKK5sKWl42cZ1YXyCmzvURx6hs=
+
+Name: bin/repast/simphony/integration/DataContentTest.class
+SHA-256-Digest: j4FQfkbzNTNn05y+MO8EkP9r25bP6JYeEqs/zulE4oE=
+
+Name: bin/repast/simphony/integration/DataFileElementReader$4.class
+SHA-256-Digest: LFId8W6MT3f+6KgcZVq3a9BzQcOFRH/+Q5QppWWuTEw=
+
+Name: bin/repast/simphony/integration/DOMTraverserTest.class
+SHA-256-Digest: ix9c0Me5NXABKkHFS0Nv8V5c1SxZ8jL6AjHfWGsAjKE=
+
+Name: bin/repast/simphony/integration/DataTypeHandler.class
+SHA-256-Digest: cF4YmQ4VSI44XSioy4BhnEIRSOEEDiQAqGQO/78k4AI=
+
+Name: bin/repast/simphony/integration/CustomExecute.class
+SHA-256-Digest: vK8cD8PDq5msiX0B0ixG8SCtKjEQnqvnORMb916Acho=
+
+Name: bin/repast/simphony/integration/DemoData$SpectralData.class
+SHA-256-Digest: +GPjL+WUKRiMigRTVMsnubW/fblcKeLUAGcezqE0czo=
+
+Name: bin/repast/simphony/integration/DefaultLegacyExecutor.class
+SHA-256-Digest: t/J+ioI+1eHVB5FcYpnNyE9JD+kFFz7nOASiVzXbIpg=
+
+Name: bin/repast/simphony/integration/ArrayDataTypeHandler$2.class
+SHA-256-Digest: OlfKEypque2dHiBgvh3CzxRzRoUmmHz3e7UrvOowEjU=
+
+Name: models/datadescriptor.xsd
+SHA-256-Digest: 1BS4qo2Ud/H0D6Ohw5ipzg+xM1QvShCeWGP8xzRQHlM=
+
+Name: bin/repast/simphony/integration/BeanQueryer.class
+SHA-256-Digest: Aqst/XszxYvcpE9YjVJ+KSLfcLi00VJmIPqcWejh4cE=
+
+Name: lib/jaxen-1.1.6.jar
+SHA-256-Digest: WsnHS7s5ZLNKiGumsbbAsNw+vuvB3EpElCp2Y0SQs+s=
+
+Name: bin/repast/simphony/integration/IntegrationSource.class
+SHA-256-Digest: WAoL1TuuXSeo5FxNTQd+ouD9AtK4W1NafN5uL7rV6c0=
+
+Name: bin/repast/simphony/integration/DataContent.class
+SHA-256-Digest: uRMQM+K5C9WcxwpOqEhVbL0D5Qgi/Upf2TV4gKxcKEw=
+
+Name: bin/repast/simphony/integration/BeanBuilder.class
+SHA-256-Digest: G0c6yQ7b3XuIzqhzpTRUoFSauNZk9Fltxtw8OtCtxZI=
+
+Name: bin/repast/simphony/integration/ArrayDataTypeHandler$DoubleHandler
+ .class
+SHA-256-Digest: bk5QSvUwNF5CQikbth6qG96+oqME+xcfQFg3tWs/nVI=
+
+Name: bin/repast/simphony/integration/BeanXPathTest$Child.class
+SHA-256-Digest: vooh/weLOB+zDrKn6I1cUWPSzZJw0mRPmEUaTwC1hEM=
+
+Name: bin/repast/simphony/integration/JDOMTreeModel$1.class
+SHA-256-Digest: OtMllhotXN+/xOA8DcGkM7gci0t/HP9GoHwbPh1mdyU=
+
+Name: bin/repast/simphony/integration/DataFileWriter.class
+SHA-256-Digest: UnOjIbBVB8QnbjM4chWauW2UA6t+MvH7p3Dw7F8m5s0=
+
+Name: licenses/apache-license.txt
+SHA-256-Digest: dAm1TFDjB1xYNBJjenw7CGQIGQhQFesO2KkbNZBKuOU=
+
+Name: bin/repast/simphony/integration/DataFileElementReader$3.class
+SHA-256-Digest: fngqi6i2lTqHYN+4zUAbeAB9n7y1R/QwwUT8HIdUai4=
+
+Name: bin/repast/simphony/integration/ArrayDataTypeHandler$1.class
+SHA-256-Digest: nkhwIlFP0LLPb/LKvf2VbDzox69eAY9WFrSPxe3qsFY=
+
+Name: bin/repast/simphony/integration/BeanXPathTest$Root.class
+SHA-256-Digest: DhH5xSveVkB6KAk2oGYV3H380j7+W7Vpd7QtGNYOERU=
+
+Name: bin/repast/simphony/integration/RandomAccessWriter.class
+SHA-256-Digest: eBhEHTHhuiRh+d1CTckPv/LCun1zO3snSd+f7ADY6ac=
+
+Name: bin/repast/simphony/integration/ReadWriteTester.class
+SHA-256-Digest: 78xcIKxhGGViMlIWJO9KiQJfmmpwaOU5UrTuxkzY+GQ=
+
+Name: bin/testFiles/dataOut.txt
+SHA-256-Digest: J+RLa0OFviT1rpR6XzhnJ4uDHtW1+rmYSEOCx0EWJVc=
+
+Name: licenses/saxpath-license.txt
+SHA-256-Digest: 47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+
+Name: bin/repast/simphony/integration/DataFileElementWriter$6.class
+SHA-256-Digest: nDyxH2q2BHcv4bD0IMt+vM5JI/Kkil2qAHMX1TsHWJQ=
+
+Name: bin/repast/simphony/integration/ScannerTester.class
+SHA-256-Digest: ueIKZzCUzVlu472lubzThizt7MY7esirYhfXrI5f6uw=
+
+Name: bin/repast/simphony/integration/ArrayDataTypeHandler$StringHandler
+ .class
+SHA-256-Digest: rrLToTpVp+9x8fRq2lHaof5QLhasmm3jsuePqTPTRAc=
+
+Name: bin/repast/simphony/integration/NewLinePatternConverter$3.class
+SHA-256-Digest: yRPZvh/i1JDecya7ZzC1qw3F2Sn64k1bRElGKLZql4A=
+
+Name: text/description.txt
+SHA-256-Digest: zvM4/yCKv7KV/kuZVSSktOn8NzyLqTrPGJwq2EmXpt4=
+

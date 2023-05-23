@@ -1,0 +1,54 @@
+Signature-Version: 1.0
+Created-By: 11.0.12 (Eclipse Foundation)
+SHA-256-Digest-Manifest: qtvKoD9XvgkWXr66OTOm6zl5G6saVZgUkoZtiTODJCw=
+SHA-256-Digest-Manifest-Main-Attributes: KEkBfZUHvzw+x4vCmKtndNTBG5IyvM4
+ G/omB3K0kLZg=
+
+Name: bin/repast/simphony/essentials/TrigOutDef.xml
+SHA-256-Digest: YCe9+2COLtBwlTbKZ3V1TmqONw4dE87T/Lc8WCW7Kek=
+
+Name: bin/repast/simphony/essentials/SimpleDef.xml
+SHA-256-Digest: VOn9XzTbUY35hne5VF+Av8AtFLXDtZFFfhgYuQMs6IY=
+
+Name: licenses/repast-license.txt
+SHA-256-Digest: OiLqoygTE6vasbSFEGEJChgkBjTMACDWztuXCGv4an4=
+
+Name: bin/repast/simphony/essentials/SimpleDataObject.class
+SHA-256-Digest: xv7lhq5fEUSfKlge5vT0Nan4RKFtv8GbFwvbGcwQHp4=
+
+Name: bin/repast/simphony/essentials/TrigInDef.xml
+SHA-256-Digest: pnAo+oLvEYneUM9XtHf0K+dHjk19YnMZikrRYWS8dco=
+
+Name: bin/repast/simphony/essentials/simple_data_read.txt
+SHA-256-Digest: SLTJ3Zj/gHaWvgx40KllVPzyd8bJXGoXiieFwnTlpfs=
+
+Name: bin/repast/simphony/essentials/RETest$TestObject.class
+SHA-256-Digest: N3BwiHxPImtPNVJEkxn/bLf/8x6sJVuWLYQgXhyMb2s=
+
+Name: bin/repast/simphony/essentials/DevNull.class
+SHA-256-Digest: gfljnSuHO+OYqVwtgEGAnGZOtBcoqGwj+eXeFXcWnho=
+
+Name: bin/repast/simphony/essentials/RepastEssentials.class
+SHA-256-Digest: nGktDf+DdOq3oWklU7m+igmRk2KV1IbKB8grhhPpUpw=
+
+Name: docs/RepastEssentials.doc
+SHA-256-Digest: jnig9JbneVxkAUbn9CvyHswYjAePKNay9vTKkt6/yK0=
+
+Name: bin/repast/simphony/essentials/simple_data_write.txt
+SHA-256-Digest: QbXk18UXgVFRiZC6eUF/yjAs7klrNMciW/NYAhicGqQ=
+
+Name: bin/repast/simphony/essentials/TrigInDef.xml.temp
+SHA-256-Digest: JJq45Kzd+97G2QkhxcCVL+kFz1BXt0Alymwr0+ZUP40=
+
+Name: bin/repast/simphony/essentials/RETest.class
+SHA-256-Digest: ESkqizIAd9m7yX/JuEU69/Gq1ZXt7VZGdTvJYJYAbXs=
+
+Name: bin/repast/simphony/essentials/RETest$1.class
+SHA-256-Digest: BWtqYKZHp3P4w4Fm1oZ5ACsJlkSlFGRl2TXob1YIMyI=
+
+Name: plugin_jpf.xml
+SHA-256-Digest: HVhWhkDERJmJzqsSVXodjmiTpqP6VJTvogo5DQMUjo0=
+
+Name: bin/repast/simphony/essentials/RETest$DataObject.class
+SHA-256-Digest: g60ZiwpeYkZjHzpEdIfx46vqsFcBt5WrVtzQVRLX3v4=
+
