@@ -19,7 +19,6 @@ repositories {
     mavenCentral()
 }
 
-
 dependencies {
     // Use JUnit test framework.
     testImplementation 'junit:junit:4.13.2'
@@ -36,11 +35,14 @@ dependencies {
     implementation 'com.opencsv:opencsv:3.7'
     // Repast
     implementation "com.googlecode.json-simple:json-simple:1.1.1"
-    implementation fileTree(dir: '/home/rzuo02/work/repast/libs', includes: ['*.jar'])
-    implementation fileTree(dir: '/home/rzuo02/plugins/plugins', includes: ['*.jar'])
-    runtimeOnly files('libs/repast.simphony.relogo.runtime.jar')
-    runtimeOnly files('libs/repast.simphony.runtime.jar')
-    runtimeOnly files('libs/saf.core.runtime.jar')
+
+    implementation fileTree(dir: '/home/rzuo02/thales/Repast/libs', includes: ['*.jar'])
+    testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: '5.9.3'
+    //implementation fileTree(dir: '/home/rzuo02/work/repast/libs', includes: ['*.jar'])
+    //implementation fileTree(dir: '/home/rzuo02/plugins/plugins', includes: ['*.jar'])
+    //runtimeOnly files('libs/repast.simphony.relogo.runtime.jar')
+    //runtimeOnly files('libs/repast.simphony.runtime.jar')
+    //runtimeOnly files('libs/saf.core.runtime.jar')
 
     implementation 'org.locationtech.spatial4j:spatial4j:0.8'
     implementation group: 'com.typesafe', name: 'config', version: '1.4.2'
